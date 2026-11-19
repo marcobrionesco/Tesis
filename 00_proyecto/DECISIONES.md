@@ -6,6 +6,14 @@
 
 ---
 
+## 2026-11-19 — Objetivos y alcance = inscripción
+
+- **Decisión:** los objetivos de la tesis son los **textuales de la inscripción** visada por el profesor guía; la tesis es **solo de diseño** (etapa inicial del proyecto ANID). El dimensionamiento de proceso del humedal se presenta como dato de entrada del proyecto.
+- **Motivo:** instrucción del profesor guía ("limitarse exclusivamente a esos objetivos"); la implementación es otra tesis.
+- **Consecuencias:** se retiró la sugerencia de dividir los objetivos. Los hallazgos C4, C10 y C11 del triaje se reinterpretan (ver triaje §7). Faltan entregables inscritos: datos de caracterización, tiempos de retención, pérdidas/ADT/bombas, zanjas, especificaciones.
+
+---
+
 ## 2026-11-19 — Migración de la v3.0: criterio de edición
 
 - **Decisión:** al migrar la v3.0 se conserva el texto del autor y solo se corrigen errores objetivos (ortografía, persona gramatical, signo de la ecuación de demanda, unidades, decimales, citas verificables). Todo lo que requiere criterio técnico o datos del autor queda marcado con `\revisar{}` o `\pendiente{}`, sin inventar valores.

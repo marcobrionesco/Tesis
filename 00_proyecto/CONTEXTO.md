@@ -11,7 +11,7 @@
 - **Universidad:** Universidad Católica del Maule (UCM), Talca, Chile
 - **Facultad / Escuela:** Facultad de Ciencias de la Ingeniería / Escuela de Ingeniería Civil
 - **Curso:** ICV-611 Módulo Integrador Profesional (Proyecto de Título)
-- **Tipo de proyecto:** trabajo aplicado de ingeniería (diseño), enmarcado en un proyecto de investigación del profesor guía. [Confirmar si se inscribió como tipo 2 o 3, LIN §1]
+- **Tipo de proyecto (inscrito):** **Problema de ingeniería** (tipo 2). Tesis **solo de diseño**, etapa inicial del proyecto ANID; la implementación es la tesis de otro estudiante. Alcance oficial: `01_normativa/proyecto/ALCANCE.md`.
 - **Profesor guía:** Dr. Ismael Leonardo Vera Puerto (UCM) · **Co-guía:** Luis Rojas Cáceres
 - **Comisión:** guía + [2 integrantes por definir]
 - **Título:** *Propuesta de diseño para una estación experimental basada en humedales construidos para el tratamiento y reutilización en riego de tres fuentes de aguas residuales, en Frutícola SABA SpA, comuna de Linares*
@@ -31,18 +31,17 @@ distintos y entregue agua apta para riego.
 
 [Por formular — ver `\pendiente` en `tesis/capitulos/01_introduccion.tex` §1.3.]
 
-## Objetivos
+## Objetivos (textuales de la inscripción; el guía pidió limitarse a ellos)
 
-- **General:** Diseñar la infraestructura hidráulica y estructural de una estación experimental basada en Humedales Construidos de Flujo Subsuperficial Vertical (HCFV), orientada al tratamiento y posterior reutilización agrícola de tres afluentes residuales independientes en Frutícola SABA SpA, comuna de Linares.
+- **General:** Diseñar un sistema experimental hidráulico y estructural de humedales construidos de tipo vertical (HCFV) destinado al tratamiento de distintas fuentes de aguas residuales para su futura reutilización en riego agrícola, en la frutícola SABA, Linares.
 - **Específicos:**
-  1. Dimensionar el sistema de depuración y las redes de conducción a presión y gravedad (balance de oxígeno de los humedales, equipos de impulsión, especificaciones para las distintas fuentes).
-  2. Desarrollar la modelación y el cálculo estructural de la plataforma de acero y sus fundaciones bajo solicitaciones estáticas y sísmicas, integrando la planimetría y los detalles constructivos.
-  (Se sugirió evaluar separarlos en más objetivos — ver `ESTADO.md`.)
+  1. Desarrollar el diseño y cálculo hidráulico del sistema, las especificaciones técnicas de las tuberías y la distribución de caudales para las tres fuentes de agua que alimentarán el humedal.
+  2. Desarrollar el diseño y cálculo estructural de la plataforma de acero que soporte los estanques, junto con sus planos de planta, cortes transversales/longitudinales, perfiles hidráulicos y detalles constructivos de la conexión con el sistema.
 
 ## Alcance
 
 - **Incluye:** caracterización de caudales y cargas; dimensionamiento de HCFV en módulos IBC (6 m² activos por línea); redes por gravedad e impulsión (PVC 50 y 25 mm), bombas y bypass para microrriego (160 L/h); plataforma de acero A270ES para 3 estanques de 1000 L y 3 dosificadores de 200 L; zapatas 1,0 × 1,0 × 0,5 m; planos EE-ATE250033 (láminas 1, 2.1–2.4, 3.1–3.2); itemizado.
-- **No incluye:** operación y monitoreo de la planta, fisiología del cerezo, inocuidad, ACV (son del proyecto marco).
+- **No incluye:** construcción e implementación (otra tesis), operación y monitoreo, fisiología del cerezo, inocuidad, ACV (proyecto marco). El **diseño de proceso del humedal** (6 m², cargas por fase) es un **dato de entrada del proyecto ANID**.
 
 ## Metodología (resumen)
 

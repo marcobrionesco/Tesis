@@ -20,6 +20,16 @@
   - La memoria de cálculo de ejemplo es el modelo para completar los resultados estructurales (OE2).
 - ⬜ Faltan las **observaciones escritas del profesor guía** (pedírselas o transcribirlas a `03_seleccion/notas/`).
 
+## ⚠️ Documentos oficiales recibidos (2026-11-19)
+
+Inscripción visada, propuesta ANID, correo del guía y documentos de diseño del proyecto → `01_normativa/proyecto/`.
+**El alcance oficial está en `01_normativa/proyecto/ALCANCE.md`.** Consecuencias:
+- Objetivos reemplazados por los inscritos (instrucción del guía).
+- Tesis **solo de diseño**; el diseño de proceso del humedal (balance de O₂, 6 m², 30 g DQO/m²·d = Fase 1) es **insumo del proyecto**, no un error del autor.
+- Caudal de oficinas (150 L/d): **resuelto** por correo del guía.
+- Norma de reúso: la propuesta ANID cita **NCh3456 (INN, 2022)**; pedir título exacto.
+- Preguntas para la próxima reunión: `00_proyecto/OBSERVACIONES_PROFESOR.md`.
+
 ## Estado por capítulo
 
 Leyenda: ⬜ no iniciado · 🟨 material bruto · 🟧 borrador en LaTeX · 🟦 en revisión · ✅ terminado
@@ -42,8 +52,8 @@ Leyenda: ⬜ no iniciado · 🟨 material bruto · 🟧 borrador en LaTeX · �
 ## Próximos pasos (en orden de impacto)
 
 1. [ ] **Pedir/transcribir las observaciones del profesor guía** y cruzarlas con el triaje.
-2. [ ] **Resolver inconsistencias** (decisiones del autor): perfiles estructurales (C2), zona sísmica (C3), NTK y carga amoniacal (C4, C5), columnas de la tabla de riego, y **carga orgánica 30 g DQO/m²·d sobre el máximo de la literatura** (posible redimensionamiento a ~9 m²; ver ficha de Guerrero).
-3. [ ] **Completar Resultados** (C1, C6): ADT y bombas, verificación LRFD, corte basal, presiones de contacto, líneas estero/agroquímicos. Modelos: anexo de impulsión de Guerrero (2024) y memoria de cálculo de `05_ejemplos/memorias_calculo/`.
+2. [ ] **Resolver inconsistencias**: perfiles estructurales (C2), zona sísmica (C3), columnas de la tabla de riego; preguntar al guía el NTK medido (C4, C5) y cómo presentar el diseño de proceso del humedal (insumo del proyecto).
+3. [ ] **Completar Resultados con los entregables inscritos** (`ALCANCE.md`): datos de caracterización de las 3 fuentes, tiempos de retención, zanjas, especificaciones; y (C1, C6): ADT y bombas, verificación LRFD, corte basal, presiones de contacto, líneas estero/agroquímicos. Modelos: anexo de impulsión de Guerrero (2024) y memoria de cálculo de `05_ejemplos/memorias_calculo/`.
 4. [ ] **Reforzar Marco Teórico** con literatura reciente (receta 07 + fichas con receta 03).
 5. [ ] **Completar Introducción** (preguntas, contribuciones, alcances) y **Conclusiones** (limitaciones, trabajo futuro).
 6. [ ] Verificar las 4 referencias marcadas "VERIFICAR" en `referencias.bib`.
@@ -59,4 +69,3 @@ Leyenda: ⬜ no iniciado · 🟨 material bruto · 🟧 borrador en LaTeX · �
 - **Norma de reúso**: ¿existe otra además de la NCh1333 (la v2.0 citaba "NCh3456")?
 - Origen de la **capacidad admisible de 150 kPa**.
 - Orden de preliminares (Agradecimientos antes del Resumen, según Lineamientos) — sigue pendiente.
-- ¿Separar los 2 objetivos específicos en más objetivos?

@@ -49,7 +49,7 @@ Aplicando un coeficiente de recuperación de \num{0.8}, se determinó un caudal 
 
 Para el sector de oficinas (AS1), que no cuenta con registro histórico independiente, el volumen se estimó mediante aforos de los artefactos sanitarios y la frecuencia de uso en dos escenarios: ocupación regular (escenario~1) y período de vacaciones (escenario~2), como muestra la \cref{tab:consumo-oficina}.
 Posterior a la evaluación de ambos escenarios, se adoptó un caudal de diseño de \qty{150}{\liter\per\day} (\qty{0.15}{\cubic\meter\per\day}).
-\revisar{Justificar por qué se adopta \qty{150}{\liter\per\day} y no el escenario más desfavorable (\qty{165}{\liter\per\day}).}
+El valor de \qty{150}{\liter\per\day}, comprendido entre ambos escenarios, fue fijado como caudal de diseño por el director del proyecto (I.~L. Vera Puerto, comunicación personal, 23 de octubre de 2026).
 
 \begin{table}[htbp]
   \centering
@@ -91,10 +91,9 @@ La \cref{tab:resumen-afluentes} consolida los caudales y concentraciones de dise
   \end{tabular}
 \end{table}
 
-\revisar{Los valores de NTK (\qtyrange{1.0}{1.5}{\milli\gram\per\liter}) están muy por debajo de lo típico en aguas servidas de Chile: \textcite{vera2016humedales} reporta nitrógeno total de \qtyrange{20}{120}{\milli\gram\per\liter} y amonio de \qtyrange{12}{100}{\milli\gram\per\liter} (la tesis de Guerrero, 2024, con el mismo guía, diseñó con NTK = \qty{50}{\milli\gram\per\liter}).
-Verificar los datos de monitoreo.
-Como sensibilidad, con NTK = \qty{50}{\milli\gram\per\liter} la demanda sería $OD \approx \qty{268}{\gram\per\day}$ y $OI/OD \approx \num{1.17}$ (no 2,8): ver 05\_ejemplos/fichas/2024\_ucm\_guerrero\_….md.
-Además, la memoria de cálculo original indica $\sim$\qty{3}{\gram\per\square\meter\per\day} de amonio (\qty{18}{\gram\per\day} en \qty{6}{\square\meter}), incoherente con los \qty{1.1}{\gram\per\day} usados aquí.}
+\revisar{Los valores de NTK (\qtyrange{1.0}{1.5}{\milli\gram\per\liter}, carga de \qty{1.1}{\gram\per\day}) provienen del documento de diseño del humedal del proyecto, pero no calzan con la carga amoniacal de $\sim$\qty{3}{\gram\per\square\meter\per\day} (\qty{18}{\gram\per\day} en \qty{6}{\square\meter}) que la propuesta ANID fija para la Fase~1, ni con los valores típicos en Chile (nitrógeno total de \qtyrange{20}{120}{\milli\gram\per\liter}, \textcite{vera2016humedales}).
+Consultar al profesor guía el valor medido en el monitoreo de tres meses (pregunta 2 en 00\_proyecto/OBSERVACIONES\_PROFESOR.md).
+La inscripción compromete el \enquote{procesamiento e interpretación de los datos del agua}: presentar aquí esos datos.}
 
 \subsection{Demanda de agua para riego}
 

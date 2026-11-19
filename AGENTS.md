@@ -18,10 +18,12 @@ material bruto entra por un lado, se clasifica, se trabaja y sale un
 1. `AGENTS.md` (este archivo) — reglas y mapa.
 2. `00_proyecto/CONTEXTO.md` — de qué trata la tesis (tema, pregunta, objetivos).
 3. `00_proyecto/ESTADO.md` — en qué va el trabajo y qué toca hacer ahora.
-4. `01_normativa/REGLAS_FORMATO.md` — reglas de formato de la universidad (mandan sobre todo).
-5. `01_normativa/RUBRICA.md` — cómo evalúa la comisión (pesos y criterios).
-6. `00_proyecto/DECISIONES.md` — decisiones ya tomadas (no reabrirlas sin motivo).
-7. Solo entonces, los archivos específicos de la tarea.
+4. `01_normativa/proyecto/ALCANCE.md` — **objetivos y alcance inscritos** (mandan sobre el contenido: no proponer ampliarlos).
+5. `00_proyecto/OBSERVACIONES_PROFESOR.md` — instrucciones del profesor guía (mandan sobre las sugerencias de la IA).
+6. `01_normativa/REGLAS_FORMATO.md` — reglas de formato de la universidad (mandan sobre el formato).
+7. `01_normativa/RUBRICA.md` — cómo evalúa la comisión (pesos y criterios).
+8. `00_proyecto/DECISIONES.md` — decisiones ya tomadas (no reabrirlas sin motivo).
+9. Solo entonces, los archivos específicos de la tarea.
    (Plazos y proceso de titulación: `01_normativa/PROCESO_TITULACION.md`.)
 
 ## 3. Mapa del repositorio (flujo tipo edición de video)
@@ -29,7 +31,7 @@ material bruto entra por un lado, se clasifica, se trabaja y sale un
 | Carpeta | Equivalente en video | Qué contiene | ¿Se edita? |
 |---|---|---|---|
 | `00_proyecto/` | Preproducción / guion | Contexto, estado, plan, decisiones, glosario, bitácora | Sí |
-| `01_normativa/` | Specs de entrega del canal | Normativa UCM: originales, copia en texto (`texto/`), reglas, rúbrica y proceso | `originales/` y `texto/` **NUNCA**; los `.md` resumen sí |
+| `01_normativa/` | Specs de entrega del canal | Normativa UCM (originales, `texto/`, reglas, rúbrica, proceso) y **`proyecto/`**: inscripción, propuesta ANID, correos y documentos de diseño del proyecto + `ALCANCE.md` | `originales/` y `texto/` **NUNCA**; los `.md` resumen sí |
 | `02_material_bruto/` | Ingesta / rushes | Todo lo generado antes (bueno y malo), papers, datos crudos | **NUNCA se modifica**, solo se agrega |
 | `03_seleccion/` | Logging / selección de tomas | Fichas de lectura, triaje de borradores, notas de investigación | Sí |
 | `04_analisis/` | Efectos / VFX / color | Código (Python), cálculos, notebooks, scripts que generan figuras | Sí |
@@ -56,7 +58,9 @@ material bruto entra por un lado, se clasifica, se trabaja y sale un
    marcarlo con `\pendiente{...}`.
 3. **No modificar** `01_normativa/originales/`, `02_material_bruto/` ni los originales de `05_ejemplos/`. Son la
    "cinta original". Lo que se rescate de ahí se reescribe en `03_seleccion/` o `tesis/`.
-4. **La normativa de la universidad manda** sobre cualquier preferencia de estilo.
+4. **La normativa de la universidad manda** sobre cualquier preferencia de estilo, y **el alcance inscrito y las
+   instrucciones del profesor guía mandan** sobre el contenido. La tesis es **solo de diseño** (etapa inicial del
+   proyecto ANID); no proponer objetivos, capítulos ni cálculos fuera de `01_normativa/proyecto/ALCANCE.md`.
 5. **Al terminar una sesión**, actualizar `00_proyecto/ESTADO.md` y agregar una
    entrada en `00_proyecto/BITACORA.md` (qué se hizo, qué quedó pendiente).
 6. Las decisiones importantes (estructura, norma de citas, enfoque metodológico)

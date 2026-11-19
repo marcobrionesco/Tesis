@@ -117,3 +117,20 @@ incluidos sus errores (Cohen-Shacham "2019", "NCh1333: Agua – vocabulario (200
 **Estimación:** ~70 % del contenido es rescatable; el trabajo pendiente se concentra en
 (1) consolidar y presentar resultados, (2) resolver las inconsistencias numéricas y
 (3) reforzar el marco teórico con literatura reciente.
+
+---
+
+## 7. Revisión tras recibir los documentos oficiales (2026-11-19)
+
+Documentos: inscripción visada, propuesta ANID, correo del guía (23-10-2026), diseño del humedal y presentación a la empresa
+(`01_normativa/proyecto/`). Cambian el diagnóstico así:
+
+| Hallazgo | Antes | Ahora |
+|---|---|---|
+| C4/C5 (NTK 1–1,5 mg/L) | Error del autor | El valor viene del **documento de diseño del proyecto**. La propuesta ANID plantea ≈ 3 g NH₄⁺/m²·d en la Fase 1. **Preguntar al guía** el valor medido; no redimensionar por cuenta propia. |
+| C10/C11 (30 g DQO/m²·d; 125 L/m²·d sobre las guías) | Sobrecarga, redimensionar a ~9 m² | Es la **carga de la Fase 1 experimental**, definida a propósito por el proyecto (Fase 2: 60). **No es un error de diseño**; el error es llamarla "conservadora". El dimensionamiento de proceso está **fuera del alcance** inscrito. |
+| Oficinas 150 L/d sin justificar | `\revisar` | **Resuelto**: decisión del director del proyecto (correo 23-10-2026). |
+| T7 (norma de reúso) | NCh1333 corregida; NCh3456 no encontrada | La propuesta ANID cita **NCh3456 (INN, 2022)** para reúso en riego: es probablemente la norma correcta; pedir el título exacto. |
+| Sugerencia de dividir los objetivos | Recomendada | **Retirada**: el guía pidió limitarse a los objetivos inscritos. |
+| Objetivos de la v3.0 | — | **No coincidían** con los inscritos (agregaban balance de O₂ y fundaciones). Reemplazados por los textuales. |
+| Entregables inscritos faltantes | — | Datos de caracterización de las 3 fuentes, **tiempos de retención**, pérdidas de carga, ADT y selección de bombas, zanjas, especificaciones. |

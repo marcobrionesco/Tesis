@@ -9,6 +9,10 @@
 
 > Nota: las páginas indicadas son las del PDF unido (= número de página impreso + 14 aprox.).
 
+> **Actualización (documentos oficiales):** el área de 6 m² y la carga de 30 g DQO/m²·d son decisiones del
+> proyecto ANID (**Fase 1 experimental**; la Fase 2 usa 60), y el diseño de proceso del humedal está **fuera del
+> alcance** de esta tesis. H2 y H3 sirven para **explicar** esas cargas en la discusión, no para redimensionar.
+
 ## ⚠️ Hallazgos que afectan directamente mi diseño
 
 | # | Hallazgo | Dónde (pág. PDF) | Impacto en mi tesis |

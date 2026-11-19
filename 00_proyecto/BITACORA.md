@@ -5,6 +5,15 @@
 
 ---
 
+## 2026-11-19 — Documentos oficiales y alcance
+
+- **Quién:** Marco + Claude Code
+- **Qué se hizo:** se ingresaron la inscripción visada, la propuesta ANID ATE250033, el correo del guía (23-10-2026), el diseño del humedal y la presentación a la empresa en `01_normativa/proyecto/`. Se creó `ALCANCE.md` (objetivos textuales, qué incluye y qué no, datos de diseño del proyecto) y `00_proyecto/OBSERVACIONES_PROFESOR.md`. Se reemplazaron los objetivos de la tesis por los inscritos y se redactaron Contribuciones y Alcances. Se reinterpretaron hallazgos del triaje (§7): el NTK y la carga de 30 g DQO/m²·d vienen del proyecto (Fase 1), no son errores del autor.
+- **Qué quedó pendiente:** preguntas para el guía (OBSERVACIONES_PROFESOR.md); completar los entregables inscritos.
+- **Archivos tocados:** `01_normativa/proyecto/*`, `00_proyecto/*`, `AGENTS.md`, `tesis/capitulos/01–05`, `tesis/anexos/anexo_calculos_humedal.tex`, triaje, ficha de Guerrero.
+
+---
+
 ## 2026-11-19 — Ejemplos de referencia (05_ejemplos)
 
 - **Quién:** Marco + Claude Code
