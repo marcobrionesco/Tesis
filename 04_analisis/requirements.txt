@@ -5,3 +5,4 @@ pandas>=2.2
 matplotlib>=3.9
 sympy>=1.13
 jupyter>=1.0
+pymupdf>=1.24

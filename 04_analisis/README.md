@@ -20,6 +20,16 @@ pegar números a mano en la tesis.
 make figuras    # corre todos los scripts de 04_analisis/scripts/
 ```
 
+## Scripts de la tesis (se ejecutan en orden con `make figuras`)
+
+| Script | Entrada | Salida |
+|---|---|---|
+| `01_extraer_caracterizacion.py` | PDF de caracterización en `02_material_bruto/datos_crudos/` | `datos/caracterizacion_afluentes.csv` (con QA de promedios) |
+| `02_caracterizacion.py` | CSV anterior | `tesis/tablas/caracterizacion_afluentes.tex`, `tesis/figuras/caracterizacion_afluentes.pdf`, `resultados/*.csv` |
+| `03_itemizado.py` | PDF del itemizado en `02_material_bruto/otros/` | `datos/itemizado_rev1.csv`, `tesis/tablas/itemizado.tex` |
+
+Las especificaciones técnicas (Word) se convierten con `herramientas/docx_a_anexo.py` → `tesis/anexos/generados/eett_cuerpo.tex`.
+
 ## Ejemplo incluido
 
 `scripts/ejemplo_figura.py` muestra el patrón: lee datos, calcula,

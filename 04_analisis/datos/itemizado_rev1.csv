@@ -1,0 +1,77 @@
+item,descripcion,unidad,cantidad
+1,Recolección e Impulsión (Sectores 1.1; 1.2; 1.3 y 1.4),,
+1.1,Recolección e Impulsión de aguas servidas,,
+1.1.1,Suministro e Instalación de Fosa septica (3.250 L),un,1
+1.1.2,Suminisitro e instalación de Fosa septica (1.250 L),un,1
+1.1.3,Camaras de inspección,un,4
+1.1.4,Suministro e instalación de Tubería Sanitaria PVC 110 mm,ml,92
+1.1.5,Suministro e instalación de PVC Hidraulico de 50 mm (Impulsión),ml,95
+1.1.6,Suministro e instalción de Fitting,gl,1
+1.1.7,Excavaciones,m3,30
+1.1.8,Arena,m3,14
+1.2,Recolección e Impulsión de aguas del estereo,,
+1.2.1,Sistema de captación: Válvula de pie,un,1
+1.2.2,Suministro e instalación de Jaula de contención,un,1
+1.2.3,Grava (64mm),m3,1
+1.2.4,Caseta y tablero Electrico (incluye placa de soporte en cemento),un,1
+1.2.5,Suministro e instalación de PVC Hidráulico de 25mm (Succión e impulsión),ml,140
+1.2.6,Válvulas PVC de 25 mm,un,4
+1.2.7,Suiministro e instalación de Fitting,gl,1
+1.2.8,Excavaciones ( Contempla impulsión AS),m3,21
+1.2.9,Arena ( Contempla impulsión AS),m3,4
+1.3,Recolección e Impulsión de aguas agroquímicas,,
+1.3.1,Suminisitro e instalación de PVC hidráulico de 25 mm (Impulsión),ml,80
+1.3.2,Suiministro e instalación de Fitting,gl,1
+1.3.3,Tablero Electrico,gl,1
+1.3.5,Arenas,m3,3
+2,Construcción de Estación Experimental (Sector 2),,
+2.1,Construcción de Estructura para Tanques de almacenamiento,,
+2.1.2,Hormigón armado en Zapatas (G30),m3,5
+2.1.3,Enfierradura de fundaciones (Parrilla inferior d12 @ 15 cm),ml,72
+2.1.4,"Placas base (300x300x16mm) y pernos de anclaje (3/4"")",m2,6
+2.1.5,Estructura Metálica: Pilares (Perfil Cajón 150x150x6 mm),ml,15
+2.1.6,Estructura Metálica: Vigas Principales (Perfil Cajón 150x150x6 mm),ml,24
+2.1.7,Estructura Metálica: Vigas Secundarias (Perfil Cajón 150x100x3 mm),ml,18
+2.1.8,Planchas estructurales Pino Radiata (15 mm),m2,10
+2.1.9,Estructura Metálica Segundaria: Perfil Cajón 15x15x6 mm,ml,100
+2.1.10,"Aplicación de anticorrosivo, barniz y pintura en estructura",gl,1
+2.1.11,Instalación de barandas de seguridad (Perfil circular 30 mm),ml,60
+2.2,Sistema Hidraulico de Estructura de Almacenamiento,,
+2.2.1,Suministro e instalación de Estanques (1000 Litros),un,3
+2.2.2,Suministro e instalación de Estanque dosificador (200 Litros),un,3
+2.2.3,Válvulas de cierre de PVC Hidraulico de 50 mm (llegadas a tanque aguas serv,un,1
+2.2.4,Tuberías hidraulicas de 50 mm,ml,3
+2.2.5,Valvulas de cierre de PVC Hidraulico de 50 mm (salida tanque),un,3
+2.2.6,Valvulas de cierre de PVC Hidraulico de 50 mm (salida sifón),un,3
+2.2.7,Fitting,gl,1
+2.3,Construcción del Humedal y sistema hidraulico,,
+2.3.1,Instalación de solerillas perimetrales (20 x 100 mm),ml,40
+2.3.2,Relleno de grava,m3,23
+2.3.3,Losa de hormigón para base de humedal (e= 20 cm),m3,5
+2.3.4,Suministro y montaje de estanques IBC para humedales de flujo vertical,un,18
+2.3.5,Material filtrante del humedal (Grava de 19 mm),m3,3
+2.3.6,Material filtrante del humedal (Gravilla de 12 mm),m3,18
+2.3.7,Material filtrante del humedal (Arena gruesa),m3,3
+2.3.8,Suministro y plantación de vegetación macrófita (Typha spp.),un,72
+2.3.9,Tubería central de alimentación (PVC Hidraulico de 50 mm),ml,25
+2.3.10,Ramales de alimentación a humedales (PVC Hidraulico de 32 mm),ml,45
+2.3.11,Ramales de extracción o salida de humedales (PVC Sanitario de 50 mm),ml,90
+2.3.12,Válvulas de cierre de 32 mm,un,18
+2.3.13,Sumnistro e instalación de Fitting,gl,1
+2.4,Recolección de efluentes,,
+2.4.1,Suministro e instalación de Cámara de cloración (100 Litros),un,3
+2.4.3,Suministro e instalación de Fosa septica (3.250 L),un,3
+2.4.4,Tuberias PVC Sanitario de 50 mm (desde Clorador hasta Fosa septica de acum,ml,4
+2.4.5,Tuberías PVC Sanitario de 50 mm (desde salida humedal a clorador),ml,24
+2.4.6,Valvulas de cierre de 50 mm Sanitarias (salida de tanques IBC humedales),un,18
+2.4.7,Excavaciones,m3,25
+2.4.8,Grava emplazamiento,M3,17
+3,Sistema de Riego(Sector 3),,
+3.1,Sistema de Conducción de riego,,
+3.1.2,"PVC Hidraulico de 25 mm (impulsión, desague y recirculación)",ml,210
+3.1.3,"Plansa 16 mm 2 l/h, c/u 50 cm",ml,132
+3.1.5,Válvulas de corte de 25 mm,un,12
+3.1.6,Fitting,gl,1
+3.1.7,Excavaciones,m3,31
+3.1.8,Arena,m3,4
+3.2,Otros,,

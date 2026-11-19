@@ -134,3 +134,15 @@ Documentos: inscripción visada, propuesta ANID, correo del guía (23-10-2026), 
 | Sugerencia de dividir los objetivos | Recomendada | **Retirada**: el guía pidió limitarse a los objetivos inscritos. |
 | Objetivos de la v3.0 | — | **No coincidían** con los inscritos (agregaban balance de O₂ y fundaciones). Reemplazados por los textuales. |
 | Entregables inscritos faltantes | — | Datos de caracterización de las 3 fuentes, **tiempos de retención**, pérdidas de carga, ADT y selección de bombas, zanjas, especificaciones. |
+
+## 8. Revisión tras recibir datos, planos PDF, EETT e itemizado (2026-11-19)
+
+| Hallazgo | Resultado |
+|---|---|
+| C2 (perfiles contradictorios) | ✅ **Resuelto**: láminas 3.1–3.2, EETT e itemizado coinciden en pilares y vigas principales 150×150×6 y secundarias 150×100×3 (A270ES). La discusión de la v3.0 estaba errada; corregida. |
+| C4/C5 (NTK) | ✅ **Explicado por los datos**: el nitrógeno medido en AS1/AS2 es realmente bajo (NH₄⁺ 1,28/1,98 mg/L; NT 2,7/2,0 mg/L). Los valores de diseño (1,0/1,5) están algo **por debajo** de las medias medidas. Falta interpretar la causa. |
+| C6 (sin datos de estero y agroquímicos) | 🟧 Datos de calidad ya presentes (tabla 4.1). Falta el **criterio de caudal**: igualar la carga orgánica es inviable para el estero (≈ 28 400 L/d). |
+| C12 (nuevo) | Hormigón G30 (EETT, itemizado, texto) vs. G25 (lámina 3.2). |
+| C13 (nuevo) | Capas filtrantes inconsistentes entre EETT, lámina 2.2 y tesis; cantidades de arena/gravilla del itemizado aparentemente intercambiadas. |
+| C14 (nuevo) | El índice de las EETT es de otro proyecto (pintura, cielo, panel LED); se omitió en el anexo VI. |
+| C15 (nuevo) | Itemizado con numeración incompleta y placas base medidas en m². |

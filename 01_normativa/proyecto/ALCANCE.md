@@ -33,13 +33,13 @@ agrícola, en la frutícola SABA, Linares.
 
 | Entregable inscrito | Objetivo | Estado en la tesis |
 |---|---|---|
-| Procesamiento e interpretación de los **datos del agua** recopilados en la fase previa → **caudales y cargas de diseño consolidados** de las tres fuentes | OE1 | 🟧 Solo aguas servidas; faltan estero y agroquímicos |
+| Procesamiento e interpretación de los **datos del agua** recopilados en la fase previa → **caudales y cargas de diseño consolidados** de las tres fuentes | OE1 | 🟧 Datos procesados (tabla 4.1, fig. 4.1); falta definir caudales de estero y agroquímicos e interpretar |
 | **Memoria de cálculo hidráulico**: volúmenes de los humedales, **pérdidas de carga**, **tiempos de retención**, **selección de bombas** | OE1 | 🟧 Faltan pérdidas, ADT, tiempos de retención y selección de bombas |
 | Redes de tuberías de **distribución y drenaje**; especificaciones de tuberías | OE1 | 🟧 Diámetros y largos; faltan especificaciones |
 | Diseño de **zanjas** (movimiento de tierras y geometría) | OE1/OE2 | 🟧 Descrito en metodología; faltan resultados |
 | **Memoria de cálculo estructural** de la plataforma de acero (dimensionamiento y verificación ante cargas) | OE2 | 🟧 Faltan tablas de verificación |
 | **Planimetría completa**: plantas, cortes, perfiles hidráulicos, detalles constructivos de lechos filtrantes y conexiones | OE2 | ✅ Láminas 1, 2.1–2.4, 3.1–3.2 |
-| Criterios constructivos y especificaciones de detalle | OE1/OE2 | 🟧 Itemizado; faltan especificaciones escritas |
+| Criterios constructivos y especificaciones de detalle | OE1/OE2 | ✅ EETT (anexo VI) e itemizado (anexo II); con observaciones por corregir |
 
 ## Qué NO incluye
 

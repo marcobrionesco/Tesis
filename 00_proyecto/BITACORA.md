@@ -5,6 +5,16 @@
 
 ---
 
+## 2026-11-19 — Datos de caracterización, planos PDF, EETT e itemizado
+
+- **Quién:** Marco + Claude Code
+- **Qué se hizo:** se procesaron los datos de caracterización (scripts `01_`/`02_` en `04_analisis/`, QA de promedios sin errores) y se agregaron a Resultados (sección 4.1.1, tabla y figura) y Metodología. Se reemplazaron las láminas 3.1–3.2 por PDF vectorial, se convirtió el itemizado a tabla (`03_itemizado.py`, anexo II) y las EETT a anexo VI (`herramientas/docx_a_anexo.py`). Se corrigieron los perfiles en Discusión y Resultados según planos/EETT. Las 7 figuras reenviadas ya estaban ingresadas.
+- **Hallazgos:** C2 resuelto; el nitrógeno bajo es real (datos); igualar la carga orgánica del estero es inviable (~28 400 L/d); nuevas inconsistencias C12–C15.
+- **Qué quedó pendiente:** preguntas 8–11 al guía; interpretar la caracterización; resultados hidráulicos (ADT, bombas, tiempos de retención) y estructurales (verificación LRFD).
+- **Archivos tocados:** `02_material_bruto/*`, `04_analisis/*`, `tesis/capitulos/03–05`, `tesis/anexos/*`, `tesis/tablas/*`, `tesis/figuras/*`, `herramientas/docx_a_anexo.py`, `00_proyecto/*`, `01_normativa/proyecto/ALCANCE.md`, triaje.
+
+---
+
 ## 2026-11-19 — Documentos oficiales y alcance
 
 - **Quién:** Marco + Claude Code

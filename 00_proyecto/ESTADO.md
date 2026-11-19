@@ -30,6 +30,12 @@ Inscripción visada, propuesta ANID, correo del guía y documentos de diseño de
 - Norma de reúso: la propuesta ANID cita **NCh3456 (INN, 2022)**; pedir título exacto.
 - Preguntas para la próxima reunión: `00_proyecto/OBSERVACIONES_PROFESOR.md`.
 
+## ✅ Recibidos y procesados (2026-11-19, tarde)
+
+- **Datos de caracterización** (6 campañas, 5 puntos, 18 parámetros) → `04_analisis/` → tabla 4.1 y figura 4.1. QA: los promedios del original son correctos.
+- **Láminas 3.1–3.2 en PDF**, **itemizado** (tabla, anexo II) y **EETT** (anexo VI).
+- Perfiles de la plataforma confirmados (C2 resuelto). Nuevas inconsistencias C12–C15 (ver triaje §8 y OBSERVACIONES_PROFESOR, preguntas 8–11).
+
 ## Estado por capítulo
 
 Leyenda: ⬜ no iniciado · 🟨 material bruto · 🟧 borrador en LaTeX · 🟦 en revisión · ✅ terminado
@@ -52,7 +58,7 @@ Leyenda: ⬜ no iniciado · 🟨 material bruto · 🟧 borrador en LaTeX · �
 ## Próximos pasos (en orden de impacto)
 
 1. [ ] **Pedir/transcribir las observaciones del profesor guía** y cruzarlas con el triaje.
-2. [ ] **Resolver inconsistencias**: perfiles estructurales (C2), zona sísmica (C3), columnas de la tabla de riego; preguntar al guía el NTK medido (C4, C5) y cómo presentar el diseño de proceso del humedal (insumo del proyecto).
+2. [ ] **Resolver inconsistencias**: zona sísmica (C3), columnas de la tabla de riego, hormigón G25/G30 (C12), capas filtrantes y cantidades (C13), criterio de caudal del estero y agroquímicos; cómo presentar el diseño de proceso del humedal.
 3. [ ] **Completar Resultados con los entregables inscritos** (`ALCANCE.md`): datos de caracterización de las 3 fuentes, tiempos de retención, zanjas, especificaciones; y (C1, C6): ADT y bombas, verificación LRFD, corte basal, presiones de contacto, líneas estero/agroquímicos. Modelos: anexo de impulsión de Guerrero (2024) y memoria de cálculo de `05_ejemplos/memorias_calculo/`.
 4. [ ] **Reforzar Marco Teórico** con literatura reciente (receta 07 + fichas con receta 03).
 5. [ ] **Completar Introducción** (preguntas, contribuciones, alcances) y **Conclusiones** (limitaciones, trabajo futuro).

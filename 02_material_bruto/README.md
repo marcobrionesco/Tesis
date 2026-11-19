@@ -42,3 +42,7 @@ en un `.md`.
 | 2026-11-19 | `borradores_previos/*proyecto-titulo-v1.0/2.0/3.0*`, `*memoria-calculo*` | yo (v3.0 = enviada al profesor guía) | `03_seleccion/triaje/2026-11-19_triaje_proyecto-titulo-v3.0.md` |
 | 2026-11-19 | `planos/EE-ATE250033_*` (láminas 1, 2.1–2.4, 3.1–3.2) | yo (CAD) | ✅ usadas en anexos III–V |
 | 2026-11-19 | `figuras/*`, `otros/EE-ATE250033_itemizado*` | yo | ✅/🔧 ver triaje (fig. 2.1 ❌) |
+| 2026-11-19 | `datos_crudos/2026-11-19_yo_caracterizacion-afluentes-resumen.pdf` | yo (fase de caracterización, 6 campañas, 5 puntos) | ✅ procesado en `04_analisis/` (QA sin errores) |
+| 2026-11-19 | `planos/EE-ATE250033_3.1/3.2_detalle-estructural-plataforma.pdf` | yo (CAD, PDF vectorial) | ✅ reemplazan a los JPG en el anexo V |
+| 2026-11-19 | `otros/EE-ATE250033_itemizado-rev1.pdf` | yo | ✅ tabla en anexo II (ver observaciones) |
+| 2026-11-19 | `borradores_previos/2026-11-19_yo_EETT-estacion-experimental.docx` | yo (agosto 2026) | ✅ anexo VI (ver observaciones) |

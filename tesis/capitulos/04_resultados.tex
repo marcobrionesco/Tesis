@@ -10,6 +10,36 @@
 \section{Diseño hidráulico y humedales (objetivo específico 1)}
 \label{sec:res-hidraulico}
 
+\subsection{Caracterización de los afluentes}
+\label{sec:caracterizacion}
+
+La caracterización de las tres fuentes se realizó en la fase previa del proyecto mediante seis campañas de muestreo en cinco puntos: estero Batuco (EST), aguas servidas de oficinas (AS1) y de la casa (AS2), y residuos de agroquímicos de la bodega (AGR1) y de la sala de bombas (AGR2).
+En la casa (AS2) solo se dispuso de dos campañas.
+La \cref{tab:caracterizacion} resume los valores medios de los parámetros medidos y la \cref{fig:caracterizacion} compara los parámetros de carga entre los puntos.
+Los datos se procesaron con el script \texttt{02\_caracterizacion.py}, y los promedios coinciden con los del registro original.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Valores medios de los parámetros de calidad de agua por punto de muestreo en la fase de caracterización.}
+  \label{tab:caracterizacion}
+  \input{tablas/caracterizacion_afluentes}
+\end{table}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.85\textwidth]{caracterizacion_afluentes.pdf}
+  \caption{Concentraciones medias de DQO, DBO$_5$, SST y amonio por punto de muestreo (escala logarítmica; las barras indican el rango mínimo--máximo). Fuente: elaboración propia.}
+  \label{fig:caracterizacion}
+\end{figure}
+
+El estero presenta una carga orgánica muy baja (DQO media de \qty{6.3}{\milli\gram\per\liter} y DBO$_5$ de \qty{2.2}{\milli\gram\per\liter}), aunque con presencia de coliformes fecales (media geométrica de \num{1.5e4}~NMP/\qty{100}{\milli\liter}).
+Las aguas servidas de oficinas (AS1) concentran la mayor carga orgánica biodegradable (DQO de \qty{411}{\milli\gram\per\liter} y DBO$_5$ de \qty{270}{\milli\gram\per\liter}) y la mayor carga de coliformes fecales (\num{1.5e8}~NMP/\qty{100}{\milli\liter}).
+Los residuos de la bodega de agroquímicos (AGR1) muestran una DQO de \qty{393}{\milli\gram\per\liter} y la mayor concentración de amonio (\qty{12.8}{\milli\gram\per\liter}), mientras que AGR2 presenta una DQO de \qty{75.7}{\milli\gram\per\liter} y la mayor concentración de nitrato (\qty{26.2}{\milli\gram\per\liter}).
+En ambas aguas servidas el nitrógeno es bajo: amonio de \qtyrange{1.3}{2.0}{\milli\gram\per\liter} y nitrógeno total de \qtyrange{2.0}{2.7}{\milli\gram\per\liter}.
+
+\revisar{Interpretar los resultados: el nitrógeno de AS1 y AS2 está muy por debajo de lo típico en aguas servidas de Chile (nitrógeno total de \qtyrange{20}{120}{\milli\gram\per\liter}, \textcite{vera2016humedales}); discutir posibles causas (punto de muestreo a la salida de fosa, dilución, método analítico) con el profesor guía.
+La alta DQO disuelta frente a la DBO$_5$ en AGR1 sugiere materia orgánica poco biodegradable (agroquímicos).}
+
 \subsection{Volúmenes de diseño para vivienda y oficinas}
 
 El caudal de diseño para las aguas servidas habitacionales (casa, AS2) se obtuvo del registro histórico del medidor de agua potable entre marzo de 2025 y marzo de 2026 (\cref{tab:consumo-casa}).
@@ -80,20 +110,20 @@ La \cref{tab:resumen-afluentes} consolida los caudales y concentraciones de dise
   \label{tab:resumen-afluentes}
   \begin{tabular}{@{}lccc@{}}
     \toprule
-    Fuente & Caudal (\unit{\liter\per\day}) & DQO (\unit{\milli\gram\per\liter}) & NTK (\unit{\milli\gram\per\liter}) \\
+    Fuente & Caudal (\unit{\liter\per\day}) & DQO (\unit{\milli\gram\per\liter}) & NH$_4^+$ (\unit{\milli\gram\per\liter}) \\
     \midrule
-    Aguas servidas casa (AS2) & 600 & 300 & \num{1.5}\,\textsuperscript{a} \\
-    Aguas servidas oficinas (AS1) & 150 & 400 & \num{1.0}\,\textsuperscript{a} \\
-    Residuos agroquímicos (AGR1, AGR2) & ---\textsuperscript{b} & ---\textsuperscript{b} & ---\textsuperscript{b} \\
-    Estero Batuco (EST) & ---\textsuperscript{b} & ---\textsuperscript{b} & ---\textsuperscript{b} \\
+    Aguas servidas casa (AS2) & 600 & 300\,\textsuperscript{a} & \num{1.5}\,\textsuperscript{a,b} \\
+    Aguas servidas oficinas (AS1) & 150 & 400\,\textsuperscript{a} & \num{1.0}\,\textsuperscript{a,b} \\
+    Agroquímicos bodega (AGR1) & ---\textsuperscript{c} & 393\,\textsuperscript{d} & \num{12.8}\,\textsuperscript{d} \\
+    Agroquímicos sala de bombas (AGR2) & ---\textsuperscript{c} & \num{75.7}\,\textsuperscript{d} & \num{2.41}\,\textsuperscript{d} \\
+    Estero Batuco (EST) & ---\textsuperscript{c} & \num{6.33}\,\textsuperscript{d} & \num{0.15}\,\textsuperscript{d} \\
     \bottomrule
-    \multicolumn{4}{@{}p{0.9\textwidth}@{}}{\footnotesize \textsuperscript{a} Corresponde a la concentración de amonio, asumida igual al NTK. \textsuperscript{b} \pendiente{completar con los datos de monitoreo}.}
+    \multicolumn{4}{@{}p{0.95\textwidth}@{}}{\footnotesize \textsuperscript{a} Valor de diseño del proyecto (documento de diseño del humedal). \textsuperscript{b} Amonio, asumido igual al NTK. \textsuperscript{c} \pendiente{caudal a definir en la distribución de caudales (objetivo específico~1)}. \textsuperscript{d} Media medida (\cref{tab:caracterizacion}).}
   \end{tabular}
 \end{table}
 
-\revisar{Los valores de NTK (\qtyrange{1.0}{1.5}{\milli\gram\per\liter}, carga de \qty{1.1}{\gram\per\day}) provienen del documento de diseño del humedal del proyecto, pero no calzan con la carga amoniacal de $\sim$\qty{3}{\gram\per\square\meter\per\day} (\qty{18}{\gram\per\day} en \qty{6}{\square\meter}) que la propuesta ANID fija para la Fase~1, ni con los valores típicos en Chile (nitrógeno total de \qtyrange{20}{120}{\milli\gram\per\liter}, \textcite{vera2016humedales}).
-Consultar al profesor guía el valor medido en el monitoreo de tres meses (pregunta 2 en 00\_proyecto/OBSERVACIONES\_PROFESOR.md).
-La inscripción compromete el \enquote{procesamiento e interpretación de los datos del agua}: presentar aquí esos datos.}
+\revisar{Los valores de diseño de las aguas servidas quedan algo por debajo de las medias medidas (DQO: 300 frente a \qty{338}{\milli\gram\per\liter} en AS2 y 400 frente a \qty{411}{\milli\gram\per\liter} en AS1; amonio: \num{1.5} frente a \num{1.98} y \num{1.0} frente a \qty{1.28}{\milli\gram\per\liter}): confirmar con el profesor guía si se mantienen o se actualizan.
+Con este nitrógeno, la carga amoniacal de $\sim$\qty{3}{\gram\per\square\meter\per\day} prevista para la Fase~1 en la propuesta ANID no se alcanza con las aguas servidas.}
 
 \subsection{Demanda de agua para riego}
 
@@ -118,7 +148,8 @@ El escenario de 10 plantas con 8 goteros de \qty{2}{\liter\per\hour} cada una de
 \end{table}
 
 \revisar{La columna \enquote{Demanda} es la mitad del volumen semanal (p.\ ej.\ 1536/2 = 768), no el volumen semanal dividido por 7 (que daría \qty{219}{\liter\per\day}).
-Aclarar la frecuencia de riego (¿dos eventos por semana?) y corregir los encabezados.}
+Aclarar la frecuencia de riego (¿dos eventos por semana?) y corregir los encabezados.
+Según las especificaciones técnicas, el riego abastece a 30 cerezos en 3 sectores experimentales de 10 plantas, con goteros autocompensados de \qty{2}{\liter\per\hour} cada \qty{50}{\centi\meter} (\cref{anx:eett}).}
 
 \subsection{Dimensionamiento del humedal por balance de oxígeno}
 
@@ -167,8 +198,10 @@ Constructivamente, esta superficie se materializó mediante la disposición de 6
   \label{fig:esquema-ibc}
 \end{figure}
 
-\pendiente{Presentar el dimensionamiento (o la justificación de la replicación del área) para las líneas del estero Batuco y de residuos agroquímicos.
-La memoria de cálculo indica que se replica el área de \qty{6}{\square\meter} ajustando el caudal para operar con la misma carga superficial: mostrar ese cálculo con los datos de la \cref{tab:resumen-afluentes}.}
+\revisar{Distribución de caudales para las líneas del estero y de agroquímicos (objetivo específico~1).
+La propuesta ANID indica aplicar a estas líneas \enquote{las mismas características de carga} que a la línea doméstica.
+Con la DQO medida, igualar la carga de la Fase~1 (\qty{180}{\gram\per\day} de DQO en \qty{6}{\square\meter}) exigiría unos \qty{28400}{\liter\per\day} en la línea del estero (\qty{4.7}{\meter\per\day} de carga hidráulica, inviable en un humedal vertical), unos \qty{2400}{\liter\per\day} en AGR2 y unos \qty{460}{\liter\per\day} en AGR1 (04\_analisis/resultados/caudal\_equivalente\_carga.csv).
+Definir con el profesor guía el criterio de caudal para cada línea (p.\ ej.\ igual carga hidráulica que la línea doméstica) antes de dimensionar bombas y tuberías.}
 
 \subsection{Solución hidráulica e impulsión}
 
@@ -183,10 +216,9 @@ Incluir la curva de la bomba con el punto de operación y el efecto del circuito
 
 \subsection{Verificación LRFD de la estructura de soporte}
 
-La plataforma elevada se diseñó con perfiles cajón de acero A270ES, utilizando dimensiones de $150 \times 150 \times 6$~\unit{\milli\meter} para las vigas principales y $150 \times 100 \times 3$~\unit{\milli\meter} para las secundarias.
+La plataforma elevada, de \qtyproduct{5.00 x 2.00}{\meter} en planta y \qty{2.25}{\meter} de altura, se diseñó con perfiles cajón de acero A270ES: $150 \times 150 \times 6$~\unit{\milli\meter} para pilares y vigas principales y $150 \times 100 \times 3$~\unit{\milli\meter} para las vigas secundarias, con una cubierta de tablero estructural de \qty{15}{\milli\meter} (láminas 3.1 y 3.2, \cref{anx:planimetria-estructural}).
 La estructura soporta tres estanques de acumulación de \qty{1000}{\liter} cada uno, junto con tres dosificadores de \qty{200}{\liter}.
-\revisar{Contradicción: el capítulo de discusión indica columnas y vigas de $250 \times 250 \times 6$~\unit{\milli\meter} y costaneras de $150 \times 50 \times 3$~\unit{\milli\meter}.
-Definir el diseño final según los planos 3.1 y 3.2 y usarlo en todo el documento.}
+\revisar{Perfiles confirmados por las láminas 3.1--3.2, las especificaciones técnicas y el itemizado (la discusión de la v3.0 indicaba otros).}
 
 \pendiente{Resultado faltante en la v3.0: tabla de verificación por elemento con $M_u$, $V_u$, $P_u$, $\phi M_n$, $\phi V_n$, $\phi P_n$, razón de utilización y deflexión.
 La discusión cita una razón de trabajo a flexión de \qty{7.2}{\percent}, un índice de interacción flexocompresiva máximo de \qty{18.8}{\percent} y una deflexión máxima de \qty{3.81}{\milli\meter}: estos valores deben presentarse primero aquí, con su memoria de cálculo.
@@ -194,7 +226,7 @@ Incluir también el corte basal sísmico y el coeficiente sísmico utilizado.}
 
 \subsection{Diseño de fundaciones superficiales}
 
-Las zapatas de fundación se dimensionaron en $\num{1.00} \times \num{1.00} \times \num{0.50}$~\unit{\meter}, utilizando hormigón grado G30, reforzadas con parrilla inferior de barras de \qty{12}{\milli\meter} espaciadas cada \qty{15}{\centi\meter}.
+Las zapatas de fundación se dimensionaron en $\num{1.00} \times \num{1.00} \times \num{0.50}$~\unit{\meter}, utilizando hormigón grado G30\revisar{la lámina 3.2 indica G25: unificar}, reforzadas con parrilla inferior de barras de \qty{12}{\milli\meter} espaciadas cada \qty{15}{\centi\meter}.
 Las columnas se anclaron mediante placas base de $300 \times 300 \times 16$~\unit{\milli\meter} con pernos tipo J de \qty{19}{\milli\meter}.
 
 \pendiente{Resultado faltante: la presión de contacto de \qty{27.76}{\kilo\pascal} frente a la capacidad admisible de \qty{150}{\kilo\pascal} (citadas en las conclusiones) debe presentarse aquí, para las combinaciones estática y sísmica, indicando de dónde proviene la capacidad admisible (estudio de mecánica de suelos o valor supuesto con fuente).}
