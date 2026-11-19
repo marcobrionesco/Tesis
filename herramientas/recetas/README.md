@@ -21,3 +21,4 @@ contenido de la receta junto con el archivo `salida/contexto_completo.md`
 | `07_buscar_bibliografia.md` | Para encontrar fuentes reales | Material de archivo |
 | `08_cierre_sesion.md` | Al terminar cada sesión | Guardar proyecto |
 | `09_preparar_entrega.md` | Antes de entregar al profesor o la versión final | Export / QC final |
+| `10_autoevaluar_rubrica.md` | Para estimar la nota con la rúbrica oficial antes de entregar | Visionado de prueba |

@@ -21,7 +21,7 @@ secciones = [
     ("Instrucciones para la IA", ["AGENTS.md"]),
     ("Proyecto", ["00_proyecto/CONTEXTO.md", "00_proyecto/ESTADO.md", "00_proyecto/DECISIONES.md",
                   "00_proyecto/PLAN.md", "00_proyecto/GLOSARIO.md", "00_proyecto/BITACORA.md"]),
-    ("Normativa", ["01_normativa/REGLAS_FORMATO.md"]),
+    ("Normativa", ["01_normativa/REGLAS_FORMATO.md", "01_normativa/RUBRICA.md", "01_normativa/PROCESO_TITULACION.md"]),
     ("Selección: triaje", sorted(str(f.relative_to(RAIZ)) for f in (RAIZ / "03_seleccion/triaje").glob("*.md") if not f.name.startswith("_"))),
     ("Selección: fichas de lectura", sorted(str(f.relative_to(RAIZ)) for f in (RAIZ / "03_seleccion/fichas_lectura").glob("*.md") if not f.name.startswith("_"))),
     ("Selección: notas", sorted(str(f.relative_to(RAIZ)) for f in (RAIZ / "03_seleccion/notas").glob("*.md"))),

@@ -1,23 +1,25 @@
 % =====================================================================
-%  Portada — PROVISORIA. Reemplazar según 01_normativa/REGLAS_FORMATO.md
-%  Si la universidad entrega una portada en PDF, usar:
-%  \includepdf{portada/portada_oficial.pdf}
+%  Portada — según template oficial ICV-611 (TPL p. 1) y Anexo 3 de los
+%  Lineamientos. Los datos se editan en config/comandos.tex.
 % =====================================================================
 \begin{titlepage}
   \centering
-  \singlespacing
-  % \includegraphics[width=3cm]{portada/logo.pdf}\par\vspace{1cm}
-  {\large\MakeUppercase{\tesisUniversidad}\par}
-  {\normalsize\MakeUppercase{\tesisFacultad}\par}
-  {\normalsize\MakeUppercase{\tesisDepartamento}\par}
+  \setstretch{1}
+  \fontsize{12}{14}\selectfont
+  \includegraphics[width=2.4cm]{portada/logo_ucm.png}\par
+  \vspace{1.2cm}
+  \MakeUppercase{\tesisUniversidad}\par
+  \MakeUppercase{\tesisFacultad}\par
+  \MakeUppercase{\tesisEscuela}\par
+  \vspace{2.2cm}
+  {\fontsize{14}{17}\selectfont\bfseries\MakeUppercase{\tesisTitulo}\par}
+  \vspace{2cm}
+  {\bfseries\MakeUppercase{\tesisAutor}\par}
+  \vspace{0.3cm}
+  {\bfseries PROFESOR GUÍA: \MakeUppercase{\tesisGuia}\par} % chktex 13
   \vfill
-  {\LARGE\bfseries\MakeUppercase{\tesisTitulo}\par}
-  \vspace{1.5cm}
-  {\large \tesisGrado\par}
-  \vfill
-  {\large \textbf{\tesisAutor}\par}
+  Proyecto de Título presentado en conformidad a los\par
+  requisitos para obtener el título de \tesisTituloProfesional\par
   \vspace{1cm}
-  {\normalsize Profesor guía: \tesisGuia\par}
-  \vfill
-  {\normalsize \MakeUppercase{\tesisCiudad}, \tesisAnio\par}
+  \MakeUppercase{\tesisCiudad}, \tesisFecha\par
 \end{titlepage}

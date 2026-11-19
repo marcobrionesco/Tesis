@@ -12,3 +12,8 @@ Nombrar así: `AAAA-MM-DD_origen_descripcion.ext`
 Ej.: `2026-03-10_facultad_guia-formato-memorias.pdf`
 
 Después de subirlos, pide a la IA: *"aplica la receta 01_extraer_normativa"*.
+
+## Estado
+
+✅ Cargados el 2026-11-19 (ICV-611, UCM). Copias en texto en `../texto/`.
+Reglas extraídas en `../REGLAS_FORMATO.md`, `../RUBRICA.md` y `../PROCESO_TITULACION.md`.

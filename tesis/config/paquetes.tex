@@ -1,5 +1,6 @@
 % =====================================================================
 %  Paquetes. Cada uno con un comentario de para qué sirve.
+%  Reglas aplicadas: 01_normativa/REGLAS_FORMATO.md
 % =====================================================================
 
 % --- Idioma y codificación ---
@@ -9,21 +10,29 @@
 \usepackage[english, spanish, es-tabla, es-noshorthands, es-lcroman]{babel} % el último idioma es el principal
 \usepackage{csquotes}           % comillas correctas con \enquote{...}
 
-% --- Fuente (provisoria; cambiar según normativa) ---
-\usepackage{lmodern}
-% Alternativas tipo Times o Arial (descomentar UNA):
-% \usepackage{newtxtext,newtxmath}   % parecida a Times New Roman
-% \usepackage[scaled]{helvet}\renewcommand{\familydefault}{\sfdefault} % parecida a Arial
+% --- Matemática (amsmath ANTES de la fuente) ---
+\usepackage{amsmath, mathtools}
 
-% --- Matemática ---
-\usepackage{amsmath, amssymb, mathtools}
+% --- Fuente: Times New Roman 12 [REGLAS_FORMATO §1] ---
+% newtx = Times de alta calidad (texto y matemática; ya incluye los símbolos
+% de amssymb, que NO debe cargarse con newtx porque choca). Si newtx no está
+% instalado (TeX Live mínimo), se usa mathptmx (también Times) + amssymb.
+\IfFileExists{newtxtext.sty}{%
+  \usepackage{newtxtext}
+  \usepackage{newtxmath}
+}{%
+  \usepackage{mathptmx}
+  \usepackage{amssymb}
+}
+
+% --- Más matemática ---
 \usepackage{bm}                 % vectores/matrices en negrita: \bm{u}
 \usepackage{icomma}             % coma decimal sin espacio extra en modo matemático
 
 % --- Unidades (fundamental en ingeniería) ---
 \usepackage{siunitx}
 \sisetup{
-  output-decimal-marker = {,},  % coma decimal (estilo español)
+  output-decimal-marker = {,},  % coma decimal (Chile)
   group-separator = {.},
   group-minimum-digits = 4,
   per-mode = symbol,            % kN/m en vez de kN m^-1
@@ -46,17 +55,18 @@
 \pgfplotsset{compat=1.18}
 
 % --- Listas, colores, varios ---
+\usepackage{etoolbox}
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage{setspace}           % interlineado
 \usepackage{geometry}           % márgenes
 \usepackage{fancyhdr}           % encabezados y pies
 \usepackage{titlesec}           % formato de títulos
-\usepackage{pdfpages}           % insertar PDFs (p.ej. hoja oficial firmada)
+\usepackage[titles]{tocloft}    % formato de índices (con títulos de titlesec)
+\usepackage{pdfpages}           % insertar PDFs (p.ej. hoja de firmas escaneada)
 \usepackage{listings}           % código fuente en anexos
 
-% --- Bibliografía ---
-% Estilo provisorio APA. Para IEEE: style=ieee. Para numérico simple: style=numeric-comp
+% --- Bibliografía: APA 7.ª ed. [REGLAS_FORMATO §7] ---
 \usepackage[backend=biber, style=apa]{biblatex}
 
 % --- Enlaces y referencias cruzadas (cargar al final) ---

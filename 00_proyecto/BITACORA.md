@@ -5,6 +5,15 @@
 
 ---
 
+## 2026-11-19 — Normativa ICV-611 cargada y aplicada
+
+- **Quién:** Marco + Claude Code
+- **Qué se hizo:** se subieron los 4 documentos de la universidad (lineamientos, template Word, rúbrica, formato de práctica) a `01_normativa/originales/` con copias en texto en `01_normativa/texto/`. Se extrajeron las reglas (`REGLAS_FORMATO.md`), la rúbrica (`RUBRICA.md`) y el proceso (`PROCESO_TITULACION.md`). Se ajustó toda la plantilla LaTeX (formato, portada, hoja de firmas, índices, glosario, capítulos, anexos, APA 7) y se comparó visualmente con el template Word. Se agregó `herramientas/verificar_extension.py` a `make revisar` y la receta 10 (autoevaluación con rúbrica).
+- **Qué quedó pendiente:** ver "Bloqueos" en `ESTADO.md` (orden de preliminares, nombres de capítulos, etapa actual, logo en alta resolución); subir material previo.
+- **Archivos tocados:** `01_normativa/*`, `tesis/*`, `herramientas/*`, `AGENTS.md`, `00_proyecto/*`, `Makefile`.
+
+---
+
 ## 2026-11-19 — Montaje de la estructura
 
 - **Quién:** Marco + Claude Code

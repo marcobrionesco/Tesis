@@ -17,3 +17,6 @@ grid.linestyle      : --
 axes.spines.top     : False
 axes.spines.right   : False
 lines.linewidth     : 1.5
+# Times (como el texto de la tesis, regla de la normativa) con alternativas libres
+font.serif          : Times New Roman, Nimbus Roman, TeX Gyre Termes, Liberation Serif, DejaVu Serif
+mathtext.fontset    : stix

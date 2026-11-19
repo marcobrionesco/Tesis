@@ -2,16 +2,27 @@
 %  Comandos propios y datos de la tesis (un solo lugar para cambiarlos)
 % =====================================================================
 
-% --- Datos de la tesis (se usan en portada, metadatos del PDF, etc.) ---
-\newcommand{\tesisTitulo}{Título provisorio de la tesis}
-\newcommand{\tesisAutor}{Marco Briones}
-\newcommand{\tesisGrado}{Memoria para optar al título de Ingeniero Civil}
-\newcommand{\tesisUniversidad}{Nombre de la Universidad}
-\newcommand{\tesisFacultad}{Facultad de Ingeniería}
-\newcommand{\tesisDepartamento}{Departamento de Ingeniería Civil}
-\newcommand{\tesisGuia}{Nombre del Profesor Guía}
-\newcommand{\tesisCiudad}{Ciudad}
-\newcommand{\tesisAnio}{\the\year}
+% --- Datos de la tesis (portada, hoja de firmas y metadatos del PDF) ---
+% Completar con los datos reales. Nombres en mayúsculas los pone la portada.
+\newcommand{\tesisTitulo}{Título del Proyecto de Título}
+\newcommand{\tesisAutor}{Marco Briones}              % nombre completo: Nombre Apellido1 Apellido2
+\newcommand{\tesisGuia}{Nombre Apellido1 Apellido2}  % profesor(a) guía
+\newcommand{\tesisTituloProfesional}{Ingeniero/a Civil} % tal como aparece en el template oficial
+\newcommand{\tesisUniversidad}{Universidad Católica del Maule}
+\newcommand{\tesisFacultad}{Facultad de Ciencias de la Ingeniería}
+\newcommand{\tesisEscuela}{Escuela de Ingeniería Civil}
+\newcommand{\tesisCiudad}{Talca}
+% Fecha de la portada "TALCA, MES AÑO": por defecto, mes y año de compilación.
+% Para fijarla: \renewcommand{\tesisFecha}{DICIEMBRE 2026}
+\newcommand{\tesisFecha}{\mesactual~\the\year}
+
+% Comisión examinadora (hoja de firmas): "Dr. / Mg. / Sr." + nombre
+\newcommand{\comisionGuia}{Dr.\ / Mg.\ / Sr.}
+\newcommand{\comisionDos}{Dr.\ / Mg.\ / Sr.}
+\newcommand{\comisionTres}{Dr.\ / Mg.\ / Sr.}
+
+\newcommand{\mesactual}{\ifcase\month\or ENERO\or FEBRERO\or MARZO\or ABRIL\or MAYO\or JUNIO\or
+  JULIO\or AGOSTO\or SEPTIEMBRE\or OCTUBRE\or NOVIEMBRE\or DICIEMBRE\fi}
 
 \hypersetup{pdftitle={\tesisTitulo}, pdfauthor={\tesisAutor}}
 
@@ -27,6 +38,12 @@
   \newcommand{\revisar}[1]{}
 \fi
 
+% --- Glosario: "SIGLA  Significado" (formato del template) ---
+% Uso: \begin{glosario} \item[ANF] Agua No Facturada \end{glosario}
+\newenvironment{glosario}
+  {\begin{description}[style=sameline, leftmargin=3cm, labelwidth=2.7cm, font=\normalfont\bfseries, itemsep=0pt, parsep=0pt]}
+  {\end{description}}
+
 % --- Notación matemática (mantener consistente con 00_proyecto/GLOSARIO.md) ---
 \newcommand{\vect}[1]{\bm{#1}}                 % vector
 \newcommand{\matr}[1]{\mathbf{#1}}             % matriz
@@ -39,11 +56,23 @@
 \DeclareSIUnit{\tonf}{tonf}
 \DeclareSIUnit{\kgf}{kgf}
 
-% --- Nombres en español: "Anexo" en vez de "Apéndice", "tabla" en vez de "cuadro" ---
-\addto\captionsspanish{\renewcommand{\appendixname}{Anexo}}
+% --- Nombres en español según el template ---
+\addto\captionsspanish{%
+  \renewcommand{\appendixname}{Anexo}%
+  \renewcommand{\contentsname}{Índice General}%
+  \renewcommand{\listfigurename}{Índice de Figuras}%
+  \renewcommand{\listtablename}{Índice de Tablas}%
+}
 \crefname{table}{tabla}{tablas}
 \Crefname{table}{Tabla}{Tablas}
 \crefname{appendix}{anexo}{anexos}
 \Crefname{appendix}{Anexo}{Anexos}
 \crefname{equation}{ecuación}{ecuaciones}
 \Crefname{equation}{Ecuación}{Ecuaciones}
+
+% --- Bibliografía: "&" entre autores, como en los ejemplos oficiales [REGLAS_FORMATO §7] ---
+\DefineBibliographyStrings{spanish}{
+  and       = {\&},             % "Zhou, Z., ... & Ke, K."
+  retrieved = {Recuperado},      % la fecha ya trae "el": "Recuperado el 17 de marzo de 2026, de https://..."
+  from      = {de},
+}

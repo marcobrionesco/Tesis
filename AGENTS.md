@@ -6,7 +6,9 @@
 
 ## 1. Qué es este repositorio
 
-Tesis de **Ingeniería Civil** de Marco Briones, escrita en **LaTeX**.
+Proyecto de Título de **Ingeniería Civil** de Marco Briones, escrito en **LaTeX**.
+**Universidad Católica del Maule** (Talca, Chile) · Facultad de Ciencias de la Ingeniería ·
+Escuela de Ingeniería Civil · curso **ICV-611** Módulo Integrador Profesional.
 El repositorio está organizado como un proyecto de edición de video:
 material bruto entra por un lado, se clasifica, se trabaja y sale un
 único "master" final (el PDF de la tesis).
@@ -16,16 +18,18 @@ material bruto entra por un lado, se clasifica, se trabaja y sale un
 1. `AGENTS.md` (este archivo) — reglas y mapa.
 2. `00_proyecto/CONTEXTO.md` — de qué trata la tesis (tema, pregunta, objetivos).
 3. `00_proyecto/ESTADO.md` — en qué va el trabajo y qué toca hacer ahora.
-4. `01_normativa/REGLAS_FORMATO.md` — reglas de la universidad (mandan sobre todo).
-5. `00_proyecto/DECISIONES.md` — decisiones ya tomadas (no reabrirlas sin motivo).
-6. Solo entonces, los archivos específicos de la tarea.
+4. `01_normativa/REGLAS_FORMATO.md` — reglas de formato de la universidad (mandan sobre todo).
+5. `01_normativa/RUBRICA.md` — cómo evalúa la comisión (pesos y criterios).
+6. `00_proyecto/DECISIONES.md` — decisiones ya tomadas (no reabrirlas sin motivo).
+7. Solo entonces, los archivos específicos de la tarea.
+   (Plazos y proceso de titulación: `01_normativa/PROCESO_TITULACION.md`.)
 
 ## 3. Mapa del repositorio (flujo tipo edición de video)
 
 | Carpeta | Equivalente en video | Qué contiene | ¿Se edita? |
 |---|---|---|---|
 | `00_proyecto/` | Preproducción / guion | Contexto, estado, plan, decisiones, glosario, bitácora | Sí |
-| `01_normativa/` | Specs de entrega del canal | Instrucciones de formato de la universidad | `originales/` **NUNCA**; `REGLAS_FORMATO.md` sí |
+| `01_normativa/` | Specs de entrega del canal | Normativa UCM: originales, copia en texto (`texto/`), reglas, rúbrica y proceso | `originales/` y `texto/` **NUNCA**; los `.md` resumen sí |
 | `02_material_bruto/` | Ingesta / rushes | Todo lo generado antes (bueno y malo), papers, datos crudos | **NUNCA se modifica**, solo se agrega |
 | `03_seleccion/` | Logging / selección de tomas | Fichas de lectura, triaje de borradores, notas de investigación | Sí |
 | `04_analisis/` | Efectos / VFX / color | Código (Python), cálculos, notebooks, scripts que generan figuras | Sí |
@@ -56,12 +60,21 @@ material bruto entra por un lado, se clasifica, se trabaja y sale un
    entrada en `00_proyecto/BITACORA.md` (qué se hizo, qué quedó pendiente).
 6. Las decisiones importantes (estructura, norma de citas, enfoque metodológico)
    se registran en `00_proyecto/DECISIONES.md`.
-7. Escribir en **español**, registro académico, impersonal o primera persona
-   plural según `REGLAS_FORMATO.md`.
+7. Escribir en **español** (salvo el Abstract), registro académico y en
+   **tercera persona** (exigido por la normativa). Nada de "nosotros" ni "yo".
 8. La tesis debe **compilar** después de cada cambio (`make pdf`). Si no puedes
    compilar, dilo explícitamente.
+9. Solo citar fuentes válidas según la normativa: libros editados, revistas
+   especializadas, publicaciones institucionales y reportes técnicos con
+   revisión. Preferir fuentes de los **últimos 10 años**. Formato **APA 7**.
+10. Cada figura y tabla se menciona en el texto **antes** de aparecer. Si no es
+    propia, el título termina en "Fuente: ...".
 
 ## 5. Convenciones LaTeX
+
+El formato (márgenes, Times 12, interlineado, títulos, encabezados, leyendas,
+portada, anexos con números romanos) ya está implementado en `tesis/config/`
+según `REGLAS_FORMATO.md`. **No cambiarlo** salvo que cambie la normativa.
 
 - Un archivo por capítulo en `tesis/capitulos/NN_nombre.tex`.
 - Etiquetas con prefijo: `cap:`, `sec:`, `fig:`, `tab:`, `ec:`, `anx:`.
@@ -78,7 +91,7 @@ material bruto entra por un lado, se clasifica, se trabaja y sale un
 ```bash
 make pdf        # compila tesis/main.tex → salida/tesis.pdf
 make vigilar    # recompila automáticamente al guardar
-make revisar    # chktex: errores típicos de LaTeX
+make revisar    # chktex, marcas pendientes, citas inventadas y extensión (80 págs., resumen 1 pág.)
 make contar     # cuenta palabras por capítulo
 make contexto   # genera salida/contexto_completo.md para subir a otra IA / NotebookLM
 make limpiar    # borra archivos auxiliares

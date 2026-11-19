@@ -7,10 +7,15 @@
 ## Datos generales
 
 - **Autor:** Marco Briones
-- **Carrera:** Ingeniería Civil — [mención/especialidad: estructuras, hidráulica, geotecnia, transporte, construcción...]
-- **Universidad / Facultad:** [completar]
-- **Profesor guía:** [completar]
+- **Carrera:** Ingeniería Civil — [especialidad: estructuras, hidráulica, geotecnia, transporte, construcción...]
+- **Universidad:** Universidad Católica del Maule (UCM), Talca, Chile
+- **Facultad / Escuela:** Facultad de Ciencias de la Ingeniería / Escuela de Ingeniería Civil
+- **Curso:** ICV-611 Módulo Integrador Profesional (Proyecto de Título)
+- **Tipo de proyecto** (LIN §1, elegir uno): [1. problema de la práctica profesional / 2. problema de ingeniería civil / 3. investigación científico-aplicada]
+- **Profesor guía:** [completar] · **Co-guía:** [si aplica]
+- **Comisión:** [3 integrantes, incluido el guía]
 - **Título (provisorio):** [completar]
+- **Etapa actual:** [inscripción / anteproyecto / informe final / defensa]
 - **Fecha de entrega objetivo:** [AAAA-MM-DD]
 
 ## El problema (en 3–5 líneas)
@@ -57,4 +62,4 @@
 
 ## Palabras clave
 
-[5–6 palabras, español e inglés]
+[3 a 5 palabras o expresiones, español e inglés (exigido por la normativa)]

@@ -1,5 +1,7 @@
 # Receta 01 — Extraer la normativa de formato
 
+> ✅ Ya aplicada el 2026-11-19 con la normativa ICV-611 (UCM). Repetir solo si la universidad entrega documentos nuevos.
+
 **Entrada:** documentos en `01_normativa/originales/`.
 **Salida:** `01_normativa/REGLAS_FORMATO.md` completo + plantilla LaTeX ajustada.
 

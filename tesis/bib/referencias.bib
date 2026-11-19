@@ -1,31 +1,55 @@
 % =====================================================================
-%  Bibliografía de la tesis (biblatex + biber)
+%  Bibliografía de la tesis (biblatex + biber, estilo APA 7)
 %
-%  REGLAS:
+%  REGLAS (01_normativa/REGLAS_FORMATO.md §7 y RUBRICA.md):
 %  - Solo fuentes REALES y verificadas. Nunca inventar entradas.
-%  - Clave: apellidoAAAApalabra (ej. chopra2017dynamics), igual que la ficha
-%    en 03_seleccion/fichas_lectura/chopra-2017-dynamics.md
-%  - Incluir doi o isbn siempre que exista.
+%  - Solo libros editados, revistas especializadas, publicaciones
+%    institucionales y reportes técnicos con revisión comprobada.
+%  - Meta: >= 15 referencias, >= 10 de los últimos 10 años.
+%  - Clave: apellidoAAAApalabra (ej. suarez2014analisis), igual que la ficha
+%    en 03_seleccion/fichas_lectura/suarez-2014-analisis.md
+%  - Incluir doi siempre que exista.
 %  - Recomendado: gestionar con Zotero + Better BibTeX y exportar aquí.
 %
-%  Las dos entradas siguientes son libros reales usados como EJEMPLO en el
-%  anexo de la plantilla. Borrarlas si no se usan en la tesis.
+%  Las 4 entradas siguientes son los EJEMPLOS OFICIALES de los Lineamientos
+%  ICV-611 (libro, artículo, norma, sitio web). Se usan en el anexo guía de
+%  la plantilla. Borrarlas si no se citan en la tesis.
 % =====================================================================
 
-@book{chopra2017dynamics,
-  author    = {Chopra, Anil K.},
-  title     = {Dynamics of Structures: Theory and Applications to Earthquake Engineering},
-  edition   = {5},
-  publisher = {Pearson},
-  location  = {Hoboken, NJ},
-  year      = {2017},
-  isbn      = {978-0-13-455512-6},
+@book{suarez2014analisis,
+  author    = {Suarez, L. E.},
+  title     = {Análisis de Estructuras con Cargas Dinámicas},
+  subtitle  = {Tomo I: Sistemas de un Grado de Libertad},
+  publisher = {Createspace Independent Publishing Platform},
+  year      = {2014},
+  langid    = {spanish},
 }
 
-@book{chow1959open,
-  author    = {Chow, Ven Te},
-  title     = {Open-Channel Hydraulics},
-  publisher = {McGraw-Hill},
-  location  = {New York},
-  year      = {1959},
+@article{zhou2026performance,
+  author       = {Zhou, Z. and Zeng, Y. and Zhou, X. and He, X. and Ke, K.},
+  title        = {Performance-based plastic design of truss-moment frames incorporating rotary dampers with two-stage energy-dissipation mechanism},
+  journaltitle = {Journal of Constructional Steel Research},
+  volume       = {238},
+  pages        = {110206},
+  year         = {2026},
+  doi          = {10.1016/j.jcsr.2025.110206},
+  langid       = {english},
+}
+
+@report{inn2009nch433,
+  author      = {{Instituto Nacional de Normalización}},
+  title       = {NCh433:1996 Mod. 2009, Diseño sísmico de edificios},
+  type        = {Norma Chilena Oficial},
+  institution = {Instituto Nacional de Normalización},
+  location    = {Santiago, Chile},
+  year        = {2009},
+  langid      = {spanish},
+}
+
+@online{mop2026proyectos,
+  author  = {{Ministerio de Obras Públicas de Chile}},
+  title   = {Proyectos},
+  url     = {https://proyectos.mop.gob.cl/},
+  urldate = {2026-03-17},
+  langid  = {spanish},
 }

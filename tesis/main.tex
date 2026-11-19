@@ -1,9 +1,10 @@
 % =====================================================================
-%  TESIS — Archivo principal ("timeline master")
+%  PROYECTO DE TÍTULO — Archivo principal ("timeline master")
+%  Ingeniería Civil · Universidad Católica del Maule · ICV-611
 %  Compilar desde la raíz del repo con:  make pdf
 %  Este archivo solo ARMA la tesis: no escribir contenido aquí.
+%  Orden y formato según 01_normativa/REGLAS_FORMATO.md
 % =====================================================================
-% Opciones provisorias: ajustar según 01_normativa/REGLAS_FORMATO.md
 \documentclass[12pt, letterpaper, oneside]{report}
 
 %TC:ignore  (texcount: no contar la configuración)
@@ -20,22 +21,34 @@
 
 \begin{document}
 
-% ---------- Preliminares (numeración romana) ----------
-\pagenumbering{roman}
+% Rótulo "Pág." al inicio de cada índice (como en el template)
+\addtocontents{toc}{\rotulopag}
+\addtocontents{lof}{\rotulopag}
+\addtocontents{lot}{\rotulopag}
+
+% ---------- Portada y hoja de firmas (sin número de página) ----------
 \input{portada/portada}
-\input{preliminares/resumen}
+\input{portada/hoja_firmas}
+
+% ---------- Preliminares (numeración romana: I, II, III...) ----------
+\pagenumbering{Roman}
+\pagestyle{plain}
+\input{preliminares/agradecimientos}   % opcional (máx. 1 página): comentar si no se usa
+\input{preliminares/resumen}           % máx. 1 página, 3 a 5 palabras clave
 \input{preliminares/abstract}
-\input{preliminares/dedicatoria}
-\input{preliminares/agradecimientos}
 
+\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\contentsname}
 \tableofcontents
+\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\listfigurename}
 \listoffigures
+\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\listtablename}
 \listoftables
-\input{preliminares/simbologia}
+\input{preliminares/glosario}          % si corresponde
 
-% ---------- Cuerpo (numeración arábiga) ----------
+% ---------- Cuerpo principal (numeración arábiga desde la Introducción) ----------
 \cleardoublepage
 \pagenumbering{arabic}
+\pagestyle{cuerpo}
 \include{capitulos/01_introduccion}
 \include{capitulos/02_marco_teorico}
 \include{capitulos/03_metodologia}
@@ -43,11 +56,12 @@
 \include{capitulos/05_discusion}
 \include{capitulos/06_conclusiones}
 
-% ---------- Bibliografía ----------
-\printbibliography[heading=bibintoc, title={Bibliografía}]
+% ---------- Bibliografía (APA 7) ----------
+\printbibliography[heading=bibliografia]
+\label{pag:fin-cuerpo}  % make revisar mide aquí el límite de 80 páginas
 
-% ---------- Anexos ----------
-\appendix
+% ---------- Anexos (Anexo I, II, ...) ----------
+\iniciaranexos
 \include{anexos/anexo_a}
 \include{anexos/anexo_guia_plantilla} % BORRAR esta línea antes de entregar
 

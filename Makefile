@@ -13,7 +13,7 @@ ayuda:
 	@echo "Comandos disponibles:"
 	@echo "  make pdf        Compila la tesis -> salida/tesis.pdf"
 	@echo "  make vigilar    Recompila automáticamente al guardar"
-	@echo "  make revisar    Revisa errores típicos de LaTeX (chktex) y marcas pendientes"
+	@echo "  make revisar    Revisa LaTeX (chktex), marcas pendientes, citas y extensión (normativa)"
 	@echo "  make contar     Cuenta palabras por capítulo (texcount)"
 	@echo "  make figuras    Regenera figuras y tablas desde 04_analisis/scripts"
 	@echo "  make contexto   Junta todo el contexto en salida/contexto_completo.md (para otra IA / NotebookLM)"
@@ -35,11 +35,14 @@ revisar:
 	@echo "== chktex (advertencias de estilo LaTeX) =="
 	-@cd $(TESIS) && chktex -q -n1 -n8 -n24 -n36 -n44 main.tex
 	@echo ""
-	@echo "== Marcas \\pendiente / \\revisar en la tesis =="
+	@echo "== Marcas PENDIENTE / REVISAR en la tesis =="
 	-@grep -rn --include=*.tex -E '\\(pendiente|revisar)\{' $(TESIS)/capitulos $(TESIS)/preliminares $(TESIS)/anexos | grep -v anexo_guia_plantilla || echo "Sin marcas pendientes."
 	@echo ""
 	@echo "== Citas que no están en referencias.bib =="
-	@python3 herramientas/verificar_citas.py
+	-@python3 herramientas/verificar_citas.py
+	@echo ""
+	@echo "== Extensión según normativa ICV-611 =="
+	-@python3 herramientas/verificar_extension.py
 
 contar:
 	@cd $(TESIS) && texcount -inc -total -sum -q main.tex | tail -n +1

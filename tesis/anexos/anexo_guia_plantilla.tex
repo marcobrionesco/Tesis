@@ -2,6 +2,7 @@
 %  Guía de la plantilla — EJEMPLOS DE USO. BORRAR antes de entregar
 %  (quitar la línea \include{anexos/anexo_guia_plantilla} en main.tex).
 %  Sirve de referencia rápida para ti y para cualquier IA.
+%  Formato de títulos, leyendas y citas según 01_normativa/REGLAS_FORMATO.md.
 % =====================================================================
 \chapter{Guía rápida de la plantilla (borrar)}
 \label{anx:guia}
@@ -9,7 +10,7 @@
 \section{Ecuaciones}
 \label{sec:guia-ecuaciones}
 
-La ecuación de Manning para flujo uniforme en canales abiertos~\parencite{chow1959open} es:
+La ecuación de Manning para flujo uniforme en canales abiertos es:
 \begin{equation}
   V = \frac{1}{n} R_h^{2/3} S^{1/2}
   \label{ec:manning}
@@ -17,7 +18,7 @@ La ecuación de Manning para flujo uniforme en canales abiertos~\parencite{chow1
 donde $V$ es la velocidad media (\unit{\meter\per\second}), $n$ el coeficiente de rugosidad, $R_h$ el radio hidráulico (\unit{\meter}) y $S$ la pendiente.
 La \cref{ec:manning} está en unidades del SI\@.
 
-Ecuaciones alineadas, por ejemplo la ecuación de movimiento de un sistema de un grado de libertad~\parencite{chopra2017dynamics}:
+Ecuaciones alineadas, por ejemplo la ecuación de movimiento de un sistema de un grado de libertad~\parencite{suarez2014analisis}:
 \begin{align}
   m\ddot{u} + c\dot{u} + k u &= -m\ddot{u}_g(t) \label{ec:eom}\\
   \omega_n &= \sqrt{k/m}
@@ -42,6 +43,8 @@ La \cref{fig:ejemplo-python} se genera con \texttt{04\_analisis/scripts/ejemplo\
 
 \subsection{Diagrama con TikZ}
 
+Toda figura se menciona en el texto \emph{antes} de que aparezca, como la \cref{fig:tikz-flujo}.
+
 \begin{figure}[htbp]
   \centering
   \begin{tikzpicture}[
@@ -56,11 +59,13 @@ La \cref{fig:ejemplo-python} se genera con \texttt{04\_analisis/scripts/ejemplo\
     \draw[flecha] (b) -- (d);
     \draw[flecha] (d) -| (c);
   \end{tikzpicture}
-  \caption{Diagrama de flujo de metodología dibujado con TikZ.}
+  \caption{Diagrama de flujo de metodología dibujado con TikZ. Fuente: elaboración propia.}
   \label{fig:tikz-flujo}
 \end{figure}
 
 \subsection{Esquema estructural con TikZ}
+
+La \cref{fig:viga} muestra un esquema dibujado con código.
 
 \begin{figure}[htbp]
   \centering
@@ -84,6 +89,8 @@ La \cref{fig:ejemplo-python} se genera con \texttt{04\_analisis/scripts/ejemplo\
 
 \subsection{Gráfico con PGFPlots}
 
+La \cref{fig:momento} es un gráfico calculado por LaTeX.
+
 \begin{figure}[htbp]
   \centering
   \begin{tikzpicture}
@@ -105,8 +112,13 @@ La \cref{tab:ejemplo} viene de un archivo generado por Python, guardado en \text
   \input{tablas/ejemplo_tabla}
 \end{table}
 
-\section{Citas}
+\section{Citas (APA 7)}
 
-Cita en paréntesis: \parencite{chopra2017dynamics}. Cita narrativa: \textcite{chow1959open} propone\dots
+Los ejemplos oficiales de los Lineamientos, en APA~7:
+libro~\parencite{suarez2014analisis},
+artículo científico~\parencite{zhou2026performance},
+norma~\parencite{inn2009nch433}
+y sitio web~\parencite{mop2026proyectos}.
+Cita narrativa: \textcite{zhou2026performance} proponen\dots
 Si falta una fuente: \pendiente{falta fuente para el valor del coeficiente}.
 Si algo es dudoso: \revisar{¿este valor corresponde a la norma vigente?}

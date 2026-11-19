@@ -3,7 +3,7 @@
 > Fuente única para que todos los capítulos usen los mismos nombres y
 > símbolos. Si un símbolo cambia aquí, cambia en toda la tesis.
 > Las abreviaturas y símbolos que se usen en la tesis se pasan después a
-> `tesis/preliminares/simbologia.tex`.
+> `tesis/preliminares/glosario.tex` (formato del template: **SIGLA** Significado).
 
 ## Términos técnicos
 

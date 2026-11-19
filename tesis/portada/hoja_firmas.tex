@@ -1,0 +1,35 @@
+% =====================================================================
+%  Hoja de firmas Comisión Examinadora — según template oficial (TPL p. 2)
+%  y Anexo 4 de los Lineamientos. Datos en config/comandos.tex.
+%  Si se entrega la hoja firmada escaneada, reemplazar todo por:
+%  \includepdf{portada/hoja_firmas_firmada.pdf}
+% =====================================================================
+\begin{titlepage}
+  \centering
+  \setstretch{1}
+  \fontsize{12}{14}\selectfont
+  \includegraphics[width=2.4cm]{portada/logo_ucm.png}\par
+  \vspace{1.2cm}
+  \MakeUppercase{\tesisUniversidad}\par
+  \MakeUppercase{\tesisFacultad}\par
+  \MakeUppercase{\tesisEscuela}\par
+  \vspace{1.2cm}
+  Proyecto de título presentado en conformidad a los\par
+  requisitos para obtener el título de \tesisTituloProfesional\par
+  \vspace{1.2cm}
+  {\fontsize{14}{17}\selectfont\bfseries\MakeUppercase{\tesisTitulo}\par}
+  \vspace{1.2cm}
+  {\bfseries\MakeUppercase{\tesisAutor}\par}
+  \vspace{0.3cm}
+  {\bfseries PROFESOR GUÍA: \MakeUppercase{\tesisGuia}\par} % chktex 13
+  \vspace{2.2cm}
+  \renewcommand{\arraystretch}{2.4}
+  \begin{tabular}{@{}l@{\hspace{1.2cm}}l@{\hspace{1.2cm}}c@{}}
+    & \textbf{COMISIÓN EXAMINADORA} & \textbf{FIRMA} \\
+    \comisionGuia & PROFESOR GUÍA        & \rule{5cm}{0.4pt} \\
+    \comisionDos  & PROFESOR DE COMISIÓN & \rule{5cm}{0.4pt} \\
+    \comisionTres & PROFESOR DE COMISIÓN & \rule{5cm}{0.4pt} \\
+  \end{tabular}
+  \vfill
+  \MakeUppercase{\tesisCiudad}, \tesisFecha\par
+\end{titlepage}

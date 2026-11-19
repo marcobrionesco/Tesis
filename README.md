@@ -1,6 +1,7 @@
 # Tesis — Marco Briones
 
-Mi tesis de Ingeniería Civil, escrita en LaTeX y organizada como un
+Mi Proyecto de Título de Ingeniería Civil (Universidad Católica del Maule, ICV-611),
+escrito en LaTeX con el formato oficial de la Escuela, y organizado como un
 proyecto de **edición de video**: el material bruto entra por un lado, se
 selecciona, se trabaja y sale un único *master* (el PDF).
 
@@ -20,9 +21,12 @@ Tesis/
 │   ├── PLAN.md            ←   cronograma e hitos
 │   ├── GLOSARIO.md        ←   términos, símbolos y abreviaturas
 │   └── BITACORA.md        ←   registro de cada sesión de trabajo
-├── 01_normativa/          ← Instrucciones de formato de la universidad
-│   ├── originales/        ←   PDFs/Word tal como te los dieron (no se tocan)
-│   └── REGLAS_FORMATO.md  ←   las reglas extraídas, una por línea
+├── 01_normativa/          ← Normativa ICV-611 de la UCM
+│   ├── originales/        ←   Word/Excel tal como te los dieron (no se tocan)
+│   ├── texto/             ←   copia en texto para que la IA los lea
+│   ├── REGLAS_FORMATO.md  ←   las reglas extraídas, una por línea, con su fuente
+│   ├── RUBRICA.md         ←   cómo evalúa la comisión (pesos y lista de control)
+│   └── PROCESO_TITULACION.md ← plazos, comisión, defensa
 ├── 02_material_bruto/     ← "Rushes": todo lo que ya tienes, bueno y malo (no se tocan)
 ├── 03_seleccion/          ← "Logging": triaje del material, fichas de lectura, notas
 ├── 04_analisis/           ← Cálculos en Python, datos y scripts que generan figuras
@@ -52,10 +56,11 @@ flowchart LR
 
 ## Cómo empezar (primeros pasos)
 
-1. **Sube la normativa** de la universidad a `01_normativa/originales/`.
+1. ~~Subir la normativa~~ ✅ hecho: la plantilla ya cumple el formato ICV-611.
 2. **Sube todo tu material previo** a `02_material_bruto/` (borradores a `borradores_previos/`, papers a `papers/`, datos a `datos_crudos/`).
 3. **Completa** `00_proyecto/CONTEXTO.md` (aunque sea a medias).
-4. Abre una IA y pídele: *"Lee AGENTS.md y aplica la receta 01_extraer_normativa"*; luego la receta 02 para cada borrador.
+4. Completa tus datos de portada en `tesis/config/comandos.tex`.
+5. Abre una IA y pídele: *"Lee AGENTS.md y aplica la receta 02_triaje_material"* para cada borrador.
 
 Para subir archivos sin usar la terminal: en GitHub, entra a la carpeta → **Add file → Upload files**.
 
