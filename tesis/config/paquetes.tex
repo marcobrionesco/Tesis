@@ -1,0 +1,64 @@
+% =====================================================================
+%  Paquetes. Cada uno con un comentario de para qué sirve.
+% =====================================================================
+
+% --- Idioma y codificación ---
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+% es-tabla: "Tabla" en vez de "Cuadro"; es-noshorthands evita conflictos con TikZ
+\usepackage[english, spanish, es-tabla, es-noshorthands, es-lcroman]{babel} % el último idioma es el principal
+\usepackage{csquotes}           % comillas correctas con \enquote{...}
+
+% --- Fuente (provisoria; cambiar según normativa) ---
+\usepackage{lmodern}
+% Alternativas tipo Times o Arial (descomentar UNA):
+% \usepackage{newtxtext,newtxmath}   % parecida a Times New Roman
+% \usepackage[scaled]{helvet}\renewcommand{\familydefault}{\sfdefault} % parecida a Arial
+
+% --- Matemática ---
+\usepackage{amsmath, amssymb, mathtools}
+\usepackage{bm}                 % vectores/matrices en negrita: \bm{u}
+\usepackage{icomma}             % coma decimal sin espacio extra en modo matemático
+
+% --- Unidades (fundamental en ingeniería) ---
+\usepackage{siunitx}
+\sisetup{
+  output-decimal-marker = {,},  % coma decimal (estilo español)
+  group-separator = {.},
+  group-minimum-digits = 4,
+  per-mode = symbol,            % kN/m en vez de kN m^-1
+  range-phrase = { a },
+  list-final-separator = { y },
+}
+
+% --- Figuras, tablas y diagramas ---
+\usepackage{graphicx}
+\usepackage{booktabs}           % tablas profesionales (\toprule, \midrule, \bottomrule)
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{longtable}          % tablas de varias páginas
+\usepackage{caption}
+\usepackage{subcaption}         % subfiguras (a), (b)
+\usepackage{float}
+\usepackage{tikz}               % diagramas dibujados con código
+\usetikzlibrary{arrows.meta, positioning, calc, patterns, decorations.pathmorphing, shapes.geometric}
+\usepackage{pgfplots}           % gráficos con código
+\pgfplotsset{compat=1.18}
+
+% --- Listas, colores, varios ---
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{setspace}           % interlineado
+\usepackage{geometry}           % márgenes
+\usepackage{fancyhdr}           % encabezados y pies
+\usepackage{titlesec}           % formato de títulos
+\usepackage{pdfpages}           % insertar PDFs (p.ej. hoja oficial firmada)
+\usepackage{listings}           % código fuente en anexos
+
+% --- Bibliografía ---
+% Estilo provisorio APA. Para IEEE: style=ieee. Para numérico simple: style=numeric-comp
+\usepackage[backend=biber, style=apa]{biblatex}
+
+% --- Enlaces y referencias cruzadas (cargar al final) ---
+\usepackage[hidelinks]{hyperref}
+\usepackage[spanish, noabbrev]{cleveref}   % \cref{fig:x} -> "figura 2.1"

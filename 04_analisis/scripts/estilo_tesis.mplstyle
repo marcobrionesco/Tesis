@@ -1,0 +1,19 @@
+# Estilo único para todas las figuras de la tesis (consistencia visual).
+# Tamaño pensado para 0.7\textwidth en una página carta con márgenes de tesis.
+figure.figsize      : 5.5, 3.4
+figure.dpi          : 150
+savefig.bbox        : tight
+savefig.format      : pdf
+font.family         : serif
+font.size           : 10
+axes.labelsize      : 10
+axes.titlesize      : 10
+legend.fontsize     : 9
+xtick.labelsize     : 9
+ytick.labelsize     : 9
+axes.grid           : True
+grid.alpha          : 0.3
+grid.linestyle      : --
+axes.spines.top     : False
+axes.spines.right   : False
+lines.linewidth     : 1.5

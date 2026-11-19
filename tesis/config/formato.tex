@@ -1,0 +1,49 @@
+% =====================================================================
+%  Formato de página. TODOS estos valores son PROVISORIOS hasta llenar
+%  01_normativa/REGLAS_FORMATO.md. Cada valor indica la regla que aplica.
+% =====================================================================
+
+% --- Márgenes --- [REGLAS_FORMATO: Página y tipografía]
+\geometry{
+  left   = 3.5cm,
+  right  = 2.5cm,
+  top    = 2.5cm,
+  bottom = 2.5cm,
+}
+
+% --- Interlineado --- [REGLAS_FORMATO: Interlineado]
+\onehalfspacing
+
+% --- Sangría y separación de párrafos ---
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0.5em}
+
+% --- Encabezados y pies --- [REGLAS_FORMATO: Numeración de páginas]
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}}
+
+% --- Títulos de capítulo --- [REGLAS_FORMATO: Títulos y numeración]
+\titleformat{\chapter}[display]
+  {\normalfont\Large\bfseries\centering}
+  {\MakeUppercase{\chaptertitlename}~\thechapter}
+  {0.5em}
+  {\MakeUppercase}
+\titlespacing*{\chapter}{0pt}{0pt}{2em}
+\setcounter{secnumdepth}{3}   % numerar hasta subsubsección (1.1.1.1 no)
+\setcounter{tocdepth}{2}      % índice hasta subsección
+
+% --- Leyendas de figuras y tablas ---
+\captionsetup{font=small, labelfont=bf, labelsep=period, justification=centering}
+\captionsetup[table]{position=above}
+
+% --- Numeración de ecuaciones, figuras y tablas por capítulo (2.1, 2.2...) ---
+\numberwithin{equation}{chapter}
+
+% --- Rutas ---
+\graphicspath{{figuras/}}
+
+% --- Estilo de código en anexos ---
+\lstset{basicstyle=\ttfamily\small, breaklines=true, frame=single, numbers=left, numberstyle=\tiny}

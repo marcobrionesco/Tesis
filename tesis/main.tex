@@ -1,0 +1,54 @@
+% =====================================================================
+%  TESIS — Archivo principal ("timeline master")
+%  Compilar desde la raíz del repo con:  make pdf
+%  Este archivo solo ARMA la tesis: no escribir contenido aquí.
+% =====================================================================
+% Opciones provisorias: ajustar según 01_normativa/REGLAS_FORMATO.md
+\documentclass[12pt, letterpaper, oneside]{report}
+
+%TC:ignore  (texcount: no contar la configuración)
+\input{config/paquetes}   % paquetes
+\input{config/formato}    % márgenes, fuente, interlineado, títulos
+\input{config/comandos}   % comandos propios y datos de la tesis
+%TC:endignore
+
+\addbibresource{bib/referencias.bib}
+
+% Para compilar solo algunos capítulos mientras trabajas (más rápido),
+% descomenta y ajusta la siguiente línea:
+% \includeonly{capitulos/02_marco_teorico}
+
+\begin{document}
+
+% ---------- Preliminares (numeración romana) ----------
+\pagenumbering{roman}
+\input{portada/portada}
+\input{preliminares/resumen}
+\input{preliminares/abstract}
+\input{preliminares/dedicatoria}
+\input{preliminares/agradecimientos}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\input{preliminares/simbologia}
+
+% ---------- Cuerpo (numeración arábiga) ----------
+\cleardoublepage
+\pagenumbering{arabic}
+\include{capitulos/01_introduccion}
+\include{capitulos/02_marco_teorico}
+\include{capitulos/03_metodologia}
+\include{capitulos/04_resultados}
+\include{capitulos/05_discusion}
+\include{capitulos/06_conclusiones}
+
+% ---------- Bibliografía ----------
+\printbibliography[heading=bibintoc, title={Bibliografía}]
+
+% ---------- Anexos ----------
+\appendix
+\include{anexos/anexo_a}
+\include{anexos/anexo_guia_plantilla} % BORRAR esta línea antes de entregar
+
+\end{document}

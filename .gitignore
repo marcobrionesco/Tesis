@@ -1,0 +1,38 @@
+# --- Salidas de compilación (las genera `make pdf` o GitHub Actions) ---
+salida/
+
+# --- Auxiliares de LaTeX ---
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+*.nav
+*.snm
+*.vrb
+*.lol
+
+# --- Python ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- Sistema / editores ---
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# --- Secretos ---
+.env

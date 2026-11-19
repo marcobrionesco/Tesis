@@ -1,0 +1,49 @@
+% =====================================================================
+%  Comandos propios y datos de la tesis (un solo lugar para cambiarlos)
+% =====================================================================
+
+% --- Datos de la tesis (se usan en portada, metadatos del PDF, etc.) ---
+\newcommand{\tesisTitulo}{Título provisorio de la tesis}
+\newcommand{\tesisAutor}{Marco Briones}
+\newcommand{\tesisGrado}{Memoria para optar al título de Ingeniero Civil}
+\newcommand{\tesisUniversidad}{Nombre de la Universidad}
+\newcommand{\tesisFacultad}{Facultad de Ingeniería}
+\newcommand{\tesisDepartamento}{Departamento de Ingeniería Civil}
+\newcommand{\tesisGuia}{Nombre del Profesor Guía}
+\newcommand{\tesisCiudad}{Ciudad}
+\newcommand{\tesisAnio}{\the\year}
+
+\hypersetup{pdftitle={\tesisTitulo}, pdfauthor={\tesisAutor}}
+
+% --- Marcas de trabajo ---
+% Para la versión final cambiar \mostrarmarcastrue por \mostrarmarcasfalse
+\newif\ifmostrarmarcas
+\mostrarmarcastrue
+\ifmostrarmarcas
+  \newcommand{\pendiente}[1]{\textcolor{red}{\textbf{\lbrack PENDIENTE:} #1\textbf{\rbrack}}}
+  \newcommand{\revisar}[1]{\textcolor{orange}{\textbf{\lbrack REVISAR:} #1\textbf{\rbrack}}}
+\else
+  \newcommand{\pendiente}[1]{}
+  \newcommand{\revisar}[1]{}
+\fi
+
+% --- Notación matemática (mantener consistente con 00_proyecto/GLOSARIO.md) ---
+\newcommand{\vect}[1]{\bm{#1}}                 % vector
+\newcommand{\matr}[1]{\mathbf{#1}}             % matriz
+\newcommand{\dd}{\mathop{}\!\mathrm{d}}        % diferencial: \dd x
+\newcommand{\deriv}[2]{\frac{\dd #1}{\dd #2}}  % derivada
+\newcommand{\pderiv}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\fc}{f'_{c}}                       % resistencia del hormigón
+
+% --- Unidades no estándar en siunitx ---
+\DeclareSIUnit{\tonf}{tonf}
+\DeclareSIUnit{\kgf}{kgf}
+
+% --- Nombres en español: "Anexo" en vez de "Apéndice", "tabla" en vez de "cuadro" ---
+\addto\captionsspanish{\renewcommand{\appendixname}{Anexo}}
+\crefname{table}{tabla}{tablas}
+\Crefname{table}{Tabla}{Tablas}
+\crefname{appendix}{anexo}{anexos}
+\Crefname{appendix}{Anexo}{Anexos}
+\crefname{equation}{ecuación}{ecuaciones}
+\Crefname{equation}{Ecuación}{Ecuaciones}

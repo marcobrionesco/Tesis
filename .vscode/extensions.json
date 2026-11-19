@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "james-yu.latex-workshop",
+    "ltex-plus.vscode-ltex-plus",
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "hediet.vscode-drawio",
+    "bierner.markdown-mermaid"
+  ]
+}
