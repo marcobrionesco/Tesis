@@ -30,6 +30,7 @@ Tesis/
 ├── 02_material_bruto/     ← "Rushes": todo lo que ya tienes, bueno y malo (no se tocan)
 ├── 03_seleccion/          ← "Logging": triaje del material, fichas de lectura, notas
 ├── 04_analisis/           ← Cálculos en Python, datos y scripts que generan figuras
+├── 05_ejemplos/           ← Tesis y memorias de cálculo de otros, como modelo (con fichas)
 ├── tesis/                 ← EL MASTER: solo el LaTeX final
 │   ├── main.tex
 │   ├── config/            ←   formato, paquetes y comandos

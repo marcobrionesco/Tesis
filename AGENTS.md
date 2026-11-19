@@ -33,6 +33,7 @@ material bruto entra por un lado, se clasifica, se trabaja y sale un
 | `02_material_bruto/` | Ingesta / rushes | Todo lo generado antes (bueno y malo), papers, datos crudos | **NUNCA se modifica**, solo se agrega |
 | `03_seleccion/` | Logging / selección de tomas | Fichas de lectura, triaje de borradores, notas de investigación | Sí |
 | `04_analisis/` | Efectos / VFX / color | Código (Python), cálculos, notebooks, scripts que generan figuras | Sí |
+| `05_ejemplos/` | Referencias / *moodboard* | Tesis y memorias de cálculo **ajenas** usadas como modelo de forma y método, con su ficha | Originales **NUNCA**; fichas sí. **Nunca copiar texto** |
 | `tesis/` | **Timeline / master** | SOLO el LaTeX final que va al PDF | Sí, con cuidado |
 | `herramientas/` | Plugins / presets / scripts | Scripts y recetas (prompts) reutilizables | Sí |
 | `salida/` | Exportaciones / render | PDFs compilados (no se versiona, lo genera la CI) | No |
@@ -53,7 +54,7 @@ material bruto entra por un lado, se clasifica, se trabaja y sale un
    Si no hay fuente, escribe `\pendiente{falta fuente: ...}` en vez de inventar.
 2. **Nunca inventar datos, resultados ni valores de normas.** Si falta un dato,
    marcarlo con `\pendiente{...}`.
-3. **No modificar** `01_normativa/originales/` ni `02_material_bruto/`. Son la
+3. **No modificar** `01_normativa/originales/`, `02_material_bruto/` ni los originales de `05_ejemplos/`. Son la
    "cinta original". Lo que se rescate de ahí se reescribe en `03_seleccion/` o `tesis/`.
 4. **La normativa de la universidad manda** sobre cualquier preferencia de estilo.
 5. **Al terminar una sesión**, actualizar `00_proyecto/ESTADO.md` y agregar una
