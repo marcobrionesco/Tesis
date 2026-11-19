@@ -7,42 +7,51 @@
 
 ## Estado general
 
-- ✅ Estructura del repositorio y herramientas listas.
-- ✅ Normativa ICV-611 (UCM) cargada, extraída (`01_normativa/REGLAS_FORMATO.md`, `RUBRICA.md`, `PROCESO_TITULACION.md`) y **aplicada** a la plantilla LaTeX.
-- ⬜ Material previo del estudiante: aún no subido a `02_material_bruto/`.
-- ⬜ `00_proyecto/CONTEXTO.md` sin completar (tema, objetivos, etapa).
+- ✅ Estructura del repositorio, herramientas y normativa ICV-611 aplicada a la plantilla.
+- ✅ Versión 3.0 de la tesis (la que se envió al profesor guía) **ingresada**, **triada** y **migrada** a la plantilla.
+  - Triaje: `03_seleccion/triaje/2026-11-19_triaje_proyecto-titulo-v3.0.md`
+  - Autoevaluación con rúbrica: `03_seleccion/notas/autoevaluacion_2026-11-19_v3.0.md` (≈ 50 %, veredicto probable "revisiones mayores")
+- ✅ Correcciones objetivas aplicadas en la migración (bibliografía, signo de ecuación, unidades, redacción, figura 2.1 redibujada, planos dentro del margen).
+- 🟧 El PDF compila sin errores; contiene **marcas `\revisar{}` (naranja) y `\pendiente{}` (rojo)** con todo lo que falta. Verlas con `make revisar`.
+- ⬜ Faltan las **observaciones escritas del profesor guía** (pedírselas o transcribirlas a `03_seleccion/notas/`).
 
 ## Estado por capítulo
 
-Leyenda: ⬜ no iniciado · 🟨 material bruto (sin triaje) · 🟧 borrador en LaTeX · 🟦 en revisión · ✅ terminado
+Leyenda: ⬜ no iniciado · 🟨 material bruto · 🟧 borrador en LaTeX · 🟦 en revisión · ✅ terminado
 
-| Sección | Archivo | Peso rúbrica | Estado | Notas |
+| Sección | Archivo | Peso | Estado | Lo que falta (ver triaje) |
 |---|---|---|---|---|
-| Portada y hoja de firmas | `tesis/portada/` | (Formato 5 %) | 🟧 | Formato listo; faltan datos reales en `config/comandos.tex` |
-| Agradecimientos | `tesis/preliminares/agradecimientos.tex` | — | ⬜ | Opcional |
-| Resumen / Abstract | `tesis/preliminares/` | 5 % | ⬜ | Se escribe al final |
-| Glosario | `tesis/preliminares/glosario.tex` | — | ⬜ | Si corresponde |
-| 1. Introducción y Planteamiento del Problema | `capitulos/01_introduccion.tex` | 10 % | ⬜ | |
-| 2. Marco Teórico / Estado del Arte | `capitulos/02_marco_teorico.tex` | 15 % | ⬜ | |
-| 3. Metodología | `capitulos/03_metodologia.tex` | 20 % | ⬜ | |
-| 4. Presentación de Resultados | `capitulos/04_resultados.tex` | 15 % | ⬜ | |
-| 5. Discusión de Resultados | `capitulos/05_discusion.tex` | 15 % | ⬜ | |
-| 6. Conclusiones | `capitulos/06_conclusiones.tex` | 5 % | ⬜ | |
-| Bibliografía | `tesis/bib/referencias.bib` | 5 % | ⬜ | Solo ejemplos oficiales; meta ≥ 15 refs |
-| Anexos | `tesis/anexos/` | — | ⬜ | Borrar `anexo_guia_plantilla.tex` antes de entregar |
+| Portada y firmas | `tesis/portada/` | Formato 5 % | ✅ | Nombres de los 2 integrantes de la comisión |
+| Agradecimientos | `preliminares/agradecimientos.tex` | — | ✅ | — |
+| Resumen / Abstract | `preliminares/` | 5 % | 🟧 | Datos cuantitativos (al final) |
+| Glosario | `preliminares/glosario.tex` | — | 🟧 | Sigla OD duplicada |
+| 1. Introducción | `capitulos/01_introduccion.tex` | 10 % | 🟧 | Preguntas de investigación, contribuciones, alcances, datos cuantitativos |
+| 2. Marco Teórico | `capitulos/02_marco_teorico.tex` | 15 % | 🟧 | **Estado del arte crítico con literatura 2016–2026**; fuentes de C y K; norma de combinaciones |
+| 3. Metodología | `capitulos/03_metodologia.tex` | 20 % | 🟧 | Diagrama + entregables; datos de monitoreo; zona sísmica; fuentes (2 %, L/300) |
+| 4. Resultados | `capitulos/04_resultados.tex` | 15 % | 🟧 | **ADT/bombas; verificación LRFD; presiones de contacto; líneas estero y agroquímicos; NTK** |
+| 5. Discusión | `capitulos/05_discusion.tex` | 15 % | 🟧 | Unificar perfiles y zona; comparar con literatura |
+| 6. Conclusiones | `capitulos/06_conclusiones.tex` | 5 % | 🟧 | Limitaciones y trabajo futuro; apoyar en resultados propios |
+| Bibliografía | `bib/referencias.bib` | 5 % | 🟧 | 27 refs; 4 por verificar; sumar artículos recientes |
+| Anexos I–V | `tesis/anexos/` | — | 🟧 | Láminas 3.1–3.2 en PDF vectorial; itemizado como tabla |
 
-## Próximos pasos (en orden)
+## Próximos pasos (en orden de impacto)
 
-1. [ ] Subir todo el material previo a `02_material_bruto/` (borradores, papers, datos, anteproyecto si existe).
-2. [ ] Completar `00_proyecto/CONTEXTO.md` (tipo de proyecto, etapa actual, tema, objetivos).
-3. [ ] Completar datos de portada en `tesis/config/comandos.tex` (nombre completo, profesor guía, comisión).
-4. [ ] Triaje del material bruto (receta `02_triaje_material.md`).
-5. [ ] Pasar lo rescatable a LaTeX, capítulo por capítulo (receta `04_borrador_a_latex.md`), priorizando Metodología (20 %).
-6. [ ] Autoevaluar con la rúbrica (receta `10_autoevaluar_rubrica.md`) antes de cada entrega.
+1. [ ] **Pedir/transcribir las observaciones del profesor guía** y cruzarlas con el triaje.
+2. [ ] **Resolver inconsistencias** (decisiones del autor): perfiles estructurales (C2), zona sísmica (C3), NTK y carga amoniacal (C4, C5), columnas de la tabla de riego.
+3. [ ] **Completar Resultados** (C1, C6): ADT y bombas, verificación LRFD, corte basal, presiones de contacto, líneas estero/agroquímicos.
+4. [ ] **Reforzar Marco Teórico** con literatura reciente (receta 07 + fichas con receta 03).
+5. [ ] **Completar Introducción** (preguntas, contribuciones, alcances) y **Conclusiones** (limitaciones, trabajo futuro).
+6. [ ] Verificar las 4 referencias marcadas "VERIFICAR" en `referencias.bib`.
+7. [ ] Al final: Resumen con cifras (máx. 1 página), autoevaluación (receta 10), entrega (receta 09).
 
-## Bloqueos / preguntas abiertas (para el profesor guía)
+## Bloqueos / preguntas abiertas (para el profesor guía o el co-guía)
 
-- **Orden de preliminares:** los Lineamientos ponen *Agradecimientos* antes del *Resumen*; el template Word los pone después del *Abstract*. Se usó el orden de los Lineamientos. ¿Cuál prefiere?
-- **Nombres de capítulos 2, 3 y 5:** dependen del tipo de proyecto ("Estado del Arte" vs. "Marco Teórico"; "Materiales y Métodos" vs. "Metodología"; "Discusión" vs. "Análisis de Resultados"). Provisorio: Marco Teórico / Metodología / Discusión de Resultados.
-- **Etapa:** si todavía falta entregar el **anteproyecto** (máx. 15 págs., con carta Gantt, encabezado por sección, 2 niveles), se puede generar una versión `main_anteproyecto.tex` a partir de la misma estructura.
-- **Logo:** se usa el logo incluido en el template (139 px, baja resolución). Conviene pedir el logo oficial en alta resolución o vectorial.
+- ¿Cuáles fueron sus observaciones concretas a la v3.0?
+- **Perfiles definitivos** de la plataforma: ¿150×150×6 / 150×100×3 o 250×250×6 / 150×50×3?
+- **Zona sísmica** de Linares y **versión de NCh2369** a usar (2003 vs. 2023).
+- ¿Contenido de estanques como carga viva o de operación? ¿Combinaciones de NCh3171 o de NCh2369?
+- **NTK** de las aguas servidas: ¿los 1–1,5 mg/L son datos de monitoreo reales?
+- **Norma de reúso**: ¿existe otra además de la NCh1333 (la v2.0 citaba "NCh3456")?
+- Origen de la **capacidad admisible de 150 kPa**.
+- Orden de preliminares (Agradecimientos antes del Resumen, según Lineamientos) — sigue pendiente.
+- ¿Separar los 2 objetivos específicos en más objetivos?

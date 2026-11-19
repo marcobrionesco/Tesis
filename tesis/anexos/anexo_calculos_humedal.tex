@@ -1,0 +1,82 @@
+% Anexo I — Memoria de cálculo del humedal (línea de aguas servidas). Origen: v3.0, Anexo A.
+\chapter{Cálculos detallados del humedal para las aguas residuales domésticas (casa y oficina)}
+\label{anx:calculos-humedal}
+
+\section{Resumen de datos iniciales}
+
+Caudales de diseño: casa, \qty{600}{\liter\per\day}; oficina, \qty{150}{\liter\per\day}.
+Concentraciones iniciales:
+\begin{itemize}
+  \item DQO: casa, \qty{300}{\milli\gram\per\liter}; oficina, \qty{400}{\milli\gram\per\liter}.
+  \item NTK: casa, \qty{1.5}{\milli\gram\per\liter}; oficina, \qty{1}{\milli\gram\per\liter} (se asume el amonio como valor de NTK).
+\end{itemize}
+\revisar{Valores de NTK en revisión (ver \cref{tab:resumen-afluentes}).}
+
+Las cargas totales de ingreso al humedal se calculan como:
+\begin{align*}
+  \mathrm{DQO} &= \frac{\qty{600}{\liter\per\day} \times \qty{300}{\milli\gram\per\liter} + \qty{150}{\liter\per\day} \times \qty{400}{\milli\gram\per\liter}}{1000} = \qty{240}{\gram\per\day} \\
+  \mathrm{NTK} &= \frac{\qty{600}{\liter\per\day} \times \qty{1.5}{\milli\gram\per\liter} + \qty{150}{\liter\per\day} \times \qty{1}{\milli\gram\per\liter}}{1000} = \qty{1.05}{\gram\per\day}
+\end{align*}
+
+Considerando una eliminación del \qty{25}{\percent} de la DQO y sin eliminación de NTK en la fosa séptica, las cargas de diseño que ingresan al humedal son \qty{180}{\gram\per\day} de DQO y \qty{1.1}{\gram\per\day} de NTK.
+\revisar{Citar la fuente del \qty{25}{\percent} de remoción de DQO en fosa séptica.}
+
+\section{Cálculo del área necesaria}
+
+El método de diseño empleado para el humedal vertical es el método del balance de oxígeno~\parencite{platzer1999design}, que exige que el aporte de oxígeno ($OI$) supere a la demanda ($OD$):
+\begin{equation*}
+  OI - OD > 0, \qquad OD = OD_{\mathrm{DQO}} + OD_{\mathrm{N}} - OD_{\mathrm{DN}}, \qquad OI = OI_{\mathrm{dif}} + OI_{\mathrm{conv}}
+\end{equation*}
+donde, en \unit{\gram\per\day} de O$_2$: $OI$ es el aporte total de oxígeno; $OD$ la demanda total; $OD_{\mathrm{DQO}}$ la demanda debida a la descomposición de la materia orgánica; $OD_{\mathrm{N}}$ la demanda debida a la nitrificación; $OD_{\mathrm{DN}}$ la reducción de la demanda por desnitrificación parcial; $OI_{\mathrm{dif}}$ el aporte por difusión, y $OI_{\mathrm{conv}}$ el aporte por convección.
+
+\subsection{Demanda de oxígeno}
+
+Para la degradación de la materia orgánica se considera que se necesitan \qty{0.7}{\gram} de O$_2$ por gramo de DQO y que la eliminación promedio es del \qty{85}{\percent}:
+\begin{equation*}
+  OD_{\mathrm{DQO}} = \num{0.85} \times \num{0.7}\,\frac{\mathrm{g\,O_2}}{\mathrm{g\,DQO}} \times 180\,\frac{\mathrm{g\,DQO}}{\mathrm{d}} = \num{107.1}\,\frac{\mathrm{g\,O_2}}{\mathrm{d}}
+\end{equation*}
+
+Para la nitrificación se consideran \qty{4.3}{\gram} de O$_2$ por gramo de NTK:
+\begin{equation*}
+  OD_{\mathrm{N}} = \num{4.3}\,\frac{\mathrm{g\,O_2}}{\mathrm{g\,NTK}} \times \num{1.1}\,\frac{\mathrm{g\,NTK}}{\mathrm{d}} = \num{4.7}\,\frac{\mathrm{g\,O_2}}{\mathrm{d}}
+\end{equation*}
+
+Se desprecia el aporte por desnitrificación, ya que, al ser un humedal con alimentación por pulsos, es un sistema aerobio.
+Así, la demanda de oxígeno total es:
+\begin{equation*}
+  OD = \num{107.1} + \num{4.7} = \num{111.8}\,\frac{\mathrm{g\,O_2}}{\mathrm{d}}
+\end{equation*}
+
+\subsection{Aporte de oxígeno}
+
+El aporte por convección es proporcional a la carga hidráulica, suponiendo que el aire contiene \qty{0.3}{\gram} de O$_2$ por litro:
+\begin{equation*}
+  OI_{\mathrm{conv}} = \num{0.3}\,\frac{\mathrm{g\,O_2}}{\mathrm{L}} \times V_d \times 1000\,\frac{\mathrm{L}}{\mathrm{m^3}} = \num{0.3} \times \num{0.75} \times 1000 = 225\,\frac{\mathrm{g\,O_2}}{\mathrm{d}}
+\end{equation*}
+donde $V_d$ es el volumen de agua aplicado diariamente (\qty{0.75}{\cubic\meter\per\day}).
+
+El aporte por difusión se considera de \qty{1}{\gram} de O$_2$ por hora y por metro cuadrado, descontando \qty{1.5}{\hour} por carga, tiempo durante el cual no hay reoxigenación:
+\begin{equation*}
+  OI_{\mathrm{dif}} = 1\,\frac{\mathrm{g\,O_2}}{\mathrm{h\,m^2}} \times A \times \left(24 - \num{1.5}\, n_{c}\right)\,\frac{\mathrm{h}}{\mathrm{d}}
+\end{equation*}
+donde $A$ es el área superficial (\unit{\square\meter}) y $n_c$ el número de cargas diarias.
+
+Por tanteo se define un área y un número de cargas tales que el aporte por difusión, sumado al aporte por convección, supere la demanda de oxígeno.
+Con $A = \qty{6}{\square\meter}$ y $n_c = 6$:
+\begin{equation*}
+  OI_{\mathrm{dif}} = 1 \times 6 \times (24 - \num{1.5} \times 6) = 90\,\frac{\mathrm{g\,O_2}}{\mathrm{d}}
+  \qquad\Rightarrow\qquad
+  OI = 225 + 90 = 315\,\frac{\mathrm{g\,O_2}}{\mathrm{d}}
+\end{equation*}
+
+Como el aporte total (\qty{315}{\gram\per\day}) es mayor que la demanda (\qty{111.8}{\gram\per\day}), el diseño es satisfactorio.
+
+\section{Comprobaciones}
+
+\begin{itemize}
+  \item Carga hidráulica: $\qty{0.75}{\cubic\meter\per\day} / \qty{6}{\square\meter} = \qty{0.125}{\meter\per\day} = \qty{125}{\milli\meter\per\day}$.
+  \item Carga orgánica superficial: $\qty{180}{\gram\per\day} / \qty{6}{\square\meter} = \qty{30}{\gram\per\square\meter\per\day}$ de DQO.
+\end{itemize}
+
+Se comprueba así que el diseño cumple con la carga de \qty{30}{\gram\per\square\meter\per\day} de DQO, y que la carga hidráulica es conservadora respecto de lo reportado por la literatura~\parencite{brix2005use,dotro2017treatment}.
+\revisar{Indicar los valores de referencia de la literatura con los que se compara.}

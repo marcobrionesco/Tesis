@@ -33,7 +33,7 @@ vigilar:
 
 revisar:
 	@echo "== chktex (advertencias de estilo LaTeX) =="
-	-@cd $(TESIS) && chktex -q -n1 -n8 -n24 -n36 -n44 main.tex
+	-@cd $(TESIS) && chktex -q -n1 -n8 -n12 -n13 -n24 -n36 -n44 main.tex  # 12 y 13: falsos positivos con siglas (IBC., DQO.)
 	@echo ""
 	@echo "== Marcas PENDIENTE / REVISAR en la tesis =="
 	-@grep -rn --include=*.tex -E '\\(pendiente|revisar)\{' $(TESIS)/capitulos $(TESIS)/preliminares $(TESIS)/anexos | grep -v anexo_guia_plantilla || echo "Sin marcas pendientes."

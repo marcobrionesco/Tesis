@@ -1,19 +1,205 @@
 % =====================================================================
-%  Capítulo: Presentación de Resultados
-%  Rúbrica: 15 %. Un bloque de resultados por objetivo específico; cada figura/tabla descrita en el texto.
-%  Estado: ver 00_proyecto/ESTADO.md · Rúbrica: 01_normativa/RUBRICA.md
-%  Tercera persona. Una oración por línea. Unidades con siunitx.
-%  Citas solo de referencias.bib. Figuras/tablas citadas ANTES de aparecer.
+%  Capítulo 4: Presentación de Resultados
+%  Rúbrica: 15 %. Organizados según la metodología; cada figura/tabla con
+%  descripción completa; deben permitir validar TODOS los objetivos.
+%  Origen: v3.0 + memoria de cálculo (2026-11-19). Ver triaje en 03_seleccion/triaje/.
 % =====================================================================
 \chapter{Presentación de Resultados}
 \label{cap:resultados}
 
-\section{Resultados del objetivo específico 1}
-\pendiente{Figuras y tablas generadas desde 04\_analisis/scripts, con descripción completa.}
+\section{Diseño hidráulico y humedales (objetivo específico 1)}
+\label{sec:res-hidraulico}
 
-\section{Resultados del objetivo específico 2}
-\pendiente{Figuras y tablas de este objetivo, con descripción completa.}
+\subsection{Volúmenes de diseño para vivienda y oficinas}
 
-\section{Resultados del objetivo específico 3}
-\pendiente{Figuras y tablas de este objetivo, con descripción completa.}
+El caudal de diseño para las aguas servidas habitacionales (casa, AS2) se obtuvo del registro histórico del medidor de agua potable entre marzo de 2025 y marzo de 2026 (\cref{tab:consumo-casa}).
+El consumo promedio fue de \qty{22.30}{\cubic\meter} al mes, equivalente a \qty{743.6}{\liter\per\day}.
+Aplicando un coeficiente de recuperación de \num{0.8}, se determinó un caudal de diseño de \qty{0.60}{\cubic\meter\per\day}.
+\revisar{Citar la fuente del coeficiente de recuperación de \num{0.8} (p.\ ej.\ \textcite{tchobanoglous2014wastewater} o la normativa sanitaria chilena).}
 
+\begin{table}[htbp]
+  \centering
+  \caption{Registro mensual de consumo de agua en la casa (AS2) y caudal de diseño.}
+  \label{tab:consumo-casa}
+  \begin{tabular}{lc}
+    \toprule
+    Mes de registro & Consumo mensual (\unit{\cubic\meter}) \\
+    \midrule
+    Marzo 2025 & 19 \\
+    Abril 2025 & 22 \\
+    Mayo 2025 & 23 \\
+    Junio 2025 & 17 \\
+    Julio 2025 & 10 \\
+    Agosto 2025 & 19 \\
+    Septiembre 2025 & 21 \\
+    Octubre 2025 & 22 \\
+    Noviembre 2025 & 35 \\
+    Diciembre 2025 & 34 \\
+    Enero 2026 & 27 \\
+    Febrero 2026 & 20 \\
+    Marzo 2026 & 21 \\
+    \midrule
+    Promedio histórico & \qty{22.30}{\cubic\meter} al mes \\
+    Consumo diario equivalente & \qty{743.6}{\liter\per\day} \\
+    \midrule
+    \textbf{Caudal de diseño ($R = \num{0.8}$)} & \textbf{\qty{600}{\liter\per\day}} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Para el sector de oficinas (AS1), que no cuenta con registro histórico independiente, el volumen se estimó mediante aforos de los artefactos sanitarios y la frecuencia de uso en dos escenarios: ocupación regular (escenario~1) y período de vacaciones (escenario~2), como muestra la \cref{tab:consumo-oficina}.
+Posterior a la evaluación de ambos escenarios, se adoptó un caudal de diseño de \qty{150}{\liter\per\day} (\qty{0.15}{\cubic\meter\per\day}).
+\revisar{Justificar por qué se adopta \qty{150}{\liter\per\day} y no el escenario más desfavorable (\qty{165}{\liter\per\day}).}
+
+\begin{table}[htbp]
+  \centering
+  \caption{Estimación del caudal de aguas servidas de oficinas (AS1) mediante aforos y escenarios de uso.}
+  \label{tab:consumo-oficina}
+  \begin{tabular}{@{}lccccc@{}}
+    \toprule
+    & Volumen por & \multicolumn{2}{c}{Usos por día} & \multicolumn{2}{c}{Volumen (\unit{\liter\per\day})} \\
+    \cmidrule(lr){3-4}\cmidrule(l){5-6}
+    Artefacto & uso (\unit{\liter}) & Esc.~1 & Esc.~2 & Esc.~1 & Esc.~2 \\
+    \midrule
+    Inodoro & 9 (descarga) & 9 & 5 & 81 & 45 \\
+    Lavamanos & 3 (\qty{6}{\liter\per\minute} $\times$ \qty{0.5}{\minute}) & 10 & 5 & 30 & 15 \\
+    Lavaplatos & 9 (\qty{6}{\liter\per\minute} $\times$ \qty{1.5}{\minute}) & 6 & 4 & 54 & 36 \\
+    \midrule
+    \multicolumn{4}{@{}l}{Total diario estimado} & 165 & 96 \\
+    \multicolumn{4}{@{}l}{\textbf{Caudal de diseño adoptado}} & \multicolumn{2}{c}{\textbf{150}} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+El caudal total de aguas servidas afluente al sistema de tratamiento alcanzó \qty{0.75}{\cubic\meter\per\day}.
+La \cref{tab:resumen-afluentes} consolida los caudales y concentraciones de diseño de las tres fuentes.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Caudales y concentraciones de diseño por fuente.}
+  \label{tab:resumen-afluentes}
+  \begin{tabular}{@{}lccc@{}}
+    \toprule
+    Fuente & Caudal (\unit{\liter\per\day}) & DQO (\unit{\milli\gram\per\liter}) & NTK (\unit{\milli\gram\per\liter}) \\
+    \midrule
+    Aguas servidas casa (AS2) & 600 & 300 & \num{1.5}\,\textsuperscript{a} \\
+    Aguas servidas oficinas (AS1) & 150 & 400 & \num{1.0}\,\textsuperscript{a} \\
+    Residuos agroquímicos (AGR1, AGR2) & ---\textsuperscript{b} & ---\textsuperscript{b} & ---\textsuperscript{b} \\
+    Estero Batuco (EST) & ---\textsuperscript{b} & ---\textsuperscript{b} & ---\textsuperscript{b} \\
+    \bottomrule
+    \multicolumn{4}{@{}p{0.9\textwidth}@{}}{\footnotesize \textsuperscript{a} Corresponde a la concentración de amonio, asumida igual al NTK. \textsuperscript{b} \pendiente{completar con los datos de monitoreo}.}
+  \end{tabular}
+\end{table}
+
+\revisar{Los valores de NTK (\qtyrange{1.0}{1.5}{\milli\gram\per\liter}) son muy bajos para agua servida doméstica cruda, cuyo NTK típico es del orden de decenas de \unit{\milli\gram\per\liter} \parencite{tchobanoglous2014wastewater}.
+Verificar los datos de monitoreo; si se confirman, explicar por qué; si no, recalcular el balance de oxígeno.
+Además, la memoria de cálculo original indica una carga amoniacal de $\sim$\qty{3}{\gram\per\square\meter\per\day} (\qty{18}{\gram\per\day} en \qty{6}{\square\meter}), incoherente con los \qty{1.1}{\gram\per\day} usados aquí.}
+
+\subsection{Demanda de agua para riego}
+
+Para establecer el volumen que la estación debe proporcionar al riego de los cerezos, se evaluaron escenarios de riego por goteo variando el número de plantas y el tiempo de operación (\cref{tab:demanda-riego}).
+El escenario de 10 plantas con 8 goteros de \qty{2}{\liter\per\hour} cada una define un caudal de \qty{160}{\liter\per\hour} para el sistema de microrriego.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Demanda de agua para riego según condición operativa.}
+  \label{tab:demanda-riego}
+  \begin{tabular}{@{}lcccccc@{}}
+    \toprule
+    & Gotero & Tiempo & Goteros & Volumen por & Volumen total & Demanda \\
+    Condición & (\unit{\liter\per\hour}) & (\unit{\hour}) & por planta & planta (\unit{\liter}) & (\unit{\liter} por semana) & (\unit{\liter\per\day}) \\
+    \midrule
+    12 plantas, 8~h & 2 & 8 & 8 & 128 & 1536 & 768 \\
+    12 plantas, 6~h & 2 & 6 & 8 & 96 & 1152 & 576 \\
+    10 plantas, 8~h & 2 & 8 & 8 & 128 & 1280 & 640 \\
+    10 plantas, 6~h & 2 & 6 & 8 & 96 & 960 & 480 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\revisar{La columna \enquote{Demanda} es la mitad del volumen semanal (p.\ ej.\ 1536/2 = 768), no el volumen semanal dividido por 7 (que daría \qty{219}{\liter\per\day}).
+Aclarar la frecuencia de riego (¿dos eventos por semana?) y corregir los encabezados.}
+
+\subsection{Dimensionamiento del humedal por balance de oxígeno}
+
+Las cargas másicas iniciales se calcularon con concentraciones de DQO de \qty{300}{\milli\gram\per\liter} para la casa y de \qty{400}{\milli\gram\per\liter} para la oficina.
+Considerando una remoción teórica del \qty{25}{\percent} en la fosa séptica previa, la carga orgánica neta de diseño que ingresa al humedal se estableció en \qty{180}{\gram\per\day} de DQO, mientras que la carga nitrogenada fue de \qty{1.1}{\gram\per\day} de NTK~\parencite{tchobanoglous2014wastewater}.
+El desarrollo completo del cálculo se presenta en el \cref{anx:calculos-humedal}.
+
+Al aplicar el modelo de balance estequiométrico de oxígeno~\parencite{platzer1999design}, se cuantificó la demanda total de oxígeno.
+Asumiendo una tasa de degradación del \qty{85}{\percent} y un requerimiento de \qty{0.7}{\gram} de O$_2$ por gramo de DQO, el consumo orgánico alcanzó \qty{107.1}{\gram\per\day} de O$_2$.
+El consumo por nitrificación, de \qty{4.3}{\gram} de O$_2$ por gramo de NTK, resultó en \qty{4.7}{\gram\per\day} de O$_2$.
+Al ser un sistema aerobio alimentado por pulsos, se despreció la desnitrificación, totalizando una demanda de \qty{111.8}{\gram\per\day} de O$_2$ (\cref{tab:balance-oxigeno}).
+
+El aporte de oxígeno se evaluó iterando un área superficial de \qty{6.00}{\square\meter} y un régimen de 6 cargas diarias.
+El aporte por convección, asumiendo \qty{0.3}{\gram} de O$_2$ por litro de aire succionado, entregó \qty{225.0}{\gram\per\day} de O$_2$, y la difusión atmosférica aportó \qty{90.0}{\gram\per\day} de O$_2$, con un aporte total de \qty{315.0}{\gram\per\day} de O$_2$.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Balance de oxígeno de la línea de aguas servidas (área activa de \qty{6.00}{\square\meter}, 6 cargas diarias).}
+  \label{tab:balance-oxigeno}
+  \begin{tabular}{@{}lr@{}}
+    \toprule
+    Componente & O$_2$ (\unit{\gram\per\day}) \\
+    \midrule
+    Demanda por oxidación de DQO, $OD_{\mathrm{DQO}}$ & \num{107.1} \\
+    Demanda por nitrificación, $OD_{\mathrm{N}}$ & \num{4.7} \\
+    Recuperación por desnitrificación, $OD_{\mathrm{DN}}$ & 0 (despreciada) \\
+    \textbf{Demanda total, $OD$} & \textbf{\num{111.8}} \\
+    \midrule
+    Aporte por convección, $OI_{\mathrm{conv}}$ & \num{225.0} \\
+    Aporte por difusión, $OI_{\mathrm{dif}}$ & \num{90.0} \\
+    \textbf{Aporte total, $OI$} & \textbf{\num{315.0}} \\
+    \midrule
+    Razón $OI/OD$ & \num{2.8} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Dado que el aporte (\qty{315.0}{\gram\per\day}) es mayor a la demanda (\qty{111.8}{\gram\per\day}), el diseño fue considerado satisfactorio.
+Esto validó el área activa de \qty{6.00}{\square\meter}, con una carga hidráulica resultante de \qty{125}{\milli\meter\per\day} y una carga orgánica de \qty{30}{\gram\per\square\meter\per\day} de DQO.
+Constructivamente, esta superficie se materializó mediante la disposición de 6 contenedores modulares tipo IBC por línea de tratamiento~\parencite{platzer2016long} (\cref{fig:esquema-ibc}).
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.75\textwidth]{estratificacion_ibc.pdf}
+  \caption{Esquema de estratificación del medio poroso en contenedor IBC. Fuente: elaboración propia.}
+  \label{fig:esquema-ibc}
+\end{figure}
+
+\pendiente{Presentar el dimensionamiento (o la justificación de la replicación del área) para las líneas del estero Batuco y de residuos agroquímicos.
+La memoria de cálculo indica que se replica el área de \qty{6}{\square\meter} ajustando el caudal para operar con la misma carga superficial: mostrar ese cálculo con los datos de la \cref{tab:resumen-afluentes}.}
+
+\subsection{Solución hidráulica e impulsión}
+
+La red de impulsión de aguas servidas (sector 1.1) se diseñó utilizando tubería de PVC hidráulico de \qty{50}{\milli\meter} de diámetro, con una conducción principal de \qty{95}{\meter} de longitud.
+Las redes de impulsión de aguas del estero y de agroquímicos se materializaron en tuberías de PVC hidráulico de \qty{25}{\milli\meter}, con longitudes de \qty{140}{\meter} y \qty{80}{\meter}, respectivamente.
+
+\pendiente{Resultado faltante en la v3.0: tabla por línea con caudal, velocidad, pérdidas por fricción (m.c.a.), pérdidas singulares (m.c.a.), desnivel geométrico, ADT final, punto de operación y bomba seleccionada.
+Incluir la curva de la bomba con el punto de operación y el efecto del circuito de retorno (bypass) para el caudal de microrriego de \qty{160}{\liter\per\hour}.}
+
+\section{Cálculo estructural y planimetría (objetivo específico 2)}
+\label{sec:res-estructural}
+
+\subsection{Verificación LRFD de la estructura de soporte}
+
+La plataforma elevada se diseñó con perfiles cajón de acero A270ES, utilizando dimensiones de $150 \times 150 \times 6$~\unit{\milli\meter} para las vigas principales y $150 \times 100 \times 3$~\unit{\milli\meter} para las secundarias.
+La estructura soporta tres estanques de acumulación de \qty{1000}{\liter} cada uno, junto con tres dosificadores de \qty{200}{\liter}.
+\revisar{Contradicción: el capítulo de discusión indica columnas y vigas de $250 \times 250 \times 6$~\unit{\milli\meter} y costaneras de $150 \times 50 \times 3$~\unit{\milli\meter}.
+Definir el diseño final según los planos 3.1 y 3.2 y usarlo en todo el documento.}
+
+\pendiente{Resultado faltante en la v3.0: tabla de verificación por elemento con $M_u$, $V_u$, $P_u$, $\phi M_n$, $\phi V_n$, $\phi P_n$, razón de utilización y deflexión.
+La discusión cita una razón de trabajo a flexión de \qty{7.2}{\percent}, un índice de interacción flexocompresiva máximo de \qty{18.8}{\percent} y una deflexión máxima de \qty{3.81}{\milli\meter}: estos valores deben presentarse primero aquí, con su memoria de cálculo.
+Incluir también el corte basal sísmico y el coeficiente sísmico utilizado.}
+
+\subsection{Diseño de fundaciones superficiales}
+
+Las zapatas de fundación se dimensionaron en $\num{1.00} \times \num{1.00} \times \num{0.50}$~\unit{\meter}, utilizando hormigón grado G30, reforzadas con parrilla inferior de barras de \qty{12}{\milli\meter} espaciadas cada \qty{15}{\centi\meter}.
+Las columnas se anclaron mediante placas base de $300 \times 300 \times 16$~\unit{\milli\meter} con pernos tipo J de \qty{19}{\milli\meter}.
+
+\pendiente{Resultado faltante: la presión de contacto de \qty{27.76}{\kilo\pascal} frente a la capacidad admisible de \qty{150}{\kilo\pascal} (citadas en las conclusiones) debe presentarse aquí, para las combinaciones estática y sísmica, indicando de dónde proviene la capacidad admisible (estudio de mecánica de suelos o valor supuesto con fuente).}
+
+\subsection{Planimetría y expediente técnico}
+
+Se generó el conjunto de láminas en formato CAD, que contiene emplazamientos, elevaciones de impulsión, planta general de la estación HCFV, cortes constructivos, plantas de fundaciones y detalles de anclaje.
+Las memorias de cálculo, el itemizado y las láminas se integran en los anexos: cálculo del humedal (\cref{anx:calculos-humedal}), itemizado (\cref{anx:itemizado}), planimetría general (\cref{anx:planimetria-general}), planimetría hidráulica (\cref{anx:planimetria-hidraulica}) y planimetría estructural (\cref{anx:planimetria-estructural}).

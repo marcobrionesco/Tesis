@@ -1,19 +1,49 @@
 % =====================================================================
-%  Capítulo: Conclusiones
-%  Rúbrica: 5 %. Conexión explícita con cada objetivo.
-%  Estado: ver 00_proyecto/ESTADO.md · Rúbrica: 01_normativa/RUBRICA.md
-%  Tercera persona. Una oración por línea. Unidades con siunitx.
-%  Citas solo de referencias.bib. Figuras/tablas citadas ANTES de aparecer.
+%  Capítulo 6: Conclusiones
+%  Rúbrica: 5 %. Conexión explícita con cada objetivo; limitaciones;
+%  implicancias prácticas; trabajo futuro concreto.
+%  Las conclusiones se apoyan en los RESULTADOS PROPIOS (no en citas).
+%  Origen: v3.0 (2026-11-19). Ver triaje en 03_seleccion/triaje/.
 % =====================================================================
 \chapter{Conclusiones}
 \label{cap:conclusiones}
 
 \section{Conclusiones}
-\pendiente{Una conclusión por objetivo específico, en el mismo orden, con hallazgos concretos.}
+\label{sec:conclusiones}
 
-\section{Limitaciones e implicancias prácticas}
-\pendiente{Limitaciones del trabajo e implicancias para la práctica de la ingeniería.}
+El desarrollo de la ingeniería de detalle para la estación experimental emplazada en Frutícola SABA SpA permitió validar la factibilidad técnica y operativa de implementar Soluciones Basadas en la Naturaleza (SbN)~\parencite{cohenshacham2016nature,cross2021nature}.
+Este proyecto integró los requerimientos biológicos, hidráulicos y estructurales necesarios para el tratamiento simultáneo, pero independiente, de tres efluentes de naturaleza heterogénea: aguas servidas domésticas, riles provenientes del lavado de agroquímicos y aguas superficiales captadas del estero Batuco.
+\revisar{Las conclusiones citan literatura para afirmar resultados propios (p.\ ej.\ \textcite{garcia2010contaminant}, \textcite{tietz2007characterisation}): deben apoyarse en los resultados de este trabajo.
+Evitar términos absolutos (\enquote{elimina por completo}, \enquote{absoluto aislamiento}).}
+
+En relación con el diseño hidráulico y el dimensionamiento de los humedales construidos (objetivo específico~1), se concluye que la adopción de una topología modular mediante contenedores industriales tipo IBC constituye una estrategia efectiva.
+Esta configuración garantiza el aislamiento físico de las matrices de agua en estudio, eliminando el riesgo de infiltración de contaminantes hacia el perfil del suelo y las napas subterráneas.
+Asimismo, al suprimir la posibilidad de contaminación cruzada entre las distintas líneas de tratamiento, el diseño respalda la integridad de la estación experimental, asegurando que las futuras campañas de monitoreo entreguen datos representativos sobre la capacidad de depuración individual de cada afluente~\parencite{garcia2010contaminant}.
+
+La aplicación del modelo de balance estequiométrico de oxígeno propuesto por \textcite{platzer1999design} resultó una herramienta de diseño robusta.
+Los cálculos determinaron que la implementación de un área activa de \qty{6.00}{\square\meter} por cada línea de tratamiento (equivalente a seis módulos IBC) asegura una capacidad de reoxigenación pasiva de \qty{315.0}{\gram\per\day} de O$_2$.
+Esta magnitud supera con un amplio margen la demanda biológica máxima del sistema, cuantificada en \qty{111.8}{\gram\per\day} de O$_2$ para la oxidación de la materia orgánica y la nitrificación del amonio.
+En consecuencia, se concluye la autosuficiencia aerobia de la instalación~\parencite{tietz2007characterisation}, comprobando que es técnica y económicamente viable operar el sistema de depuración mediante los fenómenos físicos de convección y difusión, sin necesidad de incorporar aireación forzada o sopladores que incrementarían los costos de operación y mantenimiento de la planta.
+
+Desde el punto de vista del transporte de fluidos, la resolución de la red presurizada mostró que la disparidad de requerimientos de caudal exige adaptaciones hidráulicas específicas.
+El bajo caudal demandado por el sistema de microrriego agrícola (\qty{160}{\liter\per\hour}) generaba un descalce frente al punto de mayor eficiencia de las bombas centrífugas especificadas.
+Se concluye que la incorporación de un circuito de retorno regulado (\textit{bypass}) es una medida de diseño indispensable en este tipo de escenarios, ya que permite disipar la energía remanente del sistema, logrando compatibilizar la curva de operación del equipo de bombeo con la restricción de los goteros.
+Esto previene la sobrepresión en los emisores y protege a las bombas frente a la cavitación.
+
+Respecto al cálculo estructural de la plataforma de soporte y la elaboración de la planimetría (objetivo específico~2), se concluye que el dimensionamiento mediante la metodología LRFD para instalaciones industriales que almacenan fluidos debe estar gobernado por el control de las deformaciones y la rigidez global del marco, por sobre la optimización de la resistencia última de los materiales~\parencite{segui2017steel}.
+La especificación de perfiles de acero tubulares cajón, operando a tasas de utilización bajas (alrededor del \qty{7.2}{\percent} a flexión estática), proporcionó la estabilidad geométrica necesaria para enfrentar solicitaciones sísmicas.
+Bajo la norma sísmica vigente~\parencite{inn2003nch2369}, la estructura limitó las derivas, mitigando el efecto de oleaje (\textit{sloshing}) al interior de los acumuladores superiores y resguardando la integridad de las conexiones sanitarias rígidas de PVC frente a esfuerzos de cizalle.
+
+Finalmente, la evaluación geotécnica de las fundaciones superficiales evidenció que la provisión de un factor de seguridad amplio respecto a las presiones de contacto (\qty{27.76}{\kilo\pascal} frente a una capacidad admisible de \qty{150}{\kilo\pascal}) es una condición necesaria para reducir el riesgo de asentamientos diferenciales a largo plazo~\parencite{das2015principles}.
+Se concluye que la conservación de la planicidad estructural es el eslabón crítico de todo el diseño.
+De esta horizontalidad depende el correcto accionamiento de los sifones mecánicos autocebantes ubicados en los estanques dosificadores; cualquier alteración asimétrica en las cotas de nivel deformaría los volúmenes de los pulsos de descarga, alterando la homogeneidad de la lámina de agua sobre el lecho filtrante y reduciendo la eficiencia del tratamiento biológico del humedal.
+
+\section{Limitaciones}
+\label{sec:limitaciones}
+
+\pendiente{Exigido por la rúbrica: limitaciones del diseño (p.\ ej.\ caracterización con pocas campañas de monitoreo, NTK asumido igual al amonio, capacidad admisible del suelo supuesta, diseño no validado aún en operación).}
 
 \section{Trabajo futuro}
-\pendiente{Líneas futuras concretas y viables.}
+\label{sec:trabajo-futuro}
 
+\pendiente{Exigido por la rúbrica: líneas futuras concretas y viables (p.\ ej.\ monitoreo de eficiencia por línea, calibración del balance de oxígeno con datos reales, evaluación de la calidad del efluente frente a la NCh1333, integración con los estudios agronómicos del proyecto marco).}

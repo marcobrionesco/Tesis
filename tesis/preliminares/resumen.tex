@@ -1,15 +1,22 @@
-% Resumen — se escribe AL FINAL [REGLAS_FORMATO §3, RUBRICA "Resumen / Abstract" 5 %].
-% Máximo 1 PÁGINA. Debe contener: contexto, pregunta(s) de investigación, objetivos,
-% metodología, resultados (CON DATOS CUANTITATIVOS) y conclusiones.
-% Luego, entre 3 y 5 palabras o expresiones clave.
+% Resumen — máx. 1 PÁGINA [REGLAS_FORMATO §3, RUBRICA "Resumen / Abstract" 5 %].
+% Debe contener: contexto, objetivos, metodología, resultados CON DATOS CUANTITATIVOS
+% y conclusiones. Luego, entre 3 y 5 palabras o expresiones clave.
+% Origen: v3.0 (2026-11-19), citas migradas a biblatex.
 \chapter*{Resumen}
 \addcontentsline{toc}{chapter}{Resumen}
 \label{pag:resumen-ini}
-\pendiente{Contexto y problema (2--3 oraciones).
-Pregunta de investigación u objetivo general.
-Metodología.
-Resultados principales con cifras.
-Conclusión principal.}
 
-\noindent\textbf{Palabras clave:} \pendiente{Palabra1, Palabra2, Palabra3}
+La vulnerabilidad hídrica en la Región del Maule amenaza la sostenibilidad de la producción agrícola, exigiendo la diversificación de fuentes mediante la reutilización de efluentes~\parencite{vera2016humedales}.
+Ante la inviabilidad económica de los sistemas convencionales en zonas rurales descentralizadas, este proyecto desarrolla el diseño de ingeniería para una estación experimental multifuente basada en Soluciones Basadas en la Naturaleza (SbN)~\parencite{cohenshacham2016nature,cross2021nature}.
+Se proyecta la depuración simultánea de aguas residuales domésticas, residuos agroquímicos y agua superficial del estero Batuco para su posterior reúso en el riego de frutales en Frutícola SABA SpA.
+
+El sistema de tratamiento, correspondiente a Humedales Construidos de Flujo Subsuperficial Vertical (HCFV), se integra bajo una configuración modular de superficie empleando contenedores industriales tipo IBC~\parencite{dotro2017treatment,kadlec2008treatment}.
+La metodología sanitaria se implementó aislando los parámetros de carga orgánica y amoniacal mediante un modelo de balance estequiométrico de oxígeno~\parencite{platzer1999design,platzer2016long}, mientras que la estabilidad de la plataforma de acumulación se evaluó integrando el método LRFD y modelación sísmica industrial~\parencite{inn2009nch1537,inn2016nch427}.
+
+El balance de masa determinó el área activa necesaria para satisfacer una carga orgánica conservadora, garantizando una inyección de oxígeno suficiente para oxidar la materia de los flujos de aguas servidas~\parencite{garcia2010contaminant}.
+Estructuralmente, frente a las solicitaciones sísmicas normativas de la zona de emplazamiento~\parencite{inn2003nch2369}, el diseño en acero preserva la estabilidad global, registrando índices de interacción flexocompresiva y presiones basales de fundación significativamente inferiores a la capacidad de soporte admisible del terreno~\parencite{bowles1996foundation,das2015principles}.
+
+\pendiente{La rúbrica exige resultados con datos cuantitativos: incluir caudal de diseño (\qty{0.75}{\cubic\meter\per\day}), área activa (\qty{6}{\square\meter} por línea), demanda vs.\ aporte de oxígeno, índices estructurales y presión de contacto vs.\ admisible, una vez resueltas las inconsistencias del triaje (C1--C5).}
+
+\noindent\textbf{Palabras clave:} Humedales Construidos, Soluciones Basadas en la Naturaleza, Diseño Hidráulico, Cálculo Estructural.
 \label{pag:resumen-fin}

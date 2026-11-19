@@ -16,7 +16,7 @@
 
 ## Solo para la versión final
 - [ ] Ocultar marcas: `\mostrarmarcasfalse` en `tesis/config/comandos.tex`.
-- [ ] Quitar `\include{anexos/anexo_guia_plantilla}` de `main.tex` y borrar las referencias de ejemplo no usadas.
+- [ ] Verificar que no queden marcas `\pendiente{}` ni `\revisar{}` (`make revisar`) y que todas las referencias marcadas "VERIFICAR" en `referencias.bib` estén confirmadas.
 - [ ] Revisar portada letra por letra contra la normativa.
 
 ## Versionar la entrega

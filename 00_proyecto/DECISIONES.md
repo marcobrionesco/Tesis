@@ -6,6 +6,23 @@
 
 ---
 
+## 2026-11-19 — Migración de la v3.0: criterio de edición
+
+- **Decisión:** al migrar la v3.0 se conserva el texto del autor y solo se corrigen errores objetivos (ortografía, persona gramatical, signo de la ecuación de demanda, unidades, decimales, citas verificables). Todo lo que requiere criterio técnico o datos del autor queda marcado con `\revisar{}` o `\pendiente{}`, sin inventar valores.
+- **Motivo:** el contenido técnico es responsabilidad del autor; la IA no debe introducir resultados ni datos.
+- **Consecuencias:** el PDF actual muestra marcas de color; desaparecen con `\mostrarmarcasfalse` cuando se resuelvan.
+
+## 2026-11-19 — Bibliografía de la v3.0
+
+- **Decisión:** se eliminaron 12 referencias no citadas; se corrigieron Vera et al. (2016) (entrada truncada), Cohen-Shacham et al. (2016, no 2019) y NCh1333 (Of.1978 Mod. 1987, título correcto). Autores solo con las iniciales del original (no se agregaron nombres de pila no verificados).
+- **Motivo:** la rúbrica penaliza referencias no citadas y errores APA; el profesor guía es autor de Vera et al. (2016).
+
+## 2026-11-19 — Nombres de capítulos y figuras
+
+- **Decisión:** se mantienen los nombres de la v3.0 ("Marco Teórico", "Metodología", "Discusión y Análisis de Resultados") y se usa "Presentación de Resultados" (template). La figura 2.1 se redibujó en TikZ; la tabla 3.1 sin datos se reemplazó por la tabla 4.3 (caudales y concentraciones por fuente); la demanda de riego de la memoria de cálculo pasó a Resultados (respalda los 160 L/h del bypass).
+
+---
+
 ## 2026-11-19 — Aplicación de la normativa ICV-611 (UCM)
 
 - **Decisión:** la plantilla LaTeX replica los Lineamientos y el template Word oficial: carta, Times 12 (newtx/mathptmx), interlineado 1,5 de Word (`\setstretch{1.43}`), márgenes 2,5/2,5/3/3, número abajo a la derecha (romano en preliminares), encabezado "Capítulo N. Nombre" arriba a la derecha, títulos 18/14/12 pt, leyendas 11 pt con rótulo en negrita y dos puntos, tablas con título arriba y figuras abajo, anexos "Anexo I:", APA 7 con "&".

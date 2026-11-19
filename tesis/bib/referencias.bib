@@ -5,40 +5,213 @@
 %  - Solo fuentes REALES y verificadas. Nunca inventar entradas.
 %  - Solo libros editados, revistas especializadas, publicaciones
 %    institucionales y reportes técnicos con revisión comprobada.
-%  - Meta: >= 15 referencias, >= 10 de los últimos 10 años.
-%  - Clave: apellidoAAAApalabra (ej. suarez2014analisis), igual que la ficha
-%    en 03_seleccion/fichas_lectura/suarez-2014-analisis.md
-%  - Incluir doi siempre que exista.
-%  - Recomendado: gestionar con Zotero + Better BibTeX y exportar aquí.
+%  - Meta rúbrica: >= 15 referencias, >= 10 de los últimos 10 años.
+%  - Clave: apellidoAAAApalabra. Incluir doi siempre que exista.
 %
-%  Las 4 entradas siguientes son los EJEMPLOS OFICIALES de los Lineamientos
-%  ICV-611 (libro, artículo, norma, sitio web). Se usan en el anexo guía de
-%  la plantilla. Borrarlas si no se citan en la tesis.
+%  Origen: migradas desde la v3.0 (2026-11-19). Ver el detalle de cada
+%  corrección en 03_seleccion/triaje/2026-11-19_triaje_proyecto-titulo-v3.0.md
+%  Las entradas marcadas "VERIFICAR" no pudieron confirmarse en línea.
 % =====================================================================
 
-@book{suarez2014analisis,
-  author    = {Suarez, L. E.},
-  title     = {Análisis de Estructuras con Cargas Dinámicas},
-  subtitle  = {Tomo I: Sistemas de un Grado de Libertad},
-  publisher = {Createspace Independent Publishing Platform},
-  year      = {2014},
-  langid    = {spanish},
+% ---------------------------------------------------------------------
+% Humedales construidos y tratamiento de aguas
+% ---------------------------------------------------------------------
+
+@book{dotro2017treatment,
+  author    = {Dotro, G. and Langergraber, G. and Molle, P. and Nivala, J. and Puigagut, J. and Stein, O. and von Sperling, M.},
+  title     = {Treatment Wetlands},
+  series    = {Biological Wastewater Treatment Series},
+  number    = {7},
+  publisher = {IWA Publishing},
+  year      = {2017},
+  doi       = {10.2166/9781780408774},
+  langid    = {english},
 }
 
-@article{zhou2026performance,
-  author       = {Zhou, Z. and Zeng, Y. and Zhou, X. and He, X. and Ke, K.},
-  title        = {Performance-based plastic design of truss-moment frames incorporating rotary dampers with two-stage energy-dissipation mechanism},
-  journaltitle = {Journal of Constructional Steel Research},
-  volume       = {238},
-  pages        = {110206},
-  year         = {2026},
-  doi          = {10.1016/j.jcsr.2025.110206},
+@book{kadlec2008treatment,
+  author    = {Kadlec, R. H. and Wallace, S.},
+  title     = {Treatment Wetlands},
+  edition   = {2},
+  publisher = {CRC Press},
+  year      = {2008},
+  langid    = {english},
+}
+
+@article{platzer1999design,
+  author       = {Platzer, C.},
+  title        = {Design recommendations for subsurface flow constructed wetlands for nitrification and denitrification},
+  journaltitle = {Water Science and Technology},
+  volume       = {40},
+  number       = {3},
+  pages        = {257--263},
+  year         = {1999},
   langid       = {english},
 }
 
-@report{inn2009nch433,
+% VERIFICAR: no se encontró en búsqueda pública (2026-11-19). Pedir PDF al profesor guía.
+@inproceedings{platzer2016long,
+  author    = {Platzer, C. and Hoffmann, H. and Miglio, R.},
+  title     = {Long term experiences with dimensioning and operation of vertical flow constructed wetlands in warm climate regions of {South} {America}},
+  booktitle = {International Water Association (IWA)},
+  pages     = {868--887},
+  location  = {Gdansk, Polonia},
+  year      = {2016},
+  langid    = {english},
+}
+
+@article{brix2005use,
+  author       = {Brix, H. and Arias, C.},
+  title        = {The use of vertical flow constructed wetlands for on-site treatment of domestic wastewater: New {Danish} guidelines},
+  journaltitle = {Ecological Engineering},
+  volume       = {25},
+  number       = {5},
+  pages        = {491--500},
+  year         = {2005},
+  doi          = {10.1016/j.ecoleng.2005.07.009},
+  langid       = {english},
+}
+
+@article{garcia2010contaminant,
+  author       = {García, J. and Rousseau, D. P. and Morató, J. and Lesage, E. and Matamoros, V. and Bayona, J. M.},
+  title        = {Contaminant removal processes in subsurface-flow constructed wetlands: A review},
+  journaltitle = {Critical Reviews in Environmental Science and Technology},
+  volume       = {40},
+  number       = {7},
+  pages        = {561--661},
+  year         = {2010},
+  doi          = {10.1080/10643380802471076},
+  langid       = {english},
+}
+
+% VERIFICAR: el artículo trata la biocenosis microbiana; confirmar que respalda la
+% transferencia de oxígeno por convección/difusión (uso en cap. 2).
+@article{tietz2007characterisation,
+  author       = {Tietz, A. and Kirschner, A. and Langergraber, G. and Sleytr, K. and Haberl, R.},
+  title        = {Characterisation of microbial biocoenosis in vertical subsurface flow constructed wetlands},
+  journaltitle = {Science of the Total Environment},
+  volume       = {380},
+  number       = {1--3},
+  pages        = {163--172},
+  year         = {2007},
+  doi          = {10.1016/j.scitotenv.2006.11.034},
+  langid       = {english},
+}
+
+% Corregida: la v3.0 tenía esta entrada truncada. Verificada en Redalyc / ANID.
+@article{vera2016humedales,
+  author       = {Vera, I. and Jorquera, C. and López, D. and Vidal, G.},
+  title        = {Humedales construidos para tratamiento y reúso de aguas servidas en {Chile}: Reflexiones},
+  journaltitle = {Tecnología y Ciencias del Agua},
+  volume       = {7},
+  number       = {3},
+  pages        = {19--35},
+  year         = {2016},
+  langid       = {spanish},
+}
+
+@book{tchobanoglous2014wastewater,
+  author    = {Tchobanoglous, G. and Burton, F. L. and Stensel, H. D. and Tsuchihashi, R.},
+  title     = {Wastewater Engineering: Treatment and Resource Recovery},
+  edition   = {5},
+  publisher = {McGraw-Hill Education},
+  year      = {2014},
+  langid    = {english},
+}
+
+% VERIFICAR: título exacto de la hoja técnica DWA-A 262.
+@report{dwa2017a262,
+  author      = {{Deutsche Vereinigung für Wasserwirtschaft, Abwasser und Abfall}},
+  shortauthor = {DWA},
+  title       = {Bau und Betrieb von Kläranlagen mit bepflanzten und unbepflanzten Filtern zur Reinigung häuslichen und kommunalen Abwassers},
+  type        = {Arbeitsblatt DWA-A 262},
+  institution = {DWA},
+  year        = {2017},
+  langid      = {german},
+}
+
+@report{onorm2009b2505,
+  author      = {{Austrian Standards Institute}},
+  shortauthor = {ÖNORM},
+  title       = {Bepflanzte Bodenfilter (Pflanzenkläranlagen) – Anwendung, Bemessung, Bau und Betrieb},
+  type        = {ÖNORM B 2505},
+  institution = {Austrian Standards Institute},
+  year        = {2009},
+  langid      = {german},
+}
+
+% ---------------------------------------------------------------------
+% Soluciones Basadas en la Naturaleza, clima y agricultura
+% ---------------------------------------------------------------------
+
+% Corregida: la v3.0 decía 2019; el informe IUCN con este DOI es de 2016 (editores).
+@book{cohenshacham2016nature,
+  editor    = {Cohen-Shacham, E. and Walters, G. and Janzen, C. and Maginnis, S.},
+  title     = {Nature-based Solutions to Address Global Societal Challenges},
+  publisher = {IUCN},
+  year      = {2016},
+  doi       = {10.2305/IUCN.CH.2016.13.en},
+  langid    = {english},
+}
+
+@book{cross2021nature,
+  author    = {Cross, K. and Tondera, K. and Rizzo, A. and Andrews, L. and Pucher, B. and Istenič, D. and Karres, N. and McDonald, R.},
+  title     = {Nature-Based Solutions for Wastewater Treatment},
+  publisher = {IWA Publishing},
+  year      = {2021},
+  langid    = {english},
+}
+
+@book{allen1998crop,
+  author    = {Allen, R. G. and Pereira, L. S. and Raes, D. and Smith, M.},
+  title     = {Crop Evapotranspiration: Guidelines for Computing Crop Water Requirements},
+  series    = {FAO Irrigation and Drainage Paper},
+  number    = {56},
+  publisher = {Food and Agriculture Organization of the United Nations},
+  year      = {1998},
+  langid    = {english},
+}
+
+% VERIFICAR: lista exacta de autores del Atlas.
+@book{uribe2012atlas,
+  author    = {Uribe Meneses, J. and Cabrera, R. and Paneque Corrales, M.},
+  title     = {Atlas bioclimático de {Chile}},
+  publisher = {Universidad de Chile},
+  year      = {2012},
+  langid    = {spanish},
+}
+
+% ---------------------------------------------------------------------
+% Normativa chilena
+% ---------------------------------------------------------------------
+
+% Corregida: la v3.0 decía "INN (2002) NCh1333: Agua – Vocabulario".
+@report{inn1987nch1333,
   author      = {{Instituto Nacional de Normalización}},
-  title       = {NCh433:1996 Mod. 2009, Diseño sísmico de edificios},
+  shortauthor = {INN},
+  title       = {NCh1333.Of1978 Mod. 1987: Requisitos de calidad del agua para diferentes usos},
+  type        = {Norma Chilena Oficial},
+  institution = {Instituto Nacional de Normalización},
+  location    = {Santiago, Chile},
+  origdate    = {1978},
+  year        = {1987},
+  langid      = {spanish},
+}
+
+@report{inn2003nch2369,
+  author      = {{Instituto Nacional de Normalización}},
+  shortauthor = {INN},
+  title       = {NCh2369.Of2003: Diseño sísmico de estructuras e instalaciones industriales},
+  type        = {Norma Chilena Oficial},
+  institution = {Instituto Nacional de Normalización},
+  location    = {Santiago, Chile},
+  year        = {2003},
+  langid      = {spanish},
+}
+
+@report{inn2009nch1537,
+  author      = {{Instituto Nacional de Normalización}},
+  shortauthor = {INN},
+  title       = {NCh1537.Of2009: Diseño estructural – Cargas permanentes y cargas de uso},
   type        = {Norma Chilena Oficial},
   institution = {Instituto Nacional de Normalización},
   location    = {Santiago, Chile},
@@ -46,10 +219,94 @@
   langid      = {spanish},
 }
 
-@online{mop2026proyectos,
-  author  = {{Ministerio de Obras Públicas de Chile}},
-  title   = {Proyectos},
-  url     = {https://proyectos.mop.gob.cl/},
-  urldate = {2026-03-17},
-  langid  = {spanish},
+@report{inn2016nch427,
+  author      = {{Instituto Nacional de Normalización}},
+  shortauthor = {INN},
+  title       = {NCh427/1:2016: Construcción – Estructuras de acero – Parte 1: Requisitos para el cálculo de estructuras de acero para edificios},
+  type        = {Norma Chilena},
+  institution = {Instituto Nacional de Normalización},
+  location    = {Santiago, Chile},
+  year        = {2016},
+  langid      = {spanish},
+}
+
+@legislation{minsegpres2000ds90,
+  author      = {{Ministerio Secretaría General de la Presidencia}},
+  shortauthor = {MINSEGPRES},
+  title       = {Decreto Supremo N.º 90: Establece norma de emisión para la regulación de contaminantes asociados a las descargas de residuos líquidos a aguas marinas y continentales superficiales},
+  location    = {Santiago, Chile},
+  year        = {2000},
+  langid      = {spanish},
+}
+
+@legislation{minvu2011ds60,
+  author      = {{Ministerio de Vivienda y Urbanismo}},
+  shortauthor = {MINVU},
+  title       = {Decreto Supremo N.º 60: Reglamento que fija los requisitos de diseño y cálculo para el hormigón armado},
+  location    = {Santiago, Chile},
+  year        = {2011},
+  langid      = {spanish},
+}
+
+% ---------------------------------------------------------------------
+% Diseño estructural y geotecnia
+% ---------------------------------------------------------------------
+
+@report{aisc2016specification,
+  author      = {{American Institute of Steel Construction}},
+  shortauthor = {AISC},
+  title       = {Specification for Structural Steel Buildings},
+  type        = {ANSI/AISC 360-16},
+  institution = {American Institute of Steel Construction},
+  location    = {Chicago, IL},
+  year        = {2016},
+  langid      = {english},
+}
+
+@report{aci2019building,
+  author      = {{American Concrete Institute}},
+  shortauthor = {ACI},
+  title       = {Building Code Requirements for Structural Concrete and Commentary},
+  type        = {ACI 318-19},
+  institution = {American Concrete Institute},
+  location    = {Farmington Hills, MI},
+  year        = {2019},
+  langid      = {english},
+}
+
+@book{mccormac2012structural,
+  author    = {McCormac, J. C. and Csernak, S. F.},
+  title     = {Structural Steel Design},
+  edition   = {5},
+  publisher = {Pearson},
+  year      = {2012},
+  langid    = {english},
+}
+
+@book{segui2017steel,
+  author    = {Segui, W. T.},
+  title     = {Steel Design},
+  edition   = {6},
+  publisher = {Cengage Learning},
+  year      = {2017},
+  langid    = {english},
+}
+
+@book{bowles1996foundation,
+  author    = {Bowles, J. E.},
+  title     = {Foundation Analysis and Design},
+  edition   = {5},
+  publisher = {McGraw-Hill},
+  year      = {1996},
+  langid    = {english},
+}
+
+% VERIFICAR: la 8.ª ed. figura como 2015 o 2016 según el catálogo.
+@book{das2015principles,
+  author    = {Das, B. M.},
+  title     = {Principles of Foundation Engineering},
+  edition   = {8},
+  publisher = {Cengage Learning},
+  year      = {2015},
+  langid    = {english},
 }

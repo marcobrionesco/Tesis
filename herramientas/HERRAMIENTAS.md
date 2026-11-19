@@ -162,3 +162,11 @@ casos límite (¿qué pasa si x→0?) y que cada símbolo esté en `GLOSARIO.md`
 | ⭐ `herramientas/recetas/` | Prompts probados para tareas repetidas |
 | **Gitingest** / **Repomix** | Alternativas externas para empaquetar el repo entero en texto |
 | `00_proyecto/ESTADO.md` + `BITACORA.md` | La "memoria" entre sesiones |
+
+---
+
+## Ejemplos de uso
+
+`herramientas/ejemplos/anexo_guia_plantilla.tex` contiene ejemplos listos para copiar de
+ecuaciones, unidades `siunitx`, figuras desde Python, diagramas TikZ, gráficos PGFPlots, tablas y citas APA.
+(No se compila con la tesis; es material de referencia.)

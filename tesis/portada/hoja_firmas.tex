@@ -22,13 +22,14 @@
   {\bfseries\MakeUppercase{\tesisAutor}\par}
   \vspace{0.3cm}
   {\bfseries PROFESOR GUÍA: \MakeUppercase{\tesisGuia}\par} % chktex 13
+  \ifx\tesisCoGuia\empty\else\vspace{0.2cm}{\bfseries PROFESOR CO-GUÍA: \MakeUppercase{\tesisCoGuia}\par}\fi % chktex 13
   \vspace{2.2cm}
   \renewcommand{\arraystretch}{2.4}
-  \begin{tabular}{@{}l@{\hspace{1.2cm}}l@{\hspace{1.2cm}}c@{}}
+  \begin{tabular}{@{}p{5.6cm}@{\hspace{0.2cm}}l@{\hspace{0.3cm}}c@{}}
     & \textbf{COMISIÓN EXAMINADORA} & \textbf{FIRMA} \\
-    \comisionGuia & PROFESOR GUÍA        & \rule{5cm}{0.4pt} \\
-    \comisionDos  & PROFESOR DE COMISIÓN & \rule{5cm}{0.4pt} \\
-    \comisionTres & PROFESOR DE COMISIÓN & \rule{5cm}{0.4pt} \\
+    \comisionGuia & PROFESOR GUÍA        & \rule{3.6cm}{0.4pt} \\
+    \comisionDos  & PROFESOR DE COMISIÓN & \rule{3.6cm}{0.4pt} \\
+    \comisionTres & PROFESOR DE COMISIÓN & \rule{3.6cm}{0.4pt} \\
   \end{tabular}
   \vfill
   \MakeUppercase{\tesisCiudad}, \tesisFecha\par

@@ -1,19 +1,49 @@
 % =====================================================================
-%  Capítulo: Discusión de Resultados
-%  Rúbrica: 15 %. Título según TPL: 'Discusión' o 'Análisis de Resultados'.
-%  Estado: ver 00_proyecto/ESTADO.md · Rúbrica: 01_normativa/RUBRICA.md
-%  Tercera persona. Una oración por línea. Unidades con siunitx.
-%  Citas solo de referencias.bib. Figuras/tablas citadas ANTES de aparecer.
+%  Capítulo 5: Discusión y Análisis de Resultados
+%  Rúbrica: 15 %. Consistente con el marco teórico; relación resultados –
+%  metodología – objetivos; responder TODOS los objetivos.
+%  Origen: v3.0 (2026-11-19). Ver triaje en 03_seleccion/triaje/.
 % =====================================================================
-\chapter{Discusión de Resultados}
+\chapter{Discusión y Análisis de Resultados}
 \label{cap:discusion}
 
-\section{Interpretación de resultados}
-\pendiente{Qué significan los resultados, relación entre resultados, metodología y objetivos.}
+\section{Diseño hidráulico y humedales (objetivo específico 1)}
+\label{sec:dis-hidraulico}
 
-\section{Comparación con la literatura y la normativa}
-\pendiente{Consistencia con el marco teórico / estado del arte.}
+La adopción de una topología modular mediante contenedores industriales de polietileno de alta densidad (tipo IBC) para conformar los humedales construidos de flujo subsuperficial vertical (HCFV) representa una decisión técnica que asegura la impermeabilidad del sistema.
+Este confinamiento elimina el riesgo de infiltración de aguas residuales hacia el subsuelo y previene la contaminación cruzada entre los tres afluentes evaluados (aguas domésticas, efluentes con agroquímicos y agua del estero).
+Al garantizar el aislamiento hidráulico, el diseño asegura que los monitoreos analíticos futuros reflejen con exactitud la eficiencia de depuración de cada matriz de agua de forma independiente.
 
-\section{Limitaciones del estudio}
-\pendiente{Fuentes de error e incertidumbre.}
+Desde la perspectiva del balance de masa, el dimensionamiento de 6 unidades IBC por cada línea de tratamiento (área activa de \qty{6.00}{\square\meter}) resultó suficiente.
+La modelación estequiométrica mostró que la capacidad de inyección pasiva de oxígeno (\qty{315.0}{\gram\per\day} de O$_2$), generada por la convección de los pulsos de carga y la difusión atmosférica, supera con amplio margen la demanda biológica máxima exigida por la materia orgánica y el amonio (\qty{111.8}{\gram\per\day} de O$_2$)~\parencite{platzer1999design}.
+Esta holgura operativa asegura condiciones aerobias en el lecho filtrante, mostrando que el sistema es autosuficiente y descarta la necesidad de integrar sopladores mecánicos de alto consumo energético~\parencite{dotro2017treatment}.
+Asimismo, la carga orgánica superficial de \qty{30}{\gram\per\square\meter\per\day} de DQO y la tasa hidráulica de \qty{125}{\milli\meter\per\day} se mantienen en rangos que mitigan el riesgo de colmatación física a largo plazo~\parencite{brix2005use}.
+\revisar{Comparar explícitamente estos valores con los criterios de diseño de la literatura (p.\ ej.\ los valores máximos de carga orgánica de la ÖNORM~B~2505 y de \textcite{dotro2017treatment}) antes de calificarlos como conservadores.
+La holgura del balance depende de los valores de NTK, que están en revisión (\cref{tab:resumen-afluentes}).}
 
+Finalmente, la heterogeneidad de los caudales representó un desafío en la red presurizada.
+El bajo requerimiento nominal del sistema de microrriego (\qty{160}{\liter\per\hour}, \cref{tab:demanda-riego}) generaba un descalce operacional severo con la curva de rendimiento de las bombas centrífugas.
+La inclusión de un circuito de retorno regulado (\textit{bypass}) resolvió esta restricción, ya que permite disipar la presión excedente, evita la rotura de los goteros autocompensados y protege a los equipos de impulsión frente a la cavitación por estrangulamiento.
+
+\pendiente{Discutir las líneas del estero Batuco y de residuos agroquímicos (riesgos específicos: plaguicidas, variabilidad de carga, calidad del efluente para riego según la NCh1333).}
+
+\section{Cálculo estructural (objetivo específico 2)}
+\label{sec:dis-estructural}
+
+Los resultados del análisis estructural mediante el método LRFD validan la idoneidad de la materialidad y de las secciones geométricas seleccionadas para la plataforma de soporte.
+La elección de perfiles tubulares de sección cerrada (cajón de $250 \times 250 \times 6$~\unit{\milli\meter}) para las columnas y vigas principales responde a su buen comportamiento mecánico frente a la torsión y a su alta resistencia contra el pandeo lateral, atributos indispensables para estructuras elevadas~\parencite{mccormac2012structural}.
+\revisar{Dimensiones distintas a las del capítulo de resultados ($150 \times 150 \times 6$ y $150 \times 100 \times 3$): unificar.}
+Frente a las cargas gravitacionales estáticas, estos elementos exhibieron una razón de trabajo a flexión de \qty{7.2}{\percent}.
+Por su parte, el entramado de costaneras secundarias ($150 \times 50 \times 3$~\unit{\milli\meter}) mostró un control adecuado de la serviciabilidad, limitando la máxima deflexión vertical de la cubierta a \qty{3.81}{\milli\meter}, por debajo de la restricción de $L/300$~\parencite{inn2016nch427}.
+
+Bajo la solicitación sísmica normada por la NCh2369, el sistema mostró un desempeño satisfactorio.
+Al emplazarse en una zona de alta aceleración sísmica (zona~3), la masa excéntrica de los estanques llenos induce momentos volcantes considerables.
+\revisar{La metodología indica zona~2: verificar y unificar.}
+Sin embargo, el índice de interacción flexocompresiva de las columnas alcanzó un máximo de solo \qty{18.8}{\percent}.
+Este aparente sobredimensionamiento responde a una decisión de diseño intencional: en plataformas industriales que soportan fluidos, el criterio rector es la rigidez global y no solo la resistencia última a la fluencia.
+
+Proveer una alta rigidez lateral permite minimizar las derivas elásticas durante eventos sísmicos severos.
+Restringir este desplazamiento es fundamental para atenuar la amplificación del efecto de oleaje (\textit{sloshing}) al interior de los acumuladores de \qty{1000}{\liter} y para evitar la fractura de las conexiones rígidas de tuberías de PVC.
+Finalmente, la rigidez del marco de acero asegura la horizontalidad de la plataforma bajo carga de operación máxima, condición necesaria para el correcto funcionamiento de los estanques dosificadores de \qty{200}{\liter}.
+Los sifones mecánicos autocebantes exigen cotas de nivelación milimétricas; cualquier deformación excesiva de la estructura alteraría los volúmenes de los pulsos de descarga hacia el humedal, comprometiendo el proceso biológico.
+\revisar{Respaldar la discusión con literatura (deriva admisible, efecto de \textit{sloshing} en estanques) y con las derivas calculadas.}

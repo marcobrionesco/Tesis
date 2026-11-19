@@ -1,37 +1,69 @@
 % =====================================================================
-%  Capítulo: Introducción y Planteamiento del Problema
+%  Capítulo 1: Introducción y Planteamiento del Problema
 %  Rúbrica: 10 %. Debe actualizarse respecto al anteproyecto.
-%  Estado: ver 00_proyecto/ESTADO.md · Rúbrica: 01_normativa/RUBRICA.md
+%  Exigido (LIN §6): contexto, antecedentes generales y técnicos, hipótesis
+%  y/o preguntas de investigación, objetivos, contribuciones del proyecto.
+%  Origen: v3.0 (2026-11-19). Ver 03_seleccion/triaje/2026-11-19_triaje_proyecto-titulo-v3.0.md
 %  Tercera persona. Una oración por línea. Unidades con siunitx.
-%  Citas solo de referencias.bib. Figuras/tablas citadas ANTES de aparecer.
 % =====================================================================
 \chapter{Introducción y Planteamiento del Problema}
 \label{cap:introduccion}
 
-\section{Contexto y antecedentes}
-\pendiente{Antecedentes generales y técnicos del problema, con datos cuantitativos, normativa y literatura actualizada.}
+\section{Descripción del problema}
+\label{sec:problema}
 
-\section{Planteamiento del problema}
-\pendiente{Formulación precisa del problema: causas, consecuencias y alcances.}
+La Región del Maule enfrenta una severa y creciente vulnerabilidad hídrica derivada de las alteraciones del ciclo hidrológico y de prolongados eventos de sequía asociados al cambio climático~\parencite{uribe2012atlas}.
+Esta situación amenaza directamente la sostenibilidad y competitividad de la producción agrícola, de manera particular el cultivo del cerezo dulce (\textit{Prunus avium} L.), una especie que ha experimentado una expansión acelerada en la zona durante el último lustro y que demanda volúmenes considerables de agua para su óptimo desarrollo~\parencite{allen1998crop}.
+\revisar{La rúbrica pide justificar con datos cuantitativos y literatura actualizada: agregar cifras de déficit hídrico, superficie de cerezos en el Maule y una fuente reciente sobre la megasequía (p.\ ej.\ Garreaud et al., 2017 o 2020, verificar antes de citar).}
 
-\section{Hipótesis y preguntas de investigación}
-\pendiente{Hipótesis y/o preguntas de investigación.}
+Ante la progresiva disminución en la disponibilidad de los recursos hídricos superficiales y subterráneos, resulta imperativo explorar y diversificar las fuentes de abastecimiento mediante la reutilización de aguas residuales tratadas.
+No obstante, en zonas rurales y agrícolas descentralizadas, la implementación de sistemas de tratamiento convencionales (como lodos activados) resulta habitualmente inviable debido a sus altos costos de inversión, requerimientos energéticos y complejidad operativa~\parencite{tchobanoglous2014wastewater}.
+
+En consecuencia, el problema a resolver consiste en la necesidad de diseñar e implementar tecnologías de depuración descentralizadas, eficientes y sostenibles ---específicamente mediante Soluciones Basadas en la Naturaleza (SbN)--- que sean capaces de tratar simultáneamente efluentes de distinta naturaleza (aguas servidas domésticas, riles de lavado de agroquímicos y aguas superficiales contaminadas).
+El desafío de ingeniería radica en adaptar los modelos teóricos e hidráulicos de los humedales construidos a las solicitaciones reales de un entorno agrícola, garantizando que el efluente final cumpla con la normativa chilena de calidad para el riego agrícola y asegurando la estabilidad estructural del sistema en las instalaciones de Frutícola SABA SpA.
+
+\section{Antecedentes}
+\label{sec:antecedentes}
+
+El desarrollo del presente proyecto de título se enmarca y fundamenta en la fase inicial de ingeniería del proyecto científico financiado por la Agencia Nacional de Investigación y Desarrollo, ANID/Anillos/ATE250033, titulado \textit{\enquote{Nature-based solution strategies for developing new sustainable water sources in sweet cherry production under a scarcity context (NbS-Waterry)}}.
+
+Mientras que el proyecto marco contempla una investigación multidisciplinaria de tres años enfocada en evaluar la fisiología vegetal del cerezo dulce (\textit{Prunus avium} L.), la inocuidad del fruto y el Análisis de Ciclo de Vida (ACV) derivado de la reutilización de efluentes tratados, el presente trabajo se delimita al diseño de la infraestructura hidráulica y estructural.
+
+La necesidad de este desarrollo de ingeniería surge porque los modelos teóricos de depuración mediante Soluciones Basadas en la Naturaleza (SbN), documentados ampliamente en la literatura para el tratamiento de aguas~\parencite{dotro2017treatment}, requieren ser adaptados y materializados físicamente en un entorno agrícola real bajo las exigencias normativas chilenas~\parencite{inn1987nch1333}.
+El propósito de este proyecto es transformar los requerimientos biológicos e hidráulicos del sistema en un expediente técnico a nivel de ejecución.
+Esto contempla establecer las memorias de cálculo, las especificaciones técnicas de materiales y la planimetría normalizada que garantizarán la posterior construcción y desarrollo de la planta piloto experimental en los terrenos de Frutícola SABA SpA.
+
+\revisar{Agregar antecedentes técnicos de Chile: cobertura de tratamiento rural (\textcite{vera2016humedales} reporta cobertura menor al 20~\% en zonas rurales) y experiencias previas con humedales construidos en el país.}
+
+\section{Preguntas de investigación}
+\label{sec:preguntas}
+
+\pendiente{Exigido por los Lineamientos (§6): formular la hipótesis y/o las preguntas que guían el diseño.
+Por ejemplo: ¿qué área activa de HCFV en módulos IBC satisface el balance de oxígeno para los caudales y cargas de cada afluente?
+¿Qué configuración estructural de la plataforma asegura la estabilidad y la horizontalidad requerida por los sifones bajo la demanda sísmica de la NCh2369?}
 
 \section{Objetivos}
+\label{sec:objetivos}
 
 \subsection{Objetivo general}
-\pendiente{Verbo en infinitivo + qué + para qué (copiar de 00\_proyecto/CONTEXTO.md).}
+
+Diseñar la infraestructura hidráulica y estructural de una estación experimental basada en Humedales Construidos de Flujo Subsuperficial Vertical (HCFV), orientada al tratamiento y posterior reutilización agrícola de tres afluentes residuales independientes en Frutícola SABA SpA, comuna de Linares.
 
 \subsection{Objetivos específicos}
+
 \begin{enumerate}
-  \item \pendiente{Objetivo específico 1.}
-  \item \pendiente{Objetivo específico 2.}
-  \item \pendiente{Objetivo específico 3.}
+  \item Dimensionar el sistema de depuración y las redes de conducción a presión y gravedad, estableciendo el balance de oxígeno de los humedales, los requerimientos operativos de los equipos de impulsión y las especificaciones técnicas para las distintas fuentes de agua.
+  \item Desarrollar la modelación y el cálculo estructural de la plataforma de acero y sus fundaciones bajo solicitaciones estáticas y sísmicas normativas, integrando la planimetría consolidada y los detalles constructivos de la estación.
 \end{enumerate}
 
+\revisar{Cada objetivo agrupa varias tareas. Evaluar con el profesor guía separarlos (p.\ ej.: caracterizar caudales y cargas; dimensionar los HCFV; diseñar redes e impulsión; diseñar plataforma y fundaciones; elaborar planimetría e itemizado), para que Resultados y Conclusiones respondan uno a uno.}
+
 \section{Contribuciones del proyecto}
-\pendiente{Aporte concreto del proyecto de título.}
+\label{sec:contribuciones}
+
+\pendiente{Exigido por los Lineamientos (§6): indicar el aporte concreto del proyecto (p.\ ej.: expediente técnico a nivel de ejecución de la primera estación experimental multifuente del proyecto ANID; adaptación del método de Platzer a módulos IBC; base para los monitoreos del proyecto marco).}
 
 \section{Alcances y limitaciones}
-\pendiente{Qué incluye y qué no incluye el estudio.}
+\label{sec:alcances}
 
+\pendiente{Precisar qué incluye el diseño (líneas de tratamiento, redes, plataforma, fundaciones, planos, itemizado) y qué no (operación, monitoreo, evaluación agronómica y ACV, que corresponden al proyecto marco).}

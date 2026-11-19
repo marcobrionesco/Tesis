@@ -5,6 +5,16 @@
 
 ---
 
+## 2026-11-19 — Ingreso, triaje y migración de la v3.0
+
+- **Quién:** Marco + Claude Code
+- **Qué se hizo:** se ingresó el ZIP con las versiones 1.0, 2.0 y 3.0 de la tesis, la memoria de cálculo, figuras, planos e itemizado a `02_material_bruto/` (nombres normalizados). Se hizo el triaje completo de la v3.0 (`03_seleccion/triaje/`), verificando referencias en línea, y una autoevaluación con la rúbrica (`03_seleccion/notas/`). Se migró todo a la plantilla: capítulos 1–6, preliminares, 5 anexos y 27 referencias en biblatex. Se corrigieron los errores objetivos y se marcaron con `\revisar`/`\pendiente` las decisiones y datos faltantes. La figura 2.1 (texto deformado) se redibujó en TikZ. Se reemplazó el logo por la versión en alta resolución. La guía de ejemplos de la plantilla se movió a `herramientas/ejemplos/`.
+- **Hallazgos principales:** resultados que se discuten sin presentarse; perfiles y zona sísmica contradictorios; NTK irrealmente bajo; solo se diseña la línea doméstica; entrada bibliográfica truncada de un trabajo del profesor guía; 12 referencias no citadas.
+- **Qué quedó pendiente:** ver "Próximos pasos" y "Bloqueos" en `ESTADO.md`.
+- **Archivos tocados:** `02_material_bruto/*`, `03_seleccion/*`, `tesis/*`, `00_proyecto/*`, `Makefile`, `herramientas/ejemplos/`.
+
+---
+
 ## 2026-11-19 — Normativa ICV-611 cargada y aplicada
 
 - **Quién:** Marco + Claude Code
