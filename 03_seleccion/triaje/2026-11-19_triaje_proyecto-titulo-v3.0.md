@@ -82,6 +82,19 @@ sí son pertinentes: conviene citarlas donde corresponda en el marco teórico.
 - Sugerencias a evaluar (reales, verificar antes de citar): Garreaud et al. (2017, 2020) sobre la megasequía
   de Chile central; publicaciones del grupo del profesor guía sobre humedales en Chile.
 
+### 3.5 Origen de los errores (hallazgo posterior, al analizar `05_ejemplos/`)
+
+La bibliografía de la v3.0 coincide casi por completo con la de la tesis de Guerrero (2024, mismo profesor guía),
+incluidos sus errores (Cohen-Shacham "2019", "NCh1333: Agua – vocabulario (2002)", entradas no citadas).
+**Lección:** no copiar referencias de otra tesis; buscar y verificar cada fuente original.
+
+### 3.6 Nuevos hallazgos técnicos (ver `05_ejemplos/fichas/2024_ucm_guerrero_…md`)
+
+| # | Hallazgo | Veredicto |
+|---|---|---|
+| C10 | Carga orgánica de diseño 30 g DQO/m²·d **supera** el máximo de las guías de diseño de humedales verticales (20–27 g DQO/m²·d, Dotro et al.). La discusión la llama "conservadora". | ❓ verificar en la fuente original y redimensionar o justificar |
+| C11 | Carga hidráulica 125 L/m²·d **supera** el rango de DWA (80–120 L/m²·d). | ❓ ídem |
+
 ## 4. Qué se rescata tal cual (✅)
 
 - Planteamiento general, antecedentes del proyecto ANID/Anillos/ATE250033 y objetivo general.

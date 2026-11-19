@@ -25,3 +25,14 @@ ni se copian; se **estudian**. Aquí va lo mismo para la tesis.
 3. Si un ejemplo aporta un dato, ecuación o criterio que se usará, se cita su **fuente original** (la norma o el libro que el ejemplo cita), no el ejemplo.
 4. Nombre: `AAAA_autor-o-institucion_tema.ext` — ej.: `2022_ucm_humedales-riego.pdf`, `2024_empresa-x_memoria-plataforma-acero.pdf`.
 5. Cada ejemplo lleva su ficha en `fichas/` (receta `herramientas/recetas/11_analizar_ejemplo.md`).
+
+## Inventario
+
+| Archivo | Tipo | Relación | Ficha |
+|---|---|---|---|
+| `tesis/2024_ucm_guerrero_humedales-vs-convencional-nirivilo` | Tesis UCM 2024 (guía: Dr. Vera Puerto) | **Alta**: humedal vertical, balance de O₂, bombas | `fichas/2024_ucm_guerrero_…md` |
+| `memorias_calculo/2026_peritaje-estructural-cerchas-templo-esperanza-plan` | Memoria de cálculo / peritaje 2026 | **Alta para OE2** (presentación del cálculo estructural) | `fichas/2026_peritaje-…md` |
+| `tesis/2026_ucm_jove_fluctuaciones-presion-cfd` | Tesis UCM 2026 (guía: M. Quiroz) | Media: modelo de problema/brecha, conclusiones | `fichas/2026_ucm_jove_…md` |
+| `tesis/2026_ucm_arancibia_escorrentia-cuencas-mediterraneas` | Tesis UCM 2026 (guía: Dr. Barrientos) | Baja: modelo de "área de estudio" y "datos" | `fichas/2026_ucm_arancibia_…md` |
+
+Cada PDF tiene al lado un `.md` con el texto extraído (para que cualquier IA lo lea).

@@ -13,6 +13,11 @@
   - Autoevaluación con rúbrica: `03_seleccion/notas/autoevaluacion_2026-11-19_v3.0.md` (≈ 50 %, veredicto probable "revisiones mayores")
 - ✅ Correcciones objetivas aplicadas en la migración (bibliografía, signo de ecuación, unidades, redacción, figura 2.1 redibujada, planos dentro del margen).
 - 🟧 El PDF compila sin errores; contiene **marcas `\revisar{}` (naranja) y `\pendiente{}` (rojo)** con todo lo que falta. Verlas con `make revisar`.
+- ✅ 4 ejemplos analizados en `05_ejemplos/` (3 tesis UCM + 1 memoria de cálculo), con fichas. **Hallazgos clave** (ficha de Guerrero, 2024):
+  - NTK típico en Chile: 20–120 mg/L (Vera et al., 2016); el diseño usa 1–1,5 mg/L → con 50 mg/L, OI/OD baja de 2,8 a ≈ 1,17.
+  - Carga orgánica máxima en humedales verticales: 20–27 g DQO/m²·d (Dotro et al.); el diseño usa 30. Carga hidráulica máx. 80–120 L/m²·d (DWA); el diseño usa 125.
+  - Fuente nueva verificada para la introducción: Vera-Puerto et al. (2022), *Water* 14(4), 627.
+  - La memoria de cálculo de ejemplo es el modelo para completar los resultados estructurales (OE2).
 - ⬜ Faltan las **observaciones escritas del profesor guía** (pedírselas o transcribirlas a `03_seleccion/notas/`).
 
 ## Estado por capítulo
@@ -37,8 +42,8 @@ Leyenda: ⬜ no iniciado · 🟨 material bruto · 🟧 borrador en LaTeX · �
 ## Próximos pasos (en orden de impacto)
 
 1. [ ] **Pedir/transcribir las observaciones del profesor guía** y cruzarlas con el triaje.
-2. [ ] **Resolver inconsistencias** (decisiones del autor): perfiles estructurales (C2), zona sísmica (C3), NTK y carga amoniacal (C4, C5), columnas de la tabla de riego.
-3. [ ] **Completar Resultados** (C1, C6): ADT y bombas, verificación LRFD, corte basal, presiones de contacto, líneas estero/agroquímicos.
+2. [ ] **Resolver inconsistencias** (decisiones del autor): perfiles estructurales (C2), zona sísmica (C3), NTK y carga amoniacal (C4, C5), columnas de la tabla de riego, y **carga orgánica 30 g DQO/m²·d sobre el máximo de la literatura** (posible redimensionamiento a ~9 m²; ver ficha de Guerrero).
+3. [ ] **Completar Resultados** (C1, C6): ADT y bombas, verificación LRFD, corte basal, presiones de contacto, líneas estero/agroquímicos. Modelos: anexo de impulsión de Guerrero (2024) y memoria de cálculo de `05_ejemplos/memorias_calculo/`.
 4. [ ] **Reforzar Marco Teórico** con literatura reciente (receta 07 + fichas con receta 03).
 5. [ ] **Completar Introducción** (preguntas, contribuciones, alcances) y **Conclusiones** (limitaciones, trabajo futuro).
 6. [ ] Verificar las 4 referencias marcadas "VERIFICAR" en `referencias.bib`.

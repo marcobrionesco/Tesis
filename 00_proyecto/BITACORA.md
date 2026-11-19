@@ -5,6 +5,16 @@
 
 ---
 
+## 2026-11-19 — Ejemplos de referencia (05_ejemplos)
+
+- **Quién:** Marco + Claude Code
+- **Qué se hizo:** se creó `05_ejemplos/` y se ingresaron 3 tesis UCM (Guerrero 2024, Arancibia 2026, Jove 2026; las que venían en 2 partes se unieron) y 1 memoria de cálculo estructural (peritaje Esperanza Plan, 2026), con texto extraído y una ficha por documento (receta 11).
+- **Hallazgos:** la bibliografía de la v3.0 venía en gran parte de la tesis de Guerrero (2024), con sus mismos errores. La misma tesis aporta el NTK típico (Vera et al., 2016) y los criterios de diseño de humedales verticales (Dotro et al.), que el diseño actual supera (30 g DQO/m²·d; 125 L/m²·d). Las notas `\revisar` de los capítulos 1, 2, 4 y 5 se actualizaron con estos datos.
+- **Qué quedó pendiente:** decidir con el profesor guía el NTK y el área del humedal; usar la memoria de cálculo como modelo para los resultados estructurales.
+- **Archivos tocados:** `05_ejemplos/*`, `tesis/capitulos/01,02,04,05`, `00_proyecto/ESTADO.md`, `03_seleccion/triaje/…v3.0.md`.
+
+---
+
 ## 2026-11-19 — Ingreso, triaje y migración de la v3.0
 
 - **Quién:** Marco + Claude Code
