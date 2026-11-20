@@ -57,11 +57,11 @@ En ese sentido, el elemento crítico es el tablero de \qty{15}{\milli\meter}, qu
 Un tablero de \qty{21}{\milli\meter} o vigas secundarias cada \qty{0.30}{\meter} resolverían la deformación.
 \revisar{Tengo que definir con el profesor el límite de deformación y la solución para el tablero (pregunta~2).}
 
-Frente al sismo, la verificación depende de cómo se reparte el corte entre los pilares.
-Si los dos pilares de un marco lo resisten en voladizo, la excentricidad en la zapata supera la mitad de su ancho y la zapata vuelca; si el tablero y las vigas actúan como diafragma y los seis pilares comparten el corte, el área apoyada es del \qty{85}{\percent} en la zona~2, sobre el mínimo de \qty{80}{\percent} que exige la NCh2369:2025~\parencite{inn2025nch2369}.
-Además, la combinación $\num{0.9}D + \num{1.4}E$ de la NCh3171, que es la que gobierna el volcamiento~\parencite{inn2017nch3171}, y el coeficiente sísmico del espectro de la NCh2369:2025, mayor que el de la fórmula simplificada usada en el cálculo original para estructuras rígidas, aún deben incorporarse al cálculo.
-Por lo tanto, la estabilidad de las fundaciones es el aspecto estructural que más depende de las decisiones pendientes (versión de la norma, categoría, factor $R$, suelo y diafragma).
-\revisar{Recalcular con las respuestas a la pregunta~1.}
+Frente al sismo, la verificación depende más de cómo se reparte el corte entre los pilares y de la categoría de ocupación que de la versión de la norma (\cref{tab:sismo-zapatas}).
+Si los dos pilares de un marco resisten el corte en voladizo, la zapata vuelca con las versiones de 2003 y de 2025; si el tablero y las vigas actúan como diafragma y los seis pilares comparten el corte, con la categoría~I y el suelo~C supuesto el área apoyada es del \qty{91}{\percent}, sobre el mínimo de \qty{80}{\percent} de la NCh2369:2025~\parencite{inn2025nch2369}.
+Con la categoría~II el margen desaparece (76 a \qty{79}{\percent}), por lo que la elección de la categoría~I, propia de una estación experimental cuya falla no detiene ninguna operación ni pone en riesgo otras estructuras, es la que permite mantener las zapatas de \qty{1.0}{\meter}.
+Por lo tanto, el comportamiento de la plataforma como diafragma es una condición del diseño que debe asegurarse en la conexión del tablero con las vigas.
+\revisar{Me falta incorporar la combinación $\num{0.9}D + \num{1.4}E$ de la NCh3171 en el volcamiento~\parencite{inn2017nch3171} y recalcular los pilares con el espectro 2025.}
 
 En el terreno, la presión estática de \qty{24.2}{\kilo\pascal} es muy inferior a la capacidad admisible supuesta de \qty{150}{\kilo\pascal}; según la ecuación de capacidad de carga (\cref{ec:terzaghi-cuadrada}), incluso una arena muy suelta ($\varphi' = \ang{28}$) entregaría unos \qty{86}{\kilo\pascal}~\parencite{das2015fundamentos}.
 Por lo tanto, la falta de un estudio de mecánica de suelos no compromete la verificación estática, pero sí la sísmica, en la que las presiones de borde aumentan con la excentricidad.

@@ -96,3 +96,11 @@
 - **Decisión:** se elimina la sección "Preguntas de investigación" del cap. 1. **Motivo:** el profesor guía indicó explícitamente
   que no es necesaria (prevalece sobre la sugerencia de los Lineamientos §6). La discusión y las conclusiones se organizan por los
   tres objetivos específicos aprobados (VF-V2).
+
+## 2026-11-20 — Criterio sísmico de la plataforma (pregunta 1, propuesta aprobada por el autor)
+
+- **Decisión:** NCh2369:2025 (2003 solo como antecedente); categoría de ocupación I (I = 0,8); marco a momento soldado sin anclajes
+  dúctiles, R = 3, ξ = 0,02; suelo C supuesto (sin mecánica de suelos) y q_adm = 150 kPa; tablero + vigas como diafragma (6 pilares).
+- **Resultado:** zapata 1,0 × 1,0 × 0,5 m con 91 % de área apoyada (mínimo 80 %); sin diafragma vuelca; con categoría II y suelo C, 76 %.
+- **Motivo:** la versión de la norma no cambia el veredicto; deciden el diafragma y la categoría. Cálculo: `04_analisis/scripts/14_sismo_2003_vs_2025.py`.
+- **Pendiente:** justificar el diafragma (conexión tablero-vigas), recalcular pilares y placa base con el espectro 2025, verificar 0,9D + 1,4E. A confirmar con el profesor.

@@ -268,9 +268,9 @@ Cada estanque lleno aporta \qty{10.2}{\kilo\newton}, y el peso sísmico de la cu
 
 \revisar{Resultados preliminares del script de verificación estructural, que actualiza mi cálculo original (hecho para una plataforma de $\qtyproduct{5.50 x 3.00}{\meter}$, perfiles $250 \times 250 \times 6$, estanques de \qty{785}{\liter} y zapata de $\qtyproduct{0.8 x 0.8 x 0.4}{\meter}$).
 Lo que encontré: (1) el tablero de \qty{15}{\milli\meter} no cumple $L/300$ (tampoco en el cálculo original: \qty{1.85}{\milli\meter} frente a \qty{1.33}{\milli\meter}); cumple con \qty{21}{\milli\meter} o con vigas secundarias cada \qty{0.30}{\meter};
-(2) si el corte sísmico lo toman 2 pilares en voladizo, la zapata no verifica excentricidad ni volcamiento; si se reparte entre los 6, no vuelca, pero el área en contacto baja a \qty{85}{\percent} (zona~2) y \qty{63}{\percent} (zona~3);
+(2) la verificación de las zapatas con la NCh2369:2025 se presenta en la \cref{tab:sismo-zapatas};
 (3) la placa base de \qty{16}{\milli\meter} queda al límite en zona~3.
-Tengo que definir con el co-guía el coeficiente sísmico según la NCh2369 vigente (el original usa $C = \num{2.7} A_0/R$), el reparto del corte y el $F_y$ del A270ES.
+Esta tabla todavía usa la fórmula simplificada $C = \num{2.7} A_0/R$ para los pilares y la placa base: tengo que recalcularla con el espectro de la NCh2369:2025 (script 10\_estructura.py) y confirmar el $F_y$ del A270ES.
 La estructura de los dosificadores no tiene cálculo y su perfil \enquote{$15 \times 15 \times 6$~mm} no es posible (pared de \qty{6}{\milli\meter} en un tubo de \qty{15}{\milli\meter}): tengo que revisarla.}
 
 \subsection{Diseño de fundaciones superficiales}
@@ -282,7 +282,34 @@ La presión de contacto estática es de \qty{24.2}{\kilo\pascal}, inferior a la 
 Con la \cref{ec:terzaghi-cuadrada}, para un suelo granular sin cohesión ($\gamma = \qty{18}{\kilo\newton\per\cubic\meter}$, $D_f = \qty{0.50}{\meter}$, $B = \qty{1.00}{\meter}$) y $FS = 3$, la capacidad admisible varía entre \qty{86}{\kilo\pascal} con $\varphi' = \ang{28}$ y \qty{233}{\kilo\pascal} con $\varphi' = \ang{35}$; el valor supuesto de \qty{150}{\kilo\pascal} corresponde a $\varphi' \approx \ang{32}$, propio de una arena suelta según \textcite{das2015fundamentos}.
 Aun en el caso más desfavorable analizado, la presión estática de \qty{24.2}{\kilo\pascal} es menor que un tercio de la capacidad admisible.
 \revisar{Los \qty{150}{\kilo\pascal} son un supuesto del cálculo original (\enquote{suelo tipo C/D competente}) sin estudio de mecánica de suelos, y $\gamma$, $D_f$ y $\varphi'$ de la sensibilidad (script 13\_capacidad\_soporte.py) también son supuestos: tengo que confirmarlos con el profesor o pedir un ensayo.
-La verificación sísmica de la zapata depende de los supuestos de la nota anterior.}
+Recomiendo un estudio de mecánica de suelos antes de construir.}
+
+La estabilidad sísmica de las zapatas se verificó con la NCh2369:2025 para la zona~2 ($A_0 = \num{0.30}\,g$), un marco a momento con $R = 3$ y $\xi = \num{0.02}$, y se comparó con la fórmula simplificada de la versión de 2003 (\cref{tab:sismo-zapatas}).
+Para el caso adoptado (categoría~I, suelo~C y corte repartido entre los seis pilares), el coeficiente sísmico es de \num{0.350}, el corte basal de \qty{14.9}{\kilo\newton} y la excentricidad en la zapata de \qty{0.20}{\meter}, con un \qty{91}{\percent} del área apoyada, sobre el mínimo de \qty{80}{\percent}.
+En todos los casos de la norma de 2025 el coeficiente queda limitado por el corte máximo, porque la plataforma es una estructura rígida de período corto.
+Si el corte lo resisten solo los dos pilares de un marco, la zapata vuelca con cualquiera de las dos versiones de la norma; con la categoría~II, el área apoyada baja a 76--\qty{79}{\percent}, por lo que en ese caso habría que agrandar la zapata o unir las zapatas con vigas de fundación.
+Los pilares cumplen en todos los casos, con índices de interacción flexocompresiva de \numrange{0.14}{0.51}.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Estabilidad sísmica de las zapatas de $\qtyproduct{1.0 x 1.0 x 0.5}{\meter}$ según la versión de la NCh2369, la categoría de ocupación, el tipo de suelo y el número de pilares que resisten el corte (zona~2, $R = 3$; mínimo de \qty{80}{\percent} de área apoyada). Fuente: elaboración propia.}
+  \label{tab:sismo-zapatas}
+  \begin{tabular}{@{}llccccc@{}}
+    \toprule
+    Norma & Categoría y suelo & Pilares & $C$ & $V$ (\unit{\kilo\newton}) & $e$ (\unit{\meter}) & Área apoyada \\
+    \midrule
+    2003 & -- & 2 & \num{0.270} & \num{11.5} & \num{0.65} & vuelca \\
+    2003 & -- & 6 & \num{0.270} & \num{11.5} & \num{0.22} & \qty{85}{\percent} \\
+    2025 & I, suelo B o D & 2 & \num{0.333} & \num{14.2} & \num{0.56} & vuelca \\
+    2025 & I, suelo B o D & 6 & \num{0.333} & \num{14.2} & \num{0.19} & \qty{94}{\percent} \\
+    2025 & I, suelo C (adoptado) & 6 & \num{0.350} & \num{14.9} & \num{0.20} & \qty{91}{\percent} \\
+    2025 & II, suelo B o D & 6 & \num{0.417} & \num{17.7} & \num{0.24} & \qty{79}{\percent} \\
+    2025 & II, suelo C & 6 & \num{0.437} & \num{18.6} & \num{0.25} & \qty{76}{\percent} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\revisar{Supuestos de esta comparación que tengo que declarar: la fórmula de 2003 es la simplificada de mi cálculo original (no verifiqué la expresión completa); el período lo estimé con pilares en voladizo ($T \approx \qty{0.21}{\second}$ con 6 pilares y \qty{0.36}{\second} con 2); solo probé suelos B, C y D con $R = 3$; la fuerza horizontal la combiné con el peso en servicio sin separar la carga de operación (SO); en la zapata usé la combinación ASD con $\num{0.70}E$. Cálculo en 04\_analisis/scripts/14\_sismo\_2003\_vs\_2025.py. Los índices de los pilares vienen de un cálculo auxiliar que no guardé: tengo que rehacerlo en el script.}
 
 \subsection{Planimetría y expediente técnico}
 

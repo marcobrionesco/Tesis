@@ -19,7 +19,7 @@ daba 85 % (cumple); con 2 pilares en voladizo, la zapata vuelca. Para rehacerlo 
 (I = 1,0)? (c) ¿Sistema resistente: marco a momento sin anclajes dúctiles (R = 3) u otro? (d) ¿Tipo de suelo (no hay
 mecánica de suelos)? Con Terzaghi (Das, 2015), los 150 kPa admisibles supuestos equivalen a una arena con φ′ ≈ 32°; ¿se acepta ese supuesto o se pide un ensayo? (e) ¿El tablero y las vigas trabajan como diafragma que reparte el sismo entre los 6 pilares?
 
-Respuesta: __________________________________________________________
+Respuesta (propuesta del autor, 20-11, a confirmar en la reunión): (a) NCh2369:2025 (la 2003 da el mismo veredicto); (b) categoría I; (c) marco a momento soldado, R = 3, ξ = 0,02; (d) suelo C supuesto y q_adm = 150 kPa (φ′ ≈ 32°), recomendar mecánica de suelos; (e) sí, diafragma con 6 pilares → 91 % de área apoyada. Con categoría II y suelo C bajaría a 76 % (habría que agrandar la zapata).
 
 **2. Tablero y límite de deformación.** El tablero de 15 mm no cumple la deflexión L/300 con el método usado
 (2,9 mm frente a 1,33 mm). Cumple con 21 mm o con vigas secundarias cada 0,30 m. ¿Se cambia? Además, la NCh427/1 no fija

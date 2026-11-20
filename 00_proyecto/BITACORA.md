@@ -5,6 +5,15 @@
 
 ---
 
+## 2026-11-20 (noche, 28) — Respuesta del autor a la pregunta 1 (sismo y zapatas)
+
+- Integrada la propuesta aprobada por el autor: NCh2369:2025, categoría I, R = 3, suelo C supuesto, diafragma con 6 pilares → 91 %.
+- Nuevo script `04_analisis/scripts/14_sismo_2003_vs_2025.py` (reproduce la tabla; I = 1,0 con suelo B/D da 79 %, no 80 %).
+  C queda limitado por el corte máximo (5.13) en todos los casos de 2025.
+- Cap. 2 (versión adoptada), cap. 3 (parámetros y supuestos), cap. 4 (tabla `tab:sismo-zapatas`), cap. 5 y 6 actualizados.
+- `inn2003nch2369` queda en la .bib pero no se imprime (no se cita).
+- Pendiente: recalcular `10_estructura.py` (pilares, placa base) con el espectro 2025 y guardar el cálculo de los índices 0,14–0,51.
+
 ## 2026-11-20 (noche, 27) — Correcciones del autor y 4 fuentes nuevas
 
 - 2.3.2 reescrita: el nitrato lo asimilan las **plantas del humedal** (no el cerezo); se quitaron Schwitzky y San-Martino de ese párrafo.
