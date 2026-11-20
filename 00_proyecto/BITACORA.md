@@ -5,6 +5,12 @@
 
 ---
 
+## 2026-11-20 (noche, 20) — Megasequía
+
+- Citados: CR2 (2015) (déficit ~30 % desde 2010; ≥ 25 % atribuible al cambio climático) y Yaksic et al. (2024, SISSA) (zona central:
+  314 000 ha de frutales, 84,1 % del país). Cap. 1: primer párrafo con datos cuantitativos (cierra la marca `\revisar`).
+- Archivados sin citar: CR2 FONDAP 2023, Sologuren 2024 (memoria), MINAGRI 2020. Pendiente: Garreaud et al. (2017) y catastro de cerezos.
+
 ## 2026-11-20 (noche, 19) — Humedales en Chile: Vera et al. (2016) verificado y Vidal y Gómez (2023)
 
 - `vera2016humedales` verificado con el PDF (cobertura rural ≤ 20 %; HC < 2 %). Nueva `vidal2023desarrollo` (cap. 3 del libro UNSA 2023).
