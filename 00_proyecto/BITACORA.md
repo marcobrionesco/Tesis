@@ -5,6 +5,12 @@
 
 ---
 
+## 2026-11-20 (noche, 17) — Cross et al. (2021), Nature-Based Solutions for Wastewater Treatment
+
+- Libro recibido: entrada `cross2021nature` corregida (eran editores, no autores; + DOI). Nueva `langergraber2021vertical` (ficha HCFV).
+- Cap. 2: por qué crecen las SbN; eficiencias del HCFV (incl. 2–4 log de coliformes) y ventajas. Cap. 4: efluente del estero
+  estimado en clase 1 o excepción por coliformes (marca `\revisar`: estimación teórica).
+
 ## 2026-11-20 (noche, 16) — SbN y humedales en Latinoamérica
 
 - Citados: Rodriguez-Dominguez et al. (2020) (revisión de 520 experiencias en LAC; FV 9 %, limitado por falta de conocimiento y
