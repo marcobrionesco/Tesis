@@ -20,7 +20,7 @@ Usar las fichas de 03\_seleccion/fichas\_lectura/ (receta 07).}
 \subsection{Definición}
 
 Se denomina agua residual al agua cuyas características originales han sido modificadas por su uso en actividades domésticas, comerciales, industriales o agrícolas, y que, como consecuencia, contiene constituyentes físicos, químicos y biológicos que impiden su uso directo o su descarga sin tratamiento~\parencite{tchobanoglous2014wastewater}.
-\revisar{Verificar la definición contra el texto de \textcite{tchobanoglous2014wastewater} (o la traducción de \textcite{dotro2017treatment}) y ajustar la redacción.}
+\revisar{Verificar la definición contra el texto de \textcite{tchobanoglous2014wastewater} (o la traducción de \textcite{dotro2021humedales}) y ajustar la redacción.}
 
 \subsection{Características de las aguas residuales}
 
@@ -38,25 +38,27 @@ La \cref{tab:caracteristicas-tipicas} resume los rangos de concentración report
     \toprule
     Parámetro & Aguas servidas domésticas & Lavado de agroquímicos & Agua superficial (estero) \\
     \midrule
-    DQO (\unit{\milli\gram\per\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
-    DBO$_5$ (\unit{\milli\gram\per\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
+    DQO (\unit{\milli\gram\per\liter}) & 800\,\textsuperscript{a} & \pendiente{} & \pendiente{} \\
+    DBO$_5$ (\unit{\milli\gram\per\liter}) & 400\,\textsuperscript{a} & \pendiente{} & \pendiente{} \\
+    NTK (\unit{\milli\gram\per\liter}) & 73\,\textsuperscript{a} & \pendiente{} & \pendiente{} \\
     SST (\unit{\milli\gram\per\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
     NT (\unit{\milli\gram\per\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
     NH$_4^+$ (\unit{\milli\gram\per\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
     PT (\unit{\milli\gram\per\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
     Coliformes fecales (NMP/\qty{100}{\milli\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
     \bottomrule
+    \multicolumn{4}{@{}p{0.97\textwidth}@{}}{\footnotesize \textsuperscript{a} Agua residual doméstica cruda, calculada con 120~g de DQO, 60~g de DBO$_5$ y 11~g de NTK por habitante equivalente y día, y \qty{150}{\liter} por habitante equivalente y día \parencite{dotro2021humedales}.}
   \end{tabular}
 \end{table}
 \pendiente{Completar la \cref{tab:caracteristicas-tipicas} con valores de fuentes reales y citarlas en el título (\enquote{Fuente: \ldots}).
-Para aguas servidas: \textcite{tchobanoglous2014wastewater} y \textcite{vera2016humedales} (Chile).
+Para aguas servidas: completar con \textcite{tchobanoglous2014wastewater} y \textcite{vera2016humedales} (Chile); los valores de DQO, DBO$_5$ y NTK ya provienen de \textcite{dotro2021humedales}.
 Para lavado de agroquímicos y estero: buscar (receta 05, herramientas/recetas/).}
 
 \section{Soluciones Basadas en la Naturaleza}
 \label{sec:mt-sbn}
 
 Las Soluciones Basadas en la Naturaleza (SbN) se definen como acciones para proteger, gestionar de manera sostenible y restaurar ecosistemas naturales o modificados, que abordan desafíos de la sociedad de forma efectiva y adaptativa, proporcionando simultáneamente beneficios para el bienestar humano y la biodiversidad~\parencite{cohenshacham2016nature}.
-En el ámbito del saneamiento, las SbN corresponden a tecnologías descentralizadas que imitan los procesos físicos, químicos y biológicos de depuración propios de los ecosistemas naturales~\parencite{dotro2017treatment,cross2021nature}.
+En el ámbito del saneamiento, las SbN corresponden a tecnologías descentralizadas que imitan los procesos físicos, químicos y biológicos de depuración propios de los ecosistemas naturales~\parencite{dotro2021humedales,cross2021nature}.
 \revisar{Agregar 1--2 ideas sobre por qué las SbN son pertinentes en zonas rurales (bajo consumo energético, operación simple), con fuente.}
 Entre las SbN aplicadas al tratamiento de aguas residuales se encuentran los humedales construidos~\parencite{cross2021nature}.
 
@@ -65,19 +67,24 @@ Entre las SbN aplicadas al tratamiento de aguas residuales se encuentran los hum
 
 \subsection{Definición y tipos}
 
-Los humedales construidos son sistemas de ingeniería diseñados para reproducir, en un entorno controlado, los procesos de depuración que ocurren en los humedales naturales, mediante la interacción entre el agua, un medio de soporte, la vegetación y las comunidades microbianas~\parencite{dotro2017treatment,kadlec2008treatment}.
-Según el régimen de escurrimiento, se clasifican en humedales de flujo superficial, en los que el agua escurre sobre el lecho expuesta a la atmósfera, y humedales de flujo subsuperficial, en los que el agua circula a través del medio granular; estos últimos se subdividen, según la dirección del flujo, en humedales de flujo horizontal y de flujo vertical~\parencite{dotro2017treatment}.
+Los humedales construidos son sistemas de ingeniería diseñados para reproducir, en un entorno controlado, los procesos de depuración que ocurren en los humedales naturales, mediante la interacción entre el agua, un medio de soporte, la vegetación y las comunidades microbianas~\parencite{dotro2021humedales,kadlec2008treatment}.
+Según el régimen de escurrimiento, se clasifican en humedales de flujo superficial, en los que el agua escurre sobre el lecho expuesta a la atmósfera, y humedales de flujo subsuperficial, en los que el nivel del agua se mantiene bajo la superficie de un medio poroso de arena o grava; estos últimos se subdividen, según la dirección del flujo, en humedales de flujo horizontal y de flujo vertical~\parencite{dotro2021humedales}.
+En los humedales de flujo horizontal el lecho permanece saturado, por lo que predominan los procesos de degradación anaerobia; en los de flujo vertical el agua se aplica de forma intermitente sobre la superficie y, entre cargas, el aire vuelve a ocupar los poros, de modo que predominan los procesos aerobios.
+Los humedales de flujo subsuperficial se utilizan principalmente como tratamiento secundario, precedidos de un tratamiento primario que retenga la materia particulada, mientras que los de flujo superficial se emplean generalmente como tratamiento terciario~\parencite{dotro2021humedales}.
 
 \subsection{Selección del humedal de flujo vertical}
 
-Los humedales construidos de flujo subsuperficial vertical (HCFV) operan en condiciones predominantemente aerobias, lo que favorece la nitrificación, es decir, la oxidación del nitrógeno amoniacal a nitrato~\parencite{dotro2017treatment}.
+Debido a las condiciones oxidantes dentro del lecho, los humedales construidos de flujo subsuperficial vertical (HCFV) son eficientes en la eliminación de materia orgánica y resultan apropiados cuando se requieren procesos estrictamente aerobios, como la nitrificación, es decir, la oxidación del nitrógeno amoniacal a nitrato~\parencite{dotro2021humedales}.
+Al mismo tiempo, en un HCFV de una sola etapa la eliminación de nitrógeno total se limita a un 20 a \qty{30}{\percent}~\parencite{dotro2021humedales}, por lo que la mayor parte del nitrógeno afluente abandona el sistema como nitrato.
 Esta característica es la razón principal de su selección para el presente trabajo: el nitrato es la forma de nitrógeno que las plantas absorben preferentemente, por lo que un efluente nitrificado resulta favorable para su reutilización en riego agrícola.
 \pendiente{falta fuente: absorción preferente de nitrato por los cultivos (idealmente referida a frutales o cerezo).}
 
 \subsection{Diseño}
 
-Un HCFV se compone de un lecho filtrante estratificado, formado por una capa superior de distribución, una capa principal de filtración de arena y una capa inferior de drenaje de grava, plantado con vegetación emergente y alimentado de forma intermitente desde la superficie~\parencite{dotro2017treatment}.
+Un HCFV se compone de un lecho filtrante estratificado, plantado con macrófitas emergentes y alimentado de forma intermitente desde la superficie: una capa principal de filtración de arena, una capa inferior de drenaje de grava gruesa y, entre ambas, una capa de transición (por ejemplo, \qty{10}{\centi\meter} de grava de 4 a \qty{8}{\milli\meter}) que impide que la arena migre hacia el drenaje~\parencite{dotro2021humedales}.
+Sobre la arena puede disponerse una capa superior de grava que protege la superficie de la erosión provocada por las cargas, pero que reduce la difusión de oxígeno, por lo que su espesor se limita a 5 a \qty{10}{\centi\meter}~\parencite{dotro2021humedales}.
 La \cref{fig:esquema-hcfv} muestra el esquema conceptual de este tipo de humedal.
+\revisar{Contrastar con las capas de los planos (lámina 2.2) y de las EETT: pregunta~10 de la reunión.}
 
 \begin{figure}[htbp]
   \centering
@@ -122,7 +129,26 @@ La \cref{fig:esquema-hcfv} muestra el esquema conceptual de este tipo de humedal
   \label{fig:esquema-hcfv}
 \end{figure}
 
-La superficie del lecho se dimensiona mediante el método del balance de oxígeno~\parencite{platzer1999design,onorm2009b2505}, que exige que el aporte de oxígeno al lecho ($OI$) supere a la demanda de oxígeno del sistema ($OD$), como indica la \cref{ec:balance-o2}:
+Las guías de diseño europeas dimensionan los HCFV mediante reglas generales: un área específica de 3 a \qty{4}{\square\meter} por habitante equivalente, una carga orgánica máxima de 20 a \qty{27}{\gram\per\square\meter\per\day} de DQO y una carga hidráulica máxima de \qty{80}{\liter\per\square\meter\per\day} para tratamiento secundario, como resume la \cref{tab:parametros-hcfv}~\parencite{dotro2021humedales}.
+Estas guías se desarrollaron para climas estacionales, donde el invierno es el período crítico; en climas cálidos el área requerida es menor y se han aplicado cargas hidráulicas de hasta \qty{200}{\milli\meter\per\day}~\parencite{dotro2021humedales}.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Principales parámetros de diseño de humedales de flujo vertical que tratan aguas residuales domésticas. Fuente: adaptado de \textcite{dotro2021humedales}.}
+  \label{tab:parametros-hcfv}
+  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{5.6cm}>{\centering\arraybackslash}p{2.2cm}>{\centering\arraybackslash}p{2.9cm}>{\centering\arraybackslash}p{2.9cm}@{}}
+    \toprule
+    Parámetro & Dinamarca & Alemania & Austria \\
+    \midrule
+    Área superficial específica (\unit{\square\meter} por hab-eq) & 3 & 4 & 4 \\
+    Carga orgánica máxima (\unit{\gram\per\square\meter\per\day} de DQO) & 27 & 20 & 20 \\
+    Material de la capa principal & Arena & Arena 0,06--\qty{2}{\milli\meter} & Arena 0,06--\qty{4}{\milli\meter} \\
+    Profundidad de la capa principal (\unit{\centi\meter}) & 100 & $> 50$ & $> 50$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Como alternativa a las reglas generales, la superficie del lecho puede dimensionarse mediante el método del balance de oxígeno propuesto por \textcite{platzer1999design}, empleado con frecuencia en América Latina~\parencite{dotro2021humedales}, que exige que el aporte de oxígeno al lecho ($OI$) supere a la demanda de oxígeno del sistema ($OD$), como indica la \cref{ec:balance-o2}:
 \begin{equation}
   OI - OD > 0
   \label{ec:balance-o2}
@@ -140,8 +166,7 @@ Cada término se calcula a partir de la carga diaria aplicada (\cref{ec:od-termi
   OD_{\mathrm{DQO}} = \eta_{\mathrm{DQO}}\, f_{O}\, L_{\mathrm{DQO}}, \qquad OD_{\mathrm{N}} = f_{N}\, L_{\mathrm{NTK}}, \qquad OD_{\mathrm{DN}} = \eta_{\mathrm{DN}}\, f_{DN}\, L_{\mathrm{NTK}}
   \label{ec:od-terminos}
 \end{equation}
-donde $L_{\mathrm{DQO}}$ es la carga diaria de DQO aplicada al lecho (\unit{\gram\per\day}); $L_{\mathrm{NTK}}$, la carga diaria de nitrógeno total Kjeldahl (\unit{\gram\per\day}); $f_{O}$, el oxígeno consumido por unidad de DQO degradada (\qty{0.7}{\gram} O$_2$ por gramo de DQO); $\eta_{\mathrm{DQO}}$, la eficiencia media de eliminación de DQO en humedales de flujo vertical (\num{0.85}); $f_{N}$, el oxígeno requerido para nitrificar (\qty{4.3}{\gram} O$_2$ por gramo de NTK), suponiendo nitrificación completa; $f_{DN}$, el oxígeno recuperado por desnitrificación (\qty{2.9}{\gram} O$_2$ por gramo de nitrógeno desnitrificado), y $\eta_{\mathrm{DN}}$, la fracción del nitrógeno que se desnitrifica, del orden de \num{0.10} en un humedal vertical~\parencite{platzer1999design}.
-\revisar{Valores y significados tomados de \textcite{platzer1999design} tal como los presenta el anexo~9 de la tesis de Yévenes (2019), modelo indicado por el profesor guía (05\_ejemplos/fichas/2019\_ucm\_yevenes\_….md); contrastar con el artículo original o con la traducción de \textcite{dotro2017treatment}.}
+donde $L_{\mathrm{DQO}}$ es la carga diaria de DQO aplicada al lecho (\unit{\gram\per\day}); $L_{\mathrm{NTK}}$, la carga diaria de nitrógeno total Kjeldahl (\unit{\gram\per\day}); $f_{O}$, el oxígeno consumido por unidad de DQO degradada (\qty{0.7}{\gram} O$_2$ por gramo de DQO); $\eta_{\mathrm{DQO}}$, la eficiencia media de eliminación de DQO en humedales de flujo vertical (\num{0.85}); $f_{N}$, el oxígeno requerido para nitrificar (\qty{4.3}{\gram} O$_2$ por gramo de NTK), suponiendo nitrificación completa; $f_{DN}$, el oxígeno recuperado por desnitrificación (\qty{2.9}{\gram} O$_2$ por gramo de nitrógeno desnitrificado), y $\eta_{\mathrm{DN}}$, la fracción del nitrógeno que se desnitrifica, del orden de \num{0.10} en un humedal vertical~\parencite{platzer1999design,dotro2021humedales}.
 
 El aporte de oxígeno al lecho se produce por dos mecanismos físicos simultáneos, la convección y la difusión (\cref{ec:oi}):
 \begin{equation}
@@ -149,7 +174,7 @@ El aporte de oxígeno al lecho se produce por dos mecanismos físicos simultáne
   \label{ec:oi}
 \end{equation}
 donde $OI_{\mathrm{conv}}$ es el aporte por convección y $OI_{\mathrm{dif}}$ el aporte por difusión, en \unit{\gram\per\day}.
-El aporte por convección se debe al aire que ingresa a los poros del lecho al drenar cada pulso de agua y es proporcional al volumen aplicado; el aporte por difusión se debe al intercambio con la atmósfera a través de la superficie del lecho, durante el tiempo en que este no está saturado (\cref{ec:oi-terminos})~\parencite{platzer1999design,dwa2017a262}:
+El aporte por convección se debe al aire que ingresa a los poros del lecho al drenar cada pulso de agua y es proporcional al volumen aplicado; el aporte por difusión se debe al intercambio con la atmósfera a través de la superficie del lecho, durante el tiempo en que este no está saturado (\cref{ec:oi-terminos})~\parencite{platzer1999design,dotro2021humedales}:
 \begin{equation}
   OI_{\mathrm{conv}} = c_{\mathrm{conv}}\, V_d, \qquad OI_{\mathrm{dif}} = c_{\mathrm{dif}}\, A \left(24 - t_s\, n_c\right)
   \label{ec:oi-terminos}
@@ -158,10 +183,18 @@ donde $V_d$ es el volumen de agua aplicado diariamente (\unit{\liter\per\day}), 
 
 \subsection{Operación}
 
-Los HCFV operan mediante aplicaciones discontinuas, o dosificación por pulsos, sobre la superficie del lecho~\parencite{dotro2017treatment,brix2005use}.
-Cada dosis se distribuye sobre la superficie, percola verticalmente a través del medio filtrante y, al drenar, actúa como un pistón hidráulico que succiona aire atmosférico hacia el interior de los poros, renovando el oxígeno disponible para la biomasa~\parencite{dotro2017treatment}.
+Los HCFV operan mediante aplicaciones discontinuas, o dosificación por pulsos, sobre la superficie del lecho~\parencite{dotro2021humedales,brix2005use}.
+Cada dosis se distribuye sobre la superficie, percola verticalmente a través del medio filtrante y, al drenar, actúa como un pistón hidráulico que succiona aire atmosférico hacia el interior de los poros, renovando el oxígeno disponible para la biomasa~\parencite{dotro2021humedales}.
 Entre pulsos el lecho permanece no saturado, lo que mantiene las condiciones aerobias necesarias para la oxidación de la materia orgánica y la nitrificación.
-\revisar{Agregar: frecuencia típica de pulsos, rol de la vegetación y requerimientos de mantención (con fuente).}
+
+La alimentación secuencial se realiza con una bomba o, cuando la topografía ofrece suficiente desnivel, con un sifón que no requiere energía; en ambos casos debe asegurarse una distribución uniforme del agua sobre toda la superficie del lecho~\parencite{dotro2021humedales}.
+Las guías recomiendan intervalos entre cargas de al menos \qty{6}{\hour} (guía alemana) o de 3 a \qty{6}{\hour} (guía austríaca), tuberías de distribución de al menos \qty{40}{\milli\meter} de diámetro con orificios no menores a \qty{8}{\milli\meter}, al menos un orificio por metro cuadrado y el vaciado completo de las tuberías después de cada carga~\parencite{dotro2021humedales}.
+
+Las plantas más usadas son macrófitas emergentes.
+Su función en la depuración es principalmente física: sus raíces ofrecen superficie para el crecimiento de bacterias adheridas y ayudan a mantener las propiedades hidráulicas del lecho, y la cubierta vegetal protege la superficie de la erosión; en cambio, la asimilación de nutrientes por las plantas y el oxígeno liberado por las raíces son poco relevantes frente a la degradación microbiana y al aporte de oxígeno de la carga secuencial~\parencite{dotro2021humedales}.
+
+El principal problema operativo de los HCFV es la colmatación del lecho, causada sobre todo por una eliminación insuficiente de sólidos en el tratamiento primario, por una distribución desigual de las cargas o por una superficie mal nivelada que produce encharcamientos~\parencite{dotro2021humedales}.
+Por ello, la mantención considera revisar el dispositivo de carga (sifón o bomba) al menos una vez al mes, medir el amonio del efluente al menos mensualmente para verificar la nitrificación, retirar los lodos del tratamiento primario al menos una vez al año, desmalezar durante el primer año y cosechar las plantas cada dos o tres años~\parencite{dotro2021humedales}.
 
 \section{Hidráulica de conducciones a presión y gravedad}
 \label{sec:mt-hidraulico}

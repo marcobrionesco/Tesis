@@ -38,15 +38,15 @@
 
 | # | Pág. | Comentario | Estado |
 |---|---|---|---|
-| M1 | 16 | El marco teórico debe **empezar con la definición de agua residual y sus características**, "ojalá una **tabla** que resuma aguas similares a las de los tres tipos" (doméstica, lavado de agroquímicos, estero) | 🟧 sección creada; tabla con `\pendiente` (requiere fuentes reales) |
+| M1 | 16 | El marco teórico debe **empezar con la definición de agua residual y sus características**, "ojalá una **tabla** que resuma aguas similares a las de los tres tipos" (doméstica, lavado de agroquímicos, estero) | 🟧 sección creada; columna de aguas servidas con datos de Dotro et al. (2021); faltan agroquímicos y estero |
 | M2 | 16 | "Esto es incorrecto. **La NCh1333 no habla de sólidos ni de materia orgánica**" → eliminar la frase sobre SST/DBO₅/coliformes | ✅ |
 | M3 | 16 | Sección SbN: "Aquí **solo se debe hablar de las SbN**, nada de los efluentes" (título sin "y calidad de efluentes") | ✅ |
 | M4 | 16 | Eliminar el párrafo del DS 90; "La parte final debe decir que **hay un tipo de SbN que son los humedales construidos**" | ✅ |
-| M5 | 16 | "Hablar primero de manera **sucinta de los HC en general y decir los tipos**. Luego resaltar **por qué se selecciona el HC vertical**: básicamente porque **al nitrificar genera nitrato**, que es la forma de nitrógeno que más usan las plantas" | 🟧 redactado con `\pendiente{falta fuente}` donde corresponde |
-| M6 | 16 | "**Primero se define**, luego cómo se **diseñan** y luego cómo se **operan**. Sigue esa lógica" | 🟧 reordenado |
+| M5 | 16 | "Hablar primero de manera **sucinta de los HC en general y decir los tipos**. Luego resaltar **por qué se selecciona el HC vertical**: básicamente porque **al nitrificar genera nitrato**, que es la forma de nitrógeno que más usan las plantas" | ✅ tipos y por qué vertical con Dotro et al. (2021); queda `\pendiente` solo la fuente agronómica del nitrato |
+| M6 | 16 | "**Primero se define**, luego cómo se **diseñan** y luego cómo se **operan**. Sigue esa lógica" | ✅ definición → tipos → diseño (reglas generales, tabla 2.2, balance de O₂) → operación y mantención, todo con Dotro et al. (2021) |
 | M7 | 17 | Figura del HCFV: "¿Lo hiciste tú? Debes decir de dónde sale. Si es tuyo, decir **elaboración propia**" | ✅ (la figura actual es TikZ propia: "Fuente: elaboración propia") |
-| M8 | 17 | Ec. del balance de oxígeno (OD): "**explicar cada uno de los términos** de la ecuación" | ✅ todos los términos y factores explicados (incluye desnitrificación), según el anexo 9 de Yévenes (2019) |
-| M9 | 17 | Ec. de aporte de oxígeno (OI): ídem; "fíjate cómo está en el **libro de Dotro que tradujimos con Carlos**" | 🟧 términos explicados; falta contrastar con la traducción de Dotro (pregunta 6) |
+| M8 | 17 | Ec. del balance de oxígeno (OD): "**explicar cada uno de los términos** de la ecuación" | ✅ todos los términos explicados, con Dotro et al. (2021) y Platzer (1999) |
+| M9 | 17 | Ec. de aporte de oxígeno (OI): ídem; "fíjate cómo está en el **libro de Dotro que tradujimos con Carlos**" | ✅ contrastado con la traducción (Dotro et al., 2021, ec. 4.1–4.8): coincide |
 | M10 | 17 | "Deutsche Vereinigung für Wasserwirtschaft…" → **usar solo la sigla** (DWA) | ✅ |
 | M11 | 18 | Junto a la explicación de Hazen-Williams ("Donde J es …"): "**Esto es lo que te falta arriba**" = así deben explicarse los términos de las ecuaciones anteriores | 🟧 (ver M8–M9) |
 | M12 | 18 | Tablas: mencionarlas primero en el texto; **solo líneas horizontales** (todas) | 🟧 |

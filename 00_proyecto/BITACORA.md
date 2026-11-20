@@ -5,6 +5,17 @@
 
 ---
 
+## 2026-11-20 (noche, 3) — Libro Humedales para tratamiento (Dotro et al., 2021)
+
+- Archivado en `02_material_bruto/papers/` (2 partes + texto) con ficha de lectura; año 2021 verificado (British Library).
+- Nueva referencia `dotro2021humedales`; todas las citas a Dotro pasan a la edición en castellano.
+- Cap. 2: tipos de humedales; selección del vertical (nitrificación; NT eliminado solo 20–30 %); capas; tabla de
+  parámetros de diseño (Dinamarca/Alemania/Austria); balance de O₂ contrastado (coincide); operación, plantas y mantención;
+  tabla 2.1 con DQO 800, DBO₅ 400 y NTK 73 mg/L para aguas servidas crudas.
+- Cap. 3: procedimiento de tiempos de retención (TRH nominal ε·h·A/Q) con advertencia para lechos no saturados.
+- Cap. 5: cargas de la Fase 1 (30 g DQO/m²·d; 125 mm/d) comparadas con las guías (20–27; 80, hasta 200 en clima cálido).
+- Pendiente: fuente agronómica del nitrato; tabla 2.1 para agroquímicos y estero; intervalo entre pulsos y red de distribución.
+
 ## 2026-11-20 (noche, 2) — Tesis de Diego y fichas de registro de oficinas
 
 - Archivados: tesis de Yévenes (2019, 2 partes) en `05_ejemplos/tesis/` + ficha; ficha de registro de uso de oficinas y

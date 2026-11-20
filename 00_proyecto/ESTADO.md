@@ -5,6 +5,15 @@
 
 **Última actualización:** 2026-11-20
 
+## ✅ Recibido 2026-11-20: libro *Humedales para tratamiento* (Dotro et al., 2021, ed. en castellano)
+
+- Es la "traducción de Dotro" del profesor (editores: Vera-Puerto y Arias). Clave `dotro2021humedales` (reemplaza a
+  `dotro2017treatment` en la tesis). PDF en `02_material_bruto/papers/`; ficha en `03_seleccion/fichas_lectura/`.
+- Usado en: cap. 2 (tipos, por qué vertical, capas, tabla 2.2 de parámetros, balance de O₂, operación, plantas,
+  mantención; columna de aguas servidas de la tabla 2.1), cap. 3 (TRH nominal) y cap. 5 (cargas frente a guías).
+- Sale de ahí: revisar intervalo entre pulsos (6/d = 4 h; DWA ≥ 6 h, ÖNORM 3–6 h), red de distribución
+  (≥ 40 mm, orificios ≥ 8 mm, ≥ 1/m²) y capa de transición en los planos.
+
 ## ✅ Recibido 2026-11-20 (noche): tesis de Diego y fichas de oficinas
 
 - **Tesis de Yévenes (2019)** = el "trabajo de Diego" que pidió seguir el profesor → `05_ejemplos/` con ficha.

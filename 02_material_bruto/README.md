@@ -49,3 +49,5 @@ en un `.md`.
 | 2026-11-20 | `datos_crudos/2026-11-19_proyecto_bd-macroparametros-nbs-waterry.pdf` | proyecto ANID (BD con fechas) | ✅ `04_validar_bd.py` (10 diferencias con el resumen) |
 | 2026-11-20 | `datos_crudos/2026-11-19_yo_curva-nivel.xlsx` | yo (52 puntos UTM) | ✅ `05_topografia.py` |
 | 2026-11-20 | `calculos_originales/2026_yo_*` (Colab: estructura, bombas, excavación; resultados .docx) | yo | ✅ reproducidos y actualizados en `04_analisis/scripts/10_`–`12_` |
+
+- `papers/2021_dotro-vera-arias_humedales-para-tratamiento_parte1.pdf` y `_parte2.pdf` (+ texto `.md`): Dotro et al. (2021), *Humedales para tratamiento*, edición en castellano editada por Vera-Puerto y Arias (IWA, acceso abierto). Ficha: `03_seleccion/fichas_lectura/dotro2021humedales.md`.

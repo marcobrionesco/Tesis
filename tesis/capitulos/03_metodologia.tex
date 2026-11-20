@@ -70,7 +70,14 @@ La superficie de cada humedal se determinó con el método del balance de oxíge
 A partir de las cargas de diseño de cada fuente y de la carga orgánica superficial definida para cada fase experimental del proyecto ANID/Anillos/ATE250033, se calculó la demanda de oxígeno y se iteró el área superficial hasta que el aporte de oxígeno superara a la demanda.
 Luego se verificaron la carga hidráulica superficial (caudal diario dividido por el área) y la carga orgánica superficial resultantes.
 La superficie obtenida se distribuyó en unidades modulares independientes por fuente, de modo de evitar la mezcla entre las aguas en estudio.
-\pendiente{Procedimiento de cálculo de los tiempos de retención (compromiso de la inscripción).}
+El tiempo de retención hidráulica (TRH), definido como el tiempo que el agua permanece en promedio en una unidad, se estimó como el volumen de agua contenido en ella dividido por el caudal; para el lecho filtrante se usó el valor nominal de la \cref{ec:trh}~\parencite{dotro2021humedales}:
+\begin{equation}
+  \tau = \frac{\varepsilon\, h\, A}{Q}
+  \label{ec:trh}
+\end{equation}
+donde $\tau$ es el tiempo de retención hidráulica nominal (\unit{\day}), $\varepsilon$ la porosidad del medio filtrante (adimensional), $h$ la profundidad del agua en el lecho (\unit{\meter}), $A$ el área superficial (\unit{\square\meter}) y $Q$ el caudal afluente (\unit{\cubic\meter\per\day}).
+\revisar{En un humedal vertical no saturado este valor es solo referencial: \textcite{dotro2021humedales} advierten que los conceptos de los lechos saturados no se aplican directamente a los de flujo vertical.
+Confirmar con el profesor guía a qué tiempos de retención se refiere la inscripción (lecho, estanques de acumulación o dosificadores) y qué porosidad usar.}
 
 \subsection{Redes por gravedad}
 
