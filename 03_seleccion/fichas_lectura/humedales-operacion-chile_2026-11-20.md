@@ -20,3 +20,24 @@
 - **Manuscrito (preprint, con numeración de líneas)**: aún no publicado → no citar hasta que aparezca en una revista.
 - Bélgica, 3 años: humedal aireado (nitrificación) + 3 humedales de flujo superficial (desnitrificación con carbono de detritos; en otoño-invierno requiere dosificar carbono); afluente TN 115,6 mg/L, TP 18,5 mg/L, DBO 22 mg/L; fosfato retenido en hormigón celular triturado; evalúa remoción de azoxistrobina, boscalid y difenoconazol.
 - Útil para la discusión de la línea de agroquímicos si se publica.
+
+## Vera, Jorquera, López y Vidal (2016) — `vera2016humedales` ✅ verificado con el PDF
+
+- *Humedales construidos para tratamiento y reúso de aguas servidas en Chile: reflexiones*. Tecnología y Ciencias del Agua, 7(3), 19–35.
+- Cobertura de tratamiento: **100 % urbana; rural ≤ 20 %**; más de 800 PTAS; **HC < 2 %**, solo en PTAS descentralizadas como tratamiento secundario; ~19 % de PTAS rurales con tratamiento secundario.
+- Uso: cap. 1 (antecedentes; reemplaza la marca `\revisar`).
+
+## Vidal y Gómez (2023) — cap. 3 de Morales-Paredes et al. (Eds.), *Uso de humedales artificiales para la limpieza de aguas superficiales en América Latina y el Caribe* — `vidal2023desarrollo` ✅ citado
+
+- Editorial UNSA, Arequipa (mayo 2023), ISBN 978-612-5035-88-2; capítulo pp. 62–76 (GIBA-UdeC y CRHIAM).
+- **60–85 % del agua potable se convierte en agua servida** (respalda el factor 0,85 de la casa; el 0,9 de oficinas queda sobre el rango → marca en cap. 4).
+- Dotación rural media 124 L/(hab·d) (Villarroel, 2012); urbana 161,1 L/(hab·d) (SISS, 2020).
+- Saneamiento rural 18–20 %; solo 14 % de la población rural con recolección y tratamiento; en 2010 los humedales eran 2 % de las tecnologías rurales.
+- Investigación nacional en HC desde 2000 (UdeC, PUC, U. de Chile); pilotos de FH en el Biobío: MO 69–72 %, NT 37–44 %, PT 19–29 %, requieren desinfección terciaria; **piloto de FV para aguas grises (CEHUM, CAREP, UCM, CRHIAM, GIBA; Moris y Rodríguez, 2021)**.
+- **No hay transferencia consolidada de piloto a escala real** en zonas rurales; problemas de colmatación y falta de operación profesional.
+- Uso: cap. 1 (brecha), cap. 2 (experiencias chilenas), cap. 4 (factor de restitución).
+- El resto del libro (Argentina, Brasil, Colombia, Costa Rica, Cuba, Guatemala, Honduras, México, Perú…) trata humedales para **aguas superficiales**: revisar para la línea del estero si hace falta.
+
+## Höllmann et al. (2018) — *Towards dimensioning guidelines for raw wastewater treatment in a single stage French System treatment wetlands in arid climate of Peru* — no citado
+
+- IWA Wetland Systems Conference, Valencia, 2018. Primera etapa del sistema francés (agua cruda, sin tratamiento primario) en Lima. **Configuración distinta** a la del proyecto (FV clásico con tratamiento primario y módulos IBC) → solo contexto.

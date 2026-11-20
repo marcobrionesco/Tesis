@@ -69,3 +69,4 @@ en un `.md`.
 - `papers/2020_rodriguez-dominguez…`, `2022_reuter_compendio…_parte1–3`, `2017_homsi_aidis…` (+ `.md`): SbN y humedales en Latinoamérica. Ficha: `03_seleccion/fichas_lectura/sbn-humedales-latinoamerica_2026-11-20.md`.
 - `papers/2021_cross_nbs-wastewater-treatment_parte1–4.pdf` (+ `.md`): Cross et al. (Eds.), IWA. Ficha: `03_seleccion/fichas_lectura/sbn-humedales-latinoamerica_2026-11-20.md`.
 - `papers/2016_platzer…`, `2020_altafin_bid…`, `2026_louage…_preprint` (+ `.md`): humedales verticales, experiencias. Ficha: `03_seleccion/fichas_lectura/humedales-operacion-chile_2026-11-20.md`.
+- `papers/2023_morales-paredes…_parte1–2`, `2018_hollmann…`, `2016_vera_humedales-chile-reflexiones` (+ `.md`). Ficha: `03_seleccion/fichas_lectura/humedales-operacion-chile_2026-11-20.md`.

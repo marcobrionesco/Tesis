@@ -5,6 +5,12 @@
 
 ---
 
+## 2026-11-20 (noche, 19) — Humedales en Chile: Vera et al. (2016) verificado y Vidal y Gómez (2023)
+
+- `vera2016humedales` verificado con el PDF (cobertura rural ≤ 20 %; HC < 2 %). Nueva `vidal2023desarrollo` (cap. 3 del libro UNSA 2023).
+- Cap. 1: antecedentes de Chile (cobertura y brecha piloto → escala real). Cap. 2: pilotos chilenos FH y FV.
+- Cap. 4: factor de restitución respaldado (60–85 %); marca para el 0,9 de oficinas. Höllmann et al. (2018) archivado sin citar.
+
 ## 2026-11-20 (noche, 18) — Experiencias con humedales verticales (Sudamérica y Chile)
 
 - `platzer2016long` verificada y corregida (actas IWA Gdańsk; páginas no verificables eliminadas). Nuevas: `altafin2020innovaciones`

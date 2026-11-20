@@ -53,7 +53,8 @@ El caudal de diseño para las aguas servidas habitacionales (casa, AS2) se obtuv
 El consumo promedio fue de \qty{22.30}{\cubic\meter} al mes, equivalente a \qty{743.6}{\liter\per\day}.
 Aplicando un factor de restitución de \num{0.85}, definido según el uso del agua descrito por los residentes, se obtiene una producción de unos \qty{632}{\liter\per\day}; el proyecto adoptó un caudal de diseño de \qty{600}{\liter\per\day} (\qty{0.60}{\cubic\meter\per\day}), calculado con el consumo diario redondeado a \qty{0.7}{\cubic\meter\per\day}.
 \revisar{La v3.0 usaba un coeficiente de \num{0.8}; el documento de cálculo del proyecto (01\_normativa/proyecto/texto/2026\_calculo-produccion-aguas-servidas.md) indica \num{0.85}.
-Confirmar el redondeo a \qty{600}{\liter\per\day} y, si es posible, citar una fuente para el rango típico del factor de restitución.}
+Confirmar el redondeo a \qty{600}{\liter\per\day}.}
+En la práctica, entre el 60 y el \qty{85}{\percent} del agua potable consumida se transforma en aguas servidas, según el uso que se dé al agua~\parencite{vidal2023desarrollo}, por lo que el factor de \num{0.85} adoptado para la casa corresponde al extremo superior de ese rango, del lado de la seguridad para el dimensionamiento.
 
 \begin{table}[htbp]
   \centering
@@ -89,6 +90,7 @@ Confirmar el redondeo a \qty{600}{\liter\per\day} y, si es posible, citar una fu
 Para el sector de oficinas (AS1), que no cuenta con registro histórico independiente, el volumen se estimó con el registro de usos de los artefactos sanitarios entre la tercera semana de enero y la tercera semana de febrero de 2026 (\cref{anx:fichas-registro}) y con el volumen por uso de cada artefacto, en dos escenarios: ocupación regular en enero (escenario~1) y ocupación reducida por vacaciones en febrero (escenario~2), como muestra la \cref{tab:consumo-oficina}.
 El escenario~1 entrega \qty{165}{\liter\per\day} y el escenario~2, \qty{96}{\liter\per\day}.
 Considerando que la disminución del escenario~2 se debe a las vacaciones del personal y aplicando un factor de restitución de \num{0.9} al escenario~1 ($\num{0.9} \times 165 \approx \qty{150}{\liter\per\day}$), se adoptó un caudal de diseño de \qty{150}{\liter\per\day} (\qty{0.15}{\cubic\meter\per\day}), valor confirmado por el director del proyecto (I.~L. Vera Puerto, comunicación personal, 23 de octubre de 2026).
+\revisar{El factor de \num{0.9} de las oficinas supera el rango de 60 a \qty{85}{\percent} reportado por \textcite{vidal2023desarrollo}; es razonable porque en oficinas casi no hay usos consuntivos (riego, lavado de patios), pero conviene justificarlo así o confirmarlo con el profesor guía.}
 
 \begin{table}[htbp]
   \centering
