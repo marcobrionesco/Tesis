@@ -45,8 +45,8 @@
 | M5 | 16 | "Hablar primero de manera **sucinta de los HC en general y decir los tipos**. Luego resaltar **por qué se selecciona el HC vertical**: básicamente porque **al nitrificar genera nitrato**, que es la forma de nitrógeno que más usan las plantas" | 🟧 redactado con `\pendiente{falta fuente}` donde corresponde |
 | M6 | 16 | "**Primero se define**, luego cómo se **diseñan** y luego cómo se **operan**. Sigue esa lógica" | 🟧 reordenado |
 | M7 | 17 | Figura del HCFV: "¿Lo hiciste tú? Debes decir de dónde sale. Si es tuyo, decir **elaboración propia**" | ✅ (la figura actual es TikZ propia: "Fuente: elaboración propia") |
-| M8 | 17 | Ec. del balance de oxígeno (OD): "**explicar cada uno de los términos** de la ecuación" | 🟧 |
-| M9 | 17 | Ec. de aporte de oxígeno (OI): ídem; "fíjate cómo está en el **libro de Dotro que tradujimos con Carlos**" | 🟧 (pedir/ubicar la traducción al español de Dotro et al. 2017) |
+| M8 | 17 | Ec. del balance de oxígeno (OD): "**explicar cada uno de los términos** de la ecuación" | ✅ todos los términos y factores explicados (incluye desnitrificación), según el anexo 9 de Yévenes (2019) |
+| M9 | 17 | Ec. de aporte de oxígeno (OI): ídem; "fíjate cómo está en el **libro de Dotro que tradujimos con Carlos**" | 🟧 términos explicados; falta contrastar con la traducción de Dotro (pregunta 6) |
 | M10 | 17 | "Deutsche Vereinigung für Wasserwirtschaft…" → **usar solo la sigla** (DWA) | ✅ |
 | M11 | 18 | Junto a la explicación de Hazen-Williams ("Donde J es …"): "**Esto es lo que te falta arriba**" = así deben explicarse los términos de las ecuaciones anteriores | 🟧 (ver M8–M9) |
 | M12 | 18 | Tablas: mencionarlas primero en el texto; **solo líneas horizontales** (todas) | 🟧 |
@@ -59,7 +59,7 @@
 | T1 | 21 | Al empezar el OE1, **primero localizar dónde se va a realizar el proyecto** | 🟧 sección "Área de estudio" al inicio |
 | T2 | 26 | El plano de emplazamiento general (fig. 3.4), "**sin aún indicar los elementos**, va al inicio del capítulo" | 🟧 movido a "Área de estudio" |
 | T3 | 21 | "Aquí también debes poner **lo que hicimos de las caracterizaciones de calidad**. Porque sin las caracterizaciones no llegas a los valores de carga" | 🟧 (campañas, puntos, parámetros ya descritos; ampliar: muestreo, laboratorio, métodos → pregunta al profesor) |
-| T4 | 21 | "Está más o menos. Debe **ligarse con anexos donde se muestren las fichas** que se utilizaron. Te voy a compartir el **trabajo de Diego** de donde nos basamos para generar las fichas. Fíjate cómo está ahí redactado" | ⬜ esperar trabajo de Diego |
+| T4 | 21 | "Está más o menos. Debe **ligarse con anexos donde se muestren las fichas** que se utilizaron. Te voy a compartir el **trabajo de Diego** de donde nos basamos para generar las fichas. Fíjate cómo está ahí redactado" | ✅ recibido (05_ejemplos/…yevenes…); metodología reescrita a su modo y **Anexo I** con las fichas y el registro de usos |
 | T5 | 21 | Título "Procedimiento de Dimensionamiento de Humedales Construidos (HCFV)" → "**Dimensionamiento de HC-FV**" | ✅ |
 | T6 | 22 | "Como unidad base se seleccionaron contenedores IBC de 1 m³…": "**Esto es resultado.** Aquí solo se explica cómo se calcula o se diseña" | 🟧 movido a resultados |
 | T7 | 22 | (otro párrafo) "Esto es resultados, aquí es metodología" | 🟧 |

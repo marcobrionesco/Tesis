@@ -5,6 +5,18 @@
 
 ---
 
+## 2026-11-20 (noche, 2) — Tesis de Diego y fichas de registro de oficinas
+
+- Archivados: tesis de Yévenes (2019, 2 partes) en `05_ejemplos/tesis/` + ficha; ficha de registro de uso de oficinas y
+  documento de cálculo de producción de aguas servidas en `01_normativa/proyecto/` (originales + texto).
+- Cap. 2: balance de O₂ con todos los términos explicados (η_DQO = 0,85 eficiencia de eliminación, 0,7 g O₂/g DQO,
+  4,3 g O₂/g NTK, desnitrificación 0,10 × 2,9 g O₂/g N, 0,3 g O₂/L = O₂ del aire), según el anexo 9 de Yévenes.
+- Cap. 3: producción de aguas servidas descrita como en la tesis de Diego (fichas, escenarios, restitución), remite al Anexo I.
+- Cap. 4: factor de restitución de la casa corregido a 0,85 (≈ 632 L/d; proyecto adopta 600) y de oficinas 0,9 (165 → 150 L/d).
+- Nuevo **Anexo I** (fichas de lavaplatos, lavamanos e inodoro + tabla de usos diarios); los demás anexos se renumeran.
+- Pregunta 6 actualizada (aforo, semana "02S1" repetida, 0,85 vs 0,8, traducción de Dotro).
+- Pendiente: método del aforo; confirmar 600 frente a 632 L/d; fichas posteriores al 1 de febrero.
+
 ## 2026-11-20 (noche) — Revisión del profesor (v3.0 comentada) y objetivos aprobados VF-V2
 
 - Recibidos: PDF de la v3.0 con **47 comentarios** del profesor guía (→ `02_material_bruto/revisiones_profesor/`),

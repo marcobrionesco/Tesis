@@ -5,6 +5,16 @@
 
 **Última actualización:** 2026-11-20
 
+## ✅ Recibido 2026-11-20 (noche): tesis de Diego y fichas de oficinas
+
+- **Tesis de Yévenes (2019)** = el "trabajo de Diego" que pidió seguir el profesor → `05_ejemplos/` con ficha.
+  Su anexo 9 explica cada término del balance de O₂ (Platzer, 1999): usado en el cap. 2.
+- **Ficha de registro de uso (oficinas)** y **cálculo de producción de aguas servidas** (documentos del proyecto)
+  → `01_normativa/proyecto/`. Resuelven el método de caudales: casa = medidor 13 meses × restitución **0,85**
+  (la v3.0 decía 0,8); oficinas = fichas 3.ª sem. ene–3.ª sem. feb 2026 + aforo, escenario 1 (165 L/d) × **0,9** ≈ 150 L/d.
+- Tesis: metodología de producción reescrita; **Anexo I** nuevo (fichas + registro de usos); cap. 4 corregido.
+- Lista de trabajo del autor (con preguntas): documento Claude Docs "Tesis — Tareas pendientes y preguntas".
+
 ## 🔴 PRIORIDAD ACTUAL (2026-11-20) — Revisión del profesor guía del 16-11
 
 - El profesor guía revisó la v3.0 (47 comentarios en el PDF) y pidió por correo:

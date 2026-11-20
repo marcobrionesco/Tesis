@@ -137,11 +137,11 @@ La demanda total de oxígeno se compone del consumo por oxidación de la materia
 donde $OD_{\mathrm{DQO}}$ es la demanda debida a la descomposición de la materia orgánica (\unit{\gram\per\day}), $OD_{\mathrm{N}}$ la demanda debida a la nitrificación del nitrógeno total Kjeldahl (\unit{\gram\per\day}) y $OD_{\mathrm{DN}}$ la reducción de la demanda por desnitrificación parcial (\unit{\gram\per\day}).
 Cada término se calcula a partir de la carga diaria aplicada (\cref{ec:od-terminos}):
 \begin{equation}
-  OD_{\mathrm{DQO}} = f_{a}\, f_{O}\, L_{\mathrm{DQO}}, \qquad OD_{\mathrm{N}} = f_{N}\, L_{\mathrm{NTK}}
+  OD_{\mathrm{DQO}} = \eta_{\mathrm{DQO}}\, f_{O}\, L_{\mathrm{DQO}}, \qquad OD_{\mathrm{N}} = f_{N}\, L_{\mathrm{NTK}}, \qquad OD_{\mathrm{DN}} = \eta_{\mathrm{DN}}\, f_{DN}\, L_{\mathrm{NTK}}
   \label{ec:od-terminos}
 \end{equation}
-donde $L_{\mathrm{DQO}}$ y $L_{\mathrm{NTK}}$ son las cargas diarias de DQO y de nitrógeno total Kjeldahl aplicadas al lecho (\unit{\gram\per\day}), $f_{O}$ la fracción de la DQO que consume oxígeno (\qty{0.7}{\gram} O$_2$ por gramo de DQO), $f_{a}$ la fracción de la DQO que se degrada en el lecho (\num{0.85}) y $f_{N}$ el oxígeno requerido para nitrificar (\qty{4.3}{\gram} O$_2$ por gramo de NTK)~\parencite{platzer1999design}.
-\revisar{Confirmar el significado de los factores \num{0.85} y \num{0.7} en \textcite{platzer1999design} y en la traducción al español de \textcite{dotro2017treatment} indicada por el profesor guía.}
+donde $L_{\mathrm{DQO}}$ es la carga diaria de DQO aplicada al lecho (\unit{\gram\per\day}); $L_{\mathrm{NTK}}$, la carga diaria de nitrógeno total Kjeldahl (\unit{\gram\per\day}); $f_{O}$, el oxígeno consumido por unidad de DQO degradada (\qty{0.7}{\gram} O$_2$ por gramo de DQO); $\eta_{\mathrm{DQO}}$, la eficiencia media de eliminación de DQO en humedales de flujo vertical (\num{0.85}); $f_{N}$, el oxígeno requerido para nitrificar (\qty{4.3}{\gram} O$_2$ por gramo de NTK), suponiendo nitrificación completa; $f_{DN}$, el oxígeno recuperado por desnitrificación (\qty{2.9}{\gram} O$_2$ por gramo de nitrógeno desnitrificado), y $\eta_{\mathrm{DN}}$, la fracción del nitrógeno que se desnitrifica, del orden de \num{0.10} en un humedal vertical~\parencite{platzer1999design}.
+\revisar{Valores y significados tomados de \textcite{platzer1999design} tal como los presenta el anexo~9 de la tesis de Yévenes (2019), modelo indicado por el profesor guía (05\_ejemplos/fichas/2019\_ucm\_yevenes\_….md); contrastar con el artículo original o con la traducción de \textcite{dotro2017treatment}.}
 
 El aporte de oxígeno al lecho se produce por dos mecanismos físicos simultáneos, la convección y la difusión (\cref{ec:oi}):
 \begin{equation}
@@ -154,7 +154,7 @@ El aporte por convección se debe al aire que ingresa a los poros del lecho al d
   OI_{\mathrm{conv}} = c_{\mathrm{conv}}\, V_d, \qquad OI_{\mathrm{dif}} = c_{\mathrm{dif}}\, A \left(24 - t_s\, n_c\right)
   \label{ec:oi-terminos}
 \end{equation}
-donde $V_d$ es el volumen de agua aplicado diariamente (\unit{\liter\per\day}), $c_{\mathrm{conv}}$ el oxígeno aportado por litro aplicado (\qty{0.3}{\gram} O$_2$ por litro), $A$ el área superficial del lecho (\unit{\square\meter}), $c_{\mathrm{dif}}$ la tasa de difusión por unidad de área (\qty{1}{\gram} O$_2$ por \unit{\square\meter} y por hora), $n_c$ el número de cargas diarias y $t_s$ el tiempo de saturación del lecho después de cada carga (\qty{1.5}{\hour}), durante el cual se considera que no hay difusión.
+donde $V_d$ es el volumen de agua aplicado diariamente (\unit{\liter\per\day}), $c_{\mathrm{conv}}$ el oxígeno aportado por litro aplicado (\qty{0.3}{\gram} O$_2$ por litro, que corresponde al contenido de oxígeno del aire que reemplaza al agua drenada), $A$ el área superficial del lecho (\unit{\square\meter}), $c_{\mathrm{dif}}$ la tasa de difusión por unidad de área (\qty{1}{\gram} O$_2$ por \unit{\square\meter} y por hora), $n_c$ el número de cargas diarias y $t_s$ el tiempo de saturación del lecho después de cada carga (\qty{1.5}{\hour}), durante el cual se considera que no hay difusión.
 
 \subsection{Operación}
 

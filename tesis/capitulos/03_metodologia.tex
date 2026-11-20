@@ -46,10 +46,20 @@ Los resultados de cada punto se resumieron mediante la media aritmética de las 
 
 \subsection{Producción de agua residual y cargas de diseño}
 
-Para las aguas servidas de la casa, el caudal de diseño se determinó a partir de los registros del medidor de agua potable, aplicando un coeficiente de recuperación; para las oficinas se realizaron aforos de los artefactos sanitarios.
-\revisar{Verificar esta descripción con lo efectivamente realizado: el caudal de oficinas de \qty{150}{\liter\per\day} se adoptó del análisis de producción del director del proyecto (correo del 23-10-2026).}
-\pendiente{Procedimiento para estimar la producción de las aguas de lavado de agroquímicos y el caudal a captar del estero.}
+La producción de aguas servidas se estimó por separado para la casa y para las oficinas, según la información disponible en cada caso.
+
+Para la casa (AS2), que cuenta con un medidor de agua potable propio, se recopiló la facturación de trece meses consecutivos (marzo de 2025 a marzo de 2026) y se calculó el consumo diario promedio.
+La producción de aguas servidas se obtuvo al multiplicar ese consumo por un factor de restitución, es decir, la fracción del agua potable consumida que retorna como agua servida, definido a partir del uso de agua descrito por los residentes.
+
+Para las oficinas (AS1), que no tienen un medidor independiente, se registró la frecuencia de uso de los artefactos que generan aguas servidas: inodoro, lavamanos y lavaplatos.
+Para ello se instaló junto a cada artefacto una ficha de registro semanal, en la que los usuarios marcaron cada uso con una X (en el inodoro, X para descarga grande y O para descarga pequeña) (\cref{anx:fichas-registro}).
+El registro se realizó desde la tercera semana de enero hasta la tercera semana de febrero de 2026, lo que permitió definir dos escenarios: ocupación regular (enero, escenario~1) y ocupación reducida por vacaciones del personal (febrero, escenario~2).
+A continuación, se determinó el volumen de cada uso a partir del caudal aforado de cada artefacto y de su tiempo medio de uso; el volumen diario de cada escenario se obtuvo como la suma, sobre los artefactos, del número medio de usos diarios por el volumen por uso.
+Finalmente, el caudal de diseño se fijó considerando ambos escenarios y un factor de restitución definido según el uso descrito por los ocupantes.
+\pendiente{Describir cómo se realizó el aforo de los artefactos de oficinas (método, instrumento, número de repeticiones) y quién definió los tiempos de uso.}
+
 La carga másica diaria de cada fuente se obtuvo como el producto entre el caudal de diseño y la concentración representativa de cada parámetro (DQO y nitrógeno total Kjeldahl)~\parencite{tchobanoglous2014wastewater}.
+\pendiente{Procedimiento para estimar la producción de las aguas de lavado de agroquímicos y el caudal a captar del estero.}
 
 \section{Diseño depurativo y cálculo hidráulico}
 \label{sec:met-hidraulico}

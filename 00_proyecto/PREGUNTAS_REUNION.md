@@ -45,9 +45,10 @@ Respuesta: __________________________________________________________
 
 # B. Prioridad media (coherencia del informe)
 
-**6. Material de apoyo comprometido en la revisión.** ¿Me puede enviar el **trabajo de Diego** (fichas de
-muestreo, para el anexo y la redacción de la caracterización) y la **traducción al español del libro de Dotro et al.**
-(para explicar los términos del balance de oxígeno)?
+**6. Fichas y aforos de oficinas.** Ya tengo el trabajo de Diego y las fichas (gracias). Falta: ¿cómo se hizo el
+**aforo** de los artefactos (instrumento, repeticiones)? ¿Hubo más fichas después del 1 de febrero (el registro llega a
+la 3.ª semana de febrero)? ¿La columna repetida "02S1" es la 2.ª semana de febrero? ¿El factor de restitución de la casa
+es 0,85 (documento de cálculo) y no 0,8 (v3.0)? ¿Me puede enviar la **traducción de Dotro et al.**?
 
 Respuesta: __________________________________________________________
 
