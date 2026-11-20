@@ -1,0 +1,26 @@
+% =====================================================================
+%  Portada — según template oficial ICV-611 (TPL p. 1) y Anexo 3 de los
+%  Lineamientos. Los datos se editan en config/comandos.tex.
+% =====================================================================
+\begin{titlepage}
+  \centering
+  \setstretch{1}
+  \fontsize{12}{14}\selectfont
+  \includegraphics[width=2.4cm]{portada/logo_ucm.png}\par
+  \vspace{1.2cm}
+  \MakeUppercase{\tesisUniversidad}\par
+  \MakeUppercase{\tesisFacultad}\par
+  \MakeUppercase{\tesisEscuela}\par
+  \vspace{2.2cm}
+  {\fontsize{14}{17}\selectfont\bfseries\MakeUppercase{\tesisTitulo}\par}
+  \vspace{2cm}
+  {\bfseries\MakeUppercase{\tesisAutor}\par}
+  \vspace{0.3cm}
+  {\bfseries PROFESOR GUÍA: \MakeUppercase{\tesisGuia}\par} % chktex 13
+  \ifx\tesisCoGuia\empty\else\vspace{0.2cm}{\bfseries PROFESOR CO-GUÍA: \MakeUppercase{\tesisCoGuia}\par}\fi % chktex 13
+  \vfill
+  Proyecto de Título presentado en conformidad a los\par
+  requisitos para obtener el título de \tesisTituloProfesional\par
+  \vspace{1cm}
+  \MakeUppercase{\tesisCiudad}, \tesisFecha\par
+\end{titlepage}

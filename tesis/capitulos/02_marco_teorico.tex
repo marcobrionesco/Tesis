@@ -1,0 +1,357 @@
+% =====================================================================
+%  Capítulo 2: Marco Teórico (trabajo aplicado)
+%  Rúbrica: 15 %. Exige literatura de los últimos 10 años y ANÁLISIS CRÍTICO.
+%  Origen: v3.0 (2026-11-19). Ver triaje en 03_seleccion/triaje/.
+% =====================================================================
+\chapter{Marco Teórico}
+\label{cap:marco-teorico}
+
+\revisar{Ya incorporé literatura reciente (Latinoamérica, plaguicidas, aguas superficiales); me falta profundizar el análisis crítico con experiencias chilenas de humedales verticales y de reúso en riego.}
+
+% Estructura según la revisión del profesor guía (16-11-2026, 03_seleccion/triaje/2026-11-16_revision-profesor-v3.0.md):
+% aguas residuales → SbN → humedales construidos (definición, tipos, por qué vertical, diseño, operación)
+% → hidráulica → estructural. Sin referencias a los objetivos (eso va en la metodología).
+
+\section{Aguas residuales}
+\label{sec:mt-aguas-residuales}
+
+\subsection{Definición}
+
+Las aguas servidas corresponden a la mezcla de los desechos líquidos provenientes de los hogares y de las instituciones educativas y comerciales (aguas residuales domésticas), de las industrias (aguas residuales industriales) y de las precipitaciones e infiltraciones que son recogidas por el sistema de alcantarillado; como cada componente tiene un origen y unos contaminantes distintos, sus características varían de una localidad a otra~\parencite{araya2014aguas}.
+Las aguas residuales domésticas, a su vez, reúnen las aguas negras, provenientes del metabolismo humano y portadoras de sólidos, materia orgánica y organismos patógenos; las aguas de cocina, con sólidos, materia orgánica, grasas y sales, y las aguas de lavado, con detergentes, jabones y nutrientes~\parencite{araya2014aguas}.
+En Chile, se consideran aguas servidas de tipo rural las originadas en asentamientos rurales, que presentan diferencias respecto de las urbanas en densidad poblacional, actividades y sistemas de recolección~\parencite{araya2014aguas}.
+
+\subsection{Características de las aguas residuales}
+
+Las aguas residuales se caracterizan mediante parámetros físicos (sólidos, temperatura, turbiedad), químicos (pH; nutrientes como nitrógeno y fósforo en sus distintas formas; materia orgánica medida como demanda química y bioquímica de oxígeno) y biológicos (microorganismos patógenos, para los que se emplean los coliformes como indicador)~\parencite{araya2014aguas,tchobanoglous2014wastewater}.
+La composición varía según el origen del agua: las aguas servidas domésticas presentan altas concentraciones de materia orgánica biodegradable, nitrógeno amoniacal y microorganismos de origen fecal, con concentraciones de nitrato prácticamente nulas~\parencite{araya2014aguas}; las aguas de lavado de equipos de aplicación de agroquímicos contienen residuos de plaguicidas y fertilizantes; y las aguas superficiales de cauces agrícolas reciben aportes difusos de nutrientes, sedimentos y descargas puntuales.
+
+Las aguas residuales con plaguicidas se generan en tres momentos del manejo agrícola: la preparación de las mezclas, donde pueden derramarse soluciones concentradas; la aplicación en el campo, y el manejo y lavado de los equipos de aplicación, que produce volúmenes importantes de agua con bajas concentraciones de plaguicidas~\parencite{mussali2023biobeds}.
+Su composición es muy variable: el pH puede ir desde valores muy ácidos (\num{0.5}) hasta muy alcalinos (14), las concentraciones de plaguicidas varían entre \num{0.1} y \qty{107}{\milli\gram\per\liter}, y en los efluentes de la producción de plaguicidas se han reportado DQO de 150 a \qty{33750}{\milli\gram\per\liter} y DBO de 30 a \qty{11590}{\milli\gram\per\liter}~\parencite{saleh2020removal}.
+En los cauces del valle central de Chile con fuerte expansión frutícola, \textcite{sigona2025pesticide} detectaron en 2024 el herbicida diurón y el fungicida fosetil-aluminio en ríos de las cuencas Putagán-Loncomilla, Ñiquén y Changaral, en las regiones del Maule y Ñuble; en algunos casos el diurón superó estándares internacionales para agua potable.
+Para clasificar la calidad de los cursos superficiales, la normativa chilena de normas secundarias define clases de calidad: la clase de excepción y la clase~1 (muy buena calidad) son aptas para la conservación de las comunidades acuáticas y para el riego irrestricto; la clase~2 (buena calidad), para la acuicultura y la pesca recreativa, y la clase~3 (regular calidad), para la bebida de animales y el riego restringido, mientras que las aguas que exceden los límites de la clase~3 se consideran de mala calidad (clase~4)~\parencite{dga2003diagnostico}.
+Los límites de cada clase para los parámetros generales, establecidos en el instructivo de la Comisión Nacional del Medio Ambiente para la dictación de normas secundarias, se presentan en la \cref{tab:clases-calidad}.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Valores máximos de las clases de calidad para parámetros generales de aguas continentales superficiales. Fuente: adaptado de \textcite{dga2004volumen1}.}
+  \label{tab:clases-calidad}
+  \begin{tabular}{@{}lccccc@{}}
+    \toprule
+    Parámetro & Unidad & Excepción & Clase 1 & Clase 2 & Clase 3 \\
+    \midrule
+    Conductividad eléctrica & \unit{\micro\siemens\per\centi\meter} & $<600$ & 750 & 1500 & 2250 \\
+    DBO$_5$ & \unit{\milli\gram\per\liter} & $<2$ & 5 & 10 & 20 \\
+    Oxígeno disuelto\,\textsuperscript{a} & \unit{\milli\gram\per\liter} & $>7,5$ & 7,5 & 5,5 & 5 \\
+    pH & --- & 6,5--8,5 & 6,5--8,5 & 6,5--8,5 & 6,5--8,5 \\
+    Sólidos suspendidos & \unit{\milli\gram\per\liter} & $<24$ & 30 & 50 & 80 \\
+    Amonio & \unit{\milli\gram\per\liter} & $<0,5$ & 1 & 1,5 & 2,5 \\
+    Coliformes fecales & NMP/\qty{100}{\milli\liter} & $<10$ & 1000 & 2000 & 5000 \\
+    Coliformes totales & NMP/\qty{100}{\milli\liter} & $<200$ & 2000 & 5000 & 10000 \\
+    \bottomrule
+    \multicolumn{6}{@{}p{0.9\textwidth}@{}}{\footnotesize \textsuperscript{a} Valor mínimo. Las aguas que superan los límites de la clase~3 corresponden a la clase~4.}
+  \end{tabular}
+\end{table}
+En la cuenca del río Maule, los cursos superficiales presentan en general baja carga orgánica y de nutrientes, pero una contaminación fecal variable: en un muestreo de primavera de 2003, el río Loncomilla en Las Brisas, que recibe al río Putagán, registró \num{9.2e4}~NMP/\qty{100}{\milli\liter} de coliformes fecales, valor correspondiente a la clase~4 de calidad~\parencite{dga2004maule}.
+En el río Putagán, afluente del Loncomilla cercano a Linares, la DGA registró valores centrales de conductividad eléctrica de \qty{155}{\micro\siemens\per\centi\meter}, oxígeno disuelto de \qty{9.4}{\milli\gram\per\liter} y pH de \num{7.3}~\parencite{dga2004maule}.
+
+La \cref{tab:caracteristicas-tipicas} resume los rangos de concentración reportados en la literatura para aguas similares a las tres fuentes consideradas en este trabajo.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Características típicas de aguas residuales similares a las tres fuentes de este trabajo. Fuente: adaptado de \textcite{araya2014aguas}, \textcite{saleh2020removal}, \textcite{sigona2025pesticide} y \textcite{dga2004maule}.}
+  \label{tab:caracteristicas-tipicas}
+  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.2cm}>{\centering\arraybackslash}p{3cm}>{\centering\arraybackslash}p{3cm}>{\centering\arraybackslash}p{3cm}@{}}
+    \toprule
+    Parámetro & Aguas servidas rurales (Chile)\,\textsuperscript{a} & Lavado de agroquímicos & Agua superficial (estero) \\
+    \midrule
+    pH & 6,5--8,5\,\textsuperscript{b} & 0,5--14\,\textsuperscript{c} & 7,3\,\textsuperscript{f} \\
+    DQO (\unit{\milli\gram\per\liter}) & 200--1600 & 150--33750\,\textsuperscript{d} & --- \\
+    DBO$_5$ (\unit{\milli\gram\per\liter}) & 200--500 & 30--11590\,\textsuperscript{d} & $<$1,5--9,5\,\textsuperscript{g} \\
+    SST (\unit{\milli\gram\per\liter}) & 100--500 & --- & $<$10--82\,\textsuperscript{g} \\
+    NT (\unit{\milli\gram\per\liter}) & 35--100 & --- & --- \\
+    NH$_4^+$ (\unit{\milli\gram\per\liter}) & 6--60 & --- & 0,03--0,17\,\textsuperscript{g} \\
+    NO$_3^-$ (\unit{\milli\gram\per\liter}) & $< 1$ & --- & --- \\
+    PT (\unit{\milli\gram\per\liter}) & 6--30 & --- & --- \\
+    Coliformes fecales (NMP/\qty{100}{\milli\liter}) & $10^{6}$--$10^{10}$ & --- & $<$2--$\num{1.7e5}$\,\textsuperscript{g} \\
+    Plaguicidas (\unit{\milli\gram\per\liter}) & --- & 0,1--107\,\textsuperscript{c} & diurón: $<$0,01--0,024; fosetil-Al: 0,08--0,15\,\textsuperscript{e} \\
+    \bottomrule
+    \multicolumn{4}{@{}p{0.97\textwidth}@{}}{\footnotesize \textsuperscript{a} Aguas servidas sin tratar de tipo rural, según \textcite{araya2014aguas}, a partir de Vera (2012). \textsuperscript{b} Rango general de las aguas servidas \parencite{araya2014aguas}. \textsuperscript{c} Aguas contaminadas con plaguicidas \parencite{saleh2020removal}. \textsuperscript{d} Efluentes de la producción de plaguicidas, más concentrados que las aguas de lavado de equipos \parencite{saleh2020removal}. \textsuperscript{e} Ríos de la cuenca Putagán-Loncomilla y vecinas, Maule y Ñuble, verano de 2024 \parencite{sigona2025pesticide}. \textsuperscript{f} Río Putagán en la bocatoma del canal Melozal, tendencia central de doce años \parencite{dga2004maule}. \textsuperscript{g} Muestreo puntual de siete ríos y esteros de la cuenca del Maule, primavera de 2003 \parencite{dga2004maule}. ---: sin datos en las fuentes revisadas.}
+  \end{tabular}
+\end{table}
+Como referencia internacional, \textcite{dotro2021humedales} consideran para el agua residual doméstica cruda 150~L, 120~g de DQO, 60~g de DBO$_5$ y 11~g de NTK por habitante equivalente y día, lo que equivale a unos \qty{800}{\milli\gram\per\liter} de DQO y \qty{73}{\milli\gram\per\liter} de NTK; en Chile, las cargas unitarias de las aguas servidas rurales son de 50 a 125~g de DQO y de 2 a 15~g de NTK por habitante y día~\parencite{araya2014aguas}.
+No se encontró una caracterización típica de las aguas de lavado de equipos de aplicación en términos de nutrientes y sólidos, por lo que la línea de agroquímicos se diseña con los datos propios de la caracterización.
+\pendiente{Revisar si la columna del estero queda completa con las fuentes de la DGA o si me falta algún parámetro.}
+
+\section{Soluciones Basadas en la Naturaleza}
+\label{sec:mt-sbn}
+
+Las Soluciones Basadas en la Naturaleza (SbN) se definen como acciones para proteger, gestionar de manera sostenible y restaurar ecosistemas naturales o modificados, que abordan desafíos de la sociedad de forma efectiva y adaptativa, proporcionando simultáneamente beneficios para el bienestar humano y la biodiversidad~\parencite{cohenshacham2016nature}.
+En el ámbito del saneamiento, las SbN corresponden a tecnologías descentralizadas que imitan los procesos físicos, químicos y biológicos de depuración propios de los ecosistemas naturales~\parencite{dotro2021humedales,cross2021nature}.
+Su aplicación ha crecido porque pueden tener un costo menor que las tecnologías convencionales, adaptarse a distintos climas, integrarse con sistemas convencionales y generar beneficios adicionales a la mejora de la calidad del agua~\parencite{cross2021nature}.
+Su pertinencia en zonas rurales se explica porque son tecnologías robustas que, con una mantención adecuada, pueden operar por más tiempo que las tecnologías convencionales~\parencite{rodriguezdominguez2020constructed}, con bajos costos de operación, aunque requieren experiencia en el diseño y la construcción, en especial de los sistemas de dosificación~\parencite{reuter2022compendio}.
+Entre las SbN aplicadas al tratamiento de aguas residuales se encuentran los humedales construidos~\parencite{cross2021nature}.
+
+\section{Humedales construidos}
+\label{sec:mt-humedales}
+
+\subsection{Definición y tipos}
+
+Los humedales construidos son sistemas de ingeniería diseñados para reproducir, en un entorno controlado, los procesos de depuración que ocurren en los humedales naturales, mediante la interacción entre el agua, un medio de soporte, la vegetación y las comunidades microbianas~\parencite{dotro2021humedales,kadlec2008treatment}.
+Según el régimen de escurrimiento, se clasifican en humedales de flujo superficial, en los que el agua escurre sobre el lecho expuesta a la atmósfera, y humedales de flujo subsuperficial, en los que el nivel del agua se mantiene bajo la superficie de un medio poroso de arena o grava; estos últimos se subdividen, según la dirección del flujo, en humedales de flujo horizontal y de flujo vertical~\parencite{dotro2021humedales}.
+En los humedales de flujo horizontal el lecho permanece saturado, por lo que predominan los procesos de degradación anaerobia; en los de flujo vertical el agua se aplica de forma intermitente sobre la superficie y, entre cargas, el aire vuelve a ocupar los poros, de modo que predominan los procesos aerobios.
+Los humedales de flujo subsuperficial se utilizan principalmente como tratamiento secundario, precedidos de un tratamiento primario que retenga la materia particulada, mientras que los de flujo superficial se emplean generalmente como tratamiento terciario~\parencite{dotro2021humedales}.
+
+\subsection{Selección del humedal de flujo vertical}
+
+El humedal de flujo vertical se seleccionó porque, debido a las condiciones oxidantes dentro del lecho, es eficiente en la eliminación de materia orgánica y es el tipo apropiado cuando se requieren procesos estrictamente aerobios, como la nitrificación, es decir, la oxidación del nitrógeno amoniacal a nitrato~\parencite{dotro2021humedales}.
+Al nitrificar, el humedal transforma el amonio en nitrato, una forma de nitrógeno menos tóxica y que las plantas del propio humedal pueden asimilar, lo que favorece el tratamiento del agua.
+Las macrófitas emergentes almacenan nitrógeno en sus tejidos, y su asimilación elimina entre 0,2 y \qty{0.8}{\gram\per\square\meter\per\day} de nitrógeno, según la especie; sin embargo, esta vía es complementaria, porque en los humedales para tratamiento predominan las transformaciones microbianas del nitrógeno, y la eliminación neta por las plantas solo se produce si la biomasa se cosecha~\parencite{dotro2021humedales}.
+En un humedal vertical de una sola etapa la eliminación de nitrógeno total se limita a un 20 a \qty{30}{\percent}, por lo que la mayor parte del nitrógeno que no asimilan las plantas abandona el sistema como nitrato~\parencite{dotro2021humedales}.
+\revisar{Me falta una fuente que diga que el nitrato es la forma de nitrógeno que más usan las plantas del humedal (lo que indicó el profesor); Dotro et al. solo respaldan la asimilación y su magnitud.}
+
+En Latinoamérica y el Caribe, una revisión de 520 experiencias en 20 países mostró que los humedales de flujo horizontal subsuperficial son los más usados (\qty{62}{\percent}), seguidos por los de flujo superficial (\qty{17}{\percent}) y los de flujo vertical (\qty{9}{\percent}), con eficiencias medias de eliminación de DQO de 65 a \qty{83}{\percent} y de nitrógeno total de 55 a \qty{72}{\percent}~\parencite{rodriguezdominguez2020constructed}.
+Los mismos autores destacan que los humedales verticales tienen mayor capacidad que los otros tipos para eliminar materia orgánica y nitrificar, pero que su uso en la región se ve limitado por la falta de conocimiento local y por la necesidad de sistemas de distribución presurizados, y que la adopción de los humedales construidos en general ha sido lenta por la escasez de guías de diseño locales~\parencite{rodriguezdominguez2020constructed}.
+Este último punto es pertinente para el presente trabajo, cuyo diseño debe resolver precisamente la impulsión y la distribución intermitente del agua sobre los lechos.
+En climas cálidos de Sudamérica, quince años de experiencia con humedales verticales confirmaron la validez del método del balance de oxígeno y mostraron que el diseño queda limitado por la demanda de oxígeno y por la carga hidráulica, que no debería superar \qty{200}{\milli\meter\per\day}, con cargas orgánicas de hasta \qty{32}{\gram\per\square\meter\per\day} de DBO$_5$~\parencite{platzer2016long}.
+En Chile, aunque se ha propuesto el uso de humedales construidos en zonas rurales, a 2020 no se registraban ejemplos prácticos~\parencite{altafin2020innovaciones}; las experiencias nacionales se concentran en pilotos de flujo horizontal subsuperficial para aguas servidas rurales, con eficiencias de 69 a \qty{72}{\percent} para la materia orgánica, 37 a \qty{44}{\percent} para el nitrógeno total y 19 a \qty{29}{\percent} para el fósforo total, que requieren un tratamiento terciario para la desinfección, y en un piloto de flujo vertical para aguas grises~\parencite{vidal2023desarrollo}; más recientemente, el mismo método se ha aplicado al diseño de humedales verticales experimentales para aguas de lavado agroindustriales en la Región de Coquimbo, verificando una carga orgánica superficial menor a \qty{35}{\gram\per\square\meter\per\day} de DQO y una carga hidráulica menor a \qty{200}{\milli\meter\per\day}: un humedal de \qty{12}{\square\meter} alimentado por pulsos para \qty{2000}{\liter\per\day} de una cervecería~\parencite{vera2025atrapaniebla} y uno de \qty{20}{\square\meter} con aireación mecánica para \qty{1000}{\liter\per\day} de una pisquera~\parencite{vera2025nichos}.
+
+Los humedales de flujo vertical también se han estudiado para tratar aguas agrícolas con plaguicidas.
+\textcite{ignatowicz2023treatment} operaron a escala piloto humedales de flujo subsuperficial vertical plantados con \textit{Phragmites australis}, construidos en estanques de polietileno de \qty{120}{\liter} con tres capas de \qty{0.15}{\meter}, \qty{0.40}{\meter} y \qty{0.15}{\meter} de material de distinta granulometría, para tratar aguas con los fungicidas boscalid y piraclostrobina, de uso habitual en fruticultura; obtuvieron tiempos de vida media de los plaguicidas de 2,3 a \qty{3.8}{\day}.
+Como alternativa para estos residuos se emplean los biolechos (\textit{biobeds}), sistemas de remediación microbiana desarrollados en Suecia para tratar el agua de lavado de los equipos de aplicación y los derrames~\parencite{mussali2023biobeds}.
+Una explotación agrícola típica genera entre 5000 y \qty{7000}{\liter} al año de agua de enjuague de equipos de aplicación, y un biolecho se dimensiona para recibir una lámina de \qty{1}{\centi\meter\per\day} (\qty{10}{\liter\per\square\meter\per\day}) durante la temporada; un biolecho elimina cerca del \qty{90}{\percent} de los plaguicidas y dos en serie, más del \qty{98}{\percent}, aunque algunos herbicidas se eliminan solo en torno al \qty{60}{\percent}~\parencite{braul2018robust}.
+
+\subsection{Diseño}
+
+Un HC-FV se compone de un lecho filtrante estratificado, plantado con macrófitas emergentes y alimentado de forma intermitente desde la superficie: una capa principal de filtración de arena, una capa inferior de drenaje de grava gruesa y, entre ambas, una capa de transición (por ejemplo, \qty{10}{\centi\meter} de grava de 4 a \qty{8}{\milli\meter}) que impide que la arena migre hacia el drenaje~\parencite{dotro2021humedales}.
+Sobre la arena puede disponerse una capa superior de grava que protege la superficie de la erosión provocada por las cargas, pero que reduce la difusión de oxígeno, por lo que su espesor se limita a 5 a \qty{10}{\centi\meter}~\parencite{dotro2021humedales}.
+La \cref{fig:esquema-hcfv} muestra el esquema conceptual de este tipo de humedal.
+\revisar{Tengo que contrastar estas capas con la lámina 2.2 y las EETT (pregunta~10 de la reunión).}
+
+\begin{figure}[htbp]
+  \centering
+  \begin{tikzpicture}[
+      >={Stealth}, font=\small,
+      etiq/.style={font=\footnotesize, align=right, anchor=east},
+      etiqd/.style={font=\footnotesize, align=left, anchor=west}]
+    % Contenedor
+    \draw[very thick] (0,4.6) -- (0,0) -- (7,0) -- (7,4.6);
+    % Capas
+    \fill[gray!35]  (0,0)   rectangle (7,1.0);   % grava drenaje
+    \fill[yellow!25] (0,1.0) rectangle (7,3.4);  % arena
+    \fill[gray!20]  (0,3.4) rectangle (7,4.0);   % gravilla
+    \foreach \x in {0.3,0.8,...,6.8} {\fill[gray!60] (\x,0.18) circle (0.12); \fill[gray!60] (\x+0.25,0.8) circle (0.12);}
+    \draw[densely dotted] (0,1.0) -- (7,1.0) (0,3.4) -- (7,3.4) (0,4.0) -- (7,4.0);
+    % Plantas
+    \foreach \x in {1,2.5,4,5.5} {
+      \draw[green!50!black, thick] (\x,4.0) -- (\x-0.25,5.1);
+      \draw[green!50!black, thick] (\x,4.0) -- (\x,5.3);
+      \draw[green!50!black, thick] (\x,4.0) -- (\x+0.25,5.1);}
+    % Tubería de distribución
+    \draw[thick, blue!60!black, fill=blue!10] (-0.6,4.3) rectangle (6.6,4.5);
+    \draw[->, thick, blue!60!black] (-1.4,4.4) -- (-0.6,4.4);
+    \foreach \x in {0.6,1.8,3.0,4.2,5.4} {\draw[->, blue!60!black] (\x,4.3) -- (\x,4.05);}
+    % Percolación
+    \foreach \x in {1.2,2.9,4.6,6.2} {\draw[->, thick, blue!70] (\x,3.2) -- (\x,1.3);}
+    % Aire (convección y difusión)
+    \draw[->, thick, orange!80!black] (6.3,5.0) to[out=-90,in=90] (6.0,3.6);
+    \node[font=\footnotesize, orange!80!black, align=left, anchor=west] at (6.35,5.1) {O$_2$ (convección\\y difusión)};
+    % Drenaje
+    \draw[thick, blue!60!black, fill=white] (0.2,0.35) rectangle (7.6,0.6);
+    \draw[->, thick, blue!60!black] (7.6,0.475) -- (8.4,0.475);
+    % Rótulos
+    \node[etiq] at (-1.5,4.4) {Afluente\\(dosificación por pulsos)};
+    \node[etiq] at (-0.2,3.7) {Gravilla (distribución)};
+    \node[etiq] at (-0.2,2.2) {Arena gruesa (filtración)};
+    \node[etiq] at (-0.2,0.8) {Grava (drenaje)};
+    \node[etiqd] at (8.4,0.475) {Efluente\\tratado};
+    \node[etiqd, blue!70] at (7.15,2.2) {Percolación};
+  \end{tikzpicture}
+  \caption{Esquema conceptual de un humedal construido de flujo subsuperficial vertical (HC-FV). Fuente: elaboración propia.}
+  \label{fig:esquema-hcfv}
+\end{figure}
+
+Las guías de diseño europeas dimensionan los HC-FV mediante reglas generales: un área específica de 3 a \qty{4}{\square\meter} por habitante equivalente, una carga orgánica máxima de 20 a \qty{27}{\gram\per\square\meter\per\day} de DQO y una carga hidráulica máxima de \qty{80}{\liter\per\square\meter\per\day} para tratamiento secundario, como resume la \cref{tab:parametros-hcfv}~\parencite{dotro2021humedales}.
+Estas guías se desarrollaron para climas estacionales, donde el invierno es el período crítico; en climas cálidos el área requerida es menor y se han aplicado cargas hidráulicas de hasta \qty{200}{\milli\meter\per\day}~\parencite{dotro2021humedales}.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Principales parámetros de diseño de humedales de flujo vertical que tratan aguas residuales domésticas. Fuente: adaptado de \textcite{dotro2021humedales}.}
+  \label{tab:parametros-hcfv}
+  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{5.6cm}>{\centering\arraybackslash}p{2.2cm}>{\centering\arraybackslash}p{2.9cm}>{\centering\arraybackslash}p{2.9cm}@{}}
+    \toprule
+    Parámetro & Dinamarca & Alemania & Austria \\
+    \midrule
+    Área superficial específica (\unit{\square\meter} por hab-eq) & 3 & 4 & 4 \\
+    Carga orgánica máxima (\unit{\gram\per\square\meter\per\day} de DQO) & 27 & 20 & 20 \\
+    Material de la capa principal & Arena & Arena 0,06--\qty{2}{\milli\meter} & Arena 0,06--\qty{4}{\milli\meter} \\
+    Profundidad de la capa principal (\unit{\centi\meter}) & 100 & $> 50$ & $> 50$ \\
+    Tamaño efectivo $d_{10}$ de la arena (\unit{\milli\meter}) & \numrange{0.25}{1.2} & \numrange{0.2}{0.4} & \numrange{0.2}{0.4} \\
+    Coeficiente de uniformidad $U = d_{60}/d_{10}$ & $< \num{3.5}$ & $< 5$ & -- \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+En la \cref{tab:parametros-hcfv}, la arena se especifica mediante su tamaño efectivo $d_{10}$, diámetro correspondiente al \qty{10}{\percent} más fino de la curva granulométrica, y su coeficiente de uniformidad $U = d_{60}/d_{10}$, en que $d_{60}$ es el diámetro correspondiente al \qty{60}{\percent} más fino~\parencite{das2015fundamentos}; valores bajos de $U$ indican una arena de granulometría uniforme, que conserva la conductividad hidráulica necesaria para que cada dosis infiltre y drene el lecho~\parencite{dotro2021humedales}.
+
+Como alternativa a las reglas generales, la superficie del lecho puede dimensionarse mediante el método del balance de oxígeno propuesto por \textcite{platzer1999design}, empleado con frecuencia en América Latina~\parencite{dotro2021humedales}, que exige que el aporte de oxígeno al lecho ($OI$) supere a la demanda de oxígeno del sistema ($OD$), como indica la \cref{ec:balance-o2}:
+\begin{equation}
+  OI - OD > 0
+  \label{ec:balance-o2}
+\end{equation}
+donde $OI$ es el aporte total de oxígeno al lecho filtrante y $OD$ la demanda total de oxígeno, ambos en gramos de O$_2$ por día (\unit{\gram\per\day}).
+
+La demanda total de oxígeno se compone del consumo por oxidación de la materia orgánica y del consumo por nitrificación, descontando la recuperación por desnitrificación parcial (\cref{ec:od}):
+\begin{equation}
+  OD = OD_{\mathrm{DQO}} + OD_{\mathrm{N}} - OD_{\mathrm{DN}}
+  \label{ec:od}
+\end{equation}
+donde $OD_{\mathrm{DQO}}$ es la demanda debida a la descomposición de la materia orgánica (\unit{\gram\per\day}), $OD_{\mathrm{N}}$ la demanda debida a la nitrificación del nitrógeno total Kjeldahl (\unit{\gram\per\day}) y $OD_{\mathrm{DN}}$ la reducción de la demanda por desnitrificación parcial (\unit{\gram\per\day}).
+Cada término se calcula a partir de la carga diaria aplicada (\cref{ec:od-terminos}):
+\begin{equation}
+  OD_{\mathrm{DQO}} = \eta_{\mathrm{DQO}}\, f_{O}\, L_{\mathrm{DQO}}, \qquad OD_{\mathrm{N}} = f_{N}\, L_{\mathrm{NTK}}, \qquad OD_{\mathrm{DN}} = \eta_{\mathrm{DN}}\, f_{DN}\, L_{\mathrm{NTK}}
+  \label{ec:od-terminos}
+\end{equation}
+donde $L_{\mathrm{DQO}}$ es la carga diaria de DQO aplicada al lecho (\unit{\gram\per\day}); $L_{\mathrm{NTK}}$, la carga diaria de nitrógeno total Kjeldahl (\unit{\gram\per\day}); $f_{O}$, el oxígeno consumido por unidad de DQO degradada (\qty{0.7}{\gram} O$_2$ por gramo de DQO); $\eta_{\mathrm{DQO}}$, la eficiencia media de eliminación de DQO en humedales de flujo vertical (\num{0.85}); $f_{N}$, el oxígeno requerido para nitrificar (\qty{4.3}{\gram} O$_2$ por gramo de NTK), suponiendo nitrificación completa; $f_{DN}$, el oxígeno recuperado por desnitrificación (\qty{2.9}{\gram} O$_2$ por gramo de nitrógeno desnitrificado), y $\eta_{\mathrm{DN}}$, la fracción del nitrógeno que se desnitrifica, del orden de \num{0.10} en un humedal vertical~\parencite{platzer1999design,dotro2021humedales}.
+
+El aporte de oxígeno al lecho se produce por dos mecanismos físicos simultáneos, la convección y la difusión (\cref{ec:oi}):
+\begin{equation}
+  OI = OI_{\mathrm{conv}} + OI_{\mathrm{dif}}
+  \label{ec:oi}
+\end{equation}
+donde $OI_{\mathrm{conv}}$ es el aporte por convección y $OI_{\mathrm{dif}}$ el aporte por difusión, en \unit{\gram\per\day}.
+El aporte por convección se debe al aire que ingresa a los poros del lecho al drenar cada pulso de agua y es proporcional al volumen aplicado; el aporte por difusión se debe al intercambio con la atmósfera a través de la superficie del lecho, durante el tiempo en que este no está saturado (\cref{ec:oi-terminos})~\parencite{platzer1999design,dotro2021humedales}:
+\begin{equation}
+  OI_{\mathrm{conv}} = c_{\mathrm{conv}}\, V_d, \qquad OI_{\mathrm{dif}} = c_{\mathrm{dif}}\, A \left(24 - t_s\, n_c\right)
+  \label{ec:oi-terminos}
+\end{equation}
+donde $V_d$ es el volumen de agua aplicado diariamente (\unit{\liter\per\day}), $c_{\mathrm{conv}}$ el oxígeno aportado por litro aplicado (\qty{0.3}{\gram} O$_2$ por litro, que corresponde al contenido de oxígeno del aire que reemplaza al agua drenada), $A$ el área superficial del lecho (\unit{\square\meter}), $c_{\mathrm{dif}}$ la tasa de difusión por unidad de área (\qty{1}{\gram} O$_2$ por \unit{\square\meter} y por hora), $n_c$ el número de cargas diarias y $t_s$ el tiempo de saturación del lecho después de cada carga (\qty{1.5}{\hour}), durante el cual se considera que no hay difusión.
+
+Con un lecho principal de arena de 0,06 a \qty{4}{\milli\meter} y carga intermitente, los HC-FV alcanzan eficiencias de eliminación de 70 a \qty{90}{\percent} de la DQO, cerca de \qty{83}{\percent} de la DBO$_5$, 80 a \qty{90}{\percent} del nitrógeno amoniacal y de los sólidos suspendidos, 20 a \qty{40}{\percent} del nitrógeno total y 10 a \qty{35}{\percent} del fósforo total, y reducen los coliformes fecales en 2 a 4 unidades logarítmicas~\parencite{langergraber2021vertical}.
+Entre sus ventajas se cuentan su robustez frente a fluctuaciones de carga, la posibilidad de alimentarlos por gravedad con bajo consumo de energía y un alto potencial de reutilización del agua tratada, incluido el riego~\parencite{langergraber2021vertical}.
+
+\subsection{Operación}
+
+Los HC-FV operan mediante aplicaciones discontinuas, o dosificación por pulsos, sobre la superficie del lecho~\parencite{dotro2021humedales,brix2005use}.
+Cada dosis se distribuye sobre la superficie, percola verticalmente a través del medio filtrante y, al drenar, actúa como un pistón hidráulico que succiona aire atmosférico hacia el interior de los poros, renovando el oxígeno disponible para la biomasa~\parencite{dotro2021humedales}.
+Entre pulsos el lecho permanece no saturado, lo que mantiene las condiciones aerobias necesarias para la oxidación de la materia orgánica y la nitrificación.
+
+La alimentación secuencial se realiza con una bomba o, cuando la topografía ofrece suficiente desnivel, con un sifón que no requiere energía; en ambos casos debe asegurarse una distribución uniforme del agua sobre toda la superficie del lecho~\parencite{dotro2021humedales}.
+En la práctica, los humedales verticales se dosifican de 4 a 10 veces al día, y pueden construirse en excavaciones poco profundas o sobre el suelo, con un revestimiento impermeable y un tubo de ventilación conectado al drenaje~\parencite{reuter2022compendio}.
+Las guías recomiendan intervalos entre cargas de al menos \qty{6}{\hour} (guía alemana) o de 3 a \qty{6}{\hour} (guía austríaca), tuberías de distribución de al menos \qty{40}{\milli\meter} de diámetro con orificios no menores a \qty{8}{\milli\meter}, al menos un orificio por metro cuadrado y el vaciado completo de las tuberías después de cada carga~\parencite{dotro2021humedales}.
+
+Las plantas más usadas son macrófitas emergentes.
+Su función en la depuración es principalmente física: sus raíces ofrecen superficie para el crecimiento de bacterias adheridas y ayudan a mantener las propiedades hidráulicas del lecho, y la cubierta vegetal protege la superficie de la erosión; en cambio, la asimilación de nutrientes por las plantas y el oxígeno liberado por las raíces son poco relevantes frente a la degradación microbiana y al aporte de oxígeno de la carga secuencial~\parencite{dotro2021humedales}.
+
+El principal problema operativo de los HC-FV es la colmatación del lecho, causada sobre todo por una eliminación insuficiente de sólidos en el tratamiento primario, por una distribución desigual de las cargas o por una superficie mal nivelada que produce encharcamientos~\parencite{dotro2021humedales}.
+Por ello, la mantención considera revisar el dispositivo de carga (sifón o bomba) al menos una vez al mes, medir el amonio del efluente al menos mensualmente para verificar la nitrificación, retirar los lodos del tratamiento primario al menos una vez al año, desmalezar durante el primer año y cosechar las plantas cada dos o tres años~\parencite{dotro2021humedales}.
+
+\section{Hidráulica de conducciones a presión y gravedad}
+\label{sec:mt-hidraulico}
+
+El dimensionamiento de los equipos de impulsión exige cuantificar la Altura Dinámica Total (ADT) del sistema, definida como la sumatoria de la diferencia de cota geométrica, las pérdidas por fricción a lo largo de la tubería y las pérdidas singulares inducidas por los accesorios.
+Las pérdidas por fricción en fluidos a presión se evalúan mediante la ecuación empírica de Hazen-Williams (\cref{ec:hazen}):
+\begin{equation}
+  J = \frac{10{,}67\, Q^{1{,}85}}{C_{HW}^{1{,}85}\, D^{4{,}87}}
+  \label{ec:hazen}
+\end{equation}
+donde $J$ es la pérdida de carga unitaria (\unit{\meter\per\meter}), $Q$ el caudal (\unit{\cubic\meter\per\second}), $D$ el diámetro interno (\unit{\meter}) y $C_{HW}$ el coeficiente de rugosidad del material (adimensional).
+\revisar{Me falta citar la fuente de la ecuación y de los coeficientes de la \cref{tab:coeficientes-hidraulicos}.}
+Las pérdidas singulares ($P_s$) se modelan en función de la altura de velocidad del escurrimiento y los coeficientes de resistencia local ($K$) asociados a la geometría de cada pieza especial (\cref{ec:singulares}):
+\begin{equation}
+  P_s = K \frac{V^2}{2g}
+  \label{ec:singulares}
+\end{equation}
+donde $V$ es la velocidad media del escurrimiento (\unit{\meter\per\second}) y $g$ la aceleración de gravedad (\unit{\meter\per\square\second}).
+Los coeficientes adoptados se presentan en la \cref{tab:coeficientes-hidraulicos}.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Coeficientes de rugosidad de Hazen-Williams ($C_{HW}$) y de pérdidas singulares ($K$) aplicados en el dimensionamiento hidráulico. Fuente: elaboración propia.}
+  \label{tab:coeficientes-hidraulicos}
+  \begin{tabular}{lclc}
+    \toprule
+    Material de tubería & $C_{HW}$ & Accesorio / válvula & $K$ \\
+    \midrule
+    PVC hidráulico / sanitario & 140 & Codo \ang{90} & \num{0.6} \\
+    Polietileno (PEAD) & 150 & Válvula de retención & \num{2.5} \\
+    Acero (referencia) & 100 & Tee de paso directo & \num{0.6} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Para las redes de conducción por gravedad, el diseño se rige por el cumplimiento de una pendiente mínima que asegure una velocidad de escurrimiento superior al límite de autolavado, impidiendo la decantación de sólidos dentro del colector.
+
+\section{Diseño estructural}
+\label{sec:mt-estructural}
+
+\subsection{Diseño en acero estructural por método LRFD}
+
+El dimensionamiento de las plataformas de soporte industrial se fundamenta en el Diseño por Factores de Carga y Resistencia (LRFD), regido por la norma NCh427/1~\parencite{inn2016nch427} y las especificaciones AISC~360~\parencite{aisc2016specification}.
+El método exige que la resistencia de diseño de cada elemento ($\phi R_n$) supere la resistencia requerida ($R_u$) producto de las combinaciones más desfavorables de carga muerta, carga viva y carga sísmica~\parencite{mccormac2012structural,segui2017steel}.
+La serviciabilidad del sistema se verifica limitando la deflexión elástica máxima de los elementos horizontales a una fracción normativa de la luz libre.
+La NCh427/1 no define las cargas ni sus combinaciones: establece que deben tomarse de la normativa aplicable según el tipo de edificación, es decir, de la NCh3171, la NCh433 y la NCh2369, y que en el diseño sismorresistente las disposiciones de estas normas prevalecen sobre las de la NCh427/1~\parencite{inn2016nch427}.
+La NCh3171 establece las combinaciones básicas de cargas mayoradas para el diseño por resistencia que se resumen en la \cref{tab:combinaciones-lrfd}, de las cuales debe usarse la que produzca el efecto más desfavorable en el elemento o la fundación considerada, incluso cuando una o más cargas no están presentes~\parencite{inn2017nch3171}.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Combinaciones básicas de cargas mayoradas para el diseño por resistencia. Fuente: adaptado de \textcite{inn2017nch3171}.}
+  \label{tab:combinaciones-lrfd}
+  \begin{tabular}{@{}cl@{}}
+    \toprule
+    N.º & Combinación \\
+    \midrule
+    1  & $\num{1.4}\,D$ \\
+    2  & $\num{1.2}\,D + \num{1.6}\,L + \num{0.5}\,(L_r \text{ o } S \text{ o } R)$ \\
+    3a & $\num{1.2}\,D + \num{1.6}\,(L_r \text{ o } S \text{ o } R) + L$ \\
+    3b & $\num{1.2}\,D + \num{1.6}\,(L_r \text{ o } S \text{ o } R) + \num{0.8}\,W$ \\
+    4  & $\num{1.2}\,D + \num{1.6}\,W + L + \num{0.5}\,(L_r \text{ o } S \text{ o } R)$ \\
+    5  & $\num{1.2}\,D + \num{1.4}\,E + L + \num{0.2}\,S$ \\
+    6  & $\num{0.9}\,D + \num{1.6}\,W$ \\
+    7  & $\num{0.9}\,D + \num{1.4}\,E$ \\
+    \bottomrule
+    \multicolumn{2}{@{}p{0.9\textwidth}@{}}{\footnotesize $D$: carga permanente; $L$: carga de uso; $L_r$: carga de uso de techo; $S$: nieve; $R$: lluvia; $W$: viento; $E$: sismo según NCh433 y NCh2369.}
+  \end{tabular}
+\end{table}
+
+Cuando están presentes cargas debidas a líquidos con presiones y alturas máximas bien definidas ($F$), como el agua contenida en estanques, estas se incluyen con el mismo factor de la carga permanente en las combinaciones 1, 2, 3a, 3b, 4, 5 y 7~\parencite{inn2017nch3171}.
+Asimismo, cuando la resistencia al volcamiento, al deslizamiento o al levantamiento depende de la carga permanente, esta debe considerarse con su valor mínimo esperado, lo que corresponde a la combinación 7~\parencite{inn2017nch3171}.
+Las combinaciones particulares que establezcan las normas de diseño sísmico prevalecen sobre las anteriores~\parencite{inn2017nch3171}.
+Para las combinaciones que incluyen el sismo, la NCh2369:2025 exige al menos $\num{1.2}\,D + \alpha L + SO + SA + E$ y $\num{0.9}\,D + SA + E$ en el método LRFD, y $D + \num{0.75}\,\alpha L + \num{0.75}\,SO + \num{0.75}\,SA + \num{0.70}\,E$ y $D + \num{0.75}\,SA + \num{0.70}\,E$ en el método ASD, donde $SO$ es la carga de operación concurrente con el sismo, como el contenido de los estanques, $SA$ la carga accidental producida por el sismo y $\alpha$ un factor de reducción de la carga de uso; la acción sísmica $E$ combina las tres direcciones con la regla $\num{1.0}$--$\num{0.3}$--$\num{0.3}$~\parencite{inn2025nch2369}.
+
+\subsection{Análisis sísmico industrial e interacción flexocompresiva}
+
+El diseño sismorresistente de estructuras e instalaciones industriales en Chile se rige por la NCh2369, cuya tercera edición (NCh2369:2025) reemplazó a las versiones de 2003 y 2023~\parencite{inn2025nch2369}.
+La norma clasifica las estructuras en categorías de ocupación según su importancia, a las que asigna un coeficiente de importancia $I$ de \num{0.80} (categoría~I, estructuras y equipos menores o provisionales), \num{1.00} (categoría~II, estructuras y equipos normales) o \num{1.20} (categorías~III y~IV), y define la aceleración efectiva máxima $A_0$ según la zona sísmica de cada comuna~\parencite{inn2025nch2369}.
+En el análisis estático, el corte basal horizontal se calcula como $Q_0 = C\,P$, donde $P$ es el peso sísmico y $C$ el coeficiente sísmico, igual al valor del espectro de diseño en el período fundamental de la estructura dividido por $g$; el espectro de diseño depende de $I$, del tipo de suelo, del factor de modificación de la respuesta $R$ y de la razón de amortiguamiento $\xi$ del sistema resistente (\cref{ec:espectro-diseno})~\parencite{inn2025nch2369}:
+\begin{equation}
+  S_a(T_H) = \frac{I\, S_{aH}(T_H)}{R^{*}} \left(\frac{\num{0.05}}{\xi}\right)^{\num{0.4}}, \qquad
+  S_{aH}(T_H) = A_r\, S\, \frac{1 + r\,(T_H/T_0)^{p}}{1 + (T_H/T_0)^{q}}
+  \label{ec:espectro-diseno}
+\end{equation}
+donde $S_{aH}$ es el espectro de referencia horizontal; $A_r = \num{1.4}\,A_0$ la aceleración máxima de referencia; $S$, $T_0$, $r$, $p$ y $q$ parámetros que dependen del tipo de suelo, y $R^{*}$ el factor de modificación de la respuesta efectivo, que se reduce hacia \num{1.5} en estructuras de período corto~\parencite{inn2025nch2369}.
+El corte basal resultante no puede ser menor que $\num{0.25}\, I A_r S P/g$ y puede limitarse a $\num{2.75}\, I A_r S P / [g (R+1)] \cdot (\num{0.05}/\xi)^{\num{0.4}}$~\parencite{inn2025nch2369}.
+Este corte induce un momento de volcamiento sobre la base de la estructura.
+Los pilares, al estar sometidos simultáneamente a compresión axial y a momentos flectores, se diseñan evaluando el índice de interacción flexocompresiva (\cref{fig:diagrama-interaccion}), asegurando que la demanda combinada garantice la estabilidad global y prevenga el pandeo~\parencite{aisc2016specification}.
+\revisar{La NCh2369:2025 se oficializó el 9-03-2026 con un período de transición en que aún se permite la de 2003: tengo que confirmar con el profesor qué versión usa el proyecto (pregunta~1).}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.75\textwidth]{diagrama_interaccion_flexocompresion.jpeg}
+  \caption{Diagrama conceptual de interacción flexocompresiva para columnas de acero. Fuente: elaboración propia.}
+  \label{fig:diagrama-interaccion}
+\end{figure}
+
+\subsection{Fundaciones superficiales}
+
+La transmisión de las cargas desde la superestructura hacia el terreno natural se realiza mediante zapatas aisladas.
+El diseño geotécnico requiere verificar que la presión real de contacto ($q_{act}$) generada en condición de servicio sea menor a la capacidad de soporte admisible del suelo ($q_{adm}$)~\parencite{das2015fundamentos,bowles1996foundation}.
+La capacidad admisible se obtiene dividiendo la capacidad última de carga por un factor de seguridad, $q_{adm} = q_u/FS$, con $FS$ de al menos 3~\parencite{das2015fundamentos}.
+Para una zapata cuadrada con falla de corte general, la capacidad última puede estimarse con la ecuación de \textcite{das2015fundamentos} basada en la teoría de Terzaghi (\cref{ec:terzaghi-cuadrada}):
+\begin{equation}
+  q_u = \num{1.3}\,c'N_c + q\,N_q + \num{0.4}\,\gamma B N_\gamma
+  \label{ec:terzaghi-cuadrada}
+\end{equation}
+donde $c'$ es la cohesión del suelo (\unit{\kilo\pascal}); $q = \gamma D_f$ la sobrecarga del suelo al nivel del sello de fundación (\unit{\kilo\pascal}), con $D_f$ la profundidad de fundación (\unit{\meter}); $\gamma$ el peso unitario del suelo (\unit{\kilo\newton\per\cubic\meter}); $B$ el ancho de la zapata (\unit{\meter}), y $N_c$, $N_q$ y $N_\gamma$ factores de capacidad de carga adimensionales que dependen solo del ángulo de fricción interna $\varphi'$~\parencite{das2015fundamentos}.
+Antes de la falla por corte, la fundación puede experimentar asentamientos suficientes para dañar la estructura o impedir su función, por lo que también deben controlarse~\parencite{das2015fundamentos}.
+Estructuralmente, la zapata se diseña en hormigón armado, dimensionando la armadura de flexión inferior de acuerdo a los criterios normativos vigentes~\parencite{minvu2011ds60,aci2019building}.

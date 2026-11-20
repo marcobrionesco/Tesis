@@ -1,0 +1,149 @@
+\documentclass[12pt]{article}
+
+% --- PAQUETES PRINCIPALES ---
+\usepackage[spanish, es-tabla]{babel} 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times} % Fuente Times New Roman
+\usepackage{setspace} % Interlineado 1.5
+\usepackage{microtype} % Ajusta automáticamente el espaciado entre caracteres
+\setstretch{1.5}
+
+% --- EVITAR CORTE Y DIVISIÓN DE PALABRAS (HIPENACIÓN) ---
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\righthyphenmin=62
+\lefthyphenmin=62
+\emergencystretch=5em % Aumentado ligeramente para dar más flexibilidad al justificado
+
+% --- MARGENES (Pauta UCM: Sup/Inf 2.5 cm, Izq/Der 3 cm) ---
+\usepackage[top=2.5cm, bottom=2.5cm, left=3cm, right=3cm]{geometry}
+
+% --- PAQUETES DE FORMATO, GRAFICOS Y TABLAS ---
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{float} % Necesario para posicionar tablas con [H]
+
+% --- FORMATO DE SECCIONES (Alineación libre sin cortes) ---
+% (Se omite \chapter porque documentclass es article)
+\titleformat{\section}[hang]{\bfseries\large\raggedright}{\thesection}{0.5em}{}
+\titleformat{\subsection}[hang]{\bfseries\normalfont\bfseries\raggedright}{\thesubsection}{0.5em}{}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\begin{document}
+
+\begin{center}
+    \Large\textbf{Memoria de Cálculo Detallada: Volúmenes de Diseño y Dimensionamiento de Humedales} \\[0.3em]
+    \large\textbf{Sistema Experimental de Tratamiento - Frutícola SABA SpA}
+\end{center}
+
+\vspace{1.5em}
+
+\section*{1. Determinación de Volúmenes para Viviendas (Casa AS2)}
+El caudal de diseño para las aguas servidas habitacionales se obtuvo del registro histórico del medidor de agua potable (marzo 2025 - marzo 2026). Para determinar el volumen efectivo que ingresa al sistema de tratamiento, se aplicó un coeficiente de recuperación del 80\% ($R = 0,8$) sobre el agua consumida.
+
+\begin{table}[H]
+    \centering
+    \caption{Registro mensual de consumo de agua en Casa y escenarios de diseño.}
+    \vspace{0.5em}
+    \begin{tabular}{>{\raggedright\arraybackslash}p{7cm} c}
+        \toprule
+        \textbf{Mes de Registro} & \textbf{Consumo Mensual (m$^3$)} \\
+        \midrule
+        Marzo 2025 & 19 \\
+        Abril 2025 & 22 \\
+        Mayo 2025 & 23 \\
+        Junio 2025 & 17 \\
+        Julio 2025 & 10 \\
+        Agosto 2025 & 19 \\
+        Septiembre 2025 & 21 \\
+        Octubre 2025 & 22 \\
+        Noviembre 2025 & 35 \\
+        Diciembre 2025 & 34 \\
+        Enero 2026 & 27 \\
+        Febrero 2026 & 20 \\
+        Marzo 2026 & 21 \\
+        \midrule
+        \textbf{Promedio Histórico Mensual} & \textbf{22,30 m$^3$/mes} \\
+        \textbf{Consumo Diario Promedio (100\%)} & \textbf{743,60 L/día} \\
+        \midrule
+        \textbf{Caudal de Diseño Promedio ($R=0,8$)} & \textbf{600 L/día (0,60 m$^3$/día)} \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section*{2. Determinación de Volúmenes para Oficinas (AS1)}
+Dado que las oficinas no cuentan con un registro histórico independiente, el volumen se determinó empíricamente mediante aforos de los artefactos sanitarios y un seguimiento de la frecuencia de uso. 
+
+Posterior a la evaluación de los distintos escenarios de uso (periodos de vacaciones versus ocupación regular), se determinó y consolidó formalmente un \textbf{caudal de diseño final de 150 L/día} para la producción de aguas servidas de la oficina (AS1). Este valor estandarizado se adoptó para los balances sanitarios posteriores.
+
+\begin{table}[H]
+    \centering
+    \caption{Estimación empírica y consolidación de consumo en Oficinas.}
+    \vspace{0.5em}
+    \begin{tabular}{>{\raggedright\arraybackslash}p{2.5cm} >{\raggedright\arraybackslash}p{4.5cm} >{\centering\arraybackslash}p{3cm} >{\centering\arraybackslash}p{3cm}}
+        \toprule
+        \textbf{Artefacto} & \textbf{Caudal y Tiempo de Uso} & \textbf{Vol. Escenario 1 (L/día)} & \textbf{Vol. Escenario 2 (L/día)} \\
+        \midrule
+        Inodoro (WC) & 9 L/descarga (1 uso) & 81 & 45 \\
+        Lavamanos & 6 L/min (0,5 min/uso) & 30 & 15 \\
+        Lavaplatos & 6 L/min (1,5 min/uso) & 54 & 36 \\
+        \midrule
+        \textbf{Total Calculado} & & \textbf{165} & \textbf{96} \\
+        \midrule
+        \multicolumn{4}{l}{\textbf{Caudal de Diseño Adoptado Oficialmente (AS1): 150 L/día}} \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section*{3. Determinación del Requerimiento de Agua de Riego (Huerto de Cerezos)}
+Para establecer el volumen objetivo que el sistema de humedales debe proporcionar para el riego agrícola de los frutales (Prunus avium L.), se evaluaron distintos escenarios agronómicos de fertirriego por goteo, variando el número de plantas y el tiempo de operación.
+
+\begin{table}[H]
+    \centering
+    \caption{Cálculo de la demanda diaria de agua para riego según condición operativa.}
+    \vspace{0.5em}
+    \begin{tabular}{lcccccc}
+        \toprule
+        \textbf{Condición} & \textbf{Goteros} & \textbf{Tiempo} & \textbf{Goteros por} & \textbf{Volumen por} & \textbf{Vol. Total} & \textbf{Demanda} \\
+        & \textbf{(L/h)} & \textbf{(h)} & \textbf{planta (un.)} & \textbf{planta (L)} & \textbf{(L/sem.)} & \textbf{Diaria (L/día)} \\
+        \midrule
+        12 Plantas, 8h & 2 & 8 & 8 & 128 & 1536 & 768 \\
+        12 Plantas, 6h & 2 & 6 & 8 & 96 & 1152 & 576 \\
+        10 Plantas, 8h & 2 & 8 & 8 & 128 & 1280 & 640 \\
+        10 Plantas, 6h & 2 & 6 & 8 & 96 & 960 & 480 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Considerando la disponibilidad hídrica promedio aportada por los afluentes de la estación, el sistema de bombeo y retorno (bypass) se diseñará para satisfacer el sector de riego establecido.
+
+\section*{4. Fundamentos Metodológicos y Operación del Sistema}
+
+El cálculo del área superficial requerida se determinó estableciendo inicialmente el tamaño de las unidades de tratamiento exclusivo para las aguas residuales domésticas (casa y oficinas conjuntas). Este diseño se sustenta matemáticamente en modelos de diseño y tasas de carga estandarizados internacionalmente (e.g., Dotro et al., 2017), incorporando las modificaciones constructivas necesarias para adaptar el desempeño del sistema a las condiciones climáticas del territorio nacional.
+
+Una vez establecido el tamaño para el flujo doméstico (6 m$^2$ activos por batería de tratamiento), esa misma área superficial se estandariza y replica para tratar de forma paralela e independiente el agua del estero Batuco y los residuos de la bodega de agroquímicos. En estos dos últimos afluentes, el caudal hidráulico aplicado se ajustará matemáticamente para que operen bajo las mismas características de carga (g/m$^2\cdot$d) que el módulo doméstico.
+
+Para validar empíricamente la eficiencia de depuración sin comprometer la meta de calidad del efluente para reuso agrícola (NCh3456), el diseño del sistema se ha fijado bajo un escenario operativo de carácter conservador. La Tabla \ref{tab:fases_operacion} resume la carga de diseño teórica y cómo esto justifica la configuración geométrica y matemática de los módulos IBC:
+
+\begin{table}[H]
+    \centering
+    \caption{Parámetros de diseño y configuración geométrica de los módulos.}
+    \label{tab:fases_operacion}
+    \vspace{0.5em}
+    \begin{tabular}{>{\centering\arraybackslash}p{3cm} >{\centering\arraybackslash}p{3cm} >{\centering\arraybackslash}p{2.5cm} >{\raggedright\arraybackslash}p{5.5cm}}
+        \toprule
+        \textbf{Carga Orgánica (g DQO/m$^2\cdot$d)} & \textbf{Carga Amoniacal (g NH$_4^+$/m$^2\cdot$d)} & \textbf{Área Activa Operativa (m$^2$)} & \textbf{Configuración Matemática de Módulos (HCFV)} \\
+        \midrule
+        30 & $\sim 3$ & \textbf{6,00} & \textbf{6 estanques IBC (100\%)} \newline Al operar con una tasa conservadora de diseño, el balance de oxígeno exige utilizar la totalidad de la superficie de la batería para garantizar el tiempo de contacto y la transferencia de oxígeno requerida para la depuración completa. \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\end{document}

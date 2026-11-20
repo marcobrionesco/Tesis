@@ -1,0 +1,73 @@
+% =====================================================================
+%  PROYECTO DE TÍTULO — Archivo principal ("timeline master")
+%  Ingeniería Civil · Universidad Católica del Maule · ICV-611
+%  Compilar desde la raíz del repo con:  make pdf
+%  Este archivo solo ARMA la tesis: no escribir contenido aquí.
+%  Orden y formato según 01_normativa/REGLAS_FORMATO.md
+% =====================================================================
+\documentclass[12pt, letterpaper, oneside]{report}
+
+%TC:ignore  (texcount: no contar la configuración)
+\input{config/paquetes}   % paquetes
+\input{config/formato}    % márgenes, fuente, interlineado, títulos
+\input{config/comandos}   % comandos propios y datos de la tesis
+%TC:endignore
+
+\addbibresource{bib/referencias.bib}
+
+% Para compilar solo algunos capítulos mientras trabajas (más rápido),
+% descomenta y ajusta la siguiente línea:
+% \includeonly{capitulos/02_marco_teorico}
+
+\begin{document}
+
+% Rótulo "Pág." al inicio de cada índice (como en el template)
+\addtocontents{toc}{\rotulopag}
+\addtocontents{lof}{\rotulopag}
+\addtocontents{lot}{\rotulopag}
+
+% ---------- Portada y hoja de firmas (sin número de página) ----------
+\input{portada/portada}
+\input{portada/hoja_firmas}
+
+% ---------- Preliminares (numeración romana: I, II, III...) ----------
+\pagenumbering{Roman}
+\pagestyle{plain}
+\input{preliminares/agradecimientos}   % opcional (máx. 1 página): comentar si no se usa
+\input{preliminares/resumen}           % máx. 1 página, 3 a 5 palabras clave
+\input{preliminares/abstract}
+
+\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\contentsname}
+\tableofcontents
+\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+\input{preliminares/glosario}          % si corresponde
+
+% ---------- Cuerpo principal (numeración arábiga desde la Introducción) ----------
+\cleardoublepage
+\pagenumbering{arabic}
+\pagestyle{cuerpo}
+\include{capitulos/01_introduccion}
+\include{capitulos/02_marco_teorico}
+\include{capitulos/03_metodologia}
+\include{capitulos/04_resultados}
+\include{capitulos/05_discusion}
+\include{capitulos/06_conclusiones}
+
+% ---------- Bibliografía (APA 7) ----------
+\printbibliography[heading=bibliografia]
+\label{pag:fin-cuerpo}  % make revisar mide aquí el límite de 80 páginas
+
+% ---------- Anexos (Anexo I, II, ...) ----------
+\iniciaranexos
+\include{anexos/anexo_fichas_registro}         % Anexo I (fichas de registro de uso, AS1)
+\include{anexos/anexo_calculos_humedal}        % Anexo II
+\include{anexos/anexo_itemizado}              % Anexo III
+\include{anexos/anexo_planimetria_general}    % Anexo IV
+\include{anexos/anexo_planimetria_hidraulica} % Anexo V
+\include{anexos/anexo_planimetria_estructural}% Anexo VI
+\include{anexos/anexo_eett}                    % Anexo VII
+
+\end{document}

@@ -1,0 +1,25 @@
+% Archivo GENERADO por 04_analisis/scripts/10_estructura.py — no editar a mano
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.2cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{3.6cm}rrc@{}}
+  \toprule
+  Elemento & Perfil & Verificación & Demanda & Capacidad & Razón \\
+  \midrule
+  Tablero & 15 mm & Deflexión largo plazo & \num{2.91} mm & \num{1.33} mm & \textbf{2,18} \\
+  Viga secundaria & 150×100×3 & Flexión & \num{3.60} kN·m & \num{16.92} kN·m & \num{0.21} \\
+  Viga secundaria & 150×100×3 & Corte & \num{4.40} kN & \num{114} kN & \num{0.04} \\
+  Viga secundaria & 150×100×3 & Deflexión (L/300) & \num{0.56} mm & \num{5.67} mm & \num{0.10} \\
+  Viga principal & 150×150×6 & Flexión & \num{3.97} kN·m & \num{42.01} kN·m & \num{0.09} \\
+  Viga principal & 150×150×6 & Corte & \num{8.71} kN & \num{214} kN & \num{0.04} \\
+  Viga principal & 150×150×6 & Deflexión (L/300) & \num{0.24} mm & \num{7.60} mm & \num{0.03} \\
+  Pilar central & 150×150×6 & Compresión (1,2D+1,6L) & \num{17.43} kN & \num{562} kN & \num{0.03} \\
+  Pilar central & 150×150×6 & Flexocompresión sísmica (zona 2) & \num{0.44} & \num{1.00} & \num{0.44} \\
+  Pilar central & 150×150×6 & Flexocompresión sísmica (zona 3) & \num{0.59} & \num{1.00} & \num{0.59} \\
+  Zapata & 1,0×1,0×0,5 m & Presión estática & \num{24.22} kPa & \num{150} kPa & \num{0.16} \\
+  Zapata & 1,0×1,0×0,5 m & Excentricidad sísmica $e \le B/6$ (zona 2) & \num{0.65} m & \num{0.17} m & \textbf{3,91} \\
+  Zapata & 1,0×1,0×0,5 m & Volcamiento $e < B/2$ (zona 2) & \num{0.65} m & \num{0.50} m & \textbf{1,30} \\
+  Zapata & 1,0×1,0×0,5 m & Excentricidad sísmica $e \le B/6$ (zona 3) & \num{0.87} m & \num{0.17} m & \textbf{5,22} \\
+  Zapata & 1,0×1,0×0,5 m & Volcamiento $e < B/2$ (zona 3) & \num{0.87} m & \num{0.50} m & \textbf{1,74} \\
+  Placa base & 300×300×16 mm & Espesor requerido & \num{16.58} mm & \num{16.00} mm & \textbf{1,04} \\
+  Pernos de anclaje & 4 × Ø 3/4" & Tracción por perno & \num{51.79} kN & \num{88.17} kN & \num{0.59} \\
+  \bottomrule
+  \multicolumn{6}{@{}p{0.97\textwidth}@{}}{\footnotesize Razón = demanda/capacidad; en negrita, las que superan 1 (no cumple). Zona sísmica por confirmar.}
+\end{tabular}

@@ -1,0 +1,8 @@
+# Configuración de latexmk (lo usa `make pdf` y la compilación en GitHub)
+$pdf_mode = 1;                 # pdflatex
+$out_dir = '../salida/build';
+$bibtex_use = 2;               # usar biber y limpiar sus archivos
+$pdflatex = 'pdflatex -interaction=nonstopmode -file-line-error -synctex=1 %O %S';
+# \include{} escribe .aux en subcarpetas: crearlas en el directorio de salida
+use File::Path qw(make_path);
+make_path("$out_dir/capitulos", "$out_dir/anexos");

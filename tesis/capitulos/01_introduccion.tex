@@ -1,0 +1,76 @@
+% =====================================================================
+%  Capítulo 1: Introducción y Planteamiento del Problema
+%  Rúbrica: 10 %. Debe actualizarse respecto al anteproyecto.
+%  Exigido (LIN §6): contexto, antecedentes generales y técnicos, hipótesis
+%  y/o preguntas de investigación, objetivos, contribuciones del proyecto.
+%  Origen: v3.0 (2026-11-19). Ver 03_seleccion/triaje/2026-11-19_triaje_proyecto-titulo-v3.0.md
+%  Tercera persona. Una oración por línea. Unidades con siunitx.
+% =====================================================================
+\chapter{Introducción y Planteamiento del Problema}
+\label{cap:introduccion}
+
+\section{Descripción del problema}
+\label{sec:problema}
+
+La Región del Maule enfrenta una severa y creciente vulnerabilidad hídrica derivada de las alteraciones del ciclo hidrológico y de prolongados eventos de sequía asociados al cambio climático~\parencite{uribe2012atlas}.
+Esta situación amenaza directamente la sostenibilidad y competitividad de la producción agrícola, de manera particular el cultivo del cerezo dulce (\textit{Prunus avium} L.), una especie que ha experimentado una expansión acelerada en la zona durante el último lustro y que demanda volúmenes considerables de agua para su óptimo desarrollo~\parencite{allen1998crop}.
+Desde el año 2010, el territorio comprendido entre las regiones de Coquimbo y La Araucanía ha experimentado un déficit de precipitaciones cercano al \qty{30}{\percent}, el período seco de mayor duración y extensión desde mediados del siglo~XX, ocurrido además en la década más cálida de los últimos cien años; al menos un \qty{25}{\percent} de ese déficit es atribuible al cambio climático antrópico, que seguiría contribuyendo a una progresiva aridificación de la zona centro y sur del país durante el siglo~XXI~\parencite{cr22015megasequia}.
+Esta megasequía afecta a la zona central de Chile, entre las cuencas del Limarí y del Maule, que concentra \num{826513}~ha regadas y \num{314000}~ha de frutales, el \qty{84.1}{\percent} de la superficie frutal del país~\parencite{yaksic2024megasequia}.
+En esa zona, la Región del Maule registra el mayor consumo de agua dulce superficial y subterránea del país (huella hídrica azul), con unos \qty{50}{\cubic\meter\per\second} de un total nacional de \qty{212}{\cubic\meter\per\second}, y el sector agrícola explica el \qty{88}{\percent} de ese consumo a nivel nacional~\parencite{eh20302018radiografia}.
+A ello se suma que, según las proyecciones de riesgo climático, la inseguridad hídrica doméstica de los asentamientos rurales se extenderá con fuerza hacia las regiones del Maule, de Ñuble, del Biobío y el norte de La Araucanía, como consecuencia de la menor disponibilidad hídrica en esos territorios~\parencite{urquiza2020arclim}.
+Entre 2010 y 2018 la zona central del país registró déficits de precipitación de 20 a \qty{40}{\percent}, el evento seco más largo del registro~\parencite{garreaud2020central}.
+En ese escenario, la superficie de cerezo en la Región del Maule alcanzó \qty{32801}{ha} en 2024, un \qty{17.9}{\percent} más que en 2022 y el \qty{42.9}{\percent} de la superficie nacional de la especie~\parencite{odepa2024catastro}.
+
+Ante la progresiva disminución en la disponibilidad de los recursos hídricos superficiales y subterráneos, resulta imperativo explorar y diversificar las fuentes de abastecimiento, como por ejemplo avanzar en la reutilización de aguas residuales tratadas.
+No obstante, en zonas rurales y agrícolas descentralizadas, la implementación de sistemas de tratamiento convencionales (como lodos activados) resulta complejo debido a sus altos costos de inversión, requerimientos energéticos y complejidad operativa~\parencite{tchobanoglous2014wastewater}.
+
+En consecuencia, el problema a resolver consiste en la necesidad de diseñar e implementar tecnologías de depuración descentralizadas, eficientes y sostenibles, específicamente mediante Soluciones Basadas en la Naturaleza (SbN), que sean capaces de tratar simultáneamente efluentes de distinta naturaleza (aguas servidas domésticas, riles de lavado de agroquímicos y aguas superficiales contaminadas).
+Por tanto, y para poder avanzar en la implementación de este tipo de alternativas, existe el desafío de realizar diseños de ingeniería que garanticen una calidad del agua apta para riego.
+
+\section{Antecedentes}
+\label{sec:antecedentes}
+
+El desarrollo del presente proyecto de título se enmarca y fundamenta en la fase inicial de ingeniería del proyecto científico financiado por la Agencia Nacional de Investigación y Desarrollo, ANID/Anillos/ATE250033, titulado \textit{\enquote{Nature-based solution strategies for developing new sustainable water sources in sweet cherry production under a scarcity context (NbS-Waterry)}}.
+
+Mientras que el proyecto marco contempla una investigación multidisciplinaria de tres años enfocada en evaluar la fisiología vegetal del cerezo dulce (\textit{Prunus avium} L.), la inocuidad del fruto y el Análisis de Ciclo de Vida (ACV) derivado de la reutilización de efluentes tratados, el presente trabajo se delimita al diseño de la infraestructura hidráulica y estructural.
+
+La necesidad de este desarrollo de ingeniería de una estación experimental de humedales construidos, que sea capaz de tratar diferentes aguas residuales y generar efluentes aptos para riego, surge porque los modelos teóricos de depuración mediante Soluciones Basadas en la Naturaleza (SbN), documentados ampliamente en la literatura para el tratamiento de aguas~\parencite{dotro2021humedales}, requieren ser adaptados y materializados físicamente en un entorno agrícola real bajo las exigencias normativas chilenas~\parencite{inn1987nch1333}.
+El propósito de este proyecto es transformar los requerimientos biológicos e hidráulicos del sistema en un expediente técnico a nivel de ejecución.
+Esto contempla establecer las memorias de cálculo, las especificaciones técnicas de materiales y la planimetría normalizada que garantizarán la posterior construcción y desarrollo de la planta piloto experimental en los terrenos de Frutícola SABA SpA.
+
+En Chile, la cobertura de tratamiento de aguas servidas alcanza el \qty{100}{\percent} en las zonas urbanas, pero en las zonas rurales llega como máximo al \qty{20}{\percent}, y los humedales construidos representan menos del \qty{2}{\percent} de las plantas de tratamiento del país~\parencite{vera2016humedales}.
+Aunque la investigación nacional en humedales construidos ha crecido desde el año 2000, aún no existe una transferencia consolidada de esta tecnología desde la escala piloto a la escala real en zonas rurales, y las experiencias aisladas muestran que su operación necesita mayor profesionalización~\parencite{vidal2023desarrollo}.
+A pesar de esa cobertura urbana, el reúso directo de las aguas residuales tratadas para riego es inferior al \qty{1}{\percent} del caudal total, lo que se atribuye principalmente a la falta de regulación específica~\parencite{verapuerto2022reclamation}.
+Como avance, el INN elaboró la serie NCh3456, directrices para el uso de aguas residuales tratadas en riego (partes 1 a 4, aprobadas en mayo de 2021), cuya parte~2 define cuatro categorías de calidad, desde la I (calidad muy alta) hasta la IV (calidad media)~\parencite{verapuerto2022reclamation}.
+
+\section{Objetivos}
+\label{sec:objetivos}
+
+% Objetivos TEXTUALES aprobados por la Escuela (inscripción VF-V2, inicios de octubre 2026):
+% 01_normativa/proyecto/ALCANCE.md. Instrucción del guía: trabajar exclusivamente sobre ellos.
+% (Solo se corrigen tildes/errores de tipeo evidentes del formulario.)
+
+\subsection{Objetivo general}
+
+Diseñar un sistema experimental de humedales construidos de tipo vertical, destinado al tratamiento de tres fuentes de aguas residuales para su futura reutilización en riego agrícola, en la frutícola SABA, Linares, Región del Maule, integrando el sistema hidráulico y las necesidades estructurales para su implementación.
+
+\subsection{Objetivos específicos}
+
+\begin{enumerate}
+  \item Determinar las características fisicoquímicas y de producción de las tres fuentes de aguas residuales a tratar, para dimensionar los humedales construidos y las interconexiones hidráulicas necesarias.
+  \item Desarrollar el diseño depurativo, junto a los cálculos hidráulicos del sistema, para determinar cómo las tres fuentes de agua alimentarán y serán evacuadas de los humedales construidos.
+  \item Especificar el diseño y cálculo estructural de los diferentes elementos que garanticen la integridad de soporte a los humedales construidos, así como su conexión hidráulica.
+\end{enumerate}
+
+\section{Contribuciones del proyecto}
+\label{sec:contribuciones}
+
+El principal aporte del proyecto es el expediente técnico de diseño, a nivel de ingeniería de detalle, de la estación experimental de humedales construidos de flujo vertical del proyecto ANID/Anillos/ATE250033, que deja el diseño hidráulico y estructural completamente formulado para su posterior construcción.
+Este expediente comprende la caracterización consolidada de los caudales y cargas de diseño de las tres fuentes de agua, la memoria de cálculo hidráulico, la memoria de cálculo estructural de la plataforma de acero y la planimetría completa de la estación.
+\pendiente{Si corresponde, agregar mi aporte técnico específico (por ejemplo, la configuración modular en IBC para tratar por separado tres afluentes).}
+
+\section{Alcances y limitaciones}
+\label{sec:alcances}
+
+El presente proyecto de título es exclusivamente de diseño y corresponde a la etapa inicial del proyecto ANID/Anillos/ATE250033.
+Su alcance comprende la determinación de las características fisicoquímicas y de producción de las tres fuentes de aguas residuales a partir de las campañas de caracterización; el diseño depurativo de los humedales construidos y el cálculo hidráulico del sistema (distribución de caudales, redes de tuberías de alimentación y drenaje, zanjas, pérdidas de carga y selección de los equipos de impulsión), y el diseño y cálculo estructural de los elementos de soporte (plataforma de acero, fundaciones y estructura de los estanques dosificadores), junto con la planimetría y los detalles constructivos de la estación.

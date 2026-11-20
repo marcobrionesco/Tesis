@@ -1,0 +1,155 @@
+% =====================================================================
+%  Capítulo 3: Metodología
+%  Rúbrica: 20 % (el criterio de mayor peso). Debe ser consistente con los
+%  objetivos y detallar hipótesis, ecuaciones, cálculos, planificación y entregables.
+%  Origen: v3.0 (2026-11-19). Ver triaje en 03_seleccion/triaje/.
+% =====================================================================
+\chapter{Metodología}
+\label{cap:metodologia}
+
+% Reorganizado según la revisión del profesor guía (16-11-2026):
+% localización → caracterización (OE1) → diseño depurativo e hidráulico (OE2) → diseño estructural (OE3).
+% En este capítulo se explica CÓMO se calcula o diseña; los valores y elementos elegidos van en Resultados.
+% Ver 03_seleccion/triaje/2026-11-16_revision-profesor-v3.0.md.
+
+La metodología se organizó en etapas asociadas a cada objetivo específico.
+En primer lugar se describe el área de estudio; luego, la caracterización de las fuentes de agua residual (objetivo específico~1); a continuación, el diseño depurativo de los humedales y el cálculo hidráulico del sistema (objetivo específico~2); y, finalmente, el diseño y cálculo estructural de los elementos de soporte y la elaboración de la planimetría (objetivo específico~3).
+\pendiente{Agregar un diagrama de flujo de la metodología que relacione cada etapa con su objetivo y su entregable (la rúbrica pide planificación y entregables definidos).}
+
+\section{Área de estudio}
+\label{sec:met-area}
+
+La estación experimental se emplazará en los terrenos de Frutícola SABA SpA, en el sector El Emboque, comuna de Linares, Región del Maule (\cref{fig:area-estudio}).
+\pendiente{Me faltan las coordenadas, la superficie disponible, el uso actual del predio y una descripción breve del clima y del estero Batuco, con fuente.}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.7\textwidth]{emplazamiento_satelital.png}
+  \caption{Ubicación del área de estudio en Frutícola SABA SpA, sector El Emboque, Linares. Fuente: Google Maps (2026).}
+  \label{fig:area-estudio}
+\end{figure}
+
+\section{Caracterización de las fuentes de agua residual}
+\label{sec:met-caracterizacion}
+
+\subsection{Puntos y campañas de muestreo}
+
+Para determinar las características fisicoquímicas de las tres fuentes de agua residual (aguas servidas domésticas, aguas de lavado de agroquímicos y agua superficial del estero Batuco), se realizaron seis campañas de muestreo, el 15 y el 22 de enero y el 4, 10, 17 y 24 de marzo de 2026, en cinco puntos: el estero (EST), las aguas servidas de oficinas (AS1) y de la casa (AS2), y las aguas de lavado de agroquímicos de la bodega (AGR1) y de la sala de bombas (AGR2).
+\pendiente{Describir el tipo de muestra (puntual o compuesta), la toma, la conservación, el traslado y el laboratorio (la propuesta ANID menciona el Laboratorio de Calidad de Aguas de la UCM).}
+\pendiente{Revisar que esta parte quede bien ligada con el Anexo I de fichas, siguiendo la redacción del trabajo de Diego.}
+
+\subsection{Parámetros y métodos analíticos}
+
+En cada campaña se analizaron parámetros fisicoquímicos (pH, temperatura, conductividad eléctrica, potencial de óxido-reducción, oxígeno disuelto, sólidos disueltos y suspendidos, turbiedad, DQO total y disuelta, DBO$_5$, amonio, nitrato, nitrógeno total, fósforo total y fosfato) y microbiológicos (coliformes fecales y \textit{E.~coli}).
+Los resultados de cada punto se resumieron mediante la media aritmética de las campañas y, para los indicadores microbiológicos, mediante la media geométrica.
+\pendiente{Indicar el método analítico de cada parámetro (por ejemplo, \textit{Standard Methods}) y qué valores se excluyeron y por qué.}
+
+\subsection{Producción de agua residual y cargas de diseño}
+
+La producción de aguas servidas se estimó por separado para la casa y para las oficinas, según la información disponible en cada caso.
+
+Para la casa (AS2), que cuenta con un medidor de agua potable propio, se recopiló la facturación de trece meses consecutivos (marzo de 2025 a marzo de 2026) y se calculó el consumo diario promedio.
+La producción de aguas servidas se obtuvo al multiplicar ese consumo por un factor de restitución, es decir, la fracción del agua potable consumida que retorna como agua servida, definido a partir del uso de agua descrito por los residentes.
+
+Para las oficinas (AS1), que no tienen un medidor independiente, se registró la frecuencia de uso de los artefactos que generan aguas servidas: inodoro, lavamanos y lavaplatos.
+Para ello se instaló junto a cada artefacto una ficha de registro semanal, en la que los usuarios marcaron cada uso con una X (en el inodoro, X para descarga grande y O para descarga pequeña) (\cref{anx:fichas-registro}).
+El registro se realizó desde la tercera semana de enero hasta la tercera semana de febrero de 2026, lo que permitió definir dos escenarios: ocupación regular (enero, escenario~1) y ocupación reducida por vacaciones del personal (febrero, escenario~2).
+A continuación, se determinó el volumen de cada uso a partir del caudal aforado de cada artefacto y de su tiempo medio de uso; el volumen diario de cada escenario se obtuvo como la suma, sobre los artefactos, del número medio de usos diarios por el volumen por uso.
+Finalmente, el caudal de diseño se fijó considerando ambos escenarios y un factor de restitución definido según el uso descrito por los ocupantes.
+\pendiente{Describir cómo se hizo el aforo de los artefactos de las oficinas (método, instrumento, repeticiones) y quién definió los tiempos de uso.}
+
+La carga másica diaria de cada fuente se obtuvo como el producto entre el caudal de diseño y la concentración representativa de cada parámetro (DQO y nitrógeno total Kjeldahl)~\parencite{tchobanoglous2014wastewater}.
+Los caudales y las concentraciones de diseño resultantes de cada fuente se consolidan en la \cref{tab:resumen-afluentes}.
+\pendiente{Me falta el procedimiento para estimar la producción de aguas de lavado de agroquímicos y el caudal a captar del estero.}
+
+\section{Diseño depurativo y cálculo hidráulico}
+\label{sec:met-hidraulico}
+
+\subsection{Dimensionamiento de HC-FV}
+
+La superficie de cada humedal se determinó con el método del balance de oxígeno descrito en la \cref{sec:mt-humedales} (\cref{ec:balance-o2,ec:od,ec:oi}).
+A partir de las cargas de diseño de cada fuente y de la carga orgánica superficial definida para cada fase experimental del proyecto ANID/Anillos/ATE250033, se calculó la demanda de oxígeno y se iteró el área superficial hasta que el aporte de oxígeno superara a la demanda.
+Luego se verificaron la carga hidráulica superficial (caudal diario dividido por el área) y la carga orgánica superficial resultantes.
+La superficie obtenida se distribuyó en unidades modulares independientes por fuente, de modo de evitar la mezcla entre las aguas en estudio.
+El tiempo de retención hidráulica (TRH), definido como el tiempo que el agua permanece en promedio en una unidad, se estimó como el volumen de agua contenido en ella dividido por el caudal; para el lecho filtrante se usó el valor nominal de la \cref{ec:trh}~\parencite{dotro2021humedales}:
+\begin{equation}
+  \tau = \frac{\varepsilon\, h\, A}{Q}
+  \label{ec:trh}
+\end{equation}
+donde $\tau$ es el tiempo de retención hidráulica nominal (\unit{\day}), $\varepsilon$ la porosidad del medio filtrante (adimensional), $h$ la profundidad del agua en el lecho (\unit{\meter}), $A$ el área superficial (\unit{\square\meter}) y $Q$ el caudal afluente (\unit{\cubic\meter\per\day}).
+\revisar{En un humedal vertical no saturado este valor es solo referencial, porque \textcite{dotro2021humedales} advierten que los conceptos de los lechos saturados no se aplican directamente.
+Tengo que confirmar con el profesor a qué tiempos de retención se refiere la inscripción (lecho, estanques o dosificadores) y qué porosidad usar.}
+
+\subsection{Redes por gravedad}
+
+El transporte de los fluidos se analizó separando las redes de conducción por gravedad de las líneas a presión.
+Para los colectores gravitacionales, el trazado planialtimétrico se proyectó con pendientes continuas y uniformes (\cref{fig:perfil-hidraulico}).
+El criterio rector fue asegurar una pendiente mínima que garantizara una velocidad de escurrimiento superior a la de autolavado, evitando la sedimentación de sólidos en la tubería.
+Según el manual de saneamiento rural de la DOH, las pendientes mínimas deben cumplir la NCh1105 y, en los tramos iniciales, convienen pendientes mayores al \qty{1}{\percent} para favorecer el autolavado, con velocidades entre \qty{0.60}{\meter\per\second} a boca llena y \qty{3}{\meter\per\second}~\parencite{doh2023manual}.
+Con el perfil del terreno y la pendiente adoptada se definieron las cotas de excavación, las profundidades de tapada y los volúmenes de movimiento de tierras.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{perfil_colector_gravitacional.jpeg}
+  \caption{Esquema de perfil longitudinal para evaluar cotas de excavación y pendiente sanitaria. Fuente: elaboración propia.}
+  \label{fig:perfil-hidraulico}
+\end{figure}
+
+\subsection{Líneas a presión y selección de bombas}
+
+En las líneas a presión, el dimensionamiento se basó en el cálculo de la altura dinámica total (ADT), definida como la suma del desnivel geométrico, las pérdidas por fricción y las pérdidas singulares.
+Las pérdidas por fricción se cuantificaron con la ecuación de Hazen-Williams (\cref{ec:hazen}) y las pérdidas singulares con los coeficientes de resistencia local de cada pieza (\cref{ec:singulares}), con los valores de la \cref{tab:coeficientes-hidraulicos}.
+El punto de operación de cada línea se obtuvo al comparar el requerimiento hidráulico (caudal de diseño y ADT) con las curvas características de los fabricantes, lo que permitió seleccionar los equipos de bombeo.
+
+\section{Diseño y cálculo estructural}
+\label{sec:met-estructural}
+
+\subsection{Análisis de cargas y serviciabilidad}
+
+El diseño de los elementos estructurales de soporte se realizó bajo la metodología de Diseño por Factores de Carga y Resistencia (LRFD), en conformidad con la norma NCh427/1~\parencite{inn2016nch427} y las especificaciones AISC~360~\parencite{aisc2016specification}.
+El análisis consideró la superposición de la carga muerta, constituida por el peso propio de los elementos estructurales y de la cubierta, y la carga de operación, correspondiente al peso del agua y del medio filtrante de los estanques a máxima capacidad~\parencite{inn2009nch1537}.
+\revisar{En estructuras industriales el contenido de los estanques suele tratarse como carga de operación (NCh2369) y no como sobrecarga de uso: tengo que confirmar el criterio con el co-guía.}
+
+Se evaluaron las envolventes de momentos flectores y esfuerzos de corte para dimensionar los elementos horizontales y verticales de la estructura (\cref{fig:isometrico-estructura}).
+Adicionalmente, se verificó el estado límite de serviciabilidad, asegurando que las deflexiones verticales máximas en el centro del vano no superaran el límite admisible, establecido como una fracción de la luz libre ($L/300$), garantizando así la planicidad requerida para la correcta operación de los sifones dosificadores.
+\revisar{La NCh427/1 no fija un límite general de deformación: pide que no afecte el uso de la estructura y propone de $L/500$ a $L/1000$ para vigas que soportan equipos~\parencite{inn2016nch427}.
+Tengo que justificar $L/300$ con otra fuente o adoptar un límite más exigente, porque la horizontalidad condiciona los sifones (pregunta~2).}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{isometrico_plataforma.jpeg}
+  \caption{Esquema isométrico de la disposición estructural de vigas y pilares de la plataforma. Fuente: elaboración propia.}
+  \label{fig:isometrico-estructura}
+\end{figure}
+
+\subsection{Modelación sísmica (NCh2369) y geotecnia}
+
+La estabilidad global de la estructura se analizó frente a solicitaciones sísmicas utilizando el análisis elástico estático de la NCh2369.
+La comuna de Linares se ubica en la zona sísmica~2, con una aceleración efectiva máxima $A_0 = \num{0.30}\,g$~\parencite{inn2025nch2369}.
+El corte basal se determinó a partir del espectro de diseño (\cref{ec:espectro-diseno}) evaluado en el período fundamental de la plataforma, con el coeficiente de importancia de la categoría de ocupación asignada y el factor $R$ y la razón de amortiguamiento del sistema resistente, y se acotó entre los cortes mínimo y máximo de la norma.
+\revisar{Tengo que definir con el profesor la versión de la norma (2003 o 2025), la categoría de ocupación (I o II), el tipo de suelo y el sistema resistente de la Tabla~7 (marco a momento sin anclajes dúctiles, $R = 3$, u \enquote{otras estructuras}, $R = \num{1.5}$); no es péndulo invertido porque tiene seis pilares.}
+
+El corte sísmico indujo un momento de volcamiento en la base de la estructura.
+En consecuencia, los elementos verticales se verificaron comprobando el índice de interacción flexocompresiva (ecuaciones H1-1 de la especificación AISC~360), evaluando su capacidad para resistir simultáneamente la compresión axial producto de las cargas gravitacionales y la flexión inducida por el sismo, controlando los límites de esbeltez para prevenir el pandeo local y global~\parencite{aisc2016specification}.
+
+La transmisión de estas solicitaciones al terreno se verificó mediante el diseño de fundaciones superficiales de hormigón armado.
+El análisis geotécnico consistió en verificar que la presión real de contacto transmitida al sello de fundación no excediera la capacidad de soporte admisible del terreno, evaluando tanto la condición estática de servicio como la combinación sísmica.
+Para las zapatas aisladas, que se clasifican como fundaciones estándar menores porque se representan como apoyos idealizados en las bases de los pilares, la NCh2369:2025 exige que, con las combinaciones sísmicas del método ASD, al menos el \qty{80}{\percent} del área bajo cada fundación permanezca apoyada y que las tensiones máximas de contacto sean menores que las admisibles~\parencite{inn2025nch2369}.
+Las presiones de contacto extremas bajo cada zapata se calcularon con la distribución lineal de la mecánica de materiales, según la \cref{ec:presion-contacto}~\parencite{das2015fundamentos}:
+\begin{equation}
+  q_{\text{máx,mín}} = \frac{\sum V}{B\,L}\left(1 \pm \frac{6\,e}{B}\right), \qquad e = \frac{M}{\sum V}
+  \label{ec:presion-contacto}
+\end{equation}
+donde $\sum V$ es la suma de las fuerzas verticales sobre el sello de fundación, incluido el peso propio de la zapata (\unit{\kilo\newton}); $B$ y $L$ las dimensiones en planta de la zapata, con $B$ medida en la dirección del momento (\unit{\meter}); $M$ el momento respecto del centro de la base (\unit{\kilo\newton\meter}), y $e$ la excentricidad de la resultante (\unit{\meter}).
+Mientras $e \leq B/6$, toda la base permanece comprimida; si $e > B/6$, $q_{\text{mín}}$ resulta negativa, lo que indica que parte de la base pierde contacto con el suelo, que prácticamente no resiste tracción~\parencite{das2015fundamentos}, y la presión máxima pasa a ser $q_{\text{máx}} = 4\sum V/[3L(B - 2e)]$~\parencite{das2015fundamentos}.
+En ese caso, del equilibrio de la distribución triangular resulta una longitud apoyada de $3(B/2 - e)$, que se comparó con el mínimo de \qty{80}{\percent} del área exigido por la NCh2369:2025; ese mínimo equivale a limitar la excentricidad a $e \leq \num{0.233}\,B$.
+La seguridad al deslizamiento se verificó comparando la resistencia friccional del sello, $\sum V \tan\varphi'$, con la fuerza horizontal en la base~\parencite{inn2025nch2369}; como referencia se exige habitualmente un factor de seguridad mínimo de \num{1.5}, con el ángulo de fricción reducido a entre la mitad y dos tercios de $\varphi'$ por seguridad~\parencite{das2015fundamentos}.
+La capacidad admisible del suelo se estimó con la \cref{ec:terzaghi-cuadrada} y un factor de seguridad de 3, analizando su sensibilidad al ángulo de fricción $\varphi'$, ya que no se dispone de un estudio de mecánica de suelos.
+\revisar{Sin estudio de mecánica de suelos, $\varphi'$ y la capacidad admisible son supuestos: tengo que definirlos con el profesor (pregunta~1d).}
+Estructuralmente, las fundaciones se dimensionaron para resistir los esfuerzos de flexión y punzonamiento de acuerdo a las disposiciones del Decreto Supremo N.º~60~\parencite{minvu2011ds60}.
+
+\subsection{Elaboración del expediente técnico y planimetría}
+
+Como etapa final de la ingeniería de detalle, los resultados analíticos se integraron en memorias de cálculo formales.
+La representación espacial de la estación experimental se desarrolló utilizando software de diseño asistido por computador (CAD).
+Este proceso culminó con la generación de un expediente planimétrico consolidado que incluyó las plantas generales, isométricos de la estructura, cortes de los humedales, perfiles hidráulicos de las zanjas y los detalles constructivos de fundaciones y conexiones, sentando las bases documentales para la materialización del proyecto.

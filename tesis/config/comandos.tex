@@ -1,0 +1,79 @@
+% =====================================================================
+%  Comandos propios y datos de la tesis (un solo lugar para cambiarlos)
+% =====================================================================
+
+% --- Datos de la tesis (portada, hoja de firmas y metadatos del PDF) ---
+% Completar con los datos reales. Nombres en mayúsculas los pone la portada.
+\newcommand{\tesisTitulo}{Propuesta de diseño para una estación experimental basada en humedales construidos para el tratamiento y reutilización en riego de tres fuentes de aguas residuales, en Frutícola SABA \NoCaseChange{SpA}, comuna de Linares, Región del Maule}
+\newcommand{\tesisAutor}{Marco Antonio Isaac Briones Escobar}
+\newcommand{\tesisGuia}{Dr.\ Ismael Leonardo Vera Puerto}   % profesor guía
+\newcommand{\tesisCoGuia}{Luis Rojas Cáceres}               % co-guía (dejar vacío {} si no aplica)
+\newcommand{\tesisTituloProfesional}{Ingeniero Civil}
+\newcommand{\tesisUniversidad}{Universidad Católica del Maule}
+\newcommand{\tesisFacultad}{Facultad de Ciencias de la Ingeniería}
+\newcommand{\tesisEscuela}{Escuela de Ingeniería Civil}
+\newcommand{\tesisCiudad}{Talca}
+% Fecha de la portada "TALCA, MES AÑO": por defecto, mes y año de compilación.
+% Para fijarla: \renewcommand{\tesisFecha}{DICIEMBRE 2026}
+\newcommand{\tesisFecha}{\mesactual~\the\year}
+
+% Comisión examinadora (hoja de firmas): "Dr. / Mg. / Sr." + nombre
+\newcommand{\comisionGuia}{Dr.\ Ismael Leonardo Vera Puerto}
+\newcommand{\comisionDos}{Dr.\ / Mg.\ / Sr.}
+\newcommand{\comisionTres}{Dr.\ / Mg.\ / Sr.}
+
+\newcommand{\mesactual}{\ifcase\month\or ENERO\or FEBRERO\or MARZO\or ABRIL\or MAYO\or JUNIO\or
+  JULIO\or AGOSTO\or SEPTIEMBRE\or OCTUBRE\or NOVIEMBRE\or DICIEMBRE\fi}
+
+\hypersetup{pdftitle={Propuesta de diseño para una estación experimental basada en humedales construidos}, pdfauthor={\tesisAutor}}
+
+% --- Marcas de trabajo ---
+% Para la versión final cambiar \mostrarmarcastrue por \mostrarmarcasfalse
+\newif\ifmostrarmarcas
+\mostrarmarcastrue
+\ifmostrarmarcas
+  \newcommand{\pendiente}[1]{\textcolor{blue!60!black}{\textit{\lbrack Por hacer: #1\rbrack}}}
+  \newcommand{\revisar}[1]{\textcolor{teal!70!black}{\textit{\lbrack Nota: #1\rbrack}}}
+\else
+  \newcommand{\pendiente}[1]{}
+  \newcommand{\revisar}[1]{}
+\fi
+
+% --- Glosario: "SIGLA  Significado" (formato del template) ---
+% Uso: \begin{glosario} \item[ANF] Agua No Facturada \end{glosario}
+\newenvironment{glosario}
+  {\begin{description}[style=sameline, leftmargin=3cm, labelwidth=2.7cm, font=\normalfont\bfseries, itemsep=0pt, parsep=0pt]}
+  {\end{description}}
+
+% --- Notación matemática (mantener consistente con 00_proyecto/GLOSARIO.md) ---
+\newcommand{\vect}[1]{\bm{#1}}                 % vector
+\newcommand{\matr}[1]{\mathbf{#1}}             % matriz
+\newcommand{\dd}{\mathop{}\!\mathrm{d}}        % diferencial: \dd x
+\newcommand{\deriv}[2]{\frac{\dd #1}{\dd #2}}  % derivada
+\newcommand{\pderiv}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\fc}{f'_{c}}                       % resistencia del hormigón
+
+% --- Unidades no estándar en siunitx ---
+\DeclareSIUnit{\tonf}{tonf}
+\DeclareSIUnit{\kgf}{kgf}
+
+% --- Nombres en español según el template ---
+\addto\captionsspanish{%
+  \renewcommand{\appendixname}{Anexo}%
+  \renewcommand{\contentsname}{Índice General}%
+  \renewcommand{\listfigurename}{Índice de Figuras}%
+  \renewcommand{\listtablename}{Índice de Tablas}%
+}
+\crefname{table}{tabla}{tablas}
+\Crefname{table}{Tabla}{Tablas}
+\crefname{appendix}{anexo}{anexos}
+\Crefname{appendix}{Anexo}{Anexos}
+\crefname{equation}{ecuación}{ecuaciones}
+\Crefname{equation}{Ecuación}{Ecuaciones}
+
+% --- Bibliografía: "&" entre autores, como en los ejemplos oficiales [REGLAS_FORMATO §7] ---
+\DefineBibliographyStrings{spanish}{
+  and       = {\&},             % "Zhou, Z., ... & Ke, K."
+  retrieved = {Recuperado},      % la fecha ya trae "el": "Recuperado el 17 de marzo de 2026, de https://..."
+  from      = {de},
+}

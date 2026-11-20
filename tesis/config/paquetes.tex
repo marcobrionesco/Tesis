@@ -1,0 +1,74 @@
+% =====================================================================
+%  Paquetes. Cada uno con un comentario de para qué sirve.
+%  Reglas aplicadas: 01_normativa/REGLAS_FORMATO.md
+% =====================================================================
+
+% --- Idioma y codificación ---
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+% es-tabla: "Tabla" en vez de "Cuadro"; es-noshorthands evita conflictos con TikZ
+\usepackage[english, spanish, es-tabla, es-noshorthands, es-lcroman]{babel} % el último idioma es el principal
+\usepackage{csquotes}           % comillas correctas con \enquote{...}
+
+% --- Matemática (amsmath ANTES de la fuente) ---
+\usepackage{amsmath, mathtools}
+
+% --- Fuente: Times New Roman 12 [REGLAS_FORMATO §1] ---
+% newtx = Times de alta calidad (texto y matemática; ya incluye los símbolos
+% de amssymb, que NO debe cargarse con newtx porque choca). Si newtx no está
+% instalado (TeX Live mínimo), se usa mathptmx (también Times) + amssymb.
+\IfFileExists{newtxtext.sty}{%
+  \usepackage{newtxtext}
+  \usepackage{newtxmath}
+}{%
+  \usepackage{mathptmx}
+  \usepackage{amssymb}
+}
+
+% --- Más matemática ---
+\usepackage{bm}                 % vectores/matrices en negrita: \bm{u}
+\usepackage{icomma}             % coma decimal sin espacio extra en modo matemático
+
+% --- Unidades (fundamental en ingeniería) ---
+\usepackage{siunitx}
+\sisetup{
+  output-decimal-marker = {,},  % coma decimal (Chile)
+  group-separator = {.},
+  group-minimum-digits = 4,
+  per-mode = symbol,            % kN/m en vez de kN m^-1
+  range-phrase = { a },
+  list-final-separator = { y },
+}
+
+% --- Figuras, tablas y diagramas ---
+\usepackage{graphicx}
+\usepackage{booktabs}           % tablas profesionales (\toprule, \midrule, \bottomrule)
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{longtable}          % tablas de varias páginas
+\usepackage{caption}
+\usepackage{subcaption}         % subfiguras (a), (b)
+\usepackage{float}
+\usepackage{tikz}               % diagramas dibujados con código
+\usetikzlibrary{arrows.meta, positioning, calc, patterns, decorations.pathmorphing, shapes.geometric}
+\usepackage{pgfplots}           % gráficos con código
+\pgfplotsset{compat=1.18}
+
+% --- Listas, colores, varios ---
+\usepackage{etoolbox}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{setspace}           % interlineado
+\usepackage{geometry}           % márgenes
+\usepackage{fancyhdr}           % encabezados y pies
+\usepackage{titlesec}           % formato de títulos
+\usepackage[titles]{tocloft}    % formato de índices (con títulos de titlesec)
+\usepackage{pdfpages}           % insertar PDFs (p.ej. hoja de firmas escaneada)
+\usepackage{listings}           % código fuente en anexos
+
+% --- Bibliografía: APA 7.ª ed. [REGLAS_FORMATO §7] ---
+\usepackage[backend=biber, style=apa]{biblatex}
+
+% --- Enlaces y referencias cruzadas (cargar al final) ---
+\usepackage[hidelinks]{hyperref}
+\usepackage[spanish, noabbrev]{cleveref}   % \cref{fig:x} -> "figura 2.1"

@@ -1,0 +1,899 @@
+\documentclass[12pt, letterpaper]{report}
+
+% --- PAQUETES PRINCIPALES ---
+\usepackage[spanish, es-tabla]{babel} 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{setspace}
+\usepackage{microtype}
+\usepackage{xcolor}
+\setstretch{1.5}
+
+% --- EVITAR CORTE Y DIVISIÓN DE PALABRAS (HIPENACIÓN) ---
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\righthyphenmin=62
+\lefthyphenmin=62
+\emergencystretch=3em
+
+% --- MÁRGENES INSTITUCIONALES (Superior/Inferior 2.5cm, Izquierdo/Derecho 3.0cm) ---
+\usepackage[top=2.5cm, bottom=2.5cm, left=3cm, right=3cm]{geometry}
+
+% --- PAQUETES DE FORMATO, GRÁFICOS Y TABLAS ---
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage[round]{natbib} % Para citas APA (Autor, Año)
+\usepackage{caption}
+
+% --- FORMATO DE FIGURAS Y TABLAS SEGÚN LINEAMIENTOS UCM ---
+% Times New Roman tamaño 11 (equivalente a \small en doc de 12pt), negrita únicamente en el rótulo
+\captionsetup{
+  font={small},
+  labelfont={bf},
+  textfont={normalfont},
+  labelsep=colon
+}
+
+% Numeración de tablas y figuras con correlativo por capítulo
+\renewcommand{\thefigure}{\thechapter.\arabic{figure}}
+\renewcommand{\thetable}{\thechapter.\arabic{table}}
+\renewcommand{\theequation}{\thechapter.\arabic{equation}}
+
+% --- FORMATO DE CAPÍTULOS Y SECCIONES ---
+\titleformat{\chapter}[hang]{\bfseries\Large\raggedright}{\thechapter.}{0.5em}{}
+\titleformat{\section}[hang]{\bfseries\large\raggedright}{\thesection}{0.5em}{}
+\titleformat{\subsection}[hang]{\bfseries\normalsize\raggedright}{\thesubsection}{0.5em}{}
+\titleformat{\subsubsection}[hang]{\bfseries\normalsize\raggedright}{\thesubsubsection}{0.5em}{}
+\titlespacing*{\chapter}{0pt}{0pt}{1.5em}
+
+% Hasta 3 niveles de numeración en secciones
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+% --- ENCABEZADO Y PIE DE PÁGINA SEGÚN LINEAMIENTOS UCM ---
+% Encabezado: extremo superior derecho (nombre y número del capítulo), sin líneas ni subrayados.
+% Pie de página: extremo inferior derecho (solo el número de página).
+\usepackage{fancyhdr}
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\small\nouppercase{\leftmark}}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Formato para que \leftmark muestre "Capítulo X. Nombre" en el encabezado
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter.\ #1}{}}
+
+% Estilo plain (para primeras páginas de capítulos y preliminares)
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[R]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+% --- REFERENCIAS Y ENLACES ---
+\usepackage[hidelinks]{hyperref}
+
+\begin{document}
+
+% ==============================================================================
+% PORTADA OFICIAL (Sin número visible)
+% ==============================================================================
+\begin{titlepage}
+    \centering
+    \includegraphics[width=0.20\textwidth]{logo_ucm.png}\\[1.2cm]
+    \vspace*{0cm}
+    
+    {\bfseries\large UNIVERSIDAD CATÓLICA DEL MAULE}\\[0.2cm]
+    {\bfseries FACULTAD DE CIENCIAS DE LA INGENIERÍA}\\[0.2cm]
+    {\bfseries ESCUELA DE INGENIERÍA CIVIL}\\[1.8cm]
+    
+    {\bfseries\Large PROPUESTA DE DISEÑO PARA UNA ESTACIÓN EXPERIMENTAL BASADA EN HUMEDALES CONSTRUIDOS PARA EL TRATAMIENTO Y REUTILIZACIÓN EN RIEGO DE TRES FUENTES DE AGUAS RESIDUALES, EN FRUTÍCOLA SABA SpA, COMUNA DE LINARES}\\[1.8cm]
+    
+    {\bfseries MARCO ANTONIO ISAAC BRIONES ESCOBAR}\\[0.4cm]
+    {PROFESOR GUÍA: DR. ISMAEL LEONARDO VERA PUERTO}\\[0.2cm]
+    {PROFESOR CO-GUÍA: LUIS ROJAS CÁCERES}\\[1.5cm]
+    
+   {\small Proyecto de Título presentado en conformidad a los requisitos para obtener el título de Ingeniero Civil}\\[1.5cm]
+    
+    {\bfseries TALCA, SEPTIEMBRE 2026}
+\end{titlepage}
+
+% ==============================================================================
+% PÁGINAS PRELIMINARES (Numeración romana en esquina inferior derecha)
+% ==============================================================================
+\newpage
+\pagenumbering{roman}
+\setcounter{page}{2}
+\pagestyle{plain}
+
+% ==============================================================================
+% HOJA DE FIRMAS
+% ==============================================================================
+\begin{center}
+    \includegraphics[width=0.20\textwidth]{logo_ucm.png}\\[0.6cm]
+    \vspace*{0cm}
+    
+    {\bfseries\small UNIVERSIDAD CATÓLICA DEL MAULE}\\[0.1cm]
+    {\bfseries\small FACULTAD DE CIENCIAS DE LA INGENIERÍA}\\[0.1cm]
+    {\bfseries\small ESCUELA DE INGENIERÍA CIVIL}\\[0.5cm]
+
+    {\small Proyecto de Título presentado en conformidad a los requisitos para obtener el título de Ingeniero Civil}\\[1.5cm]
+    
+    {\bfseries\large PROPUESTA DE DISEÑO PARA UNA ESTACIÓN EXPERIMENTAL BASADA EN HUMEDALES CONSTRUIDOS PARA EL TRATAMIENTO Y REUTILIZACIÓN EN RIEGO DE TRES FUENTES DE AGUAS RESIDUALES, EN FRUTÍCOLA SABA SpA, COMUNA DE LINARES}\\[0.6cm]
+    
+    {\bfseries MARCO ANTONIO ISAAC BRIONES ESCOBAR}\\[0.2cm]
+    {\small PROFESOR GUÍA: DR. ISMAEL LEONARDO VERA PUERTO}\\[1.0cm]
+    
+    \renewcommand{\arraystretch}{1.8}
+    \begin{tabular}{p{6.5cm} p{4.2cm} p{4.5cm}}
+        \textbf{COMISIÓN EXAMINADORA} & & \textbf{FIRMA} \\
+        Dr. Ismael Leonardo Vera Puerto & PROFESOR GUÍA & \hrulefill \\
+        Dr. / Mg. Nombre Profesor & PROFESOR COMISIÓN & \hrulefill \\
+        Dr. / Mg. Nombre Profesor & PROFESOR COMISIÓN & \hrulefill \\
+    \end{tabular}
+    
+    \vfill
+    {\bfseries TALCA, SEPTIEMBRE 2026}
+\end{center}
+
+\newpage
+
+% ==============================================================================
+% RESUMEN / ABSTRACT / AGRADECIMIENTOS
+% ==============================================================================
+\chapter*{Resumen}
+\addcontentsline{toc}{chapter}{Resumen}
+
+La vulnerabilidad hídrica en la Región del Maule amenaza la sostenibilidad de la producción agrícola, exigiendo la diversificación de fuentes mediante la reutilización de efluentes (Vera et al., 2016). Ante la inviabilidad económica de los sistemas convencionales en zonas rurales descentralizadas, este proyecto desarrolla el diseño de ingeniería para una estación experimental multifuente basada en Soluciones Basadas en la Naturaleza (SbN) (Cohen-Shacham et al., 2019; Cross et al., 2021). Se proyecta la depuración simultánea de aguas residuales domésticas, residuos agroquímicos y agua superficial del estero Batuco para su posterior reúso en el riego de frutales en Frutícola SABA SpA.
+
+El sistema de tratamiento, correspondiente a Humedales Construidos de Flujo Subsuperficial Vertical (HCFV), se integra bajo una configuración modular de superficie empleando contenedores industriales tipo IBC (Dotro et al., 2017; Kadlec \& Wallace, 2008). La metodología sanitaria se implementó aislando los parámetros de carga orgánica y amoniacal mediante un modelo de balance estequiométrico de oxígeno (Platzer, 1999; Platzer et al., 2016), mientras que la estabilidad de la plataforma de acumulación se evaluó integrando el método LRFD y modelación sísmica industrial (Instituto Nacional de Normalización [INN], 2009; INN, 2016).
+
+El balance de masa determinó el área activa necesaria para satisfacer una carga orgánica conservadora, garantizando una inyección de oxígeno suficiente para oxidar la materia de los flujos de aguas servidas (García et al., 2010). Estructuralmente, frente a las solicitaciones sísmicas normativas de la zona de emplazamiento (INN, 2003), el diseño en acero preserva la estabilidad global, registrando índices de interacción flexocompresiva y presiones basales de fundación significativamente inferiores a la capacidad de soporte admisible del terreno (Bowles, 1996; Das, 2015).
+
+\vspace{0.5cm}
+\noindent\textbf{Palabras clave:} Humedales Construidos, Soluciones Basadas en la Naturaleza, Diseño Hidráulico, Cálculo Estructural.
+
+\newpage
+
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+The Maule Region faces severe water vulnerability affecting agricultural sustainability, particularly sweet cherry orchards (\textit{Prunus avium} L.). This graduation project develops the engineering design for an experimental wastewater treatment and reuse station using Nature-based Solutions (NbS), located at Frutícola SABA SpA in Linares. The system is engineered to simultaneously receive and treat three different wastewater sources: domestic wastewater (offices and housing), agrochemical washing effluents, and surface water from the Batuco stream.
+
+The sanitary solution employs a battery of Vertical Subsurface Flow Constructed Wetlands (VF-CW) arranged in an above-ground modular configuration using industrial IBC containers of $1.00\text{ m}^3$ (Dotro et al., 2017). The filter beds sizing was determined by isolating the organic and ammonia loading parameters through a stoichiometric oxygen balance model (Platzer, 1999), while the stability of the elevated platform for storage tanks was evaluated by integrating the LRFD method and industrial seismic modeling.
+
+The mass balance determined the necessary active area to meet a conservative organic design loading, guaranteeing a sufficient oxygen transfer rate to oxidize the organic matter from the wastewater flows. Structurally, regarding the standard seismic demand of the location zone, the steel design preserves global stability, registering flexo-compressive interaction indexes and foundation contact pressures lower than the allowable bearing capacity of the soil.
+
+\vspace{0.5cm}
+\noindent\textbf{Keywords:} Constructed wetlands, Nature-based Solutions, Hydraulic design, Structural calculation.
+
+\newpage
+
+\chapter*{Agradecimientos}
+\addcontentsline{toc}{chapter}{Agradecimientos}
+
+Quisiera expresar mi más profundo agradecimiento a mi familia, cuyo apoyo incondicional, esfuerzo y paciencia han sido el pilar fundamental a lo largo de todos mis años de formación. 
+
+Agradezco sinceramente a mi profesor guía por la oportunidad brindada, su constante orientación y la confianza depositada en mí para llevar a cabo este desafío. 
+
+Asimismo, extiendo mi gratitud a la Agencia Nacional de Investigación y Desarrollo (ANID), ya que este trabajo se enmarca y fundamenta en la fase inicial del proyecto científico financiado ANID/Anillos/ATE250033, titulado \textit{``Nature-based solution strategies for developing new sustainable water sources in sweet cherry production under a scarcity context (NbS-Waterry)''}. 
+
+Finalmente, muchas gracias a todos quienes me apoyaron, directa o indirectamente, para hacer posible la culminación de esta etapa.
+
+\newpage
+
+% ==============================================================================
+% ÍNDICES
+% ==============================================================================
+\tableofcontents
+\newpage
+\listoffigures
+\addcontentsline{toc}{chapter}{Índice de Figuras}
+\newpage
+\listoftables
+\addcontentsline{toc}{chapter}{Índice de Tablas}
+\newpage
+
+\chapter*{Glosario}
+\addcontentsline{toc}{chapter}{Glosario}
+
+\begin{description}[style=nextline, itemsep=0.5em]
+    \item[ADT] Altura Dinámica Total. Energía requerida por un sistema de bombeo para transportar un fluido.
+    \item[AGR1] Punto de muestreo correspondiente a los residuos agroquímicos generados en la bodega.
+    \item[AGR2] Punto de muestreo correspondiente a los residuos agroquímicos captados en la sala de bombas.
+    \item[AS1] Punto de muestreo correspondiente a las aguas servidas provenientes del sector de oficinas.
+    \item[AS2] Punto de muestreo correspondiente a las aguas servidas habitacionales provenientes de la casa.
+    \item[DBO$_5$] Demanda Bioquímica de Oxígeno medida a los cinco días.
+    \item[DQO] Demanda Química de Oxígeno.
+    \item[EST] Aguas del estero Batuco.
+    \item[HCFV] Humedal Construido de Flujo Subsuperficial Vertical.
+    \item[IBC] Contenedor Intermedio para Graneles (\textit{Intermediate Bulk Container}).
+    \item[LRFD] Diseño por Factores de Carga y Resistencia (\textit{Load and Resistance Factor Design}).
+    \item[NTK] Nitrógeno Total Kjeldahl. Suma del nitrógeno orgánico y amoniacal.
+    \item[OD] Demanda de Oxígeno (referido a los cálculos estequiométricos de Platzer) u Oxígeno Disuelto (en mediciones de calidad de agua).
+    \item[PEAD] Polietileno de Alta Densidad.
+    \item[PVC] Policloruro de Vinilo.
+    \item[SbN] Soluciones Basadas en la Naturaleza.
+    \item[SST] Sólidos Suspendidos Totales.
+\end{description}
+
+\newpage
+
+% ==============================================================================
+% CUERPO PRINCIPAL (Numeración arábiga y encabezados con capítulo)
+% ==============================================================================
+\pagenumbering{arabic}
+\pagestyle{fancy}
+
+%----
+
+\chapter{Introducción y Planteamiento del Problema}
+
+\section{Descripción del problema}
+
+La Región del Maule enfrenta una severa y creciente vulnerabilidad hídrica derivada de las alteraciones del ciclo hidrológico y de prolongados eventos de sequía asociados al cambio climático (Uribe Meneses et al., 2012). Esta situación amenaza directamente la sostenibilidad y competitividad de la producción agrícola, de manera particular el cultivo del cerezo dulce (\textit{Prunus avium} L.), una especie que ha experimentado una expansión acelerada en la zona durante el último lustro y que demanda volúmenes considerables de agua para su óptimo desarrollo (Allen et al., 1998). 
+
+Ante la progresiva disminución en la disponibilidad de los recursos hídricos superficiales y subterráneos, resulta imperativo explorar y diversificar las fuentes de abastecimiento mediante la reutilización de aguas residuales tratadas. No obstante, en zonas rurales y agrícolas descentralizadas, la implementación de sistemas de tratamiento convencionales (como lodos activados) resulta habitualmente inviable debido a sus altos costos de inversión, requerimientos energéticos y complejidad operativa (Tchobanoglous et al., 2014).
+
+En consecuencia, el problema a resolver consiste en la necesidad de diseñar e implementar tecnologías de depuración descentralizadas, eficientes y sostenibles ---específicamente mediante Soluciones Basadas en la Naturaleza (SbN)--- que sean capaces de tratar simultáneamente efluentes de distinta naturaleza (aguas servidas domésticas, riles de lavado de agroquímicos y aguas superficiales contaminadas). El desafío de ingeniería radica en adaptar los modelos teóricos e hidráulicos de los humedales construidos a las solicitaciones reales de un entorno agrícola, garantizando que el efluente final cumpla con la estricta normativa chilena de calidad para el riego agrícola y asegurando la estabilidad estructural del sistema en las instalaciones de Frutícola SABA SpA.
+
+
+\section{Antecedentes}
+El desarrollo del presente proyecto de título se enmarca y fundamenta en la fase inicial de ingeniería del proyecto científico financiado por la Agencia Nacional de Investigación y Desarrollo, ANID/Anillos/ATE250033, titulado \textit{“Nature-based solution strategies for developing new sustainable water sources in sweet cherry production under a scarcity context (NbS-Waterry)”}.
+
+Mientras que el proyecto marco contempla una investigación multidisciplinaria de tres años enfocada en evaluar la fisiología vegetal del cerezo dulce (\textit{Prunus avium} L.), la inocuidad del fruto y el Análisis de Ciclo de Vida (ACV) derivado de la reutilización de efluentes tratados, el presente trabajo se delimita estrictamente al diseño de la infraestructura hidráulica y estructural.
+
+La necesidad de esta desarrollo de ingeniería surge porque los modelos teóricos de depuración mediante Soluciones Basadas en la Naturaleza (SbN), documentados ampliamente en la literatura para el tratamiento de aguas (Dotro et al., 2017), requieren ser adaptados y materializados físicamente en un entorno agrícola real bajo las exigencias normativas chilenas (INN, 2002). El propósito de este proyecto es transformar los requerimientos biológicos e hidráulicos del sistema en un expediente técnico a nivel de ejecución. Esto contempla establecer las memorias de cálculo, las especificaciones técnicas de materiales y la planimetría normalizada que garantizarán la posterior construcción y desarrollo de la planta piloto experimental en los terrenos de Frutícola SABA SpA.
+
+
+\newpage
+
+
+\section{Objetivos}
+
+\subsection{Objetivo General}
+Diseñar la infraestructura hidráulica y estructural de una estación experimental basada en Humedales Construidos de Flujo Subsuperficial Vertical (HCFV), orientada al tratamiento y posterior reutilización agrícola de tres afluentes residuales independientes en Frutícola SABA SpA, comuna de Linares.
+
+\subsection{Objetivos Específicos}
+\begin{enumerate}
+    \item Dimensionar el sistema de depuración y las redes de conducción a presión y gravedad, estableciendo el balance de oxígeno de los humedales, los requerimientos operativos de los equipos de impulsión y las especificaciones técnicas para las distintas fuentes de agua.
+    \item Desarrollar la modelación y el cálculo estructural de la plataforma de acero y sus fundaciones bajo solicitaciones estáticas y sísmicas normativas, integrando la planimetría consolidada y los detalles constructivos de la estación.
+\end{enumerate}
+
+
+
+
+
+\chapter{Marco Teórico}
+
+\section{Marco Teórico Diseño y Cálculo Hidráulico (Objetivo Específico 1)}
+
+\subsection{Soluciones Basadas en la Naturaleza y Calidad de Efluentes}
+Las Soluciones Basadas en la Naturaleza (SbN) constituyen tecnologías de tratamiento descentralizadas que imitan los procesos físicos, químicos y biológicos de depuración propios de los ecosistemas naturales (Dotro et al., 2017). Para la reutilización de efluentes tratados en riego agrícola, la norma chilena NCh1333 establece los requisitos de calidad fisicoquímica y microbiológica, exigiendo límites estrictos de Sólidos Suspendidos Totales (SST), Demanda Bioquímica de Oxígeno (DBO5) y Coliformes Fecales (Instituto Nacional de Normalización [INN], 2002). Si el efluente llegase a ser descargado a un cuerpo receptor superficial, debe someterse complementariamente a las disposiciones del Decreto Supremo 90 (Biblioteca del Congreso Nacional de Chile [BCN], 2000).
+
+\subsection{Humedales Construidos de Flujo Subsuperficial Vertical (HCFV)}
+Los HCFV operan mediante aplicaciones discontinuas, o dosificación por pulsos, sobre un lecho poroso (Dotro et al., 2017; Brix \& Arias, 2005). Cuando la dosis percola verticalmente, actúa como un pistón hidráulico que succiona aire atmosférico hacia el interior de los poros (Dotro et al., 2017). 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figura_2.1.jpeg}
+    \caption{Esquema transversal conceptual de un Humedal de Flujo Vertical indicando la dirección de percolación y la zona de drenaje.}
+    \label{fig:esquema_hcfv}
+\end{figure}
+
+El dimensionamiento de la superficie se rige por el método del balance de oxígeno (Platzer, 1999; Austrian Standards Institute [ÖNORM], 2009), el cual establece que el aporte total de oxígeno (OI) debe ser estrictamente mayor a la demanda total de oxígeno (OD) del sistema (Platzer, 1999).
+
+La demanda total de oxígeno se compone del consumo generado por la oxidación de la materia orgánica y el consumo por nitrificación, deduciendo la recuperación por desnitrificación parcial:
+\begin{equation}
+OD = OD_{DQO} + OD_{Nitrificacion} + OD_{Desnitrificacion}
+\end{equation}
+
+El aporte de oxígeno al lecho filtrante se cuantifica a través de dos mecanismos físicos simultáneos, convección y difusión (Tietz et al., 2007):
+\begin{equation}
+OI = OI_{Conveccion} + OI_{Difusion}
+\end{equation}
+
+El aporte por convección es directamente proporcional a la carga hidráulica volumétrica aplicada en cada pulso, mientras que la transferencia pasiva por difusión atmosférica se evalúa en función del área superficial, descontando el tiempo de saturación del medio donde la reoxigenación es nula (Platzer, 1999; Deutsche Vereinigung für Wasserwirtschaft, Abwasser und Abfall [DWA], 2017).
+
+\subsection{Hidráulica de Conducciones a Presión y Gravedad}
+El dimensionamiento de los equipos de impulsión exige cuantificar la Altura Dinámica Total (ADT) del sistema, definida como la sumatoria de la pérdida de carga geométrica, las pérdidas por fricción a lo largo de la tubería y las pérdidas singulares inducidas por los accesorios. Las pérdidas por fricción en fluidos a presión se evalúan mediante la ecuación empírica de Hazen-Williams:
+\begin{equation}
+J = \frac{10,67 \cdot Q^{1,85}}{C^{1,85} \cdot D^{4,87}}
+\end{equation}
+Donde $J$ es la pérdida de carga unitaria, $Q$ el caudal, $D$ el diámetro interno y $C$ el coeficiente de rugosidad del material. Las pérdidas singulares ($P_s$) se modelan en función de la altura de velocidad del escurrimiento y los coeficientes de resistencia local ($K$) asociados a la geometría de cada pieza especial:
+
+\begin{equation}
+P_s = K \frac{V^2}{2g}
+\end{equation}
+
+\begin{table}[H]
+    \centering
+    \caption{Coeficientes de rugosidad empíricos (C) y pérdidas singulares (K) aplicados en el dimensionamiento hidráulico.}
+    \vspace{0.2cm}
+    \label{tab:coeficientes_hidraulicos}
+    \begin{tabular}{|>{\centering\arraybackslash}p{4.5cm}|>{\centering\arraybackslash}p{1.5cm}|>{\centering\arraybackslash}p{4.5cm}|>{\centering\arraybackslash}p{1.5cm}|}
+        \hline
+        \textbf{Material de Tubería} & \textbf{C} & \textbf{Accesorio / Válvula} & \textbf{K} \\
+        \hline
+        PVC Hidráulico / Sanitario & 140 & Codo 90$^\circ$ & 0,6 \\
+        Polietileno (HDPE) & 150 & Válvula de retención & 2,5 \\
+        Acero (Referencia) & 100 & Tee de paso directo & 0,6 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+Para las redes de conducción por gravedad, el diseño se rige por el cumplimiento de una pendiente mínima que asegure una velocidad de escurrimiento superior al límite de autolavado, impidiendo la decantación de sólidos dentro del colector.
+
+\section{Marco Teórico Diseño y Cálculo Estructural (Objetivo Específico 2)}
+
+\subsection{Diseño en Acero Estructural por Método LRFD}
+El dimensionamiento de las plataformas de soporte industrial se fundamenta en el Diseño por Factores de Carga y Resistencia (LRFD), regido por la norma NCh427/1 (INN, 2016) y las especificaciones AISC 360 (American Institute of Steel Construction [AISC], 2016). El método exige que la resistencia de diseño de cada elemento ($\phi R_n$) supere la resistencia requerida ($R_u$) producto de las combinaciones más desfavorables de carga muerta, carga viva y carga sísmica (McCormac \& Csernak, 2012; Segui, 2017). La serviciabilidad del sistema se verifica limitando la deflexión elástica máxima de los elementos horizontales a una fracción normativa de la luz libre.
+
+\begin{table}[H]
+    \centering
+    \caption{Combinaciones de carga factorizadas normativas aplicadas en el diseño LRFD.}
+    \vspace{0.2cm}
+    \label{tab:combinaciones_lrfd}
+    \begin{tabular}{|>{\raggedright\arraybackslash}p{5cm}|>{\centering\arraybackslash}p{6cm}|}
+        \hline
+        \textbf{Condición de Carga} & \textbf{Ecuación de Mayoración} \\
+        \hline
+        Condición Estática 1 & 1.4 D \\
+        Condición Estática 2 & 1.2 D + 1.6 L \\
+        Condición Sísmica & 1.2 D + 1.0 L + 1.4 E \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Análisis Sísmico Industrial e Interacción Flexocompresiva}
+El diseño sismorresistente para estructuras industriales en Chile se ejecuta mediante la norma NCh2369 (INN, 2003). El método define el esfuerzo de corte sísmico horizontal a través de un coeficiente sísmico de diseño ($C$), el cual induce un momento de volcamiento sobre la base de la estructura. Los pilares, al estar sometidos simultáneamente a compresión axial y a momentos flectores, se diseñan evaluando el índice de interacción flexocompresiva, asegurando que la demanda combinada garantice la estabilidad global y prevenga el pandeo (AISC, 2016).
+
+\begin{figure}[H]
+    \centering    \includegraphics[width=0.8\textwidth]{figura_2.2.jpeg}
+    \caption{Diagrama conceptual de interacción flexocompresiva para columnas de acero.}
+    \label{fig:diagrama_interaccion}
+\end{figure}
+
+\subsection{Fundaciones Superficiales}
+La transmisión de las cargas desde la superestructura hacia el terreno natural se realiza mediante zapatas aisladas. El diseño geotécnico requiere verificar que la presión real de contacto ($q_{actuante}$) generada en condición de servicio sea estrictamente menor a la capacidad de soporte admisible del suelo ($q_{adm}$) (Das, 2015; Bowles, 1996). Estructuralmente, la zapata se diseña en hormigón armado, dimensionando la armadura de flexión inferior de acuerdo a los criterios normativos vigentes (Ministerio de Vivienda y Urbanismo [MINVU], 2011; American Concrete Institute [ACI], 2019).
+
+\chapter{Metodología}
+
+\section{Diseño Hidráulico y Distribución de Caudales (Objetivo Específico 1)}
+
+\subsection{Determinación de Volúmenes y Cargas Másicas}
+El diseño de la estación experimental requirió la caracterización independiente de tres afluentes residuales: aguas domésticas, efluentes del lavado de agroquímicos y agua superficial del estero Batuco. Para las aguas domésticas, el caudal de diseño se determinó mediante el análisis de los registros históricos del medidor de agua potable de las viviendas, aplicando un coeficiente de recuperación normativo, mientras que para el sector de oficinas se ejecutaron aforos empíricos de los artefactos sanitarios. La carga másica de diseño, parámetro fundamental para el dimensionamiento del tratamiento, se obtuvo al multiplicar los caudales proyectados por las concentraciones representativas de Demanda Química de Oxígeno (DQO) y Nitrógeno Total Kjeldahl (NTK) obtenidas en campañas de monitoreo previas (Tchobanoglous et al., 2014).
+
+\begin{table}[H]
+    \centering
+    \caption{Esquema metodológico de caudales proyectados y concentraciones medias de diseño.}
+    \vspace{0.2cm}
+    \label{tab:caracterizacion_afluentes}
+    \begin{tabular}{|>{\raggedright\arraybackslash}p{4cm}|>{\centering\arraybackslash}p{3.3cm}|>{\centering\arraybackslash}p{3.3cm}|>{\centering\arraybackslash}p{3.3cm}|}
+        \hline
+        \textbf{Fuente Analizada} & \textbf{Caudal Proyecto (L/día)} & \textbf{DQO Estimada (mg/L)} & \textbf{NTK Estimado (mg/L)} \\
+        \hline
+        Aguas Domésticas & Variable & Alta & Media \\
+        Lavado Agroquímicos & Variable & Variable & Variable \\
+        Estero Batuco & Variable & Baja & Baja \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Procedimiento de Dimensionamiento de Humedales Construidos (HCFV)}
+Para el tratamiento de las aguas, se adoptó una configuración de Humedales Construidos de Flujo Subsuperficial Vertical (HCFV). El área activa requerida para la depuración se calculó empleando el modelo de balance estequiométrico de oxígeno (Platzer, 1999). Este modelo exige iterar la superficie del humedal hasta garantizar que la Capacidad de Inyección de Oxígeno (OI), generada por la convección de las cargas hidráulicas y la difusión atmosférica, supere matemáticamente a la Demanda Total de Oxígeno (OD). La demanda se calculó aislando el consumo requerido para la oxidación de la fracción orgánica (DQO) y la demanda por nitrificación del amonio, deduciendo la recuperación de oxígeno por desnitrificación parcial (Kadlec \& Wallace, 2008).
+
+Para evitar excavaciones masivas y prevenir la contaminación cruzada entre los tres afluentes en estudio, la superficie teórica obtenida del balance se discretizó bajo una configuración modular de superficie. Como unidad base se seleccionaron contenedores industriales de polietileno de alta densidad tipo IBC de 1,00 m³ de capacidad volumétrica. El diseño interior de estos módulos contempló una estratificación del medio poroso consistente en una capa inferior de drenaje (grava), una capa intermedia de filtración (arena gruesa) y una capa superior de distribución (gravilla), sobre las cuales se proyectó la plantación de especímenes de macrófitas emergentes de la especie Typha spp.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{figura_3.1.jpeg}
+    \caption{Corte estratigráfico referencial del módulo HCFV en contenedor IBC.}
+    \label{fig:detalle_modulo_ibc}
+\end{figure}
+
+\subsection{Cálculo de Redes Sanitarias y Pérdidas de Carga}
+El transporte de los fluidos se analizó dividiendo la infraestructura en redes de conducción por gravedad y sistemas de impulsión a presión. 
+
+Para los colectores gravitacionales, el trazado planialtimétrico se proyectó fijando pendientes continuas y uniformes. El criterio rector fue asegurar una pendiente mínima (típicamente 2,0\% para diámetros sanitarios) que garantizara una velocidad de escurrimiento superior a la velocidad de autolavado, evitando así la sedimentación de sólidos en la batea de la tubería. Este procedimiento permitió definir las cotas de excavación, las profundidades de tapada y los volúmenes de movimiento de tierras requeridos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figura_3.2.jpeg}
+    \caption{Ejemplo de trazado de perfil longitudinal para evaluar cotas de excavación y pendiente sanitaria.}
+    \label{fig:perfil_hidraulico}
+\end{figure}
+
+En las líneas a presión, destinadas a la alimentación de los estanques dosificadores y al sistema de micro-riego agrícola, el dimensionamiento requirió el cálculo de la Altura Dinámica Total (ADT). Las pérdidas de carga por fricción continua se cuantificaron utilizando la ecuación de Hazen-Williams, adoptando los coeficientes de rugosidad correspondientes a tuberías de PVC hidráulico. Simultáneamente, las pérdidas singulares se evaluaron en función de la energía cinética del escurrimiento y los coeficientes de resistencia local asociados a las válvulas, codos y reducciones del sistema.
+
+El punto de operación del sistema se obtuvo al intersectar el requerimiento hidráulico calculado (Caudal de diseño vs. ADT) con las curvas características de rendimiento proporcionadas por los fabricantes, permitiendo la especificación técnica de los equipos de bombeo centrífugos de superficie y sumergibles.
+
+\section{Cálculo Estructural y Planimetría (Objetivo Específico 2)}
+
+\subsection{Análisis de Cargas y Serviciabilidad LRFD}
+El diseño de la plataforma elevada para el soporte de los estanques acumuladores se ejecutó bajo la metodología de Diseño por Factores de Carga y Resistencia (LRFD), en conformidad con la norma NCh427/1 (INN, 2016) y las especificaciones AISC 360 (AISC, 2016). El análisis mecánico consideró la superposición de la carga muerta, constituida por el peso propio de los perfiles de acero estructural A270ES y la cubierta de tableros fenólicos, y la carga viva de operación, correspondiente al peso hidrostático equivalente de los estanques a máxima capacidad (INN, 2009).
+
+Se evaluaron las envolventes de momentos flectores y esfuerzos de corte para dimensionar las vigas principales y las costaneras secundarias. Adicionalmente, se verificó el estado límite de serviciabilidad, asegurando que las deflexiones verticales máximas en el centro del vano no superaran el límite admisible normativo, establecido como una fracción de la luz libre (L/300), garantizando así la planicidad requerida para la correcta operación de los sifones dosificadores.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figura_3.3.jpeg}
+    \caption{Esquema isométrico de la disposición estructural de vigas y pilares de la plataforma.}
+    \label{fig:isometrico_estructura}
+\end{figure}
+
+\subsection{Modelación Sísmica (NCh2369) y Geotecnia}
+La estabilidad global de la estructura se analizó frente a solicitaciones dinámicas utilizando el método estático equivalente para estructuras industriales (NCh2369). Se determinó el esfuerzo de corte basal ingresando el coeficiente sísmico de diseño para la zona sísmica correspondiente al emplazamiento (Zona 2) (INN, 2003). 
+
+El corte sísmico indujo un momento de volcamiento en la base de la estructura. En consecuencia, las columnas de acero se verificaron comprobando el índice de interacción flexocompresiva (ecuaciones AISC H1-1), evaluando su capacidad para resistir simultáneamente la compresión axial producto de las cargas gravitacionales y la flexión inducida por el sismo, controlando los límites de esbeltez para prevenir el pandeo local y global.
+
+La transmisión de estas solicitaciones al terreno se resolvió mediante el diseño de zapatas aisladas de hormigón armado. El análisis geotécnico consistió en verificar que la presión real de contacto transmitida al sello de fundación no excediera la capacidad de soporte admisible del terreno, evaluando tanto la condición estática de servicio como la combinación sísmica. Estructuralmente, las fundaciones se dimensionaron para resistir los esfuerzos de flexión y punzonamiento de acuerdo a las disposiciones del Decreto Supremo N° 60 (MINVU, 2011).
+
+\subsection{Elaboración del Expediente Técnico y Planimetría}
+Como etapa final de la ingeniería de detalle, los resultados analíticos se integraron en memorias de cálculo formales. La representación espacial de la estación experimental se desarrolló utilizando software de diseño asistido por computadora (CAD). Este proceso culminó con la generación de un expediente planimétrico consolidado que incluyó los emplazamientos generales, isométricos de la estructura metálica, cortes estratigráficos de los módulos HCFV, perfiles hidráulicos de las zanjas y los detalles constructivos de fundaciones y conexiones, sentando las bases documentales para la materialización del proyecto.
+
+\begin{figure}[H]
+    \centering
+    $\vcenter{\hbox{\includegraphics[width=0.48\textwidth]{figura_3.4.png}}}$
+    \hfill
+    $\vcenter{\hbox{\includegraphics[width=0.48\textwidth]{figura_3.4.2.png}}}$
+    \caption{Plano de emplazamiento general indicando la topología del terreno y las áreas de intervención.}
+    \label{fig:plano_emplazamiento}
+\end{figure}
+
+
+\chapter{Resultados}
+
+\section{Resultados del Diseño Hidráulico y Humedales (Objetivo Específico 1)}
+
+\subsection{Volúmenes de Diseño para Viviendas y Oficinas}
+El caudal de diseño para las aguas servidas habitacionales (Casa AS2) se obtuvo del registro histórico del medidor de agua potable. Aplicando un coeficiente de recuperación de $0,8$, se determinó un caudal promedio de $0,60\text{ m}^3/\text{día}$.
+
+Para el sector de oficinas (AS1), se consolidaron los aforos de artefactos sanitarios. Posterior a la evaluación de variaciones de ocupación, se adoptó formalmente un caudal de diseño de $150\text{ L/día}$ ($0,15\text{ m}^3/\text{día}$).
+
+El caudal consolidado afluente al sistema de tratamiento alcanzó un volumen de carga total de $0,75\text{ m}^3/\text{día}$ (Tchobanoglous et al., 2014).
+
+
+\begin{table}[H]
+    \centering
+    \caption{Registro mensual de consumo de agua en Casa (AS2) y establecimiento del caudal de diseño.}
+    \vspace{0.2cm}
+    \label{tab:consumo_casa}
+    \begin{tabular}{|>{\raggedright\arraybackslash}p{6cm}|>{\centering\arraybackslash}p{6cm}|}
+        \hline
+        \textbf{Mes de Registro} & \textbf{Consumo Mensual (m$^3$)} \\
+        \hline
+        Marzo 2025 & 19 \\
+        Abril 2025 & 22 \\
+        Mayo 2025 & 23 \\
+        Junio 2025 & 17 \\
+        Julio 2025 & 10 \\
+        Agosto 2025 & 19 \\
+        Septiembre 2025 & 21 \\
+        Octubre 2025 & 22 \\
+        Noviembre 2025 & 35 \\
+        Diciembre 2025 & 34 \\
+        Enero 2026 & 27 \\
+        Febrero 2026 & 20 \\
+        Marzo 2026 & 21 \\
+        \hline
+        \textbf{Promedio Histórico} & \textbf{22,30 m$^3$/mes} \\
+        \textbf{Consumo Diario Equivalente} & \textbf{743,60 L/día} \\
+        \hline
+        \textbf{Caudal de Diseño Promedio ($R=0,8$)} & \textbf{600 L/día (0,60 m$^3$/día)} \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Estimación de caudales empíricos mediante escenarios de uso en Oficina (AS1).}
+    \vspace{0.2cm}
+    \label{tab:consumo_oficina}
+    \begin{tabular}{|>{\raggedright\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{2.5cm}|}
+        \hline
+        \textbf{Artefacto} & \textbf{Volumen por Uso (L)} & \textbf{Usos/día (Esc. 1)} & \textbf{Usos/día (Esc. 2)} & \textbf{Volumen Esc. 1 (L/día)} & \textbf{Volumen Esc. 2 (L/día)} \\
+        \hline
+        Inodoro (WC) & 9 & 9 & 5 & 81 & 45 \\
+        Lavamanos & 3 & 10 & 5 & 30 & 15 \\
+        Lavaplatos & 9 & 6 & 4 & 54 & 36 \\
+        \hline
+        \multicolumn{4}{|r|}{\textbf{Total Promedio Diario Estimado}} & \textbf{165} & \textbf{96} \\
+        \hline
+        \multicolumn{6}{|c|}{\textbf{Caudal de Diseño Adoptado Oficialmente: 150 L/día}} \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Dimensionamiento del Humedal por Balance de Oxígeno}
+Las cargas másicas iniciales se calcularon en base a concentraciones de $300\text{ mg/L}$ y $400\text{ mg/L}$ de DQO para la casa y la oficina, respectivamente. Considerando una remoción teórica del 25\% en la fosa séptica previa, la carga orgánica neta de diseño ingresando al humedal se estableció en $180\text{ g DQO/día}$, mientras que la carga nitrogenada fue de $1,1\text{ g NTK/día}$ (Tchobanoglous et al., 2014).
+
+Al aplicar el modelo de balance estequiométrico de oxígeno (Platzer, 1999), se cuantificó la Demanda Total de Oxígeno (OD). Asumiendo una tasa de degradación del 85\% y un requerimiento de $0,7\text{ g O}_2$ por gramo de DQO, el consumo orgánico alcanzó $107,1\text{ g O}_2/\text{día}$. Simultáneamente, el consumo por nitrificación exigió $4,3\text{ g O}_2$ por gramo de NTK, resultando en $4,7\text{ g O}_2/\text{día}$. Al ser un sistema aerobio por pulsos, se despreció la desnitrificación, totalizando una demanda (OD) de $111,8\text{ g O}_2/\text{día}$.
+
+El Aporte de Oxígeno (OI) se evaluó iterando un área superficial de $6,00\text{ m}^2$ y un régimen de 6 cargas diarias. El aporte por convección volumétrica, asumiendo $0,3\text{ g O}_2/\text{L}$ en el aire succionado, entregó una capacidad de $225,0\text{ g O}_2/\text{día}$. Por su parte, la transferencia atmosférica por difusión pasiva aportó $90,0\text{ g O}_2/\text{día}$, garantizando un aporte total (OI) de $315,0\text{ g O}_2/\text{día}$. 
+
+Dado que el aporte ($315,0\text{ g O}_2/\text{día}$) es estrictamente mayor a la demanda ($111,8\text{ g O}_2/\text{día}$), el diseño fue considerado satisfactorio. Esto validó el área activa de $6,00\text{ m}^2$, con una carga hidráulica resultante de $125\text{ mm/día}$ y una carga orgánica de $30\text{ g DQO/m}^2\cdot\text{d}$. Constructivamente, esta superficie se materializó mediante la disposición de 6 contenedores modulares tipo IBC por línea de tratamiento (Platzer et al., 2016).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figura_4.1.pdf}
+    \caption{Esquema de estratificación del medio poroso en contenedor IBC.}
+    \label{fig:esquema_ibc}
+\end{figure}
+
+\subsection{Solución Hidráulica e Impulsión}
+La red de impulsión de aguas servidas (Sector 1.1) se diseñó utilizando tubería de PVC Hidráulico de 50 mm de diámetro. La conducción principal abarca una longitud de 95 m. Las redes de impulsión de aguas de estero y agroquímicos se materializaron en tuberías de PVC Hidráulico de 25 mm, con longitudes de 140 m y 80 m respectivamente. 
+% [SECCIÓN PENDIENTE: Ingresar resultados de pérdidas por fricción (m.c.a.), pérdidas singulares (m.c.a.) y ADT final para la selección de las bombas Ebara]
+
+\section{Resultados del Cálculo Estructural y Planimetría (Objetivo Específico 2)}
+
+\subsection{Verificación LRFD de Estructura de Soporte}
+La plataforma elevada se diseñó con perfiles cajón de acero A270ES, utilizando dimensiones de $150 \times 150 \times 6\text{ mm}$ para las vigas principales y $150 \times 100 \times 3\text{ mm}$ para las secundarias. La estructura soporta tres estanques de acumulación de 1000 L cada uno, junto con tres dosificadores de 200 L. 
+% [SECCIÓN PENDIENTE: Ingresar los valores específicos de momento flector (Mu), esfuerzo de corte (Vu) y resistencia nominal de las secciones cajón]
+
+\subsection{Diseño de Fundaciones Superficiales}
+Las zapatas de fundación se dimensionaron en $1.00 \times 1.00 \times 0.50\text{ m}$, utilizando hormigón grado G30, y reforzadas con parrilla inferior de acero de 12 mm espaciada cada 15 cm. Las columnas se anclaron mediante placas base de $300 \times 300 \times 16\text{ mm}$ con pernos tipo J de 19 mm. 
+
+\subsection{Planimetría y Expediente Técnico}
+Se generó el conjunto de láminas en formato CAD, conteniendo: emplazamientos, elevaciones de impulsión, planta general de la estación HCFV, cortes constructivos, plantas de fundaciones y detalles de anclaje. El detalle completo de las memorias de cálculo, especificaciones y las láminas a escala se integra en los respectivos Anexos (Anexo A, B y C).
+
+
+\chapter{Discusión y Análisis de Resultados}
+
+\section{Discusión del Diseño Hidráulico y Humedales (Objetivo Específico 1)}
+La adopción de una topología modular mediante contenedores industriales de polietileno de alta densidad (tipo IBC) para conformar los Humedales Construidos de Flujo Subsuperficial Vertical (HCFV) representa una decisión técnica que asegura la impermeabilidad del sistema. Este confinamiento elimina el riesgo de infiltración de aguas residuales hacia el subsuelo y previene la contaminación cruzada entre los tres afluentes evaluados (aguas domésticas, efluentes con agroquímicos y agua del estero). Al garantizar el aislamiento hidráulico, el diseño asegura que los monitoreos analíticos futuros reflejen con exactitud la eficiencia de depuración de cada matriz de agua de forma totalmente independiente.
+
+Desde la perspectiva del balance de masa, el dimensionamiento de 6 unidades IBC por cada línea de tratamiento (área activa de $6,00\text{ m}^2$) comprobó ser altamente confiable. La modelación estequiométrica demostró que la capacidad de inyección pasiva de oxígeno ($315,0\text{ g O}_2/\text{día}$), generada por la convección de los pulsos de carga y la difusión atmosférica, supera con amplio margen la demanda biológica máxima exigida por la materia orgánica y el amonio ($111,8\text{ g O}_2/\text{día}$) (Platzer, 1999). Esta holgura operativa asegura condiciones estrictamente aerobias en el lecho filtrante, demostrando que el sistema es autosuficiente y descarta la necesidad de integrar sopladores mecánicos de alto consumo energético (Dotro et al., 2017). Asimismo, la carga orgánica superficial de $30\text{ g DQO/m}^2\cdot\text{d}$ y la tasa hidráulica de $125\text{ mm/día}$ se mantienen en rangos conservadores que mitigan el riesgo de colmatación física a largo plazo (Brix \& Arias, 2005).
+
+Finalmente, la heterogeneidad de los caudales representó un desafío en la red presurizada. El bajo requerimiento nominal del sistema de micro-riego ($160\text{ L/h}$) generaba un descalce operacional severo con la curva de rendimiento de las bombas centrífugas. La inclusión de un circuito de retorno regulado (\textit{bypass}) resolvió eficazmente esta restricción, ya que permite disipar la presión excedente, evita la rotura de los goteros autocompensados y protege a los equipos de impulsión frente a la cavitación por estrangulamiento.
+
+\section{Discusión del Cálculo Estructural (Objetivo Específico 2)}
+Los resultados del análisis estructural mediante el método LRFD validan la idoneidad de la materialidad y de las secciones geométricas seleccionadas para la plataforma de soporte. La elección de perfiles tubulares de sección cerrada (cajón de $250 \times 250 \times 6\text{ mm}$) para las columnas y vigas principales responde a su excelente comportamiento mecánico frente a la torsión y a su alta resistencia contra el pandeo lateral, atributos indispensables para estructuras elevadas (McCormac \& Csernak, 2012). Frente a las cargas gravitacionales estáticas, estos elementos exhibieron una razón de trabajo a flexión de apenas un $7,2\%$. Por su parte, el entramado de costaneras secundarias ($150 \times 50 \times 3\text{ mm}$) demostró un control óptimo de la serviciabilidad, limitando la máxima deflexión vertical de la cubierta a $3,81\text{ mm}$, cumpliendo con amplia holgura la restricción normativa de $L/300$ (INN, 2016).
+
+Bajo la solicitación dinámica normada por la NCh2369, el sistema demostró un desempeño altamente confiable. Al emplazarse en una zona de alta aceleración sísmica (Zona 3), la masa excéntrica de los estanques llenos induce momentos volcantes considerables. Sin embargo, el índice de interacción flexocompresiva de las columnas alcanzó un máximo de solo $18,8\%$. Este aparente sobredimensionamiento confirma una decisión de diseño intencional: en plataformas industriales que soportan fluidos, el criterio rector es la rigidez global y no solo la resistencia última a la fluencia. 
+
+Proveer una alta rigidez lateral permite minimizar las derivas elásticas de piso durante eventos sísmicos severos. Restringir este desplazamiento es fundamental para atenuar la amplificación del efecto de oleaje (\textit{sloshing}) al interior de los acumuladores de $1000\text{ L}$ y para evitar la fractura de las conexiones rígidas de tuberías de PVC. Finalmente, la rigidez del marco de acero asegura la estricta horizontalidad de la plataforma bajo carga de operación máxima, condición ineludible para el correcto funcionamiento de los estanques dosificadores de $200\text{ L}$. Los sifones mecánicos auto-cebantes exigen cotas de nivelación milimétricas para romper la presión atmosférica; cualquier deformación excesiva de la estructura alteraría los volúmenes de los pulsos de descarga hacia el humedal, comprometiendo todo el proceso biológico.
+
+
+\chapter{Conclusiones}
+
+El desarrollo de la ingeniería de detalle para la estación experimental emplazada en la Frutícola SABA SpA permitió validar exhaustivamente la factibilidad técnica y operativa de implementar Soluciones Basadas en la Naturaleza (SbN) (Cohen-Shacham et al., 2019; Cross et al., 2021). Este proyecto logró integrar de manera exitosa los estrictos requerimientos biológicos, hidráulicos y estructurales necesarios para el tratamiento simultáneo, pero independiente, de tres efluentes de naturaleza heterogénea: aguas servidas domésticas, riles provenientes del lavado de agroquímicos y aguas superficiales captadas del estero Batuco.
+
+En relación con el diseño hidráulico y el dimensionamiento de los humedales construidos (Objetivo Específico 1), se concluye que la adopción de una topología modular mediante el uso de contenedores industriales tipo IBC constituye una estrategia ingenieril altamente efectiva. Esta configuración garantiza el absoluto aislamiento físico de las matrices de agua en estudio, eliminando por completo el riesgo de infiltración de contaminantes hacia el perfil del suelo y las napas subterráneas. Asimismo, al suprimir la posibilidad de contaminación cruzada entre las distintas líneas de tratamiento, el diseño respalda la integridad de la estación experimental, asegurando que las futuras campañas de monitoreo entreguen datos científicos representativos y fidedignos sobre la capacidad de depuración individual de cada afluente (García et al., 2010).
+
+La aplicación del modelo de balance estequiométrico de oxígeno propuesto por Platzer (1999) demostró ser una herramienta de diseño robusta. Los cálculos determinaron que la implementación de un área activa de $6,00\text{ m}^2$ por cada línea de tratamiento (equivalente a seis módulos IBC) asegura una capacidad de reoxigenación pasiva de $315,0\text{ g O}_2/\text{día}$. Esta magnitud supera con un amplio factor de seguridad la demanda biológica máxima del sistema, cuantificada en $111,8\text{ g O}_2/\text{día}$ para la oxidación de la materia orgánica y la nitrificación del amonio. En consecuencia, se concluye y ratifica la autosuficiencia aerobia de la instalación (Tietz et al., 2007), comprobando que es técnica y económicamente viable operar el sistema de depuración mediante los fenómenos físicos de convección y difusión, descartando la necesidad de incorporar mecanismos de aireación forzada o sopladores que incrementarían de forma innecesaria los costos de operación y mantenimiento de la planta.
+
+Desde el punto de vista del transporte de fluidos, la resolución de la red presurizada comprobó que la disparidad de requerimientos de caudal exige adaptaciones hidráulicas específicas. El bajo caudal demandado por el sistema de micro-riego agrícola ($160\text{ L/h}$) generaba un descalce inminente frente al punto de mayor eficiencia de las bombas centrífugas especificadas. Se concluye que la incorporación de un circuito de retorno regulado (\textit{bypass}) es una medida de diseño indispensable en este tipo de escenarios, ya que permite disipar la energía remanente del sistema, logrando compatibilizar la curva de operación del equipo de bombeo con la restricción de los goteros. Esto previene la sobrepresión en los emisores y protege a las bombas frente a fenómenos destructivos como la cavitación.
+
+Respecto al cálculo estructural de la plataforma de soporte y la elaboración de la planimetría (Objetivo Específico 2), se concluye que el dimensionamiento mediante la metodología de Diseño por Factores de Carga y Resistencia (LRFD) para instalaciones industriales que almacenan fluidos debe estar gobernado por el control estricto de las deformaciones y la rigidez global del marco, por sobre la optimización de la resistencia última de los materiales (Segui, 2017). La especificación de perfiles de acero tubulares cajón, operando a tasas de utilización considerablemente bajas (alrededor del $7,2\%$ a flexión estática), proporcionó la estabilidad geométrica necesaria para enfrentar solicitaciones dinámicas. Bajo la norma sísmica vigente (INN, 2003), la structure limitó eficazmente las derivas de piso, mitigando el efecto de oleaje (\textit{sloshing}) al interior de los acumuladores superiores y resguardando la integridad de las conexiones sanitarias rígidas de PVC frente a esfuerzos de cizalle.
+
+Finalmente, la evaluación geotécnica de las fundaciones superficiales evidenció que la provisión de un factor de seguridad generoso respecto a las presiones de contacto ($27,76\text{ kPa}$ frente a una capacidad admisible de $150\text{ kPa}$) es una condición ineludible para suprimir el riesgo de asentamientos diferenciales a largo plazo (Das, 2015). Se concluye que la conservación absoluta de la planicidad estructural es el eslabón crítico de todo el diseño. De esta horizontalidad milimétrica depende el correcto accionamiento físico de los sifones mecánicos auto-cebantes ubicados en los estanques dosificadores; cualquier alteración asimétrica en las cotas de nivel deformaría los volúmenes de los pulsos de descarga, alterando la homogeneidad de la película de agua sobre el lecho filtrante y mermando irreversiblemente la eficiencia del tratamiento biológico del humedal.
+
+% ==============================================================================
+% BIBLIOGRAFÍA (APA 7)
+% ==============================================================================
+\newpage
+
+\chapter*{Bibliografía}
+\addcontentsline{toc}{chapter}{Bibliografía}
+
+% Configuración de sangría francesa (APA 7)
+\begingroup
+\setlength{\parindent}{0pt}
+\setlength{\hangindent}{1.27cm}
+\setlength{\parskip}{0.8em}
+
+Allen, R. G., Pereira, L. S., Raes, D., \& Smith, M. (1998). \textit{Crop evapotranspiration: Guidelines for computing crop water requirements} (FAO Irrigation and Drainage Paper 56). Organización de las Naciones Unidas para la Alimentación y la Agricultura [FAO].
+
+American Concrete Institute [ACI]. (2019). \textit{Building code requirements for structural concrete} (ACI 318-19) \textit{and commentary}. Farmington Hills, MI.
+
+American Institute of Steel Construction [AISC]. (2016). \textit{Specification for structural steel buildings} (ANSI/AISC 360-16). Chicago, IL.
+
+Arceivala, S. J. (1981). \textit{Wastewater treatment and disposal: Engineering and ecology in pollution control}. Marcel Dekker.
+
+Brix, H., \& Arias, C. (2005). The use of vertical flow constructed wetlands for on-site treatment of domestic wastewater: New Danish guidelines. \textit{Ecological Engineering}, 25(5), 491--500. https://doi.org/10.1016/j.ecoleng.2005.07.009
+
+Batterman, S., Eisenberg, J., Hardin, R., Kruk, M. E., Lemos, M. C., Michalak, A. M., Mukherjee, B., Renne, E., Stein, H., Watkins, C., \& Wilson, M. L. (2009). Sustainable control of water-related infectious diseases: A review and proposal for interdisciplinary health-based systems research. \textit{Environmental Health Perspectives, 117}(7), 1023--1032. https://doi.org/10.1289/ehp.0800473
+
+Biblioteca del Congreso Nacional de Chile [BCN]. (2000). \textit{Decreto Supremo 90: Establece norma de emisión para la regulación de contaminantes asociados a las descargas de residuos líquidos a aguas marinas y continentales superficiales}. Ministerio Secretaría General de la Presidencia.
+
+Bowles, J. E. (1996). \textit{Foundation analysis and design} (5.ª ed.). McGraw-Hill.
+
+Cohen-Shacham, E., Walters, G., Janzen, C., \& Maginnis, S. (2019). \textit{Nature-based solutions to address global societal challenges}. IUCN. https://doi.org/10.2305/IUCN.CH.2016.13.en
+
+Cross, K., Tondera, K., Rizzo, A., Andrews, L., Pucher, B., Istenič, D., Karres, N., \& McDonald, R. (2021). \textit{Nature-based solutions for wastewater treatment}. IWA Publishing.
+
+Das, B. M. (2015). \textit{Principles of foundation engineering} (8.ª ed.). Cengage Learning.
+
+Dotro, G., Langergraber, G., Molle, P., Nivala, J., Puigagut, J., Stein, O., \& von Sperling, M. (2017). \textit{Treatment Wetlands}. IWA Publishing.
+
+DWA. (2017). \textit{Bau und betrieb von kläranlagen mit bepflanzten und unbepflanzten filtern zur reinigung häuslichen und kommunalen abwassers}. Deutsche Vereinigung für Wasserwirtschaft, Abwasser und Abfall.
+
+García, J., Rousseau, D. P., Morató, J., Lesage, E., Matamoros, V., \& Bayona, J. M. (2010). Contaminant removal processes in subsurface-flow constructed wetlands: A review. \textit{Critical Reviews in Environmental Science and Technology, 40}(7), 561--661. https://doi.org/10.1080/10643380802471076
+
+Giles, R. V., \& Moneva, J. M. (1970). \textit{Mecánica de los fluidos e hidráulica: Teoría y problemas}. McGraw-Hill.
+
+Hutton, G., \& Haller, L. (2004). \textit{Evaluation of the costs and benefits of water and sanitation improvements at the global level}. World Health Organization.
+
+Instituto Nacional de Normalización [INN]. (2002). \textit{NCh1333: Agua - Vocabulario}. Santiago, Chile.
+
+Instituto Nacional de Normalización [INN]. (2003). \textit{NCh2369.Of2003: Diseño sísmico de estructuras e instalaciones industriales}. Santiago, Chile.
+
+Instituto Nacional de Normalización [INN]. (2009). \textit{NCh1537.Of2009: Diseño estructural - Cargas permanentes y cargas de uso}. Santiago, Chile.
+
+Instituto Nacional de Normalización [INN]. (2016). \textit{NCh427/1:2016: Construcción - Estructuras de acero - Parte 1: Requisitos para el cálculo de estructuras de acero para edificios}. Santiago, Chile.
+
+Jackson, R. D., Idso, S. B., Reginato, R. J., \& Pinter, P. J. (1981). Canopy temperature as a crop water stress indicator. \textit{Water Resources Research, 17}(4), 1133--1138. https://doi.org/10.1029/WR017i004p01133
+
+Kadlec, R. H., \& Wallace, S. (2008). \textit{Treatment wetlands} (2.ª ed.). CRC Press.
+
+Lavrnić, S., Zapater-Pereyra, M., \& Mancini, M. L. (2017). Water scarcity and wastewater reuse standards in Southern Europe: Focus on agriculture. \textit{Water, Air, \& Soil Pollution, 228}(7), 251. https://doi.org/10.1007/s11270-017-3425-6
+
+McCormac, J. C., \& Csernak, S. F. (2012). \textit{Structural steel design} (5.ª ed.). Pearson.
+
+Ministerio de Vivienda y Urbanismo [MINVU]. (2011). \textit{Decreto Supremo Nº 60: Reglamento que fija el diseño y cálculo para el hormigón armado}. Santiago, Chile.
+
+Morales, G., López, D., Vera, I., \& Vidal, G. (2013). Humedales construidos con plantas ornamentales para el tratamiento de materia orgánica y nutrientes contenidos en aguas servidas. \textit{Theoria, 22}(1), 33--46.
+
+ÖNORM. (2009). \textit{Bepflanzte bodenfilter (pflanzenkläranlagen) anwendung, bemessung, bau und betrieb} (ÖNORM B 2505). Austrian Standards Institute.
+
+Platzer, C. (1999). Design recommendations for subsurface flow constructed wetlands for nitrification and denitrification. \textit{Water Science and Technology}, 40(3), 257--263.
+
+Platzer, C., Hoffmann, H., \& Miglio, R. (2016). Long term experiences with dimensioning and operation of vertical flow constructed wetlands in warm climate regions of South America. En \textit{International Water Association (IWA)} (pp. 868--887). Gdansk, Polonia.
+
+Prat, N. (1998). \textit{Bioindicadores de calidad de las aguas: Memorias del curso de bioindicadores de calidad del agua}. Universidad de Antioquía.
+
+Rouse, J. W., Haas, R. H., Schell, J. A., \& Deering, D. W. (1974). Monitoring vegetation systems in the Great Plains with ERTS. \textit{NASA Special Publication, 351}(1), 309--317.
+
+Segui, W. T. (2017). \textit{Steel design} (6.ª ed.). Cengage Learning.
+
+Striebig, B., Ogundipe, A. A., Papadakis, M., \& Heine, L. G. (2022). \textit{Environmental engineering and sustainable design} (2.ª ed.). Cengage Learning.
+
+Superintendencia de Servicios Sanitarios [SISS]. (2010). \textit{Estudio tarifario aguas empresa de servicio sanitario}. Gobierno de Chile.
+
+Tchobanoglous, G., Burton, F. L., Stensel, H. D., \& Tsuchihashi, R. (2014). \textit{Wastewater engineering: Treatment and resource recovery} (5.ª ed.). McGraw-Hill Education.
+
+Tietz, A., Kirschner, A., Langergraber, G., Sleytr, K., \& Haberl, R. (2007). Characterisation of microbial biocoenosis in vertical subsurface flow constructed wetlands. \textit{Science of the Total Environment, 380}(1-3), 163--172. https://doi.org/10.1016/j.scitotenv.2006.11.034
+
+Torres, P., Cruz, C. H., \& Patiño, P. J. (2009). Índices de calidad de agua en fuentes superficiales utilizadas en la producción de agua para consumo humano: Una revisión crítica. \textit{Revista Ingenierías Universidad de Medellín, 8}(15), 79--94.
+
+Uribe Meneses, J., Cabrera, R., \& Paneque Corrales, M. (2012). \textit{Atlas bioclimático de Chile}. Universidad de Chile.
+
+Vera, I., Jorquera, C., López, D., \& Vidal, G. (2016). Humedales construidos
+
+\endgroup
+
+% --- INICIO DE ANEXOS ---
+\appendix
+\chapter{Anexos}
+
+% ---------------------------------------------------------
+\section{Cálculos detallados del humedal basado en las Aguas Residuales Domésticas (Casa + Oficina)}
+\label{anexo:calculos_humedal}
+
+\subsection*{1. Resumen de datos iniciales}
+Caudal de diseño: Casa, 600 L; Oficina, 150 L
+
+Concentración inicial:
+\begin{itemize}
+    \item DQO: Casa, $300\text{ mg/L}$; Oficina, $400\text{ mg/L}$
+    \item NTK: Casa, $1,5\text{ mg/L}$; Oficina, $1\text{ mg/L}$ (Nota: se asume el amonio como valor para NTK)
+\end{itemize}
+
+Entonces se calculan las cargas iniciales a tratar:
+Así, se calculan las cargas totales de ingreso al humedal de la siguiente forma:
+
+$DQO = ((600\text{ L} \cdot 300\text{ mg/L}) / 1000) + ((150\text{ L} \cdot 400\text{ mg/L}) / 1000) = 240\text{ gDQO/d}$
+
+$NTK = ((600\text{ L} \cdot 1,5\text{ mg/L}) / 1000) + ((150\text{ L} \cdot 1\text{ mg/L}) / 1000) = 1,05\text{ gNTK/d}$
+
+Considerando una eliminación de 25\% para DQO y sin eliminación para NTK por la fosa séptica, las cargas de diseño ingresando al humedal serían:
+\begin{itemize}
+    \item DQO: $180\text{ gDQO/d}$
+    \item NTK: $1,1\text{ gNTK/d}$
+\end{itemize}
+
+\subsection*{2. Cálculo del área necesaria}
+El método de diseño empleado para el humedal vertical se denomina Método del Balance de Oxígeno (Platzer, 1999), que se resume así:
+
+El aporte de oxígeno (OI) debe ser mayor que la demanda de oxígeno:
+\begin{equation*}
+OI\text{ [g/d]} - OD\text{ [g/d]} > 0
+\end{equation*}
+
+Donde:
+\begin{equation*}
+OD\text{ [g/d]} = OD_{DQO} + OD_{Nitrificaci\acute{o}n} + OD_{Desnitrificaci\acute{o}n}
+\end{equation*}
+\begin{equation*}
+OI\text{ [g/d]} = OI_{Difusi\acute{o}n} + OI_{Convecci\acute{o}n}
+\end{equation*}
+
+$OI$ = aporte total de oxígeno, g/d \\
+$OD$ = demanda total de oxígeno, g/d \\
+$OD_{DQO}$ = demanda de oxígeno debido a la descomposición de la materia orgánica, g/d \\
+$OD_{Nitrificaci\acute{o}n}$ = demanda de oxígeno debido a la nitrificación, g/d \\
+$OD_{Desnitrificaci\acute{o}n}$ = reducción de la demanda de oxígeno por efecto de desnitrificación parcial, g/d \\
+$OI_{Difusi\acute{o}n}$ = aporte de oxígeno debido de la difusión, g/d \\
+$OI_{Convecci\acute{o}n}$ = aporte de oxígeno debido a la convección, g/d
+
+Primero se calcula la demanda de oxígeno total. Inicialmente, se calcula para degradar la DQO.
+
+Consumo de Oxígeno por degradación de materia orgánica (DQO) (consideraciones):
+\begin{enumerate}
+    \item Se necesitan $0,7\text{ gO}_2$ para degradar 1 gDQO.
+    \item La eliminación promedio es del 85\%.
+\end{enumerate}
+
+Por tanto, la demanda de oxígeno para eliminar la DQO será:
+\begin{equation*}
+OD_{DQO} = 0,85 \times 0,7 \frac{\text{g O}_2}{\text{g DQO}} \times 180 \frac{\text{g DQO}}{\text{d}} = 107,1 \frac{\text{g O}_2}{\text{d}}
+\end{equation*}
+
+Luego, el consumo de oxígeno para nitrificar se hace de la siguiente forma:
+
+Consumo de Oxígeno por nitrificación (NTK) (consideraciones):
+\begin{enumerate}
+    \item Se necesitan $4,3\text{ gO}_2$ para degradar 1 gNTK.
+\end{enumerate}
+
+Por tanto, la demanda de oxígeno para eliminar la NTK será:
+\begin{equation*}
+OD_{Nitrificaci\acute{o}n} = 4,3 \frac{\text{g O}_2}{\text{g NTK}} \times 1,1 \frac{\text{g NTK}}{\text{d}} = 4,7 \frac{\text{g O}_2}{\text{d}}
+\end{equation*}
+
+Se desprecia el aporte por desnitrificación, ya que, al ser un humedal con alimentación por pulsos, es un sistema completamente aerobio. Así la demanda de oxígeno total será:
+\begin{equation*}
+107,1 \frac{\text{g O}_2}{\text{d}} + 4,7 \frac{\text{g O}_2}{\text{d}} = 111,8 \frac{\text{g O}_2}{\text{d}}
+\end{equation*}
+
+Ahora se calcula el aporte de oxígeno del sistema. Primero, se determina el aporte por convección, así:
+\begin{equation*}
+OI_{Convecci\acute{o}n} = 0,3 \left[\frac{\text{g O}_2}{\text{L}}\right] \times V_{cargado} \left[\frac{\text{m}^3}{\text{d}}\right] \times 1000 \left[\frac{\text{L}}{\text{m}^3}\right]
+\end{equation*}
+
+Donde: \\
+$OI_{Convecci\acute{o}n}$ = aporte de oxígeno por convección, g/d \\
+$V_{descargadas}$ = caudal de agua diario, $\text{m}^3/\text{d}$
+
+Consideraciones:
+\begin{enumerate}
+    \item El aporte por convección es proporcional a la carga hidráulica.
+    \item Supuesto que el aire contiene $300\text{ mgO}_2/\text{L}$ ($0,3\text{ gO}_2/\text{L}$).
+\end{enumerate}
+
+Por tanto:
+\begin{equation*}
+OI_{Convecci\acute{o}n} = 0,3 \left[\frac{\text{g O}_2}{\text{L}}\right] \times 0,75 \left[\frac{\text{m}^3}{\text{d}}\right] \times 1000 \left[\frac{\text{L}}{\text{m}^3}\right] = 225 \frac{\text{g O}_2}{\text{d}}
+\end{equation*}
+
+Luego, se determina el aporte de oxígeno por difusión de la siguiente forma:
+\begin{equation*}
+OI_{Difusi\acute{o}n} = 1 \left[\frac{\text{g O}_2}{\text{h} \cdot \text{m}^2}\right] \times A [\text{m}^2] \times \frac{24\text{ [h]} - 1,5\text{ [h]} \times n_{cargas}}{1\text{ [d]}}
+\end{equation*}
+
+Donde: \\
+$OI_{Difusi\acute{o}n}$ = aporte de oxígeno por efecto de la difusión, g/d \\
+$A$ = área superficial, $\text{m}^2$ \\
+$n_{cargas}$ = número de cargas diarias, adimensional
+
+Consideraciones:
+\begin{enumerate}
+    \item Aporte de oxígeno por difusión a razón de $1\text{ gO}_2/(\text{h} \cdot \text{m}^2)$.
+    \item Tiempo entre cargas debe ser superior a 1,5 h para que se produzca re-oxigenación.
+\end{enumerate}
+
+Aquí, por tanteo, se define un área y número de cargas, de tal forma que el aporte por difusión complete al aporte por convección y sea mayor a la demanda de oxígeno. Así, con un valor de área de $6\text{ m}^2$ y 6 cargas, se obtiene el oxígeno por difusión, así:
+\begin{equation*}
+OI_{Difusi\acute{o}n} = 1 \left[\frac{\text{g O}_2}{\text{h} \cdot \text{m}^2}\right] \times 6 [\text{m}^2] \times \frac{24\text{ [h]} - 1,5\text{ [h]} \times 6}{1\text{ [d]}} = 90 \frac{\text{g O}_2}{\text{d}}
+\end{equation*}
+
+Por tanto, el aporte total de oxígeno será:
+\begin{equation*}
+225 \frac{\text{g O}_2}{\text{d}} + 90 \frac{\text{g O}_2}{\text{d}} = 315 \frac{\text{g O}_2}{\text{d}}
+\end{equation*}
+
+Si recordamos el consumo de oxígeno determinado es inferior con un valor de $111,8 \frac{\text{g O}_2}{\text{d}}$. Así, el diseño es satisfactorio.
+
+\subsection*{3. Comprobaciones}
+Al hacer comprobaciones se tiene lo siguiente:
+\begin{enumerate}
+    \item Carga Hidráulica (mm/d) = Volumen ($\text{m}^3/\text{d}$) / Área ($\text{m}^2$) = ($0,75\text{ m}^3/\text{d}$) / $6\text{ m}^2$ = $0,125\text{ m/d}$ = $125\text{ mm/d}$
+    \item Carga Orgánica Superficial ($\text{gDQO}/(\text{m}^2 \cdot \text{d})$) = Carga DQO (g/d) / Área ($\text{m}^2$) = $180\text{ gDQO/d}$ / $6\text{ m}^2$ = $30\text{ gDQO/m}^2\cdot\text{d}$
+\end{enumerate}
+
+Se comprueba así que el diseño cumple con la necesidad de carga de $30\text{ gDQO/m}^2\cdot\text{d}$ y el valor de carga hidráulica es un valor conservador a lo reportado por la literatura (Brix y Arias, 2005; Dotro et al., 2017).
+
+% ---------------------------------------------------------
+\section{Itemizado del Proyecto}
+\label{anexo:Itemizado del proyecto}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{Itemizado-Estacion-Experimental-ATE250033_Rev1_page-0001.jpg}
+    \caption{Itemizado del proyecto pte 1.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Itemizado-Estacion-Experimental-ATE250033_Rev1_page-0002.jpg}
+    \caption{Itemizado del proyecto pte 2.}
+\end{figure}
+
+% ---------------------------------------------------------
+\section{Planimetría General y Emplazamiento}
+\label{anexo:planimetria_general}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{1.Planta general-EE-ATE250033.pdf}
+    \caption{Planta general y de emplazamiento.}
+\end{figure}
+
+% ---------------------------------------------------------
+\section{Planimetría de Recolección, Impulsión y Tratamiento}
+\label{anexo:planimetria_hidraulica}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\textwidth]{2.1 Recolecion e impulsion - Planta-EE-ATE250033.pdf}
+    \caption{Planta del sistema de recolección e impulsión.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\textwidth]{2.1 Recolecion e impulsion - Vistas laterales-EE-ATE250033.pdf}
+    \caption{Vistas laterales del sistema de recolección e impulsión.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\textwidth]{2.2 Humedales - Planta-EE-ATE250033.pdf}
+    \caption{Planta general de los humedales construidos.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\textwidth]{2.2 Humedales - Vista lateral-EE-ATE250033.pdf}
+    \caption{Vista lateral y corte de los humedales construidos.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\textwidth]{2.3 Riego-e-impulsion-EE-ATE250033.pdf}
+    \caption{Detalle del sistema de riego e impulsión.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\textwidth]{2.4 Recoleccion-Agroquimicos-EE-ATE250033.pdf}
+    \caption{Sistema de recolección de residuos agroquímicos.}
+\end{figure}
+
+% ---------------------------------------------------------
+\section{Planimetría de Detalles Estructurales}
+\label{anexo:planimetria_estructural}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\textwidth]{3.1.jpg}
+    \caption{Detalle estructural de la plataforma (Parte 1).}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\textwidth, height=0.75\textheight, keepaspectratio]{3.2.jpg}
+    \caption{Detalle estructural de la plataforma (Parte 2).}
+    \label{fig:detalle_plataforma_2}
+\end{figure}
+
+\end{document}

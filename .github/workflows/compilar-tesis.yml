@@ -1,0 +1,44 @@
+# Compila la tesis en cada push y deja el PDF descargable.
+# - Pestaña "Actions" → última ejecución → artefacto "tesis-pdf".
+# - Al subir una etiqueta v* (ej. v0.1-entrega-guia) crea una Release con el PDF.
+name: Compilar tesis
+
+on:
+  push:
+    branches: ["**"]
+    tags: ["v*"]
+    paths-ignore: ["**.md"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verificar-citas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Citas existen en referencias.bib
+        run: python3 herramientas/verificar_citas.py
+
+  compilar:
+    runs-on: ubuntu-latest
+    container: texlive/texlive:latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compilar con latexmk
+        working-directory: tesis
+        run: latexmk -r latexmkrc -pdf main.tex
+      - name: Renombrar PDF
+        run: cp salida/build/main.pdf salida/tesis.pdf
+      - name: Subir PDF como artefacto
+        uses: actions/upload-artifact@v4
+        with:
+          name: tesis-pdf
+          path: salida/tesis.pdf
+      - name: Publicar Release (solo en etiquetas v*)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: salida/tesis.pdf

@@ -1,0 +1,21 @@
+{
+  "latex-workshop.latex.recipes": [
+    { "name": "latexmk (tesis)", "tools": ["latexmk-tesis"] }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk-tesis",
+      "command": "latexmk",
+      "args": ["-r", "latexmkrc", "-pdf", "main.tex"],
+      "env": {},
+      "cwd": "%WORKSPACE_FOLDER%/tesis"
+    }
+  ],
+  "latex-workshop.latex.outDir": "%WORKSPACE_FOLDER%/salida/build",
+  "latex-workshop.latex.rootFile.doNotPrompt": true,
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "ltex.language": "es",
+  "ltex.additionalRules.motherTongue": "es",
+  "editor.wordWrap": "on",
+  "files.encoding": "utf8"
+}

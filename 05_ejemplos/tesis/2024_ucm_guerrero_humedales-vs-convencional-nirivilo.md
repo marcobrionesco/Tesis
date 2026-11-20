@@ -1,0 +1,3932 @@
+<!-- Texto extraído automáticamente de 2024_ucm_guerrero_humedales-vs-convencional-nirivilo.pdf (originales: Ejemplo_tesis_3-1.pdf + Ejemplo_tesis_3-2.pdf). Solo para lectura por IA; puede tener errores de extracción. NO copiar texto a la tesis. -->
+
+=== PÁG 1 del PDF ===
+UNIVERSIDAD CATÓLICA DEL MAULE
+FACULTAD DE CIENCIAS DE LA INGENIERÍA
+ESCUELA DE INGENIERÍA CIVIL
+“ANÁLISIS COMPARATIVO DE TECNOLOGÍA CONVENCIONAL Y BASADA EN
+LA NATURALEZA PARA EL TRATAMIENTO DE AGUAS SERVIDAS EN LA
+POBLACIÓN LOS NARANJOS, SECTOR NIRIVILO, COMUNA SAN JAVIER,
+REGIÓN DEL MAULE.”
+JERA A. GUERRERO MENDEZ
+PROFESOR GUÍA: DR. ISMAEL L. VERA PUERTO
+TALCA, JUNIO 2024
+
+
+=== PÁG 2 del PDF ===
+UNIVERSIDAD CATÓLICA DEL MAULE
+FACULTAD DE CIENCIAS DE LA INGENIERÍA
+ESCUELA DE INGENIERÍA CIVIL
+Proyecto de Título presentado en conformidad a los requisitos para obtener el título de
+Ingeniero Civil
+“Análisis comparativo de tecnología convencional y basada en la naturaleza para el
+tratamiento de aguas servidas en la población Los Naranjos, sector Nirivilo, comuna de
+San Javier, Región del Maule.”
+Jera A. Guerrero Mendez
+Dr. Ismael L. Vera Puerto
+COMISIÓN EXAMINADORA
+Dr. Ismael Vera Puerto
+Marco Quiroz Valeria
+Dr. Mariela Valenzuela Hube
+NOTA FINAL EXAMEN DE TÍTULO
+FIRMA
+PROFESOR DE COMISIÓN INTERNA
+PROFESOR DE COMISIÓN INTERNA
+PROFESOR DE COMISIÓN INTERNA
+TALCA, JUNIO 2024
+
+
+=== PÁG 3 del PDF ===
+I
+Resumen
+El agua residual, resultado de diversas actividades humanas y procesos naturales, presenta
+una composición variada y compleja que requiere un enfoque integral y multidisciplinario para
+su adecuado manejo. Es crucial entender los diferentes tipos de agua residual, sus fuentes de
+generación y los contaminantes presentes en ella.
+El principal objetivo de este proyecto se basa en la formulación de un sistema de tratamiento
+para las aguas servidas generadas por la población Los Naranjos, Nirivilo. Para ello, se genera
+una propuesta basada en la confección de dos sistemas; uno convencional y otro basado en la
+naturaleza. Por tanto, este trabajo busca evaluar opciones para receptar las aguas domésticas
+rurales para luego mejorar su calidad, con la finalidad de comparar económicamente el sistema
+convencional, representado por lodos activados con aireación extendida, y una solución basada
+en la naturaleza, representada por humedal construido vertical.
+Para lograr el objetivo propuesto, este trabajo consta de un capítulo de contextualización,
+donde se describe de manera completa la situación actual de la población Los Naranjos, Nirivi-
+lo, en lo que respecta a aguas servidas. Una vez ya concretados los datos iniciales de las aguas
+que se desean a tratar y las proyecciones de los caudales de aguas servidas para los próximos
+años, se realiza una revisión de información evaluando diversas alternativas dentro de los siste-
+mas convencionales y procesos basados en la naturaleza, concluyendo que para una población
+de 432 personas, la solución más viable es un sistema de lodos activados con aireación extendida
+y un humedal vertical, respectivamente. Luego, se diseña en base a la eliminación de contami-
+nantes con el fin de lograr un efluente clarificado con niveles por debajo de lo establecido por la
+normativa chilena. El objeto es encontrar la que presente menor valor de costos.
+Al analizar los resultados de ambos diseños se revelaron diferencias tanto en espacio co-
+mo en costos asociados a la construcción de estos sistemas, con costos asociados al terreno y
+
+
+=== PÁG 4 del PDF ===
+cerramiento más elevados para el humedal vertical debido a la mayor área requerida.
+Después de comparar las dos alternativas elegidas, se concluyó que la planta de lodo activado
+con aireación extendida tiene un 8 % de inversión más baja que el humedal vertical. Ambos
+sistemas comparten costos comunes, como cerramiento, construcción de la caseta y cloración.
+Las diferencias en costos se reflejan en las tecnologías y enfoques utilizados para cada sistema. Se
+resalta la importancia de evaluar no solo los costos iniciales, sino también los beneficios a largo
+plazo y la sostenibilidad. Se destaca que, aunque el sistema convencional podría ser más eficiente
+en espacio, el basado en la naturaleza busca capitalizar procesos naturales para el tratamiento de
+aguas residuales. Esta estrategia se inspira en la capacidad inherente de los ecosistemas naturales
+para purificar y filtrar el agua, haciendo uso de la biodiversidad, la microbiología y los ciclos
+naturales para eliminar contaminantes y restaurar la calidad del agua.
+
+
+=== PÁG 5 del PDF ===
+III
+Abstract
+Wastewater, resulting from various human activities and natural processes, exhibits a varied
+and complex composition that requires a comprehensive and multidisciplinary approach for pro-
+per management. It is crucial to understand the different types of wastewater, their sources of
+generation, and the contaminants present in it.
+The main objective of this project is based on formulating a treatment system for the sewage
+generated by the Los Naranjos population, Nirivilo. To achieve this, a proposal is made based
+on the creation of two systems; one conventional and the other nature-based. Therefore, this
+work seeks to evaluate options for receiving rural domestic wastewater to then improve its qua-
+lity, aiming to economically compare the conventional system, represented by extended aeration
+activated sludge, and a nature-based solution, represented by vertical constructed wetlands.
+To achieve the proposed objective, this work consists of a contextualization chapter, where
+the current situation of the Los Naranjos population, Nirivilo, regarding sewage is fully descri-
+bed. Once the initial data of the wastewater to be treated and the projections of wastewater flows
+for the coming years are established, a review of information is carried out, evaluating various
+alternatives within conventional systems and nature-based processes, concluding that for a popu-
+lation of 432 people, the most viable solution is an extended aeration activated sludge system and
+a vertical wetland, respectively. Then, based on the removal of contaminants in order to achieve
+an effluent clarified with levels below those established by Chilean regulations, the design is
+made with the objective of finding the one with the lowest cost.
+Upon analyzing the results of both designs, differences were revealed in both space and
+costs associated with the construction of these systems, with higher land and fencing costs for
+the vertical wetland due to the larger area required.
+After comparing the two chosen alternatives, it was concluded that the extended aeration
+
+
+=== PÁG 6 del PDF ===
+activated sludge plant has an 8 % lower investment than the vertical wetland. Both systems share
+common costs, such as fencing, construction of the booth, and chlorination. Cost differences are
+reflected in the technologies and approaches used for each system. The importance of evaluating
+not only initial costs but also long-term benefits and sustainability is emphasized. It is highlighted
+that, although the conventional system may be more space-efficient, the nature-based one seeks to
+capitalize on natural processes for wastewater treatment. This strategy is inspired by the inherent
+ability of natural ecosystems to purify and filter water, utilizing biodiversity, microbiology, and
+natural cycles to remove contaminants and restore water quality.
+
+
+=== PÁG 7 del PDF ===
+V
+Agradecimientos
+En el culminante momento de presentar esta tesis de grado, me gustaría expresar mi más sin-
+cero agradecimiento a Dios, quien nunca me ha abandonado, y a todas las personas que hicieron
+posible llegar a esta etapa de mi vida.
+En primer lugar, agradezco a mi familia por su inquebrantable apoyo, paciencia y compren-
+sión durante esta travesía académica. Especialmente a mi madre Margarita y mi pequeña hija
+Paz, quienes han vivido conmigo todo el esfuerzo que conlleva este mérito. Mis abuelos Marta
+y Luis, quienes siempre han estado presentes en todas las etapas de mi vida. Sin el respaldo de
+ellos, este logro no habría sido posible.
+Deseo agradecer al Dr. Ismael Vera por su orientación y apoyo constante a lo largo de este
+proceso. Gracias por las oportunidades y experiencias que pude adquirir en el área de tratamientos
+basados en la naturaleza. Haber trabajado como su asistente de investigación me ayudó a aprender
+de manera didáctica y dinámica las implicancias de la investigación.
+A mis amigos y compañeros de estudio Gonzalo y Felipe, les agradezco las conversaciones,
+compañía y la colaboración a lo largo de los años de carrera. Gracias a ellos mis primeros años
+de carrera fueron fructíferos.
+Profesor Marcos Quiroz, gracias por su apoyo y ayuda en relación al formato en LaTeX de
+esta tesis. Le agradezco que siempre respondió a mis dudas al respecto.
+También mencionar a mis amigas Nerea e Isabel, con las cuales tuve la oportunidad de com-
+partir experiencias e información. Su apoyo constante en este proceso fue esencial para mí.
+Este logro es el resultado del esfuerzo y el apoyo de muchas personas. Estoy profundamente
+agradecida por todas las instancias que tuve para compartir con cada una de las personas a lo
+largo de mis estudios de grado y mi vida.
+Gracias a todos.
+
+
+=== PÁG 8 del PDF ===
+VI
+Índice general
+Pág.
+Resumen
+I
+Agradecimientos
+V
+Índice de figuras
+X
+Índice de tablas
+XII
+1. Introducción
+1
+1.1. Descripción del problema . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1
+1.1.1.
+Antecedentes del proyecto . . . . . . . . . . . . . . . . . . . . . . . .
+2
+1.1.2.
+Productos esperados - beneficiarios
+. . . . . . . . . . . . . . . . . . .
+4
+1.1.3.
+Área de desarrollo - línea de investigación . . . . . . . . . . . . . . . .
+4
+1.1.4.
+Objetivos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+1.1.4.1.
+Objetivo General
+. . . . . . . . . . . . . . . . . . . . . . .
+5
+1.1.4.2.
+Objetivos específicos
+. . . . . . . . . . . . . . . . . . . . .
+5
+2. Marco Teórico
+6
+2.1. Agua residual . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+2.1.1.
+Contaminantes relevantes en el tratamiento de aguas residuales . . . . .
+7
+2.1.2.
+Parámetros de calidad de agua residual
+. . . . . . . . . . . . . . . . .
+8
+2.2. Sistemas de tratamiento de aguas residuales . . . . . . . . . . . . . . . . . . .
+11
+2.2.1.
+Pretratamiento
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+
+
+=== PÁG 9 del PDF ===
+2.2.2.
+Tratamiento primario . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+2.2.3.
+Tratamiento secundario . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+2.2.4.
+Tratamiento terciario . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+2.3. Sistema de tratamiento convencional . . . . . . . . . . . . . . . . . . . . . . .
+13
+2.3.1.
+Lodos activados con aireación extendida
+. . . . . . . . . . . . . . . .
+13
+2.4. Sistema de tratamiento basado en la naturaleza [SBN] . . . . . . . . . . . . . .
+16
+2.4.1.
+Humedal de flujo superficial . . . . . . . . . . . . . . . . . . . . . . .
+17
+2.4.2.
+Humedal de flujo subsuperficial . . . . . . . . . . . . . . . . . . . . .
+18
+2.4.3.
+Eficiencia en los humedales
+. . . . . . . . . . . . . . . . . . . . . . .
+22
+3. Metodología
+24
+3.1. Sistema de tratamiento convencional (Objetivo específico 1)
+. . . . . . . . . .
+25
+3.1.1.
+Diseño del reactor
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+3.1.2.
+Edad de los lodos en sistemas de lodos activados . . . . . . . . . . . .
+27
+3.1.3.
+Concentración de sólidos suspendidos en el reactor . . . . . . . . . . .
+27
+3.1.4.
+Cálculo del volumen del reactor . . . . . . . . . . . . . . . . . . . . .
+29
+3.1.5.
+Eliminación de sustrato . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+3.1.6.
+DBO total en el efluente y DBO soluble . . . . . . . . . . . . . . . . .
+29
+3.1.7.
+Digestión de lodos en el reactor
+. . . . . . . . . . . . . . . . . . . . .
+30
+3.1.8.
+Recirculación de lodos activados . . . . . . . . . . . . . . . . . . . . .
+31
+3.1.9.
+Producción y eliminación de exceso de lodos . . . . . . . . . . . . . .
+32
+3.1.10. Requerimiento de oxígeno . . . . . . . . . . . . . . . . . . . . . . . .
+32
+3.1.11. Diseño de tanque de sedimentación para lodos activados. . . . . . . . .
+36
+3.1.12. Desinfección . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+3.1.13. Cálculo hidráulico tuberías (recirculación y secado de lodos).
+. . . . .
+38
+3.2. Sistema basado en la naturaleza (Objetivo específico 2) . . . . . . . . . . . . .
+40
+3.2.1.
+Diseño del sedimentador primario (tanque séptico de 3 cámaras). . . .
+44
+3.3. Evaluación y comparación de costos (Objetivo específico 3)
+. . . . . . . . . .
+46
+3.3.1.
+Presupuesto del sistema sanitario convencional . . . . . . . . . . . . .
+47
+3.3.2.
+Presupuesto del sistema sanitario basado en la naturaleza.
+. . . . . . .
+48
+
+
+=== PÁG 10 del PDF ===
+3.3.3.
+Comparación de presupuestos. . . . . . . . . . . . . . . . . . . . . . .
+49
+4. Análisis y Resultados
+50
+4.1. Resultado diseño de sistema de tratamiento convencional (objetivo específico 1)
+50
+4.1.1.
+Resumen de diseño lodos activados aireación extendida
+. . . . . . . .
+50
+4.2. Resultado de diseño de sistema basado en naturaleza (objetivo específico 2) . .
+59
+4.2.1.
+Resumen de diseño humedal vertical . . . . . . . . . . . . . . . . . . .
+59
+4.3. Evaluación y comparación de costos (objetivo específico 3) . . . . . . . . . . .
+71
+4.3.1.
+Presupuesto del sistema sanitario convencional . . . . . . . . . . . . .
+71
+4.3.2.
+Presupuesto del sistema sanitario basado en la naturaleza . . . . . . . .
+72
+4.3.3.
+Comparación de presupuestos . . . . . . . . . . . . . . . . . . . . . .
+73
+5. Conclusiones
+77
+5.1. Conclusión
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+77
+Bibliografía
+78
+Anexos
+82
+
+
+=== PÁG 11 del PDF ===
+IX
+Índice de figuras
+Pág.
+1.1. Población los Naranjos, Nirivilo, San Javier, Región del Maule. Elaboración propia.
+2
+2.1. Diagrama de flujo típico de un sistema de aireación extendida de lodos activados.
+(Von Sperling, 2007a) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+2.2. Clasificación de humedales para tratamiento. Esquema obtenido de Kadlec and
+Wallace (2008a) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+2.3. Esquema general de humedal de superficie libre, obtenido de Dotro et al. (2021)
+17
+2.4. Esquema de humedales flujo horizontal: superior: tratamiento secundario, infe-
+rior: tratamiento terciario. (Dotro et al., 2021). . . . . . . . . . . . . . . . . . .
+18
+2.5. Esquema de un humedal construido vertical típico, obtenido de Dotro et al. (2021) 20
+3.1. Esquema del sistema a diseñar entre reactor y el sedimentador. Obtenida de
+Von Sperling (2007a) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+4.1. Diagrama planta del reactor, elaboración propia.
+. . . . . . . . . . . . . . . .
+52
+4.2. Diagrama elevación del reactor, elaboración propia. . . . . . . . . . . . . . . .
+53
+4.3. Diagrama planta del sedimentador, elaboración propia. . . . . . . . . . . . . .
+56
+4.4. Diagrama elevación del sedimentador, elaboración propia.
+. . . . . . . . . . .
+57
+4.5. Diagrama en planta de sistema de cloración, elaboración propia. . . . . . . . .
+58
+4.6. Diagrama en planta de sistema secado de lodos. Elaboración propia. . . . . . .
+58
+4.7. Planta sistema de tratamiento convencional, lodos activados modalidad aireación
+extendida, elaboración propia.
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+59
+4.8. Diagrama de planta del tanque séptico. Elaboración propia. . . . . . . . . . . .
+61
+
+
+=== PÁG 12 del PDF ===
+4.9. Diagrama del Corte 1 realizado al tanque séptico. Elaboración propia. . . . . .
+61
+4.10. Diagrama del corte A, sistema de distribución de aguas en humedal construido,
+elaboración propia. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+64
+4.11. Diagrama corte con gravas y arenas a utilizar, humedal construido, elaboración
+propia. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+64
+4.12. Diagrama de humedal dispoción de Juncus effusus (Totora), elaboración propia.
+65
+4.13. Aspecto general, raíz y tallo con inflorescencias de la especie Juncus effusus,
+obtenido de Vicuña (2020). . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+66
+4.14. Diagrama del corte 2, sistema de distribución de aguas en humedal construido.
+Elaboración propia. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+67
+4.15. Diagrama corte C imagen ampliada. Elaboración propia.
+. . . . . . . . . . . .
+67
+4.16. Diagrama planta humedal sección bomba impulsión y cámara separadora de
+efluente, elaboración propia. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+68
+4.17. Diagrama elevación humedal sección bomba impulsión y cámara separadora de
+efluente, elaboración propia. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+69
+4.18. Planta sistema basado en la naturaleza, humedal construido, elaboración propia.
+70
+5.1. Resumen de presupuesto por item de construcción. Elaboración propia.
+. . . .
+102
+5.2. Cálculo de impulsión de retorno de lodos a reactor. Elaboración propia.
+. . . .
+103
+5.3. Resultados diseño bomba impulsión. Elaboración propia. . . . . . . . . . . . .
+104
+5.4. Resumen de presupuesto por item de construcción. Elaboración propia.
+. . . .
+113
+5.5. Cálculo de impulsión de retorno a tanque séptico, humedal. Elaboración propia.
+114
+5.6. Resultados diseño bomba impulsión,Elaboración propia.
+. . . . . . . . . . . .
+115
+
+
+=== PÁG 13 del PDF ===
+XI
+Índice de tablas
+Pág.
+1.1. Demanda de aguas servidas, datos de diseño. Elaboración propia. . . . . . . . .
+3
+1.2. Extracto de límites máximos permitidos para la descarga de residuos líquidos a
+cuerpos de agua fluviales, sin capacidad de dilución. Fuente, extraído de BCN
+(2000). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+2.1. Concentraciones típicas encontradas en aguas servidas. Obtenido de Vera et al.
+(2016). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2.2. Eficiencia de remoción de los sistemas de lodos activados utilizados para el tra-
+tamiento de aguas residuales domésticas, datos extraidos de Von Sperling (2007a). 15
+2.3. Principales mecanismos para la eliminación de contaminantes y patógenos en
+humedales para tratamiento. obtenido de Dotro et al. (2021). . . . . . . . . . .
+22
+2.4. Eficiencia de eliminación típicas de los principales humedales de tipo subsuper-
+ficial, obtenido de Dotro et al. (2021) . . . . . . . . . . . . . . . . . . . . . . .
+23
+3.1. Consideraciones de diseño, elaboración propia.
+. . . . . . . . . . . . . . . . .
+25
+3.2. Caracteristicas generales de las aguas residuales para el diseño. Datos obtenidos
+de Vera et al. (2016) y BCN (2000) . . . . . . . . . . . . . . . . . . . . . . . .
+25
+3.3. Carga de contaminante a caudal medio, elaboración propia. . . . . . . . . . . .
+26
+3.4. Demanda
+de
+oxígeno
+carbonacea
+por
+unidad
+de
+DBO5
+removida
+(kgO2/kgDBO5rem), en aguas residuales domesticas, para diferentes valo-
+res de Y and Kd. Obtenido de Von Sperling (2007a) . . . . . . . . . . . . . . .
+34
+
+
+=== PÁG 14 del PDF ===
+3.5. Valores de los coeficientes v0, K, m y n, para cada rango de asentamiento, obte-
+nido de Von Sperling (2007a).
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+3.6. Principales parámetros de diseño de humedales de FV que tratan aguas domes-
+ticas, obtenido de Dotro et al. (2021) . . . . . . . . . . . . . . . . . . . . . . .
+41
+4.1. Caracteristicas del afluente para sistema convencional, elaboración propia. . . .
+51
+4.2. Resumen de caracteristicas, medidas y valores de diseño en el reactor biológico
+aireación extendida, elaboración propia. . . . . . . . . . . . . . . . . . . . . .
+54
+4.3. Tanque sedimentador secundario circular, elaboración propia. . . . . . . . . . .
+55
+4.4. Resultados de diseño clorador a caudal medio, elaboración propia. . . . . . . .
+57
+4.5. Caracteristicas del afluente para sistema basado en la naturaleza, elaboración
+propia. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+60
+4.6. Tanque séptico de tres cámaras . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+4.7. Consideraciones de diseño humedal vertical. . . . . . . . . . . . . . . . . . . .
+62
+4.8. Resultados diseño humedal vertical . . . . . . . . . . . . . . . . . . . . . . . .
+63
+4.9. Costos sistema convencional: terreno y cierre, elaboración propia. . . . . . . .
+71
+4.10. Costos sistema convencional: obras civiles, elaboración propia. . . . . . . . . .
+72
+4.11. Costos sistema basado en la naturaleza: terreno y cierre, elaboración propia. . .
+72
+4.12. Costos sistema basado en la naturaleza: obras civiles, elaboración propia.
+. . .
+73
+4.13. Tabla comparativa de costos en lodos activados aireación extendida y humedal
+construido vertical, elaboración propia. . . . . . . . . . . . . . . . . . . . . . .
+74
+
+
+=== PÁG 15 del PDF ===
+1
+Capítulo 1
+Introducción
+1.1.
+Descripción del problema
+Es una realidad que Chile ya cuenta con una cobertura del 100 % de tratamiento de aguas
+servidas en zonas urbanas y solo el 10 % en zonas rurales (Vera-Puerto et al., 2022). En el hito
+de práctica profesional realizado en la Ilustre Municipalidad de San Javier, se solicitó un ante-
+proyecto evaluando una solución de diseño de alcantarillado, planta elevadora y una ubicación
+tentativa de una planta convencional que diera tratamiento a las aguas residuales a la población
+de Los Naranjos, Nirivilo, Comuna de San Javier. El lugar se planteó pensando como solución
+tentativa utilizar un proceso de lodos activados.
+En la actualidad existen soluciones sanitarias convencionales y soluciones basadas en la na-
+turaleza, cada uno con sus propios sistemas y complejidades. En el marco de este proyecto de
+título se propone analizar comparativamente dos de ellos: el proceso convencional de lodos acti-
+vados modalidad aireación extendida y la solución basada en la naturaleza, humedal construido
+del tipo vertical.
+Con el objetivo de comparar los sistemas planteados en términos de costos asociados y el
+espacio, se emplea un diseño para ambas soluciones. En situaciones donde la alta calidad del
+efluente es necesario y la disponibilidad de espacio es limitada (Arias and Brix, 2003), el proceso
+de lodos activados es ampliamente utilizado para el tratamiento de aguas servidas. Mientras que,
+como solución alternativa basada en la naturaleza se propone diseñar un Humedal Construido
+Vertical (HCV).
+
+
+=== PÁG 16 del PDF ===
+2
+1.1.1.
+Antecedentes del proyecto
+La localidad se encuentra en el sector llamado Nirivilo, pertenece a la Comuna de San Ja-
+vier, Provincia de Linares, Región del Maule. Está ubicada a lo largo de la ruta L-30-M. Las
+coordenadas geográficas de la localidad de Los Naranjos, Nirivilo son UTM84 18S 61852.10E
+y 61692.10N como se observa en la Figura 1.1.
+Figura 1.1: Población los Naranjos, Nirivilo, San Javier, Región del Maule. Elaboración propia.
+Las viviendas proyectadas en el año 2046 ascienden a 144 con una densidad poblacional de
+3 habitantes por vivienda. Esta cifra se obtiene al establecer una tasa de crecimiento de un 2 %
+anual, en función a los datos obtenidos del Instituto Nacional de Estadísticas (INE). Se emplea
+la formula:
+Pn = P0 ∗(1 + t)n
+(1.1)
+Donde Pn es la proyección de la población al año n, P0 es la población inicial en el año cero, n
+es el periodo de previsión en años y t es la tasa de crecimiento anual.
+Los antecedentes que preceden este informe existen gracias a lo trabajado en la práctica. La
+red de alcantarillado y planta elevadora ya se encuentran diseñados según establece la Nch 1105
+of 2019 y Nch 2472 of 2000, respectivamente. Se trabajará teniendo en cuenta los siguientes
+datos de diseño presentados en la Tabla 1.1.
+
+
+=== PÁG 17 del PDF ===
+3
+Tabla 1.1: Demanda de aguas servidas, datos de diseño. Elaboración propia.
+Demanda de aguas servida
+Los Naranjos, Nirivilo, Comuna de San Javier
+Densidad poblacional
+3
+hab/viv
+Tasa de crecimiento anual de la población
+2
+%
+N° viviendas proyectadas
+144
+Und
+Población
+432
+hab
+Dotación viviendas
+150
+lt/hab*d
+Coef. de recuperación
+0,8
+Coef. de infiltración
+0,15
+Caudal máximo (Qmax)
+2,71
+l/s
+Caudal medio (Qmed
+0,68
+l/s
+Caudal mínimo (Qmin
+0,338
+l/s
+El sistema de red de alcantarillado se diseñó según lo solicitado, buscando que las aguas
+lleguen por gravedad hasta el sector de tratamiento. Aunque, por la topografía del lugar, estos
+residuos no llegan directo a la planta de tratamiento de aguas servidas. Es por aquello que, para
+una diferencia de altura geométrica de 10 metros se implementa una Planta Elevadora de Aguas
+Servidas [PEAS]. Esta PEAS cumple la función de recepcionar la totalidad de las aguas residua-
+les producidas por la población y elevarlas hasta la cota del lugar de tratamiento. El recinto de la
+Planta Elevadora consta de un pretratamiento de las aguas antes de ingresar al pozo húmedo. El
+afluente pasa por el proceso de desbaste y un desarenador para luego ser elevada desde el sitio
+de la PEAS hasta el sector de tratamiento. Es en este lugar donde se dispondrá de una solución.
+El lugar seleccionado para el tratamiento se ubica a las orillas del río Nirivilo (Figura 1.1),
+que actuará como destinatario de los residuos líquidos descargados. Este cuerpo fluvial es un
+receptor superficial continental, por lo que la calidad del agua descargada debe cumplir con
+el Decreto Supremo D.S N°90 (BCN, 2000) Tabla N°1 Limites máximos permitidos para la
+descarga de residuos líquidos a cuerpos de agua fluviales sin capacidad de dilución (Tabla 1.2).
+En este proyecto, solo se utiliza un extracto de la totalidad de parámetros que existen.
+
+
+=== PÁG 18 del PDF ===
+4
+Tabla 1.2: Extracto de límites máximos permitidos para la descarga de residuos líquidos a cuerpos
+de agua fluviales, sin capacidad de dilución. Fuente, extraído de BCN (2000).
+Contaminante
+Unidad
+Límite máximo permitido
+pH
+Und
+6,5-8,5
+Demanda biológica de oxígeno a los cinco días (DBO5)
+mg/l
+35
+Sólidos suspendidos totales (SST)
+mg/l
+80
+Nitrógeno total Kjeldahl(NTk)
+mg/l
+50
+Fósfato (PT)
+mg/l
+10
+Coliformes fecales (CF)
+NMP/100ml
+1000
+1.1.2.
+Productos esperados - beneficiarios
+Dentro de lo esperado, la contribución que esta tesis busca es difundir la evaluación y com-
+paración de uno de los métodos más utilizados en sectores rurales para el tratamiento de aguas
+servidas en Chile, que es una planta de tratamiento de lodos activados modalidad aireación ex-
+tendida. En contraste, el humedal construido es un método alternativo que no se implementa en
+sectores rurales a nivel condominal y el cual podría traer grandes beneficios en el futuro como
+solución de tratamiento sanitario sostenible.
+Los resultados de este proyecto se espera que sea un aporte como una base comparativa entre
+ambas soluciones sanitarias, entregando metodologías actualizadas de cálculo y detalles de los
+diseños implementados.
+1.1.3.
+Área de desarrollo - línea de investigación
+Este proyecto se desarrolla en el área de la ingeniería sanitaria el cual busca receptar las aguas
+domésticas y rurales para luego mejorar su calidad. En este caso, analizar comparativamente el
+Sistema de Lodos Activados con Aireación Extendida y el Humedal Construido Vertical.
+La línea de investigación asociada es establecida por el Decreto de Rectoría N°57/2018 de
+la Universidad Católica del Maule. La cual es determinada por la Vicerrectoría de Investigación
+y Postgrado [VRIP]. Este documento ordena cómo temática emergente a todo lo relacionado con
+medio ambiente y recursos hídricos.
+
+
+=== PÁG 19 del PDF ===
+5
+1.1.4.
+Objetivos
+A continuación, se señala el objetivo general del estudio, y los objetivos específicos a desa-
+rrollar.
+1.1.4.1.
+Objetivo General
+Analizar comparativamente un sistema de tratamiento de aguas residuales convencional y
+uno basado en la naturaleza para el sector Los Naranjos, comuna de San Javier.
+1.1.4.2.
+Objetivos específicos
+1) Definir un sistema convencional para el tratamiento de aguas residuales.
+2) Diseñar un humedal construido vertical para el tratamiento de aguas residuales.
+3) Evaluar y comparar los costos asociados del sistema convencional y sistema basado en la
+naturaleza.
+
+
+=== PÁG 20 del PDF ===
+6
+Capítulo 2
+Marco Teórico
+Las fuentes de agua superficial son eje de desarrollo de los seres humanos que permiten
+el abastecimiento para las diferentes actividades socioeconómicas llevadas a cabo en los asen-
+tamientos poblacionales; no obstante, de forma paradójica muchas de estas actividades causan
+alteración y deterioro de las mismas (Torres et al., 2009). La valoración de la calidad del agua
+puede ser entendida como la evaluación de su naturaleza química, física y biológica en relación
+con la calidad natural, los efectos humanos y usos posibles (Prat, 1998).
+2.1.
+Agua residual
+El agua es un recurso invaluable que desempeña un papel fundamental en la supervivencia
+de la vida en nuestro planeta. Desde la satisfacción de nuestras necesidades básicas, como beber
+y cocinar, hasta el apoyo a actividades económicas vitales como la agricultura, la industria y la
+generación de energía, el agua es esencial en todos los aspectos de nuestra vida diaria. La gran
+cantidad de recursos que necesita la población actual en el mundo es un factor de importancia.
+Sobre todo, si se evoca en el consumo de recursos hídricos. Al dar algún uso a el agua, se convierte
+en agua residual. Esta ha sido utilizada y contiene contaminantes o impurezas como resultado
+de dichos usos. Estas aguas pueden contener desechos orgánicos, químicos y biológicos, así
+como también nutrientes y otros contaminantes según el Instituto Nacional de Normalización
+(2002). Gran parte de las enfermedades diarreicas están frecuentemente ligadas al consumo de
+agua contaminada (Hutton et al., 2004). Las enfermedades infecciosas son la principal causa de
+
+
+=== PÁG 21 del PDF ===
+7
+muerte en niños y adultos jóvenes (Batterman et al., 2009).
+2.1.1.
+Contaminantes relevantes en el tratamiento de aguas residuales
+Las normativas aplicadas a los procesos secundarios se enfocan en la eliminación de materia
+orgánica, sólidos en suspensión y patógenos. Las normativas más recientes son más exigentes e
+incluyen el control de nutrientes y contaminantes prioritarios.
+Los siguientes términos están definidos según lo planteado en el libro de Ingeniería de Aguas
+Residuales de Burton et al. (2013).
+Sólidos en suspensión: hace referencia a pequeñas partículas sólidas que permanecen en
+suspensión en agua como coloide o debido al movimiento del agua. Tienen relevancia, ya
+que los contaminantes y patógenos se transportan en la superficie de las partículas. Los
+sólidos en suspensión se pueden eliminar por sedimentación debido a su tamaño com-
+parativamente grande. Además, pueden dar lugar al desarrollo de depósitos de lodos y
+condiciones anaerobias cuando se vierte agua residual sin tratar al entorno acuático.
+Materia Orgánica Biodegradable: compuesta principalmente por proteínas, carbohidra-
+tos y grasas animales, la materia orgánica biodegradable se mide, en la mayoría de las
+ocasiones, en función de la DBO (demanda bioquímica de oxígeno) y de la DQO (deman-
+da química de oxígeno). Si se descargan al entorno sin tratar, su estabilización biológica
+puede llevar al agotamiento de los recursos naturales de oxígeno y al desarrollo de condi-
+ciones sépticas.
+Patógenos: son organismos infecciosos capaces de causar enfermedades en el organis-
+mo que los alberga. estos están presentes en las aguas residuales que derivan de desechos
+humanos infectados o portadores de ciertas enfermedades. Las principales categorías de
+organismos patógenos en aguas residuales incluyen bacterias, virus, protozoos y helmin-
+tos. Las bacterias patógenas excretadas por humanos pueden provocar enfermedades del
+tracto intestinal como fiebre tifoidea, paratifoidea, disentería, diarrea y cólera.
+Nutrientes: tanto el nitrógeno como el fósforo, junto con el carbono, son nutrientes esen-
+ciales para el crecimiento. Cuando se vierten al entorno acuático, estos nutrientes pueden
+
+
+=== PÁG 22 del PDF ===
+8
+favorecer el crecimiento de una vida acuática no deseada. Cuando se vierten al terreno en
+cantidades excesivas, también pueden provocar la contaminación del agua subterránea.
+2.1.2.
+Parámetros de calidad de agua residual
+Las aguas residuales se caracterizan por su composición física, química y biológica. A con-
+tinuación, se presentan las principales propiedades físicas del agua residual, así como también
+sus principales constituyentes químicos y biológicos. Es importante destacar que muchos de los
+parámetros están interrelacionados; una propiedad física como la temperatura influye tanto en
+la actividad biológica como en la cantidad de gases disueltos en el agua residual (Burton et al.,
+2013).
+En Chile, esta agua residual ya se encuentra caracterizada en la literatura, existen diferentes
+contaminantes y rangos asociados. Algunos de los valores más comunes se pueden observar en
+la Tabla 2.1 encontradas en Vera et al. (2016).
+Tabla 2.1: Concentraciones típicas encontradas en aguas servidas. Obtenido de Vera et al. (2016).
+Parámetro
+Unidad
+Rango
+pH
+Und
+6,5-8,5
+Demanda química de oxígeno (DQO)
+mg/l
+250-1600
+Demanda biológica de oxígeno a los cinco días (DBO5)
+mg/l
+110-800
+Sólidos suspendidos totales (SST)
+mg/l
+120-450
+Nitrógeno total (NT)
+mg/l
+20-120
+Amonio (NH+
+4 )
+mg/l
+12-100
+Fósforo total (PT)
+mg/l
+2-23
+Fosfato (PO−3
+4 )
+mg/l
+3-15
+Coliformes fecales (CF)
+NMP/100ml
+1x103 −2x106
+Los siguientes terminos están definidos según Burton et al. (2013).
+a) Parámetros orgánicos
+• Demanda bioquímica de oxígeno a los 5 días (DBO5): el parámetro de contami-
+nación orgánica más ampliamente aplicable tanto a aguas residuales como a aguas
+superficiales, es la DBO a 5 días (DB05). La determinacion del mismo esta relacio-
+
+
+=== PÁG 23 del PDF ===
+9
+nada con la medición del oxígeno disuelto que consumen los microorganismos en el
+proceso de oxidación bioquímica de la materia orgánica.
+• Demanda química de oxígeno (DQO): se emplea para medir el contenido de materia
+orgánica tanto de las aguas naturales como de las residuales. Debido al mayor número
+de compuestos cuya oxidación tiene a lugar por vía química frente a los que se oxidan
+por vía biológica, la DQO de un agua residual suele ser mayor que la correspondiente
+DBO.
+b) Nutrientes
+• Nitrógeno total (NT): el contenido total en nitrógeno está compuesto por nitrógeno
+orgánico, amonio, nitrito y nitrato. El contenido en nitrógeno orgánico se determina
+con el método Kjeldahl.
+• Nitrógeno total Kjeldahl (NTK): el nitrógeno total Kjeldahl se determina del mismo
+modo que el nitrógeno orgánico, con la diferencia de que no se elimina el amonía-
+co presente antes del proceso de digestión. Por lo tanto, el nitrógeno Kjeldahl total
+incluye ambas formas de nitrógeno, el orgánico y el amoniacal.
+• Nitrato (NO3−): es un indicador de contaminación el cual raramente excede la can-
+tidad de 1 mg/L en el agua residual, y 0,1 mg/L en el caso de aguas subterráneas y
+superficiales. A pesar de que su presencia suele darse en concentraciones pequeñas,
+los nitritos tienen gran importancia en el estudio de aguas residuales y contaminación
+de aguas, dada su gran toxicidad para gran parte de la fauna piscícola y demás espe-
+cies acuáticas. Los nitritos presentes en los efluentes de aguas residuales se oxidan
+por adición de cloro, lo cual aumenta la cantidad de cloro a dosificar y por lo tanto
+el coste de la desinfección.
+• Amonio (NH+
+4 ): el nitrógeno amoniacal se encuentra en solución acuosa, bien en
+forma de ion amonio o como amoníaco, en función del pH de la solución.
+• Fósforo Total (PT): es esencial para el crecimiento de algas y otros organismos
+biológicos. debido a que en aguas superficiales tienen lugar nocivas proliferaciones
+incontroladas de algas.
+
+
+=== PÁG 24 del PDF ===
+10
+• Fosfatos (PO−3
+4 ): el fósforo orgánico es de poca importancia en la mayor parte de
+los residuos domésticos, pero puede ser un constituyente importante en los vertidos
+industriales y fangos de aguas residuales domésticas.
+c) Salinidad
+• pH: la concentración de ion de hidrógeno es un parámetro de calidad de gran im-
+portancia tanto para el caso de aguas naturales como residuales. El intervalo de con-
+centraciones adecuado para la proliferación y desarrollo de la mayor parte de la vida
+biológica es bastante estrecho y crítico.
+• Conductividad eléctrica: es la medida de la capacidad de un material o sustancia
+para dejar pasar la corriente eléctrica a través de él. En medios líquidos está relaciona-
+da con la presencia de sales en disoluciones, cuya disociación genera iones positivos
+y negativos capaces de transportar la energía eléctrica si se somete el líquido a un
+campo eléctrico.
+d) Patógenos
+• Coliformes totales (CT): estas bacterias son anaerobias facultativas, no esporulan-
+tes, productoras de gas y fermentan la lactosa por vía glucolítica, generando ácidos
+como producto final. El grupo de coliformes incluye cuatro generos de la familia
+Enterobacteriácea. Estos son Escherichia, Klebisella, Citrobactor y Enterobacter.
+• Coliformes fecales (CF): son del grupo de coliformes, estas representan aproxima-
+damente el 10 % de los microorganismos intestinales humanos y animales, por lo que
+su detección en el agua está relacionada con la contaminación fecal.
+• Escherichia coli (E.Coli): es parte de la población bacteriana y es el genero de coli-
+formes más representativos de las fuentes de contaminación fecal. Este género abar-
+ca cepas tanto patógenas como no patógenas y constituye alrededor del 80 % de la
+microflora intestinal normal, siendo generalmente inofensivo. Sin embargo, se han
+identificado cepas patógenas que pueden causar enfermedades graves en humanos,
+como infecciones del tracto urinario, bacteriemia y meningitis.
+
+
+=== PÁG 25 del PDF ===
+11
+e) Metales pesados
+En muchas aguas, se pueden encontrar cantidades traza de varios metales que son cons-
+tituyentes importantes. Entre estos metales se destacan el níquel (Ni), manganeso (Mn),
+plomo (Pb), cromo (Cr), cadmio (Cd), zinc (Zn), cobre (Cu), hierro (Fe) y mercurio (Hg).
+Algunos de estos metales son necesarios para el desarrollo normal de la vida biológica, y
+la falta de cantidades adecuadas de ellos podría limitar el crecimiento de las algas.
+2.2.
+Sistemas de tratamiento de aguas residuales
+Un sistema de tratamiento de aguas residuales es un conjunto de operaciones y procesos
+diseñados con el objetivo de modificar las caracteristicas físicas, químicas o biológicas de las
+aguas buscando reducir o neutralizar contaminantes e impurezas (Von Sperling, 2007b).
+Los sistemas de tratamiento utilizan procesos qué incluyen la remoción de sólidos suspen-
+didos, la degradación de materia orgánica, la eliminación de nutrientes y la desinfección para
+eliminar microorganismos patógenos (Tchobanoglus et al., 2003).
+Un sistema de tratamiento de aguas suele constar de varias etapas que se han categorizado en
+las siguientes fases: preliminar o pretratamiento, tratamiento primario, tratamiento secundario y
+tratamiento terciario o avanzado. A continuación, se detallan las particularidades que distinguen
+cada nivel.
+2.2.1.
+Pretratamiento
+En este nivel se realizan operaciones de cribado y desbaste para remover sólidos gruesos y
+objetos grandes que puedan interferir en etapas posteriores. Además, busca regular y controlar
+el caudal que ingresa al sistema de tratamiento (Burton et al., 2013).
+Según Burton et al. (2013), en el proceso de pretratamiento están contemplados las siguientes
+etapas:
+Desbaste: es el procesos de retención de contaminantes de mayor volumen que vienen en
+el agua residual a través de tamices, evitando así el ingreso al sistema de tratamiento.
+
+
+=== PÁG 26 del PDF ===
+12
+Desarenador y desengrasador: la separación de grasas y arenas se logra gracias a las
+diferencias de densidad. Los aceites tienden a ubicarse en la parte superior de los estanques,
+mientras que las arenas sedimentan en la parte inferior del sistema.
+Homogenización del caudal: es un proceso destinado a uniformar la composición o carac-
+terísticas del flujo de agua. La homogenización busca reducir las variaciones en la calidad
+del agua, asegurando una distribución de contaminantes o componentes.
+Medición del caudal: busca conocer de manera constante el volumen que ingresa al sis-
+tema.
+2.2.2.
+Tratamiento primario
+El tratamiento primario es un proceso unitario, de carácter físico, que tiene por objeto fun-
+damental la reducción de los sólidos en suspensión sedimentables, existentes en el agua residual.
+La mayor parte de las sustancias en suspensión y disolución en las aguas residuales no pueden
+retenerse, por razón de su finura o densidad (Von Sperling, 2007a). La remoción de esta etapa
+permite quitar entre el 50 a 60 % de sólidos suspendidos totales, 30 % de la DBO (Demanda Bio-
+química de Oxígeno) y hasta un 20 % del nitrógeno total Kjendahl. Es importante destacar que
+se denominan sólidos sedimentables a los que se depósitan en un cono de ensayo (cono Imhoff)
+de 40 cm de altura al cabo de 2 horas y se define eficacia de sedimentación al porcentaje de
+sólidos sedimentables sobre el total de sólidos totales sedimentables, en las mismas dos horas.
+(Von Sperling, 2007a)
+2.2.3.
+Tratamiento secundario
+Según Burton et al. (2013), el tratamiento secundario es la incorporación del tratamiento
+de procesos biológicos en los que predominan las reacciones bioquímicas desencadenadas por
+microorganismos para eliminación de materia orgánica. En este proceso se logra disminuir casi
+un 90 % de DBO al final esta etapa.
+
+
+=== PÁG 27 del PDF ===
+13
+2.2.4.
+Tratamiento terciario
+En este nivel se tiene como objetivo purificar al máximo las aguas provenientes de procesos
+antes mencionados, fundamentalmente la remoción de nutrientes como nitrógeno y fósforo. Para
+cumplir con regulaciones ambientales más estrictas, esto puede incluir procesos de filtración
+avanzada, desinfección y eliminación de nutrientes (Burton et al., 2013).
+En la actualidad existen sistemas de tratamiento convencionales y sistemas basados en la
+naturaleza. Ambos enfoques buscan disminuir los contaminantes antes de encausar las aguas en
+el medio ambiente.
+2.3.
+Sistema de tratamiento convencional
+Un sistema de tratamiento de aguas residuales convencional está pensado para producir
+agua residual con menos contaminantes según los estandares de calidad ambiental (Burton et al.,
+2013). Un sistema ampliamente utilizado, difundido y representativo es lodos activados.
+2.3.1.
+Lodos activados con aireación extendida
+En la Figura 2.1 se observa un esquema del proceso. El agua residual se mezcla con los lodos
+activados en un tanque de aireación, donde se suministra aire u oxígeno para mantener una con-
+centración adecuada de oxígeno disuelto. El tiempo de aireación se prolonga significativamente
+en comparación con los sistemas convencionales de lodos activados, lo que permite una mayor
+oxidación de la materia orgánica y una mejor eliminación de los contaminantes (Striebig et al.,
+2022).
+
+
+=== PÁG 28 del PDF ===
+14
+Figura 2.1: Diagrama de flujo típico de un sistema de aireación extendida de lodos activados.
+(Von Sperling, 2007a)
+Si la biomasa permanece en el sistema durante períodos más largos, del orden de 18 a 30 días
+(de ahí el nombre de aireación prolongada), y recibe la misma carga de DBO de las aguas resi-
+duales brutas que en el sistema convencional, habrá menos sustrato disponible para las bacterias
+(relación F/M de sólo 0,07 a 0,15 kgBOD/kgMLVSS-d). La cantidad de biomasa (kgMLVSS)
+es mayor que en el sistema convencional de fangos activados, el volumen del reactor aeróbio
+también es mayor y el tiempo de retención es de 16 a 24 horas. Por lo tanto, hay menos materia
+orgánica por unidad de volumen del tanque de aireación y por unidad de biomasa en el reactor.
+En consecuencia, para sobrevivir, las bacterias empiezan a utilizar en sus procesos metabólicos
+su propia materia orgánica biodegradable, que es un componente de sus células. Esta materia
+orgánica celular se transforma en dióxido de carbono y agua mediante la respiración. Esto co-
+rresponde a una estabilización aeróbia de la biomasa en el tanque de aireación (Von Sperling,
+2007a).
+En aireación prolongada la digestión de los lodos se realiza conjuntamente en el reactor, en un
+medio aeróbio. El consumo adicional de oxígeno para la estabilización de los lodos (respiración
+
+
+=== PÁG 29 del PDF ===
+15
+endógena) es significativo y puede ser mayor que el consumo para la asimilación de la materia
+orgánica del afluente (respiración exógena) (Von Sperling, 2007a).
+Dado que no es necesario estabilizar el exceso de lodo biológico, se evita la generación de
+otro tipo de lodo en el sistema de aireación prolongada, ya que este lodo requeriría una estabiliza-
+ción posterior por separado. Por esta razón, los sistemas de aireación prolongada suelen carecer
+de tanques de sedimentación primaria, para evitar la necesidad de una estabilización separada de
+los lodos primarios. Con ello, se consigue una gran simplificación en el diagrama de flujo del pro-
+ceso: no hay tanques de sedimentación primaria ni unidades de digestión de lodos(Von Sperling,
+2007a).
+La consecuencia de esta simplificación en el sistema es el aumento del consumo de energía
+para la aireación, ya que los lodos se estabilizan aeróbicamente en el tanque de aireación. Por
+otro lado, la menor disponibilidad de sustrato y su prácticamente total asimilación por parte de
+la biomasa hacen de la variante de aireación prolongada uno de los procesos de tratamiento de
+aguas residuales más eficientes para la eliminación de residuos de DBO (Von Sperling, 2007a).
+Las eficiencias de eliminación de contaminantes del sistema de tratamiento de lodos activa-
+dos es observable en la Tabla 2.2. El sistema de aireación extendida, presenta mayor remoción
+de DBO y DQO en comparación al sistema de lodos activados convencional. Mientras que, com-
+parten valores de eliminación en sólidos suspendidos y amonio .
+Tabla 2.2: Eficiencia de remoción de los sistemas de lodos activados utilizados para el tratamiento
+de aguas residuales domésticas, datos extraidos de Von Sperling (2007a).
+Item
+Convencional
+Aireación extendida
+DBO5 ( %)
+85-95
+93-98
+DQO ( %)
+85-90
+90-95
+Sólidos suspendidos ( %)
+85-95
+85-95
+Amonio ( %)
+85-95
+85-95
+Nitrógeno ( %)(1)
+25-30
+15-25
+Fósforo ( %)(1)
+25-30
+10-20
+Coliformes ( %)
+60-90
+70-95
+
+
+=== PÁG 30 del PDF ===
+16
+2.4.
+Sistema de tratamiento basado en la naturaleza [SBN]
+Las soluciones basadas en la naturaleza se refieren a enfoques de gestión y restauración de
+ecosistemas que utilizan procesos naturales para abordar desafíos ambientales y sociales (Cohen-
+Shacham et al., 2019). Estas soluciones se centran en el uso de la biodiversidad y los servicios
+ecosistémicos para proporcionar beneficios tanto para los seres humanos como para la naturaleza
+(Cohen-Shacham et al., 2019).
+Existen diferentes SBN enfocado a diferentes problemáticas, siendo los humedales cons-
+truidos una solución adecuada para el tratamiento de aguas residuales. Su diseño es creado por
+el ser humano con el fin de simular las funciones y características de un humedal natural en la
+eliminación de contaminantes y el tratamiento de aguas residuales (Cohen-Shacham et al., 2019).
+Estos humedales construidos utilizan una combinación de procesos físicos, químicos y bio-
+lógicos para tratar las aguas residuales. El agua residual fluye a través del humedal, donde los
+microorganismos, las plantas y los medios filtrantes presentes ayudan a remover los contaminan-
+tes a través de procesos como la sedimentación, la absorción, la adsorción y la actividad biológica
+(Cohen-Shacham et al., 2019).
+En comparación con otros sistemas de tratamiento, los humedales requieren más espacio,
+pero demandan menos energía externa y mantenimiento. Si la topografía lo permite, estos hu-
+medales pueden operar sin bombas, eliminando la necesidad de energía externa. Debido a su
+naturaleza extensiva, son resistentes y tolerantes a variaciones en el flujo y la concentración de
+contaminantes en el agua entrante. Por lo tanto, los humedales para tratamiento son idóneos como
+pequeños sistemas descentralizados de tratamiento (Dotro et al., 2021).
+Existen diferentes sistemas de humedales construidos, que se diferencian por la dirección
+del flujo: superficial (FS) y subsuperficial (FSS). Dentro de los subsuperficiales existen los de
+flujo vertical (FV) y los de flujo horizontal (FH) (Dotro et al., 2021). Un esquema representativo
+de la clasificación de humedales se puede observar en la Figura 2.2.
+
+
+=== PÁG 31 del PDF ===
+17
+Figura 2.2: Clasificación de humedales para tratamiento. Esquema obtenido de Kadlec and Wa-
+llace (2008a)
+2.4.1.
+Humedal de flujo superficial
+Presentan similitudes visuales con los humedales naturales y demandan una extensa área
+de superficie. Por lo general, se exponen a bajas cargas de contaminantes. Pueden incorporar
+diversos géneros de plantas, tales como (a) emergentes de tipo Typha, Phragmites, Scirpus, (b)
+sumergidas de clase Potamogeton, Elodea, etc., y (c) flotantes como Eichornia (jacinto de agua)
+y Lemna (lenteja de agua). Principalmente, este tipo de humedal se destina al tratamiento terciario
+(Dotro et al., 2021).
+Figura 2.3: Esquema general de humedal de superficie libre, obtenido de Dotro et al. (2021)
+
+
+=== PÁG 32 del PDF ===
+18
+2.4.2.
+Humedal de flujo subsuperficial
+a) Humedal de flujo horizontal
+Las aguas residuales atraviesan horizontalmente un filtro de arena o grava, manteniendo
+el nivel del agua por debajo de la superficie. Dada la saturación de agua, predominan pro-
+cesos de degradación anaerobia. Se necesita un tratamiento primario eficaz para eliminar
+la materia particulada y prevenir la obstrucción del filtro. Se emplean plantas emergentes
+en un enfoque para el tratamiento secundario o terciario (Dotro et al., 2021). La diferencia
+para un tratamiento primario y secundario se puede observar en la Figura 2.4.
+Figura 2.4: Esquema de humedales flujo horizontal: superior: tratamiento secundario, inferior:
+tratamiento terciario. (Dotro et al., 2021).
+En el diseño típico de un humedal de flujo horizontal (FH), el lecho de grava, saturado y
+plantado con macrófitas emergentes, facilita el tratamiento del agua. El sistema opera con
+
+
+=== PÁG 33 del PDF ===
+19
+un flujo continuo que entra por un extremo, atraviesa el medio de grava sin exposición
+atmosférica y se recolecta en el lado opuesto para su liberación final. La regulación del
+nivel de agua se logra mediante una tubería vertical externa independiente del lecho del
+humedal. Para evitar infiltraciones, se utiliza una geomembrana HDPE y una membrana
+de geotextil, aislándolo del terreno (Dotro et al., 2021)
+La implementación de humedales de flujo horizontal (HF) para el tratamiento secundario
+de aguas residuales domésticas, la capa de grava o relleno suele tener una profundidad de
+0,5 a 0,7 metros, manteniendo el nivel del agua entre 5 y 10 centímetros por debajo de la
+superficie. Según se observa en la Figura 2.4
+b) Humedal de flujo vertical
+En la década de 1990, el humedal de flujo vertical (FV) ganó importancia, especialmen-
+te en Austria, Dinamarca y Alemania, en respuesta a cambios normativos que exigían la
+eliminación de nitrógeno amoniacal como requisito para las descargas de plantas descen-
+tralizadas de tratamiento de aguas residuales (Dotro et al., 2021).
+Gracias a las condiciones altamente oxidantes presentes en el lecho, los humedales de flujo
+vertical (FV) destacan por su eficiencia en la eliminación de carbono orgánico (medido me-
+diante DBO5 o DQO). Estos humedales son especialmente adecuados cuando se requieren
+procesos estrictamente aerobios, como en el caso de la nitrificación (Garcia et al., 2010).
+Por tanto, los humedales de FV son normalmente usados como tratamiento secundario, así
+como también, para tratamiento terciario de aguas residuales domésticas.
+En humedales de flujo vertical (FV), la eliminación de sólidos en suspensión (SST) y orga-
+nismos patógenos se realiza principalmente a través del proceso de filtración. La eficacia
+del tratamiento está directamente ligada al tipo de material de relleno empleado. Utilizar
+material de granulometría fina incrementa el tiempo de retención hidráulica, mejorando
+las eficiencias de eliminación, aunque limita la carga hidráulica superficial y aumenta el
+riesgo de colmatación. Por otro lado, el empleo de material con granulometría más gruesa
+permite mayores cargas hidráulicas, disminuyendo la probabilidad de colmatación, pero
+con eficiencias de eliminación menores (Dotro et al., 2021). No obstante, en ciertos casos,
+esto puede abordarse parcialmente al incrementar la profundidad de la capa de tratamien-
+
+
+=== PÁG 34 del PDF ===
+20
+to. Las directrices de diseño para humedales de flujo vertical disponibles hasta la fecha se
+fundamentan en reglas generales como es en el caso de la guía danesa (Brix and Arias,
+2005). En la Figura 2.5 se observa un esquema de humedal contruido vertical típico.
+Figura 2.5: Esquema de un humedal construido vertical típico, obtenido de Dotro et al. (2021)
+En humedales más grandes (>100 hab-eq.), es usual dividir el área total en varios lechos,
+los cuales pueden ser alimentados independientemente, de tal manera que habrá al menos
+un lecho en reposo y sin recibir carga. Las guías de diseño alemanas (DWA, 2017) reco-
+miendan que para humedales de FV, un cuarto del área total de tratamiento esté sin recibir
+carga. Las guías de diseño Austriacas (ÖNORM, 2009) recomienda un área máxima de
+400 m2 por lecho para lograr una distribución uniforme de agua en la superficie.
+Las guías de diseño existentes han sido desarrolladas para zonas geográficas estacionales,
+donde la operación durante el invierno es el periodo más crítico. La ralentización de los
+procesos de degradación durante el invierno, por efecto de las bajas temperaturas, limitan
+la carga orgánica a tratar en los humedales de FV sin que haya colmatación del lecho. Sin
+embargo, en climas más cálidos o cuando se opera de manera estival, las superficies espe-
+cíficas necesarias para el tratamiento se reducen. Experiencias de Austria, han demostrado
+
+
+=== PÁG 35 del PDF ===
+21
+que, si solo se opera durante el verano, se obtienen eficiencias similares con humedales
+de FV con áreas de tratamiento de 2 m2/Hab.-eq., lo que implica temperaturas del agua
+efluente ≥10°C (Tietz et al., 2007).
+La guía de diseño danesa establece que: cuando un humedal de FV es diseñado de acuerdo
+con la guía, eliminará 95 % de DBO5 y el 90 % de amonio (Brix and Arias, 2005). Todas las
+pautas requieren la incorporación de una capa de drenaje en la base del lecho y una capa de
+transición (por ejemplo, 10 cm de grava de 4 a 8 mm de diámetro) entre el filtro principal
+y la capa de drenaje (Dotro et al., 2021). Esta capa intermedia evita el desplazamiento de
+partículas desde el filtro principal hacia la capa de drenaje. La presencia de grava gruesa en
+la zona de drenaje favorece un adecuado sistema de drenaje, y en conjunto con el sistema
+de tuberías de vaciado, facilita la oxigenación de las capas inferiores del lecho (Dotro et al.,
+2021).
+Las plantas más usadas en humedales de FV son las macrófitas emergentes, generalmente
+Phragmites Australis (carrizos comunes) (Dotro et al., 2021) Asimismo, son empleadas,
+especies de los géneros Typha (Espadaña) y Schoenoplectus (Junco) Kadlec and Wallace
+(2008b). También, es factible sustituir plantas comunes en humedales construidos, como
+Phragmites spp., Typha spp., Schoenoplectus spp., por especies ornamentales como Zan-
+tedeschia, Canna spp. e Iris spp. Esto no afectaría las eficiencias de eliminación de ma-
+teria orgánica y nutrientes, logrando hasta un 86 % y 80 % para DBO5 y nutrientes (NT y
+PT), respectivamente. Así, los humedales construidos de flujo subsuperficial con especies
+ornamentales podrían implementarse exitosamente en zonas rurales y de baja densidad
+poblacional, tanto en Chile como en otros países en vías de desarrollo (Morales et al.,
+2013).
+
+
+=== PÁG 36 del PDF ===
+22
+2.4.3.
+Eficiencia en los humedales
+La Tabla 2.3 reune los principales mecanismos involucrados en la eliminación de contami-
+nantes.
+Tabla 2.3: Principales mecanismos para la eliminación de contaminantes y patógenos en hume-
+dales para tratamiento. obtenido de Dotro et al. (2021).
+Parámetro
+Mecanismo de eliminación principal
+Sólidos suspendidos
+Sedimentación, filtración
+Materia orgánica
+Sedimentación y filtración para la eliminación de
+materia orgánica particulada, degradación biológica
+(aerobia y/o anaerobia) para la eliminación de materia
+orgánica disuelta
+Nitrógeno
+Amonificación y posterior nitrificación y
+desnitrificación, asimilación por la vegetanción y
+exportación mediante la recolección de biomasa
+Fósforo
+Reacciones de absorción-precipitación impulsadas por
+propiedades del medio filtrante, asimilación por
+vegetación y exportación mediante la recolección de biomasa
+Patógenos
+Sedimentación, filtración, muerte natural, depredación
+(realizada por protozoos y metazoos)
+
+
+=== PÁG 37 del PDF ===
+23
+La eliminación esperada para los principales tipos de humedales contruidos para tratamiento
+se resume en la Tabla 2.4. El humedal vertical muestra una eficiencia menor al 90 % en Sólidos
+suspendidos, materia orgánica y amonio, en comparación con el humedal horizontal que presenta
+solo un máximo del 80 % de efectividad.
+Tabla 2.4: Eficiencia de eliminación típicas de los principales humedales de tipo subsuperficial,
+obtenido de Dotro et al. (2021)
+Parámetro
+Hum. horizontal
+Hum. vertical
+Hum. frances
+Etapa de tratamiento
+Secundario
+Secundario
+Combinado primario
+(aplicación principal)
+y Secundario
+Sólidos suspendidos totales
+>80 %
+>90 %
+>90 %
+Materia orgánica (medido
+>80 %
+>90 %
+>90 %
+como demanda de oxígeno)
+Nitrógeno amoniacal
+20-30 %
+>90 %
+>90 %
+Nitrógeno total
+30-50 %
+<20 %
+<20 %
+Fósforo total
+10-20 %
+10-20 %
+10-20 %
+(a largo plazo)
+Coliformes
+2 log10
+2-4 log10
+1-3 log10
+
+
+=== PÁG 38 del PDF ===
+24
+Capítulo 3
+Metodología
+La planta de tratamiento convencional se diseña según el libro de Von Sperling - Activated
+sludge and Aerobic Biofilm Reactors Von Sperling (2007a) con un modelo de lodos activados
+modalidad aireación extendida. El diseño del sistema basado en la naturaleza se realizará con
+el libro Humedales Para Tratamiento de Dotro et al. (2021). Para el diseño, se establece una
+proyección de habitantes futuras de 432 para el año 2043. A continuación, se establecerán los
+parámetros de diseño y algunos puntos que se deben tener en cuenta, como las características
+de las aguas residuales con las que se diseñará, las cargas diarias y los requisitos del efluente
+considerando un cuerpo fluvial sin capacidad de dilusión según lo establecido por BCN (2000)
+y lo observado en la Tabla 1.2.
+En la Tabla 3.1 se establece las consideraciones climáticas, caudales de diseño y altura en
+donde se establece el proyecto.
+El diseño de este sistema de lodos activados modalidad aireación extendida se centrará en
+tratar las aguas residuales en la etapa biológica, enfocado en la eliminación de la DBO5 y la
+eliminación de solidos suspendidos. Esto se debe a las características de los contaminantes y sus
+concentraciones observadas en la Tabla 3.2.
+Las concentraciones de diseño a utilizar se observan en la Tabla 3.3.
+
+
+=== PÁG 39 del PDF ===
+25
+Tabla 3.1: Consideraciones de diseño, elaboración propia.
+Demanda de aguas servida
+Los Naranjos, Nirivilo, comuna de San Javier
+Población
+432
+hab
+Altitud
+90
+msnm
+Temperatura min
+6
+◦C
+Temperatura max
+23,7
+◦C
+Caudal máximo (Qmax)
+234,53
+m3/d
+Caudal medio (Qmed)
+58,40
+m3/d
+Caudal minímo (Qmin)
+29,20
+m3/d
+Nota: Datos bioclimaticos obtenidos de Uribe Meneses et al. (2012)
+Tabla 3.2: Caracteristicas generales de las aguas residuales para el diseño. Datos obtenidos de
+Vera et al. (2016) y BCN (2000)
+Contaminante
+Unidad
+Concentración afluente
+Efluente objetivo
+pH
+Und
+7,5
+6,5-8,5
+Demanda biológica de oxígeno a los cinco días (DBO5)
+mg/l
+130
+35
+Sólidos suspendidos totales (SST)
+mg/l
+250
+80
+Nitrógeno total Kjeldahl (NTK)
+mg/l
+50
+50
+Fósfato (PO−3
+4 )
+mg/l
+12
+10
+Coliformes fecales (CF)
+NMP/100ml
+34000
+1000
+3.1.
+Sistema de tratamiento convencional (Objetivo específico
+1)
+Según lo establecido anteriormente, el sistema de lodos activados con aireación extendida
+no necesita un tratamiento primario. Las aguas crudas provenientes de una planta elevadora ya
+han pasado por un proceso de desbaste y, por lo tanto, pueden ingresar directamente al reactor,
+como se ejemplifica en la Figura 3.1. En este sistema, los lodos que salen del reactor ya están
+estabilizados e ingresan al sedimentador secundario para separar el agua y los lodos. El agua
+clarificada se clora con el fin de disponer de ella en el canal receptor (río sin capacidad de dilu-
+sión). Mientras tanto, una parte de los lodos retorna al reactor para mantener la concentración de
+sólidos, y la otra parte se dispone para el secado.
+
+
+=== PÁG 40 del PDF ===
+26
+Tabla 3.3: Carga de contaminante a caudal medio, elaboración propia.
+Contaminante
+Unidad
+Carga Afluente
+Demanda biológica de oxígeno a los cinco días (DBO5)
+kg/d
+7,59
+Demanda biológica de oxígeno (DQO)
+kg/d
+12,27
+Sólidos suspendidos totales (SST)
+kg/d
+14,60
+Nitrógeno total Kjeldahl (NTK)
+kg/d
+2,92
+Fósfato (PO−3
+4 )
+kg/d
+0,7
+3.1.1.
+Diseño del reactor
+Se pueden hacer dos balances de masa, uno para el sustrato y otro para la biomasa. Estos
+balances de masa son esenciales para el dimensionamiento del reactor biológico y se detallan en
+las secciones siguientes (Von Sperling, 2007a).
+Figura 3.1: Esquema del sistema a diseñar entre reactor y el sedimentador. Obtenida de Von Sper-
+ling (2007a)
+
+
+=== PÁG 41 del PDF ===
+27
+S0
+=
+concentración de sustrato afluente (DBO total) (mg/L o g/m3)
+S
+=
+concentración sustrato efluente (DBO soluble) (mg/L o g/m3)
+Q
+=
+caudal afluente (m3/d)
+Qr
+=
+caudal de retorno lodos (m3/d)
+Qex
+=
+caudal de exceso lodos (m3/d)
+X
+=
+concentración de sólidos en suspensión del licor mezclado (mg/L o g/m3)
+X0
+=
+concentración de sólidos en suspensión influentes (mg/L o g/m3)
+Xr
+=
+concentración de sólidos en suspensión en los lodos activados de retorno (mg/L o g/m3)
+V
+=
+volumen del reactor (m3)
+3.1.2.
+Edad de los lodos en sistemas de lodos activados
+La edad del lodo es un parámetro esencial para el diseño y operación del proceso de lodos
+activados, está directamente relacionado con el volumen del reactor, la producción de sólidos, el
+consumo de oxígeno y otras variables operativas del proceso (Von Sperling, 2007a), los valores
+del lodo típico en un sistema de lodos activados con aireación extendida es:
+Aireación extendida: θc = 18 a 30 días
+Mientras, el tiempo de retención hidráulica asociada en el reactor varía como:
+Aireación extendida: t = 16 a 24 horas (0,67 a 1,0 dias)
+La relación F/M generalmente tiene los siguientes valores:
+Aireación extendida: F/M = 0,08 a 0,15 kgDBO5/kgVSSd
+3.1.3.
+Concentración de sólidos suspendidos en el reactor
+A continuación, se examinan los aspectos de diseño relacionados con el concepto de Sólidos
+Suspendidos Volátiles [Xv].
+Para determinar la concentración de VSS en el tanque de aireación o la concentración de
+MLVSS en un sistema con reciclaje de sólidos, se utiliza:
+
+
+=== PÁG 42 del PDF ===
+28
+Xv = Y (S0 −S)
+1 + Kdfbθc
+(3.1)
+Donde:
+θc
+=
+edad del lodo (d)
+Y
+=
+coeficiente de rendimiento (gVSS producido por gBOD eliminado) (gXv/gBOD5)
+K
+=
+coeficiente de respiración endógena (d−1)
+fd
+=
+fracción biodegradable de MLVSS X(b/Xv)
+La Ecuación 3.1 incluye el concepto de fb que viene dado por:
+fb =
+fb′
+1 + (1 −fb′)Kdθc
+(3.2)
+Donde:
+fd
+=
+fracción biodegradable de los VSS (Sólidos Suspendidos Volátiles) generados en un
+sistema sometido a una edad del lodo θc (X(b/Xv)).
+fb′
+=
+fracción biodegradable de los VSS inmediatamente después de su generación en el
+sistema, es decir, con θc = 0. Este valor suele ser igual a 0,8 (= 80 %).
+La Ecuación 3.1 es crucial para estimar la concentración de VSS en un sistema específico. El
+análisis de esta ecuación también proporciona interesantes consideraciones sobre la influencia
+de la recirculación de lodos en la concentración de sólidos suspendidos volátiles [VSS] en el
+reactor (Von Sperling, 2007a). Los valores típicos de Xv en un sistema de lodos activados son:
+Aireación extendida = 2.500 a 4.000 mgVSS/L
+Los sistemas de aireación extendida tienden a tener una concentración más alta de MLSS que los
+sistemas convencionales de lodos activados. Naturalmente, cuanto mayor sea la concentración de
+MLSS en el reactor, mayor será la disponibilidad de la biomasa para asimilar el sustrato afluente,
+resultando en la necesidad de volúmenes de reactor más bajos (para una eficiencia de remoción
+dada) (Von Sperling, 2007a).
+El método para hallar la relación VSS/SS de un reactor de lodos activado en función a la
+edad del lodo suele oscilar entre el siguiente rango (Von Sperling, 2007a):
+Aireación extendida: VSS/SS = 0,6 a 0,75
+
+
+=== PÁG 43 del PDF ===
+29
+3.1.4.
+Cálculo del volumen del reactor
+El cálculo del volumen del reactor puede llevarse a cabo mediante la Ecuación 3.10, siempre
+que se conozcan los valores de Q y So, se proponga una concentración deseada para el efluente
+de DBO soluble S, y se asuman valores para Y y Kd. Posteriormente, se calcula fb y se eligen
+los valores apropiados para los parámetros de diseño θc y Xv (Von Sperling, 2007a).
+V = Y θcQ(S0 −S)
+Xv(1 + Kdfbθc)
+(3.3)
+3.1.5.
+Eliminación de sustrato
+La Ecuación 3.4 general para estimar la DBO soluble del efluente de un reactor de mezcla
+completa:
+S =
+Ks[(1/θc) + Kdfb]
+µmax −[(1/θc) + Kdfb]
+(3.4)
+En condiciones estacionarias, la concentración de DBO en el efluente (S) permanece inde-
+pendiente de la concentración de DBO en el afluente (So) (Arceivala, 1981). Esto se justifica por
+la constancia de Ks, Kd y µmax, lo que implica que S únicamente depende de la edad del lodo θc.
+A medida que la DBO influente aumenta, se produce una mayor cantidad de sólidos biológicos
+y, por ende, se incrementa la concentración de biomasa Xv. De esta manera, un mayor sustrato
+disponible se traduce en una mayor disponibilidad de biomasa para su asimilación (Arceivala,
+1981).
+3.1.6.
+DBO total en el efluente y DBO soluble
+Para la determinación de la DBO del efluente, se debe tener en cuenta la demanda bioquímica
+de oxígeno causada por la materia orgánica disuelta en el medio líquido. Para que esta ecuación
+sea más realista y a la vez práctica, es interesante expresar los sólidos efluentes no como sólidos
+volátiles en suspensión, sino como sólidos totales en suspensión. En sistemas convencionales
+de lodos activados, la relación VSS/TSS varía entre 0,70 y 0,85; en sistemas de aireación pro-
+longada, VSS/TSS varía de 0,60 a 0,75 (Von Sperling, 2007a). La DBO5 del total de sólidos en
+
+
+=== PÁG 44 del PDF ===
+30
+suspensión será entonces:
+DBO5efluenteSS(mgDBO5/mgSS) = (V SS/TSS)fb)
+(3.5)
+3.1.7.
+Digestión de lodos en el reactor
+La etapa biológica no solo tiene como objetivo la eliminación de la materia carbonosa y
+nitrogenada, sino también la estabilización de los lodos en el reactor, especialmente en sistemas
+de aireación prolongada que carecen de digestión separada para el exceso de lodo. En estos
+sistemas, las altas edades de los lodos no solo son responsables de la oxidación de la DBO y el
+amoníaco, sino también de la digestión aeróbia de la biomasa (Von Sperling, 2007a).
+La producción bruta de sólidos volátiles en el reactor es:
+PXvgross = Y Q(S0 −S)
+(3.6)
+La generación inicial de sólidos biodegradables volátiles se calcula al multiplicar la ecuación
+previa por la fracción de biodegradabilidad (fb). En consecuencia:
+PXbgross = fbY Q(S0 −S)
+(3.7)
+Por otra parte, la destrucción de los sólidos biodegradables viene dada por:
+PXbdestroyed = fbY Q(S0 −S)
+Kdθc
+1 + fbKdθc
+(3.8)
+Para lograr la destrucción completa de todos los sólidos biodegradables generados en el
+sistema, la producción de sólidos debe ser igual a su destrucción. Así pues:
+Xbproduction = Xbdestruction
+(3.9)
+Para una determinada edad de los lodos, el porcentaje de eliminación de sólidos biodegra-
+dables viene dado por la Ecuación 3.10, mientras que el porcentaje de eliminación de los sólidos
+volátiles se obtiene mediante la Ecuación 3.11. Al analizar la eficacia de un proceso de digestión
+de lodos, normalmente se utiliza el concepto de porcentaje de destrucción de sólidos volátiles.
+%destructionSSb = (
+Kdθc
+1 + fbKdθc
+)100
+(3.10)
+%destructionV SS = (
+fbKdθc
+1 + fbKdθc
+)100
+(3.11)
+
+
+=== PÁG 45 del PDF ===
+31
+3.1.8.
+Recirculación de lodos activados
+Para conseguir una alta concentración de sólidos en el reactor y una edad de los lodos superior
+que el tiempo de detención hidráulica (θc >t), es necesario recircular o retener los lodos en el
+sistema. Los procesos de retención de lodos pueden adoptarse en sistemas con funcionamiento
+intermitente, como los sistemas discontinuos. La recirculación de lodos mediante bombeo es la
+más utilizada y es típica de los sistemas de flujo continuo , los fangos activos convencionales y
+los procesos de aireación prolongada (Von Sperling, 2007a).
+La cantidad de lodos a recircular se determina principalmente por la calidad de los lodos
+sedimentados en el tanque de sedimentación secundario. A mayor concentración del lodo, se
+necesita un caudal de recirculación menor para lograr una concentración específica de sólidos en
+el reactor. En resumen, unas propiedades efectivas de sedimentación y espesamiento en el tanque
+secundario resultarán en un lodo de retorno más concentrado, reduciendo así la necesidad de un
+caudal de recirculación elevado (Von Sperling, 2007a).
+La relación de lodos de retorno R se define como:
+R = Qr
+Q
+(3.12)
+quedando como
+R =
+X
+Xs −X
+(3.13)
+La concentración de sólidos suspendidos en el lodo de retorno (RASS) se ve influenciada
+por las propiedades de sedimentación y espesamiento del lodo, la concentración de MLSS y el
+flujo inferior del tanque de sedimentación(Von Sperling, 2007a). Los valores promedio usuales
+de RASS son aproximadamente R = 0,7 a 1,2.
+Debe quedar muy claro que la existencia de la recirculación de lodos afecta únicamente a la
+edad de los lodos, mientras que el tiempo de retención hidráulica no se ve afectado (Von Sperling,
+2007a).
+Otro aspecto que debe quedar claro es la interacción entre el caudal de lodos de retorno (Qr),
+el caudal de lodos en exceso (Qex) y la edad de los lodos. Estos caudales (Qr y Qex) están estre-
+chamente relacionados, ya que ambos contribuyen al flujo inferior del tanque de sedimentación
+secundario (Qu) (Von Sperling, 2007a). Por lo tanto, Qu =Qr+Qex.
+
+
+=== PÁG 46 del PDF ===
+32
+3.1.9.
+Producción y eliminación de exceso de lodos
+Para determinar la cantidad de lodos en exceso que se debe retirar diariamente, se analiza
+la alternativa de retirar lodos directamente del reactor y retirar lodos del conducto de retorno de
+lodos. Esto, teniendo en cuenta que el afluente y el efluente cuentan con sólidos de algún tipo
+(Von Sperling, 2007a).
+Una forma alternativa de presentar la producción neta es mediante el reordenamiento de la
+producción neta de VSS Así, Pxv puede expresarse como:
+Pxv = Y Q(S0 −S) −KdfbXvV
+(3.14)
+Se puede llegar al mismo valor utilizando el concepto de coeficiente de rendimiento observa-
+do (Yobs), que refleja directamente la producción neta de los lodos. Yobs y Pxv pueden obtenerse:
+Yobs =
+Y
+1 + fbKdθc
+(3.15)
+Pxv = YobsQ(S0 −S)
+(3.16)
+Para obtener la producción de sólidos biológicos en términos de SST (Px), Pxv debe dividirse
+por la relación VSS/TSS (Von Sperling, 2007a).
+3.1.10.
+Requerimiento de oxígeno
+En el proceso de tratamiento biológico aeróbio, es esencial suministrar oxígeno para cumplir
+con diversas demandas, que incluyen la oxidación de la materia orgánica carbonosa, la oxidación
+del carbono orgánico para la síntesis bacteriana, la respiración endógena de las células bacteria-
+nas y la oxidación de la materia nitrogenada (nitrificación). En sistemas que emplean desnitrifi-
+cación biológica, se puede tener en cuenta el ahorro de oxígeno asociado con este proceso. Esta
+sección se centra en analizar los aspectos relacionados con el consumo de oxígeno (Von Sperling,
+2007a).
+
+
+=== PÁG 47 del PDF ===
+33
+a) Demanda de oxigeno carbonacea
+Este método está basado en la demanda carbonosa total y la eliminación del exceso de lodo.
+El suministro de oxígeno en el tratamiento biológico aeróbio es crucial para satisfacer
+diversas exigencias, como la oxidación de la materia orgánica carbonosa, la generación
+de energía para la síntesis bacteriana, la respiración endógena de las células bacterianas
+y la oxidación de la materia nitrogenada en procesos de nitrificación. En sistemas con
+desnitrificación biológica, se tiene en cuenta el ahorro de oxígeno debido a este proceso
+(Von Sperling, 2007a).
+OUR(kg/d) = 1, 46Q(S0 −S)
+103
+(3.17)
+Donde:
+OUR
+=
+tasa de utilización de oxígeno, o oxígeno requerido (kgO2/d)
+Q
+=
+caudal afluente (m3/d)
+S0
+=
+concentración de DBO5 en el afluente (DBO total)(g/m3)
+S
+=
+concentración DBO5 efluente (DBO soluble) (g/m3)
+1,46
+=
+factor conversión (DBOu/DBO5)
+103
+=
+factor de conversión (g/kg)
+En sistemas de lodos activados, parte de la materia orgánica entrante se convierte en nuevas
+células, cuyo oxígeno consumido debe restarse del total. Cada gramo de células generadas
+consume 1,42 gramos de oxígeno para su estabilización. Este ajuste es esencial para cal-
+cular con precisión el consumo total de oxígeno en el sistema (Von Sperling, 2007a). La
+generación diaria de masa de sólidos volátiles en suspensión (Pxv) se describe mediante
+las Ecuación 3.14 o Ecuación 3.16. De esta manera, el consumo de oxígeno asociado con
+la estabilización de la materia orgánica carbonosa puede expresarse según (Burton et al.,
+2013):
+OUR(kg/d) = 1, 46Q(s0 −S) −1, 42Px
+(3.18)
+
+
+=== PÁG 48 del PDF ===
+34
+Sustituyendo Pxv en la ecuación anterior se obtiene otra forma de representar el consumo
+de oxígeno:
+OUR(kg/d) = Q(S0 −S)(1, 46 −
+1, 42Y
+1 + Kdfbθc
+)
+(3.19)
+Según se observa en Tabla 3.4, la demanda de oxígeno carbonacea por unidad de DBO5
+removida tiene diferentes valores en aguas residuales domesticas según los diferentes va-
+lores de Y and Kd.
+Tabla 3.4: Demanda de oxígeno carbonacea por unidad de DBO5 removida (kgO2/kgDBO5rem),
+en aguas residuales domesticas, para diferentes valores de Y and Kd. Obtenido de Von Sperling
+(2007a)
+Coeficientes
+Edad lodos (días)
+Y (g/g)
+Kd(d−1)
+2
+6
+10
+14
+18
+22
+26
+30
+0,5
+0,09
+0,84
+0,95
+1,02
+1,07
+1,10
+1,13
+1,14
+1,14
+0,6
+0,08
+0,70
+0,83
+0,91
+0,97
+1,01
+1,05
+1,07
+1,07
+0,7
+0,07
+0,57
+0,70
+0,80
+0,86
+0,91
+0,95
+0,98
+1,01
+b) Demanda de oxigeno por nitrificación. La nitrificación implica la oxidación del amo-
+níaco a nitrito y, posteriormente, a nitrato, conllevando un consumo de oxígeno que debe
+ser considerado en las demandas totales de oxígeno. Aunque el nitrógeno orgánico en las
+aguas residuales no experimenta directamente la nitrificación, se transforma inicialmen-
+te en amoníaco, lo que posteriormente conduce a la nitrificación. Se asume que tanto el
+nitrógeno orgánico como el amoníaco generan un consumo de oxígeno en el proceso de
+nitrificación. La suma de nitrógeno orgánico y amoniacal se representa mediante el NTK
+(nitrógeno total Kjeldahl). La conversión de 1 g de NTK requiere 4,57 g de O2 (Von Sper-
+ling, 2007a).
+OUR(kg/d) = 4, 57Q(NTK)/103
+(3.20)
+Donde:
+
+
+=== PÁG 49 del PDF ===
+35
+NTK
+=
+nitrogeno total Kjeldahl, igual al nitrógeno orgánico y nitrógeno amoniacal (mgN/L).
+c) Requerimientos de nutrientes. En el contexto del tratamiento biológico aeróbio, la provi-
+sión de oxígeno es esencial para satisfacer diversas demandas, como la oxidación de la ma-
+teria orgánica carbonosa, la obtención de energía para la síntesis bacteriana, la respiración
+endógena de las células bacterianas y la oxidación de la materia nitrogenada (nitrificación).
+Las pautas para el suministro de oxígeno deben considerar factores como la demanda de
+oxígeno para la DBO final, la desnitrificación en sistemas que la empleen, y la necesidad
+de mantener un suministro adecuado para los procesos biológicos (Von Sperling, 2007a).
+Nreq = 0, 123(fb
+f ´
+b
+)Pxv + 0, 07(1 −fb
+f ´
+b
+)Pxv
+(3.21)
+Donde:
+Nreq
+=
+carga de nitrógeno requerida (kgN/d).
+fb
+=
+fracción biodegradable de sólidos suspendidos volátiles (SSb/VSS).
+f´
+b
+=
+fracción biodegradable de sólidos suspendidos volátiles inmediatamnete.
+después de su generación
+Pxv
+=
+producción neta de sólidos volátines en suspención (kgVSS/d).
+Similarmente, para el fosforo tenemos:
+Preq = 0, 026(fb
+f ´
+b
+)Pxv + 0, 01(1 −fb
+f ´
+b
+)Pxv
+(3.22)
+En sistemas de tratamiento biológico aeróbio, el nitrógeno debe estar en formas asimi-
+lables, como el amoníaco y el nitrato, para ser utilizado por los microorganismos. El ni-
+trógeno orgánico debe someterse a hidrólisis antes de estar disponible para la biomasa.
+Las Ecuación 3.21 y Ecuación 3.22 sugieren que en sistemas con una elevada edad de los
+lodos, como los de aireación prolongada, se observa un aumento en la hidrólisis. Los sis-
+temas con mayor edad de los lodos presentan menores necesidades de nutrientes debido a
+la reducción en la producción de lodo en exceso (Von Sperling, 2007a).
+
+
+=== PÁG 50 del PDF ===
+36
+3.1.11.
+Diseño de tanque de sedimentación para lodos activados.
+Determinar la superficie es un aspecto crucial en el diseño de un tanque de sedimentación y
+suele basarse en los siguientes parámetros de diseño:
+Tasa de carga hidráulica (HLR): se calcula como el cociente entre el caudal afluente a
+la planta (Q) y la superficie de los tanques de sedimentación (A).
+Tasa de carga de sólidos: calculada como el cociente entre la carga de sólidos aplicada
+(Q+Qr)-X y la superficie de los tanques de sedimentación (A), donde Qr representa el
+caudal de lodos de retorno.
+Es relevante destacar que la tasa de carga hidráulica (HLR) se basa únicamente en el caudal
+afluente a la planta (Q), excluyendo el caudal de lodos de retorno (Qr). Esto se debe a que el
+caudal Q tiene una componente ascendente, mientras que el caudal de lodos de retorno Qr tiene
+una dirección descendente. La componente ascendente es crucial, ya que si la velocidad ascen-
+dente supera la velocidad de sedimentación de los sólidos, estos no podrán depositarse en el
+fondo del tanque de sedimentación y se eliminarán con el efluente final (Von Sperling, 2007a).
+Algunos valores para los ceoficientes de diseño se observan en la Tabla 3.5.
+Tabla 3.5: Valores de los coeficientes v0, K, m y n, para cada rango de asentamiento, obtenido
+de Von Sperling (2007a).
+Asentabilidad
+Velocidad de asentamiento (m/h)
+Flujo limitante (kg/m2h)
+v = v0·e−K
+GL = m·(Qr/A)n
+v0 (m/h)
+K (m3/kg)
+m
+n
+Muy bueno
+10,0
+0,27
+14,79
+0,64
+Bueno
+9,0
+0,35
+11,77
+0,70
+Justo
+8,6
+0,50
+8,41
+0,72
+Pobre
+6,2
+0,67
+6,26
+0,69
+Muy pobre
+5,6
+0,73
+5,37
+0,69
+
+
+=== PÁG 51 del PDF ===
+37
+3.1.12.
+Desinfección
+En esta etapa se pretende disminuir la concentración de microorganismos presentes en el
+agua a la cantidad que permite la normativa de descargas de aguas servidas, establecida en la
+BCN (2000), estos límites se observan en la Tabla 1.2.
+Se asumirá, que el agua proveniente del estanque de aireación contiene una cantidad de
+34000 NMP/100ml, según la Tabla 3.2. Mediante la Ecuación 3.23 se puede determinar la can-
+tidad de cloro residual para una fracción determinada de remoción (Burton et al., 2013).
+Nt
+N0
+= (1 + 0, 23 · Ct · t)−3
+(3.23)
+Donde:
+Nt
+=
+número de organismos coliformes en el instante t
+N0
+=
+número de organismos coliformes en el instante t0
+Ct
+=
+cloro residual medido amperométricamente en el instante de tiempo t, mg/l
+t
+=
+tiempo de residencia hidráulico en minutos
+Para alcanzar la concentración de cloro residual necesario, se debe determinar la concentra-
+ción necesaria de cloro inicial que se debe agregar. Esto se puede determinar según la siguiente
+expresión:
+Cr = 0, 7 · Ci · e−0,003·t
+(3.24)
+Donde:
+Ci
+=
+concentración de cloro necesaria para alcanzar Cr, mg/l
+t
+=
+tiempo de residencia hidráulico en minutos
+Volumen del estanque de desinfección se puede obtener con el caudal de entrada y el tiempo
+de residencia.
+Vcl = Qmed · t
+60
+(3.25)
+
+
+=== PÁG 52 del PDF ===
+38
+3.1.13.
+Cálculo hidráulico tuberías (recirculación y secado de lodos).
+Pérdida de carga friccional:
+Para el cálculo de las pérdidas de carga friccional en cañerías, se utilizará la Fórmula de
+Hazen Williams:
+J = (10, 67 · Q1,85)/(C1,85 · D4,87)
+(3.26)
+En que:
+J = Pérdida de carga unitaria (m)
+Q = Caudal (m3/s)
+D = Diámetro (m)
+C = Coeficiente de fricción de Hazen Williams
+Para distintos materiales, se adoptó el siguiente coeficiente C:
+PVC = C (130)
+Acero = C (100)
+HDPE = C (150)
+Pérdida de carga singulares:
+La pérdida de carga singular de una pieza especial es proporcional a la altura de velocidad del
+escurrimiento (Giles and Moneva, 1970). De este modo, la pérdida singular (Ps), se determina
+mediante la siguiente relación:
+Ps = (K · V 2)/2g
+(3.27)
+En que:
+V = Velocidad de escurrimiento
+g = Aceleración de gravedad (9,8 m/s2)
+K = Coeficiente de pérdida singular
+Según Giles and Moneva (1970), para el cálculo de aducciones e impulsiones los coeficientes de
+pérdidas de carga singulares son los siguientes:
+
+
+=== PÁG 53 del PDF ===
+39
+Curva 90◦= K (0,6)
+Tee lateral = K (1,8)
+Tee pasante = K (0,6)
+Reducción = K (0,6)
+Ensanche = K (0,6)
+Válvula de compuerta abierta = K (0,2)
+Válvula de retención = K (2,5)
+Acero = C (100)
+HDPE = C (150)
+Pérdida de carga por diferencia geométrica
+En el contexto de la pérdida de carga se refiere a la variación en la altitud entre dos puntos a lo
+largo de una tubería o conducto a través del cual fluye un fluido. La pérdida de carga geométrica
+está relacionada con los cambios en la elevación y se debe a la altura relativa de los puntos de
+entrada y salida del flujo (Giles and Moneva, 1970).
+Cuando un fluido, como agua, fluye a través de una tubería o conducto, la pérdida de carga
+geométrica se produce debido a las diferencias de altura entre diferentes puntos del sistema. Esta
+pérdida de carga puede expresarse en términos de la altura manométrica, que es la altura de una
+columna de fluido equivalente a la pérdida de carga (Giles and Moneva, 1970).
+Según Giles and Moneva (1970), la fórmula básica para la pérdida de carga geométrica (hg)
+en una tubería se puede expresar como:
+hg = ∆z
+g
+(3.28)
+donde:
+hg = Pérdida de carga geométrica (m)
+∆z = Es la diferencia de altura entre dos puntos a lo largo de la tubería
+g = Es la aceleración debida a la gravedad.
+Pérdida de carga total
+En un sistema se compone de la pérdida de carga friccional, La pérdida de carga singular,
+La perdida de carga por diferencia geométrica (Giles and Moneva, 1970).
+
+
+=== PÁG 54 del PDF ===
+40
+3.2.
+Sistema basado en la naturaleza (Objetivo específico 2)
+En humedales se trabaja de manera condominial, es usual dividir el área total en varios
+lechos, los cuales pueden ser alimentados independientemente, de tal manera que habrá al menos
+un lecho en reposo y sin recibir carga. Las guías de diseño alemanas recomiendan que para
+humedales de FV, un cuarto del área total de tratamiento esté sin recibir carga (Dotro et al.,
+2021).
+El modelo de diseño, basado en la demanda de oxigeno se ha utilizado con frecuencia en
+América Latina (Platzer et al., 2016). Aunque se tomará en consideración otras guias de diseño
+con el fin de obtener resultados más favorables a los establecidos por los límites máximos per-
+mitidos para la descarga de residuos líquidos a cuerpos de agua fluviales, según la BCN (2000).
+Es necesario someter las aguas residuales a un tratamiento preliminar en una fosa de se-
+dimentación compuesta por dos o tres cámaras antes de su liberación, con el fin de reducir al
+mínimo el riesgo de obstrucción en las tuberías y el filtro vertical. En sistemas de mayor escala
+con depósitos de dos cámaras, se recomienda que el volumen de la primera cámara sea del 70
+al 90 % del volumen total del depósito. Además, se aconseja realizar la extracción de lodos del
+tanque anualmente para garantizar una capacidad de eliminación de lodos adecuada (Brix and
+Arias, 2005). En este diseño, se considerarán los parámetros establecidos por la guía danesa, en
+conjunto con un enfoque basado en la demanda de oxígeno. Esta elección se debe a que la guía
+danesa únicamente es aplicable a humedales con una población equivalente inferior a 30, se esti-
+ma que la población equivalente de una persona puede ser de aproximadamente 60 a 80 gramos
+de DBO por día. Mientras que, en el proyecto la población proyectada asiende a 432 personas
+con una carga de 7590 gramos de BDO por día. Además, para humedales FV de hasta 30 hab-eq,
+las directrices danesas exigen recirculación del 50 % del efluente a la primera cámara del tanque
+séptico (Brix and Arias, 2005).
+En los humedales de flujo vertical, la alimentación secuencial se realiza con una bomba o, si
+la topografía lo permite y hay suficiente diferencia de altitud, mediante un sifón que no requiere
+energía (Dotro et al., 2021). Las aguas residuales se distribuyen de manera uniforme sobre la
+superficie del lecho mediante una red de tuberías de distribución a presión. Estas tuberías, con
+un diámetro de 32 a 45 mm y orificios de 5 a 7 mm cada 0,4 a 0,7 m, garantizan una distribución
+
+
+=== PÁG 55 del PDF ===
+41
+homogénea del agua en todo el lecho (Brix and Arias, 2005). Es crucial garantizar una distri-
+bución uniforme del agua residual para aprovechar todo el volumen del lecho. La tasa de carga
+hidráulica superficial no debe exceder los 80 - 120 L/m² d (0,08-0,12 m3/m2d) según las pautas
+de la (DWA, 2017), y es esencial mantener todo el sistema de distribución bajo presión durante
+un tiempo suficiente para lograr una distribución uniforme (Brix and Arias, 2005). Con interva-
+los de alimentación de al menos 6 horas (DWA, 2017) o entre 3 y 6 horas según ÖNORM (2009)
+o una frecuencia de carga de 8 a 12 pulsos al día para cargas normales y de 16 a 24 pulsos al día
+cuando se recircula la mitad del efluente (Brix and Arias, 2005). En la Tabla 3.6 se presentan los
+parámetros de diseño clave para los humedales de flujo vertical (FV) destinados al tratamiento
+de aguas residuales domésticas.
+Tabla 3.6: Principales parámetros de diseño de humedales de FV que tratan aguas domesticas,
+obtenido de Dotro et al. (2021)
+Parámetro de diseño
+Dinamarcaa
+Alemania
+Austria
+Tamaño mínimo
+5 hab-eq
+4 hab-eq
+4 hab-eq
+Tratamiento primario
+2 m3 para una sola
+0,3 m3/hab-eq
+0,25 m3/hab-eq
+(tanque séptico)
+casa (5 hab-eq)
+(min. 3 m3
+(min. 2 m3)
+Área superficial
+Especifica requerida
+3
+4
+4
+(m2/hab-eq)
+Max. tasa de carga
+orgánica
+27
+20
+20
+(gDQO/m2*d)
+Capa principal
+Material de filtro
+Arena
+Arena 0,06-
+Arena 0,06-
+2 mm
+4 mm
+Profundidad (cm)
+100
+>50
+>50
+d10 (mm)
+0,25-1,2
+0,2-0,4
+0,2-0,4
+d60 (mm)
+1-4
+-
+-
+U = d60/d10
+<3,5
+<5
+-
+Sistema de distribución
+-
+Mínimo de un orificio
+Mínimo un orificio
+Distribución
+de apertura por m2
+de apertura por m2
+Referencia
+(Brix and Arias, 2005)
+(DWA, 2017)
+(ÖNORM, 2009)
+
+
+=== PÁG 56 del PDF ===
+42
+La configuración del sistema de flujo vertical, según la norma danesa (Brix and Arias (2005)),
+para una vivienda unifamiliar implica una profundidad total del filtro de 1,4 m, con capas que in-
+cluyen 0,2 m de drenaje, 1,0 m de arena filtrante y 0,2 m de aislamiento. Se establece un terraplén
+de 0,2 m alrededor del lecho del filtro para prevenir la entrada de agua superficial. La membrana
+impermeable, con un espesor mínimo de 0,5 mm, cierra el lecho del filtro y está protegida por
+geotextil en ambos lados. La capa de drenaje, compuesta por grava gruesa (Ø 8-16 mm), aloja
+tuberías de drenaje de 70 mm de diámetro, conectadas a una tubería colectora de 90-120 mm
+que dirige el efluente hacia el pozo de efluente. El sistema de drenaje se airea de forma pasiva
+mediante tuberías verticales que se elevan 0,3 m sobre la superficie del lecho del filtro. Estos
+datos de diseño se utilizaran para el diseño del humedal de la población a servir.
+Una alternativa para el diseño de humedales de FV, está basado en la demanda de oxígeno
+de diseño, que fue propuesto por Platzer (1999). Se calcula la demanda de oxígeno para efectuar
+los procesos aerobios (Oxidación de la DQO y nitrificación). El criterio de diseño consiste en
+que el aporte de oxígeno (OI) debe ser mayor que la demanda de oxígeno:
+OI[g/d] −OD[g/d] > 0
+(3.29)
+OD[g/d] = ODDQO + ODnitrificacion + ODdesnitrificacion
+(3.30)
+OI[g/d] = OIdifusion + OIconveccion
+(3.31)
+Donde:
+OI
+=
+Aporte total de oxígeno
+OD
+=
+Demanda total de oxígeno
+ODDQO
+=
+Demanda de oxígeno debido a la descomposición de la materia orgánica
+ODnitrificacion
+=
+Demanda de oxígeno debido a la nitrificación
+ODdesnitrificacion
+=
+Reducción de la demanda de oxígeno por efecto de desnitrificación parcial
+OIdifusion
+=
+Aporte de oxígeno debido a la difusión
+OIconveccion
+=
+Aporte de oxígeno debido a la convección
+
+
+=== PÁG 57 del PDF ===
+43
+Según Platzer (1999), la demanda de oxígeno en humedales de flujo vertical es de 0,7 gO2/g
+DQO, este valor es a raíz de la descomposición de material orgánico con una eliminación de DQO
+de 85 %. El valor de demanda de oxígeno por nitrificación se calcula con 4,3 gO2/g de nitrógeno
+total kjeldahl (NTK) y el oxígeno recuperado por desnitrificación es de 2,9 g O2/g NTK (Dotro
+et al., 2021). Si se asume una nitrificación completa y cerca del 10 % de desnitrificación en
+humedales de FV, la demanda de oxígeno se puede calcular como se muestra a continuación:
+ODDQO = 0, 85(0, 7gO2
+L )DQOIN
+(3.32)
+ODnitrificacion = 4, 3
+gO2
+gNTKIN
+(3.33)
+ODdesnitrificacion = 0, 1(2, 9 gO2
+gNTK )NTKIN
+(3.34)
+Donde:
+ODDQO
+=
+Demanda de oxígeno debido a la descomposición de la materia orgánica
+ODnitrificacion
+=
+Demanda de oxígeno debido a la nitrificación
+ODdesnitrificacion
+=
+Reducción de la demanda de oxígeno por efecto de desnitrificación parcial
+DQOIN
+=
+Carga de DQO en el afluente
+NTKIN
+=
+Carga de NTK en el afluente
+El aporte de oxígeno por difusión está calculado a razón de 1 g O2/h∙m². El tiempo de satura-
+ción, después de cada descarga de agua debe ser descontado del tiempo entre descargas. Platzer
+(1999) afirma que el aporte de oxígeno por difusión no se presenta antes de un tiempo de 1,5 h
+posterior a cada descarga. El aporte de oxígeno por difusión se puede calcular como se muestra
+a continuación (Dotro et al., 2021):
+OIdifusion = 1[ gO2
+hm2](A[m2])24[h] −1, 5[h]ncargas
+1[d]
+(3.35)
+Donde:
+
+
+=== PÁG 58 del PDF ===
+44
+OIDifusion
+=
+Aporte de oxígeno por efecto de la difusión
+A
+=
+Área superficial
+ncargas
+=
+Número de cargas diarias
+Para calcular el aporte de oxígeno por convección, Platzer (1999) afirma que la convección
+es proporcional a la carga hidráulica. Como el aire contiene 300 mg O2/L de oxígeno el aporte
+se puede calcular como:
+OIconveccion = 0, 3[gO2
+L ]Vcargado(1000[ L
+m3])
+(3.36)
+Donde:
+OIconveccion
+=
+Aporte de oxígeno por convección
+Vdescargadas
+=
+Caudal de agua diario
+Según lo planteado en el libro humedales para el tratamiento Dotro et al. (2021), la elimi-
+nación de NT se limita entre un 20 y 30 %, por lo tanto, si se desea eliminar mayor cantidad de
+nitrógeno es necesario recircular el efluente del humedal vertical. Se lleva hasta el tratamiento
+primario y desde ahí se recircula, si se diseña para recircular las aguas se debe tener en cuenta
+que esto aumenta el tamaño del sistema aumentando aún más los costos.
+3.2.1.
+Diseño del sedimentador primario (tanque séptico de 3 cámaras).
+Conforme a las directrices de ÖNORM (2009) para poblaciones superiores a 50 habitantes
+equivalentes (hab-eq), se recomienda que las fosas sépticas tengan un tamaño de 0,25 m3/hab-
+eq, con una superficie mínima per cápita del tanque de 0,06 m2/hab-eq. La primera cámara del
+tanque debe representar el 50 % del volumen total del tanque séptico, mientras que la segunda
+y tercera cámaras deben abarcar cada una un 25 % del volumen del tanque. La profundidad del
+tanque está comprendida entre 3,5 y 5 metros. La tercera cámara del tanque séptico funciona
+como un tanque dosificador para el humedal; se asume que un tercio de la Demanda Química de
+Oxígeno (DQO) se elimina en el tanque séptico (DWA, 2017).
+
+
+=== PÁG 59 del PDF ===
+45
+Volumen mínimo del tanque séptico:
+Volumenmin= Población · 0,25 m3
+Superficie mínima del tanque séptico:
+Superficiemin= Población · 0,06 m2
+Los volumen de cada cámara se establecen como:
+Volumen 1◦CAM = Volumen · 50 %
+Volumen 2◦CAM = Volumen · 25 %
+Volumen 3◦CAM = Volumen · 25 %
+Tiempo de retención hidráulica TR, en días.
+TR = Volumen/Q
+Q = Caudal medio de aguas residuales (L/hab·d)
+Volumen requerido para la sedimentación
+Vs = Qmed· TR
+Volumen de digestión y almacenamiento de lodos (Vd, m−3).
+Vd = 70· 10−3· (P· N)
+N = Intervalo de limpieza deseado durante un año
+Volumen de natas:
+Se considera un volumen mínimo de 0,7 m−3.
+Profundidad máxima de espuma sumergida (m).
+He = 0,7/A
+A = Área superficial del tanque séptico.
+
+
+=== PÁG 60 del PDF ===
+46
+Profundidad libre de espuma sumergida:
+Distancia entre la superficie inferior de la capa de espuma y el nivel inferior de la Tee de
+salida o cortina deflectora del dispositivo de salida del tanque séptico, debe tener un valor
+mínimo de 0,1 m.
+Profundidad mínima requerida para la sedimentación (m).
+Hs = Vs/A
+3.3.
+Evaluación y comparación de costos (Objetivo específico
+3)
+En esta sección, se aborda el análisis económico de las dos opciones propuestas para el
+tratamiento de aguas servidas para la Villa los naranjos en el sector del Melozal. El objetivo
+es identificar, mediante esta herramienta cuantitativa, cuál de las alternativas resulta más favo-
+rable. Desde el punto de vista económico la evaluación económica de cada opción incluye la
+consideración de los costos iniciales (inversión inicial).
+Inversion inicial
+Es crucial para establecer la infraestructura y los recursos necesarios para el funcionamiento
+del proyecto. Abarca la construcción de instalaciones, la compra de equipos de tratamiento, la
+implementación de sistemas de recolección y otros gastos necesarios para poner en marcha la
+operación.
+También se incluyen, en esta sección, la determinación de los costos Indirectos tales como
+los de ingeniería, imprevistos y puesta en marcha.
+Identificación de componentes del proyecto: se enumera y detalla todos los componentes
+del proyecto. Esto incluye equipos, materiales, mano de obra, ingeniería.
+Obtención de cotizaciones y precios: realización de cotizaciones de proveedores para los
+equipos, materiales y servicios necesarios.
+Estimación de mano de obra: se estiman los costos de la mano de obra considerando las
+horas necesarias para la construcción e instalación de los sistemas.
+
+
+=== PÁG 61 del PDF ===
+47
+3.3.1.
+Presupuesto del sistema sanitario convencional
+El presupuesto se debe realizar al detalle con los siguientes puntos:
+Urbanización.
+Esta categoría abarca los costos asociados con la adecuación y urbanización del área donde
+se construirá la PTAS. Incluye compra del terreno, preparación del lugar y cierre perime-
+tral.
+Movimiento de tierra totalidad de obra.
+Implica los gastos relacionados con la excavación, relleno y nivelación del terreno nece-
+sario para la construcción de la PTAS. Esto puede incluir la creación de plataformas para
+las diversas instalaciones y equipos.
+Obras civiles reactor.
+Comprende los costos asociados con la construcción del reactor biológico, que es una
+parte clave del proceso de tratamiento de aguas residuales. Esto implica la creación de
+estructuras para contener y procesar los efluentes.
+Obras civiles impulsión licor de mezcla.
+Involucra los trabajos de construcción asociados con la instalación de sistemas de bombeo
+y tuberías necesarios para movilizar el licor de mezcla en el proceso de tratamiento.
+Obras civiles sedimentador.
+Incluye los costos de construcción relacionados con los sedimentadores, estructuras dise-
+ñadas para facilitar la separación de sólidos y líquidos en el agua residual.
+Obras civiles impulsión recirculación y secado de lodos.
+Cubre los gastos asociados con la construcción de instalaciones para recircular el agua
+tratada y conducir los lodos a el área de secado.
+Obras civiles secado de lodos.
+Detalla los costos de construcción específicos para las instalaciones destinadas al secado
+de lodos generados durante el proceso de tratamiento.
+
+
+=== PÁG 62 del PDF ===
+48
+Obras civiles cloración.
+Involucra la construcción de estructuras y sistemas para llevar a cabo el proceso de clora-
+ción, que es comúnmente utilizado para desinfectar el agua tratada antes de su liberación.
+Suministro, transporte, instalación y prueba de cañerías y piezas especiales.
+Engloba los costos relacionados con la adquisición, transporte e instalación de tuberías y
+componentes especiales necesarios para el funcionamiento eficiente de la PTAR.
+Obras civiles caseta.
+Comprende los costos de construcción asociados con la edificación de una caseta, que
+podría utilizarse para albergar equipos de control, sistemas eléctricos u otros componentes
+esenciales.
+3.3.2.
+Presupuesto del sistema sanitario basado en la naturaleza.
+El presupuesto se debe realizar al detalle con los siguientes puntos:
+Urbanización.
+Este rubro abarca los costos asociados con la preparación y urbanización del área destinada
+para el humedal construido vertical. Incluye compra del terreno, preparación del lugar y
+cierre perimetral.
+Movimiento de tierra totalidad de obra.
+Implica los costos asociados con la manipulación del terreno para adecuarlo a las necesi-
+dades del proyecto. Esto puede incluir excavación, relleno y nivelación del terreno según
+las especificaciones del diseño.
+Obras civiles construcción humedal.
+Incluye los costos específicos de construcción asociados con la implementación del hu-
+medal construido vertical. Esto implica la creación de canales, las capas filtrantes del hu-
+medal, la instalación de las plantas acuáticas y estructuras necesarias para garantizar un
+funcionamiento eficiente del humedal.
+
+
+=== PÁG 63 del PDF ===
+49
+Obras civiles tanque séptico de 3 cámaras.
+Cubre los gastos relacionados con la construcción de un tanque séptico con tres cámaras.
+Cámaras de inspección recolección de aguas tratadas.
+Involucra los costos asociados con la construcción de cámaras de inspección destinadas
+a la recolección de las aguas tratadas que han pasado a través del humedal vertical. Estas
+cámaras son puntos clave para evaluar la calidad del agua tratada.
+Obras civiles impulsión recirculación aguas tratadas.
+Cubre los gastos relacionados con la construcción de instalaciones destinadas a impulsar
+y recircular las aguas tratadas a través del humedal para garantizar un proceso continuo y
+eficiente de tratamiento.
+Obras civiles cloración.
+Involucra la construcción de estructuras y sistemas para llevar a cabo el proceso de clora-
+ción, que es comúnmente utilizado para desinfectar el agua tratada antes de su liberación.
+Obras civiles caseta.
+Comprende los costos de construcción de una caseta. Esta caseta puede utilizarse para
+albergar equipos de control, sistemas eléctricos, y servir como centro de operaciones para
+la supervisión y mantenimiento del humedal construido vertical.
+3.3.3.
+Comparación de presupuestos.
+La comparación se realiza a partir de los presupuestos confeccionados en los apartados 3.3.1
+y 3.3.2 de los cuales se determinará el ahorro a través del cálculo la inversión inicial necesario
+para implementar ambas soluciones.
+
+
+=== PÁG 64 del PDF ===
+50
+Capítulo 4
+Análisis y Resultados
+Para el análisis de los resultados es necesario un resumen de los diseños de ambas soluciones.
+En el diseño final elegido, la atención se enfocada en costos y espacio a emplear. Cada sistema
+incluye, cálculo de diseño, esquemas de ingenería y presupuestos asociados. Se espera que es-
+te proyecto proporcione una guía clara para la implementación exitosa de la solución elegida,
+contribuyendo así al mejoramiento de la calidad del agua y al bienestar de la comunidad.
+4.1.
+Resultado diseño de sistema de tratamiento convencional
+(objetivo específico 1)
+4.1.1.
+Resumen de diseño lodos activados aireación extendida
+Los resultados del diseño implica una evaluación exhaustiva de los requisitos técnicos y el
+espacio requerido para cada sistema. Un resumen de los caudales de diseño y cargas orgánicas
+se puede observar en la Tabla 4.1.
+
+
+=== PÁG 65 del PDF ===
+51
+Tabla 4.1: Caracteristicas del afluente para sistema convencional, elaboración propia.
+Afluente
+Caracteristicas
+Item
+Valor
+Agua negra
+Caudal (m3/d)
+Medio
+58,40
+Máxima
+234,53
+Mínima
+29,20
+Caudal (l/s)
+Medio
+0,68
+Máxima
+2,71
+Mínima
+0,33
+Concentración media (mg/L)
+DBO5
+130
+NTK
+50
+SS
+250
+Carga promedio a caudal medio (kg/d)
+DBO5
+7,59
+NTK
+2,92
+SS
+14,60
+Según lo presentado en el Anexo A: Diseño del sistema de lodos activados aireación exten-
+dida y lo detallado en la Tabla 4.2 que es un resumen de las características, medidas y valores
+de diseño del reactor biológico contempla. Es observable que este estanque es de sección rec-
+tangular con sistemas de aireación dispuestos cada un metro, con un volumen total de 18 m3,
+con una profundidad de 4,5 m útiles. Son dos sistemas, ocupando una relación aproximada de
+largo/ancho de 2, con la correlación anterior, se obtiene un estanque de aireación de largo 7 m y
+ancho 3,5 m. La altura de la pared del estanque será de 5,5 m para poder soportar sin dificultad
+la altura de líquido antes señalada. La Figura 4.1 y la Figura 4.2 muestran secciones del estanque
+de oxidación.
+En el sistema de aireación, según los resultados dispuestos en Tabla 4.2, las necesidades de
+oxígeno son diferentes según el factor a evaluar. El valor que debe satisfacer en la peor situación
+es una demanda de 38.315,63 kgO2/d. Esta tasa de tranferencia de oxígeno estandar se contem-
+pla en julio, el cual es el más frío en el sector con 6◦C. El método de aireación será a través
+de aireación difusa, con una energía requerida total de 1224 Hp repartida en los 6 aireadores los
+cuales constarán de 204 Hp cada uno. Estos resultados contemplan factores como el ensucia-
+
+
+=== PÁG 66 del PDF ===
+52
+mento de los difusores, presión de operación, perdida de carga en tuberías y otros. En el caso de
+los difusores, estos son de poro medio, tubular de membrana. Se ocuparán los difusores con una
+eficicencia de oxigenación de 1,75 kgO2/kWh.
+Lo observado en Tabla 4.2, la carga de solidos suspendidos que debe eliminar el sistema es de
+9.177,37 kgSST/d para lograr el efluente esperado. La concentración que tendrá la purga desde
+la línea de lodos es de 8.000 mg/L. Por lo tanto, el volumen a eliminar por día es de 1.147,17
+m3/d.
+Figura 4.1: Diagrama planta del reactor, elaboración propia.
+
+
+=== PÁG 67 del PDF ===
+53
+Figura 4.2: Diagrama elevación del reactor, elaboración propia.
+
+
+=== PÁG 68 del PDF ===
+54
+Tabla 4.2: Resumen de caracteristicas, medidas y valores de diseño en el reactor biológico airea-
+ción extendida, elaboración propia.
+Caracteristicas
+valor
+Edad del lodo (d)
+22
+MLVSS adoptado (mg/L)
+3.000
+MLSS resultante (mg/L)
+4.000
+Dimensiones
+Volumento total reactor (m3)
+18
+Número de reactores
+2
+Largo (m)
+3
+Ancho (m)
+1,5
+Alto (m)
+4,5
+Tiempo de detención media (h)
+7,39
+Rango de retorno de lodos
+1
+Aireación
+79
+Necesidades de O2 (campo) (para Qmed) (kgO2/d)
+3.525,03
+Necesidades de O2 (campo) (para Qmax) (kgO2/d)
+14.154,87
+Necesidades de O2 (estándar) (kgO2/d)
+38.315,63
+Eficiencia de oxigenación (kgO2/kWh)
+1,75
+Potencia requerida (HP)
+1.221,27
+Número de aireadores (-)
+6
+Potencia de cada aireador (HP)
+203,5
+Potencia total instalada (HP)
+1.224
+Exceso de lodos removidos del reactor
+Caudal (m3/d)
+58,41
+Carga (kgSST/d)
+9.177,37
+Concentración (mgSST/L)
+4.000
+Eliminación de la línea de lodo de retorno caudal (m3/d)
+29,20
+Carga (kgSST/d)
+9.177,37
+Concentración (mgSST/L)
+8.000
+Concentración esperada el efluente (mg/L)
+DBO5
+35
+SS
+80
+
+
+=== PÁG 69 del PDF ===
+55
+Según lo resuelto en Anexo A, el diseño del sedimentador secundario es para una planta de
+lodos activos con aireación extendida que contempla un lodo con sedimentación pobre. A efectos
+de proyecto, se eligió un sedimentador del tipo circular para separar los lodos del agua ya tratada
+provenientes del estanque de aireación de la planta. Se utilizó una pendiente del cono inferior del
+sedimentador secundario de 8 % y con un volumen de 47 m3. Este sedimentador tiene un tiempo
+de retención hidráulica de 9,49 horas para caudal medio y en caso de algún evento de crecida de
+aguas residuales un tiempo de 3,78 horas. El volumen de estos sedimentadores estará dado por el
+volumen de la sección conica, correspondiente a la parte inferior, y por el volumen de la sección
+cilíndrica que es el de la parte superior del clarificador. Los datos mencionados se encuentran
+en la tabla resumen de diseño Tabla 4.3. y su forma se aprecia en la Figura 4.3 y Figura 4.4. La
+tasa de carga hidráulica (Q/A) debe estar entre 0,1 y 1,7 m/h para caudal medio, lo cual cumple
+según lo observado en la Tabla 4.3
+Tabla 4.3: Tanque sedimentador secundario circular, elaboración propia.
+Caracteristicas
+Valor
+Dimensiones
+Número de tanques sedimentador
+1
+Diámetro del sedimentador (m)
+4
+Profundidad de sediementador (m)
+3,5
+Profundidad del cono (m)
+0,16
+Pendiente %
+8
+Volumen del tanque sedimentador (m3)
+47
+Tiempo de retención (hora)
+Qmed + QR
+9,49
+Qmax + QR
+3,78
+Tasas medias de carga resultantes
+Tasa de carga hidraulica (m3/m2·h)
+0,18
+Tasa de carga solida (m3/m·h)
+1,45
+
+=== PÁG 70 del PDF ===
+56
+Figura 4.3: Diagrama planta del sedimentador, elaboración propia.
+
+
+=== PÁG 71 del PDF ===
+57
+Figura 4.4: Diagrama elevación del sedimentador, elaboración propia.
+Los cálculos en el Anexo A y el resumen detallado en Tabla 4.4 para la desinfección de las
+aguas residuales a tratar. Se denota que se debe adicionar 0,41 mg/l de cloro con el objetivo de
+obtener una cantidad de cloro para la remoción de 0,32 mg/l. Esto implica que el volumen del
+estanque de cloración sea de 29,2 m3. Todo esto para un tiempo de retención de 30 minutos con
+el caudal medio. La forma y las medidas mencionadas en la Tabla 4.4 se pueden observar en la
+Figura 4.5
+Tabla 4.4: Resultados de diseño clorador a caudal medio, elaboración propia.
+Item
+Valor
+Cantidad de cloro para remoción (mg/l)
+0,32
+Concentración cloro inicial (mg/l)
+0,41
+Volumen de estanque cloración (m3)
+29,2
+Ancho (m)
+1
+Largo (m)
+20
+Profundidad (m)
+1,5
+
+
+=== PÁG 72 del PDF ===
+58
+Figura 4.5: Diagrama en planta de sistema de cloración, elaboración propia.
+La plata de tratamiento dispondrá de camas de secado para el lodo estabilizado y sedimen-
+tado. Según se observa en la Figura 4.6, se dispondrá de 6 unidades de camas de secado para
+mantener el tiempo que se necesite para el reposo de los lodos por carga.
+Figura 4.6: Diagrama en planta de sistema secado de lodos. Elaboración propia.
+
+
+=== PÁG 73 del PDF ===
+59
+A modo resumen la Figura 4.7 muestra los componenetes de la planta de tratamientos airea-
+ción extendida que se discutieron previamente.
+Figura 4.7: Planta sistema de tratamiento convencional, lodos activados modalidad aireación
+extendida, elaboración propia.
+4.2.
+Resultado de diseño de sistema basado en naturaleza (ob-
+jetivo específico 2)
+4.2.1.
+Resumen de diseño humedal vertical
+Los resultados del diseño abarcan una evaluación minuciosa de los requisitos técnicos y
+del espacio necesario para cada sistema. En este sentido, se llevó a cabo un análisis detallado
+de los caudales de diseño y las cargas orgánicas, cuyos datos se resumen en la Tabla 4.5. Este
+proceso permite obtener una visión clara y completa de los parámetros clave que guiarán la
+
+
+=== PÁG 74 del PDF ===
+60
+implementación y operación eficaz de esta solución. En este diseño se implementa los valores
+de DQO, el cual juega un rol importante en el diseño por demanda de oxígeno.
+Tabla 4.5: Caracteristicas del afluente para sistema basado en la naturaleza, elaboración propia.
+Afluente
+Caracteristicas
+Item
+Valor
+Agua Negra
+Caudal (m3/d)
+Medio
+58,40
+Máxima
+234,53
+Mínima
+29,20
+Caudal (l/s)
+Medio
+0,68
+Máxima
+2,71
+Mínima
+0,33
+Concentración media a caudal medio(mg/L)
+DQO
+210
+NTK
+50
+SS
+250
+Carga promedio a caudal medio (kg/d)
+DQO
+12,27
+NTK
+2,92
+SS
+14,60
+El análisis exhaustivo de los cálculos realizados para el tanque séptico se detalla en el Ta-
+bla 4.6, y se encuentra disponible en el Anexo B: sedimentador primario. El sedimentador tiene
+un volumen total de 117 m3, con dimensiones específicas de 10,8 metros de largo, 2,6 metros de
+ancho y una profundidad de 4,5 metros, como se muestra en la Figura 4.8 y en la Figura 4.9.
+
+
+=== PÁG 75 del PDF ===
+61
+Tabla 4.6: Tanque séptico de tres cámaras
+Caracteristicas
+Valor
+Dimensiones
+Número de tanques sedimentador
+1
+Largo total del sedimentador (m)
+10
+Ancho sedimentador (m)
+2,6
+Profundidad de sediementador (m)
+4,5
+Pendiente %
+3
+Volumen del tanque séptico (m3)
+117
+Tiempo de retención hidráulica (d)
+1,5
+Grosor muro (m)
+0,2
+Figura 4.8: Diagrama de planta del tanque séptico. Elaboración propia.
+Figura 4.9: Diagrama del Corte 1 realizado al tanque séptico. Elaboración propia.
+
+
+=== PÁG 76 del PDF ===
+62
+Para el diseño del humedal construido, se tomaron en cuenta los valores detallados en la
+Tabla 4.7. La utilización de estos valores se detalla minuciosamente en el Anexo B: método por
+demanda de oxígeno, donde se describe el proceso de cálculo y aplicación de los mismos en el
+diseño del humedal
+Tabla 4.7: Consideraciones de diseño humedal vertical.
+Item
+Caracteristicas
+Valor
+Área humedal
+Máximo por lote
+400 m2
+Demanda de oxígeno
+DQO (gO2/gDQO)
+0,7
+NTK (gO2/gNTK)
+4,3
+Recuperación de oxígeno
+Desnitrificación (gO2/gNTK)
+2,9
+Tasa de carga
+Hidráulica (m3/m2)
+0,08
+Orgánica (gDQO/m2·d)
+20
+Eficiencia
+Eliminación DQO
+85 %
+Eliminación NTK
+90 %
+Recuperación desnitrificación
+10 %
+Según se detalla en el Tabla 4.8, para el tratamiento de las aguas residuales recibidas por el
+humedal construido vertical, se estableció la disposición de 4 lechos, cada uno con una superficie
+de 400 m2. El análisis detallado de este diseño se encuentra disponible en el Anexo B: Método
+por demanda de oxígeno.
+Al considerar un número de carga de 7 veces al día y el área mencionada anteriormente,
+se calcula un aporte de oxígeno al sistema de 39.121,92 g/día. Con una demanda de oxígeno de
+20.702,14 g/día, se obtiene una diferencia entre ambos de 18.419,77 g/día. Este resultado propor-
+ciona una indicación clara del rendimiento del sistema en términos de capacidad para satisfacer
+la demanda de oxígeno y, por lo tanto, su eficacia en el tratamiento de las aguas residuales.
+
+
+=== PÁG 77 del PDF ===
+63
+Tabla 4.8: Resultados diseño humedal vertical
+Item
+Caracteristicas
+Valor
+Demanda de oxígeno
+Descomposición materia orgánica (DQO)
+7297,87 g/d
+Nitrificación NTK
+12557,37 g/d
+Recuperación de oxígeno
+Desnitrificación
+846,89 g/d
+Demanda de oxígeno total
+20702,14 g/d
+Aporte de oxígeno
+Difusión
+21600g/d
+Convección
+17521,92 g/d
+Aporte de oxígeno total
+39121,92 g/d
+Superficie de diseño
+Qmed + Qret
+1600 m2
+Números de lechos
+Qmed + Qret
+4
+Como se muestra en detalle en la Figura 4.10, la distribución del efluente se realizará me-
+diante tuberías de PVC con un diámetro de 50 mm y una longitud de 18,5 metros, colocadas a
+una distancia de 0,5 metros entre sí. Estas tuberías estarán equipadas con agujeros de 0,5 mm de
+diámetro, espaciados cada 0,4 metros a lo largo de su longitud. Este diseño de distribución garan-
+tiza una dispersión uniforme del flujo de efluente a través del humedal construido, asegurando
+así una adecuada distribución de los contaminantes para su tratamiento efectivo.
+
+
+=== PÁG 78 del PDF ===
+64
+Figura 4.10: Diagrama del corte A, sistema de distribución de aguas en humedal construido,
+elaboración propia.
+En la Figura 4.11, el diagrama muestra una profundidad total del filtro de 1,4 m, con capas
+que incluyen 0,2 m de drenaje compuesto por gravilla, 1,0 m de arena filtrante constituido por
+arena gruesa y 0,2 m de aislamiento con gravilla.
+Figura 4.11: Diagrama corte con gravas y arenas a utilizar, humedal construido, elaboración
+propia.
+
+
+=== PÁG 79 del PDF ===
+65
+Para la disposición de las plantas, como se ilustra en la Figura 4.12, se planea distribuirlas
+con una densidad aproximada de 4 unidades por metro cuadrado. En este diseño, se optará por
+la especie ampliamente reconocida y utilizada en el pais llamada Juncus effusus conocida como
+Totora (Figura 4.13), debido a su capacidad para adaptarse a ambientes acuáticos y su eficacia
+en la remoción de contaminantes en humedales construidos.
+Figura 4.12: Diagrama de humedal dispoción de Juncus effusus (Totora), elaboración propia.
+
+
+=== PÁG 80 del PDF ===
+66
+Figura 4.13: Aspecto general, raíz y tallo con inflorescencias de la especie Juncus effusus, obte-
+nido de Vicuña (2020).
+Para el eficiente sistema de captación de aguas en el humedal, se ha establecido el uso de
+tuberías de drenaje de PVC con un diámetro de 120 mm y una longitud de 17,5 m cada una. Estas
+tuberías serán dispuestas, según se observa en la Figura 4.10, a una separación de 1 metro entre sí
+y seguirán la pendiente del humedal, que ha sido diseñada con una inclinación del 3 %. Además,
+las tuberías de drenaje se extenderán hasta la superficie, formando así la tubería de respiración
+del sistema, la cual estará situada a 0,2 metros por encima de la superficie del lecho del humedal,
+según se observa en la Figura 4.14
+
+
+=== PÁG 81 del PDF ===
+67
+Figura 4.14: Diagrama del corte 2, sistema de distribución de aguas en humedal construido.
+Elaboración propia.
+Según la Figura 4.15 este diseño garantiza una eficiente circulación y oxigenación del siste-
+ma. Las tuberías de captación estarán conectadas a un sistema de alcantarillado, el cual guiará las
+aguas hacia una cámara que encausa los efluentes para retornar o a la etapa de cloración. En la
+Figura 4.15 se observa de más cerca esta cámara, la cual permitirá el paso de una parte del caudal
+tratado hacia un sistema de impulsión que dirigirá las aguas tratadas nuevamente al sistema.
+Figura 4.15: Diagrama corte C imagen ampliada. Elaboración propia.
+
+
+=== PÁG 82 del PDF ===
+68
+El sistema de impulsión desempeñará un papel crucial en el tratamiento de las aguas re-
+siduales, ya que recolectará el 50 % del caudal tratado para recircularlo hacia el sedimentador
+primario. Este proceso se realizará con un caudal de 0,33 litros por segundo (l/s), garantizando
+así una óptima circulación y tratamiento del agua. De modo general, esta sitacuión se representa
+como muestran las Figura 4.16 y Figura 4.17.
+Figura 4.16: Diagrama planta humedal sección bomba impulsión y cámara separadora de efluen-
+te, elaboración propia.
+
+
+=== PÁG 83 del PDF ===
+69
+Figura 4.17: Diagrama elevación humedal sección bomba impulsión y cámara separadora de
+efluente, elaboración propia.
+Según lo detallado anteriormente, el resultado de diseño del humedal construido vertical y
+su disposición se observa en la Figura 4.18. El esquema general incluye el tanque séptico y el
+sistema de impulsión de aguas a tratar hacias los humedales contruidos. Luego, la captación de
+aguas efluentes del humedal encausados para ser retornados al tanque séptico o al sistema de
+desinfección.
+
+
+=== PÁG 84 del PDF ===
+70
+Figura 4.18: Planta sistema basado en la naturaleza, humedal construido, elaboración propia.
+
+
+=== PÁG 85 del PDF ===
+71
+4.3.
+Evaluación y comparación de costos (objetivo específico
+3)
+4.3.1.
+Presupuesto del sistema sanitario convencional
+El primer costo involucrado es el terreno en donde se instala la planta de tratamiento, la
+superficie necesaria estimada apta para esta obra es de 1200 m2. Es importante el acondicona-
+miento del terreno que se necesita para la construcción de la planta. La Tabla 4.9 se observa el
+costo del precio del terreno, cierre y cerco.
+Tabla 4.9: Costos sistema convencional: terreno y cierre, elaboración propia.
+Item
+Cantidad
+Costo fijo (CLP)
+Terreno
+1200 m2
+6.000.000
+Cierre
+140 m
+8.505.000
+Portón
+1 UND
+473.000
+Para determinar la inversión, se evalua los costos de las obras civiles esenciales para la
+construcción de la mayoría de los equipos, así como los gastos asociados con la adquisición de
+dicho equipamiento. También, el costo asociado a la construcción de edificios donde se ubiquen
+la administración, edificio técnico y equipamiento. La Tabla 4.10 presenta un resumen del costo
+total de cada equipo que forma parte de la planta de lodo activo convencional.
+
+
+=== PÁG 86 del PDF ===
+72
+Tabla 4.10: Costos sistema convencional: obras civiles, elaboración propia.
+Item
+Costo fijo (CLP)
+Movimiento de tierra totalidad obra
+9.221.700
+Obras civiles reactor
+60.705.200
+Obras civiles impulsión licor de mezcla
+19.126.400
+Obras civiles sedimentador
+13.261.200
+Obras civiles impulsión recirculación
+44.705.800
+y secado de lodos
+Obras civiles Secado de lodos
+28.293.000
+Obras civiles cloración
+9.131.800
+Suministro, transporte, instalación,
+10.082.000
+prueba de cañería y piezas especiales
+Obras civiles caseta
+27.421.800
+4.3.2.
+Presupuesto del sistema sanitario basado en la naturaleza
+El costo inicial principal implica el terreno donde se erige la planta de tratamiento. Se estima
+que se requiere una superficie de aproximadamente 2500 m2 para esta obra, siendo crucial el
+acondicionamiento del terreno necesario para la construcción de la planta. En la Tabla 4.11 se
+observa el costo que engloba aspectos como el precio del terreno, cierre y portón de acceso.
+Tabla 4.11: Costos sistema basado en la naturaleza: terreno y cierre, elaboración propia.
+Item
+Cantidad
+Costo fijo (CLP)
+Terreno
+2500 m2
+12.500.000
+Cierre
+200 m
+12.150.000
+Portón
+1 UND
+473.000
+Para calcular la inversión, se analizan los costos de las obras civiles fundamentales necesarias
+para la construcción del sistema de humedales construidos y la mayoría de los equipos, así como
+los gastos vinculados a la adquisición de dicho equipamiento. También, el costo asociado a la
+construcción de edificios donde se ubiquen la administración, edificio técnico y equipamiento.
+
+
+=== PÁG 87 del PDF ===
+73
+La Tabla 4.12 muestra un resumen del costo total de cada item que integra el humedal construido
+vertical subsuperficial.
+Tabla 4.12: Costos sistema basado en la naturaleza: obras civiles, elaboración propia.
+Item
+Costo fijo (CLP)
+Movimiento de tierra totalidad de obra
+63.168.100
+Obras civiles construcción humedal vertical
+63.747.000
+Obras civiles tanque séptico de 3 cámaras
+31.752.700
+Impulsión de tanque séptico a humedal
+53.741.300
+Cámara de inspección recolección aguas tratadas
+3.458.000
+Obras civiles impulsión recirculación aguas tratadas
+31.513.200
+Obras civiles cloración
+9.131.800
+Obras civiles caseta
+27.421.800
+4.3.3.
+Comparación de presupuestos
+A partir de los presupuestos detallados en las secciones 3.3.1 y 3.3.2, se procede a anali-
+zar y comparar los costos asociados, determinando así la inversión o ahorro necesario para la
+implementación de estas dos soluciones.
+La Tabla 4.13 consta solo de itemizados comparables dentro de las obras civiles e inversión
+que se realiza en ambos sistemas diseñados. En los lodos activados aireación extendida no se
+incluyó los costos de obras civiles para el secado de lodos y transporte e instalación de piezas
+especiales. Ambos suman un total de $38,4 millones aproximados, detallados en la Tabla 4.10.
+
+
+=== PÁG 88 del PDF ===
+74
+Tabla 4.13: Tabla comparativa de costos en lodos activados aireación extendida y humedal cons-
+truido vertical, elaboración propia.
+Item
+Lodos activados
+Humedal construido
+aireación extendida
+vertical
+Urbanización
+14.978.100
+25.123.100
+Movimiento de tierra totalidad de obra
+9.221.700
+63.168.100
+Obras civiles construcción
+reactor
+humedal
+60.705.200
+63.747.000
+Obras civiles impulsión
+19.126.400
+53.741.300
+Obras civiles construcción
+sedimentador
+tanque séptico
+13.261.200
+31.752.700
+Obras civiles recirculación
+lodos
+agua
+44.705.800
+31.513.200
+Obras civiles cloración
+9.131.800
+9.131.800
+Obras civiles caseta
+27.421.800
+27.421.800
+Según lo detallado en las Tabla 4.9 y en Tabla 4.11 el sistema convencional requiere un
+terreno de 1200 m2, mientras que el sistema basado en la naturaleza demanda un terreno de 2500
+m2. En la Tabla 4.13 el item de urbanización contempla los costos relacionados con la compra
+del terreno terreno y su cerramiento, estos son significativamente más elevados en el sistema
+basado en la naturaleza. La diferencia entre ambos es de $10,2 millones de pesos, dado que
+esta solución implica una mayor área para la purificación de las aguas residuales. Además, El
+movimiento de tierra representa una parte considerable de los costos totales de construcción del
+humedal construido vertical. Estos son significativamente más altos, lo que se debe a la mayor
+extensión de terreno y volúmenes a movilizar.
+Los costos asociados a la construcción del reactor en el sistema de lodos activados con ai-
+reación extendida son ligeramente más bajos en comparación con la construcción del humedal
+en el sistema vertical. Ambas obras civiles se diferencian por $3 millones aproximandamente.
+Los costos de impulsión son de $34,7 millones más altos en el humedal construido vertical
+en comparación a los lodos activados, se debe a que esta solución implementa un sistema de
+
+
+=== PÁG 89 del PDF ===
+75
+tuberías más complejos para la distribución del agua residual.
+Se compara los costos asociados a la construcción del sedimentador primario utilizado en el
+humedal contruido vertical y el sedimentador secundario del sistema de lodos activados airea-
+ción extendida. Los costos de construcción del tanque séptico en el sistema vertical son $18,5
+millones más altos en comparación con la construcción del sedimentador en el sistema de lodos
+activados con aireación extendida. Esto se debe a que ambos cumplen la función de asentar sóli-
+dos pero en etapas del tratamiento diferentes, con volumenes, caracteristicas y calidad de sólidos
+sedimentables totalmente distinto.
+Los costos de recirculación son $13,2 millones más altos para el sistema de lodos activa-
+dos con aireación extendida, esto se debe a que el equipo para retornar lodos es más caro en
+comparación a las bombas para retornar aguas.
+Los costos asociados a la cloración es de $9,2 millones aproximadamente y en ambas solu-
+ciones se implementa este recurso para la desinfección de los efluentes. Es decir este componente
+no contribuye en las diferencias de costos. De igual manera, ambos sistemas comparten el mis-
+mo costo vinculado a la construcción de la caseta, con un valor aproximado de $27,4 millones,
+donde se ubicarían las oficinas, sala de máquinas, sanitario, etc.
+En el sistema de lodos activados modalidad aireación extendida existen dos ítems por en-
+cima de los 40 millones: las obras civiles asociadas a la construcción del reactor e impulsión
+recirculación y secado de lodos, sumando aproximadamente $105.411.000. Mientras que, en los
+humedales verticales existen 3 ítems asociados al movimiento de tierras, construcción de hume-
+dales y impulsión de aguas residuales, ascendiendo a $180.656.400 millones de pesos.
+El sistema convencional es eficiente en términos de espacio y costos iniciales, bordeando
+costos de $285,2 millones en la totalidad de la obra. Mientras que, la solución basada en la
+naturaleza asiende a $307,1 millones. La diferencia de inversión inical entre los lodos activados
+y el humedal contruido es de un 8 %.
+Las diferencias en costos reflejan las distintas tecnologías y enfoques utilizados en cada sis-
+tema. Es esencial evaluar no solo los costos iniciales, sino también los beneficios a largo plazo y
+la sostenibilidad de cada sistema. A largo plazo, El humedal contruido tiene un costo de manten-
+ción según los casos presentados en Cross et al. (2021) de unos 6 millones anuales. Mientras, los
+sistemas convencionales implican mayores costos asociados al personal, mantenimiento, cam-
+
+
+=== PÁG 90 del PDF ===
+76
+bio de piezas y bombas, así como al aumento del volumen de reactores para poblaciones futuras
+proyectadas a 30 o 40 años. Según SISS (2010), la suma asiende a 51 millones contemplando
+todas estas variables. Este análisis a largo plazo resulta crucial para tomar decisiones informadas
+basadas en las necesidades y objetivos específicos del proyecto.
+
+
+=== PÁG 91 del PDF ===
+77
+Capítulo 5
+Conclusiones
+5.1.
+Conclusión
+Los objetivos planteados al inicio de este proyecto se han cumplido satisfactoriamente, ya
+que se pudo definir y diseñar dos alternativas de tratamiento de aguas residuales para las comuni-
+dades de San Javier, Los Naranjos y Nirivilo, asegurando una disposición segura de los residuos
+líquidos para la comunidad.
+Al comparar las dos alternativas seleccionadas, se determinó que la planta de lodo activado
+con aireación extendida presenta una menor inversión inicial que el humedal construido de tipo
+vertical, diferencia mínima y de sólo 8 %. Las etapas más críticas asociadas con la implemen-
+tación de humedales verticales son el movimiento de tierras, la construcción en si misma del
+humedal, la impulsión del agua residual, y los procesos de sedimentación que serían los que más
+aportan a incrementar el costo inicial.
+Respecto a la desinfección, para ambos sistemas se consideró la desinfección de los efluentes
+por cloración. Por tanto, no existen diferencias en este aspecto entre ambos sistemas.
+Es crucial tener en cuenta que, si bien el sistema convencional puede ser más eficiente en
+términos de espacio y costos iniciales, el sistema basado en la naturaleza tiene beneficios que ra-
+dican en su capacidad de basarse en procesos naturales. Según lo planteado en los resultados, en
+temas de costos por mantenimiento podría existir un mayor beneficio al momento de implemen-
+tar el humedal construido vertical. Los costos para el mantenimiento se sugieren más bajos para
+esta solución. No obstante, es importante realizar un análisis más detallado de esto (no abordado
+
+
+=== PÁG 92 del PDF ===
+78
+en este trabajo). Esto incluye considerar la normativa aplicable, la adaptabilidad frente al cambio
+climático y la aceptación social. Un análisis exhaustivo permitirá confirmar los beneficios del
+humedal construido vertical en costos de mantenimiento y identificar posibles desafíos y oportu-
+nidades esta tecnología. Este enfoque integral puede ayudar a ratificar lo indicado y así continuar
+en la búsqueda de nuevas soluciones para las zonas rurales de Chile y así tener un futuro más
+amigable con el medio ambiente.
+
+
+=== PÁG 93 del PDF ===
+79
+Bibliografía
+Arceivala, S. J. (1981). Wastewater treatment and disposal: engineering and ecology in pollution
+control. (No Title).
+Arias, C. and Brix, H. (2003). Humedales artificiales para el tratamiento de aguas residuales.
+Batterman, S., Eisenberg, J., Hardin, R., Kruk, M. E., Lemos, M. C., Michalak, A. M., Mukher-
+jee, B., Renne, E., Stein, H., Watkins, C., et al. (2009). Sustainable control of water-related
+infectious diseases: a review and proposal for interdisciplinary health-based systems research.
+Environmental health perspectives, 117(7):1023–1032.
+BCN (2000). Decreto supremo 90 de 2000. establece norma de emisión para la regulación de
+contaminantes asociados a las descargas de residuos líquidos a aguas marinas y continentales
+superficiales. Biblioteca del Congreso Nacional de Chile.
+Brix, H. and Arias, C. A. (2005). The use of vertical flow constructed wetlands for on-site treat-
+ment of domestic wastewater: New danish guidelines. Ecological engineering, 25(5):491–
+500.
+Burton, F., Tchobanoglous, G., Tsuchihashi, R., Stensel, H., and Metcalf & Eddy, I. (2013).
+Wastewater Engineering: Treatment and Resource Recovery. McGraw-Hill Education.
+Cohen-Shacham, E., Walters, G., Janzen, C., and Maginnis, S. (2019). Nature-Based Solutions
+to Address Global Societal Challenges. IUCN, Gland, Switzerland.
+Cross, K., Tondera, K., Rizzo, A., Andrews, L., Pucher, B., Istenič, D., Karres, N., and Mcdonald,
+R. (2021). Nature-Based Solutions for Wastewater Treatment. IWA Publishing.
+
+
+=== PÁG 94 del PDF ===
+80
+Dotro, G., Langergraber, G., Molle, P., Nivala, J., Puigagut, J., Stein, O., and Von Sperling, M.
+(2021). Humedales para Tratamiento. Biological Wastewater Treatment Series. IWA Pu-
+blishing.
+DWA (2017). Bau und betrieb von kläranlagen mit bepflanzten und unbepflanzten filtern zur
+reinigung häuslichen und kommunalen abwassers.
+Garcia, J., Rousseau, D. P., Morato, J., Lesage, E., Matamoros, V., and Bayona, J. M. (2010).
+Contaminant removal processes in subsurface-flow constructed wetlands: a review. Critical
+reviews in environmental science and technology, 40(7):561–661.
+Giles, R. V. and Moneva, J. M. (1970). Mecánica de los fluidos e hidráulica: teoría y problemas.
+McGraw-Hill.
+Hutton, G., Haller, L., Water, S., Organization, W. H., et al. (2004). Evaluation of the costs and
+benefits of water and sanitation improvements at the global level. Technical report, World
+Health Organization.
+Instituto Nacional de Normalización (2002). Nch 1333: Agua - vocabulario.
+Kadlec, R. H. and Wallace, S. (2008a). Treatment wetlands. CRC press.
+Kadlec, R. H. and Wallace, S. (2008b). Treatment wetlands. CRC press.
+Morales, G., López, D., Vera, I., and Vidal, G. (2013). Humedales construidos con plantas or-
+namentales para el tratamiento de materia orgánica y nutrientes contenidos en aguas servidas.
+Theoria, 22(1):33–46.
+ÖNORM (2009). Bepflanzte bodenfilter (pflanzenkläranlagen) anwendung, bemessung, bau und
+betrieb. ONORM B, 2505.
+Platzer, C. (1999). Design recommendations for subsurface flow constructed wetlands for nitri-
+fication and denitrification. Water Science and Technology, 40(3):257–263.
+Platzer, C., Hoffmann, H., and Miglio, R. (2016). Long term experiences with dimensioning
+and operation of vertical flow constructed wetlands in warm climate regions of south america.
+International Water Association (IWA): Gdansk, Poland, pages 868–887.
+
+
+=== PÁG 95 del PDF ===
+81
+Prat, N. (1998). Bioindicadores de calidad de las aguas memorias del curso de bioindicadores
+de calidad del agua. Medellín: Universidad de Antioquía.
+SISS (2010). Estudio tarifario aguas empresa de servicio sanitario. Superintendencia Servicios
+Sanitarios.
+Striebig, B., Ogundipe, A. A., Papadakis, M., and Heine, L. G. (2022). Environmental Enginee-
+ring and Sustainable Design. Cengage Learning.
+Tchobanoglus, G., Burton, F., and Stensel, H. D. (2003). Wastewater engineering: treatment and
+reuse. American Water Works Association. Journal, 95(5):201.
+Tietz, A., Kirschner, A., Langergraber, G., Sleytr, K., and Haberl, R. (2007). Characterisation of
+microbial biocoenosis in vertical subsurface flow constructed wetlands. Science of the Total
+Environment, 380(1-3):163–172.
+Torres, P., Cruz, C. H., and Patiño, P. J. (2009). Índices de calidad de agua en fuentes superficiales
+utilizadas en la producción de agua para consumo humano: Una revisión crítica.
+Revista
+Ingenierías Universidad de Medellín, 8(15):79–94.
+Uribe Meneses, J., Cabrera, R., Paneque Corrales, M., et al. (2012). Atlas bioclimático de chile.
+Vera, I., Jorquera, C., López, D., and Vidal, G. (2016). Humedales construidos para tratamiento
+y reúso de aguas servidas en chile: reflexiones. Tecnología y ciencias del agua, 7(3):19–35.
+Vera-Puerto, I., Valdés, H., Bueno, M., Correa, C., Olave, J., Carrasco-Benavides, M., Schiap-
+pacasse, F., and Arias, C. A. (2022). Reclamation of treated wastewater for irrigation in chile:
+perspectives of the current state and challenges. Water, 14(4):627.
+Vicuña, M. I. C. (2020). “cunquillos” y “totoras”.
+Von Sperling, M. (2007a). Activated sludge and aerobic biofilm reactors. IWA publishing.
+Von Sperling, M. (2007b). Basic Principles of Wastewater Treatment. Biological Wastewater
+Treatment Series. IWA Publishing.
+
+
+=== PÁG 96 del PDF ===
+82
+Anexos
+
+
+=== PÁG 97 del PDF ===
+83
+Las consideraciones de diseño son las explicadas en Capítulo 3.
+Anexo A: Diseño del sistema de lodos activados con aireación
+extendida
+Parámetros y coeficientes del modelo
+Parámetros cinéticos y estaquimétricos
+Y
+=
+0,6 gVSS/gDBO5
+Kd
+=
+0,08 d−1 (23,7 ◦C)
+θ
+=
+1,07 (corrección de temperatura para Kd)
+Rango O2/SSb
+=
+1,42 g O2 por g de SSV
+Rango DBOu/DBO5
+=
+1,46
+Rango DBOu/Xb
+=
+1,42
+Relación entre solidos
+Aguas residuales, sin tratar:
+SSb/SSV
+=
+0,6
+SSV/SS
+=
+0,8
+Solidos biológicos a generar:
+SSb/SS
+=
+0,7
+SSV/SS
+=
+0,9
+Después de un tiempo igual a la edad del lodo:
+SSV/SS = 0,69 valor para aireación extendida con
+una edad de lodo de 22 días
+
+
+=== PÁG 98 del PDF ===
+84
+Coeficientes de aireación
+Se obtan por los valores:
+Cs = 9,02 (Agua limpia, 20◦C)
+α = 0,85
+β = 0,9
+θ = 1,07
+Gravedad específica en el aire = 1,2 kg/m3
+fracción de O2 en el aire = 0,23 gO2/gAire
+Diseño del sistema de lodos activados de aireación extendida
+Parámetros de diseño
+Reactor totalmente aeróbio:
+θc
+=
+22 días
+MLVSS (Xv)
+=
+3000 mg/L
+R
+=
+1 (factor de retorno de lodos)
+Sistema de aireación
+OD mínimo (para Qmax) CL
+=
+1,0 mg/L
+OD promedio (para Qav) CL
+=
+2,0 mg/L
+Difusión de aire (burbujas finas):
+Eficiencia de transferencia O2 CL = 1
+Eficiencia del motor y ventilador η = 0,6
+
+
+=== PÁG 99 del PDF ===
+85
+Tanque de sedimentación secundario
+Limitar el flujo, según los indices el flujo se encuentra en regular. Tomando en cuenta un
+HLR de 4 y un MLSS de 4 kg/m3. por lo tanto:
+v0 = 9,0 m/h
+K = 0,35 m3/kg
+m = 11,77
+n = 0,7
+DBO soluble en el efluente final
+Concentración de solidos suspendidos en el efluente:
+Xeffl = 80 mg/L
+Concentración de SSV en el afluente
+Xveffl = (relación SSV/SS con θ 22 días)
+0,69 x 80 mg/L = 55,2 mgSSV/L
+Corrección de Kd no es necesaria, La influencia de la temperatura disminuye con el aumento
+de la edad de los lodos y no tiene gran importancia en sistemas como la aireación prolongada
+Von Sperling (2007a). Por lo tanto, el factor tendrá el valor general de 0.08 d−1.
+Fracción biodegradable fb (relación SSb/SSV):
+fb =
+f b´
+1 + (1 −f b´)Kdθc
+fb= 0,8 / [1+(1-0,8)0,08·22] = 0,59
+fb = 0,59 mgSSb/SSV
+Concentración de sólidos biodegradables en el efluente:
+Xbeffl = fb· Xveffl
+0,59 x 55,2 = 32,6 mgSSb/L
+
+
+=== PÁG 100 del PDF ===
+86
+DBO5 particulada en el elfuente:
+DBO5part = DBOu/Xb · Xbeffl
+DBOu/DBO5
+DBO5part = 1,42 x 32,6/ 1,46
+DBO5part = 31,76 mg/L
+DBO soluble máximo a obtener:
+DBO5sol = DBO5tot - DBO5
+DBO5sol = 35 - 31,7 = 3,2 mg/L
+Eficiencia del sistema en la eliminación de DBO
+La eficiencia del sistema está dada por:
+E( %) = DBO5Afluente −DBO5Efluente
+DBO5Afluente
+100
+E % = ((130 - 35) / 130)]·100
+E % = 73
+Carga de DBO5 eliminada en el reactor etapa biológica
+Sr = Q (DBOtotinfl - DBOsoleffl
+Sr = Qmed·(S0 - S)
+Sr = (58,4 m3/d ·(130 mgDBO/L - 3,2 mgDBO5sol/L))·0,001
+Sr = 7,40 KgDBO5/d
+
+
+=== PÁG 101 del PDF ===
+87
+Distribución de los solidos en el tratamiento
+El objetivo de esta sección es estimar la producción total de sólidos (aguas residuales brutas
++ sólidos biológicos) y la relación VSS/SS. Para las aguas residuales predominantemente do-
+mésticas, se utilizará la Tabla 3.4 por estimaciones simplificadas de la producción de sólidos y
+el VSS.
+A partir de la Tabla 3.4, para un sistema con depósito de sedimentación θc = 22 d, Y = 0,6 y
+Kd = 0,08 d-1:
+SSV/SS = 0,69
+SS/Sr = 0,88 kgSS/kgDBO5
+Px = (SS/Sr)Sr
+Px = 0,88 x 7405,93
+Px = 6517,21 kgSS/d
+Cálculos generales:
+Sólidos provenientes del tratamiento primario
+Sólidos suspendidos volátiles:
+Pxv = (SSV/SS aguas no tratadas) · Px
+Pxv = 0,8 · 6517,21 = 5213,77 kgSSV/d
+Sólidos suspendidos volátiles biodegradables
+Pxb = (SSb/SSV aguas no tratadas) · Pxv
+Pxb = 0,6 · 5213,77 = 3128,26 kgSSb/d
+Sólidos suspendidos volátiles no biodegradables:
+Pxnb = Pxv - Pxb
+Pxnb = 5213,77 - 3128,26 = 2085,51 kgSSnb/d
+
+
+=== PÁG 102 del PDF ===
+88
+Sólidos sispendidos inorgánicos (no volátiles):
+Pxi = Px - Pxv
+Pxi = 6517,21 - 5213,77 = 1303,44 kgSSi/d
+Sólidos biológicos producidos en el reactor
+Sólidos suspendidos volátiles producidos:
+P.Pxv = Y · Sr
+P.Pxv = 0,6 · 7405,93 = 4443,55 kgSSV/d
+Sólido suspendidos totales producidos:
+P.Px = Pxv / (SSV/SS gen. Sólido)
+P.Px = 5213,77 / 0,9 = 5793,08 kgSS/d
+Sólidos suspendidos inorgánicos producidos:
+P.Pxi = P.Px - P.Pxv
+P.Pxi = 5793,08 - 4443,55 = 1349,52 kgSSi/d
+Sólidos suspendidos biodegradables producidos:
+P.Pxb = fb · P.Pxv
+P.Pxb = 0,59 · 4443,55 = 2629,32 kgSSb/d
+Sólidos suspendidos no biodegradables producidos:
+P.Pxnb = P.Pxv - P.Pxb
+P.Pxnb = 4443,55 - 2629,32 = 1814,23 kgSSnb/d
+Sólidos suspendidos biodegradables destruidos en respiración endógena:
+D.Pxb = P.Pxb ·
+Kd·θc
+1+fb·Kd·θc
+D.Pxb = 2629,32 ·
+0,08·22
+1+0,59·0,08·22 = 2266,85 kgSSb/d
+
+
+=== PÁG 103 del PDF ===
+89
+Sólidos suspendidos biodegradables (producción neta):
+N.Pxn = P.Pxb - D.Pxb
+N.Pxn = 2629,32 - 2266,85 = 362,46 kgSSb/d
+Sólidos suspendidos volátiles (producción neta):
+N.Pxv = N.Pxb + P.Pxnb
+N.Pxv = 362,46 + 1814,23 = 2176,69 kgSSV/d
+
+
+=== PÁG 104 del PDF ===
+90
+Resumen de sólidos en el reactor
+Producción total = entrada en afluente + producción de sólidos biológicos en el reactor
+Sólidos suspendidos inorgánicos
+Pxi = 1303,44 + 1349,52 = 2652,96 kgSSi/d
+Sólidos suspendidos no biodegradables
+Pxnb = 2085,51 + 1814,23 = 3899,74 kgSSnb/d
+Sólidos suspendidos biodegradables
+Pxb = 0 + 2629,32 = 2629,32 kgSSb/d
+Sólidos suspendidos volátiles
+Pxv = 3899,74 + 2629,32 = 6529,06 kgSSV/d
+Sólidos suspendidos totales
+Px = 2652,96 + 6529,06 = 9182,03 kgSS/d
+Relación SSV/SS
+SSV/SS = 0,71
+muy cercano al valor utilizado de 0,69 para el diseño
+
+
+=== PÁG 105 del PDF ===
+91
+Volumen del reactor
+V =
+Y · θc · Sr
+Xv(1 + Kd · fb · θc)
+V =
+0, 6 · 22 · 7405,9
+3000(1 + 0, 08 · 0, 59 · 22)
+V = 17, 5m3
+Número de reactores a utilizar: 1
+Volumen a diseñar: 17,5 m3 aproximando a 18 m3.
+Para un reactor con un mecanismo de oxigenación por aireación difusa, la altura de este debe
+estar entre 4,5 a 6,0 m. Se utilizará la altura de 4,5 m.
+Área requerida: 18 / 4,5 = 4 m2 aproximamos a 24 m2
+Con una relación 1 es a 2, entonces las dimensiones quedan como: 1,5 m ancho y 3 m largo.
+Esto permite la asignación simétrica de 3 aireadores en el reactor.
+Tiempo de retención hidráulica
+t = V/Q = 18 / 58,41
+t = 0,30 d = 7,39 horas
+Tasa de utilización del sustrato
+U =
+Sr
+Xv · V
+U = 7405, 9
+3000 · 18 = 0, 13
+U = 0,13 kgDBO5/kgMLVSS·d
+Relación F/M:
+F/M = CargaDBOafluente
+Xv · V
+F/M = 7, 59 ∗1000
+3000 ∗18
+= 0, 14
+
+
+=== PÁG 106 del PDF ===
+92
+F/M = 0,14 kgDBO5/kgMLVSS·d
+Cálculo del lodo de exceso
+Solidos suspendidos producidos (afluente + producción en el reactor
+Px = 9182,03 kgSS/d
+Solidos suspendidos saliendo en el efluente
+Q · SSefluente /1000
+58,41 · 80 / 1000 = 4,67 kgSS/d
+Solidos suspendidos removidos por el sistema
+SStotal - SSefluente
+9182,03 - 4,67 = 9177,37 kgSS/d
+Purga desde la linea de lodos
+Concentración:
+RASS = MLSS · (1+1/R)
+RASS = 4000 · (1+1/1)
+RASS= 8000 mg/L
+Volumen a eliminar por día
+Qex = Carga / Concentración
+Qex = (9177,37 * · 1000) / 8000
+Qex = 1147,17 m3/d
+Observese que, con la relación de lodo de retorno de R = 1, el caudal de lodo en exceso es
+doble y la concentración de SS es la mitad cuando el lobo se retirará directamente del reactor, en
+comparación con la retirada de la línea de fangos de retorno. La carga de sólidos a eliminar es,
+naturalmente, la misma Von Sperling (2007a).
+
+
+=== PÁG 107 del PDF ===
+93
+Requerimiento de Oxígeno
+Necesidades de O2 en el campo
+Factor a´
+a´= (DBOu / DBO5 - DBOu/Xb)· Y
+a´= (1,46 - 1,42) · 0,6
+a´= 0,60 kgO2/kgDBO5
+Factor b´
+b´= (DBOu / Xb) · fb · Kd
+b´= (1,42) · 0,08 · 0,59
+b´= 0,06 kgO2/kgSSV
+Demanda por síntesis
+D.O2.S = a´· Sr
+Síntesis= 4502,80 kgO2/d
+Demanda por respiración endógena
+D.O2.R.E= b´· Xv · V
+D.O2.R.E= 0,06 · 3000 · 18
+Resp. Endógena= 3,62 kgO2/d
+Demanda por nitrificación (ver Capítulo 5.1)
+D.O2.N = -981,40 kgO2/d
+Requerimiento de oxígeno (para Qmed)
+R.Omed = D.O2.S + D.O2.R.E + D.O2.N
+R.Omed = 3525,03 kgO2/d
+Demanda total (para Qmax) para satisfacer el campo
+
+
+=== PÁG 108 del PDF ===
+94
+OTRfield = (Qmax / Qmed) · R.Omed
+OTRfield = 14154,87 kgO2/d
+O2 requerido por kg de DBO removido
+O2Req = (D.O2.S + D.O2.R.E) / Sr
+O2Req = 0,60 kgO2/kgDBO5
+Relación OTR/DBO alfuente en el reactor
+Rel = OTRfield / DBOafluente
+Rel = 14315,66 / 7,59
+Rel = 1864,24 kgO2/kgDBOO5
+Nitrificación
+Asumiendo 100 % de eficiencia en la nitrificación.
+Fracción de amonio en el lodo de exceso
+Exc.NH+
+4 = 0,1 kgNTK/kgSSV (asumido)
+Carga de NTK en el afluente
+C.NTKafl = 2,92 kgNTK/d
+Carga de NTK en el exceso de lodo
+C.NTKexc = Exc.NH+
+4 · N.Pxv
+C.NTKexc = 0,1 · 2176,69
+C.NTKexc = 217,66 kgNTK/d
+Carga oxidada de NTK
+C.NTKOx = C.NTKafl - C.NTKexc
+C.NTKOx = 2,92 - 217,66
+C.NTKOx = -214,74 kgNTK/d
+
+
+=== PÁG 109 del PDF ===
+95
+Rango de demanda de O2 por nitrificación
+R.O2.N = 4,57 kgO2/kgNTK
+Demanda de O2 por nitrificación (Valor de Capítulo 5.1)
+D.O2.N = C.NTKOx· R.O2.N
+D.O2.N = -214,74 · 4.57
+D.O2.N = -981,40 kgO2/d
+Corrección para condiciones estandar
+Concentración de saturación de DO en función de la tempe-
+ratura
+Cs = 14.653 - 0,41022 · T + 0,007991 · T2 - 0,00007 · T3
+Cs en el mes mas frío (20 ◦C)
+Cs = 12,46 mg/L
+Cs en el mes mas frío (25 ◦C)
+Cs = 8,38 mg/L
+Tasa de transferencia de oxígeno estandar (SOTR) requerida.
+SORT =
+OTRfield
+β·fh·(Cs−CL)
+Cs(20◦C)
+·α·θT −20
+fh = factor de corrección del altitud (1-altitud/9450)
+fh = 1 - 90/9450 = 0,99
+CL = 1 mg/L
+Cs (20◦C) = 9,02 mg/L
+T = 20 ◦C
+Tasa de transferencia de oxígeno estandar (SOTR) requerida en las condiciones de tempe-
+ratura
+SORT6◦C = 38315,63 kgO2/d
+SORT23,7◦C = 34269,35 kgO2/d
+
+
+=== PÁG 110 del PDF ===
+96
+Entre los valores del mes más frío 38315,63 y el más más cálido 34269,35, se debe elegir el
+mayor, de este modo:
+SORT = 38315,63 kgO2/d
+SORT = 1596,48 kgO2/h
+Método de aireación difuso
+Cantidad teórica de aire requerida en el campo
+RairT =
+SORT
+Gesp·O2
+RairT = 138824,76 m3/air·d
+Cantidad real del aire requerido (inlcuida la eficiencia de transferencia de O2 para una
+eficacia de 15 %
+Rair.Ac = RairT/ eficiencia
+Rair.Ac = 925498,38 m3air/d
+Cantidad de aire a utilizar (con factor de seguridad, según Burton et al. (2013) debe ser de
+2)
+Rair = Rair.Ac · factor de seguridad Rair = 21,42 m3/s
+Energía requerida
+La pérdida de carga en la tubería de aire es de 1,2m
+P = Qs·ρ·(di+∆H)
+η
+P = 1821328,03 W = 2442,54 HP
+Eficiencia de oxigenación resultante
+EO = SORT·fact.Seg
+P
+EO = 1,75 kgO2/kWh
+Concentración OD resultante
+
+
+=== PÁG 111 del PDF ===
+97
+Concentración de OD durante Qmed mes más cálido
+CL = β · fH · Cs −( OTRfield
+SORT
+·
+Cs20
+α·θT −20)
+CL = 6,62 mgO2/L
+Concentración de OD durante Qmed mes más frío
+CL = β · fH · Cs −( OTRfield
+SORT
+·
+Cs20
+α·θT −20)
+CL = 8,59 mgO2/L
+Concentración de OD durante Qmax mes más cálido
+CL = β · fH · Cs −( OTRfield
+SORT
+·
+Cs20
+α·θT −20)
+CL = 4,06 mgO2/L
+Concentración de OD durante Qmed mes más frío
+CL = β · fH · Cs −( OTRfield
+SORT
+·
+Cs20
+α·θT −20)
+CL = 1 mgO2/L
+Número de aireadores por reactor = 3
+Número de aireadores totales = 6
+Poder requerido por aireador = 203.54 Hp
+Poder instalado = 204 Hp
+Nivel de poder = 8451.40 W/ m3
+
+
+=== PÁG 112 del PDF ===
+98
+Área requerida para el sedimentador secundario
+Los siguientes coeficientes para el diseño de sedimentación, se obtienen de la Tabla 3.5 para
+un lodo con asentabilidad muy pobre.
+v0 = 5,6 m/h
+K = 0,73 m3/kg
+m = 5,37
+n = 0,69
+Q/A para criterio de clarificación
+Q/A = v0· e−kC
+Q/A = 0,25 m/h
+Q/A para criterio de espesamiento
+Q/A = m · [ R · v0· e−kC]n / (R + 1) · Co
+Q/A = 2,28 m/h
+Usando el valor más pequeño de Q/A y el caudal medio
+A = 2,43 / 0,25
+A = 9,43 m2 aprox 10 m2
+Sedimentador secundario circular
+Diámetro
+con un solo sedimentador
+D =
+√
+(4 · A)/π
+D = 3,56 m Adoptando 4 m
+El área de diseño queda cómo 13 m2
+Tasa de carga hidraulica resultante para:
+
+
+=== PÁG 113 del PDF ===
+99
+Para caudal medio
+HLRQmed = Qmed/A
+HLRQmed = 2,43/13
+HLRQmed = 0,18 m3/m2h
+Para caudal máximo
+HLRQmax = Qmax/A
+HLRQmax = 9,77/13
+HLRQmax = 0,75 m3/m2h
+Tasa de carga de sólidos resultante para:
+Para caudal medio
+SLRQmed = (Qmed + Qr) · X/A
+SLRQmed = 1,45 m3SS/m2h
+Para caudal máximo
+SLRQmax = (Qmax+ Qr) · X/A
+SLRQmax = 3,65 m3SS/m2h
+Otras consideraciones de diseño
+Pendiente inferior igual a 8
+Profundidad de la parte cónica del tanque
+Hcono= D/2· Pendiente/100
+Hcono= 4/2· 8/100
+Hcono= 0,16
+Volumen del tanque sedimentador
+
+
+=== PÁG 114 del PDF ===
+100
+V = A·(H + Hcono/3)
+V = 51·(3,5 + 0,16/3)
+V = 46,16
+V = 47 m3
+Tiempo de retención hidraulica
+Para caudal medio
+t = V/(Q+QR)
+t = 47/(2,43 + 2,43)
+t = 9,49 h
+Para caudal máximo
+t = V/(Q + QR)
+t = 47/(9,77 + 2,43)
+t = 3,78 h
+Desinfección
+Se asumirá, que el agua proveniente del estanque de aireación contiene una cantidad de
+34000 NMP/100ml, según la Tabla 3.2. Con un tiempo de residencia hidráulico de 30 minutos.
+La cantidad de cloro residual para una fracción determinada de remoción es:
+Para caudal medio
+Nt
+N0 = (1 + 0,23 ·Ct· t)−3
+1000
+34000 = (1 + 0,23 ·Ct· 30)−3
+Ct = 0,32 mg/l
+La concentración necesaria de cloro inicial que se debe agregar es:
+Para caudal medio
+Cr = 0,7 ·Ci· e−0,003·t
+0,32 = 0,7 ·Ci· e−0,003·30
+Ci = 0,41 mg/l
+
+
+=== PÁG 115 del PDF ===
+101
+Volumen del estanque de desinfección se puede obtener con el caudal de entrada y el tiempo
+de residencia.
+Para caudal medio
+Vcl = Qmed ·
+t
+60
+Vcl = 58,40 · 30
+60
+Vcl = 29,2 m3
+Presupuesto
+En la imagen Figura 5.1 se observa un resumen de los costos obtenidos para la inversión
+inicial de la construcción del sistema de lodos activados modalidad aireación extendida.
+
+
+=== PÁG 116 del PDF ===
+102
+Figura 5.1: Resumen de presupuesto por item de construcción. Elaboración propia.
+
+
+=== PÁG 117 del PDF ===
+103
+Impulsión
+Se adjunta imagen referencial de los cálculos realizados para la impulsión de lodos de retorno
+al reactor.
+Figura 5.2: Cálculo de impulsión de retorno de lodos a reactor. Elaboración propia.
+
+
+=== PÁG 118 del PDF ===
+104
+Figura 5.3: Resultados diseño bomba impulsión. Elaboración propia.
+
+
+=== PÁG 119 del PDF ===
+105
+Anexo B: Diseño del humedal vertical
+Sedimentador primario
+Tanque séptico de tres cámaras
+Según lo establecido Subsección 3.2.1:
+El volúmen establecido mínimo de diseño es de 0,25 m3 por cada habitante.
+Superficie mínima por habitante de 0,06 m2
+Profundidad del tanque septico va desde los 4,5 a 6 m
+La primera cámara debe comprender el 50 % del volumne total.
+La segunda cámara debe comprender el 25 % del volumen total.
+La tercera etapa debe comprender el 25 % del volumen total y funciona como tanque de
+dosificación.
+Un tercio de la DQO se elimina en el tanque séptico.
+Grosor del muro del tanque septico será de 0,2 m
+Por lo tanto,
+Volumen mínimo del tanque séptico:
+Volumenmin= Población · 0,25 m3
+Volumenmin = 108 m3
+Superficie mínima del tanque séptico:
+Superficiemin= Población · 0,06 m2
+Superficiemin = 25,92 m2
+Superficiemin = 26 m2
+Con una profundidad de 4,5m y una superficie de 26 m2, el Volumen es:
+
+
+=== PÁG 120 del PDF ===
+106
+Volumen = Superficiemin· profundidad
+Volumen = 26 · 4,5
+Volumen = 117 m3
+El volumen de diseño será 117 m3, por lo tanto los volumenes de cada cámara quedan
+como:
+Volumen 1◦CAM = Volumen · 50 %
+Volumen 1◦CAM = 117· 50 %
+Volumen 1◦CAM = 58,5 m3
+Volumen 2◦CAM = Volumen · 25 %
+Volumen 2◦CAM = 117· 25 %
+Volumen 2◦CAM = 29,25 m3
+Volumen 3◦CAM = Volumen · 25 %
+Volumen 3◦CAM = 117· 25 %
+Volumen 3◦CAM = 29,25 m3
+1◦Cámara rectangular
+Ancho = 2,6 m
+Largo = 5 m
+Profundidad = 4,5 m
+Superficie = 13 m2
+Volumen = 58,5 m3
+2◦Cámara rectangular
+Ancho = 2,6 m
+Largo = 2,5 m
+Profundidad = 4,5 m
+Superficie = 6,5 m2
+Volumen = 29,25 m3
+
+
+=== PÁG 121 del PDF ===
+107
+3◦Cámara rectangular
+Ancho = 2,6 m
+Largo = 2,5 m
+Profundidad = 4,5 m
+Superficie = 6,5 m2
+Volumen = 29,25 m3
+Tiempo de retención hidraulica TR, en días.
+TR = Volumen/Q
+TR = 117/ 58,41
+TR = 1,50 d
+Volumen requerido para la sedimentación
+Vs = Qmed· TR
+Vs = 58,40 · 1,5
+Vs = 87,75
+Volumen de digestión y almacenamiento de lodos (Vd, m−3).
+Vd = 70· 10−3· (P· N)
+Vd = 70· 10−3· (432· 1)
+Vd = 30,24
+Volumen de natas:
+Se considera un volumen mínimo de 0,7 m−3.
+Profundidad máxima de espuma sumergida (m).
+He = 0,7/A
+He = 0,05 m
+Profundidad libre de espuma sumergida:
+Valor mínimo de 0,1 m.
+
+
+=== PÁG 122 del PDF ===
+108
+Profundidad mínima requerida para la sedimentación (m).
+Hs = Vs/A
+Hs = 87,75/19,25
+Hs = 4,5 m
+Método por demanda de oxígeno (Oxidación de la DQO y
+nitrificación)
+Según lo establecido en Sección 3.2, entonces:
+OI[g/d] - OD[g/d] >0
+OD[g/d]= ODDQO + ODnitrificacion + ODdesnitrificacion
+OI[g/d]= OIdifusion + OIconveccion
+Donde
+OI
+=
+Aporte total de oxígeno
+OD
+=
+Demanda total de oxígeno
+ODDQO
+=
+Demanda de oxígeno debido a la descomposición de la materia orgánica
+ODnitrificacion
+=
+Demanda de oxígeno debido a la nitrificación
+ODdesnitrificacion
+=
+Reducción de la demanda de oxígeno por efecto de desnitrificación parcial
+OIdifusion
+=
+Aporte de oxígeno debido a la difusión
+OIconveccion
+=
+Aporte de oxígeno debido a la convección
+Demanda de oxígeno en HV de DQO = 0,7 gO2/gDQO
+Eliminación DQO HV = 85 %
+Demanda de oxígeno en HV de NTK = 4,3 gO2/gNTK
+Eliminación NTK HV = 90 %
+Recuperación de oxígeno por Desnitrificación = 2,9 gO2/gNTK
+recuperación por desnitrificación = 10 %
+Entonces:
+Demanda de oxígeno debido a la descomposición de la materia orgánica (ODDQO).
+
+
+=== PÁG 123 del PDF ===
+109
+ODDQO = 0,85 ( 0,7 gO2
+L ) DQOIN
+ODDQO = 0,85 · 0,7 · 12265,34 g/d
+ODDQO = 7297,87 (gO2
+L ) DQOIN
+Demanda de oxígeno debido a la nitrificación (ODnitrificacion)
+ODnitrificacion = 4,3
+gO2
+gNTK·NTKIN
+ODnitrificacion = 4,3
+gO2
+gNTK· 2920,32
+ODnitrificacion = 12557,37
+Reducción de la demanda de oxígeno por efecto de desnitrificación parcial (ODdesnitrificacion)
+ODdesnitrificacion = 0,1 · 2,9
+gO2
+gNTK· NTKIN
+ODdesnitrificacion = 0,1 · 2,9
+gO2
+gNTK· 2920,32
+ODdesnitrificacion = 846,89
+Para avanzar en el diseño, es necesario calcular la superficie total de los humedales que se em-
+plearán en el tratamiento. Esto permitirá determinar la cantidad de oxígeno que se aportará al
+sistema.
+Se debe tener encuenta:
+Tasa de carga hidraulica máxima (HLR) = 0,08 m3/ m2·d
+Tasa de carga orgánica máxima (RLO) = 20 gDQO/m2·d para climas variados
+No sobrepasar el área de 400 2 por cada humedal.
+El caudal de retorno es el 50 % del caudal de diseño.
+Entonces:
+Superficie según tasa de carga hidráulica (HLR)
+
+
+=== PÁG 124 del PDF ===
+110
+HLR (q) = Qmed / A
+A = Qmed / HLR
+A = 58,40 / 0,08
+A = 730,08
+Lechos = A / 400 m2
+Lechos = 1,83
+Lechosaprox = 2
+Si se toma en cuenta el 50 % del caudal (29,20 m3/d) como retorno a el sedimentador
+primario, el área queda como:
+HLR (q) = (Qmed + Qret) / A
+A = (Qmed + Qret) / HLR
+A = 87,60 / 0,08
+A = 1095,12
+Lechos = A / 400 m2
+Lechos = 2,73
+Lechosaprox = 3
+Si se realiza con el caudal de un evento de lluvia por dos horas, entonces:
+A = (Qlluvia + Qmed + Qret) / HLR
+A = 107,15 / 0,08
+A = 1339,42
+Lechos = A / 400 m2
+Lechos = 3,34
+Lechosaprox = 4
+
+
+=== PÁG 125 del PDF ===
+111
+Superficie según tasa de carga orgánica (RLO)
+RLO (qO) = qDQOi / A
+A = qDQOi / RLO (qO)
+A = 12265,34 / 20
+A = 613,26
+Lechos = A / 400 m2
+Lechos = 1,53
+Lechosaprox = 2
+Se emplearán 4 lechos, cada uno con una superficie de 400 m2, ya que no podemos exceder
+la carga hidráulica de 0.08 m3/m2·d por unidad de superficie.
+Aporte de oxígeno por difusión (OIdifusion)
+Aporte de oxígeno por difusión = 1 gO2/h·m2
+OIdifusion = 1 gO2
+hm2· A m2 · 24[h]−1,5[h]ncargas
+1[d]
+OIdifusion = 1 · 1600 · 24−1,5·7
+1
+OIdifusion = 21600
+Aporte de oxígeno por convección
+OIconveccion = 0,3 [ gO2
+L ] · Vcargado · 1000 [ L
+m3]
+OIconveccion = 0,3 · 58,40 · 1000
+OIconveccion = 17521,92 gO2/d
+por ultimo, se comprueba el criterio de diseño en que el aporte de oxígeno (OI) debe ser mayor
+que la demanda de oxígeno:
+Demanda de oxígeno del sistema
+OD[g/d]= ODDQO + ODnitrificacion + ODdesnitrificacion
+OD[g/d]= 7297,87 + 12557,37 + 846,89
+OD[g/d]= 20702,14
+
+
+=== PÁG 126 del PDF ===
+112
+Aporte de oxígeno del sistema
+OI[g/d]= OIdifusion + OIconveccion
+OI[g/d]= 21600 + 17521,92
+OI[g/d]= 39121,92
+OI[g/d] - OD[g/d] >0
+39121,92 - 20702,14 >0
+18419,77 >0
+Por lo tanto, el área utilizada es suficientemente grande para aportar el oxigeno que necesita el
+sistema
+
+
+=== PÁG 127 del PDF ===
+113
+Figura 5.4: Resumen de presupuesto por item de construcción. Elaboración propia.
+
+
+=== PÁG 128 del PDF ===
+114
+Figura 5.5: Cálculo de impulsión de retorno a tanque séptico, humedal. Elaboración propia.
+
+
+=== PÁG 129 del PDF ===
+115
+Figura 5.6: Resultados diseño bomba impulsión,Elaboración propia.
