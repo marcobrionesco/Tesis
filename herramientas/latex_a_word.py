@@ -10,7 +10,7 @@ Qué hace (pandoc no entiende varias cosas del LaTeX de la tesis, así que se pr
 - siunitx (\\qty, \\unit, \\num, \\qtyrange, \\qtyproduct, \\ang) → texto con coma decimal.
 - Figuras TikZ → PNG (compiladas aparte); figuras PDF → PNG.
 - Citas → pandoc --citeproc con estilo APA 7 (herramientas/estilos/apa.csl) e idioma es-CL.
-- \\pendiente{...} y \\revisar{...} → texto resaltado en amarillo / verde en el Word.
+- \\pendiente{...} y \\revisar{...} → texto en cursiva azul / verde en el Word.
 - Formato base: carta, Times New Roman 12, interlineado 1,5, márgenes 2,5/3 cm (REGLAS_FORMATO).
 
 Uso (desde la raíz):  make word      (o: python3 herramientas/latex_a_word.py)
@@ -197,8 +197,8 @@ def numerar_titulos(s):
 
 # ---------------------------------------------------------------- macros propias
 MACROS = r"""
-\newcommand{\pendiente}[1]{⟦P PENDIENTE: #1⟧}
-\newcommand{\revisar}[1]{⟦R REVISAR: #1⟧}
+\newcommand{\pendiente}[1]{⟦P Por hacer: #1⟧}
+\newcommand{\revisar}[1]{⟦R Nota: #1⟧}
 \newcommand{\enquote}[1]{“#1”}
 \newcommand{\NoCaseChange}[1]{#1}
 \newcommand{\iniciaranexos}{}
@@ -207,7 +207,7 @@ MACROS = r"""
 
 def preprocesar(s):
     s = re.sub(r"(?<!\\)%.*", "", s)                                    # comentarios
-    s = s.replace("\\pendiente{}", "⟦P PENDIENTE⟧")
+    s = s.replace("\\pendiente{}", "⟦P Por hacer⟧")
     s = re.sub(r"\\(chapter|section)\*", r"\\\1", s)
     s = re.sub(r"\\addcontentsline\{[^}]*\}\{[^}]*\}\{[^}]*\}", "", s)
     s = re.sub(r"\\begin\{tikzpicture\}.*?\\end\{tikzpicture\}",
@@ -274,7 +274,7 @@ def documento_referencia() -> Path:
 # ---------------------------------------------------------------- posproceso: resaltar marcas
 def resaltar(docx: Path):
     from docx import Document
-    from docx.enum.text import WD_COLOR_INDEX
+    from docx.shared import RGBColor
     doc = Document(docx)
     parrafos = list(doc.paragraphs)
     for t in doc.tables:
@@ -287,12 +287,12 @@ def resaltar(docx: Path):
             txt = run.text
             ini = None
             if "⟦P " in txt:
-                color, ini = WD_COLOR_INDEX.YELLOW, txt.index("⟦P ")
+                color, ini = RGBColor(0x1F, 0x3A, 0x7A), txt.index("⟦P ")
             elif "⟦R " in txt:
-                color, ini = WD_COLOR_INDEX.BRIGHT_GREEN, txt.index("⟦R ")
+                color, ini = RGBColor(0x1B, 0x6B, 0x5E), txt.index("⟦R ")
             if color is not None:
-                run.font.highlight_color = color
-                run.font.bold = True
+                run.font.color.rgb = color
+                run.font.italic = True
             if "⟧" in txt:
                 color = None
             if any(c in txt for c in ("⟦", "⟧")):   # no tocar runs con imágenes (run.text las borraría)
@@ -330,7 +330,7 @@ def main():
     if r.returncode != 0:
         sys.exit(r.stderr)
     resaltar(SALIDA)
-    print(f"==> {SALIDA.relative_to(RAIZ)}  (resaltado amarillo = pendiente, verde = revisar)")
+    print(f"==> {SALIDA.relative_to(RAIZ)}  (notas en cursiva: azul = por hacer, verde = nota)")
 
 
 if __name__ == "__main__":

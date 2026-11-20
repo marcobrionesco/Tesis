@@ -20,7 +20,7 @@ Los datos se procesaron con el script \texttt{02\_caracterizacion.py}, y los pro
 
 \begin{table}[htbp]
   \centering
-  \caption{Valores medios de los parámetros de calidad de agua por punto de muestreo en la fase de caracterización.}
+  \caption{Valores medios de los parámetros de calidad de agua por punto de muestreo en la fase de caracterización. Fuente: elaboración propia.}
   \label{tab:caracterizacion}
   \input{tablas/caracterizacion_afluentes}
 \end{table}
@@ -40,25 +40,26 @@ En ambas aguas servidas el nitrógeno es bajo: amonio de \qtyrange{1.3}{2.0}{\mi
 Las DQO medias de las aguas servidas (\qty{411}{\milli\gram\per\liter} en AS1 y \qty{338}{\milli\gram\per\liter} en AS2) se encuentran dentro del rango típico de las aguas servidas rurales chilenas (200 a \qty{1600}{\milli\gram\per\liter}, \cref{tab:caracteristicas-tipicas}), mientras que el nitrógeno total (2,0 a \qty{2.7}{\milli\gram\per\liter}) y el amonio (1,3 a \qty{2.0}{\milli\gram\per\liter}) quedan muy por debajo de los rangos de 35 a \qty{100}{\milli\gram\per\liter} y de 6 a \qty{60}{\milli\gram\per\liter}, respectivamente, reportados por \textcite{araya2014aguas}.
 El agua del estero (EST) presenta valores medios de pH (\num{7.47}), DBO$_5$ (\qty{2.2}{\milli\gram\per\liter}) y amonio (\qty{0.15}{\milli\gram\per\liter}) del mismo orden que los registrados en los ríos de la cuenca del Maule, y una conductividad eléctrica (\qty{156}{\micro\siemens\per\centi\meter}) prácticamente igual a la del río Putagán (\qty{155}{\micro\siemens\per\centi\meter}), aunque con menor oxígeno disuelto (\qty{6.3}{\milli\gram\per\liter} frente a \qty{9.4}{\milli\gram\per\liter}); en cambio, sus coliformes fecales (media geométrica de \num{1.5e4}~NMP/\qty{100}{\milli\liter}) indican una contaminación fecal comparable a la de los tramos más afectados de la cuenca (\cref{tab:caracteristicas-tipicas})~\parencite{dga2004maule}.
 Según los límites de la \cref{tab:clases-calidad}, el estero corresponde a la clase de excepción en conductividad eléctrica y amonio, a la clase~1 en DBO$_5$, a la clase~2 en oxígeno disuelto y sólidos suspendidos (\qty{31}{\milli\gram\per\liter}) y a la clase~4 en coliformes fecales, por lo que, sin tratamiento, no es apto ni siquiera para riego restringido~\parencite{dga2004volumen1}; la contaminación microbiológica es, por tanto, el objetivo principal del tratamiento en la línea del estero.
-Con la reducción de 2 a 4 unidades logarítmicas de coliformes fecales esperable en un HCFV~\parencite{langergraber2021vertical}, el efluente de esta línea quedaría entre unos 150 y \num{1.5}~NMP/\qty{100}{\milli\liter}, es decir, en la clase~1 o en la clase de excepción de la \cref{tab:clases-calidad}.
-\revisar{Estimación teórica con la media de las campañas; la eficiencia real deberá verificarse en la operación (fuera del alcance de esta tesis).}
-\revisar{Clasificación orientativa hecha con las medias de seis campañas; la clasificación oficial de un curso de agua se basa en series de monitoreo más largas.}
-\revisar{El nitrato medio de AS1 (\qty{9.3}{\milli\gram\per\liter}) y de AS2 (\qty{5.9}{\milli\gram\per\liter}) supera al nitrógeno total medido y contrasta con los valores menores a \qty{1}{\milli\gram\per\liter} típicos de aguas servidas crudas \parencite{araya2014aguas}: confirmar si el nitrato se informó como NO$_3^-$ o como N-NO$_3^-$ (\num{9.3} mg NO$_3^-$/L equivalen a unos \qty{2.1}{\milli\gram\per\liter} de N) y si las muestras se tomaron después de la fosa séptica.
-Discutir posibles causas (punto de muestreo a la salida de fosa, dilución, método analítico) con el profesor guía.
-La alta DQO disuelta frente a la DBO$_5$ en AGR1 sugiere materia orgánica poco biodegradable (agroquímicos).}
+Con la reducción de 2 a 4 unidades logarítmicas de coliformes fecales esperable en un HC-FV~\parencite{langergraber2021vertical}, el efluente de esta línea quedaría entre unos 150 y \num{1.5}~NMP/\qty{100}{\milli\liter}, es decir, en la clase~1 o en la clase de excepción de la \cref{tab:clases-calidad}.
+\revisar{Es una estimación teórica con la media de las campañas; la eficiencia real se verá en la operación, fuera del alcance de mi tesis.}
+\revisar{Esta clasificación es orientativa porque usé las medias de seis campañas; la oficial se basa en series de monitoreo más largas.}
+\revisar{El nitrato medio de AS1 (\qty{9.3}{\milli\gram\per\liter}) y de AS2 (\qty{5.9}{\milli\gram\per\liter}) supera al nitrógeno total y no calza con los valores menores a \qty{1}{\milli\gram\per\liter} típicos de aguas servidas crudas~\parencite{araya2014aguas}: tengo que confirmar si se informó como NO$_3^-$ o como N-NO$_3^-$ (\num{9.3} mg NO$_3^-$/L son unos \qty{2.1}{\milli\gram\per\liter} de N) y si las muestras se tomaron después de la fosa séptica.
+Las posibles causas (punto de muestreo, dilución, método analítico) las tengo que conversar con el profesor.
+Ojo: la alta DQO disuelta frente a la DBO$_5$ en AGR1 sugiere materia orgánica poco biodegradable.}
 
 \subsection{Volúmenes de diseño para vivienda y oficinas}
 
 El caudal de diseño para las aguas servidas habitacionales (casa, AS2) se obtuvo del registro histórico del medidor de agua potable entre marzo de 2025 y marzo de 2026 (\cref{tab:consumo-casa}).
 El consumo promedio fue de \qty{22.30}{\cubic\meter} al mes, equivalente a \qty{743.6}{\liter\per\day}.
 Aplicando un factor de restitución de \num{0.85}, definido según el uso del agua descrito por los residentes, se obtiene una producción de unos \qty{632}{\liter\per\day}; el proyecto adoptó un caudal de diseño de \qty{600}{\liter\per\day} (\qty{0.60}{\cubic\meter\per\day}), calculado con el consumo diario redondeado a \qty{0.7}{\cubic\meter\per\day}.
-\revisar{La v3.0 usaba un coeficiente de \num{0.8}; el documento de cálculo del proyecto (01\_normativa/proyecto/texto/2026\_calculo-produccion-aguas-servidas.md) indica \num{0.85}.
-Confirmar el redondeo a \qty{600}{\liter\per\day}.}
+\revisar{La v3.0 usaba \num{0.8}; el documento de cálculo del proyecto indica \num{0.85}.
+Tengo que confirmar el redondeo a \qty{600}{\liter\per\day}.}
 En la práctica, entre el 60 y el \qty{85}{\percent} del agua potable consumida se transforma en aguas servidas, según el uso que se dé al agua~\parencite{vidal2023desarrollo}, por lo que el factor de \num{0.85} adoptado para la casa corresponde al extremo superior de ese rango, del lado de la seguridad para el dimensionamiento.
+El manual de saneamiento rural de la DOH fija este coeficiente entre \num{0.7} y \num{1.0}, con un valor recomendado de \num{0.8} que debe justificarse cuando se use otro~\parencite{doh2023manual}; el \num{0.85} adoptado queda dentro de ese rango y se justifica por el uso del agua descrito por los residentes.
 
 \begin{table}[htbp]
   \centering
-  \caption{Registro mensual de consumo de agua en la casa (AS2) y caudal de diseño.}
+  \caption{Registro mensual de consumo de agua en la casa (AS2) y caudal de diseño. Fuente: elaboración propia.}
   \label{tab:consumo-casa}
   \begin{tabular}{lc}
     \toprule
@@ -90,11 +91,11 @@ En la práctica, entre el 60 y el \qty{85}{\percent} del agua potable consumida 
 Para el sector de oficinas (AS1), que no cuenta con registro histórico independiente, el volumen se estimó con el registro de usos de los artefactos sanitarios entre la tercera semana de enero y la tercera semana de febrero de 2026 (\cref{anx:fichas-registro}) y con el volumen por uso de cada artefacto, en dos escenarios: ocupación regular en enero (escenario~1) y ocupación reducida por vacaciones en febrero (escenario~2), como muestra la \cref{tab:consumo-oficina}.
 El escenario~1 entrega \qty{165}{\liter\per\day} y el escenario~2, \qty{96}{\liter\per\day}.
 Considerando que la disminución del escenario~2 se debe a las vacaciones del personal y aplicando un factor de restitución de \num{0.9} al escenario~1 ($\num{0.9} \times 165 \approx \qty{150}{\liter\per\day}$), se adoptó un caudal de diseño de \qty{150}{\liter\per\day} (\qty{0.15}{\cubic\meter\per\day}), valor confirmado por el director del proyecto (I.~L. Vera Puerto, comunicación personal, 23 de octubre de 2026).
-\revisar{El factor de \num{0.9} de las oficinas supera el rango de 60 a \qty{85}{\percent} reportado por \textcite{vidal2023desarrollo}; es razonable porque en oficinas casi no hay usos consuntivos (riego, lavado de patios), pero conviene justificarlo así o confirmarlo con el profesor guía.}
+\revisar{El \num{0.9} de las oficinas supera el rango de 60 a \qty{85}{\percent} de \textcite{vidal2023desarrollo}, pero queda dentro del rango de 0,7 a 1,0 del manual de la DOH; lo justifico porque en oficinas casi no hay usos consuntivos, o lo confirmo con el profesor.}
 
 \begin{table}[htbp]
   \centering
-  \caption{Estimación del caudal de aguas servidas de oficinas (AS1) mediante aforos y escenarios de uso.}
+  \caption{Estimación del caudal de aguas servidas de oficinas (AS1) mediante aforos y escenarios de uso. Fuente: elaboración propia.}
   \label{tab:consumo-oficina}
   \begin{tabular}{@{}lccccc@{}}
     \toprule
@@ -117,7 +118,7 @@ La \cref{tab:resumen-afluentes} consolida los caudales y concentraciones de dise
 
 \begin{table}[htbp]
   \centering
-  \caption{Caudales y concentraciones de diseño por fuente.}
+  \caption{Caudales y concentraciones de diseño por fuente. Fuente: elaboración propia.}
   \label{tab:resumen-afluentes}
   \begin{tabular}{@{}lccc@{}}
     \toprule
@@ -129,12 +130,12 @@ La \cref{tab:resumen-afluentes} consolida los caudales y concentraciones de dise
     Agroquímicos sala de bombas (AGR2) & ---\textsuperscript{c} & \num{75.7}\,\textsuperscript{d} & \num{2.41}\,\textsuperscript{d} \\
     Estero Batuco (EST) & ---\textsuperscript{c} & \num{6.33}\,\textsuperscript{d} & \num{0.15}\,\textsuperscript{d} \\
     \bottomrule
-    \multicolumn{4}{@{}p{0.95\textwidth}@{}}{\footnotesize \textsuperscript{a} Valor de diseño del proyecto (documento de diseño del humedal). \textsuperscript{b} Amonio, asumido igual al NTK. \textsuperscript{c} \pendiente{caudal a definir en la distribución de caudales (objetivo específico~2)}. \textsuperscript{d} Media medida (\cref{tab:caracterizacion}).}
+    \multicolumn{4}{@{}p{0.95\textwidth}@{}}{\footnotesize \textsuperscript{a} Valor de diseño del proyecto (documento de diseño del humedal). \textsuperscript{b} Amonio, asumido igual al NTK. \textsuperscript{c} \pendiente{caudal que tengo que definir en la distribución de caudales}. \textsuperscript{d} Media medida (\cref{tab:caracterizacion}).}
   \end{tabular}
 \end{table}
 
-\revisar{Los valores de diseño de las aguas servidas quedan algo por debajo de las medias medidas (DQO: 300 frente a \qty{338}{\milli\gram\per\liter} en AS2 y 400 frente a \qty{411}{\milli\gram\per\liter} en AS1; amonio: \num{1.5} frente a \num{1.98} y \num{1.0} frente a \qty{1.28}{\milli\gram\per\liter}): confirmar con el profesor guía si se mantienen o se actualizan.
-Con este nitrógeno, la carga amoniacal de $\sim$\qty{3}{\gram\per\square\meter\per\day} prevista para la Fase~1 en la propuesta ANID no se alcanza con las aguas servidas.}
+\revisar{Mis valores de diseño quedan algo bajo las medias medidas (DQO: 300 frente a \qty{338}{\milli\gram\per\liter} en AS2 y 400 frente a \qty{411}{\milli\gram\per\liter} en AS1; amonio: \num{1.5} frente a \num{1.98} y \num{1.0} frente a \qty{1.28}{\milli\gram\per\liter}): tengo que confirmar con el profesor si los mantengo o los actualizo.
+Con este nitrógeno no se alcanza la carga amoniacal de $\sim$\qty{3}{\gram\per\square\meter\per\day} prevista para la Fase~1.}
 
 \section{Diseño depurativo y cálculo hidráulico}
 \label{sec:res-hidraulico}
@@ -146,7 +147,7 @@ El escenario de 10 plantas con 8 goteros de \qty{2}{\liter\per\hour} cada una de
 
 \begin{table}[htbp]
   \centering
-  \caption{Demanda de agua para riego según condición operativa.}
+  \caption{Demanda de agua para riego según condición operativa. Fuente: elaboración propia.}
   \label{tab:demanda-riego}
   \begin{tabular}{@{}lcccccc@{}}
     \toprule
@@ -161,9 +162,9 @@ El escenario de 10 plantas con 8 goteros de \qty{2}{\liter\per\hour} cada una de
   \end{tabular}
 \end{table}
 
-\revisar{La columna \enquote{Demanda} es la mitad del volumen semanal (p.\ ej.\ 1536/2 = 768), no el volumen semanal dividido por 7 (que daría \qty{219}{\liter\per\day}).
-Aclarar la frecuencia de riego (¿dos eventos por semana?) y corregir los encabezados.
-Según las especificaciones técnicas, el riego abastece a 30 cerezos en 3 sectores experimentales de 10 plantas, con goteros autocompensados de \qty{2}{\liter\per\hour} cada \qty{50}{\centi\meter} (\cref{anx:eett}).}
+\revisar{La columna \enquote{Demanda} es la mitad del volumen semanal (por ejemplo, 1536/2 = 768), no el volumen semanal dividido por 7 (que daría \qty{219}{\liter\per\day}).
+Tengo que aclarar la frecuencia de riego (¿dos eventos por semana?) y corregir los encabezados.
+Según las EETT, el riego abastece a 30 cerezos en 3 sectores de 10 plantas, con goteros autocompensados de \qty{2}{\liter\per\hour} cada \qty{50}{\centi\meter} (\cref{anx:eett}).}
 
 \subsection{Dimensionamiento del humedal por balance de oxígeno}
 
@@ -181,7 +182,7 @@ El aporte por convección, asumiendo \qty{0.3}{\gram} de O$_2$ por litro de aire
 
 \begin{table}[htbp]
   \centering
-  \caption{Balance de oxígeno de la línea de aguas servidas (área activa de \qty{6.00}{\square\meter}, 6 cargas diarias).}
+  \caption{Balance de oxígeno de la línea de aguas servidas (área activa de \qty{6.00}{\square\meter}, 6 cargas diarias). Fuente: elaboración propia.}
   \label{tab:balance-oxigeno}
   \begin{tabular}{@{}lr@{}}
     \toprule
@@ -213,11 +214,10 @@ Cada módulo contiene un lecho estratificado con una capa inferior de drenaje de
   \label{fig:esquema-ibc}
 \end{figure}
 
-\revisar{Distribución de caudales para las líneas del estero y de agroquímicos (objetivo específico~2).
-La propuesta ANID indica aplicar a estas líneas \enquote{las mismas características de carga} que a la línea doméstica.
-Con la DQO medida, igualar la carga de la Fase~1 (\qty{180}{\gram\per\day} de DQO en \qty{6}{\square\meter}) exigiría unos \qty{28400}{\liter\per\day} en la línea del estero (\qty{4.7}{\meter\per\day} de carga hidráulica, inviable en un humedal vertical), unos \qty{2400}{\liter\per\day} en AGR2 y unos \qty{460}{\liter\per\day} en AGR1 (04\_analisis/resultados/caudal\_equivalente\_carga.csv).
-Definir con el profesor guía el criterio de caudal para cada línea (p.\ ej.\ igual carga hidráulica que la línea doméstica) antes de dimensionar bombas y tuberías.
-Como referencia, una explotación agrícola típica genera solo 5000 a \qty{7000}{\liter} al año de agua de enjuague de equipos de aplicación \parencite{braul2018robust}, es decir, unos \qty{50}{\liter\per\day} a \qty{70}{\liter\per\day} en una temporada de 100 días: confirmar cuánta agua de lavado produce realmente el predio, porque podría no alcanzar para alimentar la línea de agroquímicos de forma continua.}
+\revisar{Me falta la distribución de caudales de las líneas del estero y de agroquímicos.
+La propuesta ANID dice aplicarles \enquote{las mismas características de carga} que a la doméstica, pero con la DQO medida eso exigiría unos \qty{28400}{\liter\per\day} en el estero (\qty{4.7}{\meter\per\day}, inviable en un humedal vertical), unos \qty{2400}{\liter\per\day} en AGR2 y unos \qty{460}{\liter\per\day} en AGR1.
+Tengo que definir con el profesor el criterio de caudal de cada línea (por ejemplo, igual carga hidráulica que la doméstica) antes de dimensionar bombas y tuberías.
+Además, un predio típico genera solo 5000 a \qty{7000}{\liter} al año de agua de enjuague~\parencite{braul2018robust} (unos 50 a \qty{70}{\liter\per\day} en 100 días): tengo que averiguar cuánta produce el predio.}
 
 \subsection{Solución hidráulica e impulsión}
 
@@ -228,25 +228,24 @@ La \cref{tab:bombas-adt} presenta la altura dinámica total (ADT) de cada línea
 
 \begin{table}[htbp]
   \centering
-  \caption{Altura dinámica total por línea de impulsión (tuberías del itemizado Rev.~1).}
+  \caption{Altura dinámica total por línea de impulsión (tuberías del itemizado Rev.~1). Fuente: elaboración propia.}
   \label{tab:bombas-adt}
   \input{tablas/bombas_adt}
 \end{table}
 
-\revisar{Valores PRELIMINARES generados por el script \texttt{11\_bombas.py} (que reproduce exactamente los resultados del cálculo original del autor).
-Por confirmar: diámetros interiores (supuestos \qty{45.2}{\milli\meter} para PVC~50 y \qty{22.0}{\milli\meter} para PVC~25 PN10, verificar en catálogo), número de piezas especiales y desniveles reales con la topografía (el cálculo original supone \qty{6}{\meter} de succión y \qty{5}{\meter} de impulsión).
-Hallazgo: con PVC de \qty{25}{\milli\meter} y \qty{140}{\meter}, la línea del estero requiere una ADT de unos \qty{31}{\meter}, fuera del rango de las bombas consideradas (Tecson AHS, Ebara DW y DWO); con \qty{40}{\milli\meter} bajaría a unos \qty{14}{\meter}.
-La línea de agroquímicos (\qty{16.4}{\meter}) queda al límite de la AHS-10.
-Las bombas de catálogo parten en caudales de \qtyrange{20}{100}{\liter\per\minute}, muy por sobre los \qty{2.7}{\liter\per\minute} del riego: respaldo del circuito de retorno (\textit{bypass}).
-Las bombas no están en el itemizado: según las EETT las provee el equipo del proyecto. La inscripción compromete la \enquote{selección técnica de los equipos de bombeo}: proponer aquí el modelo para cada línea a partir de esta tabla y de las curvas de catálogo (04\_analisis/resultados/bombas\_catalogo\_vs\_requerido.pdf).}
+\revisar{Valores preliminares del script \texttt{11\_bombas.py}, que reproduce mi cálculo original.
+Tengo que confirmar los diámetros interiores (supuse \qty{45.2}{\milli\meter} para PVC~50 y \qty{22.0}{\milli\meter} para PVC~25 PN10), las piezas especiales y los desniveles reales (supuse \qty{6}{\meter} de succión y \qty{5}{\meter} de impulsión).
+Con PVC de \qty{25}{\milli\meter} y \qty{140}{\meter}, la línea del estero pide unos \qty{31}{\meter} de ADT, fuera del rango de las bombas consideradas (Tecson AHS, Ebara DW y DWO); con \qty{40}{\milli\meter} bajaría a unos \qty{14}{\meter}. La de agroquímicos (\qty{16.4}{\meter}) queda al límite de la AHS-10.
+Las bombas de catálogo parten en 20 a \qty{100}{\liter\per\minute}, muy sobre los \qty{2.7}{\liter\per\minute} del riego, lo que respalda el \textit{bypass}.
+Las bombas no están en el itemizado (las provee el proyecto), pero la inscripción compromete su selección: tengo que proponer el modelo de cada línea con esta tabla y las curvas de catálogo.}
 
 \subsection{Zanjas y movimiento de tierras}
 
-\pendiente{Presentar los perfiles de las zanjas (cota de terreno, cota de fondo, profundidad de excavación y tapada) y los volúmenes de excavación; resultados preliminares en 04\_analisis/resultados/excavacion\_resumen.csv y excavacion\_perfiles.pdf.}
-\revisar{Con los datos de las corridas guardadas por el autor (pendiente de \qty{2}{\percent}): zanja~1 (\qty{107}{\meter}) con tapada mínima de \qty{1.21}{\meter} y excavación de hasta \qty{2.9}{\meter}; zanja~2 (\qty{21}{\meter}) con excavación de hasta \qty{3.1}{\meter}; zanja~3 (\qty{49}{\meter}, sin corrida guardada) con tapada mínima de solo \qty{0.11}{\meter}, menor que los \qty{0.50}{\meter} exigidos.
-Excavaciones sobre \qty{1.5}{\meter} requieren entibación o talud (NCh349).
-El cálculo original usa un tubo de \qty{52}{\milli\meter}, pero las EETT especifican PVC sanitario de \qty{110}{\milli\meter}; el documento de resultados indica \qty{37}{\meter} para la zanja de oficinas y el script, \qty{21}{\meter}.
-Confirmar el ancho de zanja (supuesto \qty{0.40}{\meter}) para cubicar.}
+\pendiente{Presentar los perfiles de las zanjas (cota de terreno, cota de fondo, excavación y tapada) y los volúmenes de excavación; tengo resultados preliminares en 04\_analisis/resultados/excavacion\_resumen.csv y excavacion\_perfiles.pdf.}
+\revisar{Con mis corridas guardadas (pendiente de \qty{2}{\percent}): zanja~1 (\qty{107}{\meter}) con tapada mínima de \qty{1.21}{\meter} y excavación de hasta \qty{2.9}{\meter}; zanja~2 (\qty{21}{\meter}) con excavación de hasta \qty{3.1}{\meter}; zanja~3 (\qty{49}{\meter}, sin corrida guardada) con tapada mínima de solo \qty{0.11}{\meter}, menor que los \qty{0.50}{\meter} exigidos.
+Las excavaciones de más de \qty{1.5}{\meter} requieren entibación o talud (NCh349).
+Mi cálculo usa un tubo de \qty{52}{\milli\meter}, pero las EETT piden PVC sanitario de \qty{110}{\milli\meter}; además, el documento de resultados dice \qty{37}{\meter} para la zanja de oficinas y el script, \qty{21}{\meter}.
+Tengo que confirmar el ancho de zanja (supuse \qty{0.40}{\meter}) para cubicar.}
 
 \section{Diseño y cálculo estructural}
 \label{sec:res-estructural}
@@ -255,39 +254,39 @@ Confirmar el ancho de zanja (supuesto \qty{0.40}{\meter}) para cubicar.}
 
 La plataforma elevada, de \qtyproduct{5.00 x 2.00}{\meter} en planta y \qty{2.25}{\meter} de altura, se diseñó con perfiles cajón de acero A270ES: $150 \times 150 \times 6$~\unit{\milli\meter} para pilares y vigas principales y $150 \times 100 \times 3$~\unit{\milli\meter} para las vigas secundarias, con una cubierta de tablero estructural de \qty{15}{\milli\meter} (láminas 3.1 y 3.2, \cref{anx:planimetria-estructural}).
 La estructura soporta tres estanques de acumulación de \qty{1000}{\liter} cada uno, junto con tres dosificadores de \qty{200}{\liter}.
-\revisar{Perfiles confirmados por las láminas 3.1--3.2, las especificaciones técnicas y el itemizado (la discusión de la v3.0 indicaba otros).}
+\revisar{Los perfiles los confirmé con las láminas 3.1--3.2, las EETT y el itemizado (la discusión de la v3.0 tenía otros).}
 
 La \cref{tab:verificacion-estructural} resume la verificación de los elementos de la plataforma con las dimensiones finales, según el método LRFD (AISC~360-16) y las combinaciones $\num{1.2}D + \num{1.6}L$ y $\num{1.2}D + \num{1.0}L + \num{1.4}E$.
 Cada estanque lleno aporta \qty{10.2}{\kilo\newton}, y el peso sísmico de la cubierta es de \qty{42.6}{\kilo\newton}.
 
 \begin{table}[htbp]
   \centering
-  \caption{Verificación estructural de la plataforma (dimensiones finales: láminas 3.1--3.2 y EETT).}
+  \caption{Verificación estructural de la plataforma (dimensiones finales: láminas 3.1--3.2 y EETT). Fuente: elaboración propia.}
   \label{tab:verificacion-estructural}
   \input{tablas/verificacion_estructural}
 \end{table}
 
-\revisar{Resultados PRELIMINARES generados por el script de verificación estructural de 04\_analisis, que actualiza el cálculo original del autor (hecho para una plataforma de $\qtyproduct{5.50 x 3.00}{\meter}$, perfiles $250 \times 250 \times 6$, estanques de \qty{785}{\liter} y zapata de $\qtyproduct{0.8 x 0.8 x 0.4}{\meter}$).
-Hallazgos: (1) el tablero de \qty{15}{\milli\meter} no cumple $L/300$ con el método del autor (tampoco en el cálculo original: \qty{1.85}{\milli\meter} frente a \qty{1.33}{\milli\meter}); cumple con \qty{21}{\milli\meter} o con vigas secundarias cada \qty{0.30}{\meter};
-(2) con el supuesto original (corte sísmico tomado por 2 pilares en voladizo) la zapata no verifica excentricidad ni volcamiento; si el corte se reparte entre los 6 pilares, no hay volcamiento, pero el área en contacto baja a \qty{85}{\percent} (zona~2) y \qty{63}{\percent} (zona~3);
+\revisar{Resultados preliminares del script de verificación estructural, que actualiza mi cálculo original (hecho para una plataforma de $\qtyproduct{5.50 x 3.00}{\meter}$, perfiles $250 \times 250 \times 6$, estanques de \qty{785}{\liter} y zapata de $\qtyproduct{0.8 x 0.8 x 0.4}{\meter}$).
+Lo que encontré: (1) el tablero de \qty{15}{\milli\meter} no cumple $L/300$ (tampoco en el cálculo original: \qty{1.85}{\milli\meter} frente a \qty{1.33}{\milli\meter}); cumple con \qty{21}{\milli\meter} o con vigas secundarias cada \qty{0.30}{\meter};
+(2) si el corte sísmico lo toman 2 pilares en voladizo, la zapata no verifica excentricidad ni volcamiento; si se reparte entre los 6, no vuelca, pero el área en contacto baja a \qty{85}{\percent} (zona~2) y \qty{63}{\percent} (zona~3);
 (3) la placa base de \qty{16}{\milli\meter} queda al límite en zona~3.
-Por definir con el co-guía: zona sísmica, coeficiente sísmico según la NCh2369 vigente (el original usa $C = \num{2.7} A_0/R$), reparto del corte entre pilares y $F_y$ del A270ES.
-Estructura auxiliar de los dosificadores: sin memoria de cálculo, y su perfil \enquote{$15 \times 15 \times 6$~mm} no es físicamente posible (pared de \qty{6}{\milli\meter} en un tubo de \qty{15}{\milli\meter}): revisar.}
+Tengo que definir con el co-guía el coeficiente sísmico según la NCh2369 vigente (el original usa $C = \num{2.7} A_0/R$), el reparto del corte y el $F_y$ del A270ES.
+La estructura de los dosificadores no tiene cálculo y su perfil \enquote{$15 \times 15 \times 6$~mm} no es posible (pared de \qty{6}{\milli\meter} en un tubo de \qty{15}{\milli\meter}): tengo que revisarla.}
 
 \subsection{Diseño de fundaciones superficiales}
 
-Las zapatas de fundación se dimensionaron en $\num{1.00} \times \num{1.00} \times \num{0.50}$~\unit{\meter}, utilizando hormigón grado G30\revisar{la lámina 3.2 indica G25: unificar}, reforzadas con parrilla inferior de barras de \qty{12}{\milli\meter} espaciadas cada \qty{15}{\centi\meter}.
+Las zapatas de fundación se dimensionaron en $\num{1.00} \times \num{1.00} \times \num{0.50}$~\unit{\meter}, utilizando hormigón grado G30\revisar{la lámina 3.2 dice G25: tengo que unificarlo}, reforzadas con parrilla inferior de barras de \qty{12}{\milli\meter} espaciadas cada \qty{15}{\centi\meter}.
 Las columnas se anclaron mediante placas base de $300 \times 300 \times 16$~\unit{\milli\meter} con pernos tipo J de \qty{19}{\milli\meter}.
 
 La presión de contacto estática es de \qty{24.2}{\kilo\pascal}, inferior a la capacidad admisible supuesta de \qty{150}{\kilo\pascal} (\cref{tab:verificacion-estructural}).
 Con la \cref{ec:terzaghi-cuadrada}, para un suelo granular sin cohesión ($\gamma = \qty{18}{\kilo\newton\per\cubic\meter}$, $D_f = \qty{0.50}{\meter}$, $B = \qty{1.00}{\meter}$) y $FS = 3$, la capacidad admisible varía entre \qty{86}{\kilo\pascal} con $\varphi' = \ang{28}$ y \qty{233}{\kilo\pascal} con $\varphi' = \ang{35}$; el valor supuesto de \qty{150}{\kilo\pascal} corresponde a $\varphi' \approx \ang{32}$, propio de una arena suelta según \textcite{das2015fundamentos}.
 Aun en el caso más desfavorable analizado, la presión estática de \qty{24.2}{\kilo\pascal} es menor que un tercio de la capacidad admisible.
-\revisar{La capacidad admisible de \qty{150}{\kilo\pascal} es un supuesto del cálculo original (\enquote{suelo tipo C/D competente}), sin estudio de mecánica de suelos; $\gamma$, $D_f$ y $\varphi'$ de la sensibilidad (04\_analisis/scripts/13\_capacidad\_soporte.py) también son supuestos: confirmar con el profesor guía o pedir un ensayo.
-La verificación sísmica de la zapata está condicionada a los supuestos indicados en la nota anterior.}
+\revisar{Los \qty{150}{\kilo\pascal} son un supuesto del cálculo original (\enquote{suelo tipo C/D competente}) sin estudio de mecánica de suelos, y $\gamma$, $D_f$ y $\varphi'$ de la sensibilidad (script 13\_capacidad\_soporte.py) también son supuestos: tengo que confirmarlos con el profesor o pedir un ensayo.
+La verificación sísmica de la zapata depende de los supuestos de la nota anterior.}
 
 \subsection{Planimetría y expediente técnico}
 
-Se generó el conjunto de láminas en formato CAD, que contiene emplazamientos, elevaciones de impulsión, planta general de la estación HCFV, cortes constructivos, plantas de fundaciones y detalles de anclaje.
+Se generó el conjunto de láminas en formato CAD, que contiene emplazamientos, elevaciones de impulsión, planta general de la estación HC-FV, cortes constructivos, plantas de fundaciones y detalles de anclaje.
 La \cref{fig:planta-general} muestra la planta general con la ubicación de los sectores de la estación.
 
 \begin{figure}[htbp]

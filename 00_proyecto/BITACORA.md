@@ -5,6 +5,13 @@
 
 ---
 
+## 2026-11-20 (noche, 27) — Correcciones del autor y 4 fuentes nuevas
+
+- 2.3.2 reescrita: el nitrato lo asimilan las **plantas del humedal** (no el cerezo); se quitaron Schwitzky y San-Martino de ese párrafo.
+- Leyendas sin fuente → "Fuente: elaboración propia". Glosario: HC-FV como sigla única (antes HCFV), + ACV, ANID, ASD, DGA, DOH, EETT, HC, INN, NMP, NT, PT, TRH.
+- Todas las notas reescritas en primera persona; estilo nuevo: cursiva azul "[Por hacer: …]" y verde "[Nota: …]" (PDF y Word, sin rojo).
+- Nuevas: `verapuerto2022reclamation` (reúso < 1 %; NCh3456), `odepa2024catastro` (cerezo Maule 32 801 ha), `garreaud2020central`, `doh2023manual` (R 0,7–1,0; pendientes).
+
 ## 2026-11-20 (noche, 26) — Revisión del autor (9 puntos)
 
 - Cap. 1: eliminada la sección "Preguntas de investigación" (el profesor indicó que no es necesaria) y el último párrafo de

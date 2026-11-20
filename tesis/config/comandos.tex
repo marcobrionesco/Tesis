@@ -32,8 +32,8 @@
 \newif\ifmostrarmarcas
 \mostrarmarcastrue
 \ifmostrarmarcas
-  \newcommand{\pendiente}[1]{\textcolor{red}{\textbf{\lbrack PENDIENTE:} #1\textbf{\rbrack}}}
-  \newcommand{\revisar}[1]{\textcolor{orange}{\textbf{\lbrack REVISAR:} #1\textbf{\rbrack}}}
+  \newcommand{\pendiente}[1]{\textcolor{blue!60!black}{\textit{\lbrack Por hacer: #1\rbrack}}}
+  \newcommand{\revisar}[1]{\textcolor{teal!70!black}{\textit{\lbrack Nota: #1\rbrack}}}
 \else
   \newcommand{\pendiente}[1]{}
   \newcommand{\revisar}[1]{}

@@ -92,7 +92,7 @@ Respuesta: __________________________________________________________
 
 # C. Prioridad baja (formato y referencias)
 
-**13.** Norma de reúso: en sus memorias CEAZA (2025) aparece como "NCh3456 Directrices para el uso de aguas residuales tratadas en proyectos de riego, Partes 1–4 (versiones comité), 2021" y en el texto como (INN, 2022), con la Categoría D (DBO~5~ 35 mg/L, SST 80 mg/L). ¿Qué parte y año cito, y me puede facilitar el texto?
+**13.** Norma de reúso: según Vera-Puerto et al. (2022), la NCh3456 (partes 1–4, versiones comité) se aprobó en mayo de 2021, y su parte 2 tiene cuatro categorías (I a IV; la IV con DBO~5~ 35 y SST 80 mg/L, la "Categoría D" de las memorias CEAZA). ¿Me puede facilitar el texto para citarla directamente?
 
 **14.** ¿Me puede facilitar el anexo "Bibliographic-references-2025" de la propuesta
 (referencias completas de Vera-Puerto et al. 2021a, 2021b, 2023 y 2024)?
@@ -104,8 +104,4 @@ el template, después del Abstract (así lo hizo Bocaz, 2026, tesis aprobada que
 
 **17.** ¿Tiene observaciones escritas sobre la versión 3.0 que le envié?
 
-**18. Nitrato y plantas.** Para justificar el humedal vertical usted indicó que el nitrato es la forma de N que más usan
-las plantas. Las fuentes que encontré no lo respaldan para el cerezo (Schwitzky et al., 2026: en suelos de cerezo predomina
-el amonio, 58 %). ¿Mantengo la idea con otra fuente o redacto la justificación como "el efluente conserva el N en forma
-mineral disponible"?
-
+**18. Nitrato y plantas del humedal.** Redacté la selección del humedal vertical según su indicación: al nitrificar genera nitrato, que asimilan las plantas del propio humedal (Dotro et al., 2021: 0,2–0,8 g N/m²·d). ¿Tiene una fuente que respalde que el nitrato es la forma de nitrógeno que más usan esas plantas?
