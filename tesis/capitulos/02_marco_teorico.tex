@@ -347,4 +347,12 @@ Los pilares, al estar sometidos simultáneamente a compresión axial y a momento
 
 La transmisión de las cargas desde la superestructura hacia el terreno natural se realiza mediante zapatas aisladas.
 El diseño geotécnico requiere verificar que la presión real de contacto ($q_{act}$) generada en condición de servicio sea menor a la capacidad de soporte admisible del suelo ($q_{adm}$)~\parencite{das2015fundamentos,bowles1996foundation}.
+La capacidad admisible se obtiene dividiendo la capacidad última de carga por un factor de seguridad, $q_{adm} = q_u/FS$, con $FS$ de al menos 3~\parencite{das2015fundamentos}.
+Para una zapata cuadrada con falla de corte general, la capacidad última puede estimarse con la ecuación de \textcite{das2015fundamentos} basada en la teoría de Terzaghi (\cref{ec:terzaghi-cuadrada}):
+\begin{equation}
+  q_u = \num{1.3}\,c'N_c + q\,N_q + \num{0.4}\,\gamma B N_\gamma
+  \label{ec:terzaghi-cuadrada}
+\end{equation}
+donde $c'$ es la cohesión del suelo (\unit{\kilo\pascal}); $q = \gamma D_f$ la sobrecarga del suelo al nivel del sello de fundación (\unit{\kilo\pascal}), con $D_f$ la profundidad de fundación (\unit{\meter}); $\gamma$ el peso unitario del suelo (\unit{\kilo\newton\per\cubic\meter}); $B$ el ancho de la zapata (\unit{\meter}), y $N_c$, $N_q$ y $N_\gamma$ factores de capacidad de carga adimensionales que dependen solo del ángulo de fricción interna $\varphi'$~\parencite{das2015fundamentos}.
+Antes de la falla por corte, la fundación puede experimentar asentamientos suficientes para dañar la estructura o impedir su función, por lo que también deben controlarse~\parencite{das2015fundamentos}.
 Estructuralmente, la zapata se diseña en hormigón armado, dimensionando la armadura de flexión inferior de acuerdo a los criterios normativos vigentes~\parencite{minvu2011ds60,aci2019building}.

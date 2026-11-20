@@ -280,7 +280,9 @@ Las zapatas de fundación se dimensionaron en $\num{1.00} \times \num{1.00} \tim
 Las columnas se anclaron mediante placas base de $300 \times 300 \times 16$~\unit{\milli\meter} con pernos tipo J de \qty{19}{\milli\meter}.
 
 La presión de contacto estática es de \qty{24.2}{\kilo\pascal}, inferior a la capacidad admisible supuesta de \qty{150}{\kilo\pascal} (\cref{tab:verificacion-estructural}).
-\revisar{La capacidad admisible de \qty{150}{\kilo\pascal} es un supuesto del cálculo original (\enquote{suelo tipo C/D competente}), sin estudio de mecánica de suelos: indicarlo como supuesto con fuente o pedir un ensayo.
+Con la \cref{ec:terzaghi-cuadrada}, para un suelo granular sin cohesión ($\gamma = \qty{18}{\kilo\newton\per\cubic\meter}$, $D_f = \qty{0.50}{\meter}$, $B = \qty{1.00}{\meter}$) y $FS = 3$, la capacidad admisible varía entre \qty{86}{\kilo\pascal} con $\varphi' = \ang{28}$ y \qty{233}{\kilo\pascal} con $\varphi' = \ang{35}$; el valor supuesto de \qty{150}{\kilo\pascal} corresponde a $\varphi' \approx \ang{32}$, propio de una arena suelta según \textcite{das2015fundamentos}.
+Aun en el caso más desfavorable analizado, la presión estática de \qty{24.2}{\kilo\pascal} es menor que un tercio de la capacidad admisible.
+\revisar{La capacidad admisible de \qty{150}{\kilo\pascal} es un supuesto del cálculo original (\enquote{suelo tipo C/D competente}), sin estudio de mecánica de suelos; $\gamma$, $D_f$ y $\varphi'$ de la sensibilidad (04\_analisis/scripts/13\_capacidad\_soporte.py) también son supuestos: confirmar con el profesor guía o pedir un ensayo.
 La verificación sísmica de la zapata está condicionada a los supuestos indicados en la nota anterior.}
 
 \subsection{Planimetría y expediente técnico}

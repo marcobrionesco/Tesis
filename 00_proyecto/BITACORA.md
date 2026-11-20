@@ -5,6 +5,14 @@
 
 ---
 
+## 2026-11-20 (noche, 23) — Das (2015) completo: capacidad de carga y cierre de la bibliografía
+
+- Partes 6–7 recibidas (cap. 16–18). Cap. 2: q_adm = q_u/FS (FS ≥ 3) y ecuación de Terzaghi para zapata cuadrada; asentamientos.
+  Cap. 3: q_máx con e > B/6 y equivalencia 80 % ⇔ e ≤ 0,233B. Cap. 4: sensibilidad de q_adm a φ′ (nuevo script
+  `04_analisis/scripts/13_capacidad_soporte.py`): 150 kPa ⇔ φ′ ≈ 32°. Conclusiones: cita a Das (2015) en español; se eliminó
+  `das2015principles` (sin verificar).
+- El autor indica que **terminó la recopilación bibliográfica**. Sigue: respuestas del profesor (preguntas 1–18) y recálculo.
+
 ## 2026-11-20 (noche, 22) — Das (2015), Fundamentos de ingeniería geotécnica
 
 - Nueva `das2015fundamentos` (4.ª ed. en español; PDF recibido hasta la p. 474, sin los cap. 16–17). Reemplaza a `das2015principles`

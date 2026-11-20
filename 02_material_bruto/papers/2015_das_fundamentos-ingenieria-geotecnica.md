@@ -1,4 +1,4 @@
-# Texto extraído (pymupdf) — Das (2015), Fundamentos de ingeniería geotécnica, 4.ª ed. en español (Cengage). P1–P5 = partes del PDF; cubre hasta la p. 474 (cap. 15). Faltan los cap. 16–18.
+# Texto extraído (pymupdf) — Das (2015), Fundamentos de ingeniería geotécnica, 4.ª ed. en español (Cengage). P1–P7 = partes del PDF (libro completo; P6 empieza en la p. 475).
 
 === P1 PÁG 1 ===
 FUNDAMENTOS DE 
@@ -30525,3 +30525,12844 @@ Figura 15.37
 
 
 
+
+=== P6 PÁG 1 ===
+Problemas
+475
+15.8  Un muro de contención con refuerzo de geotextil tiene 6 m de altura. Para el relleno 
+granular, g1  15.9 kN/m3 y f¿1  30º. Para el geotextil, Tper  16 kN/m. Para el diseño de 
+la pared, determine SV, L y ll. Utilice FS(B)  FS(P)  1.5.
+15.9  Use la SV, L y ll determinadas en el problema 15.8 para comprobar la estabilidad global (es 
+decir, el factor de seguridad de vuelco, deslizamiento y la falla de la capacidad de carga) de 
+la pared. Para el suelo in situ, g2  16.8 kN/m3, f¿2  20º y c¿2  55 kN/m2.
+15.10  Consulte el corte apuntalado en la fi gura 15.39, para el que g  17 kN/m3, f¿  30º y c¿  0. 
+Los puntales se encuentran a 3 m sobre el centro del plano. Dibuje la envoltura de presión 
+de tierra y determine los puntales de carga en los niveles A, B y C.
+15.11  Para el corte apuntalado descrito en el problema 15.10, asuma que sper  170 MN/m2. 
+ a.  Determine la sección del pilote (módulo de sección)
+ b.  ¿Cuál es el módulo de sección del encofrado en el nivel A?
+15.12  Consulte la fi gura 15.40, en la cual g  17.5 kN/m3, c  60 kN/m2 y el espaciamiento 
+de centro a centro de los puntales es de 5 m. Dibuje la envoltura de presión de tierra y 
+determine los puntales de carga en los niveles A, B y C.
+15.13  Consulte la fi gura 15.27a. Para el corte apuntalado, H  6 m, Hs  2 m, gs  16.2 kN/m3, 
+ángulo de fricción de la arena, f¿s  34º, Hc  4 m, gc  17.5 kN/m3 y la resistencia a la 
+compresión no confi nada de la capa de arcilla, qu  68 kN/m2.
+ a.   Estime la cohesión promedio, cprom, y el peso unitario medio, gprom, para el 
+desarrollo de la envoltura de presión de tierra.
+ b.  Trace la envoltura de presión de tierra.
+Figura 15.38
+
+
+
+
+
+=== P6 PÁG 2 ===
+Capítulo 15: Muros de contención y cortes apuntalados
+476
+15.14  Consulte la fi gura 15.27b, que muestra un corte apuntalado en arcilla. Aquí, H  7 m, 
+H1  2 m, c1  102 kN/m2, g1  17.5 kN/m3, H2  2.5 m, c2  75 kN/m2, g2  
+16.8 kN/m3, H3  2.5 m, c3  80 kN/m2 y g3  17 kN/m3.
+a.  Determine la cohesión promedio, cprom, y el peso unitario promedio, gprom, para el 
+desarrollo de la envoltura de presión de tierras.
+b. Trace la envoltura de presión de tierras.
+Figura 15.39
+4
+1.5
+1.5
+
+
+Figura 15.40
+Arcilla
+
+=== P6 PÁG 3 ===
+Referencias
+477
+15.15  Determine el factor de seguridad contra el levantamiento del fondo para el corte apuntalado 
+descrito en el problema 15.12. Utilice las ecuaciones (15.66) y (15.70). Para la ecuación 
+(15.70), suponga la longitud del corte, L  18 m.
+Referencias
+Bell, J. R., Stilley, A. N., and Vandre, B. (1975). “Fabric Retaining Earth Walls,” Proceedings, Thirteenth 
+Engineering Geology and Soils Engineering Symposium, Moscow, ID.
+Binquet, J., and Lee, K. L. (1975). “Bearing Capacity Analysis of Reinforced Earth Slabs,” Journal of 
+the Geotechnical Engineering Division, American Society of Civil Engineers,Vol. 101, No. GT12, 
+1257–1276.
+Bjerrum, L, and Eide, O. (1956). “Stability of Strutted Excavation in Clay,” Geotechnique, Vol. 6 No. 1, 
+32–47.
+Darbin, M. (1970). “Reinforced Earth for Construction of Freeways” (in French), Revue Générale des 
+Routes et Aerodromes, No. 457, Sept.
+Koerner, R. B. (2005). Design with Geosynthetics, 5th ed., Prentice Hall, Englewood Cliffs, NJ.
+Lee, K. L.,Adams, B. D., and Vagneron, J. J. (1973). “Reinforced Earth Retaining Walls,” Journal of 
+the Soil Mechanics and Foundations Division, American Society of Civil Engineers, Vol. 99, No. 
+SM10, 745–763.
+Peck, R. B. (1943). “Earth Pressure Measurements in Open Cuts, Chicago (Ill.) Subway,” Transactions, 
+American Society of Civil Engineers, Vol. 108, 1008–1058.
+Peck, R. B. (1969). “Deep Excavation and Tunneling in Soft Ground,” Proceedings, Seventh International 
+Conference on Soil Mechanics and Foundation Engineering, Mexico City, State of-the-Art Volume, 
+225–290.
+Schlosser, F., and Long, N. (1974). “Recent Results in French Research on Reinforced Earth,” Journal 
+of the Construction Division, American Society of Civil Engineers, Vol. 100, No. CO3, 113–237.
+Schlosser, F., and Vidal, H. (1969). “Reinforced Earth” (in French), Bulletin de Liaison des Laboratoires 
+Routier, Ponts et Chaussées, Paris, France, Nov., 101–144.
+Terzaghi, K. (1943). Theoretical Soil Mechanics, Wiley, New York.
+Vidal, H. (1966). “La terre Armee,” Anales de l’Institut Technique du Bâtiment et des Travaux Publiques, 
+France, July–August, 888–938.
+
+=== P6 PÁG 4 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+478
+16.1  Introducción
+Generalmente se denomina cimentación a la parte más baja de una estructura. Su función es 
+transferir la carga de la estructura al suelo sobre el que está descansando. Una cimentación 
+diseñada adecuadamente es una que transfi ere la carga a lo largo del suelo sin sobrecargarlo. 
+Sobreesforzar el suelo puede resultar en asentamiento excesivo o falla de corte del mismo, am-
+bos causando daño a la estructura. Por lo tanto, los ingenieros geotécnicos y estructurales que 
+diseñan cimentaciones deben evaluar la capacidad de carga o portante de los suelos.
+Dependiendo de la estructura y el suelo encontrado, se utilizan varios tipos de cimenta-
+ciones. Una zapata corrida es simplemente la ampliación de una pared de soporte de carga o de 
+la columna que hace posible la transmisión de la carga de la estructura sobre un área mayor del 
+suelo. En suelos con baja capacidad de carga, el tamaño de las zapatas corridas requeridas es 
+muy grande y poco práctico. En ese caso, es más económico construir toda la estructura sobre 
+una plataforma de concreto. Esto se llama losa de cimentación.
+Las cimentaciones con pilotes y de eje perforado se utilizan para las estructuras más 
+pesadas cuando se requiere gran profundidad para soportar la carga. Los pilotes son miembros 
+estructurales hechos de madera, concreto o acero que transmiten la carga de la superestructura 
+a las capas inferiores del suelo. De acuerdo con la forma en que transmiten su carga en el sub-
+suelo, los pilotes se pueden dividir en dos categorías: pilotes de fricción y pilotes de carga. En 
+el caso de los primeros, la carga de la superestructura es resistida por los esfuerzos cortantes 
+generados a lo largo de la superfi cie del pilote. En los segundos, la carga transportada por el 
+pilote se transmite de su punta a un estrato fi rme.
+En el caso de ejes perforados, se perfora un eje en el subsuelo y después se llena con con-
+creto. Puede utilizarse una carcasa de metal mientras se perfora el eje. La carcasa  puede dejarse en 
+su lugar o ser retirada durante la colocación del concreto. Generalmente, el diámetro de un eje 
+de perforación es mucho más grande que el de un pilote. La distinción entre los pilotes y los 
+ejes perforados se vuelve poco clara en un diámetro aproximado de 1 m y, entonces, las defi nicio-
+nes y la nomenclatura son inexactas.
+Las zapatas y las losas de cimentación se conocen en general como cimentaciones poco 
+profundas, y los pilotes y ejes perforados se clasifi can como cimentaciones profundas. En un 
+sentido más general, las cimentaciones poco profundas son aquellas que tienen una razón de 
+C A P Í T U L O 16
+Cimentaciones poco 
+profundas: capacidad de carga
+478
+
+=== P6 PÁG 5 ===
+16.2 Capacidad última de carga de cimentaciones poco profundas: conceptos generales
+479
+la profundidad de empotramiento con el ancho aproximadamente menor a cuatro. Cuando esta 
+razón es mayor a cuatro, la cimentación se clasifi ca como profunda.
+En este capítulo se discute la capacidad de soporte del suelo para cimentaciones poco 
+profundas. Se analizará la carga máxima por unidad de superfi cie de una cimentación poco pro-
+funda que hará que el suelo que soporta la cimentación tenga una falla por corte. Esto se conoce 
+como capacidad última de carga. Sobre la base de la capacidad última de carga estimada, se 
+aplica un factor de seguridad para obtener la capacidad de carga admisible.
+La capacidad de carga admisible basada en criterios de asentamiento se discute en el 
+capítulo 17.
+16.2   Capacidad última de carga de cimentaciones poco 
+profundas: conceptos generales
+Considere una cimentación continua (es decir, la longitud es teóricamente infi nita) que descan-
+sa sobre la superfi cie de una arena densa o suelo cohesivo rígido, como se muestra en la fi gura 
+16.1a, con una anchura B. Ahora, si la carga se aplica gradualmente a la cimentación, el asenta-
+miento aumentará. En la fi gura 16.1a también se muestra la variación de la carga por unidad de 
+área sobre la cimentación, q, con el asentamiento de ésta. En un momento determinado, cuando 
+la carga por unidad de área es igual a qu, puede ocurrir un falla repentina del suelo que soporta la 
+cimentación y la superfi cie de falla en el suelo se extenderá hasta la superfi cie del terreno. 
+Esta carga por unidad de superfi cie, qu, se conoce generalmente como capacidad última de 
+carga de la cimentación. Cuando ocurre una falla repentina en este tipo de suelo, se denomina 
+falla general de corte.
+Si la cimentación en cuestión se basa sobre arena o tierra arcillosa de compactación me-
+dia (fi gura 16.1b), un aumento de la carga sobre la cimentación también estará acompañado 
+por un aumento del asentamiento. Sin embargo, en este caso la superfi cie de falla en el suelo se 
+extenderá poco a poco hacia el exterior desde la cimentación, como se muestra con las líneas 
+continuas en la fi gura 16.1b. Cuando la carga por unidad de área sobre la cimentación es igual 
+a qu(1), el movimiento de las cimentaciones estará acompañado por sacudidas bruscas. Entonces 
+se requiere un movimiento considerable de las cimentaciones para que la superfi cie de falla en 
+el suelo se extienda hasta la superfi cie del terreno (como se muestra con las líneas discontinuas 
+en la fi gura 16.1b). La carga por unidad de área a la que esto ocurre es la capacidad última 
+de carga, qu. Más allá de este punto, un aumento de la carga estará acompañado por un gran 
+aumento del asentamiento de la cimentación. La carga por unidad de área de la base, qu(1), se 
+conoce como capacidad última de carga (Vesic, 1963). Note que un valor pico de q no ocurre 
+en este tipo de falla, que se llama falla de corte local en el suelo.
+Si la cimentación se apoya en un suelo bastante suelto, la gráfi ca de carga-asentamiento 
+será como la de la fi gura 16.1c. En este caso, la superfi cie de falla en el suelo no se extenderá 
+hasta la superfi cie del terreno. Más allá de la carga máxima de falla, qu, la gráfi ca de carga-
+asentamiento será muy pronunciada y prácticamente lineal. Este tipo de falla en el suelo se 
+llama falla por punzonamiento.
+Con base en los resultados experimentales, Vesic (1963) propuso una relación para el 
+modo de falla de la capacidad de carga de las cimentaciones que descansan sobre arenas. La 
+fi gura 16.2 muestra esta relación, que implica la siguiente notación:
+ 
+Dr  densidad relativa de arena
+ 
+Df  profundidad de cimentación medida desde la superfi cie del suelo
+ 
+B  ancho de cimentación
+ 
+L  duración de la cimentación. (Nota: L  B)
+
+=== P6 PÁG 6 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+480
+De la fi gura 16.2, se puede ver que 
+(16.1)
+Naturaleza de la falla en el suelo 
+f a Dr, 
+Df
+B , B
+L b
+Para cimentaciones a poca profundidad (es decir, Df/B* pequeña), la carga máxima puede 
+ocurrir con un asentamiento de la cimentación de 4% a 10% de B. Esta condición se produce 
+con una falla de corte general en el suelo; sin embargo, con una falla local o por punzonamiento, 
+la carga máxima puede ocurrir en asentamientos de 15% a 25% del ancho de la cimentación 
+(B). Note que
+(16.2)
+B*
+2BL
+B
+L
+Figura 16.1 Naturaleza de la falla de la capacidad de carga en un suelo: (a) falla de corte general; 
+(b) falla local; (c) falla por punzonamiento
+Superficie 
+de falla en 
+el suelo
+Carga/unidad de área, q
+Carga/unidad de área, q
+Carga/unidad de área, q
+Asentamiento
+Asentamiento
+Asentamiento
+Superficie 
+de falla
+Superficie
+ de falla
+Zapata 
+superficial
+
+=== P6 PÁG 7 ===
+16.3 Teoría de Terzaghi de la capacidad última de carga
+481
+16.3  Teoría de Terzaghi de la capacidad última de carga
+Terzaghi (1943) fue el primero en presentar una teoría global para evaluar la capacidad última 
+de carga de cimentaciones poco profundas. De acuerdo con esta teoría, una cimentación es poco 
+profunda si la profundidad, Df (fi gura 16.3), es menor o igual que el ancho de la cimentación. 
+Sin embargo, investigadores posteriores han sugerido que las cimentaciones con Df igual a 3 
+a 4 veces el ancho de la cimentación se pueden defi nir como cimentaciones poco profundas.
+Terzaghi sugirió que para una cimentación continua o de franja (es decir, la razón de 
+ancho a largo de la cimentación tiende a 0), la superfi cie de falla en el suelo a carga máxima 
+puede suponerse similar a la mostrada en la fi gura 16.3. (Note que éste es el caso de falla de 
+corte general, tal como se defi ne en la fi gura 16.1a.) El efecto del suelo por encima del fondo 
+de la cimentación también puede suponerse y ser remplazado por una sobrecarga equivalente, 
+Figura 16.3 Falla de la capacidad de carga en un suelo bajo una cimentación continua rígida en grava
+Figura 16.2 Resultados de la prueba de Vesic (1963) para las modalidades de falla de la cimentación en 
+arena (Vesic, 1963)
+ Df /B
+0
+5
+10
+Cimentaciones
+circulares 
+(Diámetro  B)
+Falla
+ local
+Densidad relativa, Dr
+Falla de
+ punzonamiento
+Falla
+ general
+Largas
+cimentaciones
+rectangulares
+(B  L)
+0
+0.5
+1.0
+
+
+
+
+
+
+Suelo
+Peso unitario
+Cohesión
+Ángulo de fricción
+
+=== P6 PÁG 8 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+482
+q  g Df (donde g  peso unitario del suelo). La zona de la falla bajo la cimentación se puede 
+dividir en tres partes (ver fi gura 16.3):
+ 1.  La zona triangular ACD inmediatamente debajo de la cimentación
+ 2.  Las zonas de corte radiales ADF y CDE, con las curvas DE y DF siendo arcos de una 
+espiral logarítmica
+ 3.  Dos zonas pasivas Rankine triangulares AFH y CEG
+Se supone que los ángulos CAD y ACD son iguales al ángulo de fricción del suelo (es 
+decir, a  f¿). Observe que con la sustitución del suelo por encima del fondo de la cimentación 
+por un suplemento q equivalente, se desprecia la resistencia al corte del suelo a lo largo de las 
+superfi cies de falla GI y HJ.
+Utilizando el análisis de equilibrio, Terzaghi expresa la capacidad última de carga en la 
+forma
+(16.3)
+qu
+c Nc
+qNq
+1
+2
+ gBNg  (cimentación en franja)
+donde 
+ 
+c¿  cohesión del suelo
+ 
+g  peso unitario del suelo
+ 
+q  gDƒ
+ Nc, Nq, Ng  factores de capacidad de carga adimensionales y sólo son funciones del ángulo 
+ 
+ 
+de fricción del suelo, f¿
+Para zapatas cuadradas y circulares, Terzaghi sugirió las siguientes ecuaciones para la 
+capacidad última de carga del suelo:
+Zapatas cuadradas
+(16.4)
+Zapatas circulares
+(16.5)
+qu
+1.3c Nc
+qNq
+0.3gBNg
+qu
+1.3c Nc
+qNq
+0.4gBNg
+donde B  diámetro de la zapata.
+La variación de Nc, Nq y Ng con f¿ se muestra en la tabla 16.1.
+16.4   Modiﬁ cación de la ecuación de capacidad 
+de carga de Terzaghi
+Sobre la base de estudios de laboratorio y de campo de la capacidad de carga, la naturaleza bá-
+sica de la superfi cie de falla en el suelo sugerida por Terzaghi ahora parece ser correcta (Vesic, 
+1973). Sin embargo, el ángulo a que se muestra en la fi gura 16.3 está más cerca de 45  f¿/2 
+
+=== P6 PÁG 9 ===
+16.4 Modiﬁ cación de la ecuación de capacidad de carga de Terzaghi
+483
+que de f¿, como fue originalmente supuesto por Terzaghi. Con a  45  f¿/2, las relaciones 
+para Nc y Nq pueden deducirse como
+(16.6)
+(16.7)
+Nc
+(Nq
+1)cot f
+Nq
+tan2 a45
+f¿
+2 b ep tan f¿
+La expresión para Nc dada por la ecuación (16.7) fue deducida originalmente por Prandtl 
+(1921), y la relación de Nq [ecuación (16.6)] fue presentada por Reissner (1924). Caquot y 
+Kerisel (1953) y Vesic (1973) dieron la relación para Ng como
+(16.8)
+Ng
+2(Nq
+1)tan f
+Tabla 16.1  Factores de capacidad de carga de Terzaghi,Nc, Nq y N  :
+(grad)
+Nc
+Nq
+Na
+(grad)
+Nc
+Nq
+Na
+0
+5.70
+1.00
+0.00
+26
+27.09
+14.21
+9.84
+1
+6.00
+1.10
+0.01
+27
+29.24
+15.90
+11.60
+2
+6.30
+1.22
+0.04
+28
+31.61
+17.81
+13.70
+3
+6.62
+1.35
+0.06
+29
+34.24
+19.98
+16.18
+4
+6.97
+1.49
+0.10
+30
+37.16
+22.46
+19.13
+5
+7.34
+1.64
+0.14
+31
+40.41
+25.28
+22.65
+6
+7.73
+1.81
+0.20
+32
+44.04
+28.52
+26.87
+7
+8.15
+2.00
+0.27
+33
+48.09
+32.23
+31.94
+8
+8.60
+2.21
+0.35
+34
+52.64
+36.50
+38.04
+9
+9.09
+2.44
+0.44
+35
+57.75
+41.44
+45.41
+10
+9.61
+2.69
+0.56
+36
+63.53
+47.16
+54.36
+11
+10.16
+2.98
+0.69
+37
+70.01
+53.80
+65.27
+12
+10.76
+3.29
+0.85
+38
+77.50
+61.55
+78.61
+13
+11.41
+3.63
+1.04
+39
+85.97
+70.61
+95.03
+14
+12.11
+4.02
+1.26
+40
+95.66
+81.27
+115.31
+15
+12.86
+4.45
+1.52
+41
+106.81
+93.85
+140.51
+16
+13.68
+4.92
+1.82
+42
+119.67
+108.75
+171.99
+17
+14.60
+5.45
+2.18
+43
+134.58
+126.50
+211.56
+18
+15.12
+6.04
+2.59
+44
+151.95
+147.74
+261.60
+19
+16.56
+6.70
+3.07
+45
+172.28
+173.28
+325.34
+20
+17.69
+7.44
+3.64
+46
+196.22
+204.19
+407.11
+21
+18.92
+8.26
+4.31
+47
+224.55
+241.80
+512.84
+22
+20.27
+9.19
+5.09
+48
+258.28
+287.85
+650.67
+23
+21.75
+10.23
+6.00
+49
+298.71
+344.63
+831.99
+24
+23.36
+11.40
+7.08
+50
+347.50
+415.14
+1072.80
+25
+25.13
+12.72
+8.34
+ecuaciones (16.3), (16.4) y (16.5).
+aValores para Ng de Kumbhojkar (1993)
+
+=== P6 PÁG 10 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+484
+La tabla 16.2 muestra la variación de los factores de capacidad de carga precedentes, con 
+los ángulos de fricción del suelo.
+La forma de la ecuación (16.3), que representa una cimentación continua sometida a una 
+carga vertical, se puede generalizar teniendo en cuenta lo siguiente:
+ a.  La resistencia al corte a lo largo de la superfi cie de falla en el suelo por encima 
+del fondo de la cimentación (parte de la superfi cie de falla marcada como GI y HJ en la 
+fi gura 16.3);
+ b.  La proporción entre anchura y longitud de las cimentaciones rectangulares, y
+ c.  La inclinación de la carga.
+Por lo tanto, la ecuación de capacidad última de carga podrá tomar la forma (Meyerhof, 1963)
+(16.9)
+qu
+c NcFcsFcdFci
+qNqFqsFqdFqi
+1
+2
+ gBNgFgsFgdFgi
+donde 
+ 
+c¿  cohesión
+ 
+q  tensión efectiva en el nivel de la parte inferior de la base
+ 
+g  peso unitario del suelo
+ 
+B  ancho de la cimentación ( diámetro para una base circular)
+Nc
+Nq
+N
+Nc
+Nq
+N
+0
+5.14
+1.00
+0.00
+1
+5.38
+1.09
+0.07
+2
+5.63
+1.20
+0.15
+3
+5.90
+1.31
+0.24
+4
+6.19
+1.43
+0.34
+5
+6.49
+1.57
+0.45
+6
+6.81
+1.72
+0.57
+7
+7.16
+1.88
+0.71
+8
+7.53
+2.06
+0.86
+9
+7.92
+2.25
+1.03
+10
+8.35
+2.47
+1.22
+11
+8.80
+2.71
+1.44
+12
+9.28
+2.97
+1.69
+13
+9.81
+3.26
+1.97
+14
+10.37
+3.59
+2.29
+15
+10.98
+3.94
+2.65
+16
+11.63
+4.34
+3.06
+17
+12.34
+4.77
+3.53
+18
+13.10
+5.26
+4.07
+19
+13.93
+5.80
+4.68
+20
+14.83
+6.40
+5.39
+21
+15.82
+7.07
+6.20
+22
+16.88
+7.82
+7.13
+23
+18.05
+8.66
+8.20
+24
+19.32
+9.60
+9.44
+25
+20.72
+10.66
+10.88
+26
+22.25
+11.85
+12.54
+27
+23.94
+13.20
+14.47
+28
+25.80
+14.72
+16.72
+29
+27.86
+16.44
+19.34
+30
+30.14
+18.40
+22.40
+31
+32.67
+20.63
+25.99
+32
+35.49
+23.18
+30.22
+33
+38.64
+26.09
+35.19
+34
+42.16
+29.44
+41.06
+35
+46.12
+33.30
+48.03
+36
+50.59
+37.75
+56.31
+37
+55.63
+42.92
+66.19
+38
+61.35
+48.93
+78.03
+39
+67.87
+55.96
+92.25
+40
+75.31
+64.20
+109.41
+41
+83.86
+73.90
+130.22
+42
+93.71
+85.38
+155.55
+43
+105.11
+99.02
+186.54
+44
+118.37
+115.31
+224.64
+45
+133.88
+134.88
+271.76
+Tabla 16.2  Factores de capacidad de carga [ecuaciones (16.6), (16.7) y (16.8)]
+
+=== P6 PÁG 11 ===
+16.4 Modiﬁ cación de la ecuación de capacidad de carga de Terzaghi
+485
+ 
+Fcs, Fqs, Fgs  factores de forma 
+ 
+Fcd, Fqd, Fgd  factores de profundidad
+ 
+Fci, Fqi, Fgi  factores de inclinación de carga
+ 
+Nc, Nq, Ng  factores de capacidad de carga [ecuaciones (16.6), (16.7) y (16.8)]
+Las relaciones de los factores de forma, los factores de profundidad y los factores de inclinación 
+recomendados se muestran en la tabla 16.3.
+Tabla 16.3   Factores de forma, profundidad e inclinación recomendados
+Fuente
+Relación
+Factor
+)
+0
+7
+9
+1
+( re
+e
+B
+ e
+D
+Forma
+L
+L
+B) 
+)
+0
+7
+9
+1
+( n
+e
+s
+n
+a
+H
+Profundidad
+Para 
+0:
+Para
+0:
+Para
+0:
+radianes
+Fqd
+1
+F d
+1
+u
+Fcd
+1
+0.4  tan
+1  a
+Df
+B b
+Df
+B 
+1
+Fgd
+1
+Fqd
+1
+2 tan f¿ (1
+sen f¿)2  a
+Df
+B b
+Fcd
+Fqd
+1
+Fqd
+Nc tan f
+Fgd
+1
+Fqd
+1
+Fcd
+1
+0.4 a
+Df
+B b
+Df
+B 
+ 1
+Fgs
+1
+0.4 B
+L
+Fqs
+1
+B
+L tan f
+Fcs
+1
+B
+L 
+Nq
+Nc
+donde         longitud de la cimentación (
+(continúa)
+
+=== P6 PÁG 12 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+486
+Capacidad neta última de carga 
+La capacidad neta última de carga se defi ne como la presión máxima por unidad de área de la
+cimentación que puede ser soportada por el suelo debida al exceso de presión causada por 
+el suelo circundante al nivel de la cimentación. Si se supone que la diferencia entre el peso 
+unitario del concreto utilizado en la cimentación y el peso unitario del suelo que la rodea es 
+insignifi cante, entonces
+qneta(u)
+qu
+q
+(16.10)
+donde qneta(u)  capacidad última de carga neta.
+16.5   Modiﬁ cación de las ecuaciones de capacidad 
+de carga para el nivel freático
+Las ecuaciones (16.3), (16.4), (16.5) y (16.9) se han desarrollado para determinar la capacidad 
+última de carga y se basan en el supuesto de que el nivel freático se encuentra muy por debajo 
+de la cimentación. Sin embargo, si la capa freática está cerca de ella, son necesarias algunas 
+modifi caciones de la ecuación de capacidad de carga, dependiendo de la ubicación del nivel 
+freático (véase la fi gura 16.4).
+ 
+Caso I:  Si el nivel freático se encuentra de manera que 0  D1  Df, el factor q en las 
+ecuaciones de capacidad de carga toma la forma
+ 
+q  sobrecarga efectiva  D1g  D2 (gsat – gw) 
+(16.11)
+ 
+ donde
+gsat  peso unitario del suelo saturado
+gw  peso unitario del agua
+Tabla 16.3   (continuación)
+Fuente
+Relación
+Factor
+Para
+0:
+radianes
+Inclinación
+donde 
+inclinación de la carga sobre 
+ la cimentación respecto a la vertical
+Fgi
+a 1
+b
+f¿ b
+2
+Meyerhof (1963), Hanna
+y Meyerhof (1981)
+Fci
+Fqi
+a 1
+b°
+90° b
+2
+Fgd
+1
+u
+Fqd 
+1
+2 tan f¿ (1
+sen f¿)2  tan
+1 a Df
+B b
+Fcd 
+Fqd – 
+1
+Fqd
+Nc tan f¿
+
+=== P6 PÁG 13 ===
+16.6 El factor de seguridad
+487
+Además, el valor de g en el último término de las ecuaciones tiene que ser sustituido por 
+ 
+g¿  gsat  gw.
+ 
+Caso II:  Para un nivel freático localizado tal que 0  d  B,
+ 
+ 
+q
+Df
+(16.12)
+ 
+ El factor g en el último término de las ecuaciones de capacidad de carga debe 
+sustituirse por el factor
+ 
+ 
+(16.13)
+g
+g
+d
+B
+ (g
+g )
+ 
+ Las modifi caciones anteriores se basan en la suposición de que no existe fuerza 
+de fi ltración en el suelo.
+ 
+Caso III:  Cuando el nivel freático está localizado en d  B, el agua no tiene efecto sobre 
+la capacidad última de carga.
+16.6  El factor de seguridad
+El cálculo de la capacidad de carga permisible bruta de cimentaciones poco profundas requiere 
+la aplicación de un factor de seguridad (FS) a la capacidad última de carga bruta, o
+(16.14)
+qadm
+qu
+FS
+Sin embargo, algunos ingenieros en ejercicio prefi eren utilizar un factor de seguridad de
+aumento de la tensión neta en suelo
+(16.15)
+capacidad última de carga neta
+FS
+ 
+La capacidad última de carga neta se defi nió en la ecuación (16.10) como
+qneta(u)
+qu
+q
+Nivel 
+freático
+Caso
+Caso
+peso unitario 
+saturado
+Nivel freático
+Figura 16.4 Modifi cación de las ecuaciones de capacidad de carga para el nivel freático
+
+=== P6 PÁG 14 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+488
+Ejemplo 16.1 
+Una cimentación cuadrada es de 2 m  2 m en el plano. El suelo de soporte de la cimentación 
+tiene un ángulo de fricción de f¿  25° y c¿  20 kN/m2. El peso unitario del suelo, g, es 
+16.5 kN/m3. Determine la carga bruta admisible en la base con un factor de seguridad (FS) 
+de 3. Suponga que la profundidad de la cimentación (Df) es de 1.5 m y que la falla de corte 
+en general se produce en el suelo. Utilice la ecuación (16.4).
+Solución
+De la ecuación (16.4)
+qu
+1.3c Nc
+qNq
+0.4 BN
+De la tabla 16.1, para f¿  25º,
+ 
+Nc  25.13
+ 
+Nq  12.72
+ 
+Ng  8.34
+Por lo tanto, 
+qu
+(1.3)(20)(25.13) 
+(1.5 
+16.5)(12.72) 
+(0.4)(16.5)(2)(8.34)
+653.38 
+314.82 
+110.09 
+1078.29 kN/m2
+Por lo que la carga admisible por unidad de área de la cimentación es
+qadm
+qu
+FS
+1078.29
+3
+359.5 kN/m2
+En consecuencia, la carga admisible total bruta es
+Q
+(359.5) B2
+(359.5)(2 
+2) 
+1438 kN
+Sustituyendo esta expresión en la ecuación (16.15) resulta en 
+aumento neto del esfuerzo sobre el suelo
+ 
+ carga de la superestructura por unidad de área de la cimentación 
+qadm(neta)
+(16.16)
+qu
+q
+FS
+El factor de seguridad defi nido por la ecuación (16.16) puede ser al menos 3 en todos 
+los casos.
+Ejemplo 16.2 
+Resuelva el problema del ejemplo 16.1 usando la ecuación (16.9).
+Solución
+De la ecuación (16.9),
+qu 
+c¿Nc Fcs Fcd Fci
+qNq Fqs Fqd Fqi
+1
+2 gBNg Fgs Fgd Fgi
+Debido a que la carga es vertical, Fci  Fqi  Fgi  1. De la tabla 16.2 para f¿  25º, Nc  
+20.72, Nq  10.66 y Ng  10.88.
+
+=== P6 PÁG 15 ===
+16.6 El factor de seguridad 489
+Usando la tabla 16.3,
+F d 
+1
+Por lo tanto,
+qu
+(20)(20.72)(1.514)(1.257)(1)
+(1.5 
+16.5)(10.66)(1.466)(1.233)(1)
+788.6 
+476.9 
+107.7 
+1373.2 kN/m2
+Q 
+(457.7)(2 
+2) 
+1830.8 kN
+qadm
+qu
+FS
+1373.2
+3
+457.7 kN/m2
+1
+2 (16.5) (2) (10.88) (0.6) (1) (1)
+Fcd
+Fqd 
+1
+Fqd
+Nc tan f¿
+1.233
+c
+1
+1.233
+(20.72) (tan 25) d
+1.257
+1
+(2) (tan 25) (1
+sen 25)2 a 1.5
+2 b
+1.233
+Fqd
+1
+2 tan f¿ (1
+sen f¿)2  a
+Df
+B b
+Fgs
+1
+0.4 a B
+L b
+1
+0.4 a 2
+2 b
+0.6
+Fqs
+1
+a B
+L b tan f¿
+1
+a 2
+2 b tan 25
+1.466
+Fcs
+1
+a B
+L b a
+Nq
+Nc
+b
+1
+a 2
+2 b a 10.66
+20.72 b
+1.514
+Ejemplo 16.3
+En la fi gura 16.5 se muestra una zapata cuadrada. Determine la carga bruta segura (factor de 
+seguridad de 3) que la zapata puede soportar. Utilice la ecuación (16.9)
+Solución
+De la ecuación (16.9) con c¿  0, Fci  Fqi  Fgi  1 (carga vertical),
+ qu
+qNqFqsFqd
+1
+2 gBNgFgsFgd
+Para f¿  25º, la tabla 16.2 tiene que Nq  23.18 y Ng  30.22.
+ Fqs
+1
+a B
+L b tan f¿
+1
+a 1.2
+1.2 b tan 32
+1.625
+
+=== P6 PÁG 16 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+490
+Nivel freático
+Figura 16.5
+Por lo tanto, 
+Q 
+qadm B2
+(233.51)(1.2 
+1.2) 
+336 kN
+ qadm
+qu
+3
+700.54
+3
+233.51 kN/m2
+ 
+700.54 kN/m2
+ qu
+(12.845)(23.18)(1.625)(1.23)
+1
+2(19.5
+9.81)(1.2)(30.22)(0.6)(1)
+ q
+(0.5)(16)
+(0.5)(19.5
+9.81)
+12.845 kN/m2
+ Fgd
+1
+ Fgs
+1
+0.4 a B
+L b
+1
+0.4 a 1.2
+1.2 b
+0.6
+ Fqd
+1
+2 tan f¿(1
+sen f¿)2 
+Df
+B
+1
+2 tan 32(1
+sen 32)2 a 1
+1.2 b
+1.23
+16.7  Cimentaciones cargadas excéntricamente
+Al igual que con la cimentación de un muro de contención, hay varios casos en los que las 
+cimentaciones están sometidas a momentos, además de la carga vertical, como se muestra en 
+la fi gura 16.6a. En tales casos, la distribución de la presión ejercida por la cimentación sobre el 
+suelo no es uniforme. La distribución de la presión nominal es
+(16.17)
+qmáx
+Q
+BL
+6M
+B 2L
+
+=== P6 PÁG 17 ===
+16.7 Cimentaciones cargadas excéntricamente
+491
+y
+(16.18)
+qmín
+Q
+BL
+6M
+B 2L
+donde
+ 
+Q  carga vertical total
+ 
+M  momento sobre la cimentación
+La distribución exacta de la presión es difícil de estimar.
+El factor de seguridad para tales tipos de carga contra la falla en la capacidad de carga 
+puede ser evaluado utilizando el procedimiento sugerido por Meyerhof (1953), que se conoce 
+generalmente como el método de área efectiva. El siguiente es el procedimiento de Meyerhof 
+paso a paso para la determinación de la carga última que el suelo puede soportar y el factor de 
+seguridad contra la falla de capacidad de carga.
+ 1.  La fi gura 16.6b muestra un sistema de fuerza equivalente al mostrado en la fi gura 16.6a. 
+La distancia e es la excentricidad, o
+  
+(16.19)
+e
+M
+Q
+  Sustituyendo la ecuación (16.19) en las ecuaciones (16.17) y (16.18) se tiene,
+  
+(16.20)
+qmáx
+Q
+BL a 1
+6e
+B b
+e
+Para
+Para
+máx
+máx
+mín
+Figura 16.6 Cimentaciones cargadas excéntricamente
+
+=== P6 PÁG 18 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+492
+y
+(16.21)
+qmín
+Q
+BL a 1
+6e
+B b
+  Observe que, en estas ecuaciones, cuando la excentricidad e se convierte en B/6, qmín es 0. 
+Para e  B/6, qmín será negativa, lo que signifi ca que la tensión se desarrollará. Debido a que 
+el suelo no puede tener ningún tipo de tensión, habrá una separación entre la cimentación 
+y el suelo subyacente. La naturaleza de la distribución de la presión sobre el suelo será 
+como se muestra en la fi gura 16.6a. El valor de qmáx es entonces
+(16.22)
+qmáx
+4Q
+3L(B
+2e)
+ 2.  Determinar las dimensiones efectivas de la cimentación cuando
+ 
+ 
+B
+ancho efectivo
+B
+2e
+L
+longitud efectiva
+L
+  Tenga en cuenta que si la excentricidad fuera en la dirección de la longitud de la cimentación, 
+entonces el valor de L¿ sería igual a L  2e. El valor de B¿ sería igual a B. La más pequeña de 
+las dos dimensiones (es decir, L¿ y B¿) es la anchura efectiva de la cimentación.
+ 3.  Usar la ecuación (16.9) para la capacidad última de carga como
+  
+(16.23)
+qœ
+u
+c¿NcFcsFcdFci
+qNqFqsFqdFqi
+1
+2 gB¿NgFgsFgdFgi
+  Para evaluar Fcs, Fqs y Fgs hacer uso de la tabla 16.2 con las dimensiones de ancho y 
+longitud efectivos en lugar de L y B, respectivamente. Para determinar Fcd, Fqd y Fgd usar 
+la tabla 16.3 (no sustituir B con B¿).
+ 4.  La carga última total que la cimentación puede sostener es
+A
+(16.24)
+Qúlt
+qœ
+u(B¿)(L¿)
+u
+  donde A¿  área efectiva.
+ 5.  El factor de seguridad contra la falla en la capacidad de carga es
+  
+(16.25)
+FS
+Qúlt
+Q
+Ejemplo 16.4
+En la fi gura 16.7 se muestra una cimentación continua. Si la excentricidad de carga es 0.2 m, 
+determine la carga última, Qúlt, por unidad de longitud de la cimentación. Utilice el método 
+de área efectiva de Meyerhof.
+Solución
+Para c¿  0, la ecuación (16.23) da
+qu¿
+qNqFqsFqdFqi
+1
+2 g¿B¿NgFgsFgdFgi
+donde q  (16.5)(1.5)  24.75 kN/m2.
+
+=== P6 PÁG 19 ===
+16.8 Método del factor de reducción de la excentricidad de carga sobre cimentaciones continuas...
+493
+1.5 m
+40
+16.5 kN/m3
+0
+Arena
+2 m
+Figura 16.7 Cimentación continua con carga excéntrica
+Para f¿  40º, de la tabla 16.2 se tiene que Nq  64.2 y Ng  109.41. Además,
+B
+2 
+(2)(0.2) 
+1.6 m
+Dado que la cimentación en cuestión es continua, B¿/L¿ es cero. Por lo tanto, Fqs  1, 
+Fgs  1. De la tabla 16.3
+Fqi
+F i 
+1
+F d
+1
+y
+Por lo tanto,
+Qúlt
+(B ) (1)(qu) 
+(1.6)(1)(3287.39) 
+5260 kN/m
+a 1
+2 b (16.5) (1.6) (109.41) (1) (1) (1)
+3287.39 kN/m2
+qu¿
+(24.75) (64.2) (1) (1.16) (1)
+Fqd
+1
+2 tan f¿(1
+sen f¿)2 Df
+B 
+1
+0.214 a 1.5
+2 b
+1.16
+16.8   Método del factor de reducción de la excentricidad 
+de carga sobre cimentaciones continuas en un 
+suelo granular
+Purkayastha y Char (1977) llevaron a cabo análisis de la estabilidad de las cimentaciones con-
+tinuas cargadas excéntricamente soportadas por una capa de arena utilizando el método de las 
+rebanadas. Sobre la base de ese análisis, se propuso
+(16.26)
+Rk
+1
+qu(excéntrica)
+qu(céntrica)
+donde
+ 
+Rk  factor de reducción
+ qu(excéntrica)  capacidad de carga última de las cimentaciones continuas cargadas 
+ 
+ excéntricamente
+ 
+qu(céntrica)  capacidad de carga última de las cimentaciones continuas cargadas centralmente
+La magnitud de Rk se puede expresar como
+(16.27)
+Rk
+a a e
+B b
+k
+
+=== P6 PÁG 20 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+494
+donde a y k son funciones de la relación de empotramiento Df/B (tabla 16.4).
+Por lo tanto, combinando las ecuaciones (16.26) y (16.27)
+(16.28)
+donde
+(16.29)
+qu(céntrica)
+qNqFqd
+1
+2 gBNgFgd
+qu(excéntrica)
+qu(céntrica)(1
+Rk)
+qu(céntrica) c 1
+a a e
+B b
+k
+d
+Ejemplo 16.5
+Resuelva el ejemplo 16.4 usando la ecuación (16.28).
+Solución
+Con c¿  0
+Para
+40 , Nq 
+64.2  y N
+109.41 (ver tabla 16.2). Así,
+Fqd 
+1.16  y F d
+1 (ver ejemplo 16.4)
+1843.18 
+1805.27 
+3648.45 kN/m2
+De la ecuación (16.27),
+Rk
+a a e
+B b
+k
+qu(céntrica)
+(24.75)(64.2)(1.16)
+1
+2 (16.5)(2)(109.41)(1)
+qu(céntrica)
+qNq Fqd
+1
+2 gBNgFgd
+Para Df/B  1.5/2  0.75 la tabla 16.2 tiene que a < 1.79 y k < 0.85. Por lo tanto,
+ 
+(2)(3648.45)(1
+0.253)
+5451 kN
+ Qu
+Bqu(excéntrica)
+Bqu(céntrica)(1
+Rk)
+Rk 
+1.79 a 0.2
+2 b
+0.85
+ 
+0.253
+Df/B
+a
+k
+0.00
+1.862
+0.73
+0.25
+1.811
+0.785
+0.50
+1.754
+0.80
+1.00
+1.820
+0.888
+Tabla 16.4  Variaciones de a y k [ecuación (16.27)]
+
+=== P6 PÁG 21 ===
+16.9 Cimentaciones con excentricidad bidireccional
+495
+16.9  Cimentaciones con excentricidad bidireccional
+Consideremos una situación en la que una cimentación se somete a una carga última Qúlt verti-
+cal y un momento M, como se muestra en las fi guras 16.8a y b. Para este caso, los componentes 
+del momento, M, sobre los ejes X y Y se pueden determinar como Mx y My, respectivamente 
+(fi gura 16.8c). Esta condición es equivalente a una Qúlt carga colocada excéntricamente sobre la 
+cimentación con x  eB y y  eL (fi gura 16.8d). Se tiene que
+(16.30)
+y
+(16.31)
+eL
+M x
+Qúlt
+eB
+My
+Qúlt
+Si se necesita Qúlt, se puede obtener de la siguiente manera [ecuación (16.24)]:
+Qúlt
+qœ
+u A¿
+donde, a partir de la ecuación (16.23),
+y
+A
+área efectiva 
+B L
+qœ
+u
+c¿NcFcsFcdFci
+qNqFqsFqdFqi
+1
+2
+ gB¿NgFgsFgdFgi
+Figura 16.8 Análisis de la cimentación con excentricidad bidireccional
+últ
+últ
+últ
+últ
+
+=== P6 PÁG 22 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+496
+Como antes, para evaluar Fcs, Fqs y Fgs (tabla 16.3), se utilizan las dimensiones longi-
+tud (L¿) y ancho (B¿) efectivos en lugar de L y B, respectivamente. Para calcular Fcd, Fqd y 
+Fgd, se utiliza la tabla 16.3; sin embargo, no remplazamos B con B¿. Cuando se determinan 
+el área efectiva (A¿), el ancho efectivo (B¿) y la longitud efectiva (L¿), pueden surgir cuatro 
+casos posibles (Highter y Anders, 1985). El área efectiva es tal que su centroide coincide 
+con la carga.
+ 
+Caso I: eL/L
+y eB/B
+1
+6 .
+1
+6
+ En la fi gura 16.9a se muestra el área efectiva para esta 
+condición o
+ 
+ 
+ 
+ 
+(16.32)
+donde
+B1
+B
+(16.33)
+L1
+L
+(16.34)
+a 1.5
+3eL
+L b
+a 1.5
+3eB
+B b
+A¿
+1
+2
+ B1L1
+ 
+ 
+ 
+ La longitud efectiva, L¿, es la mayor de las dos dimensiones, es decir, B1 o L1. 
+Así que el ancho efectivo es
+ 
+ 
+(16.35)
+B¿
+A¿
+L¿
+ 
+Caso II:  eL/L
+0.5 y  0
+eB/B
+1
+6 . En la fi gura 16.9b se muestra el área efectiva para 
+este caso
+ 
+ 
+(16.36)
+A¿
+1
+2
+ (L1
+L2)B
+ 
+ Las magnitudes de L1 y L2 se pueden determinar a partir de la fi gura 16.10. El 
+ancho efectivo es
+ 
+ 
+(16.37)
+B¿
+A¿
+L1 o L2 (el que sea mayor)
+ 
+ La longitud efectiva es
+ 
+ 
+L
+L1 o L2 (el que sea mayor)
+(16.38)
+ 
+Caso III:  eL/L
+eB/B
+1
+6
+0.5.
+ y 0
+ En la fi gura 16.9c se muestra el área efectiva
+ 
+ 
+(16.39)
+A¿
+1
+2
+ (B1
+B2)L
+
+=== P6 PÁG 23 ===
+16.9 Cimentaciones con excentricidad bidireccional
+497
+ 
+ El ancho efectivo es
+ 
+ 
+(16.40)
+B ¿
+A ¿
+L
+ 
+ La longitud efectiva es
+ 
+L
+L
+(16.41)
+ 
+ Las magnitudes de B1 y B2 se pueden determinar a partir de la fi gura 16.11.
+Figura 16.9 Defi nición del área efectiva para la carga sobre una cimentación con excentricidad 
+bidireccional
+Área
+efectiva
+y
+últ
+Área
+efectiva
+y
+últ
+Área 
+efectiva
+y
+últ
+Área
+efectiva
+y
+últ
+
+=== P6 PÁG 24 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+498
+Figura 16.10 Variación de L1/L y L2/L con eL/L y eB/B para el caso de eL/L 	 0.5 y 0 	 eB/B 	 1
+6
+(Adaptado de Highter y Anders, 1985)
+
+=== P6 PÁG 25 ===
+16.9 Cimentaciones con excentricidad bidireccional 499
+Figura 16.11 Variación de B1/B y B2/B con eL/L y eB/B para el caso de eL/L 	 1
+6 y 0 	 eB/B 	 0.5 
+(Adaptado de Highter y Anders, 1985)
+
+=== P6 PÁG 26 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+500
+Figura 16.12 Variación de B2/B y L2/L con eB/B y eL/L para el caso de eL/L
+y eB/B
+1
+6
+1
+6
+ (Adaptado 
+de Highter y Anders, 1985)
+2
+0.20
+0.15
+0.10
+0.05
+0 0
+0.2
+0.4
+L2/L
+eL/L = 0.02
+0.04
+0.06
+0.08
+0.10
+0.14
+0.12
+0.16
+(b)
+eB/B
+0.6
+0.8
+1.0
+
+=== P6 PÁG 27 ===
+16.9 Cimentaciones con excentricidad bidireccional
+501
+ 
+Caso IV:  eL/L
+y eB/B
+1
+6 .
+1
+6
+ En la fi gura 16.9d se muestra el área efectiva para este 
+caso. Las relaciones de B2/B y L2/L (y por tanto, B2 y L2) pueden obtenerse a 
+partir de la fi gura 16.12. Entonces, el área efectiva es
+ 
+ 
+(16.42)
+El ancho efectivo es
+(16.43)
+La longitud efectiva es
+L
+L
+(16.44)
+B ¿
+A ¿
+L
+A¿
+L2B
+1
+2
+ (B
+B2)(L
+L2)
+ 
+ 
+ 
+ 
+ 
+ 
+Ejemplo 16.6
+En la fi gura 16.13 se muestra una cimentación cuadrada, con eL  0.3 m y eB  0.15 m. 
+Suponga excentricidad bidireccional y determine la carga última, Qúlt.
+Solución
+eB
+B
+0.15
+1.5
+0.1
+eL
+L
+0.3
+1.5
+0.2
+30
+18 kN/m3
+0
+Arena
+eB = 0.15 m
+eL = 0.3 m
+1.5 m
+1.5 m
+Figura 16.13
+
+=== P6 PÁG 28 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+502
+Este caso es similar al mostrado en la fi gura 16.9b. De la fi gura 16.10, para eL/L  0.2 
+y eB/B  0.1, se tiene
+y
+De la ecuación (16.36)
+De la ecuación (16.38)
+De la ecuación (16.37)
+L
+L1
+1.275 m
+B¿
+A¿
+L1
+1.193
+1.275
+0.936 m
+A¿
+1
+2
+ (L1
+L2)B
+1
+2
+ (1.275
+0.315)(1.5)
+1.193 m2
+L2
+(0.21)(1.5)
+0.315 m
+L2
+L
+0.21;
+L1
+(0.85)(1.5)
+1.275 m
+L1
+L
+0.85;
+Note, de la ecuación (16.23), para c¿  0, se tiene
+ q
+(0.7)(18)
+12.6 kN/m2
+ qœ
+u
+qNqFqsFqdFqi
+1
+2
+ gB¿NgFgsFgdFgi
+Para f¿  30º, de la tabla 16.2, Nq  18.4 y Ng  22.4. Así,
+ Fgd
+1
+ Fqd
+1
+2 tan f¿(1
+sen f¿)2 
+Df
+B
+1
+(0.289)(0.7)
+1.5
+1.135
+ Fgs
+1
+0.4 a B¿
+L¿ b
+1
+0.4 a 0.936
+1.275 b
+0.706
+ Fqs
+1
+a B¿
+L¿ b tan f¿
+1
+a 0.936
+1.275 btan 30°
+1.424
+Por lo tanto,
+605.95 kN
+(1.193)[(12.6)(18.4)(1.424)(1.135)
+(0.5)(18)(0.936)(22.4)(0.706)(1)]
+ Qúlt
+A¿qœ
+u
+A¿ a qNqFqsFqd
+1
+2
+ gB¿NgFgsFgdb
+
+=== P6 PÁG 29 ===
+16.10 Losas de cimentación: tipos comunes
+503
+16.10  Losas de cimentación: tipos comunes
+Como se discutió en la sección 16.1, las losas de cimentación son cimentaciones superfi ciales. Este 
+tipo de cimentación, que se refi ere a veces como placa de cimentación, es una base combinada que 
+puede cubrir toda el área bajo una estructura soportando varias columnas y paredes. Las losas 
+de cimentación a veces son las preferidas para los suelos que tienen baja capacidad de carga, pero 
+tendrán que soportar columnas altas y/o muros de carga. Bajo ciertas condiciones, la extensión de 
+las bases tendrían que cubrir más de la mitad del área de la construcción, y las losas de cimentación 
+pueden ser más económicas. Actualmente se utilizan varios tipos de losas de cimentación. Algunos 
+de los tipos más comunes se muestran esquemáticamente en la fi gura 16.14 y son los siguientes:
+ 1.  Placa plana (fi gura 16.14a). La losa es de espesor uniforme.
+ 2.  Placa plana con mayor espesor bajo las columnas (fi gura 16.14b)
+Figura 16.14 Tipos comunes de losas de cimentación
+(b)
+(a)
+Plano
+Sección
+Plano
+Sección
+(d)
+Plano
+Sección
+(e)
+Plano
+Sección
+(c)
+Plano
+Sección
+
+=== P6 PÁG 30 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+504
+ 3.  Vigas y losa (fi gura 16.14c). Las vigas corren en ambas direcciones y las columnas se 
+localizan en la intersección de las vigas.
+ 4.  Placas planas con pedestales (fi gura 16.14d).
+ 5.  Losa con muros de sótano como parte de la placa (fi gura 16.14e). Los muros actúan como 
+refuerzos de la losa.
+Las losas pueden estar sostenidas por pilotes. Éstos ayudan en la reducción del asenta-
+miento de una estructura construida sobre suelo altamente compresible. Donde el nivel freático 
+es alto, a menudo las losas se colocan sobre los pilotes para controlar la fl otabilidad.
+La fi gura 16.15 muestra la diferencia entre la profundidad Df y la anchura B de cimientos 
+aislados y de una losa de cimentación. La fi gura 16.16 muestra una losa de cimentación en 
+construcción.
+16.11  Capacidad de carga de una malla de cimentación 
+La capacidad de carga última bruta de una malla de cimentación puede ser determinada por la 
+misma ecuación utilizada para zapatas, o 
+(16.9)
+qu
+c¿NcFcsFcdFci
+qNqFqsFqdFqi
+1
+2
+ gBNgFgsFgdFgi
+Las tablas 16.2 y 16.3 dan los valores propios de los factores de capacidad de carga y la forma, 
+profundidad y factores de inclinación de la carga. El término B en la ecuación (16.9) es la di-
+mensión más pequeña de la malla. 
+La capacidad neta de carga última es 
+qneta(u)
+qu
+q
+(16.10)
+Figura 16.15 Comparación entre cimientos aislados y una losa de cimentación (B  ancho, 
+Df  profundidad)
+B
+Df
+B
+Df
+
+=== P6 PÁG 31 ===
+16.11 Capacidad de carga de una malla de cimentación 505
+Un factor de seguridad adecuado debe utilizarse para calcular la capacidad de carga ad-
+misible neta. Para losas sobre arcilla, el factor de seguridad no debe ser inferior a 3 bajo carga 
+muerta y carga máxima en vivo. Sin embargo, bajo las condiciones más extremas, el factor de 
+seguridad debe ser de al menos 1.75 a 2. Para losas construidas sobre arena, normalmente se 
+debe utilizar un factor de seguridad de 3. Bajo la mayoría de las condiciones de trabajo, el factor 
+de seguridad contra fallas de capacidad de carga de losas en la arena es muy grande.
+Para arcillas saturadas con f  0 y condición de carga vertical, ecuación (16.9), se tiene
+(16.45)
+qu
+cuNcFcsFcd
+q
+donde cu  cohesión no drenada. (Nota: Nc  5.14, Nq  1 y Ng  0.) De la tabla 16.3, para 
+f  0,
+y
+Fcd
+1
+0.4 a
+Df
+B b
+Fcs
+1
+a B
+L b a
+Nq
+Nc
+b
+1
+a B
+L b a
+1
+5.14 b
+1
+0.195B
+L
+Sustituyendo los factores de forma y profundidad anteriores en la ecuación (16.45) se obtiene
+(16.46)
+qu
+5.14cu a1
+0.195B
+L
+b a1
+0.4 
+Df
+B b
+q
+Figura 16.16 Losa de cimentación en construcción (Cortesía de Braja M. Das, Henderson, Nevada)
+
+=== P6 PÁG 32 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+506
+Por lo tanto, la capacidad última de carga es 
+(16.47)
+qneta(u)
+qu
+q
+5.14cu a1
+0.195B
+L
+b a 1
+0.4 
+Df
+B b
+Para FS  3, la capacidad de carga neta admisible del suelo se vuelve
+(16.48)
+qadm(neta)
+qneta(u)
+FS
+1.713cu a1
+0.195B
+L
+b a 1
+0.4 
+Df
+B b
+Ejemplo 16.7
+Determine la capacidad última de carga neta de una losa de cimentación que mide 12 m  8 m 
+sobre una arcilla saturada con cu  80 kN/m2, f  0 y Df  2 m.
+Solución
+De la ecuación (16.47) se tiene
+512 kN/m2
+(5.14)(80)c 1
+a 0.195
+8
+12
+b d c1
+0.4 a 2
+8 b d
+ qneta(u)
+5.14cu c 1
+a 0.195B
+L
+b d c1
+0.4 a
+Df
+B b d
+16.12  Cimentaciones compensadas
+El asentamiento de una losa de cimentación puede reducirse disminuyendo el incremento de 
+presión neta sobre el suelo y aumentando la profundidad de empotramiento, Df. Este aumento 
+es particularmente importante para las losas sobre arcillas blandas, donde se esperan grandes 
+asentamientos de consolidación. De la fi gura 16.17, la presión aplicada neta promedio sobre el 
+suelo puede darse como
+(16.49)
+q
+Q
+A
+gDf
+donde
+ 
+Q  carga muerta de la estructura y carga viva
+ 
+A  área de la losa
+Para no aumentar la presión neta del suelo sobre el terreno debajo de una losa de cimentación, 
+q debe ser 0. Por lo tanto,
+(16.50)
+Df
+Q
+Ag
+
+=== P6 PÁG 33 ===
+16.12 Cimentaciones compensadas
+507
+Esta relación de Df normalmente se conoce como la profundidad de empotramiento de una 
+cimentación totalmente compensada.
+El factor de seguridad contra fallas de capacidad de carga para las cimentaciones parcial-
+mente compensadas (es decir, Df 	 Q/Ag) puede darse como
+(16.51)
+FS
+qneta(u)
+q
+qneta(u)
+Q
+A
+gDf
+Para arcillas saturadas, el factor de seguridad contra la falla de capacidad de carga se puede 
+obtener mediante la sustitución de la ecuación (16.47) en la ecuación (16.51):
+(16.52)
+FS
+5.14cu a 1
+0.195B
+L
+ b a 1
+0.4 
+Df
+B
+ b
+Q
+A
+gDf
+Peso unitario
+Figura 16.17 Defi nición de la presión neta sobre un suelo causada por una losa de cimentación
+Ejemplo 16.8 
+Consulte la fi gura 16.17. La losa tiene dimensiones de 40 m  20 m, y la carga viva y carga 
+muerta sobre la losa son 200 MN. Ésta se coloca sobre una capa de arcilla blanda que tiene 
+una unidad de peso de 17.5 kN/m3. Encuentre Df para una cimentación totalmente compen-
+sada.
+Solución
+De la ecuación (16.50), se tiene
+Df
+Q
+Ag
+200
+103 kN
+(40
+20)(17.5)
+14.29 m
+
+=== P6 PÁG 34 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+508
+Ejemplo 16.9
+Consulte el ejemplo 16.8. Para la arcilla, cu  60 kN/m2. Si el factor requerido de seguridad 
+contra fallas de capacidad de carga es 3, determine la profundidad de la cimentación.
+Solución
+De la ecuación (16.52), tenemos
+FS
+5.14cu a 1
+0.195B
+L
+b a 1
+0.4 
+Df
+B b
+Q
+A
+gDf
+Aquí, FS  3, cu  60 kN/m2, B/L  20/40  0.5 y Q/A  (200  103)/(40  20)  
+250 kN/m2. Sustituyendo estos valores en la ecuación (16.52) se obtiene
+o
+Df
+6.9 m
+3
+5.1
+1
+4 
+59.27Df
+0
+5
+7 
+52.5Df
+338.47
+6.77Df
+ 3
+(5.14)(60)[1
+(0.195)(0.5)]c 1
+0.4 a
+Df
+20 b d
+250
+(17.5)Df
+16.13  Resumen
+Los siguientes son los temas más importantes que han sido discutidos en este capítulo.
+ 1.  La zapata corrida y losa de cimentación (placa) son cimentaciones poco profundas.
+ 2.  En función de la compactación del suelo que soporta una zapata corrida con una carga 
+última, la cimentación puede fallar por (a) falla de corte general, (b) falla de corte local o 
+(c) falla de corte de perforación.
+ 3.  La capacidad última de carga de una cimentación poco profunda se puede calcular 
+mediante el uso de las ecuaciones (16.3) a (16.5) y (16.9).
+ 4.  Se necesitan algunas modifi caciones menores en las ecuaciones de capacidad última de 
+carga si el nivel freático se encuentra muy cerca del fondo de la cimentación (sección 16.5).
+ 5.  La capacidad última y de carga admisible de una cimentación cargada de forma 
+excéntrica se puede estimar por el método de área efectiva (secciones 16.7 y 16.9).
+ 6.  Las losas de cimentación pueden ser de varios tipos, como placa plana; placa plana con mayor 
+espesor bajo las columnas, vigas y losas; placa plana con pedestales, y losa con muros de 
+sótano, como parte de la placa.
+ 7.  La capacidad última de carga de una losa de cimentación se puede obtener mediante el 
+uso de la ecuación (16.9) (véase la sección 16.11).
+ 8.  Una losa de cimentación totalmente compensada es aquella en la que el aumento neto de la 
+presión del suelo por debajo de la losa es cero (sección 16.12).
+
+=== P6 PÁG 35 ===
+Problemas 509
+Problemas
+16.1  En los siguientes casos, determine la capacidad vertical de carga bruta admisible de la 
+cimentación. Utilice la ecuación de Terzaghi y suponga falla de corte general en el suelo. 
+Utilice FS  4.
+ 
+ 
+Parte
+B
+Df
+c
+Tipo de cimentación
+a.
+1.22 m
+0.91 m
+25°
+28.75 kN/m2
+17.29 kN/m3
+Continua
+b.
+2 m
+l m
+30°
+0
+17 kN/m3
+Continua
+c.
+3 m
+2 m
+30°
+0
+16.5 kN/m3
+Cuadrada
+ 
+ 
+ 
+ 
+16.2  Una columna cuadrada de cimentación tiene que sostener una carga bruta admisible de 1805 
+kN (FS  3). Dado: Df  1.5 m, g  15.9 kN/m3, f¿  34° y c¿  0. Utilice la ecuación de 
+Terzaghi para determinar el tamaño de la cimentación (B).
+16.3  Utilice la ecuación general de capacidad carga [ecuación (16.9)] para resolver lo siguiente:
+a.  Problema 16.1a 
+b.  Problema 16.1b 
+c.  Problema 16.lc 
+16.4  La carga aplicada sobre una cimentación cuadrada poco profunda forma un ángulo de 15º 
+con la vertical. Dado: B  1.83 m, Df  0.91 m, g  18.08 kN/m3, f¿  25° y c¿  23.96 
+kN/m2. Utilice FS  4 y determine la carga bruta admisible. Utilice la ecuación (16.9).
+16.5  Una columna de cimentación (fi gura 16.18) es de 3 m  2 m en el plano. Dado: Df  1.5 m,
+f¿  25°, c¿  70 kN/m2. Usando la ecuación (16.9) y FS  3, determine la carga neta 
+admisible [véase la ecuación (16.16)] que la fundación podría sostener.
+1.5 m
+1 m
+3 m  2 m
+Nivel freático
+17 kN/m3
+19.5 kN/m3
+sat
+Figura 16.18
+16.6  Para una cimentación cuadrada, esto es, B  B en el plano, Df  2 m, carga admisible 
+bruta vertical, Qadm  3330 kN, g  16.5 kN/m3, f¿  30°, c¿  0 y FS  4. Determine el 
+tamaño de la base. Utilice la ecuación (16.9).
+16.7  En la fi gura 16.19 se muestra una cimentación cargada de forma excéntrica. Utilice FS  4 
+y determine la carga máxima admisible que la cimentación puede soportar. Utilice el método 
+de área efectiva de Meyerhof.
+16.8  Para una cimentación continua cargada excéntricamente sobre la arena, dada B  1.8 m, 
+Df  0.9 m, e/B  0.12 (excentricidad en una dirección), g  16 kN/m3 y f¿  35°. 
+Utilizando el método de factor de reducción, estime la carga última por unidad de longitud 
+de la cimentación.
+16.9  La cimentación superfi cial que se muestra en la fi gura 16.8 mide 1.2 m  1.8 m y se somete 
+a una carga centrada y un momento. Si eB  0.12 m, eL  0.36 m y la profundidad de la 
+cimentación es de 1 m, determine la carga admisible que la cimentación
+
+=== P6 PÁG 36 ===
+Capítulo 16: Cimentaciones poco profundas: capacidad de carga
+510
+0.8 m
+Excentricidad sólo en
+una dirección = 0.1 m
+Línea central
+1.5 m  1.5 m
+Qadm
+32
+17 kN/m3
+0
+Figura 16.19 
+ 
+ puede soportar. Utilice un factor de seguridad de 3. Para el suelo, se nos dice que el peso 
+unitario g  17 kN/m3, el ángulo de fricción f¿  35° y la cohesión c¿  0.
+16.10  Una losa de cimentación que mide 14 m  9 m debe ser construida sobre una arcilla 
+saturada. Para la arcilla, cu  93 kN/m2 y f  0. La profundidad, Df, para la losa de 
+cimentación es 2 m. Determine la capacidad última de carga neta.
+16.11  Repita el problema 16.10 con lo siguiente:
+ •  Losa de cimentación: B  8 m, L  20 m y Df  2 m
+ •  Arcilla: f  0 y cu  130 kN/m2
+16.12  Considere una losa de cimentación con dimensiones de 18 m  12 m. La carga muerta 
+y viva combinada sobre la losa es 44.5 MN. La losa será colocada sobre una arcilla con 
+cu  40.7 kN/m2 y g  17.6 kN/m3. Encuentre la profundidad, Df, de la losa para una 
+cimentación completamente compensada.
+16.13  Para la losa en el problema 16.12, ¿cuál será la profundidad, Df, de la losa para FS  3 
+contra la falla de la capacidad de carga?
+Referencias
+Caquot, A., and Kerisel, J. (1953). “Sur le terme de surface dans le calcul des fondations en milieu 
+pulverulent,” Proceedings, Third International Conference on Soil Mechanics and Foundation En-
+gineering, Zürich, Vol. I, 336–337.
+De Beer, E. E. (1970). “Experimental Determination of the Shape Factors and Bearing Capacity Factors 
+of Sand,” Geotechnique, Vol. 20, No. 4, 387–411.
+Hanna, A. M., and Meyerhof, G. G. (1981). “Experimental Evaluation of Bearing Capacity of Footings 
+Subjected to Inclined Loads,” Canadian Geotechnical Journal, Vol. 18, No. 4, 599–603.
+Hansen, J. B. (1970). “A Revised and Extended Formula for Bearing Capacity,” Danish Geotechnical 
+Institute, Bulletin 28, Copenhagen.
+Highter, W. H., and Anders, J. C. (1985). “Dimensioning Footings Subjected to Eccentric Loads,” 
+Journal of Geotechnical Engineering, American Society of Civil Engineers, Vol. 111, No. GT5, 
+659–665.
+Kumbhojkar, A. S. (1993). “Numerical Evaluation of Terzaghi’s N ,” Journal of Geotechnical Enginee-
+ring, American Society of Civil Engineers, Vol. 119, No. 3, 598–607.
+Meyerhof, G. G. (1953). “The Bearing Capacity of Foundations Under Eccentric and Inclined Loads,” 
+Proceedings, Third International Conference on Soil Mechanics and Foundation Engineering, 
+Zürich, Vol. 1, 440–445.
+Meyerhof, G. G. (1963). “Some Recent Research on the Bearing Capacity of Foundations,” Canadian 
+Geotechnical Journal, Vol. 1, No. 1, 16–26.
+
+=== P6 PÁG 37 ===
+Referencias
+511
+Prandtl, L. (1921). “über die Eindringungsfestigkeit (Härte) plastischer Baustoffe und die Festigkeit von 
+Schneiden,” Zeitschrift für angewandte Mathematik und Mechanik, Vol. 1, No. 1, 15–20.
+Purkayastha, R. D., and CHAR, R. A. N. (1977). “Stability Analysis of Eccentrically Loaded Footings,” 
+Journal of Geotechnical Engineering Div., ASCE, Vol. 103, No. 6, pp. 647–651.
+Reissner, H. (1924). “Zum Erddruckproblem,” Proceedings, First International Congress of Applied Me-
+chanics, Delft, 295–311.
+Terzaghi, K. (1943). Theoretical Soil Mechanics, Wiley, New York.
+Vesic, A. S. (1963). “Bearing Capacity of Deep Foundations in Sand,” Highway Research Record No. 39, 
+National Academy of Sciences, 112–153.
+Vesic, A. S. (1973). “Analysis of Ultimate Loads of Shallow Foundations,” Journal of the Soil Mechanics 
+and Foundations Division, American Society of Civil Engineers, Vol. 99, No. SM1, 45–73.
+
+=== P6 PÁG 38 ===
+Capítulo 17: Asentamiento de cimentaciones poco profundas
+512
+17.1  Introducción
+En el capítulo 16 se introdujo el concepto y el procedimiento de estimación de la capacidad 
+última de carga de las cimentaciones poco profundas. Una cimentación puede fallar por falla de 
+corte del suelo soportado. Sin embargo, antes de la ocurrencia de la falla de corte en el suelo, 
+también es posible que una cimentación se someta a un asentamiento lo sufi cientemente grande 
+para causar daño a una estructura y hacerla disfuncional para el fi n para el que está diseñada. El 
+asentamiento referido aquí puede ser de dos tipos:
+• Asentamiento de consolidación (dependiente del tiempo) de la(s) capa(s) de arcilla ubicada(s) 
+debajo de la cimentación, y
+• Asentamiento elástico, que se produce más o menos en un corto tiempo después que la 
+cimentación se somete a la carga estructural.
+El asentamiento de consolidación fue discutido en detalle en el capítulo 9. Este capítulo tiene 
+como propósito familiarizar a los lectores con el proceso de cálculo del asentamiento elástico 
+de cimentaciones poco profundas. A los efectos de cálculo del asentamiento elástico, es importante 
+señalar que, al menos en teoría, una cimentación podría considerarse totalmente fl exible o totalmen-
+te rígida. Una cimentación cargada de manera uniforme, perfectamente fl exible, descansando sobre 
+un material elástico como arcilla saturada, tendrá un perfi l de hundimiento como el que se muestra 
+en la fi gura 17.1a debido a un asentamiento elástico. Sin embargo, si la cimentación es rígida y está 
+descansando sobre un material elástico como arcilla, se somete a un asentamiento uniforme y 
+la presión de contacto se redistribuirá (fi gura 17.1b).
+17.2   Asentamiento elástico de cimentaciones 
+en suelo de arcilla saturada (Ms  0.5)
+La fi gura 17.2 muestra una cimentación poco profunda que tiene un plano de B  L. El fondo 
+de la cimentación se encuentra a una profundidad de Df. También una capa de roca/incompre-
+sible se encuentra a una profundidad H por debajo del fondo de la cimentación. El coefi ciente 
+C A P Í T U L O 17
+Asentamiento de 
+cimentaciones poco profundas
+512
+
+=== P6 PÁG 39 ===
+17.2 Asentamiento elástico de cimentaciones en suelo de arcilla saturada (ms  0.5)
+513
+de Poisson y el módulo de elasticidad de la capa compresible son ms y Es, respectivamente. La 
+carga neta por unidad de área en el nivel de la cimentación es qo.
+Janbu et al. (1956) propusieron una relación generalizada para estimar el asentamiento 
+elástico promedio de una cimentación fl exible cargada uniformemente situada sobre arcilla 
+saturada (ms  0.5).
+Figura 17.2 Asentamiento elástico de cimentaciones fl exibles y rígidas
+Figura 17.1 Perfi l de asentamiento elástico y presión de contacto sobre arcilla: (a) cimentación fl exible; 
+(b) cimentación rígida
+(a)
+(b)
+Perfil de 
+asentamiento
+Perfil de
+ asentamiento
+modulus of elasticity
+Cimentación
+Asentamiento de
+una cimentación
+rígida
+Asentamiento de
+una cimentación
+flexible
+coeficiente de Poisson
+módulo de elasticidad
+Suelo
+Roca
+
+=== P6 PÁG 40 ===
+Capítulo 17: Asentamiento de cimentaciones poco profundas
+514
+Esta relación incorpora (a) el efecto de empotramiento, Df, y (b) el efecto de la existencia de una 
+capa rígida a una profundidad somera, o
+(17.1)
+donde
+y
+A2
+f a H
+B
+, L
+B b
+A1
+f a
+Df
+B b
+Se
+A1A2
+qoB
+Es
+Christian y Carrier (1978) hicieron una evaluación crítica de los factores A1 y A2, y los 
+resultados se presentan en forma gráfi ca. Los valores interpolados de A1 y A2 de estas gráfi cas 
+se dan en las tablas 17.1 y 17.2.
+Tabla 17.1  Variación de A1 con Df/B [ecuación (17.1)]
+Df/
+A
+B
+1
+0.1
+0
+9.0
+2
+8
+8.0
+4
+5
+7
+8.0
+6
+7
+8.0
+8
+10 
+0.865
+12 
+0.863
+14 
+0.860
+16 
+0.856
+18 
+0.854
+20 
+0.850
+Tabla 17.2  Variación de A2 con L/B y H/B [ecuación (17.1)]
+L/B
+H/B
+1
+0.36
+0.36
+0.36
+0.36
+0.36
+0.36
+2
+0.47
+0.53
+0.63
+0.64
+0.64
+0.64
+4
+0.58
+0.63
+0.82
+0.94
+0.94
+0.94
+6
+0.61
+0.67
+0.88
+1.08
+1.14
+1.16
+8
+0.62
+0.68
+0.90
+l.13
+1.22
+1.26
+10
+0.63
+0.70
+0.92
+1.18
+1.30
+1.42
+20
+0.64
+0.71
+0.93
+1.26
+1.47
+1.74
+30
+0.66
+0.73
+0.95
+1.29
+1.54
+1.84
+Círculo
+1
+2
+5
+10
+
+=== P6 PÁG 41 ===
+17.3 Asentamiento elástico basado en la teoría de la elasticidad
+515
+17.3   Asentamiento elástico basado en la teoría 
+de la elasticidad
+La fi gura 17.2 muestra una cimentación poco profunda sometida a una fuerza neta por unidad 
+de área igual a qo. Sean el coefi ciente de Poisson y el módulo de elasticidad del suelo de soporte 
+ms y Es, respectivamente. Sobre la base de la teoría de la elasticidad, si la cimentación (fi gura 
+17.2) es perfectamente fl exible, el asentamiento se puede expresar como
+(17.2)
+Se
+qo(aB¿) 1
+m2
+s
+Es
+ Is If
+donde
+ 
+qo  presión neta aplicada sobre la cimentación
+ 
+ms  coefi ciente de Poisson para el suelo 
+ 
+Es  módulo de elasticidad promedio del suelo debajo de la cimentación medido desde  
+ 
+z  0 hasta z  4B
+ 
+B¿  B/2 para el centro de la cimentación
+ 
+ B para la esquina de la cimentación
+ 
+Is  factor de forma (Steinbrenner, 1934)
+(17.3)
+F1
+(17.4)
+F2
+(17.5)
+A0
+(17.6)
+A1
+(17.7)
+A2
+(17.8)
+If
+(17.9)
+a
+factor que depende de la ubicación de la cimentación 
+en donde el asentamiento está siendo calculado
+factor de profundidad  (Fox, 1948)
+f a
+Df
+B
+ , ms  y L
+B b
+m
+n 2m 2
+n 2
+1
+ln  (m
+2m 2
+1)21
+n 2
+m
+2m 2
+n 2
+1
+m¿ ln  (1
+2m¿2
+1)2m¿2
+n¿2
+m¿(1
+2m¿2
+n¿2
+1)
+n
+2p tan
+1 A2
+1
+p
+ (A0
+A1)
+F1
+1
+2ms
+1
+ms
+ F2
+• Para el cálculo del asentamiento en el centro de la cimentación: 
+ n¿
+H
+a B
+2 b
+ m
+L
+B
+ a
+4
+
+=== P6 PÁG 42 ===
+Capítulo 17: Asentamiento de cimentaciones poco profundas
+516
+• Para el cálculo del asentamiento en la esquina de la cimentación: 
+ n
+H
+B
+ m
+L
+B
+ a
+1
+Las variaciones de F1 y F2 [ecuaciones (17.4) y (17.5)] con m¿ y n¿ se dan en las tablas 17.3 y 
+17.4. También en la tabla 17.5 se dan la variación de If con Df/B y ms. Note que cuando Df  0, 
+el valor de If  1 en todos los casos.
+Tabla 17.3  Variación de F1 con m¿ y n¿ 
+m
+n
+1.0
+1.2
+1.4
+1.6
+1.8
+2.0
+2.5
+3.0
+3.5
+4.0
+0.25
+0.014
+0.013
+0.012
+0.011
+0.011
+0.011
+0.010
+0.010
+0.010
+0.010
+0.50
+0.049
+0.046
+0.044
+0.042
+0.041
+0.040
+0.038
+0.038
+0.037
+0.037
+0.75
+0.095
+0.090
+0.087
+0.084
+0.082
+0.080
+0.077
+0.076
+0.074
+0.074
+1.00
+0.142
+0.138
+0.134
+0.130
+0.127
+0.125
+0.121
+0.118
+0.116
+0.115
+1.25
+0.186
+0.183
+0.179
+0.176
+0.173
+0.170
+0.165
+0.161
+0.158
+0.157
+1.50
+0.224
+0.224
+0.222
+0.219
+0.216
+0.213
+0.207
+0.203
+0.199
+0.197
+1.75
+0.257
+0.259
+0.259
+0.258
+0.255
+0.253
+0.247
+0.242
+0.238
+0.235
+2.00
+0.285
+0.290
+0.292
+0.292
+0.291
+0.289
+0.284
+0.279
+0.275
+0.271
+2.25
+0.309
+0.317
+0.321
+0.323
+0.323
+0.322
+0.317
+0.313
+0.308
+0.305
+2.50
+0.330
+0.341
+0.347
+0.350
+0.351
+0.351
+0.348
+0.344
+0.340
+0.336
+2.75
+0.348
+0.361
+0.369
+0.374
+0.377
+0.378
+0.377
+0.373
+0.369
+0.365
+3.00
+0.363
+0.379
+0.389
+0.396
+0.400
+0.402
+0.402
+0.400
+0.396
+0.392
+3.25
+0.376
+0.394
+0.406
+0.415
+0.420
+0.423
+0.426
+0.424
+0.421
+0.418
+3.50
+0.388
+0.408
+0.422
+0.431
+0.438
+0.442
+0.447
+0.447
+0.444
+0.441
+3.75
+0.399
+0.420
+0.436
+0.447
+0.454
+0.460
+0.467
+0.458
+0.466
+0.464
+4.00
+0.408
+0.431
+0.448
+0.460
+0.469
+0.476
+0.484
+0.487
+0.486
+0.484
+4.25
+0.417
+0.440
+0.458
+0.472
+0.481
+0.484
+0.495
+0.514
+0.515
+0.515
+4.50
+0.424
+0.450
+0.469
+0.484
+0.495
+0.503
+0.516
+0.521
+0.522
+0.522
+4.75
+0.431
+0.458
+0.478
+0.494
+0.506
+0.515
+0.530
+0.536
+0.539
+0.539
+5.00
+0.437
+0.465
+0.487
+0.503
+0.516
+0.526
+0.543
+0.551
+0.554
+0.554
+5.25
+0.443
+0.472
+0.494
+0.512
+0.526
+0.537
+0.555
+0.564
+0.568
+0.569
+5.50
+0.448
+0.478
+0.501
+0.520
+0.534
+0.546
+0.566
+0.576
+0.581
+0.584
+5.75
+0.453
+0.483
+0.508
+0.527
+0.542
+0.555
+0.576
+0.588
+0.594
+0.597
+6.00
+0.457
+0.489
+0.514
+0.534
+0.550
+0.563
+0.585
+0.598
+0.606
+0.609
+6.25
+0.461
+0.493
+0.519
+0.540
+0.557
+0.570
+0.594
+0.609
+0.617
+0.621
+6.50
+0.465
+0.498
+0.524
+0.546
+0.563
+0.577
+0.603
+0.618
+0.627
+0.632
+6.75
+0.468
+0.502
+0.529
+0.551
+0.569
+0.584
+0.610
+0.627
+0.637
+0.643
+7.00
+0.471
+0.506
+0.533
+0.556
+0.575
+0.590
+0.618
+0.635
+0.646
+0.653
+7.25
+0.474
+0.509
+0.538
+0.561
+0.580
+0.596
+0.625
+0.643
+0.655
+0.662
+7.50
+0.477
+0.513
+0.541
+0.565
+0.585
+0.601
+0.631
+0.650
+0.663
+0.671
+7.75
+0.480
+0.516
+0.545
+0.569
+0.589
+0.606
+0.637
+0.658
+0.671
+0.680
+(continúa)
+
+=== P6 PÁG 43 ===
+17.3 Asentamiento elástico basado en la teoría de la elasticidad
+517
+m
+n
+1.0
+1.2
+1.4
+1.6
+1.8
+2.0
+2.5
+3.0
+3.5
+4.0
+8.00
+0.482
+0.519
+0.549
+0.573
+0.594
+0.611
+0.643
+0.664
+0.678
+0.688
+8.25
+0.485
+0.522
+0.552
+0.577
+0.598
+0.615
+0.648
+0.670
+0.685
+0.695
+8.50
+0.487
+0.524
+0.555
+0.580
+0.601
+0.619
+0.653
+0.676
+0.692
+0.703
+8.75
+0.489
+0.527
+0.558
+0.583
+0.605
+0.623
+0.658
+0.682
+0.698
+0.710
+9.00
+0.491
+0.529
+0.560
+0.587
+0.609
+0.627
+0.663
+0.687
+0.705
+0.716
+9.25
+0.493
+0.531
+0.563
+0.589
+0.612
+0.631
+0.667
+0.693
+0.710
+0.723
+9.50
+0.495
+0.533
+0.565
+0.592
+0.615
+0.634
+0.671
+0.697
+0.716
+0.719
+9.75
+0.496
+0.536
+0.568
+0.595
+0.618
+0.638
+0.675
+0.702
+0.721
+0.735
+10.00
+0.498
+0.537
+0.570
+0.597
+0.621
+0.641
+0.679
+0.707
+0.726
+0.740
+20.00
+0.529
+0.575
+0.614
+0.647
+0.677
+0.702
+0.756
+0.797
+0.830
+0.858
+50.00
+0.548
+0.598
+0.640
+0.678
+0.711
+0.740
+0.803
+0.853
+0.895
+0.931
+100.00
+0.555
+0.605
+0.649
+0.688
+0.722
+0.753
+0.819
+0.872
+0.918
+0.956
+Tabla 17.3  (continuación)
+m
+n
+4.5
+5.0
+6.0
+7.0
+8.0
+9.0
+10.0
+25.0
+50.0
+100.0
+0.25
+0.010
+0.010
+0.010
+0.010
+0.010
+0.010
+0.010
+0.010
+0.010
+0.010
+0.50
+0.036
+0.036
+0.036
+0.036
+0.036
+0.036
+0.036
+0.036
+0.036
+0.036
+0.75
+0.073
+0.073
+0.072
+0.072
+0.072
+0.072
+0.071
+0.071
+0.071
+0.071
+1.00
+0.114
+0.113
+0.112
+0.112
+0.112
+0.111
+0.111
+0.110
+0.110
+0.110
+1.25
+0.155
+0.154
+0.153
+0.152
+0.152
+0.151
+0.151
+0.150
+0.150
+0.150
+1.50
+0.195
+0.194
+0.192
+0.191
+0.190
+0.190
+0.189
+0.188
+0.188
+0.188
+1.75
+0.233
+0.232
+0.229
+0.228
+0.227
+0.226
+0.225
+0.223
+0.223
+0.223
+2.00
+0.269
+0.267
+0.264
+0.262
+0.261
+0.260
+0.259
+0.257
+0.256
+0.256
+2.25
+0.302
+0.300
+0.296
+0.294
+0.293
+0.291
+0.291
+0.287
+0.287
+0.287
+2.50
+0.333
+0.331
+0.327
+0.324
+0.322
+0.321
+0.320
+0.316
+0.315
+0.315
+2.75
+0.362
+0.359
+0.355
+0.352
+0.350
+0.348
+0.347
+0.343
+0.342
+0.342
+3.00
+0.389
+0.386
+0.382
+0.378
+0.376
+0.374
+0.373
+0.368
+0.367
+0.367
+3.25
+0.415
+0.412
+0.407
+0.403
+0.401
+0.399
+0.397
+0.391
+0.390
+0.390
+3.50
+0.438
+0.435
+0.430
+0.427
+0.424
+0.421
+0.420
+0.413
+0.412
+0.411
+3.75
+0.461
+0.458
+0.453
+0.449
+0.446
+0.443
+0.441
+0.433
+0.432
+0.432
+4.00
+0.482
+0.479
+0.474
+0.470
+0.466
+0.464
+0.462
+0.453
+0.451
+0.451
+4.25
+0.516
+0.496
+0.484
+0.473
+0.471
+0.471
+0.470
+0.468
+0.462
+0.460
+4.50
+0.520
+0.517
+0.513
+0.508
+0.505
+0.502
+0.499
+0.489
+0.487
+0.487
+4.75
+0.537
+0.535
+0.530
+0.526
+0.523
+0.519
+0.517
+0.506
+0.504
+0.503
+5.00
+0.554
+0.552
+0.548
+0.543
+0.540
+0.536
+0.534
+0.522
+0.519
+0.519
+5.25
+0.569
+0.568
+0.564
+0.560
+0.556
+0.553
+0.550
+0.537
+0.534
+0.534
+5.50
+0.584
+0.583
+0.579
+0.575
+0.571
+0.568
+0.585
+0.551
+0.549
+0.548
+5.75
+0.597
+0.597
+0.594
+0.590
+0.586
+0.583
+0.580
+0.565
+0.583
+0.562
+6.00
+0.611
+0.610
+0.608
+0.604
+0.601
+0.598
+0.595
+0.579
+0.576
+0.575
+6.25
+0.623
+0.623
+0.621
+0.618
+0.615
+0.611
+0.608
+0.592
+0.589
+0.588
+6.50
+0.635
+0.635
+0.634
+0.631
+0.628
+0.625
+0.622
+0.605
+0.601
+0.600
+6.75
+0.646
+0.647
+0.646
+0.644
+0.641
+0.637
+0.634
+0.617
+0.613
+0.612
+7.00
+0.656
+0.658
+0.658
+0.656
+0.653
+0.650
+0.647
+0.628
+0.624
+0.623
+(continúa)
+
+=== P6 PÁG 44 ===
+Capítulo 17: Asentamiento de cimentaciones poco profundas
+518
+Tabla 17.3  (continuación)
+m
+n
+4.5
+5.0
+6.0
+7.0
+8.0
+9.0
+10.0
+25.0
+50.0
+100.0
+7.25 0.666
+0.669
+0.669
+0.668
+0.665
+0.662
+0.659
+0.640
+0.635
+0.634
+7.50 0.676
+0.679
+0.680
+0.679
+0.676
+0.673
+0.670
+0.651
+0.646
+0.645
+7.75 0.685
+0.688
+0.690
+0.689
+0.687
+0.684
+0.681
+0.661
+0.656
+0.655
+8.00 0.694
+0.697
+0.700
+0.700
+0.698
+0.695
+0.692
+0.672
+0.666
+0.665
+8.25 0.702
+0.706
+0.710
+0.710
+0.708
+0.705
+0.703
+0.682
+0.676
+0.675
+8.50 0.710
+0.714
+0.719
+0.719
+0.718
+0.715
+0.713
+0.692
+0.686
+0.684
+8.75 0.717
+0.722
+0.727
+0.728
+0.727
+0.725
+0.723
+0.701
+0.695
+0.693
+9.00 0.725
+0.730
+0.736
+0.737
+0.736
+0.735
+0.732
+0.710
+0.704
+0.702
+9.25 0.731
+0.737
+0.744
+0.746
+0.745
+0.744
+0.742
+0.719
+0.713
+0.711
+9.50 0.738
+0.744
+0.752
+0.754
+0.754
+0.753
+0.751
+0.728
+0.721
+0.719
+9.75 0.744
+0.751
+0.759
+0.762
+0.762
+0.761
+0.759
+0.737
+0.729
+0.727
+10.00 0.750
+0.758
+0.766
+0.770
+0.770
+0.770
+0.768
+0.745
+0.738
+0.735
+20.00 0.878
+0.896
+0.925
+0.945
+0.959
+0.969
+0.977
+0.982
+0.965
+0.957
+50.00 0.962
+0.989
+1.034
+1.070
+1.100
+1.125
+1.146
+1.265
+1.279
+1.261
+100.00 0.990
+1.020
+1.072
+1.114
+1.150
+1.182
+1.209
+1.408
+1.489
+1.499
+Tabla 17.4   Variación de F2 con m¿ y n¿ 
+m
+n
+1.0
+1.2
+1.4
+1.6
+1.8
+2.0
+2.5
+3.0
+3.5
+4.0
+0.25
+0.049
+0.050
+0.051
+0.051
+0.051
+0.052
+0.052
+0.052
+0.052
+0.052
+0.50
+0.074
+0.077
+0.080
+0.081
+0.083
+0.084
+0.086
+0.086
+0.0878
+0.087
+0.75
+0.083
+0.089
+0.093
+0.097
+0.099
+0.101
+0.104
+0.106
+0.107
+0.108
+1.00
+0.083
+0.091
+0.098
+0.102
+0.106
+0.109
+0.114
+0.117
+0.119
+0.120
+1.25
+0.080
+0.089
+0.096
+0.102
+0.107
+0.111
+0.118
+0.122
+0.125
+0.127
+1.50
+0.075
+0.084
+0.093
+0.099
+0.105
+0.110
+0.118
+0.124
+0.128
+0.130
+1.75
+0.069
+0.079
+0.088
+0.095
+0.101
+0.107
+0.117
+0.123
+0.128
+0.131
+2.00
+0.064
+0.074
+0.083
+0.090
+0.097
+0.102
+0.114
+0.121
+0.127
+0.131
+2.25
+0.059
+0.069
+0.077
+0.085
+0.092
+0.098
+0.110
+0.119
+0.125
+0.130
+2.50
+0.055
+0.064
+0.073
+0.080
+0.087
+0.093
+0.106
+0.115
+0.122
+0.127
+2.75
+0.051
+0.060
+0.068
+0.076
+0.082
+0.089
+0.102
+0.111
+0.119
+0.125
+3.00
+0.048
+0.056
+0.064
+0.071
+0.078
+0.084
+0.097
+0.108
+0.116
+0.122
+3.25
+0.045
+0.053
+0.060
+0.067
+0.074
+0.080
+0.093
+0.104
+0.112
+0.119
+3.50
+0.042
+0.050
+0.057
+0.064
+0.070
+0.076
+0.089
+0.100
+0.109
+0.116
+3.75
+0.040
+0.047
+0.054
+0.060
+0.067
+0.073
+0.086
+0.096
+0.105
+0.113
+4.00
+0.037
+0.044
+0.051
+0.057
+0.063
+0.069
+0.082
+0.093
+0.102
+0.110
+4.25
+0.036
+0.042
+0.049
+0.055
+0.061
+0.066
+0.079
+0.090
+0.099
+0.107
+4.50
+0.034
+0.040
+0.046
+0.052
+0.058
+0.063
+0.076
+0.086
+0.096
+0.104
+4.75
+0.032
+0.038
+0.044
+0.050
+0.055
+0.061
+0.073
+0.083
+0.093
+0.101
+5.00
+0.031
+0.036
+0.042
+0.048
+0.053
+0.058
+0.070
+0.080
+0.090
+0.098
+5.25
+0.029
+0.035
+0.040
+0.046
+0.051
+0.056
+0.067
+0.078
+0.087
+0.095
+5.50
+0.028
+0.033
+0.039
+0.044
+0.049
+0.054
+0.065
+0.075
+0.084
+0.092
+5.75
+0.027
+0.032
+0.037
+0.042
+0.047
+0.052
+0.063
+0.073
+0.082
+0.090
+
+=== P6 PÁG 45 ===
+17.3 Asentamiento elástico basado en la teoría de la elasticidad
+519
+Tabla 17.4  (continuación)
+m
+n
+1.0
+1.2
+1.4
+1.6
+1.8
+2.0
+2.5
+3.0
+3.5
+4.0
+6.00
+0.026
+0.031
+0.036
+0.040
+0.045
+0.050
+0.060
+0.070
+0.079
+0.087
+6.25
+0.025
+0.030
+0.034
+0.039
+0.044
+0.048
+0.058
+0.068
+0.077
+0.085
+6.50
+0.024
+0.029
+0.033
+0.038
+0.042
+0.046
+0.056
+0.066
+0.075
+0.083
+6.75
+0.023
+0.028
+0.032
+0.036
+0.041
+0.045
+0.055
+0.064
+0.073
+0.080
+7.00
+0.022
+0.027
+0.031
+0.035
+0.039
+0.043
+0.053
+0.062
+0.071
+0.078
+7.25
+0.022
+0.026
+0.030
+0.034
+0.038
+0.042
+0.051
+0.060
+0.069
+0.076
+7.50
+0.021
+0.025
+0.029
+0.033
+0.037
+0.041
+0.050
+0.059
+0.067
+0.074
+7.75
+0.020
+0.024
+0.028
+0.032
+0.036
+0.039
+0.048
+0.057
+0.065
+0.072
+8.00
+0.020
+0.023
+0.027
+0.031
+0.035
+0.038
+0.047
+0.055
+0.063
+0.071
+8.25
+0.019
+0.023
+0.026
+0.030
+0.034
+0.037
+0.046
+0.054
+0.062
+0.069
+8.50
+0.018
+0.022
+0.026
+0.029
+0.033
+0.036
+0.045
+0.053
+0.060
+0.067
+8.75
+0.018
+0.021
+0.025
+0.028
+0.032
+0.035
+0.043
+0.051
+0.059
+0.066
+9.00
+0.017
+0.021
+0.024
+0.028
+0.031
+0.034
+0.042
+0.050
+0.057
+0.064
+9.25
+0.017
+0.020
+0.024
+0.027
+0.030
+0.033
+0.041
+0.049
+0.056
+0.063
+9.50
+0.017
+0.020
+0.023
+0.026
+0.029
+0.033
+0.040
+0.048
+0.055
+0.061
+9.75
+0.016
+0.019
+0.023
+0.026
+0.029
+0.032
+0.039
+0.047
+0.054
+0.060
+10.00
+0.016
+0.019
+0.022
+0.025
+0.028
+0.031
+0.038
+0.046
+0.052
+0.059
+20.00
+0.008
+0.010
+0.011
+0.013
+0.014
+0.016
+0.020
+0.024
+0.027
+0.031
+50.00
+0.003
+0.004
+0.004
+0.005
+0.006
+0.006
+0.008
+0.010
+0.011
+0.013
+100.00
+0.002
+0.002
+0.002
+0.003
+0.003
+0.003
+0.004
+0.005
+0.006
+0.006
+m
+n
+4.5
+5.0
+6.0
+7.0
+8.0
+9.0
+10.0
+25.0
+50.0
+100.0
+0.25
+0.053
+0.053
+0.053
+0.053
+0.053
+0.053
+0.053
+0.053
+0.053
+0.053
+0.50
+0.087
+0.087
+0.088
+0.088
+0.088
+0.088
+0.088
+0.088
+0.088
+0.088
+0.75
+0.109
+0.109
+0.109
+0.110
+0.110
+0.110
+0.110
+0.111
+0.111
+0.111
+1.00
+0.121
+0.122
+0.123
+0.123
+0.124
+0.124
+0.124
+0.125
+0.125
+0.125
+1.25
+0.128
+0.130
+0.131
+0.132
+0.132
+0.133
+0.133
+0.134
+0.134
+0.134
+1.50
+0.132
+0.134
+0.136
+0.137
+0.138
+0.138
+0.139
+0.140
+0.140
+0.140
+1.75
+0.134
+0.136
+0.138
+0.140
+0.141
+0.142
+0.142
+0.144
+0.144
+0.145
+2.00
+0.134
+0.136
+0.139
+0.141
+0.143
+0.144
+0.145
+0.147
+0.147
+0.148
+2.25
+0.133
+0.136
+0.140
+0.142
+0.144
+0.145
+0.146
+0.149
+0.150
+0.150
+2.50
+0.132
+0.135
+0.139
+0.142
+0.144
+0.146
+0.147
+0.151
+0.151
+0.151
+2.75
+0.130
+0.133
+0.138
+0.142
+0.144
+0.146
+0.147
+0.152
+0.152
+0.153
+3.00
+0.127
+0.131
+0.137
+0.141
+0.144
+0.145
+0.147
+0.152
+0.153
+0.154
+3.25
+0.125
+0.129
+0.135
+0.140
+0.143
+0.145
+0.147
+0.153
+0.154
+0.154
+3.50
+0.122
+0.126
+0.133
+0.138
+0.142
+0.144
+0.146
+0.153
+0.155
+0.155
+3.75
+0.119
+0.124
+0.131
+0.137
+0.141
+0.143
+0.145
+0.154
+0.155
+0.155
+4.00
+0.116
+0.121
+0.129
+0.135
+0.139
+0.142
+0.145
+0.154
+0.155
+0.156
+4.25
+0.113
+0.119
+0.127
+0.133
+0.138
+0.141
+0.144
+0.154
+0.156
+0.156
+4.50
+0.110
+0.116
+0.125
+0.131
+0.136
+0.140
+0.143
+0.154
+0.156
+0.156
+4.75
+0.107
+0.113
+0.123
+0.130
+0.135
+0.139
+0.142
+0.154
+0.156
+0.157
+5.00
+0.105
+0.111
+0.120
+0.128
+0.133
+0.137
+0.140
+0.154
+0.156
+0.157
+5.25
+0.102
+0.108
+0.118
+0.126
+0.131
+0.136
+0.139
+0.154
+0.156
+0.157
+(continúa)
+
+=== P6 PÁG 46 ===
+Capítulo 17: Asentamiento de cimentaciones poco profundas
+520
+Tabla 17.4  (continuación)
+m
+n
+4.5
+5.0
+6.0
+7.0
+8.0
+9.0
+10.0
+25.0
+50.0
+100.0
+5.50 0.099
+0.106
+0.116
+0.124
+0.130
+0.134
+0.138
+0.154
+0.156
+0.157
+5.75 0.097
+0.103
+0.113
+0.122
+0.128
+0.133
+0.136
+0.154
+0.157
+0.157
+6.00 0.094
+0.101
+0.111
+0.120
+0.126
+0.131
+0.135
+0.153
+0.157
+0.157
+6.25 0.092
+0.098
+0.109
+0.118
+0.124
+0.129
+0.134
+0.153
+0.157
+0.158
+6.50 0.090
+0.096
+0.107
+0.116
+0.122
+0.128
+0.132
+0.153
+0.157
+0.158
+6.75 0.087
+0.094
+0.105
+0.114
+0.121
+0.126
+0.131
+0.153
+0.157
+0.158
+7.00 0.085
+0.092
+0.103
+0.112
+0.119
+0.125
+0.129
+0.152
+0.157
+0.158
+7.25 0.083
+0.090
+0.101
+0.110
+0.117
+0.123
+0.128
+0.152
+0.157
+0.158
+7.50 0.081
+0.088
+0.099
+0.108
+0.115
+0.121
+0.126
+0.152
+0.156
+0.158
+7.75 0.079
+0.086
+0.097
+0.106
+0.114
+0.120
+0.125
+0.151
+0.156
+0.158
+8.00 0.077
+0.084
+0.095
+0.104
+0.112
+0.118
+0.124
+0.151
+0.156
+0.158
+8.25 0.076
+0.082
+0.093
+0.102
+0.110
+0.117
+0.122
+0.150
+0.156
+0.158
+8.50 0.074
+0.080
+0.091
+0.101
+0.108
+0.115
+0.121
+0.150
+0.156
+0.158
+8.75 0.072
+0.078
+0.089
+0.099
+0.107
+0.114
+0.119
+0.150
+0.156
+0.158
+9.00 0.071
+0.077
+0.088
+0.097
+0.105
+0.112
+0.118
+0.149
+0.156
+0.158
+9.25 0.069
+0.075
+0.086
+0.096
+0.104
+0.110
+0.116
+0.149
+0.156
+0.158
+9.50 0.068
+0.074
+0.085
+0.094
+0.102
+0.109
+0.115
+0.148
+0.156
+0.158
+9.75 0.066
+0.072
+0.083
+0.092
+0.100
+0.107
+0.113
+0.148
+0.156
+0.158
+10.00 0.065
+0.071
+0.082
+0.091
+0.099
+0.106
+0.112
+0.147
+0.156
+0.158
+20.00 0.035
+0.039
+0.046
+0.053
+0.059
+0.065
+0.071
+0.124
+0.148
+0.156
+50.00 0.014
+0.016
+0.019
+0.022
+0.025
+0.028
+0.031
+0.071
+0.113
+0.142
+100.00 0.007
+0.008
+0.010
+0.011
+0.013
+0.014
+0.016
+0.039
+0.071
+0.113
+Tabla 17.5  Variación de If con Df/B, B/L y ms
+B/L
+s
+Df/B
+0.2
+0.5
+1.0
+0.3
+0.2
+0.95
+0.93
+0.90
+0.4
+0.90
+0.86
+0.81
+0.6
+0.85
+0.80
+0.74
+1.0
+0.78
+0.71
+0.65
+0.4
+0.2
+0.97
+0.96
+0.93
+0.4
+0.93
+0.89
+0.85
+0.6
+0.89
+0.84
+0.78
+1.0
+0.82
+0.75
+0.69
+0.5
+0.2
+0.99
+0.98
+0.96
+0.4
+0.95
+0.93
+0.89
+0.6
+0.92
+0.87
+0.82
+1.0
+0.85
+0.79
+0.72
+
+=== P6 PÁG 47 ===
+17.3 Asentamiento elástico basado en la teoría de la elasticidad
+521
+El asentamiento elástico de una cimentación rígida puede ser estimado como
+(17.10)
+Se (rígida)
+0.93Se (ﬂexible, centro)
+Debido a la naturaleza no homogénea de los depósitos de suelo, la magnitud de Es puede 
+variar con la profundidad. Por esa razón, Bowles (1987) recomienda el uso de un valor medio 
+ponderado de Es en la ecuación (17.2), o
+(17.11)
+Es
+g Es(i)¢z
+z
+donde
+ Es(i)  módulo de elasticidad del suelo dentro de una profundidad z
+ 
+z  H o 5B, el que sea menor
+Ejemplo 17.1 
+En la fi gura 17.3 se muestra una cimentación rígida poco profunda de 1 m  2 m. Calcule el 
+asentamiento elástico en el centro del asentamiento.
+Roca
+Figura 17.3
+
+=== P6 PÁG 48 ===
+Capítulo 17: Asentamiento de cimentaciones poco profundas
+522
+Solución
+Dados B  1 m y L  2 m, se tiene que 
+5 m
+5B
+z
+. De la ecuación (17.11)
+(10 000)(2)
+(8000)(1)
+(12 000)(2)
+5
+10 400 kN/m2
+ Es
+g Es(i)¢z
+z
+Para el centro de la cimentación
+ n¿
+H
+a B
+2 b
+5
+a 1
+2 b
+10
+ m
+L
+B
+2
+1
+2
+ a
+4
+De las tablas 17.3 y 17.4, F1  0.641 y F2  0.031. De la ecuación 17.3
+0.641
+2
+0.3
+1
+0.3
+ (0.031)
+0.716
+ Is
+F1
+2
+ms
+1
+ms
+ F2
+Otra vez, 
+s
+0.3. 
+Df
+B
+1
+1
+1, L
+B
+2,
+ De la tabla 17.5, If  0.71. Por lo tanto, 
+(150)a 4
+1
+2 b a 1
+0.32
+10 400 b (0.716)(0.71)
+0.0133 m
+13.3 mm
+Se (ﬂexible)
+qo(aB ) 1
+m2
+s
+Es
+ Is If
+Ya que la cimentación es rígida, de la ecuación (17.10)
+Se (rígida)
+(0.93)(13.3)
+12.4 mm
+17.4   Rango de parámetros de los materiales para 
+el cálculo del asentamiento elástico
+La sección 17.3 presenta la ecuación para calcular el asentamiento elástico de las cimentacio-
+nes. La ecuación contiene los parámetros elásticos, como Es y ms. Si los resultados de las pruebas 
+de laboratorio para estos parámetros no están disponibles, tienen que hacerse algunas suposicio-
+nes realistas. La tabla 17.6 da el intervalo aproximado de los parámetros elásticos para distintos 
+tipos de suelo.
+
+=== P6 PÁG 49 ===
+17.5 Asentamiento de suelo arenoso: uso del factor de inﬂ uencia de la deformación unitaria
+523
+17.5   Asentamiento de suelo arenoso: uso del factor 
+de inﬂ uencia de la deformación unitaria
+El asentamiento de los suelos granulares también puede ser evaluado por el uso de un factor de 
+infl uencia de la deformación unitaria semi-empírico propuesto por Schmertmann et al. (1978). 
+Según este método, la solución es
+(17.12)
+Se
+C1C2(q
+q) a
+z2
+0
+Iz
+Es
+¢z
+donde
+ 
+Iz  factor de infl uencia de la deformación unitaria
+ 
+C1  factor de corrección para la profundidad de empotramiento de 
+ 
+la cimentación  1  0.5 [q/(q
+q)]
+ 
+C2  factor de corrección para tener en cuenta la fl uencia en el suelo 
+ 
+ 1  0.2 log (tiempo en años/0.1)
+ 
+q  esfuerzo a nivel de la cimentación
+ 
+q  gDf
+La variación recomendada del factor de infl uencia de la deformación unitaria Iz para las 
+cimentaciones con (L/B  1) o circulares y las cimentaciones con L/B  10 se muestran en la 
+fi gura 17.4. Los diagramas de Iz para 1  L/B  10 se pueden interpolar.
+Se debe considerar que el valor máximo de Iz [es decir, Iz(m)] se produce en z  z1 y luego 
+se reduce a cero en z  z2. El valor máximo de Iz puede ser calculado como
+(17.13)
+Iz(m)
+0.5
+0.1B
+q
+q
+q¿z (1)
+donde
+ q¿z(1)  esfuerzo efectivo a una profundidad de z1 antes de la construcción de la cimentación
+Tabla 17.6  Parámetros elásticos para varios tipos de suelo
+   Módulo de
+ elasticidad, Es
+0
+4.0
+–
+0
+2.0
+5
+2
+–
+0
+1
+Arena suelta
+5
+4.0
+–
+0
+3.0
+5
+5
+–
+5
+3
+Arena densa
+0
+4.0
+–
+0
+2.0
+0
+2
+–
+0
+1
+Arena limosa
+0
+2
+–
+4
+Arcilla blanda
+0
+0
+1
+–
+0
+4
+Arcilla dura
+Tipo de suelo
+Arena semi-densa
+15–30
+0.25–0.40
+0.15–0.35
+70–170
+Arena y grava
+0.20–0.50
+Arcilla media
+20–40
+2
+(MN/m )
+Coeficiente de
+Poisson, Ms
+
+=== P6 PÁG 50 ===
+Capítulo 17: Asentamiento de cimentaciones poco profundas
+524
+Las siguientes relaciones son sugeridas por Salgado (2008) para la interpolación de Iz en 
+z  0, z1/B y z2/B para cimentaciones rectangulares.
+• Iz en z  0
+(17.14)
+Iz
+0.1
+0.0111 a L
+B
+1 b
+0.2
+• Variación de z1/B para Iz(m)
+(17.15)
+z1
+B
+0.5
+0.0555 a L
+B
+1 b
+1
+• Variación de z2/B
+(17.16)
+z2
+B
+2
+0.222 a L
+B
+1 b
+4
+Schmertmann et al. (1978) sugirieron que
+Es = 2.5qc (para cimentaciones cuadradas) 
+(17.17)
+y
+Es = 3.5qc (para L/B
+10)
+(17.18)
+donde qc  resistencia a la penetración de cono.
+Parece razonable para escribir (Terzaghi et al., 1996)
+(17.19)
+Es(rectángulo)
+a 1
+0.4 logL
+B bEs(cuadrado)
+B
+0.1
+z
+z
+Df
+q
+q = gDf
+z1 = 0.5B
+q'z(1)
+q'z(1)
+Iz
+z
+Iz
+z2 = 2B
+z1 = B
+z2 = 4B
+L/B = 1
+L/B ≥ 10
+Iz(m)
+0.2
+Iz(m)
+Figura 17.4 Variación del factor de infl uencia de la deformación unitaria con la profundidad y L/B
+
+=== P6 PÁG 51 ===
+17.5 Asentamiento de suelo arenoso: uso del factor de inﬂ uencia de la deformación unitaria
+525
+El procedimiento para el cálculo del asentamiento elástico utilizando la ecuación (17.12) 
+se da aquí (fi gura 17.5).
+ 
+Paso 1.  Trazar la cimentación y la variación de Iz con la profundidad a escala (fi gura 
+17.5a).
+ 
+Paso 2.  Usar la correlación de resistencia a la penetración estándar (N60) o resistencia de 
+penetración de cono (qc), trazar la variación real de Es con la profundidad (fi gura 
+17.5b).
+ 
+Paso 3.  Aproximar la variación real de Es dentro de un número de capas de suelo que 
+tienen una constante de Es, como Es(1), Es(2), . . . , Es(i), . . . Es(n) (fi gura 17.5b).
+ 
+Paso 4.  Dividir la capa de suelo desde z  0 hasta z  z2 en un número de capas por el 
+trazado de líneas horizontales. El número de capas depende de la interrupción de 
+la continuidad en los diagramas de Iz y Es.
+ 
+Paso 5.  Preparar una tabla (como la tabla 17.7) para obtener g
+I z
+E s
+¢z.
+ 
+Paso 6.  Calcular C1 y C2.
+ 
+Paso 7.  Calcular Se a partir de la ecuación (17.12).
+I z ( i ) 
+I z (1) 
+B 
+D f 
+z 1 
+z 2 
+z (1) 
+z ( i ) 
+z ( n ) 
+I z ( n ) 
+I z (3) 
+I z (2) 
+E s (1) 
+E s 
+Paso4 
+E s (2) 
+E s ( i ) 
+z (2) 
+E s ( n ) 
+Paso1 
+Profundidad, z
+(a)
+Profundidad, z
+(b)
+Paso 2 
+Paso3
+Figura 17.5 Procedimiento para el cálculo de Se usando el factor de infl uencia de la deformación unitaria
+
+=== P6 PÁG 52 ===
+Capítulo 17: Asentamiento de cimentaciones poco profundas
+526
+Ejemplo 17.2
+Considere una cimentación rectangular de 2 m  4 m en el plano a una profundidad de 1.2 m 
+en un depósito de arena, como se muestra en la fi gura 17.6a. Se tiene: g  17.5 kN/m3; 
+q  145 kN/m2 y la siguiente variación aproximada de qc con z:
+z (m)
+qc (kN/m2)
+0–0.5
+2250
+0.5–2.5
+3430
+2.5–5.0
+2950
+Estime el asentamiento elástico de la cimentación usando el método del factor de infl uencia 
+de la deformación unitaria.
+Solución
+De la ecuación (17.15)
+z1
+(0.56)(2) = 1.12 m
+z1
+B
+0.5
+0.0555 a L
+B
+1 b
+0.5
+0.0555 a 4
+2
+1 b
+0.56
+De la ecuación (17.16)
+z2
+(2.22)(2) = 4.44 m
+z2
+B
+2
+0.222 a L
+B
+1 b
+2
+0.222(2
+1)
+2.22
+De la ecuación (17.14), con z  0,
+Iz
+0.1
+0.0111 a L
+B
+1 b
+0.1
+0.0111 a 4
+2
+1 b
+0.11
+Tabla 17.7   Cálculo de 
+Número
+de capa
+Iz a la mitad
+ de la capa
+z
+Es
+z(1)
+z(2)
+z(i)
+z(n)
+o
+Iz(1)
+Iz(2)
+Iz(i)
+Iz(n)
+o
+o
+Es(1)
+Es(2)
+Es(i)
+Es(n)
+o
+o
+o
+1
+2
+i
+n
+o
+o
+g
+Iz
+Es
+¢z
+Iz(n)
+Es(n)
+¢zn
+o
+Iz(i)
+Es(i)
+¢zi
+Iz (1)
+Es(1)
+¢z1
+Iz
+Es
+¢z
+g
+Iz
+Es
+¢z
+¢
+
+=== P6 PÁG 53 ===
+17.5 Asentamiento de suelo arenoso: uso del factor de inﬂ uencia de la deformación unitaria
+527
+z (m)
+L = 4 m
+z
+1.2 m
+q = 145 kN/m2
+B = 2 m
+g = 17.5 kN/m3
+Es (kN/m2)
+6300
+kN/m2
+9604
+kN/m2
+8260
+kN/m2
+z (m)
+Iz
+0.675
+3
+1
+2
+4
+4.44
+1.12
+0.5
+(c)
+(b)
+(a)
+0.11
+1.0
+2.0
+2.5
+3.0
+4.0
+5.0
+Figura 17.6 
+De la ecuación (17.13), 
+Iz(m)
+0.5
+0.1B
+q
+q
+q¿z (1) 
+0.5
+0.1 c 145
+(1.2
+17.5)
+(1.2
+1.12)(17.5) d
+0.5
+0.675
+La gráfi ca de Iz contra z se muestra en la fi gura 17.6c. Nuevamente, de la ecuación (17.19)
+Es(rectángulo)
+a 1
+0.4logL
+B bEs(cuadrado)
+c 1
+0.4log a 4
+2 b d (2.5
+qc)
+2.8qc
+Por lo tanto, la variación aproximada de Es con z queda de la siguiente manera
+z (m)
+qc (kN/m2)
+Es (kN/m2)
+0–0.5
+2250
+6300
+0.5–2.5
+3430
+9604
+2.5–5.0
+2950
+8260
+La gráfi ca de Es contra z se muestra en la fi gura 17.6b.
+La capa de suelo se divide en cuatro, como se muestra en las fi guras 17.6b y 17.6c. 
+Ahora, se puede preparar la tabla siguiente.
+2/kN)
+Número
+de capa
+z (m)
+Es (kN/m2
+1
+0.50
+6300
+0.236
+1.87 
+10
+5
+2
+0.62
+9604
+0.519
+3.35 
+10
+5
+3
+1.38
+9604
+0.535
+7.68 
+I0
+5
+4
+1.94
+8260
+0.197
+4.62 
+10
+5
+17.52 
+10
+5
+Iz
+Es
+z
+Iz a la mitad
+ de la capa
+(m
+)
+
+=== P6 PÁG 54 ===
+Capítulo 17: Asentamiento de cimentaciones poco profundas
+528
+C1
+1
+0.5 a
+q
+q
+q b
+1
+0.5 a
+21
+145
+21 b
+0.915
+Se
+C1C2(q
+q)©
+Iz
+Es
+¢z
+Suponiendo que el tiempo de fl uencia es de 10 años, entonces
+C2
+1
+0.2log a 10
+0.1 b
+1.4
+Por lo tanto, 
+Se
+(0.915)(1.4)(145 
+21)(17.52 
+10
+5) 
+2783 
+10
+5m 
+27.83 mm
+17.6   Carga admisible para zapatas continuas en arena 
+considerando el asentamiento
+Meyerhof (1956) propuso una correlación de la presión de carga admisible neta para las fun-
+daciones con la resistencia a la penetración estándar, N60. La presión ad misible neta puede ser 
+defi nida como
+qadm(neta)
+qadm
+Df
+(17.20)
+Desde que Meyerhof propuso su correlación original, los investigadores han observa-
+do que sus resultados son más bien conservadores. Más tarde, Meyerhof (1965) sugirió que 
+la presión de carga admisible neta se debe aumentar en aproximadamente un 50%. Bowles 
+(1977) propuso que la forma modifi cada de las ecuaciones de la presión de carga puede ex-
+presarse como
+(17.21)
+y
+(17.22)
+qneta(kN/m2)
+N60
+0.08 a B
+0.3
+B
+b
+2
+Fd a Se
+25 b  (para B
+1.22 m)
+qneta(kN/m2)
+N60
+0.05 Fd a Se
+25 b  (para B
+1.22 m)
+donde
+ 
+N60  resistencia a la penetración estándar de campo 
+ 
+Fd  factor de profundidad  1  0.33 (Df/B) 	 1.33  
+(17.23)
+ 
+Se  asentamiento tolerable (mm)
+ 
+B  ancho (m)
+
+=== P6 PÁG 55 ===
+17.7 Presión de carga admisible de una losa de cimentación en arena
+529
+Las relaciones empíricas que acabamos de presentar pueden plantear algunas preguntas. 
+Por ejemplo, ¿qué valor del número de penetración estándar se debe usar?, ¿cuál es el efecto del 
+nivel freático en la capacidad de carga admisible neta? El valor de diseño de N60 se debe determi-
+nar teniendo en cuenta los valores de N60 para una profundidad de 2B a 3B, medida desde el fondo 
+de la cimentación. Muchos ingenieros también son de la opinión que el valor N60 se debe reducir 
+un poco si el nivel freático está cerca de la base. Sin embargo, el autor cree que esta reducción no 
+es necesaria porque la resistencia a la penetración refl eja la ubicación del nivel freático.
+17.7   Presión de carga admisible de una losa 
+de cimentación en arena
+La ecuación (17.22) en la sección 17.6 para una zapata continua sobre arena también puede 
+ser utilizada para losas de cimentación. Sin embargo, para éstas, B es grande. Por lo tanto, la 
+ecuación (17.22) se puede aproximar como
+(17.24)
+16.63 N60 c Se(mm)
+25
+d
+N60
+0.08 c 1
+0.33 a
+Df
+B b d c Se(mm)
+25
+d
+ qneta(kN/m2)
+N60
+0.08Fd a Se
+25 b
+Hay que observar que la ecuación inicial (17.22) fue formulada para un asentamiento de 
+25 mm con un asentamiento diferencial de alrededor de 19 mm. Sin embargo, los anchos de las 
+losas de cimentación son más grandes que las zapatas aisladas. La profundidad del esfuerzo signi-
+fi cativo aumenta dentro del suelo por debajo de una cimentación, dependiendo de la anchura 
+de ésta. Por lo tanto, para una losa de cimentación es probable que la profundidad de la zona de 
+infl uencia sea mucho más grande que la de una zapata continua. Por ello, los fi lones de suelo suel-
+to bajo una losa se pueden distribuir de manera más uniforme, lo que resulta en un asentamiento 
+diferencial más pequeño. Así, la suposición habitual es que, para un asentamiento máximo de 
+50 mm de las losas, el asentamiento diferencial sería de 19 mm. Usando esta lógica y suponiendo 
+conservadoramente que Fd es igual a 1, la ecuación (17.25) puede aproximarse como 
+qadm(neta)
+qneta(kN/m2)
+25N60
+(17.25)
+Ejemplo 17.3
+¿Cuál será la capacidad de carga admisible neta de una losa de cimentación con dimensiones 
+de 13 m  9 m construida sobre un depósito de arena? Aquí, Df  2 m, asentamiento permi-
+tido  25 mm y número promedio de penetración N60  10.
+Solución
+De la ecuación (17.24), se tiene
+10
+0.08 c 1
+(0.33)(2)
+9
+d a 25
+25 b
+134 kN/m2
+ qadm(neta)
+N60
+0.08 c 1
+0.33 a
+Df
+B b d c Se
+25 d
+16.63 N60 c Se
+25 d
+
+=== P6 PÁG 56 ===
+Capítulo 17: Asentamiento de cimentaciones poco profundas
+530
+17.8  Resumen
+A continuación se presenta un resumen de los temas tratados en este capítulo.
+ 1.  El asentamiento elástico de cimentaciones en suelo de arcilla saturada, para el que el 
+coefi ciente de Poisson es 0.5, se puede estimar mediante el uso de la ecuación (17.1).
+ 2.  Con base en la teoría de la elasticidad, el asentamiento elástico de una cimentación 
+perfectamente fl exible se puede estimar mediante el uso de la ecuación (17.2). Para una 
+cimentación rígida 
+  
+Se(rígido)
+0.93Se(flexible, centro)
+ 3.  El factor de infl uencia de la deformación unitaria es una técnica semi-empírica para 
+estimar el asentamiento elástico de una cimentación que descansa sobre un suelo granular 
+(sección 17.5).
+ 4.  Los números de penetración estándar (N60) se pueden utilizar para estimar la presión de 
+carga admisible neta (para un nivel dado de asentamiento) de zapatas y losas de cimentación 
+(secciones 17.6 y 17.7).
+Problemas
+17.1  Una zona de carga fl exible planifi cada (vea la fi gura 17.7) debe ser de 2 m  3.2 m 
+y llevar una carga uniformemente distribuida de 210 kN/m2. Estime el asentamiento 
+elástico debajo del centro de la zona de carga. Suponga que Df  1.6 m y H  £. 
+Utilice la ecuación (17.2).
+ 
+ 
+Df
+2 m × 3.2 m
+Arena limosa
+Es = 8500 kN/m2
+ms = 0.3
+210 kN/m2
+Roca
+H
+ 
+ 
+Figura 17.7 
+17.2  Repita el problema 17.1 suponiendo que Df  1.2 m y H  4 m.
+17.3  Considere una cimentación fl exible que mide 1.52 m  3.05 m en un plano sobre una 
+arcilla saturada blanda (ms  0.5). La profundidad de la cimentación es de 1.22 m. Una 
+capa de roca se encuentra a 12.2 m por debajo del fondo de la cimentación. Se tiene: 
+qo  144 kN/m2, y para la arcilla, Es  12 938 kN/m2. Determine el asentamiento 
+elástico promedio de la cimentación. Utilice la ecuación (17.1).
+17.4  La fi gura 17.2 muestra una cimentación de 3.05 m  1.91 m apoyada sobre un depósito 
+de arena. La carga neta por unidad de área a nivel de la cimentación, qo, es de 144 kN/m2.
+Para la arena, ms  0.3, Es  22 080 kN/m2, Df  0.76 m y H  9.76 m. Suponga 
+que la cimentación es rígida y determine el asentamiento elástico que experimentaría. 
+Utilice las ecuaciones (17.2) y (17.10).
+
+=== P6 PÁG 57 ===
+Problemas
+531
+17.5  Repita el problema 17.4 para una cimentación de tamaño  1.8 m  1.8 m y con 
+qo  190 kN/m2, Df  1.0 m, H  15 m, y las condiciones del suelo de ms  0.4, 
+Es  15 400 kN/m2 y g  17 kN/m3.
+17.6  Resuelva el problema 17.4 con la ecuación (17.12). Para el factor de corrección, C2, 
+utilice un tiempo de 5 años para la fl uencia, y para el peso unitario del suelo utilice 
+g  18.08 kN/m3.
+17.7  En la fi gura 17.8 se muestra una cimentación continua sobre un depósito de una capa de 
+arena, junto con la variación del módulo de elasticidad del suelo (Es). Suponiendo que 
+g  18 kN/m3 y C2 durante 10 años, calcule el asentamiento elástico de la cimentación
+utilizando el método del factor de infl uencia de la deformación unitaria.
+E s    10 000
+E s   12 000
+E s    6000
+E s (kN/m2) 
+2 
+Arena
+0 
+8
+14
+Profundidad (m)
+1.5 m 
+2.5 m
+q   195 kN/m2
+ 
+Figura 17.8 
+17.8  A continuación se muestran los resultados de pruebas de penetración estándar en un 
+depósito de suelo granular.
+Número de penetración
+ estándar, N60 
+0
+1
+2
+1
+9
+4
+1
+6
+1
+5.1
+0.3
+5.4
+0.6
+5.7
+Profundidad (m)
+ 
+ ¿Cuál será la capacidad de carga admisible neta de una cimentación planeada para ser 
+de 1.5 m  1.5 m? Sean Df  1 m y el asentamiento permisible  25 mm, utilizando 
+las relaciones que se presentan en la sección 17.6.
+17.9  Se va a construir una cimentación cuadrada de poca profundidad para una columna. 
+Debe soportar una carga vertical neta de 1000 kN. El suelo de apoyo de la cimentación 
+es arena. Los números de penetración estándar (N60) obtenidos a partir de la 
+exploración de campo son los siguientes:
+
+=== P6 PÁG 58 ===
+Capítulo 17: Asentamiento de cimentaciones poco profundas
+532
+Profundidad (m) 
+N60
+2
+4
+4
+7
+6
+12
+8
+12
+10
+16
+12
+13
+14
+12
+16
+14
+18
+18
+El nivel freático se encuentra a una profundidad de 12 m. El peso unitario del suelo por encima 
+y por abajo de él es de 15.7 kN/m3 y 18.8 kN/m3, respectivamente. Suponiendo que la profun-
+didad de la cimentación será de 1.5 m y el asentamiento tolerable es de 25 mm, determine el 
+tamaño de la cimentación.
+Referencias
+Bowles, J. E. (1977). Foundation Analysis and Design, 2nd ed., McGraw-Hill, New York.
+Bowles, J. E. (1987). “Elastic Foundation Settlement on Sand Deposits,” Journal of Geotechnical 
+Engineering, ASCE, Vol. 113, No. 8, 846–860.
+Christian, J. T., and Carrier,W. D. (1978). “Janbu, Bjerrum, and Kjaernsli¿s Chart Reinterpreted,” 
+Canadian Geotechnical Journal, Vol. 15, 124–128.
+Fox, E. N. (1948). “The Mean Elastic Settlement of a Uniformaly Loaded Area at a Depth Below the 
+Ground Surface,” Proceedings, 2nd International Conference on Soil Mechanics and Foundation 
+Engineering, Rotterdam, Vol. 1, pp. 129–132.
+Janbu N., Bjerrum, L., and Kjaernsli, B. (1956). “Veiledning vedlosning av fundamentering—
+soppgaver,” Publication No. 18, Norwegian Geotechnical Institute, 30–32.
+Meyerhof, G. G. (1956). “Penetration Tests and Bearing Capacity of Cohesionless Soils,” Journal of 
+the Soil Mechanics and Foundations Division, American Society of Civil Engineers, Vol. 82, No. 
+SM1, 1–19.
+Meyerhof, G. G. (1965). “Shallow Foundations,” Journal of the Soil Mechanics and Foundations 
+Division, ASCE, Vol. 91, No. SM2, 21–31.
+Salgado, R. (2008). The Engineering of Foundations, McGraw-Hill, New York. SCHMERTMANN, J. 
+H. (1970). “Static Cone to Compute Settlement Over Sand,” Journal of the Soil Mechanics and 
+Foundations Division, American Society of Civil Engineers, Vol. 96, No. SM3, 1011–1043.
+Schmertmann, J. H., Hartman, J. P., and Brown, P. R. (1978). “Improved Strain Infl uence Factor 
+Diagrams,” Journal of the Geotechnical Engineering Division, American Society of Civil Engineers, 
+Vol. 104, No. GT8, 113–1135.
+Steinbrenner,W. (1934). “Tafeln zur Setzungsberechnung,” Die Strasse, Vol. 1, pp. 121–124.
+Terzaghi, K. (1943). Theoretical Soil Mechanics, Wiley, New York.
+Terzaghi, K., and Peck, R. B. (1967). Soil Mechanics in Engineering Practice, 2nd ed.,Wiley, New York.
+Terzaghi, K., Peck, R. B., and Mesri, G. (1996). Soil Mechanics in Engineering practice, 3rd Edition, 
+Wiley, New York.
+Vesic, A. S. (1963). “Bearing Capacity of Deep Foundations in Sand,” Highway Research Record No. 39, 
+National Academy of Sciences, 112–153.
+Vesic, A. S. (1973). “Analysis of Ultimate Loads of Shallow Foundations,” Journal of the Soil Mechanics 
+and Foundations Division, American Society of Civil Engineers, Vol. 99, No. SM1, 45–73.
+
+=== P6 PÁG 59 ===
+18.3 Tipos de pilotes y sus características estructurales
+533
+18.1  Introducción
+Los pilotes son elementos estructurales de acero, concreto y madera. En contraste con las zapatas 
+continuas y losas de cimentación que son cimentaciones poco profundas (capítulos 16 y 17), los 
+pilotes de cimentación se consideran para cimentaciones profundas y más costosas. A pesar del 
+costo, el uso de pilotes es a menudo necesario para garantizar la seguridad estructural. En este 
+capítulo vamos a discutir:
+• Diferentes tipos de pilotes y sus características estructurales
+• Instalación de los pilotes
+• Capacidad de carga de los pilotes
+• Asentamiento elástico y consolidación de los pilotes
+18.2  Necesidad de los pilotes de cimentación
+Los pilotes de cimentación son necesarios en circunstancias especiales. Las siguientes son al-
+gunas situaciones en las que los pilotes pueden ser considerados para la construcción de una 
+cimentación.
+ 1.  Cuando la(s) capa(s) superior(es) del suelo es (son) altamente compresible(s) y 
+demasiado débil(es) para soportar la carga transmitida por la superestructura, los pilotes 
+se utilizan para transmitir la carga al lecho de roca subyacente o una capa de suelo más 
+fuerte, como se muestra en la fi gura 18.1a. Cuando no se encuentra lecho de roca a una 
+profundidad razonable, los pilotes se utilizan para transmitir gradualmente la carga 
+estructural al suelo. La resistencia a la carga estructural aplicada se deriva principalmente 
+de la resistencia de fricción desarrollada en la interfase suelo-pilote (fi gura 18.1b).
+ 2.  Cuando se someten a fuerzas horizontales (véase la fi gura 18.1c), los pilotes resisten 
+fl exionándose sin dejar de soportar la carga vertical transmitida por la superestructura. 
+Esta situación se encuentra generalmente en el diseño y construcción de estructuras 
+para la retención de tierra y cimentaciones de las estructuras altas que están sometidas a 
+fuertes vientos y/o fuerzas sísmicas.
+C A P Í T U L O 18
+Pilotes de cimentación
+533
+
+=== P6 PÁG 60 ===
+Capítulo 18: Pilotes de cimentación
+534
+ 3.  En muchos casos los suelos en el sitio propuesto para una estructura pueden ser expansivos 
+y colapsables. Estos suelos pueden extenderse a una gran profundidad. Los suelos 
+expansivos se hinchan y se contraen a medida que aumenta y disminuye el contenido 
+de humedad, y la presión de abultamiento de estos suelos puede ser considerable. Si se 
+utilizan cimentaciones de poca profundidad, la estructura puede sufrir daños importantes. 
+Sin embargo, los pilotes de cimentación se pueden considerar como una alternativa cuando 
+se extienden más allá de la zona activa, que se hincha y se contrae (fi gura 18.1d). Los 
+suelos como el loess son colapsables. Cuando el contenido de humedad de estos suelos se 
+incrementa, sus estructuras pueden romperse. Una disminución repentina de la relación de 
+vacíos del suelo induce grandes asentamientos de estructuras soportadas por cimentaciones 
+superfi ciales. En tales casos, se pueden usar pilotes de cimentación, que se extienden dentro 
+de capas de suelo estables más allá de la zona de posible cambio de humedad.
+ 4.  Los cimientos de algunas estructuras, como las torres de transmisión, plataformas 
+marinas y las losas del sótano por debajo del nivel freático, se someten a fuerzas de 
+elevación. Los pilotes se utilizan a veces para que estas cimentaciones resistan la fuerza 
+de elevación (fi gura 18.1e).
+ 5.  Los contrafuertes de los puentes y muelles suelen ser construidos sobre pilotes para evitar 
+la posible pérdida de la capacidad de carga que una cimentación poco profunda podría 
+sufrir a causa de la erosión del suelo en la superfi cie del terreno (fi gura 18.1f).
+Figura 18.1 Condiciones para el uso de pilotes de cimentación
+Roca
+Zona de
+erosión
+Suelo
+expansivo
+Suelo
+estable
+
+=== P6 PÁG 61 ===
+18.3 Tipos de pilotes y sus características estructurales
+535
+A pesar de que se han llevado a cabo numerosas investigaciones, tanto teóricas como ex-
+perimentales, para predecir el comportamiento y la capacidad de carga de los pilotes en suelos 
+granulares y cohesivos, los mecanismos no están aún del todo entendidos y nunca podrán ser 
+claros. El diseño de los pilotes de cimentación puede ser considerado algo así como un “arte”, 
+debido a las incertidumbres involucradas en el trabajo con algunas condiciones del subsuelo.
+18.3  Tipos de pilotes y sus características estructurales
+En trabajos de construcción se utilizan diferentes tipos de pilotes dependiendo del tipo de carga 
+soportada, las condiciones del subsuelo y el nivel freático. Los pilotes se pueden dividir en las 
+siguientes categorías: (a) pilotes de acero, (b) pilotes de concreto, (c) pilotes de madera (made-
+ra) y (d) pilotes compuestos.
+Pilotes de acero
+Los pilotes de acero por lo general son pilotes o tubos de acero laminado de sección H. Los tubos 
+se pueden clavar en el suelo con sus extremos abiertos o cerrados. También se pueden usar como 
+pilotes vigas de acero de ala ancha y de sección en I; sin embargo, los pilotes de sección H suelen 
+preferirse debido a que sus espesores del alma y el ala son iguales. En las vigas de ala ancha y de 
+sección I, los espesores del alma son más pequeños que los grosores del ala. La tabla 18.1 indica 
+las dimensiones de algunos pilotes de acero de sección H estándar que se utilizan en Estados Uni-
+dos. La tabla 18.2 muestra una selección de secciones de tubería que se utilizan con frecuencia 
+como pilotes. En muchos casos los tubos se llenan con concreto después de que se clavan.
+Cuando es necesario los pilotes de acero son empalmados por soldadura o por remacha-
+do. La fi gura 18.2a muestra un empalme por soldadura típica para un pilote H. Un empalme por 
+soldadura típica para un tubo se muestra en la fi gura 18.2b. La fi gura 18.2c muestra un diagrama 
+de corte y empalme de un pilote H por medio de remaches o pernos. 
+Cuando se espera que las condiciones de excavación sean difíciles, tales como excavar 
+a través de grava densa, pizarra y roca blanda, los pilotes de acero pueden ser equipados con 
+puntas de excavación o zapatas. Las fi guras 18.2d y e son diagramas de dos tipos de zapata 
+utilizados para los pilotes de tubería.
+A continuación algunos datos generales sobre los pilotes de acero.
+ Longitud habitual: 
+15 m-60 m
+ 
+Carga habitual: 
+300 kN-1200 kN
+ 
+Ventajas: 
+a.  Fáciles de manejar con respecto al punto de corte y la extensión a la 
+longitud deseada
+ 
+ 
+b. Pueden soportar altos esfuerzos de excavación
+ 
+ 
+c. Pueden penetrar capas duras, como grava densa, roca blanda
+ 
+ 
+d. Alta capacidad de carga
+ 
+Desventajas: 
+a. Material relativamente costoso
+ 
+ 
+b. Alto nivel de ruido durante el clavado de pilotes
+ 
+ 
+c. Sujetos a la corrosión
+ 
+ 
+d.  Los pilotes H se pueden dañar o desviar de la vertical durante la 
+excavación a través de capas duras o más allá de grandes obstrucciones
+Pilotes de concreto
+Los pilotes de concreto se pueden dividir en dos tipos básicos: pilotes prefabricados y pilotes fabri-
+cados in situ. Los pilotes prefabricados se pueden preparar utilizando el refuerzo ordinario y pueden 
+
+=== P6 PÁG 62 ===
+Capítulo 18: Pilotes de cimentación
+536
+ser cuadrados u octagonales en su sección transversal (fi gura 18.3). El refuerzo se proporciona para 
+permitir al pilote resistir el momento de fl exión desarrollado durante la recolección y el transporte, 
+la carga vertical y el momento de fl exión provocado por la carga de fl exión lateral. Los pilotes se 
+moldean a las longitudes deseadas y se curan antes de ser transportados a los lugares de trabajo.
+Los pilotes prefabricados también pueden ser pretensados  mediante el uso de cables de ace-
+ro de alta resistencia pretensados. La resistencia máxima de estos cables de acero es de aproxi-
+madamente 1800 MN/m2. Durante el moldeado de los pilotes los cables están pretensados  de 
+900 hasta 1300 MN/m2 y se vierte concreto alrededor de ellos. Después del curado los cables 
+se cortan, produciendo de este modo una fuerza de compresión sobre la sección del pilote. La 
+tabla 18.3 ofrece información adicional sobre pilotes de concreto pretensado con secciones 
+transversales cuadradas y octagonales.
+Tabla 18.1  Secciones típicas de los pilotes H utilizados en Estados Unidos
+Espesor de
+ala y alma,
+Momento de inercia
+tamaño (mm) 
+ peso (kN/m)
+w
+(m4
+10
+6)
+d1
+2
+10
+3)
+(mm)
+(mm)
+Ixx
+Iyy
+HP 200 
+0.52
+204
+6.84
+11.3
+207
+49.4
+16.8
+HP 250 
+0.834
+254
+10.8
+14.4
+260
+123
+42
+0.608
+246
+8.0
+10.6
+256
+87.5
+24
+HP 310 
+1.226
+312
+15.9
+17.5
+312
+271
+89
+1.079
+308
+14.1
+15.5
+310
+237
+77.5
+0.912
+303
+11.9
+13.1
+308
+197
+63.7
+0.775
+299
+10.0
+11.1
+306
+164
+62.9
+HP 330 
+1.462
+334
+19.0
+19.5
+335
+370
+123
+1.264
+329
+16.5
+16.9
+333
+314
+104
+1.069
+324
+13.9
+14.5
+330
+263
+86
+0.873
+319
+11.3
+11.7
+328
+210
+69
+HP 360 
+1.707
+361
+22.2
+20.5
+378
+508
+184
+1.491
+356
+19.4
+17.9
+376
+437
+158
+1.295
+351
+16.8
+15.6
+373
+374
+136
+1.060
+346
+13.8
+12.8
+371
+303
+109
+Denominación,
+Área de 
+sección
+Ancho
+de ala
+Profundidad, 
+(m
+(mm)
+ 
+
+=== P6 PÁG 63 ===
+18.3 Tipos de pilotes y sus características estructurales
+537
+Los detalles generales de los pilotes de concreto prefabricados son los siguientes:
+ Longitud habitual: 
+10 m-15 m
+ 
+Carga habitual: 
+300 kN-3000 kN
+ 
+Ventajas: 
+a. Pueden ser sometidos a excavaciones difíciles
+ 
+ 
+b. Resistentes a la corrosión
+ 
+ 
+c. Se pueden combinar fácilmente con la superestructura de concreto
+ 
+Desventajas: 
+a. Difíciles de lograr el corte adecuado
+ 
+ 
+b. Difíciles de transportar
+Los detalles generales acerca de los pilotes prefabricados pretensados  son los siguientes:
+ Longitud habitual: 
+10 m-45 m
+ Extensión máxima: 
+60 m
+ 
+Carga máxima: 
+7500 kN-8500 kN
+Las ventajas y desventajas son las mismas que en el caso de los pilotes prefabricados.
+Los pilotes fabricados in-situ o colados en el lugar se construyen haciendo un agujero en 
+el suelo que luego se llena con concreto. Actualmente en la construcción se utilizan varios tipos 
+de pilotes de concreto fabricados en el lugar, y la mayoría de ellos han sido patentados por sus 
+fabricantes. Estos pilotes se pueden dividir en dos grandes categorías: entubados y sin entubar. 
+Ambos tipos pueden tener un pedestal en la parte inferior.
+Los pilotes entubados son hechos mediante la inserción de un revestimiento de acero en 
+el suelo con la ayuda de un mandril colocado dentro de la carcasa. Cuando el pilote alcanza 
+la profundidad adecuada se retira el mandril y la carcasa se  rellena con concreto. Las fi guras 
+18.4a, b, c y d muestran algunos ejemplos de pilotes entubados sin un pedestal. La fi gura 18.4e 
+muestra un pilote revestido con un pedestal. El pedestal es un bulbo de concreto expandido que 
+se forma al dejar caer un martillo sobre él cuando está fresco.
+Tabla 18.2  Secciones de tubos seleccionados como pilotes
+(mm)
+(mm)
+(cm2)
+(mm)
+(mm)
+(cm2)
+219
+3.17
+21.5
+4.78
+32.1
+5.56
+37.3
+7.92
+52.7
+254
+4.78
+37.5
+5.56
+43.6
+6.35
+49.4
+305
+4.78
+44.9
+5.56
+52.3
+6.35
+59.7
+406
+4.78
+60.3
+5.56
+70.1
+6.35
+79.8
+457
+5.56
+80
+6.35
+90
+7.92
+112
+508
+5.56
+88
+6.35
+100
+7.92
+125
+610
+6.35
+121
+7.92
+150
+9.53
+179
+12.70
+238
+Diámetro
+exterior
+Diámetro
+exterior
+Espesor
+de pared
+Superficie
+de acero
+Espesor
+de pared
+Superficie
+ de acero
+
+=== P6 PÁG 64 ===
+Capítulo 18: Pilotes de cimentación
+538
+Figura 18.2 Pilotes de acero: (a) de empalme de un pilote H mediante soldadura; (b) corte y empalme 
+de un pilote de tubos por soldadura; (c) de empalme de un pilote H por medio de remaches o pernos; 
+(d) punta plana de excavación del pilote de tubos; (e) punta cónica de excavación del pilote de tubos
+Figura 18.3 Pilotes prefabricados con refuerzo ordinario
+Soldadura
+Soldadura
+Soldadura
+Soldadura
+Pilote cuadrado
+Pilote octagonal
+
+=== P6 PÁG 65 ===
+18.3 Tipos de pilotes y sus características estructurales
+539
+Los detalles generales de los pilotes entubados colados en el lugar son los siguientes:
+ Longitud habitual: 
+5 m-15 m
+ Extensión máxima: 
+30 m-40 m
+ 
+Carga habitual: 
+200 kN-500 kN
+ 
+Carga máxima
+ 
+aproximada: 
+800 kN
+ 
+Ventajas: 
+a. Relativamente baratos
+ 
+ 
+b. Posibilidad de inspección antes de verter el concreto
+ 
+ 
+c. Fáciles de ampliar
+ 
+Desventajas: 
+a. Difícil para empalmar después de vaciado
+ 
+ 
+b. Carcasas delgadas pueden sufrir daños durante la excavación
+ 
+Carga admisible: 
+Qadm  Asfs  Acfc  
+(18.1)
+Tabla 18.3  Pilotes de concreto pretensados típicos
+Diseño de la capacidad
+de carga (kN)
+Área de la 
+sección 
+transversal
+Número de hilos
+Fuerza
+ mínima de
+ pretensado
+Forma del
+pilote*
+D
+(MN/m2)
+(mm)
+(cm2)
+(mm)         diámetro
+3
+10
+3)
+34.5
+41.4
+S
+254
+645
+1016
+4
+4
+312
+2.737
+556
+778
+O
+254
+536
+838
+4
+4
+258
+1.786
+462
+555
+S
+305
+929
+1219
+5
+6
+449
+4.719
+801
+962
+O
+305
+768
+1016
+4
+5
+369
+3.097
+662
+795
+S
+356
+1265
+1422
+6
+8
+610
+7.489
+1091
+1310
+O
+356
+1045
+1168
+5
+7
+503
+4.916
+901
+1082
+S
+406
+1652
+1626
+8
+11
+796
+11.192
+1425
+1710
+O
+406
+1368
+1346
+7
+9
+658
+7.341
+1180
+1416
+S
+457
+2090
+1829
+10
+13
+1010
+15.928
+1803
+2163
+O
+457
+1729
+1524
+8
+11
+836
+10.455
+1491
+1790
+S
+508
+2581
+2032
+12
+16
+1245
+21.844
+2226
+2672
+O
+508
+2136
+1677
+10
+14
+1032
+14.355
+1842
+2239
+S
+559
+3123
+2235
+15
+20
+1508
+29.087
+2694
+3232
+O
+559
+2587
+1854
+12
+16
+1250
+19.107
+2231
+2678
+S
+610
+3658
+2438
+18
+23
+1793
+37.756
+3155
+3786
+O
+610
+3078
+2032
+15
+19
+1486
+34.794
+2655
+3186
+*S 
+sección cuadrada; O 
+sección octagonal
+Perímetro
+diámetro
+Módulo de
+ sección
+Resistencia del concreto
+12.7
+mm
+11.1
+mm
+(kN)
+(m 
+Espiral de 
+alambre
+Espiral de
+alambre
+Hilo pretensado
+Hilo pretensado
+
+=== P6 PÁG 66 ===
+Capítulo 18: Pilotes de cimentación
+540
+donde
+ 
+As  área de la sección transversal del acero
+ 
+Ac  área de la sección transversal del concreto
+ 
+fs  esfuerzo admisible del acero
+ 
+fc  esfuerzo admisible del concreto
+Las fi guras 18.4f y 18.4g son dos tipos de pilote sin entubar, uno sin y el otro con pedes-
+tal. Los pilotes sin entubar se hacen primero insertando la carcasa a la profundidad deseada y 
+luego el llenado con concreto fresco. Después la carcasa se retira gradualmente.
+A continuación se presentan algunos detalles generales de los pilotes de concreto sin 
+entubar colados en el lugar:
+ 
+Longitud habitual: 
+5 m-15 m
+ Extensión máxima: 
+30 m-40 m
+ 
+Carga habitual: 
+300 kN-500 kN
+ 
+Carga máxima
+ 
+aproximada: 
+700 kN
+ 
+Ventajas: 
+a. Inicialmente económicos
+ 
+ 
+b. Se pueden acabar en cualquier elevación
+Figura 18.4 Pilotes de concreto colados en el lugar
+Pilote Franki con 
+pedestal sin entubar
+Longitud máxima
+habitual: 30 m-40 m
+(f)
+(g)
+(e)
+(d)
+(a)
+(b)
+(c)
+Pilote Raymond
+de paso cónico   
+Carcasa cilíndrica
+de acanalado fino
+Longitud máxima
+habitual: 30 m
+Monotubo o pilote
+de metal unido
+Carcasa de 
+excavación delgada,
+estriada de acero 
+afilado sin mandril
+Longitud máxima
+habitual: 40 m
+Pilote Western entubado
+Carcasa delgada de metal
+Longitud máxima 
+habitual: 30 m-40 m
+Pilote sin costuras
+o pilote Armco
+Cubierta de lámina
+delgada
+Longitud máxima
+habitual: 30 m-40 m
+Pilote Franki 
+entubado con pedestal
+Pilote de acero de 
+carcasa recta
+Longitud máxima
+habitual: 30 m-40 m
+Pilote Western 
+sin pedestal sin 
+entubar
+Longitud máxima 
+habitual: 15 m-20 m
+
+=== P6 PÁG 67 ===
+18.3 Tipos de pilotes y sus características estructurales
+541
+ 
+Desventajas: 
+a. Se pueden crear huecos si el concreto se coloca rápidamente.
+ 
+ 
+b. Difíciles para empalmar después del vaciado.
+ 
+ 
+c.  En suelos blandos, los lados del agujero pueden ceder, 
+comprimiendo de este modo el concreto.
+ 
+Carga admisible: 
+Qadm  Acfc  
+(18.2)
+donde
+ 
+Ac  área de la sección transversal del concreto
+ 
+fc  esfuerzo admisible del concreto
+Pilotes de madera
+Los pilotes de madera son troncos de árboles a los que sus ramas y la corteza les han sido cui-
+dadosamente cortados. La longitud máxima de la mayoría de los pilotes de madera es de 10 a 
+20 m. Para califi car y ser utilizada como un pilote, la madera debe estar recta, sana y sin ningún 
+defecto. El Manual de prácticas núm. 17 de la American Society of Civil Engineers (1959), 
+divide los pilotes de madera en tres clasifi caciones:
+ 1.  Pilotes de clase A: soportan cargas pesadas. El diámetro mínimo a tope debe ser de 356 mm.
+ 2. Pilotes de clase B: se utilizan para soportar cargas medias. El diámetro mínimo a tope 
+debe ser de 305 a 330 mm.
+ 3. Pilotes de clase C: se utilizan en las obras de construcción temporales. Se pueden utilizar 
+de forma permanente para estructuras cuando todo el pilote está por debajo del nivel 
+freático. El diámetro mínimo a tope debe ser de 305 mm.
+En cualquier caso, una punta del pilote debe tener un diámetro no inferior a 150 mm.
+Los pilotes de madera no pueden soportar mucho esfuerzo de excavación; por lo tanto, 
+la capacidad del pilote se limita generalmente a alrededor de 220  a 270 kN. Se pueden utilizar 
+zapatas de acero para evitar daños en la punta del pilote (parte inferior). La parte superior de 
+los pilotes de madera también puede ser dañada durante la operación de excavación. Para evitar 
+daños en la parte superior puede utilizarse una banda metálica o capuchón. El aplastamiento de 
+las fi bras de madera provocado  por el impacto del martillo se conoce como barrido.
+Debe evitarse el empalme de los pilotes de madera, sobre todo cuando se espera que so-
+porten carga de tensión o carga lateral. Sin embargo, si el empalme es necesario, puede hacerse 
+mediante el uso de tuberías de protección (fi gura 18.5a) o correas de metal y pernos (fi gura 
+18.5b). La longitud de la cubierta de tubería debe ser al menos cinco veces el diámetro del 
+pilote. Los extremos que empalman deben cortarse cuadrados para que se pueda mantener el 
+contacto completo. Las porciones empalmadas deben recortarse cuidadosamente para que se 
+ajusten apretadamente en el interior de la cubierta de tubería. En el caso de las correas y torni-
+llos metálicos, los extremos empalmados también deben cortarse en ángulo recto. Además, los 
+lados de la porción empalmada deben recortarse planos para colocarles las correas.
+Los pilotes de madera pueden mantenerse en buen estado de forma indefi nida si están ro-
+deados de suelo saturado. Sin embargo, en un ambiente marino los pilotes de madera están sujetos 
+al ataque de diversos organismos y se pueden dañar de manera importante en unos cuantos meses. 
+Cuando se encuentran por encima del nivel freático, los pilotes están sujetos al ataque de insectos. La 
+vida de los pilotes puede aumentarse mediante el tratamiento con conservadores, como la creosota.
+La longitud habitual de los pilotes de madera es de 5 m a 15 m. La longitud máxima es 
+de unos 30 m hasta 40 m. La carga soportada habitualmente mediante pilotes de madera es de 
+300 kN a 500 kN.
+Pilotes compuestos
+Las porciones superior e inferior de los pilotes compuestos están hechas de diferentes mate-
+riales. Por ejemplo, pueden hacerse de acero y concreto o madera y concreto. Los pilotes de 
+
+=== P6 PÁG 68 ===
+Capítulo 18: Pilotes de cimentación
+542
+acero y de concreto consisten en una parte inferior de acero y una parte superior de concreto 
+colado en el lugar. Este tipo de pilote se utiliza cuando la longitud necesaria del pilote para el 
+soporte adecuado excede la capacidad de los pilotes de concreto simples colados en el lugar. 
+Los pilotes de madera y concreto generalmente consisten de una porción inferior del pilote de 
+madera debajo del nivel freático permanente y una parte superior de concreto. En cualquier 
+caso, la formación de juntas adecuadas entre dos materiales diferentes es difícil, por esa razón 
+los pilotes compuestos no se utilizan ampliamente.
+18.4  Estimación de la longitud de un pilote
+Seleccionar el tipo de pilote que se utilizará y la estimación de su longitud necesaria son tareas 
+bastante difíciles que requieren de buen juicio. Además de las clasifi caciones dadas en la sec-
+ción 18.3, los pilotes se pueden dividir en dos grandes categorías, en función de sus longitudes y 
+los mecanismos de transferencia de carga al suelo: (a) pilotes de punta y (b) pilotes de fricción.
+Pilotes de punta
+Si los registros de perforación del suelo establecen la presencia de roca madre o material fi rme 
+como una roca, en un sitio dentro de una profundidad razonable, los pilotes se pueden extender 
+a la superfi cie de la roca (fi gura 18.6a). En este caso la capacidad última de los pilotes depende 
+por completo de la capacidad de soporte de carga del material subyacente, por lo que los pilotes 
+se denominan pilotes de punta. En la mayoría de estos casos la longitud necesaria del pilote 
+puede ser bastante bien establecida.
+Si en lugar de roca madre se encuentra un estrato bastante compacto y con problemas de 
+suelo a una profundidad razonable, los pilotes pueden extenderse unos metros en el estrato duro 
+Camisa
+ metálica
+Corte cuadrado
+de los extremos
+Corte cuadrado
+de los extremos
+Camisa 
+metálica
+Camisa
+metálica
+Figura 18.5 Empalme de pilotes de madera: (a) uso de cubiertas de tubos, (b) uso de correas y tornillos 
+metálicos
+
+=== P6 PÁG 69 ===
+18.4 Estimación de la longitud de un pilote
+543
+(fi gura 18.6b). Pilotes con pedestales pueden ser construidos en la cama del estrato duro y la 
+carga última del pilote se puede expresar como
+Qu
+Qp
+Qs
+(18.3)
+donde
+ Qp  carga soportada por el pilote de punta
+ Qs  carga soportada por la superfi cie de fricción desarrollada en el lado del pilote 
+ 
+(provocada por la resistencia al corte entre el suelo y el pilote)
+Si Qs es muy pequeña, entonces
+Qu
+Qp
+(18.4) 
+En este caso la longitud requerida del pilote puede ser estimada con precisión si los registros 
+adecuados de exploración del subsuelo están disponibles.
+Pilotes de fricción
+Cuando hay una capa de roca o material pétreo está presente a una profundidad razonable en 
+un sitio, los pilotes de punta llegan a ser muy largos y poco económicos. Para este tipo de con-
+diciones de subsuelo, los pilotes son clavados  a través del material más blando a profundidades 
+determinadas (fi gura 18.6c). La carga última de estos pilotes se puede expresar por la ecuación 
+(18.3). Sin embargo, si el valor de Qp es relativamente pequeño,
+Qu
+Qs
+(18.5) 
+Estos pilotes se denominan pilotes de fricción, porque la mayoría de la resistencia se deriva de la 
+fricción de la superfi cie. Sin embargo, el término pilote de fricción, aunque se utiliza a menudo 
+en la literatura, es un nombre inapropiado en suelos arcillosos; la resistencia a la carga aplicada 
+también es causada por la adhesión.
+La longitud de los pilotes de fricción depende de la resistencia del suelo al corte, la carga apli-
+cada y el tamaño del pilote. Para determinar las longitudes necesarias de éstos, un ingeniero necesita 
+Suelo
+débil
+Suelo
+débil
+Capa de
+suelo
+firme
+Suelo
+débil
+profundidad de penetración
+en el estrato de punta
+Roca
+Figura 18.6 (a) y (b) Pilotes de punta; (c) pilotes de fricción
+
+=== P6 PÁG 70 ===
+Capítulo 18: Pilotes de cimentación
+544
+una buena comprensión de la interacción suelo-pilote, el buen juicio y la experiencia. Los procedi-
+mientos teóricos para calcular la capacidad de carga de los pilotes se presentan en la sección 18.6.
+18.5  Instalación de pilotes
+La mayoría de los pilotes son clavados en el suelo por los martillos o martinetes. En circunstancias 
+especiales, los pilotes también se pueden insertar por inyección o barrenado parcial. Los tipos de 
+martillo utilizados para la colocación de pilotes incluyen (a) martillo de gravedad, (b) de efecto 
+simple o martillo de vapor, (c) de doble efecto o diferencial o martillo de vapor y (d) martillo die-
+sel. La fi gura 18.7 muestra una operación de clavado de pilotes en el terreno. En la operación de 
+clavado se añade una tapa a la parte superior del pilote. Puede utilizarse un amortiguador entre el 
+pilote y la tapa. Éste tiene el efecto de reducir la fuerza de impacto y prolongarla por más tiempo, 
+sin embargo, su uso es opcional. Se coloca un amortiguador de martillo en la tapa y se deja caer 
+el martillo sobre el amortiguador. La fi gura 18.8 muestra un martinete vibratorio. La tabla 18.4 
+muestra algunos ejemplos de martillos de percusión disponibles en el comercio.
+Al clavar el pilote, cuando éste tiene que penetrar en una capa delgada de suelo duro 
+(como arena y grava) que recubre una capa de suelo más blando, en ocasiones se utiliza una 
+técnica llamada inyección. En ésta el agua se descarga en el pilote de punta por medio de tubos 
+de 50 a 75 mm de diámetro para lavar y afl ojar la arena y la grava.
+De acuerdo con la naturaleza de su colocación, los pilotes se pueden dividir en dos cate-
+gorías: pilotes de desplazamiento y pilotes sin desplazamiento. Los pilotes clavados son pilotes 
+de desplazamiento porque mueven lateralmente un poco de tierra, por lo que hay una tendencia 
+para la densifi cación de suelo que los rodea. Los pilotes de concreto y los pilotes de tubos ce-
+rrados son pilotes de alto desplazamiento. Sin embargo, los pilotes H de acero desplazan menos 
+tierra lateralmente durante su colocación, por lo que son pilotes de bajo desplazamiento. En 
+contraste, los pilotes perforados son pilotes sin desplazamiento, porque su colocación cambia 
+muy poco el estado de esfuerzo en el suelo.
+Figura 18.7 Operación de clavado de pilotes en campo (Cortesía de N. Sivakugan, James Cook 
+University, Australia)
+
+=== P6 PÁG 71 ===
+Figura 18.8 Martinete vibratorio (© Vincent Lowe, Alamy)
+Tabla 18.4  Ejemplos de martillos de percusión disponibles en el comercio
+ 
+ 
+Energía nominal
+ 
+Núm. de
+ modelo
+ 
+ 
+Fabricante †
+0
+6
+3.1
+8
+0
+2
+-
+S
+M
+3
+5
+3.5
+3
+8
+-
+S
+M
+0
+6
+0.2
+2
+5
+-
+S
+M
+4
+4
+1.7
+7
+O
+/5
+R
+0
+5
+1.4
+4
+O
+/2
+R
+V
+7
+1
+1
+0.6
+2
+C
+5
+6
+V
+5
+0
+1
+–
+5
+9
+1.6
+6
+C
+0
+5
+1
+R
+V
+4N100
+Diesel
+58.8
+50–60
+23.5
+0
+6
+–
+0
+5
+4.3
+3
+0
+0
+1
+N
+I
+V
+8
+4
+4.3
+4
+0
+4
+E
+D
+M
+8
+4
+4.0
+3
+0
+3
+E
+D
+M
+Tipo de 
+martillo
+177.9
+89.0
+35.6
+22.2
+77.8
+44.5
+100
+153.9
+De efecto simple
+400C
+V
+89.0
+98
+68.1 
+De doble efecto
+ o
+ diferencial
+200C
+140
+48.8
+103
+62.3
+80C
+33.1
+111
+35.6
+(kN-m)
+Golpes/min
+Peso del ariete
+(kN)
+V
+V
+28.9
+66.7
+13.3
+17.8
+12.5
+†V: Vulcan Iron Works, Florida
+ M: McKiernan-Terry, Nueva Jersey
+ R: Raymond International, Inc., Texas
+
+=== P6 PÁG 72 ===
+Capítulo 18: Pilotes de cimentación
+546
+18.6  Mecanismo de transferencia de carga
+El mecanismo de transferencia de carga de un pilote al suelo es complicado. Para entenderlo, 
+consideremos un pilote de longitud L, como se muestra en la fi gura 18.9a. La carga en el pilote 
+se incrementa gradualmente de 0 a Q(z  0) en la superfi cie del suelo. Parte de esta carga será re-
+sistida por la fricción lateral desarrollada a lo largo del eje, Q1, y parte por el suelo por debajo de 
+Figura 18.9 Mecanismo de transferencia de carga para pilotes
+Resistencia 
+unitaria a la
+fricción
+Zona
+Zona
+Zona
+Punta
+ del 
+pilote
+
+=== P6 PÁG 73 ===
+18.7 Ecuaciones para la estimación de la capacidad del pilote
+547
+la punta del pilote, Q2. Ahora, ¿cómo son Q1 y Q2 en relación con la carga total? Si se realizan 
+mediciones para obtener la carga soportada por el eje del pilote, Q(z), a cualquier profundidad z 
+la naturaleza de la variación será como la curva 1 de la fi gura 18.9b. La resistencia a la fricción 
+por unidad de área, f(z), a cualquier profundidad z se puede determinar como
+(18.6)
+f(z)
+¢Q(z)
+(p)(¢z)
+donde p  perímetro de la sección transversal del pilote. La fi gura 18.9c muestra la variación 
+de f(z) con la profundidad.
+Si la carga Q en la superfi cie del suelo se incrementa gradualmente, la máxima resistencia 
+de fricción a lo largo del eje del pilote estará completamente movilizada cuando el desplazamiento 
+relativo entre el suelo y el pilote sea aproximadamente de 5 a 10 mm, independientemente del 
+tamaño y la longitud L del pilote. Sin embargo, la máxima resistencia puntual Q2  Qp no se 
+moviliza hasta que la punta del pilote se ha movido de 10% a 25% de la anchura (o diámetro) del 
+pilote. El límite inferior se aplica a los pilotes clavados y el límite superior a los pilotes perforados. 
+Con carga máxima (fi gura 18.9d y la curva 2 en la fi gura 18.9b), Q(z  0)  Qu. Por lo tanto,
+Q1
+Qs
+y
+Q2
+Qp
+La explicación anterior indica que Qs (o la unidad de fricción de la superfi cie, f, a lo largo del eje 
+del pilote) se desarrolla en un desplazamiento del pilote mucho más pequeño en comparación 
+con la resistencia puntual, Qp. 
+Con carga máxima, la superfi cie de falla en el suelo en la punta del pilote (insufi ciencia de 
+la capacidad de carga causada por Qp) es como la que se muestra en la fi gura 18.8e. Observe que 
+las cimentaciones con pilotes son cimentaciones profundas y que el suelo falla en su mayoría 
+en un modo de perforación, como se ilustró en las fi guras 16.1c y 16.2. Es decir, en la punta del 
+pilote se desarrolla una zona triangular, I, que es empujada hacia abajo sin producir ninguna 
+otra superfi cie de deslizamiento visible. En arenas densas y suelos arcillosos rígidos, puede de-
+sarrollarse parcialmente una zona de corte radial, II. Por lo tanto, las curvas de desplazamiento 
+de carga de los pilotes se parecerán a las que se muestran en la fi gura 16.1c.
+18.7   Ecuaciones para la estimación de 
+la capacidad del pilote
+La capacidad última de carga de un pilote, Qu, está dada por una ecuación simple, como la carga 
+soportada en la punta del pilote más la resistencia a la fricción total (fricción superfi cial) de la 
+derivada de la interfase suelo-pilote (fi gura 18.10), o 
+Qu
+Qp
+Qs
+(18.7) 
+donde
+ 
+Qp  capacidad de carga de la punta del pilote
+ 
+Qs  resistencia a la fricción
+Numerosos estudios publicados cubren la determinación de los valores de Qp y Qs. Excelentes 
+críticas a muchas de estas investigaciones han sido proporcionadas por Vesic (1977), Meyerhof
+
+=== P6 PÁG 74 ===
+Capítulo 18: Pilotes de cimentación
+548
+(1976) y Coyle y Castello (1981). Estos estudios proporcionan información sobre el problema 
+de la determinación de la capacidad última del pilote.
+Capacidad de soporte de carga de la punta del pilote, Qp 
+La capacidad última de carga de las cimentaciones poco profundas o superfi ciales se discutió 
+en el capítulo 16. La ecuación general de capacidad de soporte para cimentaciones superfi ciales 
+fue dada en el capítulo 16 (para carga vertical) como
+qu
+c NcFcsFcd
+qNqFqsFqd
+1
+2
+ gBNgFgsFgd
+Por lo tanto, en general, la capacidad última de carga puede expresarse como
+(18.8)
+qu
+c¿N*c
+qN*q
+gBN*g
+donde N*c, N*q y N*g son los factores de capacidad de carga que incluyen la forma necesaria y los 
+factores de profundidad.
+Las cimentaciones con pilotes son profundas. Sin embargo, la resistencia última por uni-
+dad de superfi cie desarrollada en la punta del pilote, qp, puede ser expresada por una ecuación 
+similar en forma a la ecuación 18.8, aunque los valores de N*c, N*q y N*g van a cambiar. La nota-
+ción utilizada en este capítulo para el ancho del pilote es D. Por lo tanto, sustituyendo D por B 
+en la ecuación (18.8) da
+(18.9)
+qu
+qp
+c N*c
+qN*q
+gDN*g
+Debido a que el ancho, D, de un pilote es relativamente pequeño, el término puede ser elimina-
+do del lado derecho de la ecuación anterior sin introducir un error grave o
+(18.10)
+qp
+c N*c
+q N*q
+Figura 18.10 Capacidad última de carga de un pilote
+L = longitud de empotramiento
+Lb = longitud de empotramiento en el 
+ 
+estrato de carga
+
+=== P6 PÁG 75 ===
+18.8 Método de Meyerhof para el cálculo de qp 549
+Se debe observar que el término q ha sido sustituido por q¿ en la ecuación (18.10) para indicar 
+esfuerzo efectivo vertical. Por lo tanto, la capacidad de carga de la punta del pilote es
+(18.11)
+Qp
+Apqp
+Ap(c N*c
+q N*q )
+donde
+ 
+Ap  zona de la punta del pilote
+ 
+c¿  cohesión del suelo apoyando la punta del pilote
+ 
+qp  resistencia al punto de unidad
+ 
+q¿  tensión vertical efi caz a nivel de la punta del pilote
+ 
+N*c, N*q  factores de capacidad de carga
+Existen varios métodos para calcular la magnitud de qp. En este texto se utilizará el mé-
+todo sugerido por Meyerhof (1976).
+18.8  Método de Meyerhof para el cálculo de qp 
+En arena, la cohesión c¿ es igual a cero. Por lo tanto, la ecuación (18.11) toma la forma
+(18.12)
+Qp
+Apqp
+Apq N*q
+En la fi gura 18.11 se muestra la variación de N*q con el ángulo de fricción con el suelo, f¿. 
+Meyerhof señaló que la capacidad de carga puntual, qp, de un pilote en arena generalmente au-
+menta con la profundidad de empotramiento en el estrato de soporte y alcanza un valor máximo 
+en una relación de empotramiento de Lb/D  (Lb/D)cr. Se debe tener en cuenta que en un suelo 
+homogéneo, Lb es igual a la longitud de empotramiento real del pilote, L (véase fi gura 18.10). Sin 
+embargo, en la fi gura 18.6b, donde un pilote ha penetrado en un estrato de soporte, Lb  L. Más 
+allá de la relación de empotramiento crítico, (Lb /D)cr, el valor de qp permanece constante (qp  ql). 
+Es decir, como se muestra en la fi gura 18.12 para el caso de un suelo homogéneo, L  Lb. Por 
+lo tanto, qp no debe exceder el valor límite, o Apql, por ello
+(18.13)
+Qp
+Apq N*q
+Apql
+La resistencia del punto límite es
+(18.14)
+ql (kN/m2)
+50N*q tan f
+dónde f¿  ángulo de fricción del suelo efectiva en el estrato de soporte.
+Basado en observaciones de campo, Meyerhof (1976) también sugiere que la resistencia 
+última puntual, qp, en un suelo granular homogéneo (L  Lb) puede obtenerse a partir de los 
+números de penetración estándar como 
+(18.15)
+qp (kN/m2)
+40N60 L
+D
+400N60
+
+=== P6 PÁG 76 ===
+Capítulo 18: Pilotes de cimentación
+550
+Figura 18.11 Factor de capacidad de carga de Meyerhof, N*q 
+Figura 18.12 Variación de la resistencia unitaria de la punta en arena homogénea
+Ángulo de fricción del suelo. f¿ (grados)
+Resistencia unitaria
+de la punta,
+
+=== P6 PÁG 77 ===
+18.9 Resistencia a la fricción, Qs
+551
+donde N60  número de penetración estándar promedio cerca de la punta del pilote (alrededor 
+de 10D arriba y 4D abajo de la punta).
+Para pilotes en arcillas saturadas en condiciones sin drenaje (f  0),
+(18.16)
+Qp
+N*c cu Ap
+9cu Ap
+donde cu  cohesión no drenada del suelo debajo de la punta del pilote.
+18.9  Resistencia a la fricción, Qs
+La resistencia a la fricción o resistencia superfi cial de un pilote puede escribirse como
+(18.17)
+Qs
+a p ¢Lf
+donde
+ 
+p  perímetro de la sección del pilote
+ L   longitud incremental del pilote sobre el que p y f son tomados como constantes
+ 
+(fi gura 18.13a)
+ 
+f  resistencia unitaria a la fricción a cualquier profundidad z
+Resistencia a la fricción en arena
+La resistencia unitaria a la fricción a cualquier profundidad para un pilote es
+(18.18)
+f
+Ksœ
+o tan d
+Figura 18.13 Resistencia unitaria a la fricción para pilotes en arena
+Resistencia
+unitaria a 
+la fricción,
+f
+Profundidad
+
+=== P6 PÁG 78 ===
+Capítulo 18: Pilotes de cimentación
+552
+donde 
+ 
+K  coefi ciente de presión de tierra
+ 
+s¿o  esfuerzo efectivo vertical a la profundidad bajo consideración
+ 
+d¿  ángulo de fricción del pilote
+En realidad, la magnitud de K varía con la profundidad. Es aproximadamente igual al 
+coefi ciente de presión pasiva de tierra de Rankine, Kp, en la parte superior del pilote y puede 
+ser menor que el coefi ciente de reposo-presión de la tierra, Ko, en la punta del pilote. También 
+depende de la naturaleza de la instalación de éste. En base a los resultados disponibles en la ac-
+tualidad, se recomiendan los siguientes valores medios de K para el uso en la ecuación (18.18):
+Tipo de pilote
+K
+Perforado o inyección
+Ko
+1 
+sen 
+Pilotaje de bajo desplazamiento
+Ko
+1 
+sen 
+a 1.4 Ko
+1.4(1 
+sen 
+)
+Pilotaje de alto desplazamiento
+Ko
+1 
+sen 
+a 1.8 Ko
+1.8(1 
+sen 
+)
+El esfuerzo efectivo vertical, s¿o, para usar en la ecuación (18.18) aumenta con la profun-
+didad del pilote hasta un límite máximo a una profundidad de 15 a 20 diámetros y se mantiene 
+constante a partir de entonces, como se muestra en la fi gura 18.13b. Esta profundidad crítica, 
+L¿, depende de varios factores, como el ángulo de fricción del suelo y la compresibilidad y la 
+densidad relativa. Una estimación conservadora es asumir que
+L
+15D
+(18.19) 
+Los valores de d¿ de diversas investigaciones parecen estar en el intervalo de 0.5f¿ a 
+0.8f¿. Así deben ser utilizados en la elección del valor de d¿.
+Meyerhof (1976) también indicó que la resistencia unitaria promedio a la fricción, fprom, 
+para pilotes clavados con alto desplazamiento se puede obtener a partir de los valores de resis-
+tencia a la penetración estándar promedio como
+(18.20)
+fprom(kN/m2)
+2N60
+donde N60  valor promedio de la resistencia a la penetración estándar. Para pilotes clavados 
+con bajo desplazamiento,
+(18.21)
+Por lo tanto,
+Qs
+pLfprom
+(18.22)
+fprom (kN/m2)
+N60
+La prueba de penetración de cono se discutió en el capítulo 12. Nottingham y Schmert-
+mann (1975) y Schmertmann (1978) proporcionan correlaciones para estimar Qs utilizando la 
+resistencia a la fricción (fc) obtenida durante pruebas de cono penetrante. De acuerdo con este 
+método
+(18.23)
+f
+a fc
+Las variaciones de a¿ con L/D para penetrómetros de cono eléctrico y cono mecánico se mues-
+tran en las fi guras 18.14 y 18.15, respectivamente. Se tiene
+Qs
+p ( L) f
+p ( L) 
+fc
+(18.24)
+
+=== P6 PÁG 79 ===
+18.9 Resistencia a la fricción, Qs
+553
+Resistencia a la fricción (o superﬁ cial) en arcilla
+Están disponibles varios métodos para la obtención de la resistencia unitaria a la fricción (o su-
+perfi cial) de pilotes en arcilla. Se describen brevemente tres de los procedimientos actualmente 
+aceptados.
+ 1.  Método l: Este método fue propuesto por Vijayvergiya y Focht (1972). Se basa en el 
+supuesto de que el desplazamiento del suelo causado por la colocación de pilotes resulta 
+Figura 18.14 Variación de a¿ con el radio de empotramiento para pilotes en arena: penetrómetro de 
+cono eléctrico
+Figura 18.15 Variación de a¿ con el radio de empotramiento para pilotes en arena: penetrómetro de 
+cono mecánico
+L/D
+Schmertmann
+Nottingham y Schmertmann
+Pilote
+ de acero
+Pilote de
+ concreto
+Pilote de
+ madera
+L/D
+Schmertmann
+Nottingham y Schmertmann
+Pilote
+ de
+ acero
+Pilote de
+ concreto
+Pilote de
+ madera
+
+=== P6 PÁG 80 ===
+Capítulo 18: Pilotes de cimentación
+554
+en una presión lateral a cualquier profundidad y en una resistencia unitaria promedio 
+superfi cial de 
+  
+(18.25)
+fprom
+l(s œ
+o
+2cu)
+  donde
+  s œ
+o  signifi ca esfuerzo efectivo vertical para toda la longitud de empotramiento
+   cu  resistencia al corte no drenada promedio (concepto f  0)
+  El valor de l cambia con la profundidad de penetración del pilote (véase la tabla 18.5).
+ 
+Por lo tanto, la resistencia total a la fricción puede ser calculada como
+ 
+Qs
+pLfprom
+  Se debe tener cuidado en la obtención de los valores de s œ
+o y cu en un suelo estratifi cado. 
+La fi gura 18.16 ayuda a explicar la razón. De acuerdo con la fi gura 18.16b, el valor medio
+Figura 18.16 Aplicación del método l en un suelo estratifi cado
+L (m)
+L (m)
+0
+0.5
+35
+0.136
+5
+0.318
+40
+0.127
+10
+0.255
+50
+0.123
+15
+0.205
+60
+0.118
+20
+0.177
+70
+0.117
+25
+0.155
+80
+0.117
+30
+0.145
+90
+0.117
+Tabla 18.5  Variación de l con L [ecuación (18.25)]
+Cohesión
+ no drenada,
+Esfuerzo
+efectivo 
+vertical, s¿o
+Profundidad
+Profundidad
+Área
+Área
+Área
+
+=== P6 PÁG 81 ===
+18.9 Resistencia a la fricción, Qs
+555
+  de cu es (cu(1) L1  cu(2) L2 . . .)/L. Del mismo modo, la fi gura 18.16c muestra la gráfi ca de 
+la variación de la tensión efectiva con la profundidad. La tensión media efectiva es
+  
+(18.26)
+s œ
+o
+A1
+A2
+A3
+p
+L
+  donde A1, A2, A3,. . .  áreas de los diagramas de esfuerzos efectivos verticales.
+ 2.  Método a: De acuerdo con este método, la resistencia unitaria de la superfi cie en suelos 
+arcillosos se puede representar por la ecuación
+  
+(18.27)
+f
+acu
+  donde a  factor de adhesión empírica. La variación aproximada del valor de a se 
+muestra en la fi gura 18.17. Por lo tanto,
+  
+(18.28)
+Qs
+a f p ¢L
+a acu p ¢L
+ 3.  Método b: Cuando los pilotes son colocados  en arcillas saturadas, la presión del agua 
+intersticial en el suelo alrededor de los pilotes aumenta. Este exceso de presión de poro en 
+arcillas normalmente consolidadas puede ser de 4 a 6 veces cu. Sin embargo, en el lapso 
+de un mes esta presión se disipa poco a poco. Por lo tanto, la resistencia unitaria del pilote 
+Figura 18.17 Variación de a con la cohesión no drenada de la arcilla
+Cohesión no drenada,
+Promedio
+Rango
+
+=== P6 PÁG 82 ===
+Capítulo 18: Pilotes de cimentación
+556
+a la fricción se puede determinar basándose en en los parámetros de esfuerzo efectivo de 
+la arcilla en un estado remodelado (c¿  0). Por lo tanto, a cualquier profundidad,
+  
+(18.29)
+f
+bsœ
+o
+  donde
+ 
+ 
+s¿o  esfuerzo efectivo vertical
+ 
+ 
+b  K tan s¿R
+ 
+ f¿R  ángulo de fricción drenada de arcilla remodelada
+ 
+ 
+K  coefi ciente de empuje
+  Siendo conservadores, se puede calcular la magnitud de K como el coefi ciente de presión 
+de tierra en reposo, o
+  
+K
+1 
+sen 
+(para arcillas normalmente consolidadas)
+y
+(para arcillas sobreconsolidadas)
+K
+(1
+sen fœ
+R)1OCR
+fœ
+R
+(18.31)
+(18.32)
+  
+  
+   
+  donde OCR  relación de sobreconsolidación.
+  Combinando las ecuaciones (18.29), (18.30), (18.31) y (18.32) para las arcillas 
+normalmente consolidadas resulta
+ 
+ 
+(18.33)
+f
+(1
+sen fœ
+R) tan fœ
+Rsœ
+o
+  y para arcillas sobreconsolidadas,
+ 
+ 
+(18.34)
+f
+(1
+sen fœ
+R) tan fœ
+R1OCR sœ
+o
+  Con el valor de f determinado, la resistencia total a la fricción puede ser evaluada como
+Qs
+a f p ¢L
+Correlación con los resultados de pruebas de penetración de cono
+Nottingham y Schmertmann (1975) y Schmertmann (1978) encontraron que la correlación de 
+fricción unitaria de la superfi cie en arcilla (con f  0) es
+f
+fc
+(18.35)
+La variación de a¿ con la resistencia del cono de fricción fc se muestra en la fi gura 18.18. Por 
+lo tanto,
+(18.36)
+Qs
+a f p(¢L)
+a a¿ fc p(¢L)
+18.10  Capacidad admisible del pilote
+Después de que se ha determinado la capacidad última de carga total de un pilote mediante la 
+suma de la capacidad de soporte en la punta y la resistencia a la fricción (o superfi cie), se debe 
+utilizar un factor razonable de seguridad para obtener la carga total admisible para cada pilote, o
+(18.37)
+Qadm
+Qu
+FS
+
+=== P6 PÁG 83 ===
+18.11 Capacidad de carga de la punta de un pilote apoyado sobre roca
+557
+donde
+ Qadm  capacidad de soporte de carga admisible para cada pilote
+ 
+FS  factor de seguridad
+El factor de seguridad generalmente utilizado varía de 2.5 a 4, dependiendo de las incertidum-
+bres del cálculo de la carga última. En grandes proyectos que implican varios pilotes, por lo 
+general debe llevarse a cabo un número determinado de pruebas de carga para determinar las 
+capacidades última y permisible de carga. La razón principal de esto es la falta de fi abilidad de 
+los métodos de predicción.
+18.11   Capacidad de carga de la punta de un pilote 
+apoyado sobre roca
+A veces los pilotes son colocados  sobre una capa subyacente de roca. En tales casos, el inge-
+niero debe evaluar la capacidad de carga de la roca. La resistencia unitaria última en la roca 
+(Goodman, 1980) es de aproximadamente
+(18.38)
+qp
+qu-R(Nf
+1)
+donde
+ 
+Nf  tan2(45  f¿/2)
+ qu-R  resistencia a la compresión no confi nada de la roca
+ 
+f¿  ángulo de drenaje de la fricción
+Figura 18.18 Variación de a¿ con fc/pa para pilotes en arcilla (pa  presión atmosférica ≈ 100 kN/m2)
+Nottingham y Schmertmann (1975)
+Schmertmann (1978)
+Pilotes de concreto
+ y de madera
+Pilotes de acero
+
+=== P6 PÁG 84 ===
+Capítulo 18: Pilotes de cimentación
+558
+La resistencia a la compresión no confi nada de roca se puede determinar mediante pruebas de 
+laboratorio en muestras de rocas recogidas durante la investigación de campo. Sin embargo, se 
+debe utilizar precaución extrema para obtener el valor adecuado de qu-R porque las muestras de 
+laboratorio son generalmente de diámetro pequeño. A medida que el diámetro de la muestra au-
+menta, la resistencia a la compresión no confi nada disminuye, lo que se conoce como efecto de 
+escala. Para muestras más grandes de aproximadamente 1 m de diámetro, el valor de qu-R per-
+manece aproximadamente constante. Parece que en este proceso hay una reducción de cuatro a 
+cinco veces en la magnitud de qu-R. El efecto de escala en la roca es causada principalmente por 
+fracturas grandes y pequeñas distribuidas al azar, y también por rupturas progresivas a lo largo 
+de las líneas de deslizamiento. Por lo tanto, se recomienda siempre que
+(18.39)
+qu-R(diseño)
+qu-R(lab)
+5
+La tabla 18.6 enumera algunos valores representativos de (laboratorio) resistencia a la 
+compresión no confi nada junto con el ángulo de fricción de la roca, f¿.
+Se debe utilizar un factor de seguridad de al menos 3 para determinar la capacidad de 
+carga permisible de la punta del pilote. Por lo tanto,
+(18.40)
+Qp(adm)
+[qu-R(Nf
+1)]Ap
+FS
+Ejemplo 18.1
+Un pilote prefabricado de concreto de 12 m de largo totalmente empotrado se coloca sobre una 
+capa de arena homogénea (c¿  0). El pilote es de sección cuadrada con lados que miden 
+305 mm. El peso unitario seco de arena, gd, es de 16.8 kN/m3, el ángulo promedio de fricción 
+del suelo es 35º. Calcule la carga última en la punta del pilote. Utilice el método de Meyerhof 
+con la ecuación (18.13).
+Solución
+Este suelo es homogéneo, por lo tanto, Lb  L. Para f  35º; N*q ≈ 120. Así que,
+q
+dL
+(16.8)(12)
+201.6 kN/m2
+ Qp
+Apq N*q
+(0.0929)(201.6)(120)
+2247.4 kN
+ Ap
+305
+305
+1000
+1000
+0.0929 m2
+Tabla 18.6   Esfuerzo de compresión no confinada típico y ángulo de fricción de las rocas
+Tipo de roca
+qu-R (MN/m2)
+(grados)
+0
+4
+1
+–
+0
+7
+Arenisca
+0
+1
+2
+–
+5
+0
+1
+Caliza
+0
+7
+–
+5
+3
+Lutita
+0
+1
+2
+–
+0
+4
+1
+Granito
+5
+4
+–
+7
+2
+0
+4
+–
+0
+3
+0
+2
+–
+0
+1
+0
+5
+–
+0
+4
+0
+3
+–
+5
+2
+0
+7
+–
+0
+6
+Mármol
+
+=== P6 PÁG 85 ===
+18.11 Capacidad de carga de la punta de un pilote apoyado sobre roca
+559
+Sin embargo, de la ecuación (18.14) se tiene
+ql
+50N*q tan 
+50(120)tan 35
+4201.25 kN/m2
+Así
+Qp
+Apql
+(0.0929)(4201.25)
+390.3 kN
+Apq N*q
+y
+Qp
+390 kN
+Ejemplo 18.2
+Consulte el ejemplo 18.1. Determine la resistencia total a la fricción para el pilote.
+Utilice las ecuaciones (18.17), (18.18) y (18.19), así como K  1.4, d¿ 0.6 f¿.
+Solución
+La fricción de la superfi cie a cualquier profundidad está dada por la ecuación (18.18) como
+f
+K
+o tan 
+De la ecuación (18.19), tenemos
+L
+15D 
+Así, para la profundidad z  0-15D, s¿o  gz  16.8z (kN/m2) y más allá de z ≥ 15D, s¿o  
+g(15D)  (16.8)(15  0.305)  76.86 kN/m2. Este resultado se muestra en la fi gura 18.19.
+La resistencia a la fricción de z  0 a 15D es
+(1.22)(4.575)(20.65)
+115.26 kN
+ Qs
+pL¿fprom
+[(4)(0.305)](15D) c (1.4)(76.86)tan(0.6
+35)
+2
+d
+76.86 kN/m2
+15D
+Esfuerzo
+efectivo
+vertical, s¿o
+Profundidad
+Figura 18.19 
+
+=== P6 PÁG 86 ===
+Capítulo 18: Pilotes de cimentación
+560
+La resistencia a la fricción desde z  15D hasta 12 m es
+(1.22)(7.425)(41.3)
+374.1 kN
+Qs
+p(L
+L¿)fz
+15D
+[(4)(0.305)][12
+4.575][(1.4)(76.86)tan(0.6
+35)]
+Por lo tanto, la resistencia total a la fricción es
+115.26
+374.1
+489.35 kN
+490 kN
+Ejemplo 18.3
+Sea un pilote de concreto con 0.305 m  0.305 m de sección transversal en arena. El pilote 
+es de 15.2 m de largo. Las siguientes son las variaciones del N60 con la profundidad. Estime 
+Qp usando la ecuación (18.15).
+Profundidad bajo la superficie
+ del terreno (m)
+N60
+8
+5.1
+0
+1
+0.3
+9
+5.4
+2
+1
+0.6
+4
+1
+5.7
+8
+1
+0.9
+1
+1
+5.0
+1
+7
+1
+0.2
+1
+0
+2
+5.3
+1
+8
+2
+0.5
+1
+9
+2
+5.6
+1
+2
+3
+0.8
+1
+0
+3
+5.9
+1
+7
+2
+0.1
+2
+Solución
+La punta del pilote está a 15.2 m por debajo de la superfi cie del terreno. Para el pilote, 
+D  0.305 m. El promedio de N60 10D arriba y sobre 5D por debajo de la punta del pilote es
+ 
+N60
+17
+20
+28
+29
+4
+23.5
+24
+De la ecuación (18.15)
+ Ap(400 N60)
+(0.305
+0.305)[(400)(24)]
+893 kN
+ Ap c 40 N60 a L
+D b d
+(0.305
+0.305) c (40)(24)a 15.2
+0.305 b d
+4450.6 kN
+ Qp(kN)
+Ap(qp)
+Ap c 40 N60 a L
+D b d
+Ap(400 N60)
+Por lo tanto, Qp  893 kN
+
+=== P6 PÁG 87 ===
+18.11 Capacidad de carga de la punta de un pilote apoyado sobre roca
+561
+Ejemplo 18.4 
+Consulte el pilote descrito en el ejemplo 18.3. Estime la magnitud de Qs del pilote.
+ 
+(a) Utilice la ecuación (18.20).
+ 
+(b)   Teniendo en cuenta los resultados en el ejemplo 18.3, determine la capacidad de 
+carga admisible del pilote. Use un factor de seguridad, FS  3.
+Solución
+El valor promedio de N60 para la arena para 15.2 m es
+N60
+8
+10
+9
+12
+14
+18
+11
+17
+20
+28
+10
+14.7
+15
+Inciso a
+De la ecuación (18.20)
+Qs
+pLfprom
+(4 
+0.305)(15.2)(30) 
+556.2 kN
+fprom
+2(N60)
+2(15)
+30 kN/m2
+Inciso b
+Qadm
+Qp
+Qs
+FS
+893
+556.2
+3
+483 kN
+Ejemplo 18.5
+Considere un pilote de concreto de 18 m de longitud (sección transversal: 0.305 m  0.305 m) 
+totalmente empotrado en una capa de arena. A continuación se muestra la siguiente aproxi-
+mación de la resistencia a la penetración de cono (cono mecánico) qc para la capa de arena 
+y la resistencia a la fricción fc con la profundidad. Estime la carga admisible que el pilote 
+puede soportar. Utilice FS  3 y qp | qc en la punta del pilote.
+Profundidad a partir de la
+ superficie del terreno
+qc (kN/m2)
+fc (kN/m2)
+3
+7
+0
+4
+0
+3
+5
+–
+0
+5–15
+4560
+102
+15–25
+9500
+226
+(m)
+Solución
+Qu
+Qp
+Qs
+qp
+qc
+En la punta del pilote (es decir, a una profundidad de 18 m), qc | 9500 kN/m2. Por lo tanto, 
+Qp
+Apqc
+(0.305 
+0.305)(9500) 
+883.7 kN
+Para determinar Qs, se ha preparado la siguiente tabla. (Nota: L/D  18/0.305  59.)
+
+=== P6 PÁG 88 ===
+Capítulo 18: Pilotes de cimentación
+562
+Profundidad a partir de
+ la superficie del terreno
+L (m)
+fc (kN/m2)
+(Figura 18.15)
+p L
+fc (kN)
+0–5
+0–5
+5
+73
+73
+0.44
+0.44
+195.9
+195.9
+5–15
+5–15
+10
+10
+102
+102
+0.44
+0.44
+547.5
+547.5
+15–18
+15–18
+3
+226
+226
+0.44
+0.44
+363.95
+Qs
+1107.35 kN
+(m)
+Por lo tanto, 
+Qu
+Qp
+Qs
+883.7 
+1107.35 
+1991.05 kN
+Qadm
+Qu
+FS
+1991.05
+3
+663.68
+664 kN
+Ejemplo 18.6
+Un pilote de concreto que tiene 458 mm  458 mm de sección transversal se empotra en 
+una arcilla saturada. La longitud de empotramiento es de 16 m. La cohesión no drenada, cu, 
+de la arcilla es de 60 kN/m2, y el peso unitario de la arcilla es de 18 kN/m3. Use un factor de 
+seguridad de 5 para determinar la carga admisible que puede soportar el pilote.
+a.  Utilice el método a.
+b.  Utilice el método l.
+Solución
+Inciso a
+De la ecuación (18.16),
+Qp
+Apqp
+ApcuN*c
+(0.458
+0.458)(60)(9)
+113.3 kN
+De las ecuaciones (18.27) y (18.28),
+Qs
+cupL
+De la gráfi ca del promedio en la fi gura 18.17 para cu  60 kN/m2, a | 0.77 y
+ Qadm
+Qp
+Qs
+FS
+113.3
+1354
+5
+294 kN
+ Qs
+(0.77)(60)(4
+0.458)(16)
+1354 kN
+Inciso b
+De la ecuación (18.25),
+fprom
+l(s¿o
+2cu)
+Se tiene que L  16.0 m. De la tabla 18.5, para L  16 m, l | 0.2; por lo tanto
+ Qs
+pL fprom
+(4
+0.458)(16)(52.8)
+1548 kN
+ fprom
+0.2 c a 18
+16
+2
+b
+2(60)d
+52.8 kN/m2
+
+=== P6 PÁG 89 ===
+18.11 Capacidad de carga de la punta de un pilote apoyado sobre roca
+563
+Ya que en el inciso a, Qp  113.3 kN, entonces
+Qadm
+Qp
+Qs
+FS
+113.3
+1548
+5
+332 kN
+Ejemplo 18.7
+En la fi gura 18.20a se muestra un pilote colocado en arcilla. El pilote tiene un diámetro de 
+406 mm.
+a.  Calcule la capacidad de carga neta en la punta. Utilice la ecuación (18.16).
+b.  Calcule la resistencia de la superfi cie (1) mediante el uso de las ecuaciones (18.27) 
+y (18.28) (método a), (2) mediante el uso de la ecuación (18.25) (método l) y 
+(3) mediante el uso de la ecuación (18.29) (método b). Para todas las capas de arcilla, 
+fR  30º. A 10 m la arcilla está normalmente consolidada. La capa de arcilla inferior 
+tiene un OCR de 2.
+c.  Estime la capacidad neta admisible del pilote. Utilice FS  4.
+Solución
+El área de la sección transversal de la pila es
+Ap
+p
+4 D2
+p
+4 (0.406)2
+0.1295 m2
+Inciso a: Cálculo de la capacidad de carga neta
+De la ecuación (18.16), se tiene
+Qp
+Apqp
+ApN*ccu(2)
+(0.1295)(9)(100)
+116.55 kN
+Arcilla saturada
+Nivel
+ freático
+Arcilla
+Arcilla
+Figura 18.20 
+
+=== P6 PÁG 90 ===
+Capítulo 18: Pilotes de cimentación
+564
+Inciso b: Cálculo de la resistencia superﬁ cial
+(1) De la ecuación (18.28)
+Qs
+cup
+L
+Para la capa superior del suelo, cu(1)  30 kN/m2. De acuerdo con la gráfi ca promedio de la 
+fi gura 18.17, a1  1.0. Del mismo modo, para la capa inferior del suelo, cu(2)  100 kN/m2; 
+a2  0.5. Por lo tanto,
+Qs
+1cu(1)[( )(0.406)]10
+2cu(2)[( )(0.406)]20
+(1)(30)[( )(0.406)]10
+(0.5)(100)[( )(0.406)]20
+382.7
+1275.5
+1658.2 kN
+(2) El valor promedio de cu es
+cu(1)(10)
+cu(2)(20)
+30
+(30)(10)
+(100)(20)
+30
+76.7 kN/m2
+Para obtener el valor promedio de s œ
+o, el diagrama de la variación del esfuerzo efectivo ver-
+tical con la profundidad se representa en la fi gura 18.20. De la ecuación (18.26),
+s o
+A1
+A2
+A3
+L
+225
+552.38
+4577
+30
+178.48 kN/m2
+De la tabla 18.5, la magnitud de l es 0.145. Así
+fprom
+0.145[178.48
+(2)(76.7)]
+48.12 kN/m2
+Por lo tanto,
+Qs
+pLfprom
+(0.406)(30)(48.12)
+1841.3 kN
+(3)  La capa de arcilla superior (10 m) está normalmente consolidada y fR  30º. 
+Para z  0-5 m [ecuación (18.33)],
+(1
+sen 30°)(tan 30°)a 0
+90
+2
+b
+13.0 kN/m2
+ fprom(1)
+(1
+sen fR)tan fR s¿o (prom)
+Del mismo modo, para z  5-10 m,
+fprom(2)
+(1
+sen 30°)(tan 30°)a 90
+130.95
+2
+b
+31.9 kN/m2
+Para z  10-30 m [ecuación (18.34)],
+fprom
+(1
+sen fR)tan fR2OCR s¿a(prom)
+Para OCR  2,
+fprom(3)
+(1
+sen 30°)(tan 30°)22 a 130.95
+326.75
+2
+b
+93.43 kN/m2
+
+=== P6 PÁG 91 ===
+18.11 Capacidad de carga de la punta de un pilote apoyado sobre roca
+565
+Por lo tanto,
+Qs
+p[ fprom(1)(5)
+fprom(2)(5)
+fprom(3)(20)]
+( )(0.406)[(13)(5)
+(31.9)(5)
+(93.43)(20)]
+2669.7 kN
+Inciso c: Cálculo de la capacidad última, Qu
+La comparación de los tres valores de Qs muestran que los métodos a y l dan resultados 
+similares. Por eso se utiliza
+Por lo tanto,
+ Qadm
+Qu
+FS
+1866.55
+4
+466.6 kN
+ Qu
+Qp
+Qs
+116.55
+1750
+1866.55 kN
+Qs
+1658.2
+1841.3
+2
+1750 kN
+Ejemplo 18.8
+Un pilote de concreto de 305 mm  305 mm de sección transversal es conducido hasta una 
+profundidad de 20 m en un suelo de arcilla saturada. Un resumen de la variación de la resis-
+tencia de fricción fc obtenido a partir de una prueba de penetración de cono es el siguiente:
+Profundidad
+(m)
+fc (kg/cm2)
+ 
+0.35
+0.56
+0.72
+Resistencia
+ a la fricción
+0–6
+6–12
+12–20
+Estime la resistencia a la fricción Qs del pilote.
+Solución
+Puede prepararse la siguiente tabla:
+Profundidad
+fc
+L
+fcp( L) 
+(kN/m2)
+(Figura 18.18)
+(m)
+[Ec. (18.36)] (kN)
+34.34
+0.84
+6
+211.5
+54.94
+0.71
+6
+258.5
+70.63
+0.63
+8
+432.2
+(Nota: p
+(4)(0.305) 
+1.22 m)
+(m)
+0–6
+6–12
+12–20
+Por lo tanto,
+Qs
+fcp( L) 
+931 kN
+
+=== P6 PÁG 92 ===
+Capítulo 18: Pilotes de cimentación
+566
+18.12  Asentamiento elástico de pilotes
+El asentamiento elástico de un pilote bajo una carga de trabajo vertical, Qw, está determinado 
+por tres factores:
+Se
+Se(1)
+Se(2)
+Se(3)
+(18.41)
+donde
+ 
+Se  asentamiento total del pilote
+ Se(1)  asentamiento del eje del pilote
+ Se(2)  asentamiento causado por la carga en la punta del pilote
+ Se(3)  asentamiento causado por la carga transmitida a lo largo del eje del pilote
+Determinación de Se(1)
+Si se supone que el material del pilote es elástico, la deformación del eje del pilote puede ser 
+evaluada utilizando los principios fundamentales de mecánica de materiales:
+(18.42)
+Se(1)
+(Qwp
+jQws)L
+ApEp
+donde
+ Qwp  carga soportada en el punto del pilote en condiciones de carga de trabajo
+ 
+Qws   carga soportada por la resistencia a la fricción (superfi cial) en condiciones de carga 
+ 
+de trabajo
+ 
+Ap  área de la sección transversal del pilote
+ 
+L  longitud del pilote
+ 
+Ep  módulo de elasticidad del material del pilote
+La magnitud de j depende de la naturaleza de la distribución de la resistencia unitaria a la 
+fricción (superfi cial) a lo largo del eje del pilote. Puede variar entre 0.5 y 0.67 (Vesic, 1977).
+Determinación de Se(2)
+El asentamiento de un pilote causado por la carga soportada por la punta del pilote se puede 
+expresar como
+(18.43)
+Se(2)
+qwpD
+Es
+ (1
+m2
+s)Iwp
+donde
+ 
+D  ancho o diámetro del pilote
+ Qwp  punto de carga por unidad de superfi cie en la punta del pilote  Qwp/Ap
+ 
+Es  módulo de elasticidad del suelo en o por debajo de la punta del pilote
+ 
+ms  Coefi ciente de suelo de Poisson
+ 
+Iwp  factor de infl uencia ≈ 0.85
+
+=== P6 PÁG 93 ===
+18.12 Asentamiento elástico de pilotes
+567
+Vesic (1977) propuso un método semi-empírico para obtener la magnitud del asentamiento, Se(2):
+(18.44)
+Se(2)
+QwpCp
+Dqp
+donde
+ 
+qp  resistencia última en la punta del pilote
+ 
+Cp  coefi ciente empírico
+Los valores representativos de Cp para diferentes suelos se presentan en la tabla 18.7.
+Determinación de Se(3)
+El asentamiento de un pilote causado por la carga soportada a lo largo del eje está dado por una 
+relación similar a la ecuación (18.43), o
+(18.45)
+Se(3)
+a Qws
+pL b D
+Es
+ (1
+m2
+s)Iws
+donde
+ 
+p  perímetro del pilote
+ 
+L  longitud empotrada del pilote
+ 
+Iws  factor de infl uencia
+Debe tenerse en cuenta que el término Qws/pL en la ecuación (18.45) es el valor promedio de 
+F a lo largo del eje del pilote. El factor de infl uencia, Iws, tiene una sencilla relación empírica 
+(Vesic, 1977):
+(18.46)
+Iws
+2
+0.35 B
+L
+D
+Vesic (1977) también propuso una relación empírica sencilla similar a la ecuación (18.44) para 
+la obtención de Se(3):
+(18.47)
+Se(3)
+QwsCs
+Lqp
+donde Cs  constante empírica  
+.
+(0.93
+0.162L/D)Cp 
+(18,48)
+Los valores de Cp para el uso de la ecuación (18.48) se pueden estimar a partir de la tabla 18.7.
+ 
+Pilote perforado
+ 
+Pilote clavado
+ 
+Tipo de suelo
+Arena (densa a suelta)
+0.02–0.04
+0.09–0.18
+Arcilla (rígida a blanda) 
+0.02–0.03
+0.03–0.06
+Limo (denso a suelto) 
+0.03–0.05
+0.09–0.12
+Tabla 18.7  Valores típicos de Cp recomendados por Vesic (1977) [ecuación (18.44)]
+
+=== P6 PÁG 94 ===
+Capítulo 18: Pilotes de cimentación
+568
+Ejemplo 18.9
+Un pilote prefabricado de concreto de 12 m de largo está completamente empotrado en 
+la arena. La sección transversal del pilote mide 0.305 m  0.305 m. La carga de trabajo 
+admisible del pilote es 337 kN, de los cuales 240 kN son aportados por la fricción de la 
+superfi cie. Determine el asentamiento elástico del pilote para Ep  21  106 kN/m2, Es  
+30 000 kN/m2 y ms  0.3.
+Solución
+Se usará la ecuación (18.41):
+Se
+Se(1)
+Se(2)
+Se(3)
+De la ecuación (18.42),
+Se(1)
+(Qwp
+jQws)L
+ApEp
+Sea 
+0.6 y Ep  21  106 kN/m2. Entonces
+Se(1)
+[97
+(0.6)(240)]12
+(0.305)2(21
+106)
+0.00148 m
+1.48 mm
+De la ecuación (18.43),
+Así 
+Se(2)
+c (1042.7)(0.305)
+30 000
+d (1
+0.32)(0.85)
+0.0082 m
+8.2 mm
+ qwp
+Qwp
+Ap
+97
+(0.305)2
+1042.7 kN/m2
+ Iwp
+0.85
+ Se(2)
+qwpD
+Es
+ (1
+ms
+2)Iwp
+Una vez más, de la ecuación (18.45),
+Así
+Se(3)
+240
+(p
+0.305)(12) a 0.305
+30 000 b(1
+0.32)(4.2)
+0.00081 m
+0.81 mm
+ Iws
+2
+0.35 B
+L
+D
+2
+0.35 B
+12
+0.305
+4.2
+ Se(3)
+a Qws
+pL b D
+Es
+ (1
+ms
+2)Iws
+Por lo tanto, el asentamiento total es
+Se
+1.48
+8.2
+0.81
+10.49 mm
+
+=== P6 PÁG 95 ===
+18.13 Pruebas de carga de pilote 569
+18.13  Pruebas de carga de pilote
+En la mayoría de los grandes proyectos debe realizarse un número determinado de pruebas de 
+carga sobre los pilotes. La razón principal es la falta de fi abilidad de los métodos de predicción. 
+La capacidad de carga vertical y lateral de un pilote puede ser probada en el campo. La fi gura 
+18.21a muestra un diagrama esquemático de la disposición del pilote de carga para la prueba de 
+compresión axial en el campo. La carga es aplicada al pilote por un gato hidráulico. Cargas 
+de paso se aplican al pilote y se permite que transcurra el tiempo sufi ciente después de cada 
+carga, de manera que se produce un pequeño asentamiento que se mide mediante manómetros 
+comparadores. La cantidad de carga que se aplicará a cada paso puede variar, dependiendo de 
+los códigos de construcción locales. La mayoría de los códigos de construcción requieren que 
+cada paso de carga sea aproximadamente de una cuarta parte de la carga de trabajo propuesta. 
+La prueba de carga debe llevarse a cabo para una carga total de al menos dos veces la carga de 
+trabajo propuesta. Después de alcanzar la carga deseada sobre el pilote, éste se descarga gra-
+dualmente.
+Figura 18.21 (a) Diagrama esquemático de la disposición del pilote de carga para la prueba; (b) gráfi ca 
+de la carga en función del asentamiento total; (c) gráfi ca de la carga en función del asentamiento neto
+Gato 
+hidráulico
+Viga
+Pilote de
+ prueba
+Pilote
+ancla
+St(1)
+Q1
+Q2
+St(2)
+Se(1)
+(a)
+(b)
+(c)
+Manómetro
+digital
+Viga de 
+referencia
+Carga
+Asentamiento, Q
+Cargado
+Descargado
+Se(2)
+Qu
+Qu
+Asentamiento, Q
+1
+2
+Asentamiento neto, Sneto
+
+=== P6 PÁG 96 ===
+Capítulo 18: Pilotes de cimentación
+570
+La fi gura 18.21b muestra un diagrama de carga-asentamiento obtenido a partir de la carga y 
+descarga en campo. Para cualquier carga Q la liquidación neta-pila se puede calcular de la siguiente 
+manera:
+Cuando Q
+Q1,
+Asentamiento neto, Sneto(1)
+St(1) – Se(1)
+Cuando Q
+Q2,
+Asentamiento neto, Sneto(2)
+St(2) – Se(2)
+o
+donde
+ Sneto  asentamiento neto
+ 
+Se  asentamiento elástico del mismo pilote
+ 
+St  asentamiento total
+Estos valores de Q se pueden trazar en una gráfi ca en función del asentamiento neto correspondiente, 
+Sneto, como se muestra en la fi gura 18.21c. La carga última del pilote se puede determinar entonces 
+a partir de la gráfi ca. El asentamiento del pilote puede aumentar con la carga hasta cierto punto, más 
+allá del cual la curva asentamiento-carga se vuelve vertical. La carga correspondiente al punto donde 
+la curva de Q en función de Sneto se convierte en vertical es la carga última, Qu, para el pilote; ésta 
+es mostrada por la curva 1 en la fi gura 18.21c. En muchos casos, la última etapa de la curva carga-
+asentamiento es casi lineal, muestra un alto grado de asentamiento para un pequeño incremento de 
+la carga; esto se muestra con la curva 2 en la fi gura. La carga última, Qu, para tal caso se determina a 
+partir del punto de la curva de Q en función de Sneto en donde comienza esta parte lineal empinada.
+Uno de los métodos para obtener la carga última Qu de la gráfi ca carga-asentamiento es 
+el propuesto por Davisson (1973). El método de Davisson se utiliza con frecuencia en campo 
+y se describe aquí. En referencia a la fi gura 18.22, la carga última se produce a un nivel de 
+asentamiento (Su) de
+(18.49)
+Su(mm)
+0.012Dr
+0.1 a D
+Dr
+b
+QuL
+ApEp
+donde
+Qu está en kN
+D está en mm
+ 
+Dr  diámetro del pilote de referencia o ancho ( 300 mm)
+ 
+L  longitud del pilote (mm)
+ 
+Ap  área de la sección transversal del pilote (mm2)
+ 
+Ep  módulo de Young del material del pilote (kN/mm2)
+La aplicación de este procedimiento se muestra en el ejemplo 18.10.
+El procedimiento de prueba de carga que se acaba de describir requiere la aplicación de 
+cargas de paso sobre los pilotes y la medición del asentamiento y se llama prueba de carga con-
+trolada. Otra técnica utilizada para una prueba del pilote de carga es la prueba de penetración a 
+velocidad constante, en la que la carga sobre el pilote se incrementa continuamente para man-
+tener una velocidad constante de penetración, que puede variar desde 0.25 hasta 2.5 mm/min. 
+Esta prueba da como resultado una gráfi ca de carga-asentamiento similar a la obtenida a partir 
+de la prueba de carga controlada. Otro tipo de prueba de pilote de carga es la carga cíclica, en 
+la que una carga incremental se aplica y quita repetidamente.
+
+=== P6 PÁG 97 ===
+18.13 Pruebas de carga de pilote
+571
+Con el fi n de llevar a cabo una prueba de carga sobre pilotes, es importante tener en cuen-
+ta el lapso de tiempo después del fi nal de la colocación (EOD). Cuando los pilotes se colocan 
+en arcilla blanda, cierta zona que rodea el barro se convierte en remodelada o comprimida. Esto 
+resulta en una reducción de la resistencia al corte sin drenar, cu. Con el tiempo, la pérdida de re-
+sistencia al corte sin drenar está parcialmente o completamente recuperada. El lapso de tiempo 
+puede oscilar entre 30 y 60 días.
+Figura 18.22 Método de Davisson para la determinación de Qu
+Qu
+Carga, Q (kN)
+Asentamiento, S (mm)
+Ec. (18.49)
+0.012 Dr +
+0.1 D/Dr
+QuL
+AE
+Ejemplo 18.10
+La fi gura 18.23 muestra los resultados de las pruebas de carga sobre un pilote de concreto de 
+20 m de largo (406 mm  406 mm) incrustado en la arena. Utilizando el método de Davis-
+son, determine la carga última Qu. Dado: Ep  30  106 kN/m2.
+Solución
+De la ecuación (18.49),
+Su
+0.012Dr
+0.1 a D
+Dr
+b
+QuL
+ApEp
+Dr  300 mm, D  406 mm, L  20 m  20 000 mm, Ap  406 mm  406 mm  
+164 836 mm2 y Ep  30  106 kN/m2. Por lo tanto,
+3.6 
+0.135 
+0.004Qu
+3.735 
+0.004Qu
+Su
+(0.012)(300)
+(0.1) a 406
+300 b
+(Qu)(20 000)
+(30)(164 836)
+La línea de Su (mm)  3.735  0.004Qu se dibuja en la fi gura 18.23. La intersección de esta 
+línea con la curva de carga-asentamiento da la carga última de Qu  1640 kN.
+
+=== P6 PÁG 98 ===
+Capítulo 18: Pilotes de cimentación
+572
+Q (kN)
+Qu = 1460 kN
+1600
+800
+5
+10
+15
+20
+2400
+Asentamiento, S (mm)
+3.735 mm
+Figura 18.23
+18.14  Fórmulas para la colocación de pilotes
+Para desarrollar la capacidad de carga deseada, un pilote de punta de carga debe penetrar la capa 
+de suelo denso lo sufi ciente o tener contacto sufi ciente con una capa de roca. Este requisito no 
+siempre puede ser satisfecho por la colocación de un pilote a una profundidad predeterminada 
+porque los perfi les del suelo varían. Por esa razón se han desarrollado varias ecuaciones para 
+calcular la capacidad última de un pilote durante la colocación. Estas ecuaciones dinámicas 
+son ampliamente utilizadas en el campo para determinar si el pilote ha alcanzado un valor de 
+carga satisfactorio a la profundidad predeterminada. Una de las primeras de estas ecuaciones 
+dinámicas, comúnmente conocida como la fórmula Engineering News Record (ENR), se deriva 
+de la teoría del trabajo y la energía, es decir,
+energía impartida por el martillo por golpe
+ (resistencia del pilote) (penetración por golpe de martillo)
+De acuerdo con la fórmula ENR, la resistencia del pilote es la carga última, Qu, expresada como
+(18.50)
+Qu
+WR h
+S
+C
+
+=== P6 PÁG 99 ===
+18.14 Fórmulas para la colocación de pilotes
+573
+donde
+ 
+WR  peso del ariete
+ 
+h  altura de la caída del ariete
+ 
+S  penetración del pilote por golpe de martillo
+ 
+C  constante
+La penetración de la pila, S, generalmente se basa en el valor promedio obtenido de los 
+últimos golpes de conducción. En la forma original de la ecuación se recomiendan los siguien-
+tes valores de C:
+ 
+Para martinetes:  
+C  2.54 cm (si las unidades de S y h están en centímetros)
+ 
+Para martillos de vapor:  C  0.254 cm (si las unidades de S y h están en centímetros)
+Además, un factor de seguridad de FS  6 fue recomendado para estimar la capacidad admi-
+sible del pilote. Tenga en cuenta que, para martillos de efecto simple y doble, el término WRH 
+puede ser remplazado por EHE (donde E  efi ciencia del martillo y HE  energía estimada del 
+martillo). Por lo tanto,
+(18.51)
+Qu
+EHE
+S
+C
+La fórmula ENR para clavar pilotes ha sido revisada varias veces a lo largo de los años. 
+Una forma reciente, la fórmula ENR modifi cada, es
+(18.52)
+Qu
+EWR h
+S
+C 
+WR
+n2Wp
+WR
+Wp
+donde
+ 
+E  efi ciencia del martillo
+ 
+C  0.254 cm si las unidades de S y h están en centímetros
+ 
+Wp  peso del pilote
+ 
+n  coefi ciente de restitución entre el pistón y el encepado
+Las efi ciencias de los diferentes martillos de percusión, E, se encuentran en los siguientes rangos:
+ ,
+Eficiencia
+ 
+Tipo de martillo
+E
+Martillos de efecto simple y doble
+9.0
+–
+8.0
+ 
+Martillos de diesel
+9.0
+–
+7.0
+ 
+Martinetes
+0.7–0.85
+Algunos valores representativos del coefi ciente de restitución, n, son los siguientes:
+Coeficiente de
+ restitución ,
+ 
+Material del pilote
+n
+Martillo de hierro fundido y pilotes de concreto (sin tapa)
+4.0
+–
+3.0
+ 
+ 
+ 
+ 
+Cojines de madera sobre pilotes de acero
+3.0
+–
+5
+2.0
+ 
+Pilotes de madera
+0.4–0.5
+
+=== P7 PÁG 1 ===
+Capítulo 18: Pilotes de cimentación
+574
+Un factor de seguridad de entre 4 y 6 puede ser utilizado en la ecuación (18.52) para obtener la 
+capacidad de carga admisible de un pilote.
+Otra ecuación, conocida como la fórmula danesa, también produce resultados tan fi ables 
+como cualquier otra ecuación:
+(18.53)
+Qu
+EHE
+S
+B
+EHEL
+2ApEp
+donde
+ 
+E  efi ciencia del martillo
+ 
+HE  energía nominal del martillo
+ 
+Ep  módulo de elasticidad del material del pilote
+ 
+L  longitud del pilote
+ 
+Ap  área de la sección transversal del pilote
+Deben utilizarse unidades consistentes en la ecuación (18.53). Se recomienda un factor de segu-
+ridad de 3 a 6 para estimar la capacidad de soporte de carga admisible de los pilotes.
+Ejemplo 18.11
+Un pilote de concreto prefabricado de 305 mm  305 mm de sección transversal es clavado 
+por un martillo. Se tienen estos valores:
+energía nominal máxima del martillo  35 kN-m
+peso del ariete  36 kN
+longitud total del pilote  20 m
+efi ciencia del martillo  0.8
+coefi ciente de restitución  0.45
+peso del encepado  3.2 kN
+número de golpes para los últimos 25.4 mm de penetración  5
+Estime la capacidad admisible del pilote por el uso de cada una de estas ecuaciones:
+a.  La ecuación (18.51) (use FS  6)
+b.  La ecuación (18.52) (use FS  5)
+c.  La ecuación (18.53) (use FS  4)
+Solución
+Inciso a. La ecuación (18.51) es
+Qu
+EHE
+S
+C
+
+=== P7 PÁG 2 ===
+18.14 Fórmulas para la colocación de pilotes
+575
+Se tiene E  0.8, HE  35 kN-m y
+Así
+Por lo tanto,
+Inciso b. La ecuación (18.52) es
+Qu
+EWRh
+S
+C 
+WR
+n2Wp
+WR
+Wp
+Qadm
+Qu
+FS
+3674.5
+6
+612 kN
+Qu
+(0.8)(35)(100)
+0.508
+0.254
+3674.5 kN
+S
+25.4
+5
+5.08 mm
+0.508 cm
+Peso del pilote  LApgc  (20)(0.305)2(23.58)  43.87 kN y 
+Wp  peso del pilote  peso del encepado  43.87  3.2  47.07 kN
+Así
+Inciso c. La ecuación (18.53) es
+Se tiene Ep
+20.7 
+106 kN/m2. Así
+Por lo tanto,
+ Qadm
+Qu
+FS
+1630
+4
+407.5 kN
+ Qu
+(0.8)(35)(100)
+0.508
+1.21
+1630 kN
+B
+EHEL
+2ApEp
+B
+(0.8)(35)(20)
+(2)(0.305)2(20.7
+106)
+0.0121 m
+1.21 cm
+Qu
+EHE
+S
+B
+EHEL
+2ApEp
+ Qadm
+Qu
+FS
+2013
+5
+402.6 kN
+403 kN
+ 
+(3674)(0.548)
+2013 kN
+ Qu
+c (0.8)(35)(100)
+0.508
+0.254 d c 36
+(0.45)2(47.07)
+36
+47.07
+d
+
+=== P7 PÁG 3 ===
+Capítulo 18: Pilotes de cimentación
+576
+18.15  Fricción superﬁ cial negativa
+La fricción superfi cial negativa es una fuerza de arrastre ejercida hacia abajo sobre el pilote 
+por la tierra que lo rodea. Esta acción puede producirse bajo condiciones como las siguientes:
+ 1.  Si un relleno de suelo arcilloso se coloca sobre una capa de suelo granular en la que se 
+clava un pilote, el relleno se consolidará gradualmente. Este proceso de consolidación 
+ejercerá una fuerza de arrastre hacia abajo sobre el pilote (fi gura 18.24a) durante el 
+periodo de consolidación.
+ 2.  Si un relleno de suelo granular se coloca sobre una capa de arcilla blanda, como se 
+muestra en la fi gura 18.24b, induce el proceso de consolidación en la capa de arcilla y, 
+por lo tanto, ejerce un arrastre hacia abajo sobre el pilote.
+ 3.  La reducción del nivel freático incrementará el esfuerzo efectivo vertical en el suelo a 
+cualquier profundidad, lo que inducirá al asentamiento de consolidación en arcilla. Si 
+un pilote se encuentra en la capa de arcilla, éste se somete a una fuerza de arrastre hacia 
+abajo.
+En algunos casos la fuerza de arrastre hacia abajo puede ser excesiva y causar una falla de 
+cimentación. Esta sección describe dos métodos provisionales para calcular la fricción negativa.
+Relleno de arcilla sobre suelo granular (ﬁ gura 18.24a)
+Similar al método b que se presentó en la sección 18.9, el esfuerzo superfi cial negativo (hacia 
+abajo) sobre el pilote es
+fn
+K
+o tan 
+(18.54) 
+donde
+ 
+K¿  coefi ciente de presión de tierra  Ko  1 – sen f¿
+ 
+s¿o  tensión efectiva vertical a cualquier profundidad z  g¿f z
+ 
+g¿f  peso de la unidad efectiva de relleno
+ 
+d¿  ángulo de fricción suelo-pilote < 0.5f¿–0.7f¿ 
+Figura 18.24 Fricción superfi cial negativa
+Relleno
+ de
+ arcilla
+Relleno
+ de 
+arena
+Arena
+Plano 
+neutral
+Arcilla
+Hf
+Hf
+
+=== P7 PÁG 4 ===
+18.15 Fricción superﬁ cial negativa
+577
+Por lo tanto, la fuerza de fricción total hacia abajo, Qn, sobre un pilote es
+(18.55)
+Qn
+Hf
+0
+(pK¿gœ
+f tan d¿)z dz
+pK¿gœ
+fH2
+f tan d¿
+2
+donde Hf  altura del relleno. Si el relleno está por encima del nivel freático, el peso unitario 
+efectivo, g¿f, debe ser sustituido por el peso unitario húmedo.
+Relleno de suelo granular sobre arcilla (ﬁ gura 18.24b)
+En este caso, la evidencia indica que la fricción superfi cial negativa sobre el pilote puede existir 
+desde z  0 a z  L1, lo que se conoce como profundidad neutra (ver Vesic, 1977, pp. 25-26, 
+para la discusión). La profundidad neutral puede administrarse en la forma (Bowles, 1982)
+(18.56)
+L1
+L
+Hf
+L1
+ a
+L
+Hf
+2
+gœ
+f  Hf
+g¿ b
+2gœ
+f Hf
+g¿
+donde g¿f y g¿ pesos unitarios efectivos del relleno y la capa de arcilla subyacente, respecti-
+vamente.
+Una vez determinado el valor de L1, se obtiene la fuerza de resistencia a la baja de la 
+siguiente manera: la fricción superfi cial negativa unitaria a cualquier profundidad de z  0 
+a z  L1 es
+fn
+K
+o tan 
+(18.57)
+donde
+ K¿  Ko  1  sen f¿
+ s¿o  g¿fHf  g¿z
+ d¿  0.5f¿–0.7f¿
+Por lo tanto, la fuerza total de fricción es
+(18.58)
+  (pK¿gœ
+fHf tan d¿)L1
+L2
+1pK¿g¿ tan d¿
+2
+ Qn 
+L1
+0
+pfn dz 
+L1
+0
+pK¿(gœ
+fHf
+g¿z)tan d¿ dz  
+Para pilotes de soporte fi nal puede suponerse que la profundidad neutral está situada en la 
+punta del pilote (es decir, L1  L  Hf).
+Si el suelo y el relleno están por encima del nivel freático, los pesos unitarios efectivos 
+deben ser sustituidos por pesos unitarios húmedos. En algunos casos los pilotes pueden estar 
+recubiertos con betún en la zona de fricción descendente para evitar este problema. Baligh et al. 
+(1978) resumieron los resultados de varias pruebas de campo que se realizaron para evaluar la 
+efi cacia del revestimiento de betún en la reducción de la fricción negativa.
+
+=== P7 PÁG 5 ===
+Capítulo 18: Pilotes de cimentación
+578
+Ejemplo 18.12
+Consulte la fi gura 18.24b. Aquí, Hf  2 m, diámetro del pilote  0.305 m, gf  16.5 kN/m3, 
+f¿(arcilla)  34º, gsat(arcilla)  17.2 kN/m3 y L  20 m. El nivel freático coincide con la parte 
+superior de la capa de arcilla. Determine la fuerza de fricción hacia abajo.
+Solución
+La profundidad del plano neutro se da en la ecuación (18.56) como 
+L1
+L
+Hf
+L1
+ a
+L
+Hf
+2
+gf Hf
+g¿ b
+2gf Hf
+g¿
+Se debe considerar que en la ecuación (18.56) g¿f ha sido sustituido por gf porque el relleno 
+está por encima del nivel freático. Así
+ L1
+11.75 m
+242.4
+L1
+8.93
+ L1
+20
+2
+L1
+ c (20
+2)
+2
+(16.5)(2)
+(17.2
+9.81) d
+(2)(16.5)(2)
+(17.2
+9.81)
+Ahora, en referencia a la ecuación (18.58), se tiene
+60.78
+79.97
+140.75 kN
+(11.75)2(0.958)(0.44)(17.2
+9.81)[tan(0.6
+34)]
+2
+ Qn
+(0.958)(0.44)(16.5)(2)[tan(0.6
+34)](11.75)
+ K¿
+1
+sen 34°
+0.44
+ p
+p(0.305)
+0.958 m
+ Qn
+(pK¿gf Hf tan d¿)L1
+L2
+1pK¿g¿ tan d¿
+2
+18.16  Pilotes agrupados: eﬁ ciencia
+En la mayoría de casos, los pilotes se usan en grupos para transmitir la carga estructural al 
+suelo (fi gura 18.25). Un encepado se construye sobre un grupo de pilotes (fi gura 18.25a). La 
+determinación de la capacidad de carga de los pilotes agrupados es extremadamente compli-
+cada y aún no ha sido resuelta por completo. Cuando los pilotes se colocan uno cerca del otro, 
+una suposición razonable es que los esfuerzos transmitidos por los pilotes al suelo se traslapan 
+(fi gura 18.25b), reduciendo así la capacidad de soporte de carga de los pilotes. Idealmente, los 
+pilotes en un grupo se deben espaciar de manera que la capacidad de soporte de carga del grupo 
+no sea menor que la suma de la capacidad de soporte de los pilotes individuales. En la práctica, 
+la separación mínima de centro a centro del pilote, d, es 2.5D y en situaciones normales está 
+realmente cerca de 3D  a 3.5D.
+
+=== P7 PÁG 6 ===
+18.16 Pilotes agrupados: eﬁ ciencia
+579
+La efi ciencia de la capacidad de soporte de carga de un grupo de pilotes se puede defi nir 
+como
+(18.59)
+h
+Qg(u)
+g Qu
+donde
+ 
+h  efi ciencia de grupo
+ Qg(u)  capacidad de carga máxima del grupo de pilotes
+ 
+Qu  capacidad de carga máxima de cada pilote sin el efecto de grupo
+Pilotes en arena
+Con base en las observaciones experimentales del comportamiento de los pilotes agrupados en 
+arena hasta la fecha, se pueden extraer dos conclusiones generales:
+ 1.  Para grupos de pilotes clavados en arena con d  3D, Qg(u) puede ser tomado como 
+Qu, 
+que incluye la fricción y la capacidad de carga en la punta de pilotes individuales.
+ 2.  Para grupos de pilotes perforados en arena con separaciones convencionales (d < 3D), 
+Qg(u) puede ser tomado como a
+3
+4
+2
+3
+ veces 
+Qu (capacidades de punto de apoyo y de 
+fricción de pilotes individuales).
+Sección
+Encepado
+Proyecto
+Número de pilotes agrupados
+Nota:
+Figura 18.25 Grupos de pilotes
+
+=== P7 PÁG 7 ===
+Capítulo 18: Pilotes de cimentación
+580
+Pilotes en arcilla
+La capacidad última de carga del grupo de pilotes en arcilla puede ser estimada con el siguiente 
+procedimiento:
+ 1.  Determinar 
+Qu  n1n2 (Qp  Qs). De la ecuación (18.16),
+  
+Qp  Ap [9cu(p)]
+  donde cu(p)  cohesión no drenada de la arcilla en la punta del pilote. También, a partir de 
+la ecuación (18.28),
+  
+Así 
+(18.60)
+a Qu
+n1n2[9Apcu(p)
+a apcu ¢L]
+Qs
+a apcu ¢L
+  
+ 2.  Determinar la capacidad última suponiendo que los pilotes en el grupo actúan como un 
+bloque con dimensiones de Lg  Bg  L. La resistencia superfi cial del bloque es
+  
+a pgcu ¢L
+a 2(Lg
+Bg)cu ¢L
+  Calcular la capacidad de soporte de la punta a partir de
+  
+Apqp
+Apcu(p)N*c
+(LgBg)cu(p)N*c
+  La variación de N*c con L/Bg y Lg/Bg se ilustra en la fi gura 18.26. Por lo tanto, la carga 
+última es
+  
+(18.61)
+a Qu
+LgBgcu(p)N*c
+a 2(Lg
+Bg)cu ¢L
+ 3.  Comparar los valores obtenidos a partir de las ecuaciones (18.60) y (18.61). El menor de 
+los dos valores es Qg(u).
+Pilotes en roca
+Para pilotes de punta de carga apoyados sobre roca, la mayoría de los códigos de construcción 
+especifi can que Qg(u)  
+Qu, a condición de que la separación mínima de centro a centro de los 
+pilotes sea D  300 mm. Para pilotes en H y con secciones transversales cuadradas, la magnitud 
+de D es igual a la dimensión diagonal de la sección transversal del pilote.
+Figura 18.26 Variación de N*c con Lg/Bg y L/Bg 
+
+=== P7 PÁG 8 ===
+18.16 Pilotes agrupados: eﬁ ciencia
+581
+Comentarios generales
+Un encepado descansa sobre el suelo, como se muestra en la fi gura 18.25a, contribuyendo a 
+la capacidad de soporte de carga de un grupo de pilotes. Sin embargo, esta contribución puede 
+ser ignorada con fi nes de diseño debido a que el soporte se puede perder como resultado de la 
+erosión del suelo o excavación durante la vida del proyecto.
+Ejemplo 18.13
+En la fi gura 18.27 se muestra la sección de un grupo de pilotes de 3  4 en una arcilla saturada 
+estratifi cada. Los pilotes son de sección cuadrada (356 mm  356 mm). La separación de centro 
+a centro, d, de los pilotes es de 890 mm . Determine la capacidad de carga admisible del grupo de 
+pilotes. Utilice FS  4.
+Solución
+De la ecuación (18.60),
+gQu
+n1n2[9Apcu(p)
+a1pcu(1)L1
+a2pcu(2)L2]
+De la fi gura 18.17, cu(1)  50 kN/m2; a1  0.86 y cu(2) 85 kN/m2; a2  0.6.
+gQu 
+(3)(4)c (9)(0.356)2(85)
+(0.86)(4
+0.356)(50)(5)
+(0.6)(4
+0.356)(85)(15)
+d
+17 910 kN
+Para pilotes que actúan como un grupo,
+L
+Bg
+20
+2.136
+9.36
+Lg
+Bg
+3.026
+2.136
+1.42
+ Bg
+(2)(890)
+356
+2136 mm
+2.136 m
+ Lg
+(3)(890)
+356
+3026 mm
+3.026 m
+Arcilla
+cu = 50 kN/m2
+Arcilla
+cu = 85 kN/m2
+890 mm
+15 m
+5 m
+Figura 18.27 
+
+=== P7 PÁG 9 ===
+Capítulo 18: Pilotes de cimentación
+582
+De la fi gura 18.26, N*c  < 8.75. De la ecuación (18.61)
+Por lo tanto,
+ g Qadm
+17 910
+FS
+17 910
+4
+4478 kN
+ g Qu
+17 910 kN
+ 
+19 519 kN
+ 
+(3.026)(2.136)(85)(8.75)
+(2)(3.026
+2.136)[(50)(3)
+(85)(15)]
+ gQu
+LgBgcu(p)Nc*
+g2(Lg
+Bg)cu¢L
+18.17  Asentamiento elástico de un grupo de pilotes
+En la literatura han sido reportadas varias investigaciones relativas al asentamiento de un grupo 
+de pilotes con resultados muy variables. La relación más simple para el asentamiento del gru-
+po de pilotes fue dada por Vesic (1969) como
+(18.62)
+Sg(e)
+B
+Bg
+D
+ Se
+donde
+ 
+Sg(e)  asentamiento elástico del grupo de pilotes 
+ 
+Bg  ancho de sección del grupo de pilotes (ver fi gura 18.25a)
+ 
+D  anchura o diámetro de cada pilote en el grupo
+ 
+Se  asentamiento elástico de cada pilote con carga de trabajo comparable 
+ 
+(véase sección 18.12)
+Para grupos de pilotes en arena y grava, Meyerhof (1976) sugirió
+(18.63)
+donde
+q (kN/m2)
+Qg/(LgBg)
+)
+4
+6.8
+1
+(
+Sg(e) (mm)
+0.92q2BgI
+N60
+ 
+Lg y Bg  longitud y anchura de la sección de grupo de pilotes, respectivamente (m)
+ 
+N60  número de penetración estándar promedio dentro del centro del
+ 
+asentamiento (< Bg profunda debajo de la punta de los pilotes)
+ 
+I  factor de infl uencia  1  L/8Bg  0.5
+ 
+L  longitud de empotramiento de los pilotes (m)  
+(18.65)
+Del mismo modo, el asentamiento del grupo de pilotes está relacionado con la resistencia 
+a la penetración de cono como
+(18.66)
+Sg(e)
+qBgI
+2qc
+
+=== P7 PÁG 10 ===
+18.18 Asentamiento de consolidación de un grupo de pilotes
+583
+donde qc  resistencia promedio a la penetración de cono dentro del centro del asentamiento. 
+En la ecuación (18.66) todos los símbolos están en unidades consistentes.
+18.18   Asentamiento de consolidación de un grupo 
+de pilotes
+El asentamiento de consolidación de un grupo de pilotes puede ser estimado suponiendo un 
+método de distribución aproximada que se refi ere comúnmente como el método 2:1. El proce-
+dimiento de cálculo implica las siguientes etapas (fi gura 18.28):
+ 1.  Sea L la profundidad de empotramiento de los pilotes. El grupo se somete a una carga 
+total de Qg. Si el encepado está por debajo de la superfi cie original del terreno, Qg es 
+igual a la carga total de la superestructura en los pilotes, menos el peso efectivo del suelo 
+por encima del grupo de pilotes removido por la excavación.
+ 2.  Supongamos que la carga Qg se transmite al suelo a partir de una profundidad de 2L/3 de 
+la parte superior del pilote, como se muestra en la fi gura 18.28 (z  0). La carga Qg se 
+extiende a lo largo de líneas 2 vertical:1 horizontal a esta profundidad. Las líneas aa¿ y 
+bb¿ son las dos líneas de 2:1.
+ 3.  Calcular el aumento del esfuerzo efectivo causado a la mitad de cada capa de suelo por la 
+carga Qg:
+(18.67)
+¢sœ
+i
+Qg
+(Bg
+zi)(Lg
+zi)
+ 
+donde 
+ 
+s¿i  aumento del esfuerzo efectivo a la mitad de la capa i
+ 
+Lg, Bg  largo y ancho del plano del grupo de pilotes, respectivamente
+ 
+zi  distancia a partir de z  0 a la mitad de la capa de arcilla, i
+  Por ejemplo, en la fi gura 18.28, para la capa 2, zi  L1/2; para la capa 3, zi  L1  L2/2, y 
+para la capa 4, zi  L1  L2  L3/2. Sin embargo, tenga en cuenta que no habrá aumento de 
+estrés en 1 capa de arcilla, ya que está por encima del plano horizontal (z  0), a partir del 
+cual se inicia la distribución del esfuerzo al suelo.
+ 4.  Calcular el asentamiento de cada capa causado por el aumento del esfuerzo:
+  
+                                                                                            
+(18.68)
+¢Sc(i)
+c
+¢e(i)
+1
+e0(i)
+d Hi
+  donde
+ 
+Sc(i)  asentamiento de consolidación de la capa i
+ 
+e(i)  cambio de la relación de vacíos causados  por el aumento del esfuerzo en la capa i
+ 
+eo(i)  relación de vacíos inicial de la capa i (antes de la construcción)
+ 
+Hi   espesor de la capa i (Nota: En la fi gura 18.28, para la capa 2, Hi  L1; para la capa 3, 
+Hi  L2, y para la capa 4, Hi  L3).
+  Las relaciones de e(i) se dan en el capítulo 9.
+ 5.  Calcular el asentamiento total de consolidación del grupo de pilotes como
+  
+Sc(g)
+a
+Sc(i)
+(18.69)
+Se debe tener en cuenta que el asentamiento de consolidación de los pilotes puede ser iniciado 
+por los rellenos colocados en las inmediaciones, cargas de pisos adyacentes y disminución de 
+los niveles freáticos.
+
+=== P7 PÁG 11 ===
+Capítulo 18: Pilotes de cimentación
+584
+Ejemplo 18.14
+En la fi gura 18.29 se muestra un grupo de pilotes en arcilla. Determine el asentamiento de 
+consolidación de los grupos de pilotes. Todas las arcillas están normalmente consolidadas.
+Solución
+Debido a que los pilotes son de 15 m de longitud cada uno, la distribución del esfuerzo co-
+mienza a una profundidad de 10 m por debajo de la parte superior del pilote. Se tiene Qg  
+2000 kN.
+Cálculo del asentamiento de la capa de arcilla 1
+Para arcillas normalmente consolidadas, 
+ ¢Sc(1)
+c
+Cc(1)H1
+1
+e0(1)
+d log c
+sœ
+o(1)
+¢sœ
+(1)
+sœ
+o(1)
+d
+Figura 18.28 Asentamiento de consolidación de un grupo de pilotes
+Capa de arcilla 1
+Capa de arcilla 1
+Nivel 
+freático
+Capa de arcilla 2
+Capa de arcilla 2
+Capa de arcilla 1
+Capa de arcilla 2
+Capa de arcilla 3
+Capa de arcilla 4
+Roca
+
+=== P7 PÁG 12 ===
+18.18 Asentamiento de consolidación de un grupo de pilotes
+585
+ 
+Por lo tanto,
+0.1624 m 
+162.4 mm
+¢Sc(1)
+c (0.3)(7)
+1
+0.82 d log c 134.8
+51.6
+134.8
+d
+ sœ
+o(1)
+2(16.2)
+12.5(18.0
+9.81)
+134.8 kN/m2
+ ¢sœ
+(1)
+Qg
+(Lg
+z1)(Bg
+z1)
+2000
+(3.3
+3.5)(2.2
+3.5)
+51.6 kN/m2
+Asentamiento de la capa 2
+ ¢sœ
+(2)
+2000
+(3.3
+9)(2.2
+9)
+14.52 kN/m2
+ sœ
+o(2)
+2(16.2)
+16(18.0
+9.81)
+2(18.9
+9.81)
+181.62 kN/m2
+ ¢Sc(2)
+c
+Cc(2)H2
+1
+eo(2)
+d log c
+sœ
+o(2)
+¢sœ
+(2)
+sœ
+o(2)
+d
+Arena
+Nivel
+freático
+Grupo 
+de
+pilotes
+Arcilla
+Roca
+Grupo de pilotes 
+(No a escala)
+Figura 18.29 
+
+=== P7 PÁG 13 ===
+Capítulo 18: Pilotes de cimentación
+586
+Por lo tanto, 
+0.0157 m 
+15.7 mm
+¢Sc(2)
+c (0.2)(4)
+1
+0.7 d log c 181.62
+14.52
+181.62
+d
+Asentamiento de la capa 3 
+ ¢Sc(3)
+c (0.25)(2)
+1
+0.75 d logc 208.99
+9.2
+208.99
+d
+0.0054 m
+5.4 mm
+ ¢sœ
+(3)
+2000
+(3.3
+12)(2.2
+12)
+9.2 kN/m2
+ sœ
+o(3)
+181.62
+2(18.9
+9.81)
+1(19
+9.81)
+208.99 kN/m2
+Por lo tanto, el asentamiento total es
+Sc(g)
+162.4 
+15.7 
+5.4 
+183.5 mm
+18.19  Resumen
+A continuación se presenta un resumen de los temas importantes tratados en este capítulo.
+ 1.  Dependiendo de la carga estructural, las condiciones ambientales y la profundidad de 
+penetración necesaria, los pilotes pueden estar hechos de acero, concreto y madera. En 
+ciertas circunstancias, también se utilizan los pilotes compuestos.
+ 2.  Los pilotes de carga puntual transmiten la mayor parte de la carga estructural hasta la 
+roca madre o línea de material rocoso ubicada a una profundidad razonable.
+ 3.  En pilotes de fricción, la mayor parte de la carga estructural es soportada por la 
+resistencia a la fricción en la interfaz pilote-suelo.
+ 4.  Dependiendo de la naturaleza de la colocación, los pilotes pueden ser clasifi cados como 
+pilotes con o sin desplazamiento.
+ 5.  En suelos granulares, la resistencia en la punta [ecuaciones (18.13) y (18.14)]
+ 
+Qp
+Apq¿N*
+q  
+  50N*
+q tan f
+  En arcillas saturadas [ecuación (18.16)]
+ 
+Qp
+9cuAp
+ 6.  En suelos granulares, la resistencia a la fricción [ecuaciones (18.17) y (18.18)],
+ 
+Qs
+p
+Lf
+(p)( L)(K
+o tan 
+)
+  La profundidad crítica hasta el esfuerzo efectivo vertical, s¿o, aumenta, es 
+aproximadamente 15D. Para L  15, s¿o permanece constante.
+ 7.  La resistencia superfi cial (Qs) en suelos cohesivos se puede determinar por los métodos a, 
+l y b [ecuaciones (18.25) a (18.34)].
+ 8.  El asentamiento elástico de los pilotes es la suma de la compresión del pilote, el 
+asentamiento causado por la carga soportada en la punta y el asentamiento causado por la 
+carga transmitida a lo largo del eje del pilote (sección 18.12).
+ 9.  La fricción superfi cial negativa es una fuerza de arrastre hacia abajo sobre el pilote 
+debido a la consolidación de las capas de arcilla.
+
+=== P7 PÁG 14 ===
+Problemas
+587
+ 10.  La efi ciencia (h) del grupo de pilotes es [ecuación (18.59)]
+  
+h
+Qu(g)
+©Qu
+  Para pilotes clavados en arena, cuando la separación de centro a centro del pilote (d) es 
+igual o superior a 3D (D  diámetro del pilote), el valor de h puede tomarse como 1. 
+Para pilotes excavados en la arena, cuando d < 3D, el valor de h es cerca de 2/3 a 3/4.
+ 11.  La capacidad de grupo para pilotes en arcilla debe ser estimada para las dos condiciones 
+siguientes: (a) los pilotes podrán actuar individualmente, por lo que Qg  
+Qu, y (b) los 
+pilotes agrupados pueden actuar como un bloque con dimensiones de Lg  Bg  L [ver 
+ecuación (18.61)]. El menor de los dos valores estimados arriba es la capacidad de grupo.
+Problemas
+18.1  Un pilote de concreto tiene 12 m de largo y 356 mm  356 mm de sección transversal. El 
+pilote está completamente incrustado en la arena, por lo que g  17.5 kN/m3 y f  30°.
+a.  Calcule la carga última de la punta, Qp. [Utilice la ecuación (18.13).]
+b.   Determine la resistencia total a la fricción de K  1.3 y d¿  0.8 f¿. [Use las 
+ecuaciones (18.l7), (18.18) y (18.19).]
+18.2  Repita el problema 18.1 para g  18.4 kN/m3 y f¿  37°.
+18.3  Un pilote de tubería de tipo cerrado se muestra en la fi gura 18.30.
+a.  Encuentre el punto de carga última.
+b.  Determine la resistencia máxima a la fricción, Qs, usando K  1.4 y d¿  0.6 f¿.
+c.  Calcule la carga admisible del pilote; use FS  4.
+Figura 18.30
+3.05 m
+15.24 m
+3.05 m
+
+
+
+
+40°
+32°
+32°
+381 mm
+
+
+18.24 kN/m3
+15.72 kN/m3
+19.24 kN/m3
+Arena
+Nivel
+ freático
+Arena
+Arena
+
+=== P7 PÁG 15 ===
+Capítulo 18: Pilotes de cimentación
+588
+18.4  A continuación se presenta la variación del N60 con la profundidad en un depósito de 
+suelo granular. Un pilote de concreto de 9 m de largo (0.305 m  0.305 m en sección 
+transversal) es colocado y clavado completamente en la arena.
+ 
+ 
+Profundidad (m)
+N60
+1.5
+4
+3.0
+8
+4.5
+7
+6.0
+5
+7.5
+16
+9.0
+18
+10.5
+21
+11.0
+24
+12.5
+20
+14.0
+19
+ 
+ 
+ 
+ 
+ Estime la capacidad de carga admisible del pilote (Qadm). Utilice FS  4 y las 
+ecuaciones de Meyerhof [ecuaciones (18.15) y (18.20)].
+18.5  Un pilote de concreto de 15 m de largo con una sección transversal de 380 mm  380 
+mm está completamente incrustado en una capa de arcilla saturada. Para la arcilla, 
+gsat  18 kN/m3, f  0 y cu  80 kN/m2. Suponga que el nivel freático se encuentra 
+por debajo de la punta del pilote. Determine la carga admisible que el pilote puede 
+soportar (FS  3). Utilice el método a para estimar la resistencia de la superfi cie.
+18.6 Repita el problema 18.5 utilizando el método l para estimar la resistencia de la superfi cie.
+18.7  En la fi gura 18.31 se muestra un pilote de concreto con 381 mm  381 mm de sección 
+transversal. Calcule la resistencia máxima de la superfi cie utilizando cada uno de los 
+siguientes métodos:
+a. Método a 
+b. Método l 
+c.  Método b
+Utilice f¿R  25° para todas las arcillas, que están normalmente consolidadas.
+Figura 18.31
+6 
+32 
+78 
+2 
+Arcilla limosa
+Arcilla limosa
+Nivel freático
+381 mm
+
+=== P7 PÁG 16 ===
+Problemas 589
+18.8  Un pilote de acero (sección en H; HP 360  1.491; véase tabla 18.l) es clavado en una 
+capa de arenisca. La longitud del pilote es de 18.9 m. A continuación se presentan las 
+propiedades de la arenisca:
+ 
+ Resistencia a la compresión no confi nada  qu(laboratorio)  78.7 MN/m2
+ 
+Ángulo de fricción  36º
+ 
+ Usando un factor de seguridad de 3, estime la carga admisible de punta que puede ser 
+soportada por el pilote. Utilice la ecuación (18.39).
+18.9  Un pilote de concreto tiene 18 m de largo y una sección transversal de 405 mm  405 mm. 
+El pilote está incrustado en arena que tiene g  17.5 kN/m3 y f¿  36°. La carga de 
+trabajo admisible es de 650 kN. Si 450 kN son aportados por la resistencia a la fricción 
+y 200 kN desde el punto de carga, determine el asentamiento elástico del pilote. Aquí, 
+Ep  21  106 kN/m2, Es  28  103 kN/m2, mS  0.4 y z  0.6.
+18.10  Un pilote de acero (sección en H; HP 330  1.462; véase tabla 18.1) es clavado por un 
+martillo. La energía máxima estimada del martillo es de 50 kN-m, el peso del ariete es 
+de 58 kN y la longitud del pilote es de 25 m. También se dan los siguientes valores:
+•  Coefi ciente de restitución  0.3
+•  Peso del encepado  4.3 kN
+•  Efi ciencia del martillo  0.8
+•  Número de golpes en los últimos 25.4 mm de penetración  12
+•  Ep  207  106 kN/m2
+Estime la capacidad del pilote con la ecuación (18.52). Utilice FS  4.
+18.11  Resuelva el problema 18.10 usando la fórmula danesa [ecuación (18.53)]. Utilice FS  3.
+18.12  La fi gura 18.24a muestra un pilote. Sea L  20 m, D  450 mm, Hf  4 m, 
+gf  17.5 kN/m3, f¿llenado  25°. Determine la fuerza de resistencia total hacia abajo 
+del pilote. Suponga que el relleno se encuentra por encima del nivel freático y que 
+d¿  0.5f¿llenado.
+18.13  Consulte la fi gura 18.24b. Sea L  15.24 m, gllenado  17.29 kN/m3, gsat(arcilla)  
+19.49 kN/m3, f¿arcilla  20°, Hf  3.05 m y D  0.406 m. El nivel freático coincide con 
+la parte superior de la capa de arcilla. Determine la fricción total hacia abajo del pilote. 
+Suponga que d ¿  0.6f¿arcilla.
+18.14  En la fi gura 18.32 se muestra el plano de un grupo de pilotes. Suponga que los pilotes 
+se insertan en una arcilla homogénea saturada que tiene cu  80 kN/m2. Para los 
+pilotes, D  356 mm, separación de centro a centro  850 mm y L  22 m. Encuentre 
+la capacidad de carga admisible del grupo de pilotes. Utilice FS  3.
+Figura 18.32
+
+=== P7 PÁG 17 ===
+Figura 18.33 
+Figura 18.34
+Arcilla
+Arcilla
+Arcilla
+20
+18
+19
+3
+0.24
+17
+15
+2500
+5
+0.35
+Nivel 
+freático
+Arena
+Arcilla normalmente consolidada
+Grupo
+de pilotes
+Arcilla normalmente consolidada
+Arcilla normalmente consolidada
+Roca
+
+=== P7 PÁG 18 ===
+Referencias
+591
+18.15  En la fi gura 18.33 se muestra la sección de un grupo de pilotes de 4  4 en una arcilla 
+saturada estratifi cada. Los pilotes son de sección cuadrada (356 mm  356 mm). La 
+separación de centro a centro de los pilotes, d, es de 850 mm. Suponiendo que el nivel 
+freático se encuentra a 3 m por debajo de la punta del pilote, determine la capacidad de 
+carga admisible del grupo de pilotes. Utilice FS  4.
+18.16  La fi gura 18.34 muestra un grupo de pilotes en arcilla. Determine el asentamiento de 
+consolidación del grupo.
+Referencias
+American Society of Civil Engineers (1959). “Timber Piles and Construction Timbers,” Manual of 
+Practice, No. 17, American Society of Civil Engineers, New York.
+Baligh, M. M., Vivatrat, V., and Pigi, H. (1978). “Downdrag on Bitumen-Coated Piles,” Journal of the 
+Geotechnical Engineering Division, American Society of Civil Engineers, Vol. 104, No. GT11, 
+1355–1370.
+Bowles, J. E. (1982). Foundation Design and Analysis, McGraw-Hill, New York.
+Davisson, M. T. (1973). “High Capacity Piles” in Innovations in Foundation Construction, Proceedings 
+of a Lecture Series, Illinois Section, American Society of Civil Engineers, Chicago.
+Goodman, R. E. (1980). Introduction to Rock Mechanics, Wiley, New York.
+Mcclelland, B. (1974). “Design of Deep Penetration Piles for Ocean Structures,” Journal of the Geo-
+technical Engineering Division, American Society of Civil Engineers, Vol. 100, No. GT7, 709–747.
+Meyerhof, G. G. (1976). “Bearing Capacity and Settlement of Pile Foundations,” Journal of the Geo-
+technical Engineering Division, American Society of Civil Engineers, Vol. 102, No. GT3, 197–228.
+Nottingham, L. C., and Schmertmann, J. H. (1975). An Investigation of Pile Capacity Design Proce-
+dures, Research Report No. D629, Department of Civil Engineering, University of Florida, Gaines-
+ville, FL.
+Vesic, A. S. (1977). Design of Pile Foundations, National Cooperative Highway Research Program Syn-
+thesis of Practice No. 42, Transportation Research Board, Washington, D.C.
+Vijayvergiya, V. N., and Focht, J. A., Jr. (1972). A New Way to Predict Capacity of Piles in Clay, 
+Offshore Technology Conference Paper 1718, Fourth Offshore Technology Conference, Houston.
+
+=== P7 PÁG 19 ===
+Capítulo 19: Pozos perforados
+592
+ 19.1  Introducción 
+Los pozos perforados son esencialmente pilotes de concreto vaciados in situ con diámetros 
+iguales o superiores a 750 mm, con o sin refuerzo de acero y con o sin fondo ampliado. El uso 
+en cimentaciones de pozos perforados tiene varias ventajas, algunas de las cuales se enumeran 
+a continuación.
+• Un solo pozo perforado puede ser utilizado en lugar de un grupo de pilotes y encepado.
+• La construcción de pozos perforados en depósitos de arena densa y grava es más fácil que 
+clavar pilotes.
+• Los pozos perforados se pueden construir antes de que concluyan las operaciones de nivelación.
+• Cuando los pilotes son clavados  por un martillo, la vibración del suelo puede causar daño a 
+las estructuras cercanas, lo que no ocurre con el uso de pozos perforados.
+• Los pilotes clavados en suelos arcillosos pueden producir agitación del suelo y provocar 
+que los pilotes clavados previamente se muevan en forma lateral. Esto no ocurre durante la 
+construcción de pozos perforados.
+• No hay ruido de martillo durante la construcción de pozos perforados, ya que sólo se pre-
+senta durante el clavado de pilotes.
+• Debido a que la base de un pozo perforado se puede agrandar, proporciona una gran resis-
+tencia al aumento de carga.
+• La superfi cie sobre la que se construye la base del pozo perforado puede ser inspeccionada 
+visualmente.
+• La construcción de pozos perforados generalmente utiliza un equipo móvil que, en condicio-
+nes adecuadas de suelo, puede llegar a ser más económico que los métodos de construcción 
+de pilotes.
+• Los pozos perforados tienen una alta resistencia a las cargas laterales.
+Existen también varios inconvenientes en la utilización de la construcción de pozos perfora-
+dos. La operación de vaciado puede ser retrasada por el mal tiempo y siempre necesita una estrecha 
+supervisión. También, como en el caso de los cortes apuntalados, las excavaciones profundas para 
+pozos perforados pueden causar la pérdida considerable de terreno y daño a las estructuras cercanas.
+C A P Í T U L O 19
+Pozos perforados
+592
+
+=== P7 PÁG 20 ===
+19.3 Procedimientos de construcción
+593
+En este capítulo se discutirán los procedimientos de construcción y la estimación de las 
+capacidades última y admisible de carga (con base en la consideración del asentamiento) de los 
+pozos perforados.
+19.2  Tipos de pozos perforados
+Los pozos perforados se clasifi can de acuerdo con la forma en que están diseñados para transferir 
+la carga estructural al sustrato. La fi gura 19.1a muestra un pozo perforado que tiene un eje recto. 
+Se extiende a través de la(s) capa(s) superior(es) de un suelo pobre y su punta se apoya sobre una 
+sólida capa de suelo o roca. El pozo puede ser revestido con una carcasa de acero o tubería cuando 
+sea necesario (como en el caso del revestimiento de los pilotes de concreto vaciado en el lugar). 
+Para tales pozos, la resistencia a la carga aplicada puede desarrollarse a partir del extremo de apo-
+yo y también de la fricción lateral en el perímetro del eje y la interfaz de suelo.
+Un pozo perforado con campana (fi guras 19.1b y c) se compone de un pozo recto con 
+una campana en la parte inferior, que se apoya en buena tierra de soporte. La campana puede 
+construirse en la forma de una cúpula (fi gura 19.1b) o puede estar en ángulo (fi gura 19.1c). Para 
+campanas en ángulo, las herramientas de ensanchamiento disponibles en el mercado pueden 
+hacer ángulos de 30º a 45º con la vertical.
+Los pozos rectos también pueden extenderse en una capa de roca subyacente (fi gura 
+19.1d). En el cálculo de la capacidad de carga de este tipo de pozos perforados, los ingenieros 
+tienen en cuenta la resistencia de punta y el esfuerzo cortante desarrollado a lo largo del perí-
+metro del eje y la interfaz de roca.
+19.3  Procedimientos de construcción
+El procedimiento de construcción más común usado en Estados Unidos implica la perforación 
+rotatoria. Hay tres tipos principales de métodos de construcción, que pueden clasifi carse como: 
+(a) método en seco, (b) método con carcasa y (c) método húmedo. A continuación se da una 
+breve descripción de cada método.
+Figura 19.1 Tipos de pozos perforados: (a) pozo recto; (b) y (c) pozos con campana; (d) pozos rectos 
+encajados en la roca
+Suelo 
+blando
+Suelo
+ blando
+Roca o
+ suelo duro
+Roca
+a
+Buen
+suelo de apoyo o suelo
+con buena capacidad
+ portante
+(b)
+Buen
+suelo de apoyo o suelo
+con buena capacidad
+ portante
+(c)
+o
+
+=== P7 PÁG 21 ===
+Capítulo 19: Pozos perforados
+594
+Método de construcción en seco
+Este método se emplea en suelos y rocas que están por encima del nivel freático y no cederán 
+cuando el agujero se taladra hasta la profundidad total. La secuencia de la construcción, como 
+se muestra en la fi gura 19.2, es la siguiente:
+ 1.  Se completa la excavación (acampanada si se desea) utilizando herramientas de 
+perforación adecuadas y los escombros se depositan en las inmediaciones (fi gura 19.2a).
+ 2.  A continuación se vierte el concreto en el orifi cio cilíndrico (fi gura 19.2b).
+ 3.  Si se desea, se coloca una jaula de barras de refuerzo sólo en la parte superior del pozo 
+(fi gura 19.2c).
+ 4.  El vaciado se completa y el pozo perforado será como se muestra en la fi gura 19.2d. 
+La fi gura 19.3 muestra el equipo de perforación para la construcción de un pozo en el cam-
+po. La fi gura 19.4 muestra el vertido del concreto con la jaula de barras de refuerzo en su lugar.
+Método de construcción con carcasa
+Este método se utiliza en suelos o rocas en los que es probable que ocurran derrumbes o defor-
+mación excesiva cuando se excava el pozo. La secuencia de construcción se muestra en la fi gura 
+19.5 y se puede explicar de la siguiente manera:
+Figura 19.2 Método de construcción en seco: (a) inicio de la perforación; (b) vaciado del concreto; 
+(c) colocación de la jaula de refuerzo; (d) terminación del pozo (Después de O’Neill y Reese, 1999)
+Suelo competente,
+sin derrumbes
+(d)
+Suelo competente,
+sin derrumbes
+(a)
+(b)
+(c)
+Suelo competente,
+sin derrumbes
+Surface
+casing, if 
+required
+Suelo competente,
+sin derrumbes
+Conducto de
+vaciado
+Revestimiento 
+superficial
+ (si es necesario)
+
+=== P7 PÁG 22 ===
+19.3 Procedimientos de construcción
+595
+ 1.  Se inicia el procedimiento de excavación, como en el caso del método de construcción en 
+seco descrito anteriormente (fi gura 19.5a).
+ 2.  Cuando se encuentran cavidades en el suelo, se introduce en el pozo una suspensión de 
+bentonita (fi gura 19.5b). La perforación se continúa hasta que la excavación va más allá 
+del suelo cavernoso y se encuentra una capa de suelo impermeable o roca.
+ 3.  Entonces se  introduce en el orifi cio una carcasa (fi gura 19.5c).
+ 4.  La suspensión es extraída de la carcasa usando una bomba sumergible (fi gura 19.5d).
+ 5.  Se  introduce en el agujero un taladro más pequeño que puede pasar a través de la carcasa 
+y se continúa la excavación (fi gura 19.5e).
+ 6.  A continuación, si es necesario, la base del agujero excavado se puede ampliar con el uso 
+de un ensanchador (fi gura 19.5f).
+ 7.  Si se necesita acero de refuerzo, la jaula de barras de refuerzo debe extenderse a toda 
+la longitud de la excavación. A continuación se vierte el concreto en la excavación y la 
+carcasa es retirada gradualmente (fi gura 19.5g).
+ 8.  La fi gura 19.5h muestra el pozo perforado terminado.
+Figura 19.3 Perforación para la construcción de un pozo en el campo (Cortesía de Anand J. Puppala, 
+Universidad de Texas en Arlington, Arlington, Texas)
+
+=== P7 PÁG 23 ===
+Capítulo 19: Pozos perforados
+596
+Método de construcción húmedo
+Este método se conoce a veces como el método de desplazamiento de lechada, y se utiliza para 
+mantener el pozo abierto durante todo el proceso de la excavación (fi gura 19.6). Los siguientes 
+son los pasos a seguir en el método de construcción húmedo.
+ 1.  La excavación se continúa hasta la profundidad total con la lechada (fi gura 19.6a).
+ 2.  Si se requiere refuerzo, se coloca la jaula de barras de refuerzo en la lechada (fi gura 
+19.6b).
+ 3.  Se coloca entonces el concreto que desplazará el volumen de lechada en el agujero de 
+perforación (fi gura 19.6c).
+ 4.  La fi gura 19.6d muestra el pozo perforado terminado.
+19.4  Estimación de la capacidad de soporte de carga
+La carga última de pozo perforado (fi gura 19.7) es
+Qu
+Qp
+Qs
+(19.1)
+donde
+ 
+Qu  carga última
+ 
+Qp  capacidad de carga máxima en la base
+ 
+Qs  resistencia a la fricción (superfi cial) 
+Figura 19.4 Vertido del concreto con la jaula de barras de refuerzo en su lugar (Cortesía de Anand J. 
+Puppala, Universidad de Texas en Arlington, Arlington, Texas)
+
+=== P7 PÁG 24 ===
+19.4 Estimación de la capacidad de soporte de carga
+597
+Figura 19.5 Método de construcción con carcasa: (a) inicio de la perforación, (b) perforación con lechada, (c) introducción de la carcasa, (d) la carcasa se  
+cierra herméticamente y se extrae la lechada desde el interior de la carcasa, (e) perforación por debajo de la carcasa, (f) ensanchamiento, (g) eliminación de 
+carcasa, (h) pozo terminado (Después de O’Neill y Reese, 1999)
+(c)
+(d)
+(a)
+Lechada
+(b)
+(e)
+(f)
+(g)
+(h)
+Suelo cohesivo
+Suelo cohesivo
+Suelo cohesivo
+Suelo cohesivo
+Suelo cohesivo
+Suelo cohesivo
+Suelo cohesivo
+Suelo cavernoso
+Suelo cavernoso
+Suelo cavernoso
+Suelo cavernoso
+Suelo competente
+Suelo competente
+Suelo competente
+Suelo competente
+Suelo competente
+Suelo competente
+Suelo competente
+Suelo competente
+Nivel del fluido
+ de concreto
+Lechada 
+extraída del
+ espacio entre
+ la carcasa y
+ el suelo
+Suelo cavernoso
+Suelo cavernoso
+Suelo cavernoso
+Suelo cavernoso
+Suelo cohesivo
+
+=== P7 PÁG 25 ===
+Capítulo 19: Pozos perforados
+598
+La ecuación para la carga última de la base es similar a la de cimentaciones superfi ciales 
+y se puede expresar como:
+(19.2)
+Qp
+Ap a c¿NcFcsFcdFcc
+q¿NqFqsFqdFqc
+1
+2 g¿NgFgsFgdFgcb
+donde
+ 
+c¿  cohesión
+ 
+Nc, Nq, Ng  factores de capacidad de soporte
+ Fcs, Fqs, Fgs  factores de forma
+ Fcd, Fqd, Fgd  factores de profundidad
+ Fcc, Fqc, Fgc  factores de compresibilidad
+ 
+g¿  peso unitario efectivo de suelo en la base del pozo
+ 
+q¿  esfuerzo efectivo vertical en la base del pozo
+ 
+Ap  área de la base 
+p
+4 Db 
+2
+Figura 19.6 Método de construcción húmedo: (a) perforación de la profundidad completa con lechada; 
+(b) colocación de la jaula de refuerzo; (c) vaciado del concreto; (d) pozo terminado (Después de O’Neill 
+y Reese, 1999)
+(a)
+(b)
+(c)
+(d)
+Suelo cohesivo
+Suelo cohesivo
+Suelo cohesivo
+Suelo cohesivo
+Suelo cavernoso
+Suelo cavernoso
+Suelo cavernoso
+Suelo cavernoso
+Lechada
+Sumidero
+
+=== P7 PÁG 26 ===
+19.5 Pozos perforados en arena: carga última neta 599
+En la mayoría de casos, el último término (el que contiene a Ng) es despreciado, excepto 
+en el caso de un pozo relativamente corto. Con este supuesto, podemos escribir
+(19.3)
+Qu
+Ap (c¿NcFcsFcdFcc
+q¿NqFqsFqdFqc)
+Qs
+La expresión de la resistencia a la fricción o superfi cial, Qs, es similar a la de los pilotes:
+Qs 
+L1
+0
+pf dz
+donde
+ 
+p  perímetro del eje  pDs
+ 
+f  resistencia unitaria a la fricción (o superfi cial) 
+19.5  Pozos perforados en arena: carga última neta
+Estimación de Qp
+Para un pozo perforado con su base situada en un suelo granular (es decir, c¿  0), la capacidad 
+última neta de carga en la base puede obtenerse a partir de la ecuación (19.3) como
+(19.4)
+Qp(neta)
+Ap[q (Nq
+1)Fqs Fqd Fqc]
+Figura 19.7 Capacidad última de carga de pozos perforados: (a) con campana; (b) pozo recto
+Suelo
+Suelo
+
+=== P7 PÁG 27 ===
+Capítulo 19: Pozos perforados
+600
+El factor de capacidad de carga, Nq, para varios ángulos de fricción del suelo (f¿) se puede 
+tomar de la tabla 16.2. También se da en la tabla 19.1. Además,
+(19.5)
+(19.6)
+radián
+(19.7)
+C
+2 tan f¿(1
+sen f¿)2
+u
+Fqd
+1
+C tan
+1a L
+Db
+b
+Fqs
+1
+tan f
+Las variaciones de Fqs y C con f¿ se dan en la tabla 19.1.
+De acuerdo con Chen y Kulhawy (1994), Fqc se puede calcular de la siguiente manera.
+ 
+Paso 1.  Calcular el índice de rigidez como crítico
+ 
+ 
+(19.8)
+Icr
+0.5 exp c2.85 cot a 45
+f¿
+2 b d
+ 
+ donde Icr  índice de rigidez crítica (véase tabla 19.1)
+ 
+Paso 2.  Calcular el índice de rigidez reducida como
+ 
+ 
+(19.9)
+Irr
+Ir
+1
+Ir¢
+Nq
+Fqs
+C
+lcr
+s
+n
+(grados) 
+(Tabla 16.2) 
+(Ec. 19.5) 
+(Ec. 19.5) 
+(Ec. 19.8) 
+(Ec. 19.12) 
+Ec. 19.14)
+25
+10.66
+1.466
+0.311
+43.84
+0.100
+0.00500
+26
+11.85
+1.488
+0.308
+47.84
+0.115
+0.00475
+27
+13.20
+1.510
+0.304
+52.33
+0.130
+0.00450
+28
+14.72
+1.532
+0.299
+57.40
+0.145
+0.00425
+29
+16.44
+1.554
+0.294
+63.13
+0.160
+0.00400
+30
+18.40
+1.577
+0.289
+69.63
+0.175
+0.00375
+31
+20.63
+1.601
+0.283
+77.03
+0.190
+0.00350
+32
+23.18
+1.625
+0.276
+85.49
+0.205
+0.00325
+33
+26.09
+1.649
+0.269
+95.19
+0.220
+0.00300
+34
+29.44
+1.675
+0.262
+106.37
+0.235
+0.00275
+35
+33.30
+1.700
+0.255
+119.30
+0.250
+0.00250
+36
+37.75
+1.727
+0.247
+134.33
+0.265
+0.00225
+37
+42.92
+1.754
+0.239
+151.88
+0.280
+0.00200
+38
+48.93
+1.781
+0.231
+172.47
+0.295
+0.00175
+39
+55.96
+1.810
+0.223
+196.76
+0.310
+0.00150
+40
+64.20
+1.839
+0.214
+225.59
+0.325
+0.00125
+41
+73.90
+1.869
+0.206
+259.98
+0.340
+0.00100
+42
+85.38
+1.900
+0.197
+301.29
+0.355
+0.00075
+43
+99.02
+1.933
+0.189
+351.22
+0.370
+0.00050
+44
+115.31
+1.966
+0.180
+412.00
+0.385
+0.00025
+45
+134.88
+2.000
+0.172
+486.56
+0.400
+0.00000
+Nq, Fqs, C, Icr,
+s y n con
+Tabla 19.1  Variación de 
+Ángulo
+de fricción
+ del suelo, F¿
+
+=== P7 PÁG 28 ===
+19.5 Pozos perforados en arena: carga última neta
+601
+ 
+ donde 
+ 
+Ir  índice de rigidez del suelo  
+(19.10)
+Es
+2(1
+ms)q¿ tan f¿
+ 
+ en la que
+ 
+Es  módulo de elasticidad drenada del suelo  mpa 
+(19.11)
+ 
+pa  presión atmosférica (< 100 kN/m2)
+ 
+ 
+ 
+ 
+m
+•
+100 a 200 (suelo suelto)
+200 a 500 (suelo de densidad media)
+500 a 1000 (suelo denso)
+ 
+ 
+ 
+ms  coefi ciente de Poisson del suelo  0.1
+0.3 a f¿
+25
+20
+b
+ 
+ 
+(para  25º 
+45º) (véase tabla 16.1)
+(19.12)
+ 
+ 
+(19.13)
+(19.14)
+n
+0.005 a 1
+f¿
+25
+20
+b    (véase tabla 19.1)
+¢
+n q
+pa
+ 
+Paso 3.  Si Irr  Icr, entonces
+ 
+ 
+Fqc
+)
+5
+1.9
+1
+(
+1
+ 
+ Sin embargo, si Irr  Icr, entonces
+ 
+ 
+(19.16)
+Fqc
+exp e (1
+3.8 tan f¿)
+c (3.07 sen f¿)(log10 2Irr)
+1
+sen f¿
+d f
+La magnitud de Qp(neta) se puede estimar razonablemente de una relación basada en el análisis 
+de Berezantzev et al. (1961), que se puede expresar como
+(19.17)
+Qp(neta)
+Apq (vN*q
+1)
+donde
+0.21e0.17
+(Nota:
+)
+8
+1.9
+1
+(
+)
+ 
+está en grados
+factor de corrección 
+véase figura 19.8
+f  a L
+Db
+b ;
+N*q
+Estimación de Qs 
+La resistencia a la fricción en la carga última, Qs, desarrollada en un pozo perforado puede 
+calcularse a partir de la relación dada en la sección 19.4, en la cual
+ 
+p  perímetro del pozo  pDs
+ 
+f  resistencia unitaria a la fricción (o superfi cial)  Ks¿o tan d¿ 
+(19.19)
+
+=== P7 PÁG 29 ===
+Capítulo 19: Pozos perforados
+602
+donde 
+ 
+K  coefi ciente de presión de tierra < Ko  1 – sen f¿
+ 
+s¿o  esfuerzo efectivo vertical a cualquier profundidad z
+Por lo tanto,
+(19.20)
+Qs 
+L1
+0
+pf  dz
+pDs(1
+sen f¿)
+L1
+0
+sœ
+o tan d¿ dz
+El valor de s¿o se incrementa a una profundidad aproximada de 15Ds y después de eso puede 
+permanecer constante, como se muestra en la fi gura 18.13.
+Carga neta admisible Qadm(neta)
+Se debe aplicar un factor de seguridad adecuado a la carga última para obtener la carga admi-
+sible neta, o
+(19.21)
+Qadm(neta)
+Qp(neta)
+Qs
+FS
+Figura 19.8 Variación de Ȧ con f¿ y L/Db 
+Ángulo de fricción del suelo,
+(grados)
+
+=== P7 PÁG 30 ===
+19.6 Pozos perforados en arcilla: carga última neta
+603
+19.6  Pozos perforados en arcilla: carga última neta
+Para arcillas saturadas con f  0, el factor de capacidad de carga Nq en la ecuación (19.3) es 
+igual a la unidad. Por lo tanto, para este caso,
+Qp(neta) 
+ApcuNcFcsFcdFcc
+(19.22)
+donde cu  cohesión no drenada.
+Suponiendo que L  3Db, podemos reescribir la ecuación (19.22) como
+(19.23)
+Qp(neta)
+ApcuN*c
+donde
+ N*c  NcFcsFcdFcc  teniendo factor de capacidad  1.33 [(ln Ir)  1] 
+(19.24)
+ 
+Ir  índice de rigidez del suelo
+Para f  0 condiciones, Ir puede ser defi nido como
+(19.25)
+Ir
+Es
+3cu
+Es donde Es  módulo de elasticidad del suelo.
+O¿Neill y Reese (1999) presentaron una relación aproximada entre cu y Es/3cu. La tabla 
+19.2 proporciona los valores interpolados de esta relación.
+Para todos los propósitos prácticos, si cu es igual a o mayor que 100 kN/m2, la magnitud 
+de N*e es 9.
+La expresión para la resistencia de la superfi cie de pozos perforados en arcilla es similar 
+a la ecuación (18.28), o
+(19.26)
+Qs 
+a
+L
+L1
+L
+0
+a*cu p¢L
+donde p  perímetro de la sección transversal del pozo. El valor de Į* que puede ser utilizado 
+en la ecuación (19.26) no se ha establecido plenamente. Sin embargo, los resultados de las 
+pruebas de campo disponibles en este momento indican que Į* puede variar entre 1.0 y 0.3.
+cu
+cu
+(kN/m2
+m
+/
+N
+k
+(
+)
+2)
+25
+25
+125
+270
+50
+145
+150
+285
+75
+219
+175
+292
+100
+250
+200
+300
+Es
+3cu
+Es
+3cu
+Tabla 19.2   Variación aproximada de Es/3cu con cu
+(Interpolado de O’Neill y Reese, 1999) 
+
+=== P7 PÁG 31 ===
+Capítulo 19: Pozos perforados
+604
+Kulhawy y Jackson (1989) informaron los resultados de la prueba de campo de 106 pozos 
+perforados sin campana: 65 en levantamiento y 41 en compresión. La mejor correlación para la 
+magnitud de Į* obtenida a partir de estos resultados es
+(19.27)
+a*
+0.21
+0.25 a pa
+cu
+b
+1
+donde pa  presión atmosférica < 100 kN/m2 y cu está en kN/m2. Así, de manera conservadora, 
+se puede suponer que
+(19.28)
+a*
+0.4
+Ejemplo 19.1
+En la fi gura 19.9 se muestra un perfi l de suelo. Un pozo perforado de soporte puntual con 
+una campana se coloca en una capa de arena densa y grava. Determine la carga admisible 
+que el pozo perforado podría soportar. Utilice la ecuación (19.4) y un factor de seguridad de 4.
+Considere Ds  1 m y Db  1.75 m. Para la capa de arena densa, f¿  36°; Es  500pa. 
+Ignore la resistencia a la fricción del pozo.
+Solución
+Se tiene
+Qp(neta)
+Ap[q (Nq
+1)FqsFqdFqc]
+Qu
+16.2 kN/m3
+19.2 kN/m3
+36°
+1.75 m
+Arena suelta
+Arena densa
+r n
+n
+Arena densa
+a
+Figura 19.9
+
+=== P7 PÁG 32 ===
+19.6 Pozos perforados en arcilla: carga última neta
+605
+y
+q
+(6)(16.2)
+(2)(19.2)
+135.6 kN/m2
+Para f¿  36º, de la tabla 19.1, Nq  37.75. Además, 
+Fqs
+1.727
+y
+ 
+1
+0.247 tan
+1a
+8
+1.75 b
+1.335
+ Fqd
+1
+C tan
+1 a L
+Db
+b
+De la ecuación (19.8),
+ Icr
+0.5 exp c 2.85 cot a45
+f¿
+2 b d
+134.3     (Vea tabla 19.1)
+De la ecuación (19.11), Es  mpa. Con m  500, se tiene
+Es  (500)(100)  50 000 kN/m2
+De la ecuación 19.12 y la tabla 19.1, 
+s
+0.265
+Por lo tanto,
+Ir
+Es
+2(1
+ms)(q )(tan f )
+50 000
+2(1
+0.265)(135.6)(tan 36)
+200.6
+De la ecuación (19.9)
+Irr
+Ir
+1
+Ir¢
+con
+¢
+nq¿
+pa
+0.00225 a 135.6
+100 b
+0.0031
+resulta que
+Irr
+200.6
+1
+(200.6)(0.0031)
+123.7
+Irr es menor que Icr. Por lo tanto, de la ecuación (19.16)
+ 
+exp e (
+3.8 tan 36)
+c (3.07 sen 36) log(2
+123.7)
+1
+ sen 36
+d f
+0.958
+ Fqc
+exp e (
+3.8 tan f¿)
+c (3.07) sen f¿)(log 10 2Irr)
+1
+sen f¿
+d f
+
+=== P7 PÁG 33 ===
+Capítulo 19: Pozos perforados
+606
+Por lo tanto, 
+y
+Qp(adm)
+Qp(neta)
+FS
+26 474
+4
+6619 kN
+Qp(neta)
+c a p
+4 b (1.75)2 d (135.6)(37.75
+1)(1.727)(1.335)(0.958)
+26 474 kN
+   
+Ejemplo 19.2
+Resuelva el ejemplo 19.1 utilizando la ecuación (19.17).
+Solución
+La ecuación (19.17) indica que
+Qp(neta)
+Apq ( Nq*
+1)
+De la ecuación (19.18) se tiene
+0.21e0.17
+0.21e(0.17)(36)
+95.52
+y
+L
+Db
+8
+1.75
+4.57
+Nq*
+De la fi gura 19.8; para f¿  36º y L/Db  4.57, el valor de v es alrededor de 0.83. Por lo tanto,
+y
+Qp(adm)
+25 532
+4
+6383 kN
+Qp(neta)
+c a p
+4 b (1.75)2 d (135.6)[(0.83)(95.52)
+1]
+25 532 kN
+Ejemplo 19.3
+La fi gura 19.10 muestra un pozo perforado sin una campana. Aquí, L1  8 m, L2  3 m, 
+Ds  1.5 m, cu(1)  50 kN/m2 y cu(2)  105 kN/m2. Determine
+a.  La capacidad última de carga neta en la punta 
+b.  La resistencia última superfi cial
+c.  La carga de trabajo, Qw (FS  3)
+Utilice las ecuaciones (19.23), (19.26) y (19.28).
+Solución
+Inciso a
+De la ecuación (19.23)
+Qp(neta)
+Apcu(2) Nc*
+Apcu(2)Nc*
+c a p
+4 b (1.5)2d (105)(9)
+1670 kN
+(Nota: Ya que cu(2)pa > 1, N*c < 9.)
+
+=== P7 PÁG 34 ===
+19.8 Capacidad de soporte de carga basada en el asentamiento
+607
+L1
+Ds
+Arcilla
+Arcilla
+cu (1)
+cu (2)
+L2
+Figura 19.10 Pozo de perforación sin una campana
+Inciso b
+De la ecuación (19.26)
+Qs
+ga*cup¢L
+De la ecuación (19.28)
+ p
+pDs
+(3.14)(1.5)
+4.71 m
+ a*
+0.4
+y 
+Qs
+(0.4)(4.71)[(50
+8)
+(105
+3)]
+1347 kN
+Inciso c
+Qw
+Qp (neta)
+Qs
+FS
+1670
+1347
+3
+1005.7 kN
+19.7  Asentamiento de pozos perforados
+El asentamiento de los pilotes perforados con carga de trabajo se calcula de manera similar a 
+la descrita en la sección 18.12. En muchos casos, la carga soportada por la resistencia del pozo 
+es pequeña en comparación con la carga soportada en la base. En tales casos, la contribución 
+de Se(3) puede ser ignorada. Se debe tener en cuenta que, en las ecuaciones (18.43) y (18.44), el 
+término D debe ser sustituido por Db para pozos.
+19.8   Capacidad de soporte de carga basada en 
+el asentamiento
+Apoyándose en una base de datos de 41 pruebas de carga, Reese y O¿Neill (1989) propusieron 
+un método para calcular la capacidad de carga de pozos perforados. El método es aplicable a
+los siguientes rangos:
+
+=== P7 PÁG 35 ===
+Capítulo 19: Pozos perforados
+608
+ 1. Diámetro del pozo: Ds  0.52 a 1.2 m
+ 2. Profundidad de la campana: L  4.7 a 30.5 m
+ 3. cu  29-287 kN/m2
+ 4. Resistencia a la penetración de campo estándar: N60  5 a 60
+ 5. Relación de sobreconsolidación: 2 a 15
+ 6. Asentamiento del concreto: 100-225 mm
+Con referencia a la fi gura 19.11, el procedimiento de Reese y O¿Neill da como resultado
+(19.29)
+Qu
+a
+N
+i
+1
+ fip ¢Li
+qp Ap
+donde
+ 
+fi  última unidad de resistencia al cizallamiento en la capa i
+ 
+p  perímetro del pozo  pDs
+ 
+qp  resistencia unitaria en la punta 
+ 
+Ap  área de la base  ( /4)D2
+b
+Figura 19.11 Desarrollo de la ecuación (19.29)
+Zona sin aporte
+  (únicamente suelo cohesivo)
+Zonas sin aporte:
+longitud
+(únicamente suelo cohesivo)
+No se permite la transferencia
+lateral de carga en el 
+perímetro de la campana
+
+=== P7 PÁG 36 ===
+19.8 Capacidad de soporte de carga basada en el asentamiento 609
+A continuación se presentan las relaciones de determinación Qu en suelos cohesivos y granu-
+lares.
+Suelo cohesivo
+Sobre la base de la ecuación (19.29), tenemos
+(19.30)
+fi
+a*i cu(i)
+Se recomiendan los siguientes valores para a*i :
+ a*i    0 para la parte superior 1.5 m de diámetro y el fondo 1, Ds, del pozo perforado. 
+(Nota: Si Db  Ds, entonces a*  0 para 1 diámetro por encima de la parte supe-
+rior de la campana y de la zona periférica de la propia campana.)
+a*i   0.55 en otros lugares
+y
+(19.31)
+qp (kN/m2)
+6cub a1
+0.2 L
+Db
+b
+9cub
+3.83 MN/m2
+donde cub  cohesión no drenada promedio dentro de 2Db por debajo de la base (kN/m2).
+Si Db es grande, el asentamiento excesivo se producirá en la carga de rotura por unidad 
+de área, qp, dado por la ecuación (19.31). Por lo tanto, para Db  1.9 m, qp puede ser sustituido 
+por qpr, o
+(19.32)
+qpr
+Frqp
+donde
+Fr
+(19.33)
+1
+(19.34)
+2
+(19.35)
+c
+kN/m2
+7.787(cub)0.5  (0.5
+c2
+1.5)
+0.0071
+0.0021 a L
+Db
+b
+0.015
+2.5
+0.0254c1Db (m)
+c2
+1
+Si se requiere la capacidad de soporte de carga a un nivel limitado de asentamiento, entonces se 
+pueden utilizar las tablas 19.3 y 19.4 para el procedimiento que se describe a continuación. Los 
+valores indicados en estas tablas se basan en la curva promedio de las observaciones de campo 
+hechas por Reese y O¿Neill (1989).
+ 1.  Seleccionar un valor de asentamiento, Se.
+ 2.  Calcular a
+N
+i
+1 
+fip Li y qpAp, como se da en la ecuación (19.29).
+ 3.  Utilizar las tablas 19.3 y 19.4, así como los valores calculados en el paso 2, para 
+determinar la carga lateral y la carga de apoyo fi nal.
+ 4.  La suma de la carga lateral y la carga de apoyo fi nal es la carga aplicada total.
+
+=== P7 PÁG 37 ===
+Capítulo 19: Pozos perforados
+610
+Suelos no cohesivos
+Con base en la ecuación (19.29), se tiene
+(19.36)
+fi
+bsœ
+ozi
+donde
+esfuerzo efectivo vertical a la mitad de la capa i
+(19.37)
+zi
+profundidad a la mitad de la capa i (m)
+1.5
+0.244z0.5
+i  (0.25
+b
+1.2)
+sœ
+ozi
+Recientemente, Rollins et al. (2005) modifi caron la ecuación (19.37) para arenas gravo-
+sas como sigue:
+Para arena con 25 a 50% de grava:
+2.0 
+0.15zi0.75
+(0.25
+(19.38)
+1.8)
+Para arena con más de 50% de grava:
+3.4e
+0.085zi
+(0.25
+(19.39)
+3.0)
+Tabla 19.3  Transferencia normalizada de carga lateral con asentamiento para suelos cohesivos
+ (con base en la curva promedio)
+)
+%
+(
+)
+%
+(
+5
+9.0
+8.0
+0
+4
+9.0
+0.1
+8
+4.0
+2
+9.0
+2.1
+4
+7.0
+1
+9.0
+4.1
+6
+8.0
+9
+8.0
+6.1
+1
+9.0
+5
+8.0
+8.1
+5
+9.0
+2
+8.0
+0.2
+5
+5
+9.0
+0
+1.0
+2.0
+3.0
+4.0
+6.0
+7.0
+Transferencia de
+ carga lateral
+g f i p Li
+Asentamiento
+Ds
+Transferencia de
+ carga lateral
+g f i p Li
+Asentamiento
+Ds
+Tabla 19.4  Transferencia normalizada de carga sobre la base con asentamiento para suelos 
+  cohesivos (con base en la curva promedio)
+)
+%
+(
+)
+%
+(
+1
+5
+9.0
+0
+1
+7
+9.0
+3
+6
+3.0
+1
+7
+9.0
+8
+7
+5.0
+1
+7
+9.0
+1
+2
+7.0
+1
+7
+9.0
+4
+0
+8.0
+1
+7
+9.0
+3
+6
+8.0
+1
+7
+9.0
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+0.0
+1
+2
+0
+9.0
+0
+5.0
+0.1
+5.1
+0.2
+5.2
+0.3
+Carga final
+qp Ap
+Asentamiento
+Db
+Carga final
+qp Ap
+Asentamiento
+Db
+
+=== P7 PÁG 38 ===
+19.8 Capacidad de soporte de carga basada en el asentamiento
+611
+En las ecuaciones (19.38) y (19.39), z está en metros (m).
+La capacidad de carga en la punta es 
+(19.40)
+qp (kN/m2)
+57.5N60
+4.3 MN/m2
+donde N60  número promedio de penetración estándar sin corregir dentro de una distancia de 
+2Db por debajo de la base del pozo perforado.
+Al igual que en la ecuación (19.32), para el control del asentamiento excesivo la magnitud 
+de qp puede ser modifi cada de la siguiente manera:
+(para Db
+qpr
+1.27
+Db (m)
+ qp
+(19.41)
+1.27 m)
+Se pueden utilizar las tablas 19.5 y 19.6 para calcular la capacidad de carga basada en el 
+asentamiento. Las tablas 19.3 y 19.4 para la arcilla son similares.
+Tabla 19.5  Transferencia normalizada de carga lateral con asentamiento para suelos no cohesivos
+)
+%
+(
+)
+%
+(
+4
+7
+9.0
+0
+0
+7
+8
+9.0
+1
+7
+3.0
+1.0
+4
+7
+9.0
+0
+9
+5.0
+2.0
+8
+6
+9.0
+4
+4
+7.0
+3.0
+0
+6
+9.0
+6
+4
+8.0
+4.0
+0
+4
+9.0
+0
+1
+9.0
+5.0
+0
+2
+9.0
+8.0
+0.1
+2.1
+4.1
+6.1
+8.1
+0.2
+6
+3
+9.0
+6.0
+Asentamiento de 
+la carga lateral
+g f i p Li
+Asentamiento
+Ds
+Asentamiento de 
+la carga lateral
+g f i p Li
+Asentamiento
+Ds
+(con base en la curva promedio)
+Tabla 19.6  Transferencia normalizada de carga sobre la base con asentamiento para suelos
+)
+%
+(
+)
+%
+(
+0
+1.1
+6
+0
+0
+0
+2.1
+7
+2
+3.0
+1
+9
+2.1
+8
+6
+5.0
+2
+8
+3.1
+9
+3
+7.0
+3
+4
+4.1
+0
+1
+7
+8.0
+4
+5
+0.98
+Carga final
+qp Ap
+Asentamiento
+Db
+Carga final
+qp Ap
+Asentamiento
+Db
+no cohesivos (con base en la curva promedio)
+
+=== P7 PÁG 39 ===
+Capítulo 19: Pozos perforados
+612
+Ejemplo 19.4 
+En la fi gura 19.12 se muestra un pozo perforado en un suelo cohesivo. Utilice el procedi-
+miento descrito en esta sección para determinar:
+a.  La capacidad última de carga
+b.  La capacidad de carga para un asentamiento admisible de 12.7 mm
+Solución
+Inciso a
+De la ecuación (19.30), tenemos
+fi
+cu(i)
+a*i
+De la fi gura 19.12,
+ cu(2)
+57.5 kN/m2
+ cu(1)
+38 kN/m2
+ ¢L2
+(6.1
+3.66)
+Ds
+2.44
+0.76
+1.68 m
+ ¢L1
+3.66
+1.5
+2.16 m
+Arcilla
+Arcilla
+Arcilla
+Figura 19.12 
+
+=== P7 PÁG 40 ===
+19.8 Capacidad de soporte de carga basada en el asentamiento
+613
+Por lo tanto, 
+234.6 kN
+(0.55)(38)(p
+0.76)(2.16)
+(0.55)(57.5)(p
+0.76)(1.68)
+a fip ¢Li
+a a*i cu(i)p ¢Li
+De la ecuación (19.31), se tiene
+qp
+6cub a 1
+0.2 L
+Db
+b
+(6)(144)c 1
+0.2 a 6.1
+1.5
+1.22
+b d
+1940 kN/m2
+Comprobando:
+qp
+9cub
+(9)(144) 
+1296 kN/m2
+1940 kN/m2
+Así que, usando qp  1296 kN/m2:
+Por lo tanto, 
+Qu
+cu(i)p
+Li
+qpAp
+234.6 
+1515 
+1749.6 kN
+a
+ a*i
+qpAp
+qp a p
+4
+ D2
+b b
+(1296)c a p
+4 b(1.22)2 d
+1515 kN
+Inciso b
+Se tiene
+asentamiento admisible
+Ds
+12.7
+(0.76)(1000)
+0.0167
+1.67%
+De la tabla 19.3, para un asentamiento normalizado de 1.67%, la carga lateral normalizada 
+es aproximadamente 0.87. Por lo tanto, la carga lateral es
+Otra vez,
+asentamiento admisible
+Db
+12.7
+(1.22)(1000)
+0.0104
+1.04%
+(0.87) a a fip ¢Lib
+(0.87)(234.6)
+204.1 kN
+De la tabla 19.4, para un asentamiento normalizado de 1.04%, la carga fi nal normalizada es 
+aproximadamente 0.58. Así que la carga sobre la base es
+(0.58)(qpAp) 
+(0.58)(1515) 
+878.7 kN
+Por lo tanto, la carga total es
+Q
+204.1 
+878.7 
+1082.8 kN
+Ejemplo 19.5
+En la fi gura 19.13 se muestra un pozo perforado. El número estándar de penetración pro-
+medio sin corregir (N60) dentro de una distancia de 2Db por debajo de la base del eje es de 
+aproximadamente 30. Determine
+a.  La capacidad de carga última
+b.  La capacidad de carga de un asentamiento de 12 mm. Utilice la ecuación (19.38).
+
+=== P7 PÁG 41 ===
+Capítulo 19: Pozos perforados
+614
+Arena gravosa suelta
+Arena gravosa suelta
+Figura 19.13 Pozo perforado soportado por una densa capa de arena gravosa
+Solución
+Inciso a
+De las ecuaciones (19.36) y (19.38),
+fi
+ozi
+y
+2.0
+0.15z0.75
+Para este problema, zi  6/2  3 m, por lo tanto
+2
+(0.15)(3)0.75
+1.658
+y
+ozi
+zi
+(16)(3)
+48 kN/m2
+Por lo tanto,
+fi
+(48)(1.658)
+79.58 kN/m2
+y
+De la ecuación (19.40),
+qp
+57.5N60
+(57.5)(30)
+1725 kN/m2
+gfip¢Li
+(79.58)(p
+1)(6)
+1500 kN
+
+=== P7 PÁG 42 ===
+Problemas
+615
+Se debe considerar que Db es superior a 1.27 m. Así que se utiliza la ecuación (19.41).
+qpr
+a 1.27
+Db
+bqp
+a 1.27
+1.5 b (1725)
+1461 kN/m2
+Ahora,
+qprAp
+(1461)a p
+4
+1.52 b
+2582 kN
+Por lo tanto,
+Qu(neta)
+qprAp
+gfip¢Li
+2582
+1500
+4082 kN
+Inciso b
+Se tiene
+asentamiento admisible
+Ds
+12
+(1.0)(1000)
+0.12
+1.2%
+La tabla 19.5 muestra que para un asentamiento normalizado de 1.2%, la carga normalizada 
+es de unos 0.974. Por lo tanto, la transferencia de carga lateral es (0.974)(1.500) < 1461 kN. 
+Del mismo modo,
+asentamiento admisible
+Db
+12
+(1.5)(1000)
+0.008
+0.8%
+La tabla 19.6 indica que para un asentamiento normalizado de 0.8%, la carga base normali-
+zada es de aproximadamente 0.25. Así que la carga de base es (0.25)(2582)  645.5 kN. Por 
+lo tanto, la carga total es
+Q
+1461
+645.5
+2102 kN
+19.9  Resumen
+A continuación se presenta un resumen de los temas tratados en este capítulo:
+ 1.  Dependiendo de las condiciones del subsuelo, se pueden construir pozos perforados 
+usando el método en seco, el método de carcasa y el método húmedo.
+ 2.  La capacidad última de carga de pozos perforados en suelos granulares puede estimarse 
+a partir de las ecuaciones (19.4) y (19.20). Del mismo modo, para pozos en arcilla se 
+pueden utilizar las ecuaciones (19.23) y (19.26) para la estimación de la capacidad última 
+en arcilla (concepto f  0).
+ 3.  El método de O¿Neill y Reese (1989) es un procedimiento para la determinación de la 
+capacidad de soporte de carga sobre la base de consideraciones de solución.
+Problemas 
+19.1  En la fi gura 19.14 se muestra un pozo perforado. Para el pozo, L1  6 m, L2  3 m, 
+Ds  1.2 m y Db  2 m. Para el suelo, gc  15.6 kN/m3, cu  35 kN/m2, 
+gs  17.6 kN/m3 y f  35º. Determine la capacidad neta rodamiento punto permisible 
+(FS  3). Utilice la ecuación (19.17).
+19.2 Repita el problema 19.1 utilizando la ecuación (19.4) y Es  600 pa.
+
+=== P7 PÁG 43 ===
+Capítulo 19: Pozos perforados
+616
+19.3  Para el pozo perforado descrito en el problema 19.1, ¿qué resistencia superfi cial se 
+desarrollaría durante los primeros 6 m, que están en arcilla? Utilice las ecuaciones 
+(19.26) y (19.28).
+19.4  La fi gura 19.15 muestra un pozo perforado sin una campana. Aquí, L1  6 m, L2  7 m, 
+Ds  1.5 m, cu(1)  50 kN/m2 y cu(2)  75 kN/m2. Encuentre estos valores:
+a.  La capacidad última de carga en la punta. Utilice las ecuaciones (19.23) y (19.24)
+b. La resistencia última de la superfi cie. Utilice las ecuaciones (19.26) y (19.28)
+c. La carga de trabajo, Qw (FS  3)
+19.5  Para el pozo perforado descrito en el problema 19.4, estime el asentamiento elástico total 
+con la carga de trabajo. Utilice las ecuaciones (18.42), (18.44) y (18.45). Suponga que
+Figura 19.15
+Figura 19.14
+
+
+Arcilla limosa
+Arena
+Arcilla
+Arcilla
+
+=== P7 PÁG 44 ===
+Referencias
+617
+ 
+ Ep  20  106 kN/m2, ms  0.3, Es  12  103 kN/m2, j  0.65 y Cp  0.03. Asuma 
+80% en movilización de la resistencia de la superfi cie a la carga de trabajo. (Véase el 
+inciso c del problema 19.4.)
+19.6  Para el pozo perforado descrito en el problema 19.4, determine estos valores:
+a. La capacidad última de carga
+b.  La capacidad de carga de un asentamiento de 25 mm 
+Utilice el procedimiento que se describe en la sección 19.8.
+19.7  Consulte la fi gura 19.16, para la que L  6 m, L1  5 m, Ds  1.2 m, Db  1.7 m, 
+gs  15.7 kN/m3 y f¿  33º. El número de penetración estándar promedio sin corregir 
+dentro de 2Db por debajo de la base es 32. Determine estos valores:
+a. La capacidad última de carga
+b.  La capacidad de carga de un asentamiento de 12.7 mm 
+Utilice el procedimiento que se describe en la sección 19.6.
+Referencias
+Berezantzev, V. G., Khristoforov, V. S., and Golubkov, V. N. (1961). “Load Bearing Capacity and 
+Deformation of Piled Foundations,” Proceedings, Fifth International Conference on Soil Mecha-
+nics and Foundation Engineering, Paris, Vol. 2, 11–15.
+Chen,Y.-J., and Kulhawy, F. H. (1994). “Case History Evaluation of the Behavior of Drilled Shafts 
+under Axial and Lateral Loading,” Final Report, Project 1493-04, EPRITR-104601, Geotechnical 
+Group, Cornell University, Ithaca, NY, December.
+Kulhawy, F. H., and Jackson, C. S. (1989). “Some Observations on Undrained Side Resistance of Dri-
+lled Shafts,” Proceedings, Foundation Engineering: Current Principles and Practices, American 
+Society of Civil Engineers, Vol. 2, 1011–1025.
+Figura 19.16
+
+Arena media
+Densidad relativa
+
+=== P7 PÁG 45 ===
+Capítulo 19: Pozos perforados
+618
+O’neill, M. W., and Reese, L. C. (1999). Drilled Shafts: Construction Procedure and Design Methods, 
+FHWA Report No. IF-99–025.
+Reese, L. C., and O’neill, M. W. (1989). “New Design Method for Drilled Shafts from Common Soil and 
+Rock Tests,” Proceedings, Foundation Engineering: Current Principles and Practices, American 
+Society of Civil Engineers, Vol. 2, 1026–1039.
+Rollins, K. M., Clayton, R. J. Mikesell, R. C., and Blaise, B. C. (2005). “Drilled Shaft Side Friction 
+in Gravelly Soils,” Journal of Geotechnical and Geoenvironmental Engineering, American Society 
+of Civil Engineers, Vol. 131, No. 8, 987–1003.
+
+=== P7 PÁG 46 ===
+A.3 Geomalla
+619
+ A.1  Introducción
+Los geosintéticos son material polimérico no biodegradable utilizado en varios proyectos de 
+construcción por los ingenieros geotécnicos. En general, el término geosintéticos incluye:
+• Geotextil
+• Geomalla
+• Geomembrana
+• Georred
+• Geoespuma
+• Geocompuesto
+La tabla A.l proporciona una lista parcial de los materiales poliméricos utilizados para la fa-
+bricación de geosintéticos. En el capítulo l5 hemos discutido el uso de geotextiles y geomallas 
+para la construcción de muros de contención de tierra estabilizada mecánicamente (MSE). En 
+las secciones siguientes se da una breve descripción de varios tipos de geotextil y geomalla 
+disponibles comercialmente junto con sus propiedades de resistencia requerida para el diseño 
+de muros de contención.
+A P É N D I C E A
+Geosintéticos
+619
+Tabla A.1  Lista de algunos materiales poliméricos para la fabricación 
+de geosintéticos
+)
+C
+°( 
+Punto de fusión
+Gravedad específica
+l
+a
+ir
+e
+t
+a
+M
+0
+4
+1
+–
+0
+1
+1
+6
+9.0
+Polietileno
+0
+7
+1
+–
+0
+6
+1
+1
+9.0
+Polipropileno
+Poliéster  
+ 
+     1.22–1.38
+250–290
+Poliamida (nylon)
+1.05–1.14
+210–260
+
+=== P7 PÁG 47 ===
+Apéndice A: Geosintéticos
+620
+A.2  Geotextil
+Desde 1970, el uso de geotextil en la construcción se ha incrementado enormemente en todo el 
+mundo. El geotextil puede ser tejido, de punto o no tejido.
+Los geotextiles tejidos están hechos de dos conjuntos de fi lamentos o hebras de hilo entre-
+lazados sistemáticamente para formar una estructura plana paralela. Los geotextiles de punto se 
+forman por el empalme de una serie de lazos de uno o más fi lamentos o hebras de hilo para formar 
+una estructura plana. Los geotextiles no tejidos se forman a partir de fi lamentos o fi bras cortas dis-
+puestas en un modelo orientado al azar o en una estructura plana. Estos fi lamentos o fi bras cortas 
+se disponen en una banda suelta en el comienzo y luego se unen mediante uno o una combinación 
+de los siguientes procesos:
+ 1. Enlace químico: por pegamento, goma, látex, un derivado de celulosa o similar
+ 2. Enlace térmico: unión por calor para la fusión parcial de los fi lamentos
+ 3. Enlace mecánico: unión por punzonado 
+Los geotextiles punzonados no tejidos son gruesos y tienen una alta permeabilidad en el plano.
+Los geotextiles tienen cuatro usos principales en la ingeniería de cimentación:
+ 1. Drenaje: los tejidos pueden canalizar rápidamente agua del suelo a diversos puntos de 
+salida, proporcionando de este modo una mayor resistencia del suelo al corte y, por lo 
+tanto, estabilidad.
+ 2. Filtración: cuando se coloca entre dos capas de suelo, una de grano grueso y la otra de 
+grano fi no, el tejido permite la libre fi ltración de agua de una capa a la otra. Sin embargo, 
+«ste protege al suelo de grano fi no de ser lavado en el suelo de grano grueso.
+ 3. Separación: los geotextiles ayudan a mantener varias capas de suelo separadas después 
+de la construcción y durante el periodo de servicio previsto de la estructura. Por ejemplo, 
+en la construcción de carreteras un subsuelo arcilloso puede mantenerse separado de una 
+capa de base granular.
+ 4. Refuerzo: la resistencia a la tensión de los geotejidos aumenta la capacidad de soporte de 
+carga del suelo.
+La tabla A.2 proporciona un rango general de algunas propiedades de los geotextiles (Shukla, 
+2002).
+Tabla A.2  Rango general de algunas propiedades de los geotextiles
+Extensión a carga
+máxima (%)
+Masa por unidad
+ de área
+Resistencia a la
+tensión (kN/m)
+Tipo de
+geotextil
+m
+/
+g
+(
+ 
+2)
+No tejido
+Enlace térmico 
+ 
+        5–25
+20–60
+50–380
+Punzonamiento 
+ 
+      10–90
+30–80
+100–3000
+Tejido
+Monofilamento 
+ 
+      20–80
+20–40
+200–300
+Multifilamento 
+ 
+      50–1250
+10–35
+300–1500
+De punto
+0
+0
+3
+–
+0
+5
+1
+0
+0
+6
+–
+0
+0
+3
+5
+–
+2
+Trama
+0
+0
+0
+1
+–
+0
+5
+2
+0
+3
+–
+2
+1
+0
+0
+8
+–
+0
+2
+Torcido
+
+=== P7 PÁG 48 ===
+A.3 Geomalla
+621
+La resistencia a la tensión admisible para la construcción de un muro de contención se 
+puede expresar como (Koerner, 2005)
+(A.1)
+Tadm
+Túlt
+RFid
+RFcr
+RFcbd
+donde
+ 
+T¼lt  resistencia a la tensión
+ 
+RFid  factor de reducción de los daños de instalación
+ 
+RFcr  factor de reducción de la fl uencia
+ 
+RFcbd  factor de reducción de la degradación química y biológica
+Los valores recomendados del factor de reducción son los siguientes (Koerner, 2005)
+RFid
+1.1–2.0
+RFcr
+2–4
+RFcbd
+1–1.5
+Además, el ángulo de fricción entre el geotextil y la interfaz de suelo granular (f¿F) se puede 
+aproximar a partir de la siguiente tabla (Martin et al., 1984)
+Tipo de geotextil
+F/
+7
+8.0
+Tejido: monofilamento/arena concreta
+8.0
+Tejido: película de rendijas/arena concreta
+6
+8.0
+Tejido: película de rendijas/arena redondeada
+2
+9.0
+Tejido: película de rendijas/arena limosa
+7
+8.0
+No tejido: enlace fundido/arena concreta
+No tejido: punzonado/arena concreta 
+ 
+ 
+         1.0
+No tejido: punzonado/arena redondeada 
+ 
+         0.93
+1
+9.0
+No tejido: punzonado/arena limosa
+Nota:
+ es el ángulo de fricción del suelo granular
+A.3  Geomalla
+Las geomallas son materiales poliméricos de alto módulo, como el polipropileno y el polietile-
+no, y se preparan mediante estiramiento. Netlon, Ltd., del Reino Unido, fue el primer productor 
+de geomallas. En 1982, el Tensar Corporation, actualmente Tensar International Corporation, 
+presentó las geomallas en Estados Unidos.
+Las geomallas son generalmente de dos tipos: (a) uniaxial y (b) biaxial. Las fi guras A.1a 
+y b muestran estos dos tipos de geomallas.
+Las geomallas disponibles en el mercado pueden clasifi carse según el proceso de fabri-
+cación, principalmente: extrusión, tejido y por soldadura. Las geomallas extruidas se forman 
+utilizando una hoja gruesa de polietileno o polipropileno que se perfora y se estira para crear 
+aberturas y mejorar las propiedades de ingeniería de las costillas y los nodos resultantes. Las 
+geomallas tejidas se fabrican mediante agrupación polimérica, generalmente poliéster y po-
+lipropileno, y tejiendo en ellas un patrón de malla que se recubre con una laca polimérica. 
+Las geomallas soldadas se fabrican por la fusión de las uniones de bandas poliméricas. Las 
+
+=== P7 PÁG 49 ===
+Apéndice A: Geosintéticos
+622
+geomallas extruidas han mostrado un buen rendimiento en comparación con otros tipos para 
+aplicaciones de refuerzo de pavimento.
+Las geomallas comerciales actualmente disponibles para refuerzo de suelos tienen espe-
+sores de costilla nominal de aproximadamente 0.5 a 1.5 mm y uniones de entre 2.5 a 5 mm. Las 
+mallas utilizadas para el refuerzo del suelo por lo general tienen orifi cios o aberturas que son rec-
+tangulares o elípticas. Las dimensiones de las aberturas varían de aproximadamente 25 a 150 mm. 
+Las geomallas se fabrican de modo que las áreas abiertas de las rejillas sean mayores que 50% de la 
+superfi cie total. Desarrollan refuerzo de la capacidad a niveles bajos de deformación, como 2%.
+La función principal de las geomallas es el refuerzo. Son relativamente rígidas. Las abertu-
+ras son lo sufi cientemente grandes para permitir el entrelazado con el suelo o la roca circundante 
+(fi gura A.2) para realizar la función de refuerzo o de segregación (o ambas). Sarsby (1985) inves-
+tigó la infl uencia del tamaño de la abertura sobre el tamaño de partículas de suelo para la efi ciencia 
+Figura A.1 Geomallas: (a) uniaxial; (b) biaxial (Nota: 1, costilla longitudinal; 2, barra transversal; 
+3, costilla transversal; 4, unión)
+Figura A.2 Aberturas de geomalla permitiendo el entrelazado con el suelo circundante
+
+=== P7 PÁG 50 ===
+Referencias
+623
+de fricción máxima (o efi ciencia contra la retirada). De acuerdo con este estudio, la efi ciencia más 
+alta se produce cuando
+(A.2)
+BGG
+3.5D50
+donde
+ 
+BGG  anchura mínima de abertura de la geomalla
+ 
+D50   tamaño de partícula a través del cual pasa el 50% del material de relleno (es decir, 
+ 
+el tamaño de partícula mediana)
+La tabla A.3 proporciona el rango de algunas propiedades de la geomalla (Shukla, 2002).
+La resistencia a la tensión admisible Tadm de la geomalla para construcción de muros se 
+puede dar como (Koerner, 2005)
+(A.3)
+Tadm
+Túlt
+RFid
+RFcr
+RFcbd
+donde
+ 
+Túlt  resistencia última a la tensión
+ 
+RFid  factor de reducción de daños por instalación (1.1 a 1.4)
+ 
+RFcr  factor de reducción de la fl uencia (2.0 a 3.0)
+ RFcbd  factor de reducción de la degradación química y biológica (1.1 a 1.5)
+Referencias
+Koerner, R. M. (2005). Designing with Geosynthetics, 5th Edition, Prentice-Hall, New Jersey.
+Martin, J. P., Koerner, R. M., and Whitty, J. E. (1984). “Experimental Friction Evaluation of Slippage 
+between Geomembranes, Geotextiles, and Soils,” Proceedings, International Conference on 
+Geomechanics, Denver, 191–196.
+Sarsby, R. W. (1985). “The Infl uence of Aperture Size/Particle Size on the Effi ciency of Grid Reinforcement,” 
+Proceedings, 2nd Canadian Symposium on Geotextiles and Geomembranes, Edmonton, 7–12.
+Shukla, S. K. (2002). Geosynthetics and Their Applications, Thomas Telford, London.
+Tabla A.3  Rango general de algunas propiedades de la geomalla
+Extensión a carga
+máxima (%)
+m
+/
+g
+(
+)
+m
+/
+N
+k
+(
+2)
+Extruida  
+ 
+  10–200
+20–30
+200–1200
+Base textil
+De punto  
+              20–400
+5–20
+150–1200
+Tejida 
+ 
+                    20–250
+5–20
+150–1000
+Tipo de 
+geomalla 
+Masa por unidad
+  de área
+Resistencia
+ a la tensión
+
+=== P7 PÁG 51 ===
+Respuestas a problemas seleccionados
+624
+Respuestas a problemas 
+seleccionados
+624
+2.1
+b. D60
+0.4 mm, D30
+0.22 mm, D10
+0.12 mm
+c. 3.33
+d. 1.01
+2.3
+Cu
+7.54, Cc
+1.55
+2.5
+b. D60
+0.3 mm, D30 
+0.17 mm, D10
+0.11 mm
+c. 2.73
+d. 0.88
+2.7
+Grava–0%; Arena–46%; Limo–31%; Arcilla–23%
+2.9
+0.0052 mm
+3.1
+a. 114%
+b. 1778 kg/m3
+c. 1559.75 kg/m3
+d. 0.718
+e. 0.418
+3.3
+a. 18.07 kN/m3
+b. 16.28 kN/m3
+c. 0.626
+d. 0.385 
+e. 47.4%
+f. 0.001 m3
+3.5
+a. 0.69
+b. 2.16
+c. 16.54 kN/m3
+3.7
+a. 1.37 kN/m3
+b. 2.14 kN/m3 
+3.9
+18.88%
+3.11
+a. 0.81
+b. 2.66
+3.15
+17.13 kN/m3
+3.17
+17.28%
+Capítulo 2
+Capítulo 3
+
+=== P7 PÁG 52 ===
+Respuestas a problemas seleccionados
+625
+4.1
+Suelo
+1
+A-2-4(0)
+2
+A-6(l)
+3
+A-4(0)
+4
+A-6(9)
+5
+A-7-5(18)
+6
+A-6(7)
+7
+A-7-5(29)
+8
+A-7-6(13)
+9
+A-6(6)
+10
+A-2-6(0)
+5.1
+w (%)
+zav(kN/m3)
+5
+23.72
+8
+22.22
+10
+21.16
+12
+20.29
+15
+19.10
+5.3
+e
+0.358, S 
+94%
+5.5
+89.9%
+5.7
+B
+5.9
+a. 18.6 kN/m3
+b. 97.9%
+5.11
+49.1%
+6.1
+9.8 
+l0
+3 m3/hr/m
+6.3
+1.18 
+10
+2 cm/s
+6.5
+h
+43.03 cm, v 
+0.0212 cm/s 
+6.7
+8.54 
+l0
+15 m2
+6.9
+5.67 
+10
+2 cm/s
+6.11
+0.0108 cm/s
+6.13
+3.32
+7.1
+17.06 
+l0
+6 m3/m/s
+7.3
+2.42 
+l0
+5 m3/m/s
+8.1
+kN/m2
+Punto
+u
+A
+0
+0
+0
+B
+26.4
+0
+26.4
+C
+60.93
+17.95
+42.98
+D
+108.88
+41.89
+66.99
+Clasificación
+Capítulo 4
+Capítulo 5
+Capítulo 6
+Capítulo 7
+Capítulo 8
+
+=== P7 PÁG 53 ===
+Respuestas a problemas seleccionados
+626
+8.3
+kN/m2
+Punto
+u
+A
+0
+0
+0
+B
+45
+0
+45
+C
+109
+39.24
+69.76
+D
+199
+88.29
+110.71
+8.5
+kN/m2
+Punto
+u
+A
+0
+0
+0
+B
+65
+0
+65
+C
+126.95
+29.43
+97.52
+D
+153.94
+44.15
+109.79
+8.7
+5.89 kN/m3
+8.9
+e
+icr
+0.35
+1.23
+0.45
+1.14
+0.55
+1.07
+0.7
+0.98
+0.8
+0.92
+8.11
+0.06 kN/m2
+8.13
+x (m)
+(kN/m2)
+0
+7.16
+2
+4.58
+4
+1.79
+6
+0.678
+8
+0.286
+10
+0.136
+8.15
+92.37 kN/m2
+8.17
+106.24 kN/m2
+9.1
+b. 47 kN/m2
+c. 0.133
+9.3
+a. 168.06 mm
+b. 86.8 mm
+9.5
+0.596
+9.7
+90.87 mm
+9.9
+22.14 días
+9.11
+3.84 
+l0
+8 m/mín
+9.13
+400.9 s
+9.15
+18.2 mm
+Capítulo 9
+
+=== P7 PÁG 54 ===
+Respuestas a problemas seleccionados
+627
+10.1
+0.739 kN
+10.3
+0.2 kN
+10.5
+473.5 kN/m2
+10.7
+78 kN/m2
+10.9
+32.1°
+10.11
+a. 19.45°
+b. 35.27°
+c. 130.12 kN/m2
+10.13
+26°, c
+17.18 kN/m2
+10.15
+18°,
+29.8°
+10.17
+237.9 kN/m2
+10.19
+91 kN/m2
+11.1
+SN
+18, bien clasificada
+11.3
+a. 159 mm
+b. 12.05 meses
+c.
+93.8 kN/m2
+11.5
+24%
+11.7
+Tiempo (años)
+Ur,v
+0.2
+0.615
+0.4
+0.829
+0.8
+0.964
+0.10
+0.984
+12.1
+8.96%
+12.3
+50.4 kN/m2
+12.5
+Profundidad (m)
+N1)60
+1.5
+17
+3.0
+12
+4.5
+13
+6.0
+11
+7.5
+14
+12.7
+35°
+12.9
+a. 18.9 kN/m2
+b. 14.08 kN/m2
+c. 14.88 kN/m2
+12.11
+a. 46.5 kN/m2
+b. 3.37
+12.13
+a. 0.65
+b. 1.37
+c. 2131 kN/m2
+Capítulo 10
+Capítulo 11
+Capítulo 12
+(
+
+=== P7 PÁG 55 ===
+Respuestas a problemas seleccionados
+628
+12.15
+v1
+492 m/s, v2
+1390 m/s 
+v3
+3390 m/s, Z1
+2.6 m 
+Z2
+7.24 m
+13.1
+a. 5.58 m
+b. 1.207
+c. 0.77 m
+13.3
+0.86
+13.5
+31.53 m
+13.7
+7.92 m
+13.9
+3.4 m
+13.11
+3.86 m
+13.13
+27.5 kN/m2
+13.15
+Parte 
+Hcr (m)
+a
+48
+c
+39.7
+d
+26.6
+13.17
+a. 1.46
+b. 1.42
+13.19
+0.96
+14.1
+Parte
+Pa (kN/m)
+(m)
+a
+281.55
+2.33
+b
+153.58
+2.03
+14.3
+Parte
+Pp (kN/m)
+p (kN/m2)
+a 
+169.6 
+138.5
+b
+593.3
+296.8
+14.5
+a. @ z
+0 m,
+a
+33.6 kN/m2 @ z
+6 m,
+a
+80.4 kN/m2
+b. 1.77 m
+c. 140.4 kN/m
+d. 170 kN/m
+14.7
+10.02 kN/m
+14.9
+a. 85.39 kN/m
+b. 79.6 kN/m
+c. 80.32 kN/m
+15.1
+FS(vuelco)
+3.41, FS(deslizamiento)
+1.5 
+FS(carga)
+5.4
+15.3
+FS(vuelco)
+2.81 
+FS(deslizamiento)
+1.56, FS(carga)
+3.22
+z
+Capítulo 13
+Capítulo 14
+Capítulo 15
+
+=== P7 PÁG 56 ===
+Respuestas a problemas seleccionados
+629
+15.5
+FS(vuelco)
+2.79 
+FS(deslizamiento)
+1.66
+15.7
+a. 24.42
+b. 4.48
+c. 11.14
+15.9
+FS(vuelco)
+3.43 
+FS(deslizamiento)
+1.35 
+FS(carga)
+9.79
+15.11
+a. 2.2 
+l0
+4m3/m 
+b. 0.74 
+10
+3 m3/m
+15.13
+a.
+a
+17.07 kN/m3 
+cav 
+20.64 kN/m2
+b. 30.73 kN/m2
+15.15
+3.5
+16.1
+a. 252.6 kN/m2
+b. 176.8 kN/m2
+c. 280 kN/m2
+16.3
+a. 267.4 kN/m2
+b. 184.7 kN/m2
+c. 368.8 kN/m2
+16.5
+5760 kN
+16.7
+377.8 kN
+16.9
+455.9 kN
+16.11
+792.35 kN/m2
+16.13
+6.3 m
+17.1
+45.8 mm
+17.3
+13.2 mm
+17.5
+14.3 mm
+17.7
+77.8 mm
+17.9
+2.1 m
+18.1
+a. 201.2 kN
+b. 718.77 kN
+18.3
+a. 1655 kN
+b. 945.7 kN
+c. 650 kN
+18.5
+393 kN
+18.7
+a. 1077 kN
+b. 1320 kN
+c. 947 kN
+18.9
+15.87 mm
+18.11
+993.3 kN
+18.13
+171.2 kN
+18.15
+5830 kN
+19.1
+9911 kN
+19.3
+316.7 kN
+19.5
+9.54 mm
+19.7
+a. 5000 kN
+b. 1852 kN
+Capítulo 16
+Capítulo 17
+Capítulo 18
+Capítulo 19
+
+=== P7 PÁG 57 ===
+Índice
+630
+630
+Í N D I C E
+A
+Actividad, 71-72
+Acuífero confi nado, conductividad 
+hidráulica, 137
+Agente dispersante, 37
+Agua adsorbida, 33
+Agua de doble capa, 32
+Aluminio octaédrico, 29
+Análisis de tamizado, 33-35
+Análisis del hidrómetro, 35-39
+Análisis mecánico, 33-37
+Ángulo de fricción:
+ 
+consolidada, sin drenar, 252
+ 
+correlación, número de penetración 
+estándar, 399
+ 
+defi nición de, 229
+ 
+drenado, 236, 246
+ 
+valores típicos de, 230
+Ángulo de fricción no drenado consolidado, 
+252
+Ángulo de reposo, 338
+Arcilla:
+ 
+actividad, 71-72
+ 
+defi nición de, 28
+ 
+minerales, 29-33
+Arcilla normalmente consolidada, 191
+Arcilla sobreconsolidada, 192
+Área circular uniformemente cargada, 
+esfuerzo, 171-172
+Área rectangular cargada, esfuerzo, 
+173-177
+Arena, 28
+Asentamiento, consolidación, 
+194-196
+Asentamiento, elástico:
+ 
+factor de infl uencia de la deformación, 
+523-524
+ 
+fl exible, 512, 513
+ 
+parámetros del material, 522-523
+ 
+perfi l, 513
+ 
+rígido, 512, 513
+Asentamiento, pilote elástico, 
+566-567
+B
+Barrena:
+ 
+de perforación o vástago hueco, 
+290-291
+ 
+helicoidal, 290
+ 
+para postes, 290
+ 
+vuelo continuo, 290
+Barrido acumulado, 541
+Bombeo desde pozo, conductividad 
+hidráulica, 135-137
+Brecha clasifi cada, 41
+C
+Cabeza de elevación, 117
+Caída de potencial, 147
+Cálculo de la fi ltración, red de fl ujo, 
+146-148
+Caolinita, 29
+Capa octaédrica, 29
+Capacidad de carga admisible, cimientos 
+poco profundos:
+ 
+defi nición de, 487-488
+ 
+sobre la base del asentamiento, 
+528-529
+
+=== P7 PÁG 58 ===
+Índice
+631
+Capacidad del pilote:
+ 
+fricción, 551-556
+ 
+grupo, 578-581
+ 
+método a, 555
+ 
+método b, 555-556
+ 
+método l, 553-555
+ 
+permisible, 556-557
+ 
+punto, 549-551
+ 
+roca, 557-558
+Carga puntual, esfuerzo, 168-169
+Carta de plasticidad, 73-74
+Cimentación de malla:
+ 
+capacidad de carga, 504-506
+ 
+compensada, 506-507
+ 
+defi nición de, 503
+ 
+tipos, 503-504
+Cimentaciones superfi ciales:
+ 
+área efectiva, 492
+ 
+capacidad de carga máxima, 479
+ 
+carga excéntrica, 490-494
+ 
+ecuación de capacidad de carga en 
+general, 484
+ 
+efecto del nivel freático, capacidad 
+de rodamiento, 486-487
+ 
+excentricidad de dos vías, capacidad 
+de carga, 495-501
+ 
+factor de forma, 485
+ 
+factor de inclinación, 486
+ 
+factor de profundidad, 485
+ 
+factor de seguridad, 487-488
+ 
+factores de capacidad de soporte, 483, 
+484
+ 
+falla de corte local, 479
+ 
+falla de punzonamiento, 479
+ 
+falla general de corte, 479
+ 
+teoría de capacidad de soporte, 481-486
+Círculo de fricción, estabilidad de taludes, 
+352
+Clasifi cación, 78-87
+Coefi ciente:
+ 
+compresibilidad, 206, 207
+ 
+consolidación, drenaje radial, 281
+ 
+consolidación, drenaje vertical, 207
+ 
+gradación, 40
+ 
+presión de reposo, 380-381
+ 
+uniformidad, 40
+Coefi ciente de consolidación:
+ 
+método de la raíz cuadrada del tiempo, 211
+ 
+método de logaritmo de tiempo, 210
+Coefi ciente de Poisson, 168
+Cohesión, 229
+Compactación:
+ 
+curva de doble pico, 97
+ 
+curva de forma extraño, 97
+ 
+curva de uno y medio picos, 97
+ 
+curva en forma de campana, 97
+ 
+efecto de la energía, 97-98
+ 
+efecto del tipo de suelo, 96-97
+ 
+principios generales, 91-92
+ 
+relación empírica, 102-104
+Compactación de campo, 105-107
+Compactación dinámica, 274
+Compactación económica, 107-108
+Compactación relativa, 107
+Compactadores de suelo, 105
+Concepto de esfuerzo efectivo, 
+155-159
+Condición rápida, 161
+Conductividad hidráulica:
+ 
+bombeo de pozos, 135-137
+ 
+defi nición de, 120
+ 
+prueba de caída de carga, 124-125
+ 
+prueba de carga constante, 123-124
+ 
+relaciones empíricas para, 128-130
+ 
+suelo estratifi cado, 133-135
+ 
+valores típicos de, 122
+Consistencia, arcilla, 64-65
+Consolidación:
+ 
+asentamiento primario, 194-196
+ 
+asentamiento, cimentación, 
+215-216
+ 
+exceso de presión de poros, 206
+ 
+fundamentos de, 183-187
+ 
+grado promedio de, 208
+ 
+gráfi ca de vacíos en función de la 
+presión, 189-190
+ 
+gráfi ca tiempo-deformación, 188
+ 
+índice de abultamiento, 197
+ 
+índice de compresión, 196-197
+ 
+modifi caciones, 218-221
+ 
+prueba de laboratorio para, 187-189
+ 
+secundaria, asentamiento, 201-203
+Consolidación secundaria, 201-203
+Consolidómetro, 187
+Contenido de agua, 510
+Contenido de humedad, 51
+Contenido de humedad óptimo, 92
+Corriente trenzada, 23
+
+=== P7 PÁG 59 ===
+Índice
+632
+Corte apuntalado:
+ 
+asentamiento del terreno, 471-473
+ 
+diseño, 463-465
+ 
+envoltura de presión, 460-461
+ 
+fl exibilidad lateral, 471
+ 
+general, 455-457
+ 
+pilote de acero, 457-458
+ 
+presión lateral de tierra, 460-461
+ 
+puntal, 456
+ 
+revestido, 455
+ 
+suelos estratifi cados, 462-463
+ 
+tabla de encofrado, 456
+ 
+tirón, 469-471
+Criterios de falla de Mohr-Coulomb, 229
+Cubiertas de tubería, 541
+Curva de compresión inicial, 193
+Curva de distribución granulométrica, 35
+D
+Densidad, 52
+Densidad en seco, 52
+Densidad húmeda, 52
+Densidad relativa, 62
+Densidad relativa, correlación, 293
+ 
+resistencia al corte sin drenar, 296
+Densidad saturada, 54
+Depósito de barra de punta, 24
+Depósito de ciénagas, 25
+Depósito de muelle central, 294
+Depósitos de canal, 24
+Designación de calidad de roca, 317
+Dilatómetro, prueba:
+ 
+índice de esfuerzo horizontal, 315
+ 
+índice de material, 315
+ 
+módulo de dilatómetro, 315
+ 
+placa plana, dimensiones, 314
+Dipolo, 32
+Dique natural, 25
+Doble capa difusa, 32
+Drenaje de arena, 279-284
+Drift, glaciar, 25
+Dunas, 26
+E
+Ebullición, 161
+Ecuación de Bernoulli, 117
+Ecuación de Boussinesq, 168-169
+Ecuación de Kozeny-Carman, 128
+Ecuación de Laplace de continuidad, 144
+Edómetro, 197
+Eje de taladrado:
+ 
+asentamiento, 607
+ 
+capacidad de carga, 595, 598-604
+ 
+método de carcasa, 594-595
+ 
+método húmedo, 596
+ 
+método seco, 594
+ 
+procedimiento de construcción, 
+593-596
+ 
+tipos, 593
+Enlace de hidrógeno, 32
+Envoltura de presión, corte apuntalado:
+ 
+arcilla blanda y media, 461
+ 
+arcilla dura, 461
+ 
+arena, 460
+Esfuerzo:
+ 
+área circular, 171-173
+ 
+área rectangular, 173-177
+ 
+carga lineal, 170-171
+ 
+carga puntual, 168-170
+Esfuerzo efectivo:
+ 
+fi ltración ascendente, 159
+ 
+fi ltración descendente, 161
+ 
+sin fi ltraciones, 155-159
+Esfuerzo neutral, 157
+Esfuerzo total, 155
+Especifi caciones:
+ 
+compactación de campo, 107-108
+ 
+Proctor modifi cado, 98-100
+ 
+prueba estándar Proctor, 92-96
+Estabilidad de taludes:
+ 
+altura crítica, Culman, 343
+ 
+c-f del suelo, 352-359
+ 
+círculo de punta, 344
+ 
+círculo del punto medio, 344
+ 
+falla de base, 344
+ 
+falla de taludes, 344
+ 
+fi ltraciones estacionarias, 364, 367-368, 
+369-371
+ 
+fuerzas sísmicas, 373, 374
+ 
+mecanismo de colapso de rotación, 358, 
+369
+ 
+método de Culman, 340-343
+ 
+método de las rebanadas, 362-364
+ 
+método simplifi cado de Bishop, 
+365-368
+ 
+número de estabilidad, 346
+ 
+procedimiento de masa, arcilla saturada, 
+345-349
+
+=== P7 PÁG 60 ===
+Índice
+633
+Estabilidad, muro de contención:
+ 
+deslizante, 426-428
+ 
+falla de capacidad portante, 428-430
+ 
+vuelco, 423-426
+Estabilización con cal, 267-268
+Estabilización con cemento, 269-270
+Estabilización de cenizas volantes, 270
+Estudio de refracción sísmica, 318-321
+Estudio de resistividad, 325
+Estudio sísmico de perforaciones cruzadas, 
+324-325
+Exploración geofísica, 318-326
+Extracción de rocas:
+ 
+designación de calidad de roca, 
+317
+ 
+doble tubo de depósito central, 317
+ 
+extracción de muestras pequeñas, 
+316
+ 
+relación de recuperación, 317
+ 
+tubo de un solo depósito central, 
+317
+F
+Factor de seguridad, talud:
+ 
+cohesión, 335
+ 
+fricción, 336
+ 
+fuerza, 335, 336
+Factor tiempo, 207
+Flexibilidad de la pared, presión de tierra, 
+388-390
+Flujo neto:
+ 
+caída de potencial, 147
+ 
+cálculos de infi ltración, 146-148
+ 
+canal de fl ujo, 146
+ 
+condición de frontera, 146
+ 
+defi nición de, 144
+ 
+línea de fl ujo, 146
+ 
+línea equipotencial, 144
+Fricción superfi cial negativa, en pilotes, 
+576-577
+G
+Gradación, coefi ciente de, 40
+Gradiente hidráulico, 119
+Gradiente hidráulico crítico, 161
+Grado de saturación, 50
+Grado promedio de consolidación:
+ 
+drenaje radial, 280-281
+ 
+drenaje vertical, 207-208
+Gráfi ca de la relación de vacíos en función 
+de la presión, consolidación:
+ 
+a partir de pruebas de laboratorio, 
+189-190
+ 
+efecto de la perturbación, 193-194 
+Grava, 28
+Gravedad específi ca, 33
+Grupo de pilotes:
+ 
+asentamiento elástico, 582-583
+ 
+consolidación, 583-584
+I
+Ilita, 28
+Inclinación del plano de falla, corte, 231
+Incremento promedio de presión, 
+cimentación, 215 
+Índice de abultamiento:
+ 
+defi nición de, 196
+ 
+relaciones empíricas para, 197
+Índice de compresión:
+ 
+defi nición de, 195
+ 
+relación empírica para, 196-197
+Índice de compresión secundaria, 202
+Índice de grupo, 80-81
+Índice de liquidez, 75
+Índice de plasticidad, 65
+Informe de exploración, 326-327
+Instalación de pilotes:
+ 
+ENR modifi cada, 573
+ 
+fórmula danesa, 573
+ 
+fórmula ENR, 572-573
+L
+Lago de meandro, 24
+Lámina de gibsita, 29
+Lámina de sílice, 29
+Ley de Darcy, 120
+Ley de Stokes, 36
+Límite de contracción, 68, 70-71
+Límite líquido, 65
+Límite plástico, 65
+Límites de separación de tamaño de suelo, 
+28
+Limo, 28
+Línea A, 73, 74
+Línea de carga, esfuerzo, 170-171
+Línea equipotencial, 144
+Línea U, 73, 74
+Loess, 27
+
+=== P7 PÁG 61 ===
+Índice
+634
+M
+Martillo, instalación de pilotes:
+ 
+caída de martillo, 544
+ 
+de doble efecto, 544, 545
+ 
+de efecto simple, 544
+ 
+vibratorio, 544, 545
+Mecanismo de transferencia de carga, en 
+pilotes, 546-547
+Meteorización:
+ 
+mecánica, 19
+ 
+química, 18-19
+Método de Culman, estabilidad de taludes, 
+340-343
+Método de la raíz cuadrada del tiempo, 
+coefi ciente de consolidación, 211
+Método de las rebanadas, talud, 
+362-364
+Método de logaritmo de tiempo, coefi ciente 
+de consolidación, 210
+Método del cono de arena, 109-110
+Método del globo de goma, peso unitario de 
+campo, 110
+Método nuclear, peso unitario de campo, 
+110-111
+Método simplifi cado de Bishop, estabilidad 
+del talud, 365-368
+Montmorillonita, 29
+Morrena, 25
+Muestreador de cuchara dividida, 293
+Muestreo:
+ 
+cuchara de división estándar, 293
+ 
+receptor central de muelle, 294
+ 
+tubo de pared delgada, 299-300
+Muro de contención:
+ 
+contrafuerte, 419
+ 
+dosifi cación, 420-421
+ 
+gravedad, 418
+ 
+reforzado, 419
+N
+Nivel freático, observación de, 300
+Nivel piezométrico, 118
+Nombre de grupo, 84-87
+Número de estabilidad, vibrofl otación, 
+273
+Número de penetración estándar:
+ 
+defi nición de, 293
+ 
+factor de corrección, arena, 
+294-295
+P
+Parámetro A, triaxial, 249
+Parámetro B, presión intersticial:
+ 
+defi nición de, 242
+ 
+valores típicos de, 243
+Pérdida de carga, 118
+Perforación de percusión, 293
+Perforación por lavado, 291
+Perforación rotatoria, 292
+Perforación, exploración del suelo:
+ 
+barrena, 290
+ 
+espaciamiento, 290
+ 
+lavada, 291
+ 
+percusión, 293
+ 
+profundidad, 289-290
+ 
+rotatoria, 292
+Permeabilidad absoluta, 121-122
+Peso unitario, 51
+Peso unitario de campo:
+ 
+método del globo de hule, 110
+ 
+método del cono de arena, 109-110
+ 
+método nuclear, 110-111
+Peso unitario de cero vacíos de aire, 95
+Peso unitario húmedo, 51
+Peso unitario seco, 51
+Piezómetro, 300, 301
+Pilote:
+ 
+barrido, 541
+ 
+compuesto, 541-542
+ 
+concreto, 535-539
+ 
+de acero, 535
+ 
+desplazamiento, 544
+ 
+diseño permisible, esfuerzo de fl exión, 
+457
+ 
+echado in situ, 537
+ 
+entrelazado, 457
+ 
+entubado, 537
+ 
+fricción, 543
+ 
+madera, 541
+ 
+prefabricado, 535-536
+ 
+puntos de apoyo, 542-543
+ 
+sección 458
+ 
+sin desplazamiento, 544
+ 
+sin entubar, 537
+ 
+tuberías de protección, 541
+Placa vibratoria, 107
+Plano medio del grado de consolidación, 
+277
+Porcentaje más fi no, 35
+
+=== P7 PÁG 62 ===
+Índice
+635
+Porosidad, 50
+Pre-compresión:
+ 
+consideraciones generales, 274-275
+ 
+ecuación general, 275-276
+Presión activa de tierra:
+ 
+Coulomb, 405-410
+ 
+Rankine, 383-387
+Presión activa Rankine:
+ 
+coefi ciente, 387
+ 
+estado activo Rankine, 383-387
+ 
+plano de deslizamiento, 387
+ 
+profundidad de la grieta de tensión, 
+396
+Presión de carga, 117
+Presión de la tierra en reposo, 379-383
+Presión de pre-consolidación:
+ 
+defi nición de, 192
+ 
+determinación de, 192
+Presión de tierra de Coulomb:
+ 
+activa, 405-410
+ 
+pasiva, 406, 410-412
+Presión de tierra en reposo:
+ 
+coefi ciente, 380-381
+ 
+coefi ciente de correlación, ángulo 
+de fricción, 380
+ 
+coefi ciente de correlación, índice 
+de plasticidad, 381
+ 
+suelo parcialmente sumergido, 382-383
+Presión intersticial, 157
+Presión pasiva:
+ 
+Coulomb, 406, 410-412
+ 
+Rankine, 387-388
+Presión pasiva Rankine:
+ 
+coefi ciente, 388
+ 
+estado pasivo Rankine, 387-388
+Proctor estándar:
+ 
+martillo, 93
+ 
+molde, 92
+ 
+prueba, 92-96
+Profundidad de perforación, 288-290
+Prueba caída de carga, conductividad 
+hidráulica, 124-125
+Prueba consolidada sin drenar, triaxial, 
+249-253
+Prueba de carga constante, conductividad 
+hidráulica, 123-124
+Prueba de compactación Proctor, 92-96
+Prueba de compresión no confi nada, 
+256-258
+Prueba de corte directo:
+ 
+arcilla saturada, 237
+ 
+deformación controlada, 233
+ 
+esfuerzo controlado, 233
+Prueba de penetración de cono:
+ 
+cono de fricción eléctrica, 307
+ 
+cono de fricción mecánica, 306-307
+ 
+relación de fricción, 307
+ 
+resistencia a la fricción, 306
+ 
+resistencia de cono, 306
+Prueba de veleta de corte:
+ 
+corrección de Bjerrum, 304-305
+ 
+dimensiones de las veletas de campo, 
+303
+ 
+paleta de corte, 301-303
+Prueba drenado consolidado, triaxial, 
+241-246
+Prueba no consolidada no drenada, triaxial, 
+254-256
+Prueba presiométrica:
+ 
+celda de medida, 312
+ 
+celdas de guarda, 312
+ 
+diámetro del agujero de perforación, 
+313
+ 
+módulo, 313
+ 
+presión límite, 313
+Prueba Proctor modifi cada, 98, 100
+Prueba triaxial:
+ 
+consolidada drenada, 241-246
+ 
+consolidada no drenada, 249-253
+ 
+esfuerzo desviador, 242
+ 
+general, 239-241
+ 
+no consolidado no drenado, 254-256
+ 
+parámetros de Skempton, 242, 249
+Puntal, 456
+R
+Reconocimiento, exploración, 289
+Reforzamiento del suelo:
+ 
+geomalla, 436, 621-623
+ 
+geotextil, 436, 620-621
+ 
+tira metálica, 436
+Registro de perforación, 318, 319
+Relación de área, 293-294
+Relación de recuperación, 317
+Relación de sobreconsolidación, 192
+Relación de vacíos, 50
+Relaciones empíricas, conductividad 
+hidráulica, 128-130
+
+=== P7 PÁG 63 ===
+Índice
+636
+Resistencia a la compresión no confi nada:
+ 
+defi nición de, 257
+ 
+efecto de compactación, 111-112
+ 
+valores típicos de, 257
+Resistencia a la penetración del cono, 
+correlación:
+ 
+ángulo de fricción, 310
+ 
+presión de preconsolidación, 311
+ 
+relación de sobreconsolidación, 312
+ 
+resistencia al corte no drenada, 310
+Resistencia al corte sin drenaje, defi nición 
+de, 254
+Resistencia máxima al corte, 236
+Resistencia pico al corte, 236
+Revestido, corte apuntalado, 455
+Roca, ángulo de fricción, 457, 458
+Rodillo de neumáticos de hule, 105
+Rodillo de ruedas lisas, 105
+Rodillo vibratorio, 105
+S
+Sensibilidad, 259-260
+Sílice tetraédrico, 29
+Símbolo de grupo, 82
+Sistema de clasifi cación AASHTO, 78-81
+Sistema de clasifi cación unifi cado:
+ 
+coefi ciente de uniformidad, 40
+ 
+nombre de grupo, 85-87
+ 
+símbolo de grupo, 83
+Suelo aluvial, 23-25
+Suelo compactado, estructura, 111, 113
+Suelo eólico, 26-27
+Suelo glacial, 25-26
+Suelo orgánico, 27
+Suelo residual, 22-23
+Suelo transportado por gravedad, 23
+Suelos bien graduados, 41
+Suelos pobremente graduados, 41
+Superfi cie específi ca, 29 
+Sustitución isomorfa, 29
+T
+Talud fi nito, defi nición de, 340
+Talud infi nito, estabilidad:
+ 
+con fi ltración, 338
+ 
+sin fi ltración, 336-338
+Tamaño de tamiz, 34
+Tamaño efectivo, 40
+Tasa de tiempo de consolidación, 
+204-209
+Teoría de Mohr, falla de material, 228
+Tierra mecánicamente estabilizada, muro de 
+contención:
+ 
+estabilidad externa, 437
+ 
+estabilidad interna, 437
+ 
+refuerzo de geomalla, 451, 452
+ 
+refuerzo geotextil, 445-446
+ 
+refuerzo tira metálica, 437-438
+Tirón, corte apuntalado, 469-471
+Tixotropía, 259-260
+Tubo de pared delgada, 299-300
+V
+Velocidad de la onda P, 321
+Vibrofl otación, 270-273
+Viscosidad, 122
+Voladura, compactación, 274
+Z
+Zona de fl ujo laminar, 119
+Zona de fl ujo transitorio, 119
+Zona de fl ujo turbulento, 119
+
+=== P7 PÁG 64 ===
+Visite nuestro sitio en http://latinoamerica.cengage.com
+FUNDAMENTOS DE INGENIERÍA GEOTÉCNICA es una combinación concisa 
+de los componentes esenciales de los principales textos de Braja M. Das, Prin-
+cipios de Ingeniería Geotécnica y Principios de Ingeniería de Cimentaciones. 
+El texto incluye los conceptos fundamentales de mecánica de suelos, así como 
+técnicas de cimentación sin estar lleno de detalles y alternativas excesivos. 
+Esta obra cuenta con una gran cantidad de ejemplos prácticos, así como figu-
+ras para ayudar a lots estudiantes con la teoría y las habilidades de resolución 
+de problemas. Das mantiene el delicado equilibrio de la investigación actual y 
+prácticas aplicaciones de campo que ha hecho de sus libros líderes en esta área.
+Esta cuarta edición se ha revisado y elaborado en base a los comentarios reci-
+bidos de varios revisores y usuarios sin necesidad de cambiar la filosofía en la 
+que el texto se redactó originalmente. Al igual que en las ediciones anteriores, 
+las unidades SI se utilizan en todo el texto. Esta edición consiste de 19 capítulos 
+y un apéndice.
+Entre los principales cambios respecto a la tercera edición se incluyen los si-
+guientes:
+• En el capítulo 2 sobre “Origen de los depósitos de suelo:, tamaño y forma 
+del grano”, se ha añadido el proceso de la formación de diversos tipos de 
+rocas (es decir, el ciclo de las rocas).
+• “Exploración del subsuelo” (capítulo 12) se ha colocado antes del capítulo 
+sobre “Estabilidad de taludes” (capítulo 13). Se ha añadido una sección 
+sobre exploración geofísica al capítulo 12.
+• El capítulo 15 sobre “Muros de contención y cortes apuntalados” se pre-
+senta ahora antes del capítulo sobre “Cimentaciones poco profundas” 
+(capítulo 16).
+• Se ha añadido un nuevo apéndice sobre “Geosintéticos”, introduciendo en 
+primer lugar a los lectores al geotextil y la geomalla en su relación con 
+la construcción de muros de contención de tierra estabilizada mecánica-
+mente (MSE).
+ISBN-13: 978-607-519-373-1
+ISBN-10: 607-519-373-1
+9
+7 8 6 0 7 5 1 9 3 7 3 1

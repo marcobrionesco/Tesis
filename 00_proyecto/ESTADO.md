@@ -5,6 +5,16 @@
 
 **Última actualización:** 2026-11-20
 
+## 🟢 Bibliografía cerrada (2026-11-20, noche)
+
+- El autor terminó de reunir la bibliografía disponible. Últimas incorporaciones: megasequía (CR2, 2015; Yaksic et al., 2024),
+  riesgo hídrico (Escenarios Hídricos 2030, 2018; Urquiza et al., 2020) y Das (2015) completo (capacidad de carga, excentricidad,
+  deslizamiento; sensibilidad de q_adm: 150 kPa ⇔ φ′ ≈ 32°). Ver BITACORA "noche, 17" a "noche, 23".
+- **Siguiente paso:** reunión con el profesor (`00_proyecto/PREGUNTAS_REUNION.md`, preguntas 1–18) → recalcular plataforma y
+  zapatas (NCh2369/NCh3171), bombas e impulsión del estero; luego resumen (párrafos 3–4), abstract y cap. 5–6.
+- Fuentes aún faltantes (si aparecen): Garreaud et al. (2017), catastro de cerezos ODEPA–CIREN, Vera-Puerto et al. (2022),
+  NCh3456, datos del estero (vol. 8 DGA).
+
 ## ✅ Recibido 2026-11-20: bibliografía de aguas con agroquímicos
 
 - Citadas: Saleh et al. (2020) (pH, DQO, DBO de aguas con plaguicidas → tabla 2.1), Ignatowicz et al. (2023) (humedal vertical
