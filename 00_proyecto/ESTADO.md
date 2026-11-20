@@ -5,6 +5,12 @@
 
 **Última actualización:** 2026-11-20
 
+## ✅ Versión 4 enviada (2026-11-20)
+
+- Enviada sin notas (`salida/tesis_v4_revision.*`); propuestas del autor confirmadas con el profesor.
+- Pendiente del profesor: bibliografía de la propuesta, NCh3456 y observaciones de la v4.
+- **Decisión del autor:** no se corrigen documentos fuera de la tesis (láminas, itemizado y EETT originales).
+
 ## 🚀 Versión 4 lista para enviar (2026-11-20, noche)
 
 - Verificación integral hecha (lectura completa, citas, tablas/figuras citadas antes, extensión, tercera persona, ortografía es_CL,
