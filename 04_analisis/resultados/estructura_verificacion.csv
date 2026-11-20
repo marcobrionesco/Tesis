@@ -7,10 +7,10 @@ Viga principal,150×150×6,Flexión,3.974,42.015,kN·m,0.095
 Viga principal,150×150×6,Corte,8.715,213.84,kN,0.041
 Viga principal,150×150×6,Deflexión (L/300),0.237,7.6,mm,0.031
 Pilar central,150×150×6,"Compresión (1,2D+1,6L)",17.429,561.517,kN,0.031
-Pilar central,150×150×6,Flexocompresión sísmica (zona 2),0.442,1.0,—,0.442
+Pilar central,150×150×6,Flexocompresión sísmica (NCh2369:2025),0.144,1.0,—,0.144
 Zapata,"1,0×1,0×0,5 m",Presión estática,24.215,150.0,kPa,0.161
-Placa base,300×300×16 mm,Espesor requerido,14.417,16.0,mm,0.901
-Pernos de anclaje,"4 × Ø 3/4""",Tracción por perno,38.08,88.172,kN,0.432
+Placa base,300×300×16 mm,Espesor requerido,8.296,16.0,mm,0.518
+Pernos de anclaje,"4 × Ø 3/4""",Tracción por perno,9.643,88.172,kN,0.109
 Estructura auxiliar,15×15×6,"Barra superior, carga distribuida (luz 0,95 m)",70.008,150.0,MPa,0.467
 Estructura auxiliar,15×15×6,"Barra superior, carga puntual (luz 0,95 m)",140.017,150.0,MPa,0.933
 Estructura auxiliar,15×15×6,"Columna, compresión (pandeo)",0.331,2.038,kN,0.162

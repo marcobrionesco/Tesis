@@ -1,0 +1,9 @@
+pilar,modelo,combinacion,N_kN,e_m,area_apoyada
+central,voladizo,"D+0,75SO+0,70E",22.0,0.217,0.85
+central,voladizo,"D+0,70E (vacíos)",15.8,0.093,1.0
+central,marco,"D+0,75SO+0,70E",22.0,0.128,1.0
+central,marco,"D+0,70E (vacíos)",15.8,0.055,1.0
+esquina,voladizo,"D+0,75SO+0,70E",15.4,0.31,0.57
+esquina,voladizo,"D+0,70E (vacíos)",13.6,0.109,1.0
+esquina,marco,"D+0,75SO+0,70E",15.4,0.183,0.95
+esquina,marco,"D+0,70E (vacíos)",13.6,0.064,1.0

@@ -6,7 +6,7 @@ Longitud apoyada con e > B/6: 3(B/2 − e) (Das, 2015, 16.7) ⇒ 80 % ⇔ e ≤ 
 
 SUPUESTOS (declarados en la tesis): zona 2 (A0 = 0,30 g, Ar = 1,4·A0); R = 3, ξ = 0,02 (marco a momento soldado
 sin anclajes dúctiles); período de pilares en voladizo T ≈ 0,21 s (6 pilares) y 0,36 s (2 pilares); peso sísmico y
-carga de servicio de 10_estructura.py (W = 42,6 kN; P_serv = 24,2 kN por zapata); H = 2,25 m; zapata 1,0 × 1,0 × 0,5 m.
+carga del pilar central de 10_estructura.py (W = 42,6 kN; N = D + 0,75 SO = 22,0 kN); H = 2,25 m; zapata 1,0 × 1,0 × 0,5 m.
 """
 import csv
 from pathlib import Path
@@ -16,7 +16,11 @@ SUELOS = {"B": (1.00, 4.5, 0.30, 1.60, 3.0, 0.27), "C": (1.05, 4.5, 0.40, 1.50, 
           "D": (1.00, 3.5, 0.60, 1.00, 2.5, 0.41)}       # S, r, T0, p, q, T1 (Tabla 6)
 A0, R, XI = 0.30, 3.0, 0.02
 AR = 1.4 * A0
-W, P_SERV, H, HZ, B = 42.6, 24.2, 2.25, 0.50, 1.00
+import json as _json
+_cg = _json.loads((Path(__file__).resolve().parents[1] / "resultados" / "estructura_cargas.json").read_text(encoding="utf-8"))
+# Pilar central, combinación ASD D + 0,75 SO + 0,70 E (NCh2369:2025, 4.5.1)
+P_SERV = 10 / 8 * _cg["wD_p"] * _cg["Lv"] + _cg["peso_zap"] + _cg["peso_pilar"] + 0.75 * 10 / 8 * _cg["wL_p"] * _cg["Lv"]
+W, H, HZ, B = _cg["W_sismico"], 2.25, 0.50, 1.00
 T_PILARES = {6: 0.21, 2: 0.36}
 
 
@@ -59,3 +63,36 @@ with open(RES / "sismo_2003_vs_2025.csv", "w", newline="", encoding="utf-8") as 
                     "vuelca" if ap is None else round(ap, 2), ap is not None and ap >= 0.80])
         print(f"{norma} I={I} suelo={suelo} {n} pilares: C={C:.3f} V={V:.1f} kN e={e:.2f} m "
               f"apoyo={'vuelca' if ap is None else f'{ap:.0%}'}")
+
+
+# =============================================================================
+# CASO ADOPTADO, POR POSICIÓN DEL PILAR (central / esquina) Y MODELO DEL PILAR
+# Combinaciones ASD de la NCh2369:2025 (4.5.1) para fundaciones (10.1):
+#   (1) D + 0,75 SO + 0,70 E   (estanques llenos; SO = contenido de los estanques)
+#   (2) D + 0,70 E             (estanques vacíos; masa sísmica sin agua)
+# Modelos del pilar: voladizo empotrado (momento en la base = F·H, conservador) y marco a momento soldado
+# (R = 3, sistema adoptado): punto de inflexión a media altura (método del portal) -> momento en la base = F·H/2.
+# Reacciones de la viga principal continua de 2 vanos: central 10/8·w·L; esquina 3/8·w·L.
+# =============================================================================
+import json
+cg = json.loads((RES / "estructura_cargas.json").read_text(encoding="utf-8"))
+C_ad = c_2025(0.8, "C", T_PILARES[6])
+W_lleno = cg["W_sismico"]
+W_vacio = cg["W_sismico"] - cg["n_estanques"] * (cg["P_est"] - cg["m_vacio_kN"])
+filas_ad = []
+for pos, k in (("central", 10 / 8), ("esquina", 3 / 8)):
+    D = k * cg["wD_p"] * cg["Lv"] + cg["peso_zap"] + cg["peso_pilar"]
+    SO = k * (cg["wL_p"] * cg["Lv"])
+    SO_vacio = k * cg["n_estanques"] * cg["m_vacio_kN"] / (2 * 5.0) * cg["Lv"]
+    for modelo, brazo in (("voladizo", cg["H"]), ("marco", cg["H"] / 2)):
+        for comb, N, Wsis in (("D+0,75SO+0,70E", D + 0.75 * SO, W_lleno), ("D+0,70E (vacíos)", D + SO_vacio, W_vacio)):
+            F = C_ad * Wsis / 6
+            M = 0.70 * F * (brazo + cg["hz"])
+            e = M / N
+            ap = 1.0 if e <= cg["B"] / 6 else (3 * (cg["B"] / 2 - e) / cg["B"] if e < cg["B"] / 2 else 0.0)
+            filas_ad.append((pos, modelo, comb, round(N, 1), round(e, 3), round(ap, 2)))
+with open(RES / "zapatas_por_pilar.csv", "w", newline="", encoding="utf-8") as f:
+    w = csv.writer(f); w.writerow(["pilar", "modelo", "combinacion", "N_kN", "e_m", "area_apoyada"]); w.writerows(filas_ad)
+print("\nCaso adoptado por pilar (C = %.3f):" % C_ad)
+for r in filas_ad:
+    print("  %-8s %-9s %-18s N = %5.1f kN  e = %.3f m  apoyo = %3.0f %%" % (r[0], r[1], r[2], r[3], r[4], r[5] * 100))

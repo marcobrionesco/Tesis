@@ -191,16 +191,45 @@ fMn_c = flexion(viga_p)[0]
 Pu_grav = 1.2 * RD + 1.6 * RL
 registrar("Pilar central", "150×150×6", "Compresión (1,2D+1,6L)", Pu_grav, fPn, "kN")
 sismo = {}
-for zona, A0 in P["A0_zona"].items():
-    C = 2.7 * A0 / P["R1"]                  # fórmula simplificada del cálculo original
-    V = C * W_sismico
-    F_col = V / P["n_pilares_sismo"]
-    M_E = F_col * P["H_pilar"]
-    Pu, Mu_c = 1.2 * RD + 1.0 * RL, 1.4 * M_E
-    r = Pu / fPn + (8 / 9) * Mu_c / fMn_c if Pu / fPn >= 0.2 else Pu / (2 * fPn) + Mu_c / fMn_c
-    sismo[zona] = dict(C=C, V=V, M_E=M_E, Pu=Pu, Mu=Mu_c, interaccion=r)
-    filas.append(("Pilar central", "150×150×6", f"Flexocompresión sísmica (zona {zona})", r, 1.0, "—", r))
+# NCh2369:2025 (pregunta 1, decisión del autor): categoría I (I = 0,8), suelo C supuesto, R = 3, xi = 0,02 (soldado);
+# período con pilares en voladizo y tablero como diafragma rígido (verificado abajo) -> 6 pilares comparten el corte.
+SUELO_C = (1.05, 4.5, 0.40, 1.50, 3.0, 0.35)        # S, r, T0, p, q, T1 (Tabla 6)
 
+
+def c_2025(A0, I=0.8, R=3.0, xi=0.02, T=0.21, suelo=SUELO_C):
+    S, r, T0, p, q, T1 = suelo
+    Ar = 1.4 * A0
+    SaH = Ar * S * (1 + r * (T / T0) ** p) / (1 + (T / T0) ** q)
+    Cr = 0.16 * R
+    Rs = R if T >= Cr * T1 else 1.5 + (R - 1.5) * T / (Cr * T1)
+    C = I * SaH / Rs * (0.05 / xi) ** 0.4
+    return min(max(C, 0.25 * I * Ar * S), 2.75 * I * Ar * S / (R + 1) * (0.05 / xi) ** 0.4)
+
+
+for zona, A0 in P["A0_zona"].items():
+    C = c_2025(A0)
+    V = C * W_sismico
+    F_col = V / P["n_pilares"]                       # 6 pilares con diafragma
+    M_E = F_col * P["H_pilar"]
+    casos = []
+    for Pu in (1.2 * RD + 1.0 * RL, 0.9 * RD + 1.0 * RL):   # 1,2D + SO + E y 0,9D + SO + E (E sin mayorar, NCh2369:2025)
+        Mu_c = 1.0 * M_E
+        r = Pu / fPn + (8 / 9) * Mu_c / fMn_c if Pu / fPn >= 0.2 else Pu / (2 * fPn) + Mu_c / fMn_c
+        casos.append((r, Pu, Mu_c))
+    r, Pu, Mu_c = max(casos)
+    sismo[zona] = dict(C=C, V=V, M_E=M_E, Pu=Pu, Mu=Mu_c, interaccion=r)
+    filas.append(("Pilar central", "150×150×6", f"Flexocompresión sísmica (NCh2369:2025)", r, 1.0, "—", r))
+
+# Diafragma (NCh2369:2025, 5.3.3): flexible si su deformación en el plano > 2 × desplazamiento medio de los pilares.
+# Tablero de 15 mm como viga de gran altura (2,0 m) entre líneas de pilares (2,28 m), deformación por corte;
+# G del tablero SUPUESTO (0,5 GPa; se prueba también 0,05 GPa).
+s0 = sismo[min(sismo)]
+w_diaf = s0["V"] / P["largo"]                                   # kN/m
+d_pilar = (s0["V"] / P["n_pilares"]) * P["H_pilar"] ** 3 / (3 * P["E"] * viga_p["Ix"])
+diafragma = {}
+for G_tab in (0.5e6, 0.05e6):                                   # kN/m2
+    d_diaf = w_diaf * P["vano_long"] ** 2 / (8 * G_tab * P["t_tablero"] * P["ancho"])
+    diafragma[G_tab] = d_diaf
 # =============================================================================
 # 7. ZAPATA 1,00 × 1,00 × 0,50 m (presión de contacto en servicio, sismo sin mayorar)
 # =============================================================================
@@ -261,6 +290,14 @@ W_sis_aux = W_aux + 0.25
 F_aux = 0.35 * W_sis_aux
 M_volc_aux, M_est_aux = F_aux * 1.9, W_sis_aux * 0.75 / 2
 
+# Cargas por pilar para la verificación sísmica de zapatas (14_sismo_2003_vs_2025.py)
+import json
+RES.mkdir(parents=True, exist_ok=True)
+(RES / "estructura_cargas.json").write_text(json.dumps(dict(
+    wD_p=wD_p, wL_p=wL_p, Lv=Lv, peso_zap=peso_zap, peso_pilar=P["H_pilar"] * P["gamma_acero"] * viga_p["A"],
+    W_sismico=W_sismico, P_est=P_est, m_vacio_kN=P["m_estanque_vacio"] * g / 1000, n_estanques=P["n_estanques"],
+    H=P["H_pilar"], hz=hz, B=Bz), indent=1), encoding="utf-8")
+
 # =============================================================================
 # 9. SALIDAS
 # =============================================================================
@@ -287,6 +324,8 @@ TABLA.write_text("\n".join([
     r"  \multicolumn{6}{@{}p{0.97\textwidth}@{}}{\footnotesize Razón = demanda/capacidad; en negrita, las que superan 1 (no cumple). Zona sísmica~2 (NCh2369:2025). Estructura auxiliar verificada con ASD.}",
     r"\end{tabular}", ""]), encoding="utf-8")
 
+print(f"Diafragma: desplazamiento del pilar = {d_pilar*1000:.2f} mm; deformación del tablero = "
+      + ", ".join(f"{d*1000:.2f} mm (G = {G/1e6:.2f} GPa)" for G, d in diafragma.items()) + f"; flexible si > {2*d_pilar*1000:.2f} mm")
 print(f"Auxiliar: I = {I_aux*1e12:.0f} mm4, A = {A_aux*1e6:.0f} mm2, r = {r_aux*1000:.2f} mm, W = {W_aux:.2f} kN, KL/r = {esb_aux:.0f}, Pa = {Pa_col:.2f} kN")
 for L_b, v in aux.items():
     print(f"  barra {L_b} m: razón distribuida {v['r_dist']:.2f} (flecha {v['f_dist']*1000:.1f} mm), puntual {v['r_punt']:.2f} (flecha {v['f_punt']*1000:.1f} mm)")
@@ -294,9 +333,8 @@ print(f"  sismo: F = {F_aux:.2f} kN, M vuelco = {M_volc_aux:.2f} kN·m, M estabi
 print(f"Estanque lleno: {P_est:.2f} kN | carga sísmica W = {W_sismico:.1f} kN | KL/r pilar = {esb:.1f}")
 print(f"Viga principal: ala {clase_p} (b/t = {lam_p:.1f}); viga secundaria: {clase_s}")
 for z, s in sismo.items():
-    print(f"Zona {z}: C = {s['C']:.3f}, V = {s['V']:.1f} kN, M_E pilar = {s['M_E']:.2f} kN·m, e zapata = {s['e']:.3f} m")
-print("Sensibilidad (no va a la tesis): corte sísmico repartido entre los 6 pilares (cubierta como diafragma):")
-for zona, s_ in sismo.items():
+    print(f"Zona {z}: C = {s['C']:.3f}, V = {s['V']:.1f} kN, M_E pilar = {s['M_E']:.2f} kN·m (6 pilares; zapata en 14_sismo)")
+for zona, s_ in []:
     M6 = s_["M_E"] * P["n_pilares_sismo"] / P["n_pilares"]
     e6 = M6 * (P["H_pilar"] + hz) / P["H_pilar"] / P_serv
     r6 = s_["Pu"] / fPn / 2 + 1.4 * M6 / fMn_c

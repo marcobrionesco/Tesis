@@ -49,7 +49,7 @@ El nitrato, informado por el laboratorio como NO$_3^-$, no interviene en el dime
 El agua del estero (EST) presenta valores medios de pH (\num{7.47}), DBO$_5$ (\qty{2.2}{\milli\gram\per\liter}) y amonio (\qty{0.15}{\milli\gram\per\liter}) del mismo orden que los registrados en los ríos de la cuenca del Maule, y una conductividad eléctrica (\qty{156}{\micro\siemens\per\centi\meter}) prácticamente igual a la del río Putagán (\qty{155}{\micro\siemens\per\centi\meter}), aunque con menor oxígeno disuelto (\qty{6.3}{\milli\gram\per\liter} frente a \qty{9.4}{\milli\gram\per\liter})~\parencite{dga2004maule}.
 Según los límites de la \cref{tab:clases-calidad}, el estero corresponde a la clase de excepción en conductividad eléctrica y amonio, a la clase~1 en DBO$_5$ y a la clase~2 en oxígeno disuelto y sólidos suspendidos (\qty{31}{\milli\gram\per\liter})~\parencite{dga2004volumen1}.
 En coliformes totales, su media geométrica (\num{1.5e4}~NMP/\qty{100}{\milli\liter}) supera el límite de la clase~3 (\num{10000}~NMP/\qty{100}{\milli\liter}), por lo que corresponde a la clase~4, y la media de \textit{E.~coli} (\num{1.1e3}~NMP/\qty{100}{\milli\liter}) ya supera el límite de la clase~1 para coliformes fecales; por lo tanto, sin tratamiento, el agua del estero no es apta ni siquiera para el riego restringido, y la reducción de patógenos es el objetivo principal de su línea.
-\revisar{Esta clasificación es orientativa porque usé las medias de seis campañas; la oficial se basa en series de monitoreo más largas.}
+Esta clasificación es orientativa, porque se basa en las medias de seis campañas, mientras que la clasificación oficial de un curso de agua requiere series de monitoreo más largas.
 
 \subsection{Volúmenes de diseño para vivienda y oficinas}
 
@@ -173,7 +173,7 @@ Según las EETT, el riego abastece a 30 cerezos en 3 sectores de 10 plantas, con
 \subsection{Dimensionamiento del humedal por balance de oxígeno}
 
 Las cargas másicas iniciales se calcularon con concentraciones de DQO de \qty{300}{\milli\gram\per\liter} para la casa y de \qty{400}{\milli\gram\per\liter} para la oficina.
-Considerando una remoción teórica del \qty{25}{\percent} en la fosa séptica previa, la carga orgánica neta de diseño que ingresa al humedal se estableció en \qty{180}{\gram\per\day} de DQO, mientras que la carga nitrogenada fue de \qty{1.1}{\gram\per\day} de NTK~\parencite{tchobanoglous2014wastewater}.
+Considerando una remoción teórica del \qty{25}{\percent} en la fosa séptica previa, la carga orgánica neta de diseño que ingresa al humedal se estableció en \qty{180}{\gram\per\day} de DQO, mientras que la carga nitrogenada fue de \qty{1.1}{\gram\per\day} de NTK; el \qty{25}{\percent} es menor que el tercio de la DQO que se supone eliminado en un tanque séptico~\parencite{dotro2021humedales}.
 El desarrollo completo del cálculo se presenta en el \cref{anx:calculos-humedal}.
 
 Al aplicar el modelo de balance estequiométrico de oxígeno~\parencite{platzer1999design}, se cuantificó la demanda total de oxígeno.
@@ -282,6 +282,34 @@ Con bombas menores de la misma serie, la línea del estero se llenaría en \qty{
 La línea de riego (\qty{160}{\liter\per\hour}) requiere otro tipo de bomba y queda fuera de esta selección.
 \revisar{El modelo de la bomba es un supuesto mío (se compró una de \qty{0.75}{HP}); si después confirmo otro modelo, recalculo. Las curvas del catálogo son para aspiración nula: incluí la succión en el desnivel total, y el margen respecto del límite de \qty{60}{\minute} cubre esa incertidumbre.}
 
+\subsection{Síntesis del diseño por línea}
+
+La \cref{tab:sintesis-lineas} resume los parámetros de diseño y de operación de las tres líneas de tratamiento.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Parámetros de diseño y de operación por línea de tratamiento (Fase~1). Fuente: elaboración propia.}
+  \label{tab:sintesis-lineas}
+  \small
+  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.2cm}>{\centering\arraybackslash}p{3.3cm}>{\centering\arraybackslash}p{3.3cm}>{\centering\arraybackslash}p{3.3cm}@{}}
+    \toprule
+    Parámetro & Doméstica & Agroquímicos & Estero \\
+    \midrule
+    Fuentes & Casa y oficinas & AGR1 y AGR2 & Estero Batuco \\
+    Caudal (\unit{\liter\per\day}) & 750 & 750\,\textsuperscript{a} & 750 \\
+    Área activa (contenedores IBC) & \qty{6}{\square\meter} (6) & \qty{6}{\square\meter} (6) & \qty{6}{\square\meter} (6) \\
+    Carga hidráulica (\unit{\milli\meter\per\day}) & 125 & 125 & 125 \\
+    Carga orgánica (\unit{\gram\per\square\meter\per\day} de DQO) & 30 & $\leq 30$\,\textsuperscript{b} & \num{0.8} \\
+    Pulsos al día y volumen por pulso & 6 de \qty{125}{\liter} & 6 de \qty{125}{\liter} & 6 de \qty{125}{\liter} \\
+    Tubería de impulsión & PVC~50, \qty{95}{\meter} & PVC~25, \qty{80}{\meter} & PVC~25, \qty{140}{\meter} \\
+    Llenado de \qty{1000}{\liter} (\unit{\minute}) & $\leq 17$ & 25 & 36 \\
+    Objetivo principal del tratamiento & Materia orgánica & Materia orgánica y plaguicidas & Patógenos \\
+    Operación en la Fase~2 & \multicolumn{3}{c}{3 contenedores por línea (\qty{60}{\gram\per\square\meter\per\day})} \\
+    \bottomrule
+    \multicolumn{4}{@{}p{0.97\textwidth}@{}}{\footnotesize \textsuperscript{a} Déficit completado con agua del estero. \textsuperscript{b} Si la DQO de la mezcla no supera unos \qty{240}{\milli\gram\per\liter}.}
+  \end{tabular}
+\end{table}
+
 \subsection{Zanjas y movimiento de tierras}
 
 Como el trazado de las zanjas se modificó en terreno durante la ejecución del proyecto, este trabajo no presenta resultados de excavación (volúmenes, tapadas ni perfiles) y se limita a los criterios de diseño indicados en la metodología.
@@ -293,7 +321,6 @@ Como el trazado de las zanjas se modificó en terreno durante la ejecución del 
 
 La plataforma elevada, de \qtyproduct{5.00 x 2.00}{\meter} en planta y \qty{2.25}{\meter} de altura, se diseñó con perfiles cajón de acero A270ES: $150 \times 150 \times 6$~\unit{\milli\meter} para pilares y vigas principales y $150 \times 100 \times 3$~\unit{\milli\meter} para las vigas secundarias, con una cubierta de tablero estructural de \qty{15}{\milli\meter} (láminas 3.1 y 3.2, \cref{anx:planimetria-estructural}).
 La plataforma soporta los tres estanques de almacenamiento de \qty{1000}{\liter}; los tres dosificadores de \qty{200}{\liter} se apoyan en estructuras auxiliares independientes (\cref{sec:res-auxiliar}).
-\revisar{Los perfiles los confirmé con las láminas 3.1--3.2, las EETT y el itemizado (la discusión de la v3.0 tenía otros).}
 
 La \cref{tab:verificacion-estructural} resume la verificación de los elementos de la plataforma con las dimensiones finales, según el método LRFD (AISC~360-16) y las combinaciones $\num{1.2}D + \num{1.6}L$ y $\num{1.2}D + \num{1.0}L + \num{1.4}E$; todos los elementos cumplen.
 El tablero, modelado como lámina continua sobre tres apoyos, alcanza una deflexión de \qty{1.21}{\milli\meter} frente a los \qty{1.33}{\milli\meter} admisibles ($L/300$); con más vanos baja a 0,82--\qty{0.86}{\milli\meter}, y como vano simplemente apoyado, el modelo del cálculo original, daba \qty{2.91}{\milli\meter}.
@@ -307,7 +334,7 @@ Cada estanque lleno aporta \qty{10.2}{\kilo\newton}, y el peso sísmico de la cu
   \input{tablas/verificacion_estructural}
 \end{table}
 
-\revisar{Los pilares y la placa base todavía usan la fórmula simplificada $C = \num{2.7} A_0/R$: tengo que recalcularlos con el espectro de la NCh2369:2025 y confirmar el $F_y$ del A270ES.}
+\revisar{Tengo que confirmar el $F_y$ del acero A270ES (supuse \qty{250}{\mega\pascal}).}
 
 \subsection{Estructura auxiliar de los dosificadores}
 \label{sec:res-auxiliar}
@@ -318,9 +345,10 @@ Se trata de una configuración liviana, ya empleada por el equipo del proyecto e
 El marco se verificó para la carga de operación, ya que el dosificador no opera lleno, sino que recibe el volumen de cada pulso: unos \qty{120}{\kilo\gram} de agua y \qty{15}{\kilo\gram} del tanque y el sifón, es decir, \qty{1.32}{\kilo\newton} por marco.
 Con el método de tensiones admisibles (ASD), las barras superiores trabajan a razones de \num{0.37} a \num{0.47} si el estanque apoya en las cuatro barras, según su luz de \num{0.75} o \qty{0.95}{\meter}, y de \num{0.74} a \num{0.93} en el caso conservador de una carga puntual al centro, con flechas de 2 a \qty{7}{\milli\meter} que hacen descender el estanque completo, junto con su sifón, sin inclinarlo (\cref{tab:verificacion-estructural}).
 Las columnas trabajan a una razón de \num{0.16} respecto de su carga de pandeo, pero son muy esbeltas ($KL/r = 340$, sobre el valor de 200 recomendado para barras en compresión~\parencite{aisc2016specification}), por lo que su estabilidad lateral depende del arriostramiento diagonal y del anclaje a la fundación.
-En una estimación sísmica preliminar con el coeficiente de la plataforma ($C = \num{0.35}$) y el centro de gravedad a unos \qty{1.9}{\meter} de altura, la fuerza horizontal es de \qty{0.55}{\kilo\newton} y el momento de volcamiento de \qty{1.05}{\kilo\newton\meter}, mayor que el momento estabilizante del peso (\qty{0.59}{\kilo\newton\meter}), por lo que la estabilidad del marco depende de sus pernos de anclaje, que reciben una tracción del orden de \qty{0.7}{\kilo\newton}.
+En una estimación sísmica preliminar con el coeficiente de la plataforma ($C = \num{0.35}$) y el centro de gravedad a unos \qty{1.9}{\meter} de altura, la fuerza horizontal es de \qty{0.55}{\kilo\newton} y el momento de volcamiento de \qty{1.05}{\kilo\newton\meter}, mayor que el momento estabilizante del peso (\qty{0.59}{\kilo\newton\meter}), por lo que la estabilidad del marco depende de sus pernos de anclaje, que reciben una tracción del orden de \qty{0.7}{\kilo\newton}; con su fundación de \qtyproduct{1.0 x 1.0 x 0.5}{\meter} (unos \qty{12}{\kilo\newton}), el conjunto marco-fundación tiene un factor de seguridad al volcamiento cercano a 5.
+Como la flexión de las columnas en la cara sin diagonal resulta marginal en esa estimación, se recomienda agregar una diagonal también en esa cara.
 Si el dosificador se llenara por completo (\qty{200}{\liter}), las barras superarían su capacidad en el caso de carga puntual, por lo que debe operarse con el volumen del pulso.
-\revisar{Supuestos del marco: \qty{15}{\kilo\gram} de tanque y sifón, $F_y = \qty{250}{\mega\pascal}$, la luz de las barras (\num{0.75} o \qty{0.95}{\meter}) y $C = \num{0.35}$. Para una verificación completa me falta el viento (NCh432), el coeficiente sísmico específico de equipos, los pernos y la fundación; la flexión de las columnas en la cara sin diagonal sale marginal (razón cercana a \num{1.3}): conviene agregar una diagonal en esa cara. También tengo que confirmar con la factura el espesor del perfil y revisar la cubicación de la partida 2.1.9 (\qty{100}{\meter}; las láminas suman unos 45 a \qty{50}{\meter}).}
+\revisar{Supuestos del marco: \qty{15}{\kilo\gram} de tanque y sifón, $F_y = \qty{250}{\mega\pascal}$, la luz de las barras (\num{0.75} o \qty{0.95}{\meter}) y $C = \num{0.35}$. Para una verificación completa me falta el viento (NCh432), el coeficiente sísmico específico de equipos (cláusula~7 de la NCh2369) y el diámetro de los pernos; la profundidad de la fundación (\qty{0.5}{\meter}) la tomé de la lámina 3.1, porque la 3.2 indica otra. También tengo que confirmar con la factura el espesor del perfil y revisar la cubicación de la partida 2.1.9 (\qty{100}{\meter}; las láminas suman unos 45 a \qty{50}{\meter}).}
 
 \subsection{Diseño de fundaciones superficiales}
 
@@ -333,32 +361,59 @@ Aun en el caso más desfavorable analizado, la presión estática de \qty{24.2}{
 \revisar{Los \qty{150}{\kilo\pascal} son un supuesto del cálculo original (\enquote{suelo tipo C/D competente}) sin estudio de mecánica de suelos, y $\gamma$, $D_f$ y $\varphi'$ de la sensibilidad (script 13\_capacidad\_soporte.py) también son supuestos: tengo que confirmarlos con el profesor o pedir un ensayo.
 Recomiendo un estudio de mecánica de suelos antes de construir.}
 
-La estabilidad sísmica de las zapatas se verificó con la NCh2369:2025 para la zona~2 ($A_0 = \num{0.30}\,g$), un marco a momento con $R = 3$ y $\xi = \num{0.02}$, y se comparó con la fórmula simplificada de la versión de 2003 (\cref{tab:sismo-zapatas}).
-Para el caso adoptado (categoría~I, suelo~C y corte repartido entre los seis pilares), el coeficiente sísmico es de \num{0.350}, el corte basal de \qty{14.9}{\kilo\newton} y la excentricidad en la zapata de \qty{0.20}{\meter}, con un \qty{91}{\percent} del área apoyada, sobre el mínimo de \qty{80}{\percent}.
-En todos los casos de la norma de 2025 el coeficiente queda limitado por el corte máximo, porque la plataforma es una estructura rígida de período corto.
-Si el corte lo resisten solo los dos pilares de un marco, la zapata vuelca con cualquiera de las dos versiones de la norma; con la categoría~II, el área apoyada baja a 76--\qty{79}{\percent}, por lo que en ese caso habría que agrandar la zapata o unir las zapatas con vigas de fundación.
-Los pilares cumplen en todos los casos, con índices de interacción flexocompresiva de \numrange{0.14}{0.51}.
+El tablero funciona como diafragma rígido según el criterio de la NCh2369:2025~\parencite{inn2025nch2369}: bajo el corte sísmico, su deformación en el plano es de unos \qty{0.13}{\milli\meter}, frente a un desplazamiento de \qty{3.75}{\milli\meter} en la cabeza de los pilares, muy por debajo del doble de este valor que lo haría flexible, y la conclusión se mantiene aun con un módulo de corte del tablero diez veces menor (\qty{1.3}{\milli\meter}).
+Por ello, el corte sísmico se repartió entre los seis pilares, siempre que el tablero quede fijado a las vigas de modo que transmita ese corte.
+Con el espectro de la NCh2369:2025, los pilares alcanzan un índice de interacción flexocompresiva de \num{0.14} (\cref{tab:verificacion-estructural}).
+
+La estabilidad sísmica de las zapatas se verificó con la NCh2369:2025 para la zona~2 ($A_0 = \num{0.30}\,g$), un marco a momento con $R = 3$ y $\xi = \num{0.02}$, y las dos combinaciones de tensiones admisibles de la norma: con los estanques llenos ($D + \num{0.75}\,SO + \num{0.70}\,E$) y vacíos ($D + \num{0.70}\,E$).
+La \cref{tab:zapatas-pilar} presenta el área apoyada de las zapatas del pilar central y de esquina para dos modelos del pilar: en voladizo empotrado, en que el momento en la base es igual al corte por la altura, y como parte del marco a momento soldado adoptado, en que el punto de inflexión queda cerca de la media altura y el momento en la base se reduce a la mitad.
+Con el modelo de marco, coherente con el sistema resistente adoptado, todas las zapatas cumplen el mínimo de \qty{80}{\percent}: la del pilar central queda completamente apoyada y la de esquina, que recibe menos carga vertical con el mismo momento sísmico, mantiene un \qty{95}{\percent}.
+En cambio, con los pilares en voladizo, la zapata de esquina solo mantiene un \qty{57}{\percent} de su área apoyada, por lo que la estabilidad de las zapatas depende de que las uniones entre vigas y pilares sean rígidas.
+La combinación con los estanques vacíos no gobierna, porque la masa sísmica disminuye más que la carga vertical.
 
 \begin{table}[htbp]
   \centering
-  \caption{Estabilidad sísmica de las zapatas de \qtyproduct{1.0 x 1.0 x 0.5}{\meter} según la versión de la NCh2369, la categoría de ocupación, el tipo de suelo y el número de pilares que resisten el corte (zona~2, $R = 3$; mínimo de \qty{80}{\percent} de área apoyada). Fuente: elaboración propia.}
+  \caption{Área apoyada de las zapatas de \qtyproduct{1.0 x 1.0 x 0.5}{\meter} según la posición del pilar, el modelo del pilar y la combinación de carga (NCh2369:2025, categoría~I, suelo~C, $C = \num{0.350}$, corte repartido entre los seis pilares; mínimo de \qty{80}{\percent}). Fuente: elaboración propia.}
+  \label{tab:zapatas-pilar}
+  \small
+  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{2.4cm}cccc@{}}
+    \toprule
+    Pilar & Modelo del pilar & Combinación & $N$ (\unit{\kilo\newton}) & $e$ (\unit{\meter}) & Área apoyada \\
+    \midrule
+    Central & Voladizo & Llenos & \num{22.0} & \num{0.217} & \qty{85}{\percent} \\
+    Central & Marco (adoptado) & Llenos & \num{22.0} & \num{0.128} & \qty{100}{\percent} \\
+    Esquina & Voladizo & Llenos & \num{15.4} & \num{0.310} & \qty{57}{\percent} \\
+    Esquina & Marco (adoptado) & Llenos & \num{15.4} & \num{0.183} & \qty{95}{\percent} \\
+    Central y esquina & Ambos & Vacíos & 13,6 a \num{15.8} & 0,06 a \num{0.11} & \qty{100}{\percent} \\
+    \bottomrule
+    \multicolumn{6}{@{}p{0.95\textwidth}@{}}{\footnotesize Llenos: $D + \num{0.75}\,SO + \num{0.70}\,E$; vacíos: $D + \num{0.70}\,E$. $N$: carga vertical sobre el sello; $e$: excentricidad. Cálculo en 04\_analisis/scripts/14\_sismo\_2003\_vs\_2025.py.}
+  \end{tabular}
+\end{table}
+
+La \cref{tab:sismo-zapatas} compara, para la zapata del pilar central con el modelo en voladizo, el resultado de la NCh2369:2025 con el de la fórmula simplificada de la versión de 2003 y con otras categorías y suelos.
+En todos los casos de la norma de 2025 el coeficiente queda limitado por el corte máximo, porque la plataforma es una estructura rígida de período corto.
+Si el corte lo resisten solo los dos pilares de un marco, la zapata vuelca con cualquiera de las dos versiones; con la categoría~II el área apoyada baja a 69--\qty{73}{\percent} incluso en el pilar central, por lo que la categoría~I adoptada es la que permite mantener zapatas de \qty{1.0}{\meter}.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Comparación de la estabilidad sísmica de la zapata del pilar central según la versión de la NCh2369, la categoría de ocupación, el tipo de suelo y el número de pilares que resisten el corte (zona~2, $R = 3$, pilar en voladizo, $D + \num{0.75}\,SO + \num{0.70}\,E$; mínimo de \qty{80}{\percent}). Fuente: elaboración propia.}
   \label{tab:sismo-zapatas}
   \begin{tabular}{@{}llccccc@{}}
     \toprule
     Norma & Categoría y suelo & Pilares & $C$ & $V$ (\unit{\kilo\newton}) & $e$ (\unit{\meter}) & Área apoyada \\
     \midrule
-    2003 & -- & 2 & \num{0.270} & \num{11.5} & \num{0.65} & vuelca \\
-    2003 & -- & 6 & \num{0.270} & \num{11.5} & \num{0.22} & \qty{85}{\percent} \\
-    2025 & I, suelo B o D & 2 & \num{0.333} & \num{14.2} & \num{0.56} & vuelca \\
-    2025 & I, suelo B o D & 6 & \num{0.333} & \num{14.2} & \num{0.19} & \qty{94}{\percent} \\
-    2025 & I, suelo C (adoptado) & 6 & \num{0.350} & \num{14.9} & \num{0.20} & \qty{91}{\percent} \\
-    2025 & II, suelo B o D & 6 & \num{0.417} & \num{17.7} & \num{0.24} & \qty{79}{\percent} \\
-    2025 & II, suelo C & 6 & \num{0.437} & \num{18.6} & \num{0.25} & \qty{76}{\percent} \\
+    2003 & -- & 2 & \num{0.270} & \num{11.5} & \num{0.72} & vuelca \\
+    2003 & -- & 6 & \num{0.270} & \num{11.5} & \num{0.24} & \qty{78}{\percent} \\
+    2025 & I, suelo B o D & 2 & \num{0.333} & \num{14.2} & \num{0.62} & vuelca \\
+    2025 & I, suelo B o D & 6 & \num{0.333} & \num{14.2} & \num{0.21} & \qty{88}{\percent} \\
+    2025 & I, suelo C (adoptado) & 6 & \num{0.350} & \num{14.9} & \num{0.22} & \qty{85}{\percent} \\
+    2025 & II, suelo B o D & 6 & \num{0.417} & \num{17.7} & \num{0.26} & \qty{73}{\percent} \\
+    2025 & II, suelo C & 6 & \num{0.437} & \num{18.6} & \num{0.27} & \qty{69}{\percent} \\
     \bottomrule
   \end{tabular}
 \end{table}
 
-\revisar{Supuestos de esta comparación que tengo que declarar: la fórmula de 2003 es la simplificada de mi cálculo original (no verifiqué la expresión completa); el período lo estimé con pilares en voladizo ($T \approx \qty{0.21}{\second}$ con 6 pilares y \qty{0.36}{\second} con 2); solo probé suelos B, C y D con $R = 3$; la fuerza horizontal la combiné con el peso en servicio sin separar la carga de operación (SO); en la zapata usé la combinación ASD con $\num{0.70}E$. Cálculo en 04\_analisis/scripts/14\_sismo\_2003\_vs\_2025.py. Los índices de los pilares vienen de un cálculo auxiliar que no guardé: tengo que rehacerlo en el script.}
+\revisar{Supuestos que tengo que declarar: la fórmula de 2003 es la simplificada de mi cálculo original; el período lo estimé con pilares en voladizo ($T \approx \qty{0.21}{\second}$ con 6 pilares y \qty{0.36}{\second} con 2); solo probé suelos B, C y D con $R = 3$; el módulo de corte del tablero (\qty{0.5}{\giga\pascal}) es un supuesto; el modelo de marco usa el método del portal (inflexión a media altura) y supone uniones viga-pilar rígidas y bases empotradas.}
 
 \subsection{Planimetría y expediente técnico}
 
