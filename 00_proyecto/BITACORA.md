@@ -5,6 +5,11 @@
 
 ---
 
+## 2026-11-20 (noche, 9) — Biolechos: manual AAFC (2018) y folleto FAO/JTI (2016)
+
+- Archivados con ficha. Nueva referencia `braul2018robust` (cap. 2: volumen típico de enjuague 5000–7000 L/año, dimensionamiento y
+  eficiencia de biolechos). Cap. 4 y pregunta 5: el agua de lavado disponible podría no alcanzar para la línea de agroquímicos.
+
 ## 2026-11-20 (noche, 8) — Bibliografía de aguas con agroquímicos
 
 - 5 documentos archivados (uno escaneado, OCR) con ficha conjunta. Nuevas referencias: `saleh2020removal`,

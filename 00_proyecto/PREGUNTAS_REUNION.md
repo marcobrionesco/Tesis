@@ -42,7 +42,7 @@ Respuesta: __________________________________________________________
 **5. Caudal del estero y de agroquímicos.** La propuesta indica operar estas líneas "con las mismas
 características de carga" que la doméstica (30 g DQO/m²·d). Con la DQO medida, eso exigiría unos
 28 400 L/d en el estero (inviable), 2 400 L/d en AGR2 y 460 L/d en AGR1. ¿Qué criterio de caudal uso
-(por ejemplo, igual carga hidráulica que la línea doméstica)?
+(por ejemplo, igual carga hidráulica que la línea doméstica)? Además, según Agriculture and Agri-Food Canada (2018), un predio típico genera solo 5000–7000 L/año de agua de lavado de equipos (unos 50–70 L/d en temporada): ¿cuánta produce el predio y alcanza para la línea de agroquímicos?
 
 Respuesta: __________________________________________________________
 

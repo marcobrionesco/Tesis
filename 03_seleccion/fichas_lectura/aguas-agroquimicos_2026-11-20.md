@@ -28,3 +28,16 @@
 ## González (1986) — *Calidad de las aguas de riego en Chile* — no citado aún
 
 - Agricultura Técnica (Chile), 46(4), 467–474 (escaneado; OCR). Revisión de la calidad química de aguas continentales para riego: al sur del Aconcagua la carga química natural es baja (buena aptitud para riego); comenta la NCh1333. **40 años**: solo contexto histórico; buscar fuentes recientes para la columna del estero.
+
+## Braul, Reedyk y Sheedy (2018) — `braul2018robust` ✅ citado
+
+- *A robust biobed design for managing pesticide rinsate under Canadian conditions: Construction, operation and maintenance manual*. Agriculture and Agri-Food Canada, Regina. ISBN 978-0-660-27152-1 (publicación institucional del gobierno de Canadá → citable).
+- **Dato clave para la pregunta 5:** una explotación típica genera **5000–7000 L/año** de agua de enjuague (algunas, el doble o triple) → unos 50–70 L/d en una temporada de ~100 días. Muy por debajo de los 460–2400 L/d que exigiría igualar la carga de la Fase 1 en AGR1/AGR2.
+- Diseño de biolecho: 1 cm/d de lámina (10 L/m²·d) durante la temporada (≈100 d); 5 m² tratan 5000 L; hasta 2 cm/d sin gran pérdida de eficiencia.
+- Eficiencia: un biolecho ≈ 90 %; dos en serie > 98 %; clopyralid, bentazon e imazethapyr ≈ 60 %. La eficiencia baja con mayores cargas y lluvias.
+
+## FAO y JTI (2016) — *Biobed: un lecho biológico para minimizar la contaminación puntual por plaguicidas* — no citado
+
+- Folleto divulgativo (FAO I5888S, julio 2016; Instituto Sueco de Ingeniería Agrícola y Ambiental). Biomezcla paja:suelo:compost 2:1:1; capa impermeable, drenaje y recirculación.
+- Dato curioso: el **biofiltro belga** usa **contenedores plásticos de 1 m³** en serie con biomezcla (análogo a los IBC del proyecto). Unas gotas de plaguicida concentrado derramadas equivalen a 1000 veces la dosis por hectárea.
+- Divulgativo → solo contexto; si se quiere citar, preferir la fuente técnica (Braul et al., 2018).
