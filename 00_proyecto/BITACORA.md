@@ -5,6 +5,14 @@
 
 ---
 
+## 2026-11-20 (noche, 5) — NCh3171:2017 y dossier de Gemini
+
+- NCh3171:2017 archivada (OCR) con ficha; nueva referencia `inn2017nch3171`. Cap. 2: tabla de combinaciones LRFD de la
+  norma (1–7), regla de F (líquidos) con factor de D, carga muerta mínima para volcamiento, prevalencia de normas sísmicas.
+- Dossier Gemini archivado en `02_material_bruto/ia_generado/` y verificado parcialmente (nota en `03_seleccion/notas/`).
+  Búsqueda web: NCh2369:2025 oficializada (D.O. 9-03-2026); artículo "Mikkelsen et al. 2022" no encontrado.
+- Pregunta 1 actualizada (NCh2369 2003 o 2025). Pendiente: volcamiento con 0,9(D+F)+1,4E y estanques vacíos; verificar pistas.
+
 ## 2026-11-20 (noche, 4) — NCh427/1:2016 y manual ETABS
 
 - Archivados: NCh427/1 (4 partes, escaneada; OCR con tesseract) y manual ETABS v9.7.4 de la UCM; fichas de lectura de ambos.

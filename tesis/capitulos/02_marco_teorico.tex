@@ -240,26 +240,34 @@ Para las redes de conducción por gravedad, el diseño se rige por el cumplimien
 El dimensionamiento de las plataformas de soporte industrial se fundamenta en el Diseño por Factores de Carga y Resistencia (LRFD), regido por la norma NCh427/1~\parencite{inn2016nch427} y las especificaciones AISC~360~\parencite{aisc2016specification}.
 El método exige que la resistencia de diseño de cada elemento ($\phi R_n$) supere la resistencia requerida ($R_u$) producto de las combinaciones más desfavorables de carga muerta, carga viva y carga sísmica~\parencite{mccormac2012structural,segui2017steel}.
 La serviciabilidad del sistema se verifica limitando la deflexión elástica máxima de los elementos horizontales a una fracción normativa de la luz libre.
-Las combinaciones de carga consideradas se resumen en la \cref{tab:combinaciones-lrfd}.
+La NCh427/1 no define las cargas ni sus combinaciones: establece que deben tomarse de la normativa aplicable según el tipo de edificación, es decir, de la NCh3171, la NCh433 y la NCh2369, y que en el diseño sismorresistente las disposiciones de estas normas prevalecen sobre las de la NCh427/1~\parencite{inn2016nch427}.
+La NCh3171 establece las combinaciones básicas de cargas mayoradas para el diseño por resistencia que se resumen en la \cref{tab:combinaciones-lrfd}, de las cuales debe usarse la que produzca el efecto más desfavorable en el elemento o la fundación considerada, incluso cuando una o más cargas no están presentes~\parencite{inn2017nch3171}.
 
 \begin{table}[htbp]
   \centering
-  \caption{Combinaciones de carga mayoradas aplicadas en el diseño LRFD.}
+  \caption{Combinaciones básicas de cargas mayoradas para el diseño por resistencia. Fuente: adaptado de \textcite{inn2017nch3171}.}
   \label{tab:combinaciones-lrfd}
-  \begin{tabular}{ll}
+  \begin{tabular}{@{}cl@{}}
     \toprule
-    Condición de carga & Combinación \\
+    N.º & Combinación \\
     \midrule
-    Estática 1 & $\num{1.4}\,D$ \\
-    Estática 2 & $\num{1.2}\,D + \num{1.6}\,L$ \\
-    Sísmica    & $\num{1.2}\,D + \num{1.0}\,L + \num{1.4}\,E$ \\
+    1  & $\num{1.4}\,D$ \\
+    2  & $\num{1.2}\,D + \num{1.6}\,L + \num{0.5}\,(L_r \text{ o } S \text{ o } R)$ \\
+    3a & $\num{1.2}\,D + \num{1.6}\,(L_r \text{ o } S \text{ o } R) + L$ \\
+    3b & $\num{1.2}\,D + \num{1.6}\,(L_r \text{ o } S \text{ o } R) + \num{0.8}\,W$ \\
+    4  & $\num{1.2}\,D + \num{1.6}\,W + L + \num{0.5}\,(L_r \text{ o } S \text{ o } R)$ \\
+    5  & $\num{1.2}\,D + \num{1.4}\,E + L + \num{0.2}\,S$ \\
+    6  & $\num{0.9}\,D + \num{1.6}\,W$ \\
+    7  & $\num{0.9}\,D + \num{1.4}\,E$ \\
     \bottomrule
+    \multicolumn{2}{@{}p{0.9\textwidth}@{}}{\footnotesize $D$: carga permanente; $L$: carga de uso; $L_r$: carga de uso de techo; $S$: nieve; $R$: lluvia; $W$: viento; $E$: sismo según NCh433 y NCh2369.}
   \end{tabular}
 \end{table}
 
-La NCh427/1 no define las cargas ni sus combinaciones: establece que deben tomarse de la normativa aplicable según el tipo de edificación, es decir, de la NCh3171, la NCh433 y la NCh2369, y que en el diseño sismorresistente las disposiciones de estas normas prevalecen sobre las de la NCh427/1~\parencite{inn2016nch427}.
-\revisar{Reemplazar la \cref{tab:combinaciones-lrfd} por las combinaciones LRFD de la NCh3171:2017 (incluida $\num{0.9}\,D + \num{1.4}\,E$, que gobierna el volcamiento y el levantamiento de las fundaciones) con la norma a la vista, y agregarla a la bibliografía.
-Justificar si además aplican las combinaciones propias de la NCh2369 para estructuras industriales.}
+Cuando están presentes cargas debidas a líquidos con presiones y alturas máximas bien definidas ($F$), como el agua contenida en estanques, estas se incluyen con el mismo factor de la carga permanente en las combinaciones 1, 2, 3a, 3b, 4, 5 y 7~\parencite{inn2017nch3171}.
+Asimismo, cuando la resistencia al volcamiento, al deslizamiento o al levantamiento depende de la carga permanente, esta debe considerarse con su valor mínimo esperado, lo que corresponde a la combinación 7~\parencite{inn2017nch3171}.
+Las combinaciones particulares que establezcan las normas de diseño sísmico prevalecen sobre las anteriores~\parencite{inn2017nch3171}.
+\revisar{Confirmar si se aplican también las combinaciones de la NCh2369 (la NCh3171 fija en 1,4 el factor de amplificación sísmica de la combinación (ii) de la NCh2369:2003 para acero) y qué versión de la NCh2369 corresponde: la NCh2369:2025 fue oficializada el 9 de marzo de 2026, con un período de transición (pregunta~1).}
 
 \subsection{Análisis sísmico industrial e interacción flexocompresiva}
 

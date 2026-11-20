@@ -32,7 +32,7 @@ material bruto entra por un lado, se clasifica, se trabaja y sale un
 |---|---|---|---|
 | `00_proyecto/` | Preproducción / guion | Contexto, estado, plan, decisiones, glosario, bitácora | Sí |
 | `01_normativa/` | Specs de entrega del canal | Normativa UCM (originales, `texto/`, reglas, rúbrica, proceso) y **`proyecto/`**: inscripción, propuesta ANID, correos y documentos de diseño del proyecto + `ALCANCE.md` | `originales/` y `texto/` **NUNCA**; los `.md` resumen sí |
-| `02_material_bruto/` | Ingesta / rushes | Todo lo generado antes (bueno y malo), papers, datos crudos | **NUNCA se modifica**, solo se agrega |
+| `02_material_bruto/` | Ingesta / rushes | Todo lo generado antes (bueno y malo), papers, normas, datos crudos y textos generados por IA (`ia_generado/`, nunca citables) | **NUNCA se modifica**, solo se agrega |
 | `03_seleccion/` | Logging / selección de tomas | Fichas de lectura, triaje de borradores, notas de investigación | Sí |
 | `04_analisis/` | Efectos / VFX / color | Código (Python), cálculos, notebooks, scripts que generan figuras | Sí |
 | `05_ejemplos/` | Referencias / *moodboard* | Tesis y memorias de cálculo **ajenas** usadas como modelo de forma y método, con su ficha | Originales **NUNCA**; fichas sí. **Nunca copiar texto** |

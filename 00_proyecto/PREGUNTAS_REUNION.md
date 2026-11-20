@@ -15,7 +15,7 @@ que necesito confirmar para cerrar el informe. Están ordenadas por prioridad.
 150×150×6, zapatas 1,0 × 1,0 × 0,5 m), si el corte sísmico lo toman 2 pilares en voladizo (supuesto del
 cálculo original), la zapata **vuelca**. Si lo reparten los 6 pilares (cubierta como diafragma), no vuelca,
 pero el área en contacto baja a 85 % (zona 2) o 63 % (zona 3).
-¿Qué supuesto corresponde? ¿Zona sísmica de Linares? ¿Qué versión de la NCh2369 usar (2003 o 2023)
+¿Qué supuesto corresponde? ¿Zona sísmica de Linares? ¿Qué versión de la NCh2369 usar (2003 o la 2025, oficializada el 9-03-2026 con período de transición)
 y cómo calcular el coeficiente sísmico (el cálculo usa C = 2,7·A~0~/R, simplificado)?
 
 Respuesta: __________________________________________________________

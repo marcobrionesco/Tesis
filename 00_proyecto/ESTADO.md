@@ -5,6 +5,13 @@
 
 **Última actualización:** 2026-11-20
 
+## ✅ Recibido 2026-11-20: NCh3171:2017 y dossier Gemini
+
+- NCh3171:2017 (OCR) → `inn2017nch3171`; tabla de combinaciones del cap. 2 reemplazada. Claves: agua = F (factor de D);
+  volcamiento con 0,9D + 1,4E; Cat. de ocupación I incluye instalaciones agrícolas.
+- Dossier Gemini = texto de IA en `02_material_bruto/ia_generado/` (no citable). Verificado: NCh2369:2025 oficializada
+  9-03-2026 (transición). Contradicho: L/300 "según NCh427". Pistas en `03_seleccion/notas/2026-11-20_verificacion_dossier-gemini.md`.
+
 ## ✅ Recibido 2026-11-20: NCh427/1:2016 y manual ETABS (UCM)
 
 - NCh427/1 escaneada → OCR (`02_material_bruto/normas/`), ficha `03_seleccion/fichas_lectura/inn2016nch427.md`.
