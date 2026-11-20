@@ -32,3 +32,17 @@
 - Propone el índice ICAS (OD, pH, CE, coliformes fecales, DBO₅, SS + parámetros relevantes).
 - **Lo más útil está en otro volumen:** el **volumen 8 (cuencas Mataquito y Maule)** incluye los ríos **Putagán, Achibueno, Ancoa, Loncomilla** y el **Canal Maule** → buscarlo en la biblioteca de la DGA para la columna del estero y la calidad del agua cerca de Linares.
 - Sin tabla numérica de límites por clase en este volumen (remite al "Instructivo", Guía CONAMA).
+
+## DGA (2004) — *Diagnóstico y clasificación de los cursos y cuerpos de agua según objetivos de calidad: Cuenca del río Maule* — `dga2004maule` ✅ citado
+
+- Informe de cuenca (diciembre 2004, Cade-Idepe para la DGA). Es el volumen de la cuenca del Maule del estudio de 2003. PDF en 2 partes.
+- **Calidad** (usada en la tabla 2.1, columna del estero, y en el cap. 4):
+  - Río **Putagán** (estación en la bocatoma del canal Melozal), tendencias centrales de 12 años: **CE 155 µS/cm**, **OD 9,4 mg/L**, **pH 7,3**.
+  - Muestreo puntual CADE-IDEPE, primavera 2003 (Tabla 4.24, págs. 88–89), 7 puntos (Maule en Panamericana y El Forel, Claro en Rauquén, Perquilauquén, Longaví, estero Cauquenes, **Loncomilla en Las Brisas**): DBO₅ < 1,5–9,5 mg/L; SST < 10–82 mg/L; NH₄⁺ 0,03–0,17 mg/L; NO₂⁻ < 0,01–0,02 mg/L; coliformes fecales < 2–1,7·10⁵ NMP/100 mL (Loncomilla 9,2·10⁴, clase 4); coliformes totales 3–3,5·10⁵.
+- **Caudales** (Tabla 4.14, p. 64): río Putagán en Yerbas Buenas, régimen pluvio-nival; Q(50 %) entre 13,9 (abril) y 37,2 m³/s (julio); Q(95 %) entre 5,1 y 10,4 m³/s. Influido por la restitución de riego del canal Melozal. → Muestra que la captación de la estación (≈ 1 m³/d) es despreciable frente a un río; **no sirve para el estero Batuco**, que es mucho menor y no tiene estación.
+- Comparación con la caracterización propia (EST): CE 156 µS/cm (≈ Putagán), pH 7,47, DBO₅ 2,2 mg/L, NH₄⁺ 0,15 mg/L (del orden de la cuenca); OD 6,3 mg/L (menor); coliformes fecales 1,5·10⁴ NMP/100 mL (contaminación fecal relevante).
+- Datos de 2003–2004: antiguos; complementar si se consigue información reciente de la DGA (red de monitoreo) para el Putagán o el Loncomilla.
+
+## "Research_Report" (2026) — texto generado por IA — no citable
+
+- Archivado en `02_material_bruto/ia_generado/2026-11-20_research-report-ia_volumen-maule.pdf`. Contiene instrucciones internas de otra IA; no aporta fuentes nuevas.

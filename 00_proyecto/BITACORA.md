@@ -5,6 +5,13 @@
 
 ---
 
+## 2026-11-20 (noche, 14) — DGA (2004), cuenca del río Maule
+
+- Archivado (2 partes) con ficha; nueva referencia `dga2004maule`. Tabla 2.1, columna del estero completada (pH, DBO₅, SST,
+  NH₄⁺, coliformes fecales). Cap. 2: calidad de la cuenca (Putagán y Loncomilla). Cap. 4: comparación con EST (CE igual a la del
+  Putagán; OD menor; coliformes altos).
+- Caudales del Putagán (5–92 m³/s): no aplicables al estero Batuco. "Research_Report" = texto de IA, archivado.
+
 ## 2026-11-20 (noche, 13) — Tesis de Sommer (2016)
 
 - Archivada sin citar: trata de árboles de bosque; la preferencia por nitrato es específica de cada especie. No aporta sobre nitrificación en humedales (ya respaldada con Dotro et al., 2021).
