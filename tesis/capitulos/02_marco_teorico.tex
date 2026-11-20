@@ -187,9 +187,13 @@ Estas guías se desarrollaron para climas estacionales, donde el invierno es el 
     Carga orgánica máxima (\unit{\gram\per\square\meter\per\day} de DQO) & 27 & 20 & 20 \\
     Material de la capa principal & Arena & Arena 0,06--\qty{2}{\milli\meter} & Arena 0,06--\qty{4}{\milli\meter} \\
     Profundidad de la capa principal (\unit{\centi\meter}) & 100 & $> 50$ & $> 50$ \\
+    Tamaño efectivo $d_{10}$ de la arena (\unit{\milli\meter}) & \numrange{0.25}{1.2} & \numrange{0.2}{0.4} & \numrange{0.2}{0.4} \\
+    Coeficiente de uniformidad $U = d_{60}/d_{10}$ & $< \num{3.5}$ & $< 5$ & -- \\
     \bottomrule
   \end{tabular}
 \end{table}
+
+En la \cref{tab:parametros-hcfv}, la arena se especifica mediante su tamaño efectivo $d_{10}$, diámetro correspondiente al \qty{10}{\percent} más fino de la curva granulométrica, y su coeficiente de uniformidad $U = d_{60}/d_{10}$, en que $d_{60}$ es el diámetro correspondiente al \qty{60}{\percent} más fino~\parencite{das2015fundamentos}; valores bajos de $U$ indican una arena de granulometría uniforme, que conserva la conductividad hidráulica necesaria para que cada dosis infiltre y drene el lecho~\parencite{dotro2021humedales}.
 
 Como alternativa a las reglas generales, la superficie del lecho puede dimensionarse mediante el método del balance de oxígeno propuesto por \textcite{platzer1999design}, empleado con frecuencia en América Latina~\parencite{dotro2021humedales}, que exige que el aporte de oxígeno al lecho ($OI$) supere a la demanda de oxígeno del sistema ($OD$), como indica la \cref{ec:balance-o2}:
 \begin{equation}
@@ -342,5 +346,5 @@ Los pilares, al estar sometidos simultáneamente a compresión axial y a momento
 \subsection{Fundaciones superficiales}
 
 La transmisión de las cargas desde la superestructura hacia el terreno natural se realiza mediante zapatas aisladas.
-El diseño geotécnico requiere verificar que la presión real de contacto ($q_{act}$) generada en condición de servicio sea menor a la capacidad de soporte admisible del suelo ($q_{adm}$)~\parencite{das2015principles,bowles1996foundation}.
+El diseño geotécnico requiere verificar que la presión real de contacto ($q_{act}$) generada en condición de servicio sea menor a la capacidad de soporte admisible del suelo ($q_{adm}$)~\parencite{das2015fundamentos,bowles1996foundation}.
 Estructuralmente, la zapata se diseña en hormigón armado, dimensionando la armadura de flexión inferior de acuerdo a los criterios normativos vigentes~\parencite{minvu2011ds60,aci2019building}.

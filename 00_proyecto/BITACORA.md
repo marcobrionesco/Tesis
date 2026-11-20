@@ -5,6 +5,14 @@
 
 ---
 
+## 2026-11-20 (noche, 22) — Das (2015), Fundamentos de ingeniería geotécnica
+
+- Nueva `das2015fundamentos` (4.ª ed. en español; PDF recibido hasta la p. 474, sin los cap. 16–17). Reemplaza a `das2015principles`
+  en el cap. 2; esta última sigue solo en conclusiones (sin verificar).
+- Cap. 2: filas d₁₀ y U en la tabla de parámetros HCFV (Dotro et al., Tabla 4.1) y su definición (Das, 2.15).
+- Cap. 3: ecuación de presiones de contacto con excentricidad (e ≤ B/6) y verificación al deslizamiento (FS 1,5; φ′ reducido), con NCh2369.
+- Pendiente: cap. 16–17 de Das (capacidad de carga y asentamiento) para respaldar los 150 kPa supuestos.
+
 ## 2026-11-20 (noche, 21) — Riesgo y brecha hídrica (Radiografía del Agua y ARClim)
 
 - Citados: Escenarios Hídricos 2030 (2018, Fundación Chile) (Maule = mayor huella hídrica azul del país, 50 de 212 m³/s; agricultura
