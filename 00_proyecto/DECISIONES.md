@@ -90,3 +90,9 @@
 - **Consecuencia normativa:** la NCh427/1:2016 (B.2) remite cargas y combinaciones a NCh3171, NCh433 y NCh2369, y en sismo
   prevalecen las normas sísmicas. La tesis citará NCh427/1 (numeración chilena, equivalente a AISC 360-10) para la resistencia
   y la NCh3171 para las combinaciones (pendiente conseguirla).
+
+## 2026-11-20 — Sin preguntas de investigación
+
+- **Decisión:** se elimina la sección "Preguntas de investigación" del cap. 1. **Motivo:** el profesor guía indicó explícitamente
+  que no es necesaria (prevalece sobre la sugerencia de los Lineamientos §6). La discusión y las conclusiones se organizan por los
+  tres objetivos específicos aprobados (VF-V2).

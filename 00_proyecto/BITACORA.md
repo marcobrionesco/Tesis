@@ -5,6 +5,16 @@
 
 ---
 
+## 2026-11-20 (noche, 26) — Revisión del autor (9 puntos)
+
+- Cap. 1: eliminada la sección "Preguntas de investigación" (el profesor indicó que no es necesaria) y el último párrafo de
+  "Alcances y limitaciones". Rayas largas en prosa → paréntesis o comas (cap. 1, 3, resumen).
+- Cap. 3: 3.2.3 remite a la tabla de caudales de diseño del cap. 4 (la "tabla de proyección" de la v3.0 no tenía datos).
+  La imagen del IBC de la v3.0 no se repone (sin fuente, aparentemente generada por IA; el esquema propio está en resultados).
+- Cap. 5 reescrito por objetivos (OE1 caracterización, OE2 depurativo e hidráulico, OE3 estructural). Cap. 6 reescrito:
+  objetivo general + una conclusión por OE, limitaciones y trabajo futuro.
+- Documento de tareas (claude.ai Docs) reescrito con el estado actual.
+
 ## 2026-11-20 (noche, 25) — Bocaz (2026), cuerpo de la tesis (UCM, guía Vera Puerto)
 
 - Archivado y renombrado `2026_ucm_bocaz_…` (cuerpo + anexos); ficha ampliada. Modelo de forma de alta relevancia (mismo guía, 2026).
