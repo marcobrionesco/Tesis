@@ -5,6 +5,14 @@
 
 **Última actualización:** 2026-11-20
 
+## 🚀 Versión 4 lista para enviar (2026-11-20, noche)
+
+- Verificación integral hecha (lectura completa, citas, tablas/figuras citadas antes, extensión, tercera persona, ortografía es_CL,
+  glosario, márgenes). Resumen de 4 párrafos y Abstract traducido. PDF y Word en `salida/`.
+- **Tareas internas del autor al enviar la v4:** (1) pedir al profesor la NCh3456; (2) pedir el anexo de referencias de la propuesta
+  (Vera-Puerto et al. 2021a, 2021b, 2023, 2024); (3) recoger sus observaciones de la v4; (4) confirmar las propuestas de las preguntas 1–18.
+- Lista completa de pendientes: documento de tareas (claude.ai, "Tesis — Tareas pendientes y preguntas").
+
 ## 🟢 Respuestas del autor integradas (2026-11-20, noche)
 
 - Preguntas 1–7, 9–11, 15, 16 y 18 resueltas como propuestas del autor (ver `DECISIONES.md` y `PREGUNTAS_REUNION.md`); 8 y 12 esperan su visto bueno;

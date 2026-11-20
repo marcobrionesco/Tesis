@@ -5,6 +5,14 @@
 
 ---
 
+## 2026-11-20 (noche, 30) — Versión 4: preguntas 8, 12, 13, 14, 17 y verificación integral
+
+- P8: diseño = cálculo del profesor; medias medidas como validación (tabla 4.7). P12: estructura auxiliar 15 × 15 × 6 mm verificada (10_estructura.py).
+  P13/14/17: tareas internas (sin notas en la tesis).
+- Verificación: lectura completa; corregidas contradicciones (clase 4 por coliformes totales; dosificadores en estructura auxiliar; "medio filtrante"
+  en la carga de la plataforma; procesamiento desde el laboratorio), citas (laboratorio, Vera-Puerto, FAO, BORDA, DOH, Platzer), tablas anchas,
+  "la apartado", decimales. Ortografía con hunspell es_CL (sin errores). Resumen (párrafos 3–4) y Abstract escritos.
+
 ## 2026-11-20 (noche, 29) — Integración de las respuestas del autor (preguntas 2–7, 9–11, 15, 16, 18) e informes del laboratorio
 
 - Recibidos: 6 informes del Laboratorio del Agua UCM (.docx → .md) y 2 resúmenes del proyecto (`02_material_bruto/laboratorio/`).
