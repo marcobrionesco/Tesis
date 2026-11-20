@@ -24,3 +24,11 @@
 
 - Informe interno (enero 2026) elaborado por practicantes; coliformes fecales, nitrógeno y fósforo total 2023–2025. Cita los límites tróficos de la Guía NSCA (NT oligotrófico < 0,7, mesotrófico 0,7–1,5 mg/L; PT < 0,025, 0,025–0,075 mg/L).
 - Otra región y sin revisión → no citable; útil solo como ejemplo de presentación de un monitoreo.
+
+## DGA (2003) — *Diagnóstico y clasificación de los cursos y cuerpos de agua según objetivos de calidad* — `dga2003diagnostico` ✅ citado
+
+- Informe final elaborado por Cade-Idepe para la Dirección General de Aguas (MOP), 30-12-2003, proyecto P-1940. Recibido: **volumen 1, metodología** (4 partes PDF).
+- Usado: definición de las clases de calidad de las normas secundarias (excepción y 1: comunidades acuáticas y **riego irrestricto**; 2: acuicultura y pesca; 3: bebida animal y **riego restringido**; 4: mala calidad) → cap. 2.
+- Propone el índice ICAS (OD, pH, CE, coliformes fecales, DBO₅, SS + parámetros relevantes).
+- **Lo más útil está en otro volumen:** el **volumen 8 (cuencas Mataquito y Maule)** incluye los ríos **Putagán, Achibueno, Ancoa, Loncomilla** y el **Canal Maule** → buscarlo en la biblioteca de la DGA para la columna del estero y la calidad del agua cerca de Linares.
+- Sin tabla numérica de límites por clase en este volumen (remite al "Instructivo", Guía CONAMA).

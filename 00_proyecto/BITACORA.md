@@ -5,6 +5,11 @@
 
 ---
 
+## 2026-11-20 (noche, 11) — DGA (2003), clasificación de cursos de agua (vol. 1, metodología)
+
+- Archivado (4 partes) con ficha; nueva referencia `dga2003diagnostico`: clases de calidad (riego irrestricto/restringido) en cap. 2.
+- Para datos de cauces cercanos a Linares hace falta el **volumen 8 (Mataquito y Maule)** del mismo estudio.
+
 ## 2026-11-20 (noche, 10) — Calidad de aguas superficiales
 
 - 4 documentos archivados con ficha. Citado: Sigoña et al. (2025) (`sigona2025pesticide`): diurón y fosetil-Al en la cuenca
