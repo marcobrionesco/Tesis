@@ -5,6 +5,15 @@
 
 **Última actualización:** 2026-11-20
 
+## ✅ Recibido 2026-11-20: NCh2369:2025
+
+- Escaneada → OCR + lectura de fórmulas en imagen; ficha `03_seleccion/fichas_lectura/inn2025nch2369.md`; ref. `inn2025nch2369`.
+- **Linares = zona 2** (A₀ = 0,30 g). Cat. I (I = 0,8) o II (1,0). Combinaciones sísmicas con SO (agua) y E sin 1,4.
+  C = espectro de diseño en T* (R* → 1,5 en estructuras rígidas: C mayor que el 2,7·A₀/R usado). Zapatas: **≥ 80 % del área
+  apoyada con combinaciones ASD**. Péndulo invertido no aplica (6 pilares).
+- Tesis: cap. 2 (sismo con la norma 2025, espectro, combinaciones), cap. 3 (zona 2, criterio 80 %), cap. 5 (zona corregida).
+- Falta definir con el profesor: versión (2003/2025), categoría, R, suelo, diafragma → recalcular plataforma y zapatas.
+
 ## ✅ Recibido 2026-11-20: bibliografía de aguas domésticas
 
 - Libro UdeC (Vidal y Araya, 2014), cap. 1 → `araya2014aguas`: definición de agua servida y **columna de aguas servidas de la

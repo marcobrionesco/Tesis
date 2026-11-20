@@ -5,6 +5,15 @@
 
 ---
 
+## 2026-11-20 (noche, 7) — NCh2369:2025
+
+- Norma archivada (3 partes, escaneada, OCR); fórmulas y Tablas 2, 3, 6 y 7 leídas en imagen. Nueva referencia `inn2025nch2369`.
+- Cap. 2: sección sísmica reescrita con la norma 2025 (categorías e I, espectro de diseño, cortes mínimo y máximo,
+  combinaciones sísmicas LRFD/ASD con SO y SA). Cap. 3: zona 2 para Linares, método y criterio de 80 % de área apoyada.
+  Cap. 5: zona corregida (era 3). Conclusiones: cita actualizada.
+- Pregunta 1 reescrita (zona resuelta; quedan versión, categoría, R, suelo y diafragma).
+- Pendiente: recalcular C, plataforma y zapatas con la norma que se adopte (script `10_estructura.py`).
+
 ## 2026-11-20 (noche, 6) — Bibliografía de aguas servidas domésticas
 
 - Archivados: libro *Las aguas servidas y su depuración en zonas rurales* (UdeC, 2014), resumen ejecutivo U. de Chile/SAG (2005)

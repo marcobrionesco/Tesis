@@ -11,12 +11,13 @@ que necesito confirmar para cerrar el informe. Están ordenadas por prioridad.
 
 # A. Prioridad alta (cambian resultados del informe)
 
-**1. Estructura: reparto del sismo y zapatas.** Con el diseño final (plataforma 5,00 × 2,00 m, pilares
-150×150×6, zapatas 1,0 × 1,0 × 0,5 m), si el corte sísmico lo toman 2 pilares en voladizo (supuesto del
-cálculo original), la zapata **vuelca**. Si lo reparten los 6 pilares (cubierta como diafragma), no vuelca,
-pero el área en contacto baja a 85 % (zona 2) o 63 % (zona 3).
-¿Qué supuesto corresponde? ¿Zona sísmica de Linares? ¿Qué versión de la NCh2369 usar (2003 o la 2025, oficializada el 9-03-2026 con período de transición)
-y cómo calcular el coeficiente sísmico (el cálculo usa C = 2,7·A~0~/R, simplificado)?
+**1. Estructura: sismo y zapatas (NCh2369).** Linares está en **zona 2** (NCh2369:2025, Tabla 2; A~0~ = 0,30 g),
+y la norma exige que al menos el 80 % del área de cada zapata quede apoyada (combinaciones ASD). Con el diseño final
+(5,00 × 2,00 m, pilares 150×150×6, zapatas 1,0 × 1,0 × 0,5 m), si el sismo lo reparten los 6 pilares el cálculo previo
+daba 85 % (cumple); con 2 pilares en voladizo, la zapata vuelca. Para rehacerlo necesito definir:
+(a) ¿NCh2369:2003 o 2025 (oficializada el 9-03-2026, con transición)? (b) ¿Categoría de ocupación I (I = 0,8) o II
+(I = 1,0)? (c) ¿Sistema resistente: marco a momento sin anclajes dúctiles (R = 3) u otro? (d) ¿Tipo de suelo (no hay
+mecánica de suelos)? (e) ¿El tablero y las vigas trabajan como diafragma que reparte el sismo entre los 6 pilares?
 
 Respuesta: __________________________________________________________
 

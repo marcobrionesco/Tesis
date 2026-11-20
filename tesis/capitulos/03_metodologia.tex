@@ -123,15 +123,17 @@ Justificar el límite $L/300$ con otra fuente o adoptar uno más exigente, consi
 
 \subsection{Modelación sísmica (NCh2369) y geotecnia}
 
-La estabilidad global de la estructura se analizó frente a solicitaciones sísmicas utilizando el método estático equivalente para estructuras industriales de la NCh2369.
-Se determinó el esfuerzo de corte basal a partir del coeficiente sísmico de diseño correspondiente a la zona sísmica del emplazamiento~\parencite{inn2003nch2369}.
-\revisar{Zona sísmica de Linares (la v3.0 usaba zona~2 aquí y zona~3 en la discusión): verificar en la norma vigente; pregunta~1 de 00\_proyecto/PREGUNTAS\_REUNION.md.}
+La estabilidad global de la estructura se analizó frente a solicitaciones sísmicas utilizando el análisis elástico estático de la NCh2369.
+La comuna de Linares se ubica en la zona sísmica~2, con una aceleración efectiva máxima $A_0 = \num{0.30}\,g$~\parencite{inn2025nch2369}.
+El corte basal se determinó a partir del espectro de diseño (\cref{ec:espectro-diseno}) evaluado en el período fundamental de la plataforma, con el coeficiente de importancia de la categoría de ocupación asignada y el factor $R$ y la razón de amortiguamiento del sistema resistente, y se acotó entre los cortes mínimo y máximo de la norma.
+\revisar{Pendiente de definir con el profesor guía: versión de la norma (2003 o 2025), categoría de ocupación (I o II), tipo de suelo (sin estudio de mecánica de suelos) y sistema resistente de la Tabla~7 (marco resistente a momento sin anclajes dúctiles, $R = 3$, o \enquote{otras estructuras}, $R = \num{1.5}$); no corresponde a péndulo invertido porque tiene seis pilares.}
 
 El corte sísmico indujo un momento de volcamiento en la base de la estructura.
 En consecuencia, los elementos verticales se verificaron comprobando el índice de interacción flexocompresiva (ecuaciones H1-1 de la especificación AISC~360), evaluando su capacidad para resistir simultáneamente la compresión axial producto de las cargas gravitacionales y la flexión inducida por el sismo, controlando los límites de esbeltez para prevenir el pandeo local y global~\parencite{aisc2016specification}.
 
 La transmisión de estas solicitaciones al terreno se verificó mediante el diseño de fundaciones superficiales de hormigón armado.
 El análisis geotécnico consistió en verificar que la presión real de contacto transmitida al sello de fundación no excediera la capacidad de soporte admisible del terreno, evaluando tanto la condición estática de servicio como la combinación sísmica.
+Para las zapatas aisladas, que se clasifican como fundaciones estándar menores porque se representan como apoyos idealizados en las bases de los pilares, la NCh2369:2025 exige que, con las combinaciones sísmicas del método ASD, al menos el \qty{80}{\percent} del área bajo cada fundación permanezca apoyada y que las tensiones máximas de contacto sean menores que las admisibles~\parencite{inn2025nch2369}.
 Estructuralmente, las fundaciones se dimensionaron para resistir los esfuerzos de flexión y punzonamiento de acuerdo a las disposiciones del Decreto Supremo N.º~60~\parencite{minvu2011ds60}.
 
 \subsection{Elaboración del expediente técnico y planimetría}

@@ -268,14 +268,23 @@ La NCh3171 establece las combinaciones básicas de cargas mayoradas para el dise
 Cuando están presentes cargas debidas a líquidos con presiones y alturas máximas bien definidas ($F$), como el agua contenida en estanques, estas se incluyen con el mismo factor de la carga permanente en las combinaciones 1, 2, 3a, 3b, 4, 5 y 7~\parencite{inn2017nch3171}.
 Asimismo, cuando la resistencia al volcamiento, al deslizamiento o al levantamiento depende de la carga permanente, esta debe considerarse con su valor mínimo esperado, lo que corresponde a la combinación 7~\parencite{inn2017nch3171}.
 Las combinaciones particulares que establezcan las normas de diseño sísmico prevalecen sobre las anteriores~\parencite{inn2017nch3171}.
-\revisar{Confirmar si se aplican también las combinaciones de la NCh2369 (la NCh3171 fija en 1,4 el factor de amplificación sísmica de la combinación (ii) de la NCh2369:2003 para acero) y qué versión de la NCh2369 corresponde: la NCh2369:2025 fue oficializada el 9 de marzo de 2026, con un período de transición (pregunta~1).}
+Para las combinaciones que incluyen el sismo, la NCh2369:2025 exige al menos $\num{1.2}\,D + \alpha L + SO + SA + E$ y $\num{0.9}\,D + SA + E$ en el método LRFD, y $D + \num{0.75}\,\alpha L + \num{0.75}\,SO + \num{0.75}\,SA + \num{0.70}\,E$ y $D + \num{0.75}\,SA + \num{0.70}\,E$ en el método ASD, donde $SO$ es la carga de operación concurrente con el sismo, como el contenido de los estanques, $SA$ la carga accidental producida por el sismo y $\alpha$ un factor de reducción de la carga de uso; la acción sísmica $E$ combina las tres direcciones con la regla $\num{1.0}$--$\num{0.3}$--$\num{0.3}$~\parencite{inn2025nch2369}.
 
 \subsection{Análisis sísmico industrial e interacción flexocompresiva}
 
-El diseño sismorresistente para estructuras industriales en Chile se ejecuta mediante la norma NCh2369~\parencite{inn2003nch2369}.
-El método define el esfuerzo de corte sísmico horizontal a través de un coeficiente sísmico de diseño, el cual induce un momento de volcamiento sobre la base de la estructura.
+El diseño sismorresistente de estructuras e instalaciones industriales en Chile se rige por la NCh2369, cuya tercera edición (NCh2369:2025) reemplazó a las versiones de 2003 y 2023~\parencite{inn2025nch2369}.
+La norma clasifica las estructuras en categorías de ocupación según su importancia, a las que asigna un coeficiente de importancia $I$ de \num{0.80} (categoría~I, estructuras y equipos menores o provisionales), \num{1.00} (categoría~II, estructuras y equipos normales) o \num{1.20} (categorías~III y~IV), y define la aceleración efectiva máxima $A_0$ según la zona sísmica de cada comuna~\parencite{inn2025nch2369}.
+En el análisis estático, el corte basal horizontal se calcula como $Q_0 = C\,P$, donde $P$ es el peso sísmico y $C$ el coeficiente sísmico, igual al valor del espectro de diseño en el período fundamental de la estructura dividido por $g$; el espectro de diseño depende de $I$, del tipo de suelo, del factor de modificación de la respuesta $R$ y de la razón de amortiguamiento $\xi$ del sistema resistente (\cref{ec:espectro-diseno})~\parencite{inn2025nch2369}:
+\begin{equation}
+  S_a(T_H) = \frac{I\, S_{aH}(T_H)}{R^{*}} \left(\frac{\num{0.05}}{\xi}\right)^{\num{0.4}}, \qquad
+  S_{aH}(T_H) = A_r\, S\, \frac{1 + r\,(T_H/T_0)^{p}}{1 + (T_H/T_0)^{q}}
+  \label{ec:espectro-diseno}
+\end{equation}
+donde $S_{aH}$ es el espectro de referencia horizontal; $A_r = \num{1.4}\,A_0$ la aceleración máxima de referencia; $S$, $T_0$, $r$, $p$ y $q$ parámetros que dependen del tipo de suelo, y $R^{*}$ el factor de modificación de la respuesta efectivo, que se reduce hacia \num{1.5} en estructuras de período corto~\parencite{inn2025nch2369}.
+El corte basal resultante no puede ser menor que $\num{0.25}\, I A_r S P/g$ y puede limitarse a $\num{2.75}\, I A_r S P / [g (R+1)] \cdot (\num{0.05}/\xi)^{\num{0.4}}$~\parencite{inn2025nch2369}.
+Este corte induce un momento de volcamiento sobre la base de la estructura.
 Los pilares, al estar sometidos simultáneamente a compresión axial y a momentos flectores, se diseñan evaluando el índice de interacción flexocompresiva (\cref{fig:diagrama-interaccion}), asegurando que la demanda combinada garantice la estabilidad global y prevenga el pandeo~\parencite{aisc2016specification}.
-\revisar{La NCh2369 tiene una versión 2023 (y la NCh433 una de 2026): justificar la versión utilizada.}
+\revisar{La NCh2369:2025 se oficializó el 9-03-2026 con un período de transición en que se permite aún la versión 2003: confirmar con el profesor guía qué versión adopta el proyecto (pregunta~1).}
 
 \begin{figure}[htbp]
   \centering
