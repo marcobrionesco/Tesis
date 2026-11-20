@@ -65,7 +65,7 @@ def cref(m):
 # ---------------------------------------------------------------- siunitx
 UNIDADES = {"meter": "m", "metre": "m", "gram": "g", "liter": "L", "litre": "L", "day": "d", "hour": "h",
             "minute": "min", "second": "s", "pascal": "Pa", "newton": "N", "volt": "V", "siemens": "S",
-            "percent": "%", "degree": "°", "kilogram": "kg", "tonne": "t", "celsius": "°C", "degreeCelsius": "°C"}
+            "percent": "\\%", "degree": "°", "kilogram": "kg", "tonne": "t", "celsius": "°C", "degreeCelsius": "°C"}
 PREFIJOS = {"kilo": "k", "milli": "m", "centi": "c", "micro": "µ", "mega": "M", "giga": "G"}
 POTENCIA = {"square": "²", "cubic": "³"}
 
@@ -106,7 +106,7 @@ def numero(t):
 
 def qty(n, u):
     u = unidad(u)
-    return f"{numero(n)}{'' if u in ('%', '°') else ' '}{u}"
+    return f"{numero(n)}{'' if u in (r'\%', '°') else ' '}{u}"
 
 
 B = r"\{((?:[^{}]|\{[^{}]*\})*)\}"  # argumento con un nivel de llaves anidadas
