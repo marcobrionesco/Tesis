@@ -3,7 +3,22 @@
 > El "handoff". Lo primero que lee una IA nueva para saber qué hacer.
 > Actualizar al final de **cada** sesión de trabajo.
 
-**Última actualización:** 2026-11-19
+**Última actualización:** 2026-11-20
+
+## 🔴 PRIORIDAD ACTUAL (2026-11-20) — Revisión del profesor guía del 16-11
+
+- El profesor guía revisó la v3.0 (47 comentarios en el PDF) y pidió por correo:
+  **versión actualizada con marco teórico y materiales y métodos para el viernes 20-11 por la mañana, EN WORD,
+  con los objetivos aprobados por la Escuela.**
+- Lista comentario por comentario y su estado: **`03_seleccion/triaje/2026-11-16_revision-profesor-v3.0.md`**.
+- ✅ Hecho: objetivos y título de la inscripción **VF-V2** (3 OE) en tesis, ALCANCE y CONTEXTO; correcciones
+  textuales del cap. 1; cap. 2 reestructurado (aguas residuales → SbN → humedales: definición, tipos, por qué
+  vertical, diseño con términos explicados, operación → hidráulica → estructural, sin "(OE)"); cap. 3 reordenado
+  (área de estudio → caracterización → diseño depurativo/hidráulico genérico → estructural); resumen en 4 párrafos;
+  `make word` → `salida/tesis.docx`.
+- ⬜ Falta (requiere fuentes o material del profesor): tabla 2.1 de características típicas (fuentes reales),
+  fuente de "nitrato preferido por las plantas", traducción de Dotro (términos de las ecuaciones), trabajo de Diego
+  (fichas de muestreo → anexo), método analítico y laboratorio, procedimiento de tiempos de retención.
 
 ## Estado general
 

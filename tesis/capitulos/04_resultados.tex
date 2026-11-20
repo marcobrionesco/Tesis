@@ -7,8 +7,8 @@
 \chapter{Presentación de Resultados}
 \label{cap:resultados}
 
-\section{Diseño hidráulico y humedales (objetivo específico 1)}
-\label{sec:res-hidraulico}
+\section{Características de las fuentes de agua residual}
+\label{sec:res-caracterizacion}
 
 \subsection{Caracterización de los afluentes}
 \label{sec:caracterizacion}
@@ -118,12 +118,15 @@ La \cref{tab:resumen-afluentes} consolida los caudales y concentraciones de dise
     Agroquímicos sala de bombas (AGR2) & ---\textsuperscript{c} & \num{75.7}\,\textsuperscript{d} & \num{2.41}\,\textsuperscript{d} \\
     Estero Batuco (EST) & ---\textsuperscript{c} & \num{6.33}\,\textsuperscript{d} & \num{0.15}\,\textsuperscript{d} \\
     \bottomrule
-    \multicolumn{4}{@{}p{0.95\textwidth}@{}}{\footnotesize \textsuperscript{a} Valor de diseño del proyecto (documento de diseño del humedal). \textsuperscript{b} Amonio, asumido igual al NTK. \textsuperscript{c} \pendiente{caudal a definir en la distribución de caudales (objetivo específico~1)}. \textsuperscript{d} Media medida (\cref{tab:caracterizacion}).}
+    \multicolumn{4}{@{}p{0.95\textwidth}@{}}{\footnotesize \textsuperscript{a} Valor de diseño del proyecto (documento de diseño del humedal). \textsuperscript{b} Amonio, asumido igual al NTK. \textsuperscript{c} \pendiente{caudal a definir en la distribución de caudales (objetivo específico~2)}. \textsuperscript{d} Media medida (\cref{tab:caracterizacion}).}
   \end{tabular}
 \end{table}
 
 \revisar{Los valores de diseño de las aguas servidas quedan algo por debajo de las medias medidas (DQO: 300 frente a \qty{338}{\milli\gram\per\liter} en AS2 y 400 frente a \qty{411}{\milli\gram\per\liter} en AS1; amonio: \num{1.5} frente a \num{1.98} y \num{1.0} frente a \qty{1.28}{\milli\gram\per\liter}): confirmar con el profesor guía si se mantienen o se actualizan.
 Con este nitrógeno, la carga amoniacal de $\sim$\qty{3}{\gram\per\square\meter\per\day} prevista para la Fase~1 en la propuesta ANID no se alcanza con las aguas servidas.}
+
+\section{Diseño depurativo y cálculo hidráulico}
+\label{sec:res-hidraulico}
 
 \subsection{Demanda de agua para riego}
 
@@ -189,7 +192,8 @@ El aporte por convección, asumiendo \qty{0.3}{\gram} de O$_2$ por litro de aire
 
 Dado que el aporte (\qty{315.0}{\gram\per\day}) es mayor a la demanda (\qty{111.8}{\gram\per\day}), el diseño fue considerado satisfactorio.
 Esto validó el área activa de \qty{6.00}{\square\meter}, con una carga hidráulica resultante de \qty{125}{\milli\meter\per\day} y una carga orgánica de \qty{30}{\gram\per\square\meter\per\day} de DQO.
-Constructivamente, esta superficie se materializó mediante la disposición de 6 contenedores modulares tipo IBC por línea de tratamiento~\parencite{platzer2016long} (\cref{fig:esquema-ibc}).
+Constructivamente, esta superficie se materializó mediante la disposición de 6 contenedores modulares tipo IBC de \qty{1.00}{\cubic\meter} por línea de tratamiento~\parencite{platzer2016long}, lo que además evita excavaciones y la mezcla entre las tres aguas en estudio.
+Cada módulo contiene un lecho estratificado con una capa inferior de drenaje de grava, una capa intermedia de filtración de arena gruesa y una capa superior de distribución de gravilla, plantado con macrófitas emergentes del género \textit{Typha} (\cref{fig:esquema-ibc}).
 
 \begin{figure}[htbp]
   \centering
@@ -198,7 +202,7 @@ Constructivamente, esta superficie se materializó mediante la disposición de 6
   \label{fig:esquema-ibc}
 \end{figure}
 
-\revisar{Distribución de caudales para las líneas del estero y de agroquímicos (objetivo específico~1).
+\revisar{Distribución de caudales para las líneas del estero y de agroquímicos (objetivo específico~2).
 La propuesta ANID indica aplicar a estas líneas \enquote{las mismas características de carga} que a la línea doméstica.
 Con la DQO medida, igualar la carga de la Fase~1 (\qty{180}{\gram\per\day} de DQO en \qty{6}{\square\meter}) exigiría unos \qty{28400}{\liter\per\day} en la línea del estero (\qty{4.7}{\meter\per\day} de carga hidráulica, inviable en un humedal vertical), unos \qty{2400}{\liter\per\day} en AGR2 y unos \qty{460}{\liter\per\day} en AGR1 (04\_analisis/resultados/caudal\_equivalente\_carga.csv).
 Definir con el profesor guía el criterio de caudal para cada línea (p.\ ej.\ igual carga hidráulica que la línea doméstica) antes de dimensionar bombas y tuberías.}
@@ -232,7 +236,7 @@ Excavaciones sobre \qty{1.5}{\meter} requieren entibación o talud (NCh349).
 El cálculo original usa un tubo de \qty{52}{\milli\meter}, pero las EETT especifican PVC sanitario de \qty{110}{\milli\meter}; el documento de resultados indica \qty{37}{\meter} para la zanja de oficinas y el script, \qty{21}{\meter}.
 Confirmar el ancho de zanja (supuesto \qty{0.40}{\meter}) para cubicar.}
 
-\section{Cálculo estructural y planimetría (objetivo específico 2)}
+\section{Diseño y cálculo estructural}
 \label{sec:res-estructural}
 
 \subsection{Verificación LRFD de la estructura de soporte}
@@ -270,4 +274,13 @@ La verificación sísmica de la zapata está condicionada a los supuestos indica
 \subsection{Planimetría y expediente técnico}
 
 Se generó el conjunto de láminas en formato CAD, que contiene emplazamientos, elevaciones de impulsión, planta general de la estación HCFV, cortes constructivos, plantas de fundaciones y detalles de anclaje.
+La \cref{fig:planta-general} muestra la planta general con la ubicación de los sectores de la estación.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.7\textwidth]{emplazamiento_planta_general.png}
+  \caption{Planta general de la estación experimental en Frutícola SABA SpA. Fuente: elaboración propia.}
+  \label{fig:planta-general}
+\end{figure}
+
 Las memorias de cálculo, el itemizado y las láminas se integran en los anexos: cálculo del humedal (\cref{anx:calculos-humedal}), itemizado (\cref{anx:itemizado}), planimetría general (\cref{anx:planimetria-general}), planimetría hidráulica (\cref{anx:planimetria-hidraulica}) y planimetría estructural (\cref{anx:planimetria-estructural}).

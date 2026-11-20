@@ -99,6 +99,8 @@ make vigilar    # recompila automáticamente al guardar
 make revisar    # chktex, marcas pendientes, citas inventadas y extensión (80 págs., resumen 1 pág.)
 make contar     # cuenta palabras por capítulo
 make contexto   # genera salida/contexto_completo.md para subir a otra IA / NotebookLM
+make word       # exporta salida/tesis.docx: el profesor guía pide recibir las versiones EN WORD
+make preguntas  # PDF/DOCX con las preguntas para la próxima reunión
 make limpiar    # borra archivos auxiliares
 ```
 

@@ -5,6 +5,18 @@
 
 ---
 
+## 2026-11-20 (noche) — Revisión del profesor (v3.0 comentada) y objetivos aprobados VF-V2
+
+- Recibidos: PDF de la v3.0 con **47 comentarios** del profesor guía (→ `02_material_bruto/revisiones_profesor/`),
+  inscripción **VF-V2 con los objetivos aprobados** y captura del correo del 16-11 (→ `01_normativa/proyecto/`).
+- Comentarios extraídos con pymupdf y transcritos en `03_seleccion/triaje/2026-11-16_revision-profesor-v3.0.md`.
+- Aplicado: objetivos/título VF-V2 (tesis, ALCANCE, CONTEXTO); cap. 1 (textos que dictó el profesor);
+  cap. 2 y 3 reestructurados según sus comentarios; cap. 4 alineado a los 3 OE (IBC y planta general movidos a resultados);
+  resumen en 4 párrafos (resultados y conclusiones como `\pendiente`).
+- Nuevo `herramientas/latex_a_word.py` + `make word` (Word con APA, numeración y marcas resaltadas).
+- Pregunta 6 de la reunión reemplazada (el diseño del humedal ya está en el alcance): ahora pide trabajo de Diego y traducción de Dotro.
+- Pendiente: completar tabla 2.1 con fuentes reales; párrafos de resultados/conclusiones del resumen; abstract.
+
 ## 2026-11-20 (cont.) — Documento CO, bombas y preguntas para la reunión
 
 - Se recibió el documento **CO**: es la *Carta Oferta Económica-Técnica* en blanco (formulario de licitación, sin medidas).

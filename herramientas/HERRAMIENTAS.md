@@ -158,6 +158,7 @@ casos límite (¿qué pasa si x→0?) y que cada símbolo esté en `GLOSARIO.md`
 |---|---|
 | ⭐ `AGENTS.md` | Instrucciones estándar que leen Claude Code, Codex, Cursor, Copilot, etc. |
 | `CLAUDE.md` | Apunta a `AGENTS.md` (Claude Code lo lee automáticamente) |
+| ⭐ `make word` | Exporta la tesis a `salida/tesis.docx` (Times 12, 1,5, APA 7 con citeproc, números de figuras/tablas/ecuaciones desde el `.aux`, marcas resaltadas). El profesor guía edita en Word; los cambios se traspasan a mano al LaTeX |
 | ⭐ `make contexto` | Junta todo en `salida/contexto_completo.md` para IAs sin acceso al repo (ChatGPT web, Gemini, NotebookLM) |
 | ⭐ `herramientas/recetas/` | Prompts probados para tareas repetidas |
 | **Gitingest** / **Repomix** | Alternativas externas para empaquetar el repo entero en texto |

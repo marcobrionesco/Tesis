@@ -74,3 +74,12 @@
 - **Consecuencias / pendiente:**
 
 -->
+
+## 2026-11-20 — Objetivos aprobados VF-V2 y entrega en Word
+
+- **Decisión:** se adoptan los objetivos de la inscripción VF-V2 (aprobados por la Escuela a inicios de octubre de 2026): OG + 3 OE
+  (caracterización → diseño depurativo e hidráulico → diseño estructural). La versión "visto-ILVP" queda obsoleta.
+- **Consecuencia:** caracterización y diseño depurativo del humedal pasan a ser parte del alcance; caps. 3 y 4 se ordenan por los 3 OE.
+- **Decisión:** el LaTeX sigue siendo el master; al profesor se le envía Word generado con `make word`.
+  Sus ediciones/comentarios en Word se traspasan a mano al LaTeX y se registran en `03_seleccion/triaje/`.
+- **Motivo:** correo del profesor guía del 16-11-2026.

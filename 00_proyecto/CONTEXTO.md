@@ -14,7 +14,7 @@
 - **Tipo de proyecto (inscrito):** **Problema de ingeniería** (tipo 2). Tesis **solo de diseño**, etapa inicial del proyecto ANID; la implementación es la tesis de otro estudiante. Alcance oficial: `01_normativa/proyecto/ALCANCE.md`.
 - **Profesor guía:** Dr. Ismael Leonardo Vera Puerto (UCM) · **Co-guía:** Luis Rojas Cáceres
 - **Comisión:** guía + [2 integrantes por definir]
-- **Título:** *Propuesta de diseño para una estación experimental basada en humedales construidos para el tratamiento y reutilización en riego de tres fuentes de aguas residuales, en Frutícola SABA SpA, comuna de Linares*
+- **Título:** *Propuesta de diseño para una estación experimental basada en humedales construidos para el tratamiento y reutilización en riego de tres fuentes de aguas residuales, en Frutícola SABA SpA, comuna de Linares, Región del Maule*
 - **Proyecto marco:** ANID/Anillos/ATE250033 "Nature-based solution strategies for developing new sustainable water sources in sweet cherry production under a scarcity context (NbS-Waterry)"
 - **Etapa actual:** informe final en revisión — la v3.0 se envió al profesor guía (sept. 2026) y pidió mejorarla.
 - **Fecha de entrega objetivo:** [AAAA-MM-DD]
@@ -31,17 +31,18 @@ distintos y entregue agua apta para riego.
 
 [Por formular — ver `\pendiente` en `tesis/capitulos/01_introduccion.tex` §1.3.]
 
-## Objetivos (textuales de la inscripción; el guía pidió limitarse a ellos)
+## Objetivos (APROBADOS por la Escuela, inscripción VF-V2; el guía pidió trabajar exclusivamente sobre ellos)
 
-- **General:** Diseñar un sistema experimental hidráulico y estructural de humedales construidos de tipo vertical (HCFV) destinado al tratamiento de distintas fuentes de aguas residuales para su futura reutilización en riego agrícola, en la frutícola SABA, Linares.
+- **General:** Diseñar un sistema experimental de humedales construidos de tipo vertical, destinado al tratamiento de tres fuentes de aguas residuales para su futura reutilización en riego agrícola, en la frutícola SABA, Linares, Región del Maule, integrando el sistema hidráulico y las necesidades estructurales para su implementación.
 - **Específicos:**
-  1. Desarrollar el diseño y cálculo hidráulico del sistema, las especificaciones técnicas de las tuberías y la distribución de caudales para las tres fuentes de agua que alimentarán el humedal.
-  2. Desarrollar el diseño y cálculo estructural de la plataforma de acero que soporte los estanques, junto con sus planos de planta, cortes transversales/longitudinales, perfiles hidráulicos y detalles constructivos de la conexión con el sistema.
+  1. Determinar las características fisicoquímicas y de producción de las tres fuentes de aguas residuales a tratar, para dimensionar los humedales construidos y las interconexiones hidráulicas necesarias.
+  2. Desarrollar el diseño depurativo, junto a los cálculos hidráulicos del sistema, para determinar cómo las tres fuentes de agua alimentarán y serán evacuadas de los humedales construidos.
+  3. Especificar el diseño y cálculo estructural de los diferentes elementos que garanticen la integridad de soporte a los humedales construidos, así como su conexión hidráulica.
 
 ## Alcance
 
 - **Incluye:** caracterización de caudales y cargas; dimensionamiento de HCFV en módulos IBC (6 m² activos por línea); redes por gravedad e impulsión (PVC 50 y 25 mm), bombas y bypass para microrriego (160 L/h); plataforma de acero A270ES para 3 estanques de 1000 L y 3 dosificadores de 200 L; zapatas 1,0 × 1,0 × 0,5 m; planos EE-ATE250033 (láminas 1, 2.1–2.4, 3.1–3.2); itemizado.
-- **No incluye:** construcción e implementación (otra tesis), operación y monitoreo, fisiología del cerezo, inocuidad, ACV (proyecto marco). El **diseño de proceso del humedal** (6 m², cargas por fase) es un **dato de entrada del proyecto ANID**.
+- **No incluye:** construcción e implementación (otra tesis), operación y monitoreo, fisiología del cerezo, inocuidad, ACV (proyecto marco). El **diseño depurativo del humedal** (balance de oxígeno, 6 m²) **sí es parte del alcance** (OE2); las cargas por fase (30/60 g DQO/m²·d) son criterios del proyecto ANID.
 
 ## Metodología (resumen)
 

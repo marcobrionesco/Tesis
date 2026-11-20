@@ -7,51 +7,68 @@
 \chapter{Metodología}
 \label{cap:metodologia}
 
-\pendiente{Agregar al inicio un diagrama de flujo de la metodología que relacione cada etapa con su objetivo específico y su entregable (la rúbrica pide \enquote{planificación y entregables definidos}).}
+% Reorganizado según la revisión del profesor guía (16-11-2026):
+% localización → caracterización (OE1) → diseño depurativo e hidráulico (OE2) → diseño estructural (OE3).
+% En este capítulo se explica CÓMO se calcula o diseña; los valores y elementos elegidos van en Resultados.
+% Ver 03_seleccion/triaje/2026-11-16_revision-profesor-v3.0.md.
 
-\section{Diseño hidráulico y distribución de caudales (objetivo específico 1)}
-\label{sec:met-hidraulico}
+La metodología se organizó en etapas asociadas a cada objetivo específico.
+En primer lugar se describe el área de estudio; luego, la caracterización de las fuentes de agua residual (objetivo específico~1); a continuación, el diseño depurativo de los humedales y el cálculo hidráulico del sistema (objetivo específico~2); y, finalmente, el diseño y cálculo estructural de los elementos de soporte y la elaboración de la planimetría (objetivo específico~3).
+\pendiente{Agregar un diagrama de flujo de la metodología que relacione cada etapa con su objetivo específico y su entregable (la rúbrica pide \enquote{planificación y entregables definidos}).}
 
-\subsection{Determinación de volúmenes y cargas másicas}
+\section{Área de estudio}
+\label{sec:met-area}
 
-El diseño de la estación experimental requirió la caracterización independiente de tres afluentes residuales: aguas domésticas, efluentes del lavado de agroquímicos y agua superficial del estero Batuco.
-Para las aguas domésticas, el caudal de diseño se determinó mediante el análisis de los registros históricos del medidor de agua potable de las viviendas, aplicando un coeficiente de recuperación, mientras que para el sector de oficinas se ejecutaron aforos empíricos de los artefactos sanitarios.
-La carga másica de diseño, parámetro fundamental para el dimensionamiento del tratamiento, se obtuvo al multiplicar los caudales proyectados por las concentraciones representativas de Demanda Química de Oxígeno (DQO) y Nitrógeno Total Kjeldahl (NTK) obtenidas en campañas de monitoreo previas~\parencite{tchobanoglous2014wastewater}.
-La caracterización consideró seis campañas de muestreo en cinco puntos (EST, AS1, AS2, AGR1 y AGR2), con análisis de parámetros fisicoquímicos (pH, temperatura, conductividad eléctrica, potencial de óxido-reducción, oxígeno disuelto, sólidos disueltos y suspendidos, turbiedad, DQO total y disuelta, DBO$_5$, amonio, nitrato, nitrógeno total, fósforo total y fosfato) y microbiológicos (coliformes fecales y \textit{E.~coli}).
-Los resultados se resumen mediante la media aritmética de las campañas y, para los indicadores microbiológicos, la media geométrica.
-Las campañas se realizaron el 15 y el 22 de enero y el 4, 10, 17 y 24 de marzo de 2026.
-\pendiente{Indicar tipo de muestra, laboratorio y métodos analíticos (la propuesta ANID menciona el Laboratorio de Calidad de Aguas de la UCM).}
-
-\subsection{Procedimiento de dimensionamiento de humedales construidos (HCFV)}
-
-\revisar{Según la inscripción, el dimensionamiento de proceso del humedal es un dato de entrada definido por el proyecto ANID; esta sección debería describir \emph{cómo se adopta} ese diseño (superficie de \qty{6}{\square\meter}, cargas de la Fase~1) y centrar la metodología propia en la distribución hidráulica y en la estructura.
-Además, la inscripción compromete el cálculo de \textbf{tiempos de retención}: agregar su procedimiento.}
-
-Para el tratamiento de las aguas, se adoptó una configuración de Humedales Construidos de Flujo Subsuperficial Vertical (HCFV).
-El área activa requerida para la depuración se calculó empleando el modelo de balance estequiométrico de oxígeno~\parencite{platzer1999design}.
-Este modelo exige iterar la superficie del humedal hasta garantizar que el aporte de oxígeno ($OI$), generado por la convección de las cargas hidráulicas y la difusión atmosférica, supere a la demanda total de oxígeno ($OD$) (\cref{ec:od,ec:oi}).
-La demanda se calculó aislando el consumo requerido para la oxidación de la fracción orgánica (DQO) y la demanda por nitrificación del amonio, deduciendo la recuperación de oxígeno por desnitrificación parcial~\parencite{kadlec2008treatment}.
-
-Para evitar excavaciones masivas y prevenir la contaminación cruzada entre los tres afluentes en estudio, la superficie teórica obtenida del balance se discretizó bajo una configuración modular de superficie.
-Como unidad base se seleccionaron contenedores industriales de polietileno de alta densidad tipo IBC de \qty{1.00}{\cubic\meter} de capacidad volumétrica.
-El diseño interior de estos módulos contempló una estratificación del medio poroso consistente en una capa inferior de drenaje (grava), una capa intermedia de filtración (arena gruesa) y una capa superior de distribución (gravilla), sobre las cuales se proyectó la plantación de especímenes de macrófitas emergentes de la especie \textit{Typha} spp.\ (\cref{fig:detalle-modulo-ibc}).
+La estación experimental se emplazará en los terrenos de Frutícola SABA SpA, en el sector El Emboque, comuna de Linares, Región del Maule (\cref{fig:area-estudio}).
+\pendiente{Coordenadas del emplazamiento, superficie disponible, uso actual del predio y breve descripción del clima y del estero Batuco (con fuente).}
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.85\textwidth]{corte_modulo_ibc.jpeg}
-  \caption{Corte estratigráfico referencial del módulo HCFV en contenedor IBC. Fuente: elaboración propia.}
-  \label{fig:detalle-modulo-ibc}
+  \includegraphics[width=0.7\textwidth]{emplazamiento_satelital.png}
+  \caption{Ubicación del área de estudio en Frutícola SABA SpA, sector El Emboque, Linares. Fuente: Google Maps (2026).}
+  \label{fig:area-estudio}
 \end{figure}
-\revisar{La figura dice \enquote{Baseción de apoyo}: corregir el rótulo en el archivo original.}
 
-\subsection{Cálculo de redes sanitarias y pérdidas de carga}
+\section{Caracterización de las fuentes de agua residual}
+\label{sec:met-caracterizacion}
 
-El transporte de los fluidos se analizó dividiendo la infraestructura en redes de conducción por gravedad y sistemas de impulsión a presión.
+\subsection{Puntos y campañas de muestreo}
 
-Para los colectores gravitacionales, el trazado planialtimétrico se proyectó fijando pendientes continuas y uniformes (\cref{fig:perfil-hidraulico}).
-El criterio rector fue asegurar una pendiente mínima (típicamente \qty{2.0}{\percent} para diámetros sanitarios) que garantizara una velocidad de escurrimiento superior a la velocidad de autolavado, evitando así la sedimentación de sólidos en la batea de la tubería.
-\revisar{Las especificaciones técnicas (\cref{anx:eett}) fijan una pendiente continua de 1 a 3~\% para el colector de PVC sanitario de \qty{110}{\milli\meter} (NCh1635, NCh2282/2) y cámaras según el RIDAA y la NCh2592: citar esas normas (verificar sus datos y agregarlas a la bibliografía).}
-Este procedimiento permitió definir las cotas de excavación, las profundidades de tapada y los volúmenes de movimiento de tierras requeridos.
+Para determinar las características fisicoquímicas de las tres fuentes de agua residual ---aguas servidas domésticas, aguas de lavado de agroquímicos y agua superficial del estero Batuco--- se realizaron seis campañas de muestreo, el 15 y el 22 de enero y el 4, 10, 17 y 24 de marzo de 2026, en cinco puntos: el estero (EST), las aguas servidas de oficinas (AS1) y de la casa (AS2), y las aguas de lavado de agroquímicos de la bodega (AGR1) y de la sala de bombas (AGR2).
+\pendiente{Describir tipo de muestra (puntual o compuesta), forma de toma, conservación y traslado, y laboratorio (la propuesta ANID menciona el Laboratorio de Calidad de Aguas de la UCM).}
+\pendiente{Ligar con un anexo que muestre las fichas de muestreo utilizadas; seguir la redacción del trabajo de Diego que compartirá el profesor guía.}
+
+\subsection{Parámetros y métodos analíticos}
+
+En cada campaña se analizaron parámetros fisicoquímicos (pH, temperatura, conductividad eléctrica, potencial de óxido-reducción, oxígeno disuelto, sólidos disueltos y suspendidos, turbiedad, DQO total y disuelta, DBO$_5$, amonio, nitrato, nitrógeno total, fósforo total y fosfato) y microbiológicos (coliformes fecales y \textit{E.~coli}).
+Los resultados de cada punto se resumieron mediante la media aritmética de las campañas y, para los indicadores microbiológicos, mediante la media geométrica.
+\pendiente{Indicar el método analítico de cada parámetro (p.\ ej.\ \textit{Standard Methods}) y los criterios de validación de datos (valores excluidos y por qué).}
+
+\subsection{Producción de agua residual y cargas de diseño}
+
+Para las aguas servidas de la casa, el caudal de diseño se determinó a partir de los registros del medidor de agua potable, aplicando un coeficiente de recuperación; para las oficinas se realizaron aforos de los artefactos sanitarios.
+\revisar{Verificar esta descripción con lo efectivamente realizado: el caudal de oficinas de \qty{150}{\liter\per\day} se adoptó del análisis de producción del director del proyecto (correo del 23-10-2026).}
+\pendiente{Procedimiento para estimar la producción de las aguas de lavado de agroquímicos y el caudal a captar del estero.}
+La carga másica diaria de cada fuente se obtuvo como el producto entre el caudal de diseño y la concentración representativa de cada parámetro (DQO y nitrógeno total Kjeldahl)~\parencite{tchobanoglous2014wastewater}.
+
+\section{Diseño depurativo y cálculo hidráulico}
+\label{sec:met-hidraulico}
+
+\subsection{Dimensionamiento de HC-FV}
+
+La superficie de cada humedal se determinó con el método del balance de oxígeno descrito en la \cref{sec:mt-humedales} (\cref{ec:balance-o2,ec:od,ec:oi}).
+A partir de las cargas de diseño de cada fuente y de la carga orgánica superficial definida para cada fase experimental del proyecto ANID/Anillos/ATE250033, se calculó la demanda de oxígeno y se iteró el área superficial hasta que el aporte de oxígeno superara a la demanda.
+Luego se verificaron la carga hidráulica superficial (caudal diario dividido por el área) y la carga orgánica superficial resultantes.
+La superficie obtenida se distribuyó en unidades modulares independientes por fuente, de modo de evitar la mezcla entre las aguas en estudio.
+\pendiente{Procedimiento de cálculo de los tiempos de retención (compromiso de la inscripción).}
+
+\subsection{Redes por gravedad}
+
+El transporte de los fluidos se analizó separando las redes de conducción por gravedad de las líneas a presión.
+Para los colectores gravitacionales, el trazado planialtimétrico se proyectó con pendientes continuas y uniformes (\cref{fig:perfil-hidraulico}).
+El criterio rector fue asegurar una pendiente mínima que garantizara una velocidad de escurrimiento superior a la de autolavado, evitando la sedimentación de sólidos en la tubería.
+\revisar{Citar las normas de alcantarillado que fijan la pendiente mínima (NCh1635, NCh2282/2, RIDAA, NCh2592; verificar y agregar a la bibliografía).}
+Con el perfil del terreno y la pendiente adoptada se definieron las cotas de excavación, las profundidades de tapada y los volúmenes de movimiento de tierras.
 
 \begin{figure}[htbp]
   \centering
@@ -60,22 +77,22 @@ Este procedimiento permitió definir las cotas de excavación, las profundidades
   \label{fig:perfil-hidraulico}
 \end{figure}
 
-En las líneas a presión, destinadas a la alimentación de los estanques dosificadores y al sistema de microrriego agrícola, el dimensionamiento requirió el cálculo de la Altura Dinámica Total (ADT).
-Las pérdidas de carga por fricción continua se cuantificaron utilizando la ecuación de Hazen-Williams (\cref{ec:hazen}), adoptando los coeficientes de rugosidad correspondientes a tuberías de PVC hidráulico.
-Simultáneamente, las pérdidas singulares se evaluaron en función de la energía cinética del escurrimiento y los coeficientes de resistencia local asociados a las válvulas, codos y reducciones del sistema (\cref{ec:singulares}).
+\subsection{Líneas a presión y selección de bombas}
 
-El punto de operación del sistema se obtuvo al intersectar el requerimiento hidráulico calculado (caudal de diseño vs.\ ADT) con las curvas características de rendimiento proporcionadas por los fabricantes, permitiendo la especificación técnica de los equipos de bombeo centrífugos de superficie y sumergibles.
+En las líneas a presión, el dimensionamiento se basó en el cálculo de la altura dinámica total (ADT), definida como la suma del desnivel geométrico, las pérdidas por fricción y las pérdidas singulares.
+Las pérdidas por fricción se cuantificaron con la ecuación de Hazen-Williams (\cref{ec:hazen}) y las pérdidas singulares con los coeficientes de resistencia local de cada pieza (\cref{ec:singulares}), con los valores de la \cref{tab:coeficientes-hidraulicos}.
+El punto de operación de cada línea se obtuvo al comparar el requerimiento hidráulico (caudal de diseño y ADT) con las curvas características de los fabricantes, lo que permitió seleccionar los equipos de bombeo.
 
-\section{Cálculo estructural y planimetría (objetivo específico 2)}
+\section{Diseño y cálculo estructural}
 \label{sec:met-estructural}
 
-\subsection{Análisis de cargas y serviciabilidad LRFD}
+\subsection{Análisis de cargas y serviciabilidad}
 
-El diseño de la plataforma elevada para el soporte de los estanques acumuladores se ejecutó bajo la metodología de Diseño por Factores de Carga y Resistencia (LRFD), en conformidad con la norma NCh427/1~\parencite{inn2016nch427} y las especificaciones AISC~360~\parencite{aisc2016specification}.
-El análisis mecánico consideró la superposición de la carga muerta, constituida por el peso propio de los perfiles de acero estructural A270ES y la cubierta de tableros fenólicos, y la carga viva de operación, correspondiente al peso hidrostático equivalente de los estanques a máxima capacidad~\parencite{inn2009nch1537}.
+El diseño de los elementos estructurales de soporte se realizó bajo la metodología de Diseño por Factores de Carga y Resistencia (LRFD), en conformidad con la norma NCh427/1~\parencite{inn2016nch427} y las especificaciones AISC~360~\parencite{aisc2016specification}.
+El análisis consideró la superposición de la carga muerta, constituida por el peso propio de los elementos estructurales y de la cubierta, y la carga de operación, correspondiente al peso del agua y del medio filtrante de los estanques a máxima capacidad~\parencite{inn2009nch1537}.
 \revisar{En estructuras industriales, el contenido de los estanques suele tratarse como carga de operación (NCh2369) y no como sobrecarga de uso: confirmar el criterio con el co-guía.}
 
-Se evaluaron las envolventes de momentos flectores y esfuerzos de corte para dimensionar las vigas principales y las costaneras secundarias (\cref{fig:isometrico-estructura}).
+Se evaluaron las envolventes de momentos flectores y esfuerzos de corte para dimensionar los elementos horizontales y verticales de la estructura (\cref{fig:isometrico-estructura}).
 Adicionalmente, se verificó el estado límite de serviciabilidad, asegurando que las deflexiones verticales máximas en el centro del vano no superaran el límite admisible, establecido como una fracción de la luz libre ($L/300$), garantizando así la planicidad requerida para la correcta operación de los sifones dosificadores.
 \revisar{Citar la norma de la que proviene el límite $L/300$.}
 
@@ -89,13 +106,13 @@ Adicionalmente, se verificó el estado límite de serviciabilidad, asegurando qu
 \subsection{Modelación sísmica (NCh2369) y geotecnia}
 
 La estabilidad global de la estructura se analizó frente a solicitaciones sísmicas utilizando el método estático equivalente para estructuras industriales de la NCh2369.
-Se determinó el esfuerzo de corte basal ingresando el coeficiente sísmico de diseño para la zona sísmica correspondiente al emplazamiento (zona~2)~\parencite{inn2003nch2369}.
-\revisar{Contradicción con el capítulo de discusión, que dice zona~3: verificar la zona de la comuna de Linares en la norma vigente y usar un solo valor.}
+Se determinó el esfuerzo de corte basal a partir del coeficiente sísmico de diseño correspondiente a la zona sísmica del emplazamiento~\parencite{inn2003nch2369}.
+\revisar{Zona sísmica de Linares (la v3.0 usaba zona~2 aquí y zona~3 en la discusión): verificar en la norma vigente; pregunta~1 de 00\_proyecto/PREGUNTAS\_REUNION.md.}
 
 El corte sísmico indujo un momento de volcamiento en la base de la estructura.
-En consecuencia, las columnas de acero se verificaron comprobando el índice de interacción flexocompresiva (ecuaciones H1-1 de la especificación AISC~360), evaluando su capacidad para resistir simultáneamente la compresión axial producto de las cargas gravitacionales y la flexión inducida por el sismo, controlando los límites de esbeltez para prevenir el pandeo local y global~\parencite{aisc2016specification}.
+En consecuencia, los elementos verticales se verificaron comprobando el índice de interacción flexocompresiva (ecuaciones H1-1 de la especificación AISC~360), evaluando su capacidad para resistir simultáneamente la compresión axial producto de las cargas gravitacionales y la flexión inducida por el sismo, controlando los límites de esbeltez para prevenir el pandeo local y global~\parencite{aisc2016specification}.
 
-La transmisión de estas solicitaciones al terreno se resolvió mediante el diseño de zapatas aisladas de hormigón armado.
+La transmisión de estas solicitaciones al terreno se verificó mediante el diseño de fundaciones superficiales de hormigón armado.
 El análisis geotécnico consistió en verificar que la presión real de contacto transmitida al sello de fundación no excediera la capacidad de soporte admisible del terreno, evaluando tanto la condición estática de servicio como la combinación sísmica.
 Estructuralmente, las fundaciones se dimensionaron para resistir los esfuerzos de flexión y punzonamiento de acuerdo a las disposiciones del Decreto Supremo N.º~60~\parencite{minvu2011ds60}.
 
@@ -103,20 +120,4 @@ Estructuralmente, las fundaciones se dimensionaron para resistir los esfuerzos d
 
 Como etapa final de la ingeniería de detalle, los resultados analíticos se integraron en memorias de cálculo formales.
 La representación espacial de la estación experimental se desarrolló utilizando software de diseño asistido por computador (CAD).
-Este proceso culminó con la generación de un expediente planimétrico consolidado que incluyó los emplazamientos generales (\cref{fig:plano-emplazamiento}), isométricos de la estructura metálica, cortes estratigráficos de los módulos HCFV, perfiles hidráulicos de las zanjas y los detalles constructivos de fundaciones y conexiones, sentando las bases documentales para la materialización del proyecto.
-
-\begin{figure}[htbp]
-  \centering
-  \begin{subfigure}[c]{0.48\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{emplazamiento_satelital.png}
-    \caption{Imagen satelital del sector. Fuente: Google Maps (2026).}
-  \end{subfigure}\hfill
-  \begin{subfigure}[c]{0.48\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{emplazamiento_planta_general.png}
-    \caption{Planta general. Fuente: elaboración propia.}
-  \end{subfigure}
-  \caption{Emplazamiento general de la estación experimental en Frutícola SABA SpA.}
-  \label{fig:plano-emplazamiento}
-\end{figure}
+Este proceso culminó con la generación de un expediente planimétrico consolidado que incluyó las plantas generales, isométricos de la estructura, cortes de los humedales, perfiles hidráulicos de las zanjas y los detalles constructivos de fundaciones y conexiones, sentando las bases documentales para la materialización del proyecto.

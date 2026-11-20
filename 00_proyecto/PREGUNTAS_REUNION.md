@@ -45,8 +45,9 @@ Respuesta: __________________________________________________________
 
 # B. Prioridad media (coherencia del informe)
 
-**6. Diseño del humedal (6 m², balance de oxígeno).** Proviene del documento de diseño del proyecto.
-¿Lo presento como dato de entrada del proyecto (fuera del alcance inscrito) o como cálculo propio?
+**6. Material de apoyo comprometido en la revisión.** ¿Me puede enviar el **trabajo de Diego** (fichas de
+muestreo, para el anexo y la redacción de la caracterización) y la **traducción al español del libro de Dotro et al.**
+(para explicar los términos del balance de oxígeno)?
 
 Respuesta: __________________________________________________________
 

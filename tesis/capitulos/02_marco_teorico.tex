@@ -10,21 +10,73 @@
 Falta: experiencias con HCFV en Chile y Latinoamérica, tratamiento de residuos de agroquímicos y de aguas superficiales en humedales, sistemas modulares en contenedores y reúso en riego.
 Usar las fichas de 03\_seleccion/fichas\_lectura/ (receta 07).}
 
-\section{Diseño y cálculo hidráulico (objetivo específico 1)}
-\label{sec:mt-hidraulico}
+% Estructura según la revisión del profesor guía (16-11-2026, 03_seleccion/triaje/2026-11-16_revision-profesor-v3.0.md):
+% aguas residuales → SbN → humedales construidos (definición, tipos, por qué vertical, diseño, operación)
+% → hidráulica → estructural. Sin referencias a los objetivos (eso va en la metodología).
 
-\subsection{Soluciones Basadas en la Naturaleza y calidad de efluentes}
+\section{Aguas residuales}
+\label{sec:mt-aguas-residuales}
 
-Las Soluciones Basadas en la Naturaleza (SbN) constituyen tecnologías de tratamiento descentralizadas que imitan los procesos físicos, químicos y biológicos de depuración propios de los ecosistemas naturales~\parencite{dotro2017treatment}.
-Para la reutilización de efluentes tratados en riego agrícola, la norma chilena NCh1333 establece los requisitos de calidad del agua para riego~\parencite{inn1987nch1333}.
-\revisar{La propuesta del proyecto ANID (del profesor guía) fija como objetivo de calidad la \textbf{NCh3456 (INN, 2022)}, relativa al reúso de aguas residuales tratadas en riego; la v2.0 la citaba y la v3.0 la cambió por la NCh1333.
-Pedir al profesor guía el título exacto de la NCh3456, agregarla a la bibliografía y usarla como norma de reúso; mantener la NCh1333 solo si se usan sus requisitos generales de agua de riego.}
-Si el efluente llegase a ser descargado a un cuerpo receptor superficial, debe someterse complementariamente a las disposiciones del Decreto Supremo N.º~90~\parencite{minsegpres2000ds90}.
+\subsection{Definición}
 
-\subsection{Humedales construidos de flujo subsuperficial vertical (HCFV)}
+Se denomina agua residual al agua cuyas características originales han sido modificadas por su uso en actividades domésticas, comerciales, industriales o agrícolas, y que, como consecuencia, contiene constituyentes físicos, químicos y biológicos que impiden su uso directo o su descarga sin tratamiento~\parencite{tchobanoglous2014wastewater}.
+\revisar{Verificar la definición contra el texto de \textcite{tchobanoglous2014wastewater} (o la traducción de \textcite{dotro2017treatment}) y ajustar la redacción.}
 
-Los HCFV operan mediante aplicaciones discontinuas, o dosificación por pulsos, sobre un lecho poroso~\parencite{dotro2017treatment,brix2005use}.
-Cuando la dosis percola verticalmente, actúa como un pistón hidráulico que succiona aire atmosférico hacia el interior de los poros~\parencite{dotro2017treatment}.
+\subsection{Características de las aguas residuales}
+
+Las aguas residuales se caracterizan mediante parámetros físicos (sólidos, temperatura, conductividad), químicos (materia orgánica expresada como demanda química y bioquímica de oxígeno, nutrientes como nitrógeno y fósforo, pH) y biológicos (organismos patógenos e indicadores)~\parencite{tchobanoglous2014wastewater}.
+La composición varía según el origen del agua: las aguas servidas domésticas presentan altas concentraciones de materia orgánica biodegradable, nitrógeno amoniacal y microorganismos de origen fecal; las aguas de lavado de equipos de aplicación de agroquímicos contienen residuos de plaguicidas y fertilizantes; y las aguas superficiales de cauces agrícolas reciben aportes difusos de nutrientes, sedimentos y descargas puntuales.
+\pendiente{Fuentes para la caracterización típica de aguas de lavado de agroquímicos y de aguas superficiales de esteros agrícolas (idealmente Chile o Latinoamérica, últimos 10 años).}
+
+La \cref{tab:caracteristicas-tipicas} resume los rangos de concentración reportados en la literatura para aguas similares a las tres fuentes consideradas en este trabajo.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Características típicas de aguas residuales similares a las tres fuentes de este trabajo.}
+  \label{tab:caracteristicas-tipicas}
+  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.2cm}>{\centering\arraybackslash}p{3cm}>{\centering\arraybackslash}p{3cm}>{\centering\arraybackslash}p{3cm}@{}}
+    \toprule
+    Parámetro & Aguas servidas domésticas & Lavado de agroquímicos & Agua superficial (estero) \\
+    \midrule
+    DQO (\unit{\milli\gram\per\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
+    DBO$_5$ (\unit{\milli\gram\per\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
+    SST (\unit{\milli\gram\per\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
+    NT (\unit{\milli\gram\per\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
+    NH$_4^+$ (\unit{\milli\gram\per\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
+    PT (\unit{\milli\gram\per\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
+    Coliformes fecales (NMP/\qty{100}{\milli\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+\pendiente{Completar la \cref{tab:caracteristicas-tipicas} con valores de fuentes reales y citarlas en el título (\enquote{Fuente: \ldots}).
+Para aguas servidas: \textcite{tchobanoglous2014wastewater} y \textcite{vera2016humedales} (Chile).
+Para lavado de agroquímicos y estero: buscar (receta 05, herramientas/recetas/).}
+
+\section{Soluciones Basadas en la Naturaleza}
+\label{sec:mt-sbn}
+
+Las Soluciones Basadas en la Naturaleza (SbN) se definen como acciones para proteger, gestionar de manera sostenible y restaurar ecosistemas naturales o modificados, que abordan desafíos de la sociedad de forma efectiva y adaptativa, proporcionando simultáneamente beneficios para el bienestar humano y la biodiversidad~\parencite{cohenshacham2016nature}.
+En el ámbito del saneamiento, las SbN corresponden a tecnologías descentralizadas que imitan los procesos físicos, químicos y biológicos de depuración propios de los ecosistemas naturales~\parencite{dotro2017treatment,cross2021nature}.
+\revisar{Agregar 1--2 ideas sobre por qué las SbN son pertinentes en zonas rurales (bajo consumo energético, operación simple), con fuente.}
+Entre las SbN aplicadas al tratamiento de aguas residuales se encuentran los humedales construidos~\parencite{cross2021nature}.
+
+\section{Humedales construidos}
+\label{sec:mt-humedales}
+
+\subsection{Definición y tipos}
+
+Los humedales construidos son sistemas de ingeniería diseñados para reproducir, en un entorno controlado, los procesos de depuración que ocurren en los humedales naturales, mediante la interacción entre el agua, un medio de soporte, la vegetación y las comunidades microbianas~\parencite{dotro2017treatment,kadlec2008treatment}.
+Según el régimen de escurrimiento, se clasifican en humedales de flujo superficial, en los que el agua escurre sobre el lecho expuesta a la atmósfera, y humedales de flujo subsuperficial, en los que el agua circula a través del medio granular; estos últimos se subdividen, según la dirección del flujo, en humedales de flujo horizontal y de flujo vertical~\parencite{dotro2017treatment}.
+
+\subsection{Selección del humedal de flujo vertical}
+
+Los humedales construidos de flujo subsuperficial vertical (HCFV) operan en condiciones predominantemente aerobias, lo que favorece la nitrificación, es decir, la oxidación del nitrógeno amoniacal a nitrato~\parencite{dotro2017treatment}.
+Esta característica es la razón principal de su selección para el presente trabajo: el nitrato es la forma de nitrógeno que las plantas absorben preferentemente, por lo que un efluente nitrificado resulta favorable para su reutilización en riego agrícola.
+\pendiente{falta fuente: absorción preferente de nitrato por los cultivos (idealmente referida a frutales o cerezo).}
+
+\subsection{Diseño}
+
+Un HCFV se compone de un lecho filtrante estratificado, formado por una capa superior de distribución, una capa principal de filtración de arena y una capa inferior de drenaje de grava, plantado con vegetación emergente y alimentado de forma intermitente desde la superficie~\parencite{dotro2017treatment}.
 La \cref{fig:esquema-hcfv} muestra el esquema conceptual de este tipo de humedal.
 
 \begin{figure}[htbp]
@@ -70,25 +122,49 @@ La \cref{fig:esquema-hcfv} muestra el esquema conceptual de este tipo de humedal
   \label{fig:esquema-hcfv}
 \end{figure}
 
-El dimensionamiento de la superficie se rige por el método del balance de oxígeno~\parencite{platzer1999design,onorm2009b2505}, el cual establece que el aporte total de oxígeno ($OI$) debe ser mayor a la demanda total de oxígeno ($OD$) del sistema~\parencite{platzer1999design}.
+La superficie del lecho se dimensiona mediante el método del balance de oxígeno~\parencite{platzer1999design,onorm2009b2505}, que exige que el aporte de oxígeno al lecho ($OI$) supere a la demanda de oxígeno del sistema ($OD$), como indica la \cref{ec:balance-o2}:
+\begin{equation}
+  OI - OD > 0
+  \label{ec:balance-o2}
+\end{equation}
+donde $OI$ es el aporte total de oxígeno al lecho filtrante y $OD$ la demanda total de oxígeno, ambos en gramos de O$_2$ por día (\unit{\gram\per\day}).
 
-La demanda total de oxígeno se compone del consumo generado por la oxidación de la materia orgánica y el consumo por nitrificación, deduciendo la recuperación por desnitrificación parcial, como indica la \cref{ec:od}:
+La demanda total de oxígeno se compone del consumo por oxidación de la materia orgánica y del consumo por nitrificación, descontando la recuperación por desnitrificación parcial (\cref{ec:od}):
 \begin{equation}
   OD = OD_{\mathrm{DQO}} + OD_{\mathrm{N}} - OD_{\mathrm{DN}}
   \label{ec:od}
 \end{equation}
-donde $OD_{\mathrm{DQO}}$ es la demanda por oxidación de la materia orgánica, $OD_{\mathrm{N}}$ la demanda por nitrificación y $OD_{\mathrm{DN}}$ la recuperación de oxígeno por desnitrificación, todas en gramos de O$_2$ por día (\unit{\gram\per\day}).
+donde $OD_{\mathrm{DQO}}$ es la demanda debida a la descomposición de la materia orgánica (\unit{\gram\per\day}), $OD_{\mathrm{N}}$ la demanda debida a la nitrificación del nitrógeno total Kjeldahl (\unit{\gram\per\day}) y $OD_{\mathrm{DN}}$ la reducción de la demanda por desnitrificación parcial (\unit{\gram\per\day}).
+Cada término se calcula a partir de la carga diaria aplicada (\cref{ec:od-terminos}):
+\begin{equation}
+  OD_{\mathrm{DQO}} = f_{a}\, f_{O}\, L_{\mathrm{DQO}}, \qquad OD_{\mathrm{N}} = f_{N}\, L_{\mathrm{NTK}}
+  \label{ec:od-terminos}
+\end{equation}
+donde $L_{\mathrm{DQO}}$ y $L_{\mathrm{NTK}}$ son las cargas diarias de DQO y de nitrógeno total Kjeldahl aplicadas al lecho (\unit{\gram\per\day}), $f_{O}$ la fracción de la DQO que consume oxígeno (\qty{0.7}{\gram} O$_2$ por gramo de DQO), $f_{a}$ la fracción de la DQO que se degrada en el lecho (\num{0.85}) y $f_{N}$ el oxígeno requerido para nitrificar (\qty{4.3}{\gram} O$_2$ por gramo de NTK)~\parencite{platzer1999design}.
+\revisar{Confirmar el significado de los factores \num{0.85} y \num{0.7} en \textcite{platzer1999design} y en la traducción al español de \textcite{dotro2017treatment} indicada por el profesor guía.}
 
-El aporte de oxígeno al lecho filtrante se cuantifica a través de dos mecanismos físicos simultáneos, convección y difusión~\parencite{tietz2007characterisation}:
+El aporte de oxígeno al lecho se produce por dos mecanismos físicos simultáneos, la convección y la difusión (\cref{ec:oi}):
 \begin{equation}
   OI = OI_{\mathrm{conv}} + OI_{\mathrm{dif}}
   \label{ec:oi}
 \end{equation}
-\revisar{Verificar que \textcite{tietz2007characterisation} (artículo sobre biocenosis microbiana) respalde esta afirmación; si no, citar \textcite{platzer1999design}.}
+donde $OI_{\mathrm{conv}}$ es el aporte por convección y $OI_{\mathrm{dif}}$ el aporte por difusión, en \unit{\gram\per\day}.
+El aporte por convección se debe al aire que ingresa a los poros del lecho al drenar cada pulso de agua y es proporcional al volumen aplicado; el aporte por difusión se debe al intercambio con la atmósfera a través de la superficie del lecho, durante el tiempo en que este no está saturado (\cref{ec:oi-terminos})~\parencite{platzer1999design,dwa2017a262}:
+\begin{equation}
+  OI_{\mathrm{conv}} = c_{\mathrm{conv}}\, V_d, \qquad OI_{\mathrm{dif}} = c_{\mathrm{dif}}\, A \left(24 - t_s\, n_c\right)
+  \label{ec:oi-terminos}
+\end{equation}
+donde $V_d$ es el volumen de agua aplicado diariamente (\unit{\liter\per\day}), $c_{\mathrm{conv}}$ el oxígeno aportado por litro aplicado (\qty{0.3}{\gram} O$_2$ por litro), $A$ el área superficial del lecho (\unit{\square\meter}), $c_{\mathrm{dif}}$ la tasa de difusión por unidad de área (\qty{1}{\gram} O$_2$ por \unit{\square\meter} y por hora), $n_c$ el número de cargas diarias y $t_s$ el tiempo de saturación del lecho después de cada carga (\qty{1.5}{\hour}), durante el cual se considera que no hay difusión.
 
-El aporte por convección es directamente proporcional a la carga hidráulica volumétrica aplicada en cada pulso, mientras que la transferencia pasiva por difusión atmosférica se evalúa en función del área superficial, descontando el tiempo de saturación del medio donde la reoxigenación es nula~\parencite{platzer1999design,dwa2017a262}.
+\subsection{Operación}
 
-\subsection{Hidráulica de conducciones a presión y gravedad}
+Los HCFV operan mediante aplicaciones discontinuas, o dosificación por pulsos, sobre la superficie del lecho~\parencite{dotro2017treatment,brix2005use}.
+Cada dosis se distribuye sobre la superficie, percola verticalmente a través del medio filtrante y, al drenar, actúa como un pistón hidráulico que succiona aire atmosférico hacia el interior de los poros, renovando el oxígeno disponible para la biomasa~\parencite{dotro2017treatment}.
+Entre pulsos el lecho permanece no saturado, lo que mantiene las condiciones aerobias necesarias para la oxidación de la materia orgánica y la nitrificación.
+\revisar{Agregar: frecuencia típica de pulsos, rol de la vegetación y requerimientos de mantención (con fuente).}
+
+\section{Hidráulica de conducciones a presión y gravedad}
+\label{sec:mt-hidraulico}
 
 El dimensionamiento de los equipos de impulsión exige cuantificar la Altura Dinámica Total (ADT) del sistema, definida como la sumatoria de la diferencia de cota geométrica, las pérdidas por fricción a lo largo de la tubería y las pérdidas singulares inducidas por los accesorios.
 Las pérdidas por fricción en fluidos a presión se evalúan mediante la ecuación empírica de Hazen-Williams (\cref{ec:hazen}):
@@ -123,7 +199,7 @@ Los coeficientes adoptados se presentan en la \cref{tab:coeficientes-hidraulicos
 
 Para las redes de conducción por gravedad, el diseño se rige por el cumplimiento de una pendiente mínima que asegure una velocidad de escurrimiento superior al límite de autolavado, impidiendo la decantación de sólidos dentro del colector.
 
-\section{Diseño y cálculo estructural (objetivo específico 2)}
+\section{Diseño estructural}
 \label{sec:mt-estructural}
 
 \subsection{Diseño en acero estructural por método LRFD}
