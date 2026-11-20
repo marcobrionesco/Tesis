@@ -5,6 +5,13 @@
 
 ---
 
+## 2026-11-20 (noche, 12) — Bibliografía sobre nitrato en frutales
+
+- 3 artículos archivados con ficha. Ninguno respalda que las plantas prefieran nitrato; Schwitzky et al. (2026) muestran
+  más amonio que nitrato en suelos de cerezo. Frase del cap. 2 reescrita con `schwitzky2026contrasting` y
+  `sanmartino2010isotopically` (eficiencia de absorción 65,7 % primavera / 37,4 % poscosecha) + marca `\revisar`.
+- Nueva pregunta 18 al profesor.
+
 ## 2026-11-20 (noche, 11) — DGA (2003), clasificación de cursos de agua (vol. 1, metodología)
 
 - Archivado (4 partes) con ficha; nueva referencia `dga2003diagnostico`: clases de calidad (riego irrestricto/restringido) en cap. 2.

@@ -61,3 +61,4 @@ en un `.md`.
 - `papers/2020_saleh…`, `2023_ignatowicz…`, `2023_mussali-galante…`, `2009_fogg…`, `1986_gonzalez…` (+ `.md`): aguas con agroquímicos y calidad de agua de riego. Ficha: `03_seleccion/fichas_lectura/aguas-agroquimicos_2026-11-20.md`.
 - `papers/2025_sigona…`, `2018_girardi…`, `2012_dga…`, `2026_osorno…` (+ `.md`): calidad de aguas superficiales. Ficha: `03_seleccion/fichas_lectura/aguas-superficiales_2026-11-20.md`.
 - `papers/2003_dga_diagnostico-clasificacion-cursos-agua_parte1–4.pdf` (+ `.md`): DGA, vol. 1 metodología. Ficha: `03_seleccion/fichas_lectura/aguas-superficiales_2026-11-20.md`.
+- `papers/2026_schwitzky…`, `2010_san-martino…`, `2024_ruiz-romero…` (+ `.md`): nitrógeno en frutales. Ficha: `03_seleccion/fichas_lectura/nitrato-frutales_2026-11-20.md`.

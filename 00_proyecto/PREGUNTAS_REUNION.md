@@ -103,3 +103,9 @@ Respuesta: __________________________________________________________
 el template, después del Abstract. ¿Cuál prefiere?
 
 **17.** ¿Tiene observaciones escritas sobre la versión 3.0 que le envié?
+
+**18. Nitrato y plantas.** Para justificar el humedal vertical usted indicó que el nitrato es la forma de N que más usan
+las plantas. Las fuentes que encontré no lo respaldan para el cerezo (Schwitzky et al., 2026: en suelos de cerezo predomina
+el amonio, 58 %). ¿Mantengo la idea con otra fuente o redacto la justificación como "el efluente conserva el N en forma
+mineral disponible"?
+
