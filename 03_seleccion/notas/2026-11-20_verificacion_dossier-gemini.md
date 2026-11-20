@@ -22,7 +22,7 @@
 
 | Tarea | Fuente sugerida | Estado | Nota |
 |---|---|---|---|
-| Tabla 2.1, aguas servidas en Chile | Centro EULA/GIBA (UdeC), *Las aguas servidas y su depuración en zonas rurales* (tablas de Vera, 2012, tesis doctoral UdeC) | 🔎 | Rangos urbanos/rurales (DBO₅, DQO, SST, NT, NH₄⁺, PT, coliformes). Preferir citar la fuente primaria con revisión (Vera et al., 2016 ya está en la bib.). |
+| Tabla 2.1, aguas servidas en Chile | Centro EULA/GIBA (UdeC), *Las aguas servidas y su depuración en zonas rurales* (tablas de Vera, 2012, tesis doctoral UdeC) | ✅ | Libro recibido: Araya et al. (2014), cap. 1, Tabla 1 (p. 16); los rangos del dossier coinciden. Ya en la tesis (`araya2014aguas`). 
 | Tabla 2.1, lavado de agroquímicos | FAO y JTI (2016), *Biobed*; AAFC (2018) | 🔎 | El dossier reconoce que **no hay** tabla chilena de DQO/DBO/NTK para aguas de lavado de pulverizadores: la columna podría quedar cualitativa + datos propios (AGR1, AGR2). |
 | Tabla 2.1, estero agrícola | Informes MOP/DGA, MMA (normas secundarias) | 🔎 | Sin serie consolidada; extraer de informes oficiales. |
 | Nitrato preferido por *Prunus* | Mikkelsen, Pitchay y Gurung (2022), CABI | ❌ | No aparece en búsqueda web (posible resumen de congreso). **No usar.** Buscar artículo con revisión (p. ej. San-Martino et al., 2010, *Scientia Horticulturae*, doi 10.1016/j.scienta.2010.06.011 → 🔎). El dossier advierte que la preferencia es especie-específica: redactar con cautela. |

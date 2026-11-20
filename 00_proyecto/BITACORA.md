@@ -5,6 +5,15 @@
 
 ---
 
+## 2026-11-20 (noche, 6) — Bibliografía de aguas servidas domésticas
+
+- Archivados: libro *Las aguas servidas y su depuración en zonas rurales* (UdeC, 2014), resumen ejecutivo U. de Chile/SAG (2005)
+  y manual ACHIPIA/INDAP de aguas grises (2025), con fichas.
+- Nueva referencia `araya2014aguas`. Cap. 2: definición de agua servida (reemplaza la que estaba por verificar), caracterización
+  y tabla 2.1 con rangos rurales chilenos (pH, DQO, DBO₅, SST, NT, NH₄⁺, NO₃⁻, PT, coliformes); referencia de Dotro como texto.
+- Cap. 4: comparación de DQO y nitrógeno medidos con esos rangos; marca sobre nitrato > NT. Pregunta 8 ampliada.
+- Pendiente: columnas de agroquímicos y estero de la tabla 2.1; revisar cap. 6 del libro para SbN en zonas rurales.
+
 ## 2026-11-20 (noche, 5) — NCh3171:2017 y dossier de Gemini
 
 - NCh3171:2017 archivada (OCR) con ficha; nueva referencia `inn2017nch3171`. Cap. 2: tabla de combinaciones LRFD de la

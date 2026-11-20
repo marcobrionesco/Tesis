@@ -5,6 +5,12 @@
 
 **Última actualización:** 2026-11-20
 
+## ✅ Recibido 2026-11-20: bibliografía de aguas domésticas
+
+- Libro UdeC (Vidal y Araya, 2014), cap. 1 → `araya2014aguas`: definición de agua servida y **columna de aguas servidas de la
+  tabla 2.1** (rangos rurales de Chile). Cap. 4: comparación del nitrógeno medido; **el nitrato medido supera al NT** (¿NO₃⁻ o N-NO₃⁻?).
+- U. de Chile y SAG (2005, criterios de riego) y ACHIPIA e INDAP (2025, aguas grises): archivados con ficha, aún no citados.
+
 ## ✅ Recibido 2026-11-20: NCh3171:2017 y dossier Gemini
 
 - NCh3171:2017 (OCR) → `inn2017nch3171`; tabla de combinaciones del cap. 2 reemplazada. Claves: agua = F (factor de D);

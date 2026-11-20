@@ -19,40 +19,41 @@ Usar las fichas de 03\_seleccion/fichas\_lectura/ (receta 07).}
 
 \subsection{Definición}
 
-Se denomina agua residual al agua cuyas características originales han sido modificadas por su uso en actividades domésticas, comerciales, industriales o agrícolas, y que, como consecuencia, contiene constituyentes físicos, químicos y biológicos que impiden su uso directo o su descarga sin tratamiento~\parencite{tchobanoglous2014wastewater}.
-\revisar{Verificar la definición contra el texto de \textcite{tchobanoglous2014wastewater} (o la traducción de \textcite{dotro2021humedales}) y ajustar la redacción.}
+Las aguas servidas corresponden a la mezcla de los desechos líquidos provenientes de los hogares y de las instituciones educativas y comerciales (aguas residuales domésticas), de las industrias (aguas residuales industriales) y de las precipitaciones e infiltraciones que son recogidas por el sistema de alcantarillado; como cada componente tiene un origen y unos contaminantes distintos, sus características varían de una localidad a otra~\parencite{araya2014aguas}.
+Las aguas residuales domésticas, a su vez, reúnen las aguas negras, provenientes del metabolismo humano y portadoras de sólidos, materia orgánica y organismos patógenos; las aguas de cocina, con sólidos, materia orgánica, grasas y sales, y las aguas de lavado, con detergentes, jabones y nutrientes~\parencite{araya2014aguas}.
+En Chile, se consideran aguas servidas de tipo rural las originadas en asentamientos rurales, que presentan diferencias respecto de las urbanas en densidad poblacional, actividades y sistemas de recolección~\parencite{araya2014aguas}.
 
 \subsection{Características de las aguas residuales}
 
-Las aguas residuales se caracterizan mediante parámetros físicos (sólidos, temperatura, conductividad), químicos (materia orgánica expresada como demanda química y bioquímica de oxígeno, nutrientes como nitrógeno y fósforo, pH) y biológicos (organismos patógenos e indicadores)~\parencite{tchobanoglous2014wastewater}.
-La composición varía según el origen del agua: las aguas servidas domésticas presentan altas concentraciones de materia orgánica biodegradable, nitrógeno amoniacal y microorganismos de origen fecal; las aguas de lavado de equipos de aplicación de agroquímicos contienen residuos de plaguicidas y fertilizantes; y las aguas superficiales de cauces agrícolas reciben aportes difusos de nutrientes, sedimentos y descargas puntuales.
+Las aguas residuales se caracterizan mediante parámetros físicos (sólidos, temperatura, turbiedad), químicos (pH; nutrientes como nitrógeno y fósforo en sus distintas formas; materia orgánica medida como demanda química y bioquímica de oxígeno) y biológicos (microorganismos patógenos, para los que se emplean los coliformes como indicador)~\parencite{araya2014aguas,tchobanoglous2014wastewater}.
+La composición varía según el origen del agua: las aguas servidas domésticas presentan altas concentraciones de materia orgánica biodegradable, nitrógeno amoniacal y microorganismos de origen fecal, con concentraciones de nitrato prácticamente nulas~\parencite{araya2014aguas}; las aguas de lavado de equipos de aplicación de agroquímicos contienen residuos de plaguicidas y fertilizantes; y las aguas superficiales de cauces agrícolas reciben aportes difusos de nutrientes, sedimentos y descargas puntuales.
 \pendiente{Fuentes para la caracterización típica de aguas de lavado de agroquímicos y de aguas superficiales de esteros agrícolas (idealmente Chile o Latinoamérica, últimos 10 años).}
 
 La \cref{tab:caracteristicas-tipicas} resume los rangos de concentración reportados en la literatura para aguas similares a las tres fuentes consideradas en este trabajo.
 
 \begin{table}[htbp]
   \centering
-  \caption{Características típicas de aguas residuales similares a las tres fuentes de este trabajo.}
+  \caption{Características típicas de aguas residuales similares a las tres fuentes de este trabajo. Fuente: adaptado de \textcite{araya2014aguas}.}
   \label{tab:caracteristicas-tipicas}
   \begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.2cm}>{\centering\arraybackslash}p{3cm}>{\centering\arraybackslash}p{3cm}>{\centering\arraybackslash}p{3cm}@{}}
     \toprule
-    Parámetro & Aguas servidas domésticas & Lavado de agroquímicos & Agua superficial (estero) \\
+    Parámetro & Aguas servidas rurales (Chile)\,\textsuperscript{a} & Lavado de agroquímicos & Agua superficial (estero) \\
     \midrule
-    DQO (\unit{\milli\gram\per\liter}) & 800\,\textsuperscript{a} & \pendiente{} & \pendiente{} \\
-    DBO$_5$ (\unit{\milli\gram\per\liter}) & 400\,\textsuperscript{a} & \pendiente{} & \pendiente{} \\
-    NTK (\unit{\milli\gram\per\liter}) & 73\,\textsuperscript{a} & \pendiente{} & \pendiente{} \\
-    SST (\unit{\milli\gram\per\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
-    NT (\unit{\milli\gram\per\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
-    NH$_4^+$ (\unit{\milli\gram\per\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
-    PT (\unit{\milli\gram\per\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
-    Coliformes fecales (NMP/\qty{100}{\milli\liter}) & \pendiente{} & \pendiente{} & \pendiente{} \\
+    pH & 6,5--8,5\,\textsuperscript{b} & \pendiente{} & \pendiente{} \\
+    DQO (\unit{\milli\gram\per\liter}) & 200--1600 & \pendiente{} & \pendiente{} \\
+    DBO$_5$ (\unit{\milli\gram\per\liter}) & 200--500 & \pendiente{} & \pendiente{} \\
+    SST (\unit{\milli\gram\per\liter}) & 100--500 & \pendiente{} & \pendiente{} \\
+    NT (\unit{\milli\gram\per\liter}) & 35--100 & \pendiente{} & \pendiente{} \\
+    NH$_4^+$ (\unit{\milli\gram\per\liter}) & 6--60 & \pendiente{} & \pendiente{} \\
+    NO$_3^-$ (\unit{\milli\gram\per\liter}) & $< 1$ & \pendiente{} & \pendiente{} \\
+    PT (\unit{\milli\gram\per\liter}) & 6--30 & \pendiente{} & \pendiente{} \\
+    Coliformes fecales (NMP/\qty{100}{\milli\liter}) & $10^{6}$--$10^{10}$ & \pendiente{} & \pendiente{} \\
     \bottomrule
-    \multicolumn{4}{@{}p{0.97\textwidth}@{}}{\footnotesize \textsuperscript{a} Agua residual doméstica cruda, calculada con 120~g de DQO, 60~g de DBO$_5$ y 11~g de NTK por habitante equivalente y día, y \qty{150}{\liter} por habitante equivalente y día \parencite{dotro2021humedales}.}
+    \multicolumn{4}{@{}p{0.97\textwidth}@{}}{\footnotesize \textsuperscript{a} Aguas servidas sin tratar de tipo rural, según \textcite{araya2014aguas}, a partir de Vera (2012). \textsuperscript{b} Rango general de las aguas servidas \parencite{araya2014aguas}.}
   \end{tabular}
 \end{table}
-\pendiente{Completar la \cref{tab:caracteristicas-tipicas} con valores de fuentes reales y citarlas en el título (\enquote{Fuente: \ldots}).
-Para aguas servidas: completar con \textcite{tchobanoglous2014wastewater} y \textcite{vera2016humedales} (Chile); los valores de DQO, DBO$_5$ y NTK ya provienen de \textcite{dotro2021humedales}.
-Para lavado de agroquímicos y estero: buscar (receta 05, herramientas/recetas/).}
+Como referencia internacional, \textcite{dotro2021humedales} consideran para el agua residual doméstica cruda 150~L, 120~g de DQO, 60~g de DBO$_5$ y 11~g de NTK por habitante equivalente y día, lo que equivale a unos \qty{800}{\milli\gram\per\liter} de DQO y \qty{73}{\milli\gram\per\liter} de NTK; en Chile, las cargas unitarias de las aguas servidas rurales son de 50 a 125~g de DQO y de 2 a 15~g de NTK por habitante y día~\parencite{araya2014aguas}.
+\pendiente{Completar las columnas de lavado de agroquímicos y de estero con fuentes reales (ver 03\_seleccion/notas/2026-11-20\_verificacion\_dossier-gemini.md) o dejarlas como descripción cualitativa y apoyarse en los datos propios de la caracterización.}
 
 \section{Soluciones Basadas en la Naturaleza}
 \label{sec:mt-sbn}

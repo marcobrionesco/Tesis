@@ -63,7 +63,7 @@ métodos analíticos?
 Respuesta: __________________________________________________________
 
 **8. Nitrógeno bajo.** En las aguas servidas el nitrógeno total es de 2,0–2,7 mg/L y el amonio de 1,3–2,0 mg/L
-(la literatura chilena reporta 20–120 mg/L de nitrógeno total). ¿Hay una causa conocida (punto de muestreo, dilución)?
+(la literatura chilena reporta 20–120 mg/L de nitrógeno total). ¿Hay una causa conocida (punto de muestreo, dilución)? Además, el nitrato medido (9,3 y 5,9 mg/L) supera al nitrógeno total: ¿se informó como NO~3~^-^ o como N-NO~3~^-^?
 ¿Se mantiene la meta de aprox. 3 g NH~4~^+^/m²·d de la Fase 1? ¿Uso los valores de diseño (DQO 300/400; NH~4~^+^ 1,5/1,0)
 o las medias medidas (338/411; 1,98/1,28)?
 

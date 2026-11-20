@@ -55,3 +55,5 @@ en un `.md`.
 - `papers/2024_ucm_manual-etabs-v9.7.4_rev0.pdf` (+ `.md`): manual ETABS de la UCM. **No mencionar ETABS en la tesis**; ficha de método: `03_seleccion/fichas_lectura/2024_ucm_manual-etabs.md`.
 - `normas/nch3171-2017.pdf` (+ `nch3171-2017_ocr.md`): NCh3171:2017, combinaciones de cargas (escaneada; OCR). Ficha: `03_seleccion/fichas_lectura/inn2017nch3171.md`.
 - `ia_generado/2026-11-20_gemini-deep-research_revision-bibliografica.pdf` (+ `.md`): **dossier generado por IA, no citable**. Verificación: `03_seleccion/notas/2026-11-20_verificacion_dossier-gemini.md`.
+- `papers/2014_vidal-araya_aguas-servidas-zonas-rurales_parte1–2.pdf`: libro UdeC (GIBA/EULA). Ficha: `03_seleccion/fichas_lectura/araya2014aguas.md`.
+- `papers/2005_uchile-sag_criterios-calidad-agua-riego_resumen-ejecutivo.pdf` y `papers/2025_achipia-indap_manual-reutilizacion-aguas-grises.pdf`. Ficha: `03_seleccion/fichas_lectura/2005-2025_documentos-riego-y-aguas-grises.md`.
