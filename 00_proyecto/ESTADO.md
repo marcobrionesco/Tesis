@@ -10,7 +10,8 @@
 - El autor terminó de reunir la bibliografía disponible. Últimas incorporaciones: megasequía (CR2, 2015; Yaksic et al., 2024),
   riesgo hídrico (Escenarios Hídricos 2030, 2018; Urquiza et al., 2020) y Das (2015) completo (capacidad de carga, excentricidad,
   deslizamiento; sensibilidad de q_adm: 150 kPa ⇔ φ′ ≈ 32°). Ver BITACORA "noche, 17" a "noche, 23".
-- Ejemplo nuevo (Bocaz, 2026, solo anexos): sugiere una **tabla resumen de parámetros de diseño y operación** por línea en el cap. 4 (hacer al cerrar el OE2).
+- Modelo de forma: **Bocaz (2026, UCM, mismo guía)** → aplicar al cerrar resultados: tabla resumen de parámetros por línea (cap. 4),
+  sección "Criterios, supuestos y parámetros de diseño" y diagrama de flujo del diseño (cap. 3), resumen de 4 párrafos, conclusiones + recomendaciones.
 - **Siguiente paso:** reunión con el profesor (`00_proyecto/PREGUNTAS_REUNION.md`, preguntas 1–18) → recalcular plataforma y
   zapatas (NCh2369/NCh3171), bombas e impulsión del estero; luego resumen (párrafos 3–4), abstract y cap. 5–6.
 - Fuentes aún faltantes (si aparecen): Garreaud et al. (2017), catastro de cerezos ODEPA–CIREN, Vera-Puerto et al. (2022),

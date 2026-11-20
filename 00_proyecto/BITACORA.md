@@ -5,6 +5,13 @@
 
 ---
 
+## 2026-11-20 (noche, 25) — Bocaz (2026), cuerpo de la tesis (UCM, guía Vera Puerto)
+
+- Archivado y renombrado `2026_ucm_bocaz_…` (cuerpo + anexos); ficha ampliada. Modelo de forma de alta relevancia (mismo guía, 2026).
+- Ideas: resumen de 4 párrafos; sección "Criterios, supuestos y parámetros de diseño"; diagrama de flujo del diseño; tablas
+  Parámetro/Símbolo/Unidad/Valor; conclusiones + recomendaciones numeradas. Pregunta 16 ampliada (orden de preliminares; Discusión).
+- Sin cambios en `tesis/` (las ideas quedan en ESTADO para aplicarlas al cerrar resultados).
+
 ## 2026-11-20 (noche, 24) — Ejemplo: anexos de la tesis de Bocaz (humedal de lodos)
 
 - Archivado en `05_ejemplos/tesis/` con ficha (solo anexos: planos, manual de O&M, ficha PTAS, presupuesto/APU, costos de operación).

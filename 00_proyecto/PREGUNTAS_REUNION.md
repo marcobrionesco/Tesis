@@ -100,7 +100,7 @@ Respuesta: __________________________________________________________
 **15.** ¿Las redes deben dimensionarse también para la Fase 2 (60 g DQO/m²·d)?
 
 **16.** Orden de las páginas preliminares: los Lineamientos ponen Agradecimientos antes del Resumen;
-el template, después del Abstract. ¿Cuál prefiere?
+el template, después del Abstract (así lo hizo Bocaz, 2026, tesis aprobada que usted guió). ¿Cuál prefiere? ¿Mantengo un capítulo de Discusión aparte o lo integro en "Análisis y Resultados" como en esa tesis?
 
 **17.** ¿Tiene observaciones escritas sobre la versión 3.0 que le envié?
 
