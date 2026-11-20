@@ -196,9 +196,12 @@ def numerar_titulos(s):
 
 
 # ---------------------------------------------------------------- macros propias
-MACROS = r"""
+_SIN_MARCAS = re.search(r"(?m)^\\mostrarmarcasfalse", Path(__file__).resolve().parents[1].joinpath("tesis/config/comandos.tex").read_text(encoding="utf-8")) is not None
+MACROS = (r"""
+\newcommand{\pendiente}[1]{}
+\newcommand{\revisar}[1]{}""" if _SIN_MARCAS else r"""
 \newcommand{\pendiente}[1]{⟦P Por hacer: #1⟧}
-\newcommand{\revisar}[1]{⟦R Nota: #1⟧}
+\newcommand{\revisar}[1]{⟦R Nota: #1⟧}""") + r"""
 \newcommand{\enquote}[1]{“#1”}
 \newcommand{\NoCaseChange}[1]{#1}
 \newcommand{\iniciaranexos}{}
