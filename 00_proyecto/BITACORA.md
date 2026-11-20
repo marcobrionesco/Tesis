@@ -5,6 +5,17 @@
 
 ---
 
+## 2026-11-20 (cont.) — Documento CO, bombas y preguntas para la reunión
+
+- Se recibió el documento **CO**: es la *Carta Oferta Económica-Técnica* en blanco (formulario de licitación, sin medidas).
+  Guardado en `02_material_bruto/otros/EE-ATE250033_carta-oferta-economica-tecnica.docx`.
+  Las medidas que mandan son: planos + EETT + itemizado Rev. 1 (ya usados en `04_analisis/`).
+- Itemizado reenviado: idéntico al ya archivado. **No contiene bombas** (las EETT indican que las provee el proyecto),
+  por lo que la tesis debe proponer la selección (compromiso de la inscripción). Nota agregada en `04_resultados.tex`.
+- Nuevo `00_proyecto/PREGUNTAS_REUNION.md`: 17 preguntas ordenadas por prioridad (alta/media/baja), sin las ya resueltas.
+  `make preguntas` genera `salida/preguntas_reunion.pdf` y `.docx` para imprimir.
+- Pendiente: respuestas del profesor; propuesta de selección de bombas por línea.
+
 ## 2026-11-20 — Base de datos, topografía y verificación de los cálculos
 
 - **Quién:** Marco + Claude Code

@@ -44,7 +44,8 @@ Inscripción visada, propuesta ANID, correo del guía y documentos de diseño de
 - **Hallazgos**: tablero 15 mm no cumple; zapata con sismo depende del reparto del corte; placa base al límite;
   línea del estero inviable con PVC 25 mm; zanja 3 con tapada insuficiente; 10 diferencias entre la BD y el resumen.
 - Discusión y Conclusiones citan valores del cálculo antiguo (perfil 250×250): marcados para actualizar.
-- **Falta el documento "CO - Estación-Experimental-ATE250033"** (medidas finales según el autor).
+- Documento "CO" recibido: es la carta oferta para el contratista (sin medidas). Medidas finales = planos + EETT + itemizado Rev. 1.
+- Bombas: no están en el itemizado (las provee el proyecto, según EETT); la selección debe proponerse en la tesis.
 
 ## Estado por capítulo
 

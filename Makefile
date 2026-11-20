@@ -7,7 +7,7 @@ SALIDA  := salida
 BUILD   := $(SALIDA)/build
 LATEXMK := cd $(TESIS) && latexmk -r latexmkrc
 
-.PHONY: ayuda pdf vigilar revisar contar figuras contexto convertir diff limpiar
+.PHONY: ayuda pdf vigilar revisar contar figuras contexto convertir diff limpiar preguntas
 
 ayuda:
 	@echo "Comandos disponibles:"
@@ -19,6 +19,7 @@ ayuda:
 	@echo "  make contexto   Junta todo el contexto en salida/contexto_completo.md (para otra IA / NotebookLM)"
 	@echo "  make convertir ARCHIVO=ruta.docx   Convierte Word/ODT/HTML a Markdown (copia al lado)"
 	@echo "  make diff DESDE=v0.1               PDF con cambios marcados respecto a una versión (latexdiff)"
+	@echo "  make preguntas  Genera salida/preguntas_reunion.pdf y .docx (para llevar a la reunión)"
 	@echo "  make limpiar    Borra archivos auxiliares"
 
 pdf:
@@ -64,3 +65,9 @@ diff:
 limpiar:
 	-$(LATEXMK) -C main.tex
 	rm -rf $(BUILD)
+
+preguntas:
+	@mkdir -p $(SALIDA)
+	pandoc 00_proyecto/PREGUNTAS_REUNION.md -o $(SALIDA)/preguntas_reunion.pdf --pdf-engine=lualatex -V lang=es -V geometry:margin=2.5cm -V fontsize=11pt
+	pandoc 00_proyecto/PREGUNTAS_REUNION.md -o $(SALIDA)/preguntas_reunion.docx
+	@echo "==> $(SALIDA)/preguntas_reunion.pdf y .docx"

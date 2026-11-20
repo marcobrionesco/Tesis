@@ -13,19 +13,6 @@
 
 ## Preguntas pendientes para la próxima reunión
 
-1. ¿Cómo presentar el **diseño del humedal** (balance de oxígeno, 6 m²) que proviene del documento del proyecto: como antecedente/dato de entrada atribuido al proyecto, o como cálculo propio verificado?
-2. **NTK/amonio:** ✅ los datos confirman nitrógeno bajo en las aguas servidas. Pregunta restante: con estas aguas no se alcanza la carga amoniacal de ≈ 3 g NH₄⁺/m²·d prevista para la Fase 1 en la propuesta ANID; ¿se mantiene ese objetivo?
-3. ✅ Datos del monitoreo recibidos y procesados (tabla 4.1). Pregunta nueva: el nitrógeno de las aguas servidas es muy bajo (NT 2,0–2,7 mg/L; NH₄⁺ 1,3–2,0 mg/L): ¿causa conocida (punto de muestreo, dilución, método)? ¿Fechas, laboratorio y métodos de las campañas?
-4. **Norma de reúso:** título exacto de la **NCh3456 (INN, 2022)** citada en la propuesta (no se encontró en fuentes públicas).
-5. ¿Las redes y bombas deben dimensionarse también para la **Fase 2** (60 g DQO/m²·d, mayor caudal aplicado)?
-6. ✅ Perfiles confirmados por planos y EETT (150×150×6 y 150×100×3). Pendiente: zona sísmica de Linares y versión de la NCh2369.
-7. ¿Puede facilitar el anexo "Bibliographic-references-2025" de la propuesta (referencias completas de Vera-Puerto et al. 2021a, 2021b, 2023, 2024)?
-8. **Criterio de caudal para el estero y los agroquímicos:** con la DQO medida, igualar la carga de la Fase 1 (180 g DQO/d) exigiría ~28 400 L/d en el estero (4,7 m/d, inviable), ~2 400 L/d en AGR2 y ~460 L/d en AGR1. ¿Qué criterio usar (¿igual carga hidráulica que la línea doméstica?) para dimensionar bombas y tuberías?
-9. **Hormigón de zapatas:** G30 (EETT, itemizado, texto) o G25 (lámina 3.2).
-10. **Capas filtrantes:** las EETT ponen grava 12 mm abajo y gravilla 19 mm arriba "de filtración"; la lámina 2.2 y la tesis: grava (drenaje) – arena 0,60 m (filtración) – grava/gravilla (distribución). Y el itemizado pide 3 m³ de arena y 18 m³ de gravilla (con 18 IBC deberían ser ~10,8 m³ de arena y ~2,7 m³ por cada grava). ¿Cuál es la correcta?
-11. Usar los valores de diseño (DQO 300/400; NH₄⁺ 1,5/1,0) o las medias medidas (338/411; 1,98/1,28)?
-12. **Estructura** (con el cálculo actualizado a las dimensiones finales): el tablero de 15 mm no cumple L/300 con el método del autor (sí 21 mm o vigas secundarias cada 0,30 m); ¿cómo se reparte el corte sísmico (2 pilares en voladizo o los 6 con la cubierta como diafragma)? Con el supuesto original la zapata vuelca; ¿coeficiente sísmico según NCh2369 vigente (el cálculo usa C = 2,7·A0/R)?
-13. **Estructura auxiliar de dosificadores:** sin memoria de cálculo; el perfil "15×15×6 mm" no es posible.
-14. **Bombas:** ¿qué modelo se seleccionó para cada línea? La línea del estero con PVC 25 mm y 140 m requiere ~31 m de ADT (inviable con los catálogos); ¿se aumenta el diámetro o el tiempo de llenado?
-15. **Zanjas:** la zanja 3 (casa) queda con tapada de 0,11 m (exigida 0,50); confirmar sus cotas y el diámetro (52 mm del cálculo vs. 110 mm de las EETT).
-16. **Base de datos vs. resumen de caracterización:** 10 diferencias (ver `04_analisis/resultados/qa_bd_vs_resumen.csv`), entre ellas DQO total de AS1 semana 1 = 2478 mg/L, excluida del resumen. ¿Qué fuente manda y con qué criterio se excluyó ese valor?
+Ver **`00_proyecto/PREGUNTAS_REUNION.md`** (versión ordenada por prioridad, lista para imprimir:
+`make preguntas` genera `salida/preguntas_reunion.pdf` y `.docx`).
+Cuando el profesor responda, anotar aquí la respuesta como una fila nueva de la tabla.

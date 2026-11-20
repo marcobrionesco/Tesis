@@ -38,8 +38,8 @@ make figuras    # corre todos los scripts de 04_analisis/scripts/
 Están intactos en `02_material_bruto/calculos_originales/` (Colab). Los scripts `10_`–`12_` los
 **reproducen** (los resultados originales coinciden: ADT 14,07 / 7,90 / 10,71 m) y luego los
 **actualizan** con las dimensiones finales (planos, EETT, itemizado Rev. 1). Cada dato marcado
-`SUPUESTO` en el código debe confirmarse. El documento "CO - Estación-Experimental-ATE250033"
-(medidas finales) aún no se ha recibido.
+`SUPUESTO` en el código debe confirmarse. Las medidas finales son las de los planos, las EETT y el
+itemizado Rev. 1 (el documento "CO" es la carta oferta para el contratista y no trae medidas).
 
 Las especificaciones técnicas (Word) se convierten con `herramientas/docx_a_anexo.py` → `tesis/anexos/generados/eett_cuerpo.tex`.
 
