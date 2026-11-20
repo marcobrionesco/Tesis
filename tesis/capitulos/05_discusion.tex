@@ -12,22 +12,24 @@
 \label{sec:dis-caracterizacion}
 
 Las tres fuentes estudiadas presentan características muy distintas entre sí, lo que justifica tratarlas en líneas independientes.
-Las aguas servidas de la casa y de las oficinas tienen una DQO media de 338 y \qty{411}{\milli\gram\per\liter}, dentro del rango informado para las aguas servidas rurales de Chile (\cref{tab:caracteristicas-tipicas})~\parencite{araya2014aguas}, por lo que su carga orgánica es representativa de este tipo de efluente.
-En cambio, el nitrógeno total (2,0 a \qty{2.7}{\milli\gram\per\liter}) y el amonio (1,3 a \qty{2.0}{\milli\gram\per\liter}) quedan uno a dos órdenes de magnitud bajo los valores habituales (35 a \qty{100}{\milli\gram\per\liter} de nitrógeno total), y el nitrato medido supera al nitrógeno total, lo que no es posible si ambos se expresan como nitrógeno.
-Estas diferencias apuntan a un efecto del punto de muestreo, de la dilución o de las unidades de informe más que a una característica real del agua, y limitan el uso del nitrógeno medido como dato de diseño.
-\revisar{Tengo que confirmar con el profesor las unidades del nitrato y la causa del nitrógeno bajo (preguntas~7 y~8).}
+Las aguas servidas de las oficinas tienen una DQO media de \qty{411}{\milli\gram\per\liter}, dentro del rango informado para las aguas servidas rurales de Chile (\cref{tab:caracteristicas-tipicas})~\parencite{araya2014aguas}, por lo que su carga orgánica es representativa de este tipo de efluente; en cambio, de la casa queda un único dato válido, lo que impide caracterizarla y justifica usar los valores de diseño del proyecto.
+Con esos valores, la carga orgánica de la línea doméstica es de \qty{30}{\gram\per\square\meter\per\day} de DQO, y con las medias medidas con la primera campaña sería de unos \qty{33}{\gram\per\square\meter\per\day}, por lo que el valor de diseño es razonable.
+El amonio medido (1,0 a \qty{1.8}{\milli\gram\per\liter}) queda uno a dos órdenes de magnitud bajo los valores habituales (6 a \qty{60}{\milli\gram\per\liter})~\parencite{araya2014aguas}, y el nitrógeno total no es consistente con el amonio y el nitrato, por lo que el nitrógeno medido no se usa como dato de diseño.
+La causa de este nitrógeno bajo no se conoce; la dilución o el punto de muestreo son hipótesis que no fue posible comprobar.
 
 Las aguas de lavado de agroquímicos muestran una variabilidad alta: la DQO de la bodega (\qty{393}{\milli\gram\per\liter}) es cinco veces la de la sala de bombas (\qty{75.7}{\milli\gram\per\liter}), y ambas quedan en el extremo inferior del amplio intervalo reportado para aguas con plaguicidas (150 a \qty{33750}{\milli\gram\per\liter})~\parencite{saleh2020removal}.
 Esta variabilidad es propia de un efluente que depende de qué producto se aplica y de cuánta agua se usa en cada lavado, y refuerza el carácter experimental de esa línea.
 Además, el volumen de lavado de un predio típico es pequeño, del orden de 5000 a \qty{7000}{\liter} al año~\parencite{braul2018robust}, por lo que la producción real del predio condiciona el caudal que esta línea puede tratar.
 
-El agua del estero Batuco tiene una carga orgánica muy baja y una conductividad eléctrica similar a la de los ríos de la cuenca del Maule~\parencite{dga2004volumen1}; su limitación para el riego es microbiológica, ya que los coliformes fecales la ubican en la clase~4 (\cref{tab:clases-calidad}).
-Por lo tanto, en esta línea el humedal no se justifica por la remoción de materia orgánica, sino por la reducción de patógenos: con una remoción de 2 a 4 unidades logarítmicas~\parencite{langergraber2021vertical}, el efluente alcanzaría la clase~1 o la clase de excepción.
-Esta estimación es teórica y deberá comprobarse durante la operación.
+El agua del estero Batuco tiene una carga orgánica muy baja y una conductividad eléctrica similar a la de los ríos de la cuenca del Maule~\parencite{dga2004volumen1}; su limitación para el riego es microbiológica: aunque el laboratorio informó coliformes totales, el \textit{E.~coli}, que forma parte de los coliformes fecales, ya supera el límite de la clase~1 (\cref{tab:clases-calidad}).
+Por lo tanto, en esta línea el humedal no se justifica por la remoción de materia orgánica, sino por la reducción de patógenos, para la cual los humedales verticales alcanzan de 2 a 4 unidades logarítmicas~\parencite{langergraber2021vertical}.
+Esta eficiencia es teórica y deberá comprobarse durante la operación.
 
 En cuanto a la producción, el caudal de la casa (\qty{0.60}{\cubic\meter\per\day}) se obtuvo de un registro de trece meses con un factor de restitución de \num{0.85}, en el extremo superior del rango de 60 a \qty{85}{\percent} informado en Chile~\parencite{vidal2023desarrollo}, lo que deja el dimensionamiento del lado de la seguridad.
 El caudal de las oficinas (\qty{0.15}{\cubic\meter\per\day}) se apoya en solo un mes de registro de usos, por lo que es la estimación con mayor incertidumbre de la línea doméstica.
-Los caudales del estero y de las aguas de lavado no pudieron fijarse con los datos disponibles, ya que aplicar a estas líneas la misma carga orgánica que a la línea doméstica exigiría caudales inviables (unos \qty{28400}{\liter\per\day} en el estero).
+Para las líneas del estero y de agroquímicos se adoptó la misma carga hidráulica que en la línea doméstica (\qty{750}{\liter\per\day}), porque aplicarles la misma carga orgánica exigiría caudales inviables (unos \qty{28400}{\liter\per\day} en el estero).
+Este criterio, coherente con el enfoque sanitario de la estación, hace que cada línea reciba una carga orgánica distinta: \qty{0.8}{\gram\per\square\meter\per\day} en el estero y entre 9,5 y \qty{49}{\gram\per\square\meter\per\day} en agroquímicos según la proporción de AGR1 y AGR2, por lo que en esta última conviene mezclar las fuentes, o completar con agua del estero, para que la DQO de la mezcla no supere unos \qty{240}{\milli\gram\per\liter}.
+Como el volumen de lavado de un predio típico es pequeño, el agua del estero cumple además la función de completar el caudal de las otras líneas.
 
 \section{Diseño depurativo y cálculo hidráulico}
 \label{sec:dis-hidraulico}
@@ -43,19 +45,18 @@ Estas cargas no responden a un criterio conservador, sino a la Fase~1 experiment
 La configuración en módulos IBC independientes separa físicamente las tres aguas, lo que evita la mezcla entre líneas y permite evaluar el desempeño de cada una por separado, y su instalación sobre el terreno evita excavaciones.
 Este tipo de solución en estanques prefabricados es coherente con la experiencia piloto en humedales verticales construidos en recipientes de polietileno~\parencite{ignatowicz2023treatment}, y con la necesidad, señalada para Latinoamérica, de sistemas de distribución presurizada sencillos que faciliten la adopción de los humedales verticales~\parencite{rodriguezdominguez2020constructed}.
 
-En la parte hidráulica, el cálculo de la altura dinámica total (\cref{tab:bombas-adt}) muestra que la línea del estero, con PVC de \qty{25}{\milli\meter} en \qty{140}{\meter}, requiere unos \qty{31}{\meter}, valor que ninguna de las bombas consideradas alcanza; con \qty{40}{\milli\meter} bajaría a unos \qty{14}{\meter}.
-Por lo tanto, el diámetro especificado para esa línea es la principal restricción hidráulica del diseño.
-Por otra parte, el caudal del microrriego (\qty{160}{\liter\per\hour}, \cref{tab:demanda-riego}) es muy inferior al caudal mínimo de las bombas de catálogo, por lo que el circuito de retorno (\textit{bypass}) es necesario para compatibilizar el equipo con los goteros.
-\revisar{Completar con la selección final de bombas y la verificación de las zanjas (preguntas~3, 4 y~11).}
+En la parte hidráulica, la línea del estero es la más exigente (\cref{tab:bombas-adt}): con PVC de \qty{25}{\milli\meter} en \qty{140}{\meter} y \qty{13.82}{\meter} de desnivel, no alcanza el llenado deseable de \qty{30}{\minute}, pero con la bomba periférica supuesta llena el estanque en unos \qty{36}{\minute}, dentro del límite de \qty{60}{\minute}, sin cambiar el diámetro especificado.
+Usar la misma bomba en las tres líneas simplifica la operación y la mantención, porque permite intercambiarla ante una falla.
+Por otra parte, el caudal del microrriego (\qty{160}{\liter\per\hour}, \cref{tab:demanda-riego}) es muy inferior al de estas bombas, por lo que requiere otro equipo o un circuito de retorno (\textit{bypass}).
+Finalmente, como el trazado de las zanjas se definió en terreno, el diseño entrega los criterios de las zanjas y no su cubicación.
 
 \section{Diseño y cálculo estructural}
 \label{sec:dis-estructural}
 
 Frente a las cargas gravitacionales, los perfiles cajón de la plataforma trabajan con razones de demanda a capacidad bajas (alrededor del \qty{9}{\percent} a flexión en la viga principal, \cref{tab:verificacion-estructural}).
 Este margen no indica un sobredimensionamiento sin propósito: la condición que controla el diseño es la deformación, porque los sifones de los dosificadores necesitan una plataforma horizontal para entregar pulsos de volumen constante.
-En ese sentido, el elemento crítico es el tablero de \qty{15}{\milli\meter}, que no cumple el límite $L/300$ adoptado; además, ese límite no proviene de la NCh427/1, que para vigas que soportan equipos sugiere valores más exigentes, de $L/500$ a $L/1000$~\parencite{inn2016nch427}.
-Un tablero de \qty{21}{\milli\meter} o vigas secundarias cada \qty{0.30}{\meter} resolverían la deformación.
-\revisar{Tengo que definir con el profesor el límite de deformación y la solución para el tablero (pregunta~2).}
+En ese sentido, el elemento crítico es el tablero de \qty{15}{\milli\meter}: modelado como un solo vano, no cumplía $L/300$, pero su condición real es la de una lámina continua sobre varias vigas, y con ese modelo cumple con una razón de \num{0.91}.
+Como el margen es estrecho y el tablero no cumple la referencia de $L/500$ que la NCh427/1 sugiere para equipos~\parencite{inn2016nch427}, la continuidad de los paños bajo los estanques y el módulo de elasticidad real del tablero fenólico son condiciones del diseño.
 
 Frente al sismo, la verificación depende más de cómo se reparte el corte entre los pilares y de la categoría de ocupación que de la versión de la norma (\cref{tab:sismo-zapatas}).
 Si los dos pilares de un marco resisten el corte en voladizo, la zapata vuelca con las versiones de 2003 y de 2025; si el tablero y las vigas actúan como diafragma y los seis pilares comparten el corte, con la categoría~I y el suelo~C supuesto el área apoyada es del \qty{91}{\percent}, sobre el mínimo de \qty{80}{\percent} de la NCh2369:2025~\parencite{inn2025nch2369}.

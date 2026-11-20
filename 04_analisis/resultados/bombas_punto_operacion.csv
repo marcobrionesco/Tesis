@@ -1,0 +1,4 @@
+linea,tubo,L_m,Di_mm,dz_m,ADT_33_m,Q_op_lmin,H_op_m,t_llenado_min,borde_curva
+Estero,PVC 25,140.0,22.0,13.82,32.13,27.96,27.02,35.77,False
+Agroquímicos,PVC 25,80.0,22.0,6.4,17.2,40.43,21.87,24.73,False
+Aguas servidas,PVC 50,95.0,45.2,8.6,9.0,60.01,,16.66,True

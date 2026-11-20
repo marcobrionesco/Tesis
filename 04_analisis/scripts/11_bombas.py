@@ -42,6 +42,9 @@ CATALOGO = {
     "Ebara DWO 150M (sup.)": [(100, 9.5), (200, 8.9), (300, 7.9), (400, 6.9), (550, 5.1)],
     "Ebara DWO 200M (sup.)": [(100, 12.7), (200, 12.3), (300, 11.5), (400, 10.5), (550, 8.6), (750, 5.8)],
 }
+# Bomba periférica supuesta por el autor (pregunta 4, 20-11-2026): Pedrollo JSWm 1A, 0,55 kW (0,75 HP), la misma en las
+# tres líneas. Curva del catálogo Pedrollo JSW1-JSW2 50 Hz (aspiración 0 m), Q en L/min -> H en m.
+PEDROLLO_1A = [(0, 48), (5, 43), (10, 39), (20, 31.5), (25, 28.5), (30, 26), (40, 22), (45, 20.5), (50, 19), (60, 17)]
 
 
 def H_catalogo(modelo, q_lmin):
@@ -93,21 +96,57 @@ with open(RES / "bombas_adt.csv", "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=list(resultados[0])); w.writeheader()
     w.writerows({k: (round(v, 3) if isinstance(v, float) else v) for k, v in r.items()} for r in resultados)
 
-# Tabla LaTeX (solo caso final)
+# =============================================================================
+# CASO ADOPTADO (preguntas 3 y 4, decisión del autor 20-11-2026)
+# Llenado de 1000 L en <= 60 min (30 min deseable). Cota de llegada 125,27 m s.n.m. en las tres líneas.
+# Desniveles: estero 111,45 -> 125,27 (13,82 m, plano 2.1); agroquímicos y aguas servidas con nivel del agua
+# SUPUESTO 2 m bajo la tapa de la fosa (120,85 y 118,7 m) -> 6,4 y 8,6 m. Punto de operación con la JSWm 1A.
+# =============================================================================
+PIEZAS = {"codo90": 6, "retencion": 1, "tee": 2}
+ADOPTADO = [("Estero", "PVC 25", 140.0, 0.0220, 13.82), ("Agroquímicos", "PVC 25", 80.0, 0.0220, 6.4),
+            ("Aguas servidas", "PVC 50", 95.0, 0.0452, 8.6)]
+
+
+def H_bomba(q):
+    for (q1, h1), (q2, h2) in zip(PEDROLLO_1A, PEDROLLO_1A[1:]):
+        if q1 <= q <= q2:
+            return h1 + (h2 - h1) * (q - q1) / (q2 - q1)
+    return None
+
+
+def H_sistema(q, L, D, dz):
+    Q = q / 60000
+    V = Q / (3.1416 * D**2 / 4)
+    return dz + hf_hw(Q, D, L) + sum(K[p] * n for p, n in PIEZAS.items()) * V**2 / (2 * g)
+
+
+adoptado = []
+for nombre, tubo, L, D, dz in ADOPTADO:
+    q = 0.1
+    while q < PEDROLLO_1A[-1][0] and H_bomba(q) > H_sistema(q, L, D, dz):
+        q += 0.01
+    borde = q >= PEDROLLO_1A[-1][0] - 0.01
+    adoptado.append(dict(linea=nombre, tubo=tubo, L_m=L, Di_mm=D * 1000, dz_m=dz,
+                         ADT_33_m=H_sistema(1000 / 30, L, D, dz), Q_op_lmin=q, H_op_m=H_bomba(q),
+                         t_llenado_min=1000 / q, borde_curva=borde))
+with open(RES / "bombas_punto_operacion.csv", "w", newline="", encoding="utf-8") as f:
+    w = csv.DictWriter(f, fieldnames=list(adoptado[0])); w.writeheader()
+    w.writerows({k: (round(v, 2) if isinstance(v, float) else v) for k, v in r.items()} for r in adoptado)
+
 filas = []
-for r in [r for r in resultados if r["caso"] == "final"]:
-    filas.append(rf"  {r['linea']} & \num{{{r['Q_ls']:.3f}}} & \num{{{r['D_mm']:.1f}}} & \num{{{r['L_m']:.0f}}} & "
-                 rf"\num{{{r['V_ms']:.2f}}} & \num{{{r['z_m']:.1f}}} & \num{{{r['hf_m']:.2f}}} & \num{{{r['hs_m']:.2f}}} & "
-                 rf"\num{{{r['presion_m']:.1f}}} & \textbf{{\num{{{r['ADT_m']:.1f}}}}} \\")
+for r in adoptado:
+    pre = r"$\geq$\," if r["borde_curva"] else ""
+    pre_t = r"$\leq$\," if r["borde_curva"] else ""
+    filas.append(rf"  {r['linea']} & {r['tubo']} ({r['Di_mm']:.1f}) & \num{{{r['L_m']:.0f}}} & \num{{{r['dz_m']:.2f}}} & "
+                 rf"\num{{{r['ADT_33_m']:.1f}}} & {pre}\num{{{r['Q_op_lmin']:.0f}}} & {pre_t}\num{{{r['t_llenado_min']:.0f}}} \\")
 TABLA.parent.mkdir(parents=True, exist_ok=True)
 TABLA.write_text("\n".join([
     "% Archivo GENERADO por 04_analisis/scripts/11_bombas.py — no editar a mano",
-    r"\begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.9cm}ccccccccc@{}}",
+    r"\begin{tabular}{@{}lcccccc@{}}",
     r"  \toprule",
-    r"  Línea & $Q$ & $D_i$ & $L$ & $V$ & $\Delta z$ & $h_f$ & $h_s$ & $P$ & ADT \\",
-    r"   & (\unit{\liter\per\second}) & (\unit{\milli\meter}) & (\unit{\meter}) & (\unit{\meter\per\second}) & (\unit{\meter}) & (\unit{\meter}) & (\unit{\meter}) & (\unit{\meter}) & (\unit{\meter}) \\",
+    r"  Línea & Tubería ($D_i$, \unit{\milli\meter}) & $L$ (\unit{\meter}) & $\Delta z$ (\unit{\meter}) & ADT a \qty{33.3}{\liter\per\minute} (\unit{\meter}) & $Q$ de operación (\unit{\liter\per\minute}) & Llenado de \qty{1000}{\liter} (\unit{\minute}) \\",
     r"  \midrule", *filas, r"  \bottomrule",
-    r"  \multicolumn{10}{@{}p{0.97\textwidth}@{}}{\footnotesize $\Delta z$: desnivel de succión más impulsión; $h_f$: pérdidas por fricción (Hazen-Williams, $C_{HW} = 140$); $h_s$: pérdidas singulares; $P$: presión de trabajo en el extremo (goteros, \qty{1}{bar}).}",
+    r"  \multicolumn{7}{@{}p{0.97\textwidth}@{}}{\footnotesize Hazen-Williams con $C_{HW} = 140$ y pérdidas singulares de 6 codos, 1 válvula de retención y 2 tees. Punto de operación con la bomba periférica Pedrollo JSWm~1A (\qty{0.55}{\kilo\watt}). En aguas servidas el punto queda en el borde de la curva publicada (\qty{60}{\liter\per\minute}).}",
     r"\end{tabular}", ""]), encoding="utf-8")
 
 # Figura de apoyo: curvas de catálogo y puntos requeridos
@@ -122,6 +161,8 @@ ax.set_xlabel("Caudal [L/min]"); ax.set_ylabel("Altura [m]"); ax.set_xlim(0, 600
 ax.legend(fontsize=6, ncol=2)
 fig.savefig(RES / "bombas_catalogo_vs_requerido.pdf")
 
+for r in adoptado:
+    print(f"ADOPTADO {r['linea']:<15} ADT(33,3)={r['ADT_33_m']:.1f} m  Q_op={r['Q_op_lmin']:.1f} L/min  llenado={r['t_llenado_min']:.0f} min")
 for r in resultados:
     print(f"{r['linea']:<26} Q={r['Q_lmin']:6.1f} L/min D={r['D_mm']:5.1f} mm V={r['V_ms']:4.2f} m/s "
           f"hf={r['hf_m']:6.2f} hs={r['hs_m']:5.2f} ADT={r['ADT_m']:6.2f} m -> {r['bombas_que_cumplen']}")

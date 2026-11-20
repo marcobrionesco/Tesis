@@ -29,7 +29,7 @@ FIG = RAIZ / "tesis/figuras/caracterizacion_afluentes.pdf"
 plt.style.use(Path(__file__).with_name("estilo_tesis.mplstyle"))
 
 PUNTOS = ["EST", "AS1", "AS2", "AGR1", "AGR2"]
-N_TIPICO = {"EST": 6, "AS1": 6, "AS2": 2, "AGR1": 6, "AGR2": 6}
+N_TIPICO = {"EST": 6, "AS1": 5, "AS2": 1, "AGR1": 6, "AGR2": 6}
 UNIDAD_TEX = {
     "-": "", "°C": r"(\unit{\degreeCelsius})", "µS/cm": r"(\unit{\micro\siemens\per\centi\meter})",
     "mV": r"(\unit{\milli\volt})", "mg/L": r"(\unit{\milli\gram\per\liter})", "NTU": "(NTU)",
@@ -37,21 +37,24 @@ UNIDAD_TEX = {
 }
 NOMBRE_TEX = {"DBO5": r"DBO$_5$", "Amonio": r"Amonio (NH$_4^+$)", "Nitrato": r"Nitrato (NO$_3^-$)",
               "Fosfato": r"Fosfato (PO$_4^{3-}$)", "E. coli": r"\textit{E.~coli}"}
-MICRO = ("Coliformes fecales", "E. coli")
+MICRO = ("Coliformes totales", "E. coli")
 
 # --- Lectura ---
-datos = defaultdict(list)       # (parámetro, punto) -> valores
+datos = defaultdict(list)       # (parámetro, punto) -> valores SIN la semana atípica (diseño)
+datos_todos = defaultdict(list)  # con la semana atípica (se informa aparte)
 orden, unidades = [], {}
 with open(DATOS, encoding="utf-8") as f:
     for r in csv.DictReader(f):
         if r["parametro"] not in unidades:
             orden.append(r["parametro"]); unidades[r["parametro"]] = r["unidad"]
         if r["valor"] != "":
-            datos[(r["parametro"], r["punto"])].append(float(r["valor"]))
+            datos_todos[(r["parametro"], r["punto"])].append(float(r["valor"]))
+            if r.get("atipica", "0") != "1":
+                datos[(r["parametro"], r["punto"])].append(float(r["valor"]))
 
 
-def resumen(par, pto):
-    v = datos.get((par, pto), [])
+def resumen(par, pto, base=None):
+    v = (base if base is not None else datos).get((par, pto), [])
     if not v:
         return None
     media = math.exp(statistics.mean(math.log(x) for x in v)) if par in MICRO else statistics.mean(v)
@@ -69,13 +72,16 @@ def fmt(x, par):
 # --- Resumen CSV ---
 RES.mkdir(parents=True, exist_ok=True)
 with open(RES / "caracterizacion_resumen.csv", "w", newline="", encoding="utf-8") as f:
-    w = csv.writer(f); w.writerow(["parametro", "unidad", "punto", "n", "media", "min", "max", "tipo_media"])
+    w = csv.writer(f); w.writerow(["parametro", "unidad", "punto", "n", "media", "min", "max", "tipo_media",
+                                   "n_con_semana1", "media_con_semana1"])
     for par in orden:
         for pto in PUNTOS:
             s = resumen(par, pto)
-            if s:
+            s1 = resumen(par, pto, datos_todos)
+            if s or s1:
+                s = s or dict(n=0, media=float("nan"), min="", max="")
                 w.writerow([par, unidades[par], pto, s["n"], round(s["media"], 4), s["min"], s["max"],
-                            "geométrica" if par in MICRO else "aritmética"])
+                            "geométrica" if par in MICRO else "aritmética", s1["n"], round(s1["media"], 4)])
 
 # --- Tabla LaTeX ---
 filas = []
@@ -100,7 +106,9 @@ tabla = "\n".join([
     *filas,
     r"  \bottomrule",
     r"  \multicolumn{6}{@{}p{0.97\textwidth}@{}}{\footnotesize Media aritmética de las campañas; coliformes: media geométrica. "
-    r"$n = 6$ campañas por punto, salvo AS2 ($n = 2$); entre paréntesis, el $n$ cuando difiere. "
+    r"Fuente de los datos: informes del Laboratorio del Agua (FCI, UCM). Se excluye la campaña~1 de AS1 y AS2 (muestras mal tomadas): "
+    r"$n = 6$ en EST, AGR1 y AGR2, $n = 5$ en AS1 y $n = 1$ en AS2 (las muestras de AS2 desde la campaña~3 no llegaron al laboratorio); entre paréntesis, el $n$ cuando difiere. "
+    r"Nitrato informado como NO$_3^-$; nitrógeno total no medido en la campaña~1; DBO$_5$ de la campaña~4 medida a los 4,7~días. "
     r"EST: estero Batuco; AS1: oficinas; AS2: casa; AGR1: bodega de agroquímicos; AGR2: sala de bombas.}",
     r"\end{tabular}",
     "",
@@ -128,15 +136,14 @@ ax.legend(ncol=4, loc="upper center", bbox_to_anchor=(0.5, 1.15), frameon=False)
 FIG.parent.mkdir(parents=True, exist_ok=True)
 fig.savefig(FIG)
 
-# --- Apoyo a la distribución de caudales (OE1) ---
-# Caudal que daría la MISMA carga orgánica de la Fase 1 (30 g DQO/m2·d en 6 m2 = 180 g DQO/d)
-CARGA_DQO = 30 * 6  # g/d — dato del proyecto ANID (01_normativa/proyecto/ALCANCE.md)
+# --- Cargas con el criterio adoptado (pregunta 5): 750 L/d por línea en 6 m2 (125 mm/d) ---
+Q_LINEA, AREA = 0.75, 6.0   # m3/d, m2
 with open(RES / "caudal_equivalente_carga.csv", "w", newline="", encoding="utf-8") as f:
-    w = csv.writer(f); w.writerow(["punto", "DQO_media_mg_L", "caudal_equivalente_L_d", "carga_hidraulica_mm_d"])
-    print("Caudal para 180 g DQO/d (Fase 1):")
+    w = csv.writer(f); w.writerow(["punto", "DQO_media_mg_L", "carga_DQO_g_m2_d", "NH4_media_mg_L", "carga_NH4_g_m2_d"])
+    print("Cargas con 750 L/d en 6 m2:")
     for pto in PUNTOS:
-        s = resumen("DQO total", pto)
-        q = CARGA_DQO / s["media"] * 1000  # L/d  (g/d ÷ mg/L = m3/d)
-        w.writerow([pto, round(s["media"], 2), round(q), round(q / 6)])
-        print(f"  {pto}: DQO {s['media']:.1f} mg/L -> {q:,.0f} L/d ({q/6:,.0f} mm/d en 6 m2)")
+        d, a = resumen("DQO total", pto), resumen("Amonio", pto)
+        cd, ca = d["media"] * Q_LINEA / AREA, a["media"] * Q_LINEA / AREA
+        w.writerow([pto, round(d["media"], 1), round(cd, 1), round(a["media"], 2), round(ca, 2)])
+        print(f"  {pto}: DQO {d['media']:.1f} mg/L -> {cd:.1f} g/m2·d; NH4 {a['media']:.2f} mg/L -> {ca:.2f} g/m2·d")
 print("Listo: tabla, figura y resúmenes generados.")

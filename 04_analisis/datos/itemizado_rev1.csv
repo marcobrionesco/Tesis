@@ -26,7 +26,7 @@ item,descripcion,unidad,cantidad
 1.3.5,Arenas,m3,3
 2,Construcción de Estación Experimental (Sector 2),,
 2.1,Construcción de Estructura para Tanques de almacenamiento,,
-2.1.2,Hormigón armado en Zapatas (G30),m3,5
+2.1.2,Hormigón armado en Zapatas (G25),m3,5
 2.1.3,Enfierradura de fundaciones (Parrilla inferior d12 @ 15 cm),ml,72
 2.1.4,"Placas base (300x300x16mm) y pernos de anclaje (3/4"")",m2,6
 2.1.5,Estructura Metálica: Pilares (Perfil Cajón 150x150x6 mm),ml,15
@@ -50,8 +50,8 @@ item,descripcion,unidad,cantidad
 2.3.3,Losa de hormigón para base de humedal (e= 20 cm),m3,5
 2.3.4,Suministro y montaje de estanques IBC para humedales de flujo vertical,un,18
 2.3.5,Material filtrante del humedal (Grava de 19 mm),m3,3
-2.3.6,Material filtrante del humedal (Gravilla de 12 mm),m3,18
-2.3.7,Material filtrante del humedal (Arena gruesa),m3,3
+2.3.6,Material filtrante del humedal (Gravilla de 12 mm),m3,3
+2.3.7,Material filtrante del humedal (Arena gruesa),m3,12
 2.3.8,Suministro y plantación de vegetación macrófita (Typha spp.),un,72
 2.3.9,Tubería central de alimentación (PVC Hidraulico de 50 mm),ml,25
 2.3.10,Ramales de alimentación a humedales (PVC Hidraulico de 32 mm),ml,45

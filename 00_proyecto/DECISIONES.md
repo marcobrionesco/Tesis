@@ -104,3 +104,22 @@
 - **Resultado:** zapata 1,0 × 1,0 × 0,5 m con 91 % de área apoyada (mínimo 80 %); sin diafragma vuelca; con categoría II y suelo C, 76 %.
 - **Motivo:** la versión de la norma no cambia el veredicto; deciden el diafragma y la categoría. Cálculo: `04_analisis/scripts/14_sismo_2003_vs_2025.py`.
 - **Pendiente:** justificar el diafragma (conexión tablero-vigas), recalcular pilares y placa base con el espectro 2025, verificar 0,9D + 1,4E. A confirmar con el profesor.
+
+## 2026-11-20 — Respuestas del autor a las preguntas 2–7, 9–11, 15, 16 y 18 (aprobadas)
+
+Detalle: `03_seleccion/notas/2026-11-20_respuestas-preguntas-autor.md`. Pendientes de visto bueno: 8 (nitrógeno) y 12 (dosificadores).
+
+- **P2 Tablero:** vigas secundarias cada 0,40 m y tablero de 15 mm son fijos. El tablero se modela como lámina continua (3 apoyos = diseño):
+  1,21 mm frente a 1,33 mm (L/300, razón 0,91); L/500 solo referencia. E = 11 GPa (pino radiata, supuesto) y k_def = 2,0 (EN 1995-1-1, clase de servicio 3; falta citar la norma).
+- **P3/P4 Bombas:** llenado de 1000 L en ≤ 60 min (30 min deseable); cota de llegada única 125,27 m (corregir lámina 2.4); desniveles 13,82 / ≈ 6,4 / ≈ 8,6 m
+  (nivel en fosas 2 m bajo la tapa, supuesto); misma bomba periférica supuesta Pedrollo JSWm 1A (0,55 kW) en las tres líneas: 36 / 25 / ≤ 17 min. Estero sigue en PVC 25.
+- **P5 Caudales:** 750 L/d en cada línea (125 mm/d); líneas = doméstica (casa + oficinas), agroquímicos (AGR1 + AGR2), estero; déficit completado con agua del estero;
+  DQO de la mezcla ≤ 240 mg/L para no superar 30 g DQO/m²·d. Se abandona "igual carga orgánica".
+- **P6 Oficinas y TRH:** aforo volumétrico (0,92 L, cronómetro, 3 aperturas, media); WC 9,1 L (fabricante); semanas 01S4 y 02S1–02S4; TRH por unidad de la cadena
+  (almacenamiento 1000 L, dosificador 200 L con 6 pulsos de 125 L, lecho, cloración 100 L, acopio 3250 L); porosidad y pulsos supuestos.
+- **P7 Caracterización:** mandan los 6 informes del Laboratorio del Agua UCM (`02_material_bruto/laboratorio/`); muestras puntuales; semana 1 de AS1 y AS2 atípica
+  (se excluye de las medias, se informa aparte); coliformes TOTALES; métodos no informados. Base reconstruida con `00_laboratorio_a_csv.py`.
+- **P9:** hormigón de zapatas G25 (EETT e itemizado corregidos). **P10:** capas de la lámina 2.2 (grava 19 / arena 0,60 / gravilla 12); itemizado: arena 12 m³, gravas 3 m³.
+- **P11 Zanjas:** trayectos modificados en terreno; la tesis no presenta excavaciones, solo criterios (`12_excavacion.py` queda fuera de la tesis).
+- **P15 Fase 2:** se dimensiona para la Fase 1; Fase 2 = 3 IBC por línea (recomendada) o 1500 L/d. **P16:** orden de los Lineamientos y Discusión aparte.
+- **P18:** se elimina la afirmación de que el nitrato es la forma "más usada"; solo asimilación de 0,2–0,8 g N/m²·d (Dotro et al., 2021).

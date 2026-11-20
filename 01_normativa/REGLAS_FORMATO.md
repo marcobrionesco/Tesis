@@ -63,6 +63,7 @@
 | 12 | Anexos | Opcional | Desarrollos teóricos auxiliares, encuestas, diseños extensos, planos | `anexos/` |
 
 ⚠️ **Discrepancia:** LIN §6 pone *Agradecimientos* antes del *Resumen*; TPL lo pone después
+> **Decisión del autor (20-11-2026, pregunta 16):** se mantiene el orden de los Lineamientos (Agradecimientos → Resumen → Abstract); pendiente confirmar con el profesor. La Discusión sigue como capítulo aparte (la rúbrica la puntúa por separado).
 del *Abstract*. Se adoptó el orden de LIN (documento normativo). Confirmar con profesor guía
 (anotado en `00_proyecto/ESTADO.md` → Bloqueos).
 

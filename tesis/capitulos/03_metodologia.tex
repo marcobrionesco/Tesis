@@ -35,14 +35,19 @@ La estación experimental se emplazará en los terrenos de Frutícola SABA SpA, 
 \subsection{Puntos y campañas de muestreo}
 
 Para determinar las características fisicoquímicas de las tres fuentes de agua residual (aguas servidas domésticas, aguas de lavado de agroquímicos y agua superficial del estero Batuco), se realizaron seis campañas de muestreo, el 15 y el 22 de enero y el 4, 10, 17 y 24 de marzo de 2026, en cinco puntos: el estero (EST), las aguas servidas de oficinas (AS1) y de la casa (AS2), y las aguas de lavado de agroquímicos de la bodega (AGR1) y de la sala de bombas (AGR2).
-\pendiente{Describir el tipo de muestra (puntual o compuesta), la toma, la conservación, el traslado y el laboratorio (la propuesta ANID menciona el Laboratorio de Calidad de Aguas de la UCM).}
+En cada punto se tomaron muestras puntuales, que el equipo del proyecto entregó al Laboratorio del Agua de la Facultad de Ciencias de la Ingeniería de la Universidad Católica del Maule sin compositar; el laboratorio informó cada punto por separado, y sus informes son la fuente primaria de los datos~\parencite{labucm2026informes}.
+Las aguas servidas de las oficinas (AS1) se tomaron a la salida de las oficinas, y las de la casa (AS2), a la salida de la casa, a la llegada al estanque.
+De AS2 solo se dispone de las dos primeras campañas, porque desde la tercera sus muestras no llegaron al laboratorio.
+\pendiente{Me falta conocer la conservación de las muestras y el tiempo entre la toma y el análisis.}
 \pendiente{Revisar que esta parte quede bien ligada con el Anexo I de fichas, siguiendo la redacción del trabajo de Diego.}
 
 \subsection{Parámetros y métodos analíticos}
 
-En cada campaña se analizaron parámetros fisicoquímicos (pH, temperatura, conductividad eléctrica, potencial de óxido-reducción, oxígeno disuelto, sólidos disueltos y suspendidos, turbiedad, DQO total y disuelta, DBO$_5$, amonio, nitrato, nitrógeno total, fósforo total y fosfato) y microbiológicos (coliformes fecales y \textit{E.~coli}).
+En cada campaña se analizaron parámetros fisicoquímicos (pH, temperatura, conductividad eléctrica, potencial de óxido-reducción, oxígeno disuelto, sólidos disueltos y suspendidos, turbiedad, DQO total y disuelta, DBO$_5$, amonio, nitrato, nitrógeno total, fósforo total y fosfato) y microbiológicos (coliformes totales y \textit{E.~coli})~\parencite{labucm2026informes}.
 Los resultados de cada punto se resumieron mediante la media aritmética de las campañas y, para los indicadores microbiológicos, mediante la media geométrica.
-\pendiente{Indicar el método analítico de cada parámetro (por ejemplo, \textit{Standard Methods}) y qué valores se excluyeron y por qué.}
+Los informes del laboratorio no indican los métodos analíticos, por lo que en este trabajo se declaran como no informados.
+La primera campaña de AS1 y AS2 se consideró atípica por errores de muestreo, ya que sus sólidos suspendidos, turbiedad y DQO fueron muy superiores a los del resto de las campañas (en AS1, SST de \qty{2370}{\milli\gram\per\liter} frente a 53 a \qty{114}{\milli\gram\per\liter}); esa campaña se conserva en la base de datos, pero se excluye de las medias, que se presentan con y sin ella.
+\pendiente{Pedirle al laboratorio la ficha de métodos analíticos.}
 
 \subsection{Producción de agua residual y cargas de diseño}
 
@@ -53,14 +58,20 @@ La producción de aguas servidas se obtuvo al multiplicar ese consumo por un fac
 
 Para las oficinas (AS1), que no tienen un medidor independiente, se registró la frecuencia de uso de los artefactos que generan aguas servidas: inodoro, lavamanos y lavaplatos.
 Para ello se instaló junto a cada artefacto una ficha de registro semanal, en la que los usuarios marcaron cada uso con una X (en el inodoro, X para descarga grande y O para descarga pequeña) (\cref{anx:fichas-registro}).
-El registro se realizó desde la tercera semana de enero hasta la tercera semana de febrero de 2026, lo que permitió definir dos escenarios: ocupación regular (enero, escenario~1) y ocupación reducida por vacaciones del personal (febrero, escenario~2).
+El registro se realizó desde la cuarta semana de enero hasta la cuarta semana de febrero de 2026, lo que permitió definir dos escenarios: ocupación regular (cuarta semana de enero y primera de febrero, escenario~1) y ocupación reducida por vacaciones y permisos del personal (febrero, escenario~2).
 A continuación, se determinó el volumen de cada uso a partir del caudal aforado de cada artefacto y de su tiempo medio de uso; el volumen diario de cada escenario se obtuvo como la suma, sobre los artefactos, del número medio de usos diarios por el volumen por uso.
 Finalmente, el caudal de diseño se fijó considerando ambos escenarios y un factor de restitución definido según el uso descrito por los ocupantes.
-\pendiente{Describir cómo se hizo el aforo de los artefactos de las oficinas (método, instrumento, repeticiones) y quién definió los tiempos de uso.}
+El caudal del lavamanos y del lavaplatos se aforó por el método volumétrico: se midió con cronómetro el tiempo de llenado de un recipiente de \qty{0.92}{\liter} con la llave en tres aperturas (alta, media y baja), y se usó el caudal de la apertura media (\qty{7.3}{\liter\per\minute} en el lavamanos y \qty{6.1}{\liter\per\minute} en el lavaplatos).
+El volumen por descarga del inodoro (\qty{9.1}{\liter}) se tomó del manual del fabricante, y los tiempos de uso por ocasión (\qty{0.5}{\minute} en el lavamanos y \qty{1.5}{\minute} en el lavaplatos) fueron estimados por el equipo del proyecto.
+\revisar{Cada apertura se midió una sola vez; no hubo repeticiones.}
 
 La carga másica diaria de cada fuente se obtuvo como el producto entre el caudal de diseño y la concentración representativa de cada parámetro (DQO y nitrógeno total Kjeldahl)~\parencite{tchobanoglous2014wastewater}.
 Los caudales y las concentraciones de diseño resultantes de cada fuente se consolidan en la \cref{tab:resumen-afluentes}.
-\pendiente{Me falta el procedimiento para estimar la producción de aguas de lavado de agroquímicos y el caudal a captar del estero.}
+Como el enfoque de la estación es sanitario, las tres líneas de tratamiento se diseñaron con la misma carga hidráulica que la línea doméstica: \qty{750}{\liter\per\day} por línea, es decir, \qty{125}{\milli\meter\per\day} en \qty{6}{\square\meter}.
+Cada línea agrupa una sola fuente: la doméstica reúne la casa y las oficinas, la de agroquímicos reúne la bodega (AGR1) y la sala de bombas (AGR2), y la del estero se alimenta del canal.
+Si la línea doméstica o la de agroquímicos no aportan el volumen diario, el déficit se completa con agua del estero, de modo que cada humedal reciba siempre \qty{750}{\liter\per\day}.
+Con este caudal, la carga orgánica superficial es igual o menor que los \qty{30}{\gram\per\square\meter\per\day} de DQO de la Fase~1 siempre que la DQO de la mezcla que ingresa a la línea no supere unos \qty{240}{\milli\gram\per\liter}, criterio que orienta la proporción de agua del estero en la línea de agroquímicos.
+Se descartó aplicar a las líneas del estero y de agroquímicos la misma carga orgánica que a la línea doméstica, como planteaba la propuesta ANID, porque con la DQO medida en el estero exigiría unos \qty{28400}{\liter\per\day}, un caudal inviable para un humedal vertical de \qty{6}{\square\meter}.
 
 \section{Diseño depurativo y cálculo hidráulico}
 \label{sec:met-hidraulico}
@@ -77,8 +88,15 @@ El tiempo de retención hidráulica (TRH), definido como el tiempo que el agua p
   \label{ec:trh}
 \end{equation}
 donde $\tau$ es el tiempo de retención hidráulica nominal (\unit{\day}), $\varepsilon$ la porosidad del medio filtrante (adimensional), $h$ la profundidad del agua en el lecho (\unit{\meter}), $A$ el área superficial (\unit{\square\meter}) y $Q$ el caudal afluente (\unit{\cubic\meter\per\day}).
-\revisar{En un humedal vertical no saturado este valor es solo referencial, porque \textcite{dotro2021humedales} advierten que los conceptos de los lechos saturados no se aplican directamente.
-Tengo que confirmar con el profesor a qué tiempos de retención se refiere la inscripción (lecho, estanques o dosificadores) y qué porosidad usar.}
+Como la inscripción compromete los tiempos de retención sin precisar la unidad, se calcularon para cada unidad de la cadena de tratamiento de una línea: estanque de almacenamiento de \qty{1000}{\liter}, estanque dosificador de \qty{200}{\liter} con sifón, humedal de 6 contenedores IBC, cámara de cloración de \qty{100}{\liter} y fosa de acopio final de \qty{3250}{\liter}, desde donde se riega.
+En el lecho filtrante, el valor es solo referencial, porque en un humedal vertical no saturado no se aplican directamente los conceptos de los lechos saturados~\parencite{dotro2021humedales}.
+Para el dosificador se supusieron 6 pulsos diarios de \qty{125}{\liter}, uno cada \qty{4}{\hour}, que es el régimen de cargas del balance de oxígeno del proyecto.
+\revisar{La porosidad del lecho (\numrange{0.35}{0.40}) y los pulsos de \qty{125}{\liter} son supuestos míos: tengo que confirmarlos con el profesor y buscar una fuente para la porosidad.}
+
+El diseño se dimensionó para la Fase~1 del proyecto (\qty{30}{\gram\per\square\meter\per\day} de DQO en \qty{6}{\square\meter}).
+Si el proyecto opera en la Fase~2 (\qty{60}{\gram\per\square\meter\per\day}), la carga puede duplicarse de dos formas: reduciendo el área en operación a 3 contenedores IBC (\qty{3}{\square\meter}) por línea con el mismo caudal, lo que se logra cerrando las válvulas de salida de 3 contenedores, o duplicando el caudal a \qty{1500}{\liter\per\day} en los \qty{6}{\square\meter}.
+La primera alternativa es la recomendada, porque no cambia los caudales, las bombas ni las tuberías; la segunda lleva la carga hidráulica a \qty{250}{\milli\meter\per\day}, sobre el máximo de \qty{200}{\milli\meter\per\day} aplicado en climas cálidos~\parencite{dotro2021humedales}.
+Las redes y las bombas no se recalcularon para la Fase~2.
 
 \subsection{Redes por gravedad}
 
@@ -86,7 +104,8 @@ El transporte de los fluidos se analizó separando las redes de conducción por 
 Para los colectores gravitacionales, el trazado planialtimétrico se proyectó con pendientes continuas y uniformes (\cref{fig:perfil-hidraulico}).
 El criterio rector fue asegurar una pendiente mínima que garantizara una velocidad de escurrimiento superior a la de autolavado, evitando la sedimentación de sólidos en la tubería.
 Según el manual de saneamiento rural de la DOH, las pendientes mínimas deben cumplir la NCh1105 y, en los tramos iniciales, convienen pendientes mayores al \qty{1}{\percent} para favorecer el autolavado, con velocidades entre \qty{0.60}{\meter\per\second} a boca llena y \qty{3}{\meter\per\second}~\parencite{doh2023manual}.
-Con el perfil del terreno y la pendiente adoptada se definieron las cotas de excavación, las profundidades de tapada y los volúmenes de movimiento de tierras.
+El trazado de las zanjas y el movimiento de tierras se definieron en terreno durante la ejecución del proyecto, ajustando los trayectos de las redes a las condiciones del sitio (obstáculos, cotas y accesos), por lo que este trabajo no incluye el cálculo de excavaciones y se limita a especificar los criterios de diseño de las zanjas: tuberías de PVC sanitario de \qty{110}{\milli\meter} en las conexiones de aguas servidas, con pendientes de 2,0 y \qty{2.5}{\percent} (lámina 2.1), tapada mínima sobre el tubo y relleno compactado por capas.
+\revisar{Tengo que confirmar en las EETT la tapada mínima de \qty{0.50}{\meter}; si el profesor pide el detalle de las excavaciones, busco los datos de terreno.}
 
 \begin{figure}[htbp]
   \centering
@@ -99,7 +118,10 @@ Con el perfil del terreno y la pendiente adoptada se definieron las cotas de exc
 
 En las líneas a presión, el dimensionamiento se basó en el cálculo de la altura dinámica total (ADT), definida como la suma del desnivel geométrico, las pérdidas por fricción y las pérdidas singulares.
 Las pérdidas por fricción se cuantificaron con la ecuación de Hazen-Williams (\cref{ec:hazen}) y las pérdidas singulares con los coeficientes de resistencia local de cada pieza (\cref{ec:singulares}), con los valores de la \cref{tab:coeficientes-hidraulicos}.
-El punto de operación de cada línea se obtuvo al comparar el requerimiento hidráulico (caudal de diseño y ADT) con las curvas características de los fabricantes, lo que permitió seleccionar los equipos de bombeo.
+El criterio de llenado adoptado es que cada estanque de almacenamiento de \qty{1000}{\liter} se llene en no más de \qty{60}{\minute}, con \qty{30}{\minute} como valor deseable, para que el operador que activa la bomba no tenga que esperar demasiado para apagarla.
+Los desniveles se calcularon con una cota de llegada única de \qty{125.27}{\meter} sobre el nivel del mar en los estanques de la plataforma: \qty{13.82}{\meter} en la línea del estero (captación a \qty{111.45}{\meter}, lámina 2.1), y unos 6,4 y \qty{8.6}{\meter} en las líneas de agroquímicos y de aguas servidas, suponiendo el nivel del agua \qty{2}{\meter} bajo la tapa de las fosas.
+El punto de operación de cada línea se obtuvo en la intersección de la curva del sistema con la curva característica de la bomba, y con él se calculó el tiempo de llenado.
+\revisar{El nivel del agua \qty{2}{\meter} bajo la tapa de las fosas es un supuesto, y la lámina 2.4 rotula \qty{124.27}{\meter} en los estanques: tengo que corregirla a \qty{125.27}{\meter}.}
 
 \section{Diseño y cálculo estructural}
 \label{sec:met-estructural}
@@ -112,8 +134,10 @@ El análisis consideró la superposición de la carga muerta, constituida por el
 
 Se evaluaron las envolventes de momentos flectores y esfuerzos de corte para dimensionar los elementos horizontales y verticales de la estructura (\cref{fig:isometrico-estructura}).
 Adicionalmente, se verificó el estado límite de serviciabilidad, asegurando que las deflexiones verticales máximas en el centro del vano no superaran el límite admisible, establecido como una fracción de la luz libre ($L/300$), garantizando así la planicidad requerida para la correcta operación de los sifones dosificadores.
-\revisar{La NCh427/1 no fija un límite general de deformación: pide que no afecte el uso de la estructura y propone de $L/500$ a $L/1000$ para vigas que soportan equipos~\parencite{inn2016nch427}.
-Tengo que justificar $L/300$ con otra fuente o adoptar un límite más exigente, porque la horizontalidad condiciona los sifones (pregunta~2).}
+La NCh427/1 no fija un límite general de deformación, sino que exige que no afecte el uso de la estructura y propone de $L/500$ a $L/1000$ como referencia para vigas que soportan equipos~\parencite{inn2016nch427}; por ello, $L/300$ se adoptó como límite de servicio y $L/500$ como referencia para la horizontalidad de los sifones.
+El tablero de \qty{15}{\milli\meter} se modeló como una lámina continua sobre las vigas secundarias, separadas \qty{0.40}{\meter}, mediante una viga continua de Euler-Bernoulli resuelta por elementos finitos en una franja de \qty{1}{\meter}, cargada con la presión bajo la base de un estanque lleno más el peso del tablero (\qty{13.5}{\kilo\newton\per\square\meter}); como valor de diseño se tomó el caso de tres apoyos, el más desfavorable, ya que la base del estanque, de \qty{1.0}{\meter} de diámetro, cubre unos dos vanos y medio.
+La deformación instantánea se multiplicó por un factor de fluencia de \num{2.0}, que corresponde a madera expuesta a la intemperie.
+\revisar{El factor 2,0 sale del Eurocódigo 5 (EN 1995-1-1, clase de servicio 3) para madera aserrada, y el módulo de elasticidad (\qty{11}{\giga\pascal}, pino radiata) es un supuesto del cálculo original: tengo que conseguir la norma para citarla (o el factor de la NCh1198) y confirmar el módulo del tablero fenólico con el fabricante.}
 
 \begin{figure}[htbp]
   \centering

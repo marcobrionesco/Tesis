@@ -1,6 +1,6 @@
-punto,DQO_media_mg_L,caudal_equivalente_L_d,carga_hidraulica_mm_d
-EST,6.33,28421,4737
-AS1,411.4,438,73
-AS2,337.5,533,89
-AGR1,392.67,458,76
-AGR2,75.67,2379,396
+punto,DQO_media_mg_L,carga_DQO_g_m2_d,NH4_media_mg_L,carga_NH4_g_m2_d
+EST,6.3,0.8,0.15,0.02
+AS1,411.4,51.4,1.04,0.13
+AS2,129.0,16.1,1.82,0.23
+AGR1,392.7,49.1,12.8,1.6
+AGR2,75.7,9.5,2.41,0.3

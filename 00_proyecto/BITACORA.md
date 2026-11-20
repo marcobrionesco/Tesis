@@ -5,6 +5,21 @@
 
 ---
 
+## 2026-11-20 (noche, 29) — Integración de las respuestas del autor (preguntas 2–7, 9–11, 15, 16, 18) e informes del laboratorio
+
+- Recibidos: 6 informes del Laboratorio del Agua UCM (.docx → .md) y 2 resúmenes del proyecto (`02_material_bruto/laboratorio/`).
+  La base se reconstruye desde los informes con `04_analisis/scripts/00_laboratorio_a_csv.py` (540 valores; las 4 correcciones de la BD
+  coinciden); `02_caracterizacion.py` excluye la semana 1 de AS1/AS2 y entrega medias con y sin ella; coliformes TOTALES.
+  `04_validar_bd.py` y `qa_bd_vs_resumen.csv` quedan obsoletos (comparaban la BD antigua con el resumen).
+- `10_estructura.py`: tablero como viga continua por elementos finitos (1,21 mm; sensibilidad 3/5/8 vanos), solo zona 2, sin filas
+  sísmicas de zapata (van en 14_sismo). `11_bombas.py`: punto de operación con Pedrollo JSWm 1A (36 / 25 / ≤ 17 min).
+- Tesis: cap. 2 (nitrato y plantas suavizado; capas de la lámina 2.2), cap. 3 (muestreo, aforo, criterio 750 L/d, TRH, Fase 2, zanjas
+  solo criterios, llenado y cotas, modelo del tablero), cap. 4 (caracterización desde el laboratorio, tabla de líneas, TRH, bombas,
+  riego, tablero, G25), cap. 5 y 6 reescritos en esas partes; anexos (EETT, itemizado, fichas con semanas correctas).
+- Ojo: con coliformes totales no se puede asignar la clase por coliformes fecales; se usa el *E. coli* (ya en clase 2).
+- Pendiente: aprobar las propuestas 8 (nitrógeno) y 12 (dosificadores); citar EN 1995-1-1; recalcular pilares y placa base con el
+  espectro 2025; justificar el diafragma; métodos del laboratorio.
+
 ## 2026-11-20 (noche, 28) — Respuesta del autor a la pregunta 1 (sismo y zapatas)
 
 - Integrada la propuesta aprobada por el autor: NCh2369:2025, categoría I, R = 3, suelo C supuesto, diafragma con 6 pilares → 91 %.

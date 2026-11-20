@@ -1,91 +1,91 @@
-parametro,unidad,punto,n,media,min,max,tipo_media
-pH,-,EST,6,7.4683,7.27,7.62,aritmética
-pH,-,AS1,6,6.2,5.44,6.9,aritmética
-pH,-,AS2,2,7.925,7.78,8.07,aritmética
-pH,-,AGR1,6,6.8017,6.37,7.09,aritmética
-pH,-,AGR2,6,7.6117,7.41,7.7,aritmética
-Temperatura,°C,EST,6,17.8333,17.1,19.2,aritmética
-Temperatura,°C,AS1,6,17.4,14.0,20.5,aritmética
-Temperatura,°C,AS2,2,17.6,16.9,18.3,aritmética
-Temperatura,°C,AGR1,6,18.0833,17.5,19.1,aritmética
-Temperatura,°C,AGR2,6,18.4333,16.2,20.0,aritmética
-Conductividad eléctrica,µS/cm,EST,6,156.0,136.0,170.0,aritmética
-Conductividad eléctrica,µS/cm,AS1,6,288.5,219.0,369.0,aritmética
-Conductividad eléctrica,µS/cm,AS2,2,602.5,585.0,620.0,aritmética
-Conductividad eléctrica,µS/cm,AGR1,6,312.0,271.0,343.0,aritmética
-Conductividad eléctrica,µS/cm,AGR2,6,607.5,478.0,681.0,aritmética
-Potencial de óxido-reducción,mV,EST,6,213.5,162.7,230.9,aritmética
-Potencial de óxido-reducción,mV,AS1,6,-43.1167,-179.5,53.5,aritmética
-Potencial de óxido-reducción,mV,AS2,2,129.3,88.6,170.0,aritmética
-Potencial de óxido-reducción,mV,AGR1,6,34.3333,-73.8,114.2,aritmética
-Potencial de óxido-reducción,mV,AGR2,6,90.7667,53.1,137.4,aritmética
-Oxígeno disuelto,mg/L,EST,6,6.3233,4.89,7.24,aritmética
-Oxígeno disuelto,mg/L,AS1,6,2.55,1.61,3.96,aritmética
-Oxígeno disuelto,mg/L,AS2,2,4.8,4.43,5.17,aritmética
-Oxígeno disuelto,mg/L,AGR1,6,3.2217,1.97,4.12,aritmética
-Oxígeno disuelto,mg/L,AGR2,6,5.3733,4.49,6.48,aritmética
-Sólidos disueltos totales,mg/L,EST,6,78.0,68.0,85.0,aritmética
-Sólidos disueltos totales,mg/L,AS1,6,144.5,110.0,184.0,aritmética
-Sólidos disueltos totales,mg/L,AS2,2,301.0,292.0,310.0,aritmética
-Sólidos disueltos totales,mg/L,AGR1,6,156.0,135.0,172.0,aritmética
-Sólidos disueltos totales,mg/L,AGR2,6,303.8333,239.0,341.0,aritmética
-Turbiedad,NTU,EST,6,20.6,12.2,24.5,aritmética
-Turbiedad,NTU,AS1,6,304.1667,48.1,1330.0,aritmética
-Turbiedad,NTU,AS2,2,1022.5,190.0,1855.0,aritmética
-Turbiedad,NTU,AGR1,6,156.2,27.0,702.0,aritmética
-Turbiedad,NTU,AGR2,6,30.7833,9.5,101.0,aritmética
-DQO total,mg/L,EST,6,6.3333,4.0,14.0,aritmética
-DQO total,mg/L,AS1,5,411.4,266.0,560.0,aritmética
-DQO total,mg/L,AS2,2,337.5,129.0,546.0,aritmética
-DQO total,mg/L,AGR1,6,392.6667,224.0,529.0,aritmética
-DQO total,mg/L,AGR2,6,75.6667,47.0,112.0,aritmética
-DQO disuelta,mg/L,EST,6,3.3333,1.0,10.0,aritmética
-DQO disuelta,mg/L,AS1,6,406.3333,195.0,697.0,aritmética
-DQO disuelta,mg/L,AS2,2,70.5,54.0,87.0,aritmética
-DQO disuelta,mg/L,AGR1,6,308.6667,182.0,445.0,aritmética
-DQO disuelta,mg/L,AGR2,6,62.3333,44.0,81.0,aritmética
-DBO5,mg/L,EST,6,2.2333,1.0,5.6,aritmética
-DBO5,mg/L,AS1,6,270.1833,100.4,524.5,aritmética
-DBO5,mg/L,AS2,2,12.9,10.8,15.0,aritmética
-DBO5,mg/L,AGR1,6,104.45,62.5,186.4,aritmética
-DBO5,mg/L,AGR2,6,8.6,4.4,11.4,aritmética
-SST,mg/L,EST,6,31.2083,18.0,38.0,aritmética
-SST,mg/L,AS1,6,463.2733,52.9,2369.67,aritmética
-SST,mg/L,AS2,2,1854.205,405.62,3302.79,aritmética
-SST,mg/L,AGR1,6,136.5867,35.4,549.24,aritmética
-SST,mg/L,AGR2,6,595.1433,13.2,3465.26,aritmética
-Amonio,mg/L,EST,6,0.1483,0.02,0.23,aritmética
-Amonio,mg/L,AS1,6,1.2817,0.36,2.51,aritmética
-Amonio,mg/L,AS2,2,1.975,1.82,2.13,aritmética
-Amonio,mg/L,AGR1,6,12.7983,7.32,19.86,aritmética
-Amonio,mg/L,AGR2,6,2.41,1.86,3.46,aritmética
-Nitrato,mg/L,EST,6,4.9833,2.2,7.3,aritmética
-Nitrato,mg/L,AS1,6,9.2833,0.7,23.0,aritmética
-Nitrato,mg/L,AS2,2,5.85,4.0,7.7,aritmética
-Nitrato,mg/L,AGR1,6,4.55,2.9,7.2,aritmética
-Nitrato,mg/L,AGR2,6,26.15,6.0,47.6,aritmética
-Nitrógeno total,mg/L,EST,5,0.88,0.6,1.1,aritmética
-Nitrógeno total,mg/L,AS1,5,2.72,1.0,6.0,aritmética
-Nitrógeno total,mg/L,AS2,1,2.0,2.0,2.0,aritmética
-Nitrógeno total,mg/L,AGR1,5,11.64,7.7,16.3,aritmética
-Nitrógeno total,mg/L,AGR2,5,4.46,2.7,10.0,aritmética
-Fósforo total,mg/L,EST,6,0.1,0.0,0.16,aritmética
-Fósforo total,mg/L,AS1,6,0.315,0.1,0.81,aritmética
-Fósforo total,mg/L,AS2,2,6.6,5.3,7.9,aritmética
-Fósforo total,mg/L,AGR1,6,6.3333,2.3,17.9,aritmética
-Fósforo total,mg/L,AGR2,6,3.9167,2.1,7.6,aritmética
-Fosfato,mg/L,EST,6,1.2167,0.0,2.7,aritmética
-Fosfato,mg/L,AS1,6,2.7667,1.7,4.4,aritmética
-Fosfato,mg/L,AS2,2,1.6,0.4,2.8,aritmética
-Fosfato,mg/L,AGR1,6,10.4167,6.5,23.3,aritmética
-Fosfato,mg/L,AGR2,6,1.45,0.5,2.4,aritmética
-Coliformes fecales,NMP/100 mL,EST,6,14809.47,8600.0,32000.0,geométrica
-Coliformes fecales,NMP/100 mL,AS1,6,151015028.4592,33000000.0,240000000.0,geométrica
-Coliformes fecales,NMP/100 mL,AS2,2,927361.8495,100000.0,8600000.0,geométrica
-Coliformes fecales,NMP/100 mL,AGR1,6,789510.791,190000.0,5700000.0,geométrica
-Coliformes fecales,NMP/100 mL,AGR2,6,43491.1597,7400.0,200000.0,geométrica
-E. coli,NMP/100 mL,EST,6,1148.9152,1000.0,2300.0,geométrica
-E. coli,NMP/100 mL,AS1,5,755941.4764,100000.0,2300000.0,geométrica
-E. coli,NMP/100 mL,AS2,2,100000.0,100000.0,100000.0,geométrica
-E. coli,NMP/100 mL,AGR1,6,13984.607,1000.0,100000.0,geométrica
-E. coli,NMP/100 mL,AGR2,6,2154.4347,1000.0,100000.0,geométrica
+parametro,unidad,punto,n,media,min,max,tipo_media,n_con_semana1,media_con_semana1
+pH,-,EST,6,7.4683,7.27,7.62,aritmética,6,7.4683
+pH,-,AS1,5,6.352,6.05,6.9,aritmética,6,6.2
+pH,-,AS2,1,8.07,8.07,8.07,aritmética,2,7.925
+pH,-,AGR1,6,6.8017,6.37,7.09,aritmética,6,6.8017
+pH,-,AGR2,6,7.6117,7.41,7.7,aritmética,6,7.6117
+Temperatura,°C,EST,6,17.8333,17.1,19.2,aritmética,6,17.8333
+Temperatura,°C,AS1,5,16.78,14.0,19.5,aritmética,6,17.4
+Temperatura,°C,AS2,1,16.9,16.9,16.9,aritmética,2,17.6
+Temperatura,°C,AGR1,6,18.0833,17.5,19.1,aritmética,6,18.0833
+Temperatura,°C,AGR2,6,18.4333,16.2,20.0,aritmética,6,18.4333
+Conductividad eléctrica,µS/cm,EST,6,156.0,136.0,170.0,aritmética,6,156.0
+Conductividad eléctrica,µS/cm,AS1,5,272.4,219.0,347.0,aritmética,6,288.5
+Conductividad eléctrica,µS/cm,AS2,1,585.0,585.0,585.0,aritmética,2,602.5
+Conductividad eléctrica,µS/cm,AGR1,6,312.0,271.0,343.0,aritmética,6,312.0
+Conductividad eléctrica,µS/cm,AGR2,6,607.5,478.0,681.0,aritmética,6,607.5
+Potencial de óxido-reducción,mV,EST,6,213.5,162.7,230.9,aritmética,6,213.5
+Potencial de óxido-reducción,mV,AS1,5,-27.2,-179.5,53.5,aritmética,6,-43.1167
+Potencial de óxido-reducción,mV,AS2,1,88.6,88.6,88.6,aritmética,2,129.3
+Potencial de óxido-reducción,mV,AGR1,6,34.3333,-73.8,114.2,aritmética,6,34.3333
+Potencial de óxido-reducción,mV,AGR2,6,90.7667,53.1,137.4,aritmética,6,90.7667
+Oxígeno disuelto,mg/L,EST,6,6.3233,4.89,7.24,aritmética,6,6.3233
+Oxígeno disuelto,mg/L,AS1,5,2.688,1.61,3.96,aritmética,6,2.55
+Oxígeno disuelto,mg/L,AS2,1,5.17,5.17,5.17,aritmética,2,4.8
+Oxígeno disuelto,mg/L,AGR1,6,3.2217,1.97,4.12,aritmética,6,3.2217
+Oxígeno disuelto,mg/L,AGR2,6,5.3733,4.49,6.48,aritmética,6,5.3733
+Sólidos disueltos totales,mg/L,EST,6,78.0,68.0,85.0,aritmética,6,78.0
+Sólidos disueltos totales,mg/L,AS1,5,136.6,110.0,174.0,aritmética,6,144.5
+Sólidos disueltos totales,mg/L,AS2,1,292.0,292.0,292.0,aritmética,2,301.0
+Sólidos disueltos totales,mg/L,AGR1,6,156.0,135.0,172.0,aritmética,6,156.0
+Sólidos disueltos totales,mg/L,AGR2,6,303.8333,239.0,341.0,aritmética,6,303.8333
+Turbiedad,NTU,EST,6,20.6,12.2,24.5,aritmética,6,20.6
+Turbiedad,NTU,AS1,5,99.0,48.1,135.0,aritmética,6,304.1667
+Turbiedad,NTU,AS2,1,190.0,190.0,190.0,aritmética,2,1022.5
+Turbiedad,NTU,AGR1,6,156.2,27.0,702.0,aritmética,6,156.2
+Turbiedad,NTU,AGR2,6,30.7833,9.5,101.0,aritmética,6,30.7833
+DQO total,mg/L,EST,6,6.3333,4.0,14.0,aritmética,6,6.3333
+DQO total,mg/L,AS1,5,411.4,266.0,560.0,aritmética,6,755.8333
+DQO total,mg/L,AS2,1,129.0,129.0,129.0,aritmética,2,337.5
+DQO total,mg/L,AGR1,6,392.6667,224.0,529.0,aritmética,6,392.6667
+DQO total,mg/L,AGR2,6,75.6667,47.0,112.0,aritmética,6,75.6667
+DQO disuelta,mg/L,EST,6,3.3333,1.0,10.0,aritmética,6,3.3333
+DQO disuelta,mg/L,AS1,5,348.2,195.0,452.0,aritmética,6,406.3333
+DQO disuelta,mg/L,AS2,1,54.0,54.0,54.0,aritmética,2,70.5
+DQO disuelta,mg/L,AGR1,6,308.6667,182.0,445.0,aritmética,6,308.6667
+DQO disuelta,mg/L,AGR2,6,62.3333,44.0,81.0,aritmética,6,62.3333
+DBO5,mg/L,EST,6,2.2333,1.0,5.6,aritmética,6,2.2333
+DBO5,mg/L,AS1,5,219.32,100.4,356.8,aritmética,6,270.1833
+DBO5,mg/L,AS2,1,10.8,10.8,10.8,aritmética,2,12.9
+DBO5,mg/L,AGR1,6,104.45,62.5,186.4,aritmética,6,104.45
+DBO5,mg/L,AGR2,6,8.6,4.4,11.4,aritmética,6,8.6
+SST,mg/L,EST,6,31.2083,18.0,38.0,aritmética,6,31.2083
+SST,mg/L,AS1,5,81.994,52.9,113.9,aritmética,6,463.2733
+SST,mg/L,AS2,1,405.62,405.62,405.62,aritmética,2,1854.205
+SST,mg/L,AGR1,6,136.5917,35.43,549.24,aritmética,6,136.5917
+SST,mg/L,AGR2,6,595.1433,13.2,3465.26,aritmética,6,595.1433
+Amonio,mg/L,EST,6,0.1483,0.02,0.23,aritmética,6,0.1483
+Amonio,mg/L,AS1,5,1.036,0.36,2.25,aritmética,6,1.2817
+Amonio,mg/L,AS2,1,1.82,1.82,1.82,aritmética,2,1.975
+Amonio,mg/L,AGR1,6,12.7983,7.32,19.86,aritmética,6,12.7983
+Amonio,mg/L,AGR2,6,2.41,1.86,3.46,aritmética,6,2.41
+Nitrato,mg/L,EST,6,4.8333,2.2,7.3,aritmética,6,4.8333
+Nitrato,mg/L,AS1,5,11.0,3.2,23.0,aritmética,6,9.2833
+Nitrato,mg/L,AS2,1,4.0,4.0,4.0,aritmética,2,5.85
+Nitrato,mg/L,AGR1,6,4.55,2.9,7.2,aritmética,6,4.55
+Nitrato,mg/L,AGR2,6,26.15,6.0,47.6,aritmética,6,26.15
+Nitrógeno total,mg/L,EST,5,0.9,0.6,1.1,aritmética,5,0.9
+Nitrógeno total,mg/L,AS1,5,2.72,1.0,6.0,aritmética,5,2.72
+Nitrógeno total,mg/L,AS2,1,2.0,2.0,2.0,aritmética,1,2.0
+Nitrógeno total,mg/L,AGR1,5,11.64,7.7,16.3,aritmética,5,11.64
+Nitrógeno total,mg/L,AGR2,5,4.46,2.7,10.0,aritmética,5,4.46
+Fósforo total,mg/L,EST,6,0.1017,0.0,0.17,aritmética,6,0.1017
+Fósforo total,mg/L,AS1,5,0.36,0.13,0.81,aritmética,6,0.3167
+Fósforo total,mg/L,AS2,1,5.3,5.3,5.3,aritmética,2,6.6
+Fósforo total,mg/L,AGR1,6,6.3333,2.3,17.9,aritmética,6,6.3333
+Fósforo total,mg/L,AGR2,6,3.9167,2.1,7.6,aritmética,6,3.9167
+Fosfato,mg/L,EST,6,1.2167,0.0,2.7,aritmética,6,1.2167
+Fosfato,mg/L,AS1,5,2.86,1.7,4.4,aritmética,6,2.7667
+Fosfato,mg/L,AS2,1,2.8,2.8,2.8,aritmética,2,1.6
+Fosfato,mg/L,AGR1,6,10.4167,6.5,23.3,aritmética,6,10.4167
+Fosfato,mg/L,AGR2,6,1.45,0.5,2.4,aritmética,6,1.45
+Coliformes totales,NMP/100 mL,EST,6,14809.47,8600.0,32000.0,geométrica,6,14809.47
+Coliformes totales,NMP/100 mL,AS1,5,137651818.8423,33000000.0,240000000.0,geométrica,6,151015028.4592
+Coliformes totales,NMP/100 mL,AS2,1,8600000.0,8600000.0,8600000.0,geométrica,2,927361.8495
+Coliformes totales,NMP/100 mL,AGR1,6,789510.791,190000.0,5700000.0,geométrica,6,789510.791
+Coliformes totales,NMP/100 mL,AGR2,6,43491.1597,7400.0,200000.0,geométrica,6,43491.1597
+E. coli,NMP/100 mL,EST,6,1148.9152,1000.0,2300.0,geométrica,6,1148.9152
+E. coli,NMP/100 mL,AS1,5,755941.4764,100000.0,2300000.0,geométrica,5,755941.4764
+E. coli,NMP/100 mL,AS2,1,100000.0,100000.0,100000.0,geométrica,2,100000.0
+E. coli,NMP/100 mL,AGR1,6,13984.607,1000.0,100000.0,geométrica,6,13984.607
+E. coli,NMP/100 mL,AGR2,6,2154.4347,1000.0,100000.0,geométrica,6,2154.4347

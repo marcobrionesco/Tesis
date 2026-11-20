@@ -1,540 +1,541 @@
-punto,parametro,unidad,semana,valor,censura,texto_original
-EST,pH,-,1,7.62,,7.62
-EST,pH,-,2,7.27,,7.27
-EST,pH,-,3,7.33,,7.33
-EST,pH,-,4,7.53,,7.53
-EST,pH,-,5,7.44,,7.44
-EST,pH,-,6,7.62,,7.62
-AS1,pH,-,1,5.44,,5.44
-AS1,pH,-,2,6.9,,6.9
-AS1,pH,-,3,6.09,,6.09
-AS1,pH,-,4,6.2,,6.2
-AS1,pH,-,5,6.05,,6.05
-AS1,pH,-,6,6.52,,6.52
-AS2,pH,-,1,7.78,,7.78
-AS2,pH,-,2,8.07,,8.07
-AS2,pH,-,3,,,-
-AS2,pH,-,4,,,-
-AS2,pH,-,5,,,-
-AS2,pH,-,6,,,-
-AGR1,pH,-,1,6.37,,6.37
-AGR1,pH,-,2,6.47,,6.47
-AGR1,pH,-,3,6.9,,6.9
-AGR1,pH,-,4,6.9,,6.9
-AGR1,pH,-,5,7.09,,7.09
-AGR1,pH,-,6,7.08,,7.08
-AGR2,pH,-,1,7.68,,7.68
-AGR2,pH,-,2,7.41,,7.41
-AGR2,pH,-,3,7.64,,7.64
-AGR2,pH,-,4,7.64,,7.64
-AGR2,pH,-,5,7.7,,7.7
-AGR2,pH,-,6,7.6,,7.6
-EST,Temperatura,°C,1,19.2,,19.2
-EST,Temperatura,°C,2,17.1,,17.1
-EST,Temperatura,°C,3,18.1,,18.1
-EST,Temperatura,°C,4,17.6,,17.6
-EST,Temperatura,°C,5,17.6,,17.6
-EST,Temperatura,°C,6,17.4,,17.4
-AS1,Temperatura,°C,1,20.5,,20.5
-AS1,Temperatura,°C,2,15.5,,15.5
-AS1,Temperatura,°C,3,19.5,,19.5
-AS1,Temperatura,°C,4,14.0,,14
-AS1,Temperatura,°C,5,17.6,,17.6
-AS1,Temperatura,°C,6,17.3,,17.3
-AS2,Temperatura,°C,1,18.3,,18.3
-AS2,Temperatura,°C,2,16.9,,16.9
-AS2,Temperatura,°C,3,,,-
-AS2,Temperatura,°C,4,,,-
-AS2,Temperatura,°C,5,,,-
-AS2,Temperatura,°C,6,,,-
-AGR1,Temperatura,°C,1,17.5,,17.5
-AGR1,Temperatura,°C,2,18.3,,18.3
-AGR1,Temperatura,°C,3,19.1,,19.1
-AGR1,Temperatura,°C,4,17.8,,17.8
-AGR1,Temperatura,°C,5,17.9,,17.9
-AGR1,Temperatura,°C,6,17.9,,17.9
-AGR2,Temperatura,°C,1,20.0,,20
-AGR2,Temperatura,°C,2,18.1,,18.1
-AGR2,Temperatura,°C,3,19.5,,19.5
-AGR2,Temperatura,°C,4,16.2,,16.2
-AGR2,Temperatura,°C,5,18.2,,18.2
-AGR2,Temperatura,°C,6,18.6,,18.6
-EST,Conductividad eléctrica,µS/cm,1,148.0,,148
-EST,Conductividad eléctrica,µS/cm,2,136.0,,136
-EST,Conductividad eléctrica,µS/cm,3,169.0,,169
-EST,Conductividad eléctrica,µS/cm,4,157.0,,157
-EST,Conductividad eléctrica,µS/cm,5,156.0,,156
-EST,Conductividad eléctrica,µS/cm,6,170.0,,170
-AS1,Conductividad eléctrica,µS/cm,1,369.0,,369
-AS1,Conductividad eléctrica,µS/cm,2,245.0,,245
-AS1,Conductividad eléctrica,µS/cm,3,347.0,,347
-AS1,Conductividad eléctrica,µS/cm,4,314.0,,314
-AS1,Conductividad eléctrica,µS/cm,5,237.0,,237
-AS1,Conductividad eléctrica,µS/cm,6,219.0,,219
-AS2,Conductividad eléctrica,µS/cm,1,620.0,,620
-AS2,Conductividad eléctrica,µS/cm,2,585.0,,585
-AS2,Conductividad eléctrica,µS/cm,3,,,-
-AS2,Conductividad eléctrica,µS/cm,4,,,-
-AS2,Conductividad eléctrica,µS/cm,5,,,-
-AS2,Conductividad eléctrica,µS/cm,6,,,-
-AGR1,Conductividad eléctrica,µS/cm,1,271.0,,271
-AGR1,Conductividad eléctrica,µS/cm,2,301.0,,301
-AGR1,Conductividad eléctrica,µS/cm,3,343.0,,343
-AGR1,Conductividad eléctrica,µS/cm,4,336.0,,336
-AGR1,Conductividad eléctrica,µS/cm,5,317.0,,317
-AGR1,Conductividad eléctrica,µS/cm,6,304.0,,304
-AGR2,Conductividad eléctrica,µS/cm,1,626.0,,626
-AGR2,Conductividad eléctrica,µS/cm,2,478.0,,478
-AGR2,Conductividad eléctrica,µS/cm,3,681.0,,681
-AGR2,Conductividad eléctrica,µS/cm,4,674.0,,674
-AGR2,Conductividad eléctrica,µS/cm,5,634.0,,634
-AGR2,Conductividad eléctrica,µS/cm,6,552.0,,552
-EST,Potencial de óxido-reducción,mV,1,227.2,,227.2
-EST,Potencial de óxido-reducción,mV,2,225.0,,225
-EST,Potencial de óxido-reducción,mV,3,227.3,,227.3
-EST,Potencial de óxido-reducción,mV,4,230.9,,230.9
-EST,Potencial de óxido-reducción,mV,5,162.7,,162.7
-EST,Potencial de óxido-reducción,mV,6,207.9,,207.9
-AS1,Potencial de óxido-reducción,mV,1,-122.7,,-122.7
-AS1,Potencial de óxido-reducción,mV,2,38.5,,38.5
-AS1,Potencial de óxido-reducción,mV,3,-22.8,,-22.8
-AS1,Potencial de óxido-reducción,mV,4,-179.5,,-179.5
-AS1,Potencial de óxido-reducción,mV,5,53.5,,53.5
-AS1,Potencial de óxido-reducción,mV,6,-25.7,,-25.7
-AS2,Potencial de óxido-reducción,mV,1,170.0,,170
-AS2,Potencial de óxido-reducción,mV,2,88.6,,88.6
-AS2,Potencial de óxido-reducción,mV,3,,,-
-AS2,Potencial de óxido-reducción,mV,4,,,-
-AS2,Potencial de óxido-reducción,mV,5,,,-
-AS2,Potencial de óxido-reducción,mV,6,,,-
-AGR1,Potencial de óxido-reducción,mV,1,29.8,,29.8
-AGR1,Potencial de óxido-reducción,mV,2,-13.9,,-13.9
-AGR1,Potencial de óxido-reducción,mV,3,114.2,,114.2
-AGR1,Potencial de óxido-reducción,mV,4,-73.8,,-73.8
-AGR1,Potencial de óxido-reducción,mV,5,72.8,,72.8
-AGR1,Potencial de óxido-reducción,mV,6,76.9,,76.9
-AGR2,Potencial de óxido-reducción,mV,1,84.5,,84.5
-AGR2,Potencial de óxido-reducción,mV,2,53.1,,53.1
-AGR2,Potencial de óxido-reducción,mV,3,137.4,,137.4
-AGR2,Potencial de óxido-reducción,mV,4,64.9,,64.9
-AGR2,Potencial de óxido-reducción,mV,5,87.3,,87.3
-AGR2,Potencial de óxido-reducción,mV,6,117.4,,117.4
-EST,Oxígeno disuelto,mg/L,1,4.89,,4.89
-EST,Oxígeno disuelto,mg/L,2,6.69,,6.69
-EST,Oxígeno disuelto,mg/L,3,6.1,,6.1
-EST,Oxígeno disuelto,mg/L,4,7.24,,7.24
-EST,Oxígeno disuelto,mg/L,5,6.77,,6.77
-EST,Oxígeno disuelto,mg/L,6,6.25,,6.25
-AS1,Oxígeno disuelto,mg/L,1,1.86,,1.86
-AS1,Oxígeno disuelto,mg/L,2,2.88,,2.88
-AS1,Oxígeno disuelto,mg/L,3,1.61,,1.61
-AS1,Oxígeno disuelto,mg/L,4,3.22,,3.22
-AS1,Oxígeno disuelto,mg/L,5,3.96,,3.96
-AS1,Oxígeno disuelto,mg/L,6,1.77,,1.77
-AS2,Oxígeno disuelto,mg/L,1,4.43,,4.43
-AS2,Oxígeno disuelto,mg/L,2,5.17,,5.17
-AS2,Oxígeno disuelto,mg/L,3,,,-
-AS2,Oxígeno disuelto,mg/L,4,,,-
-AS2,Oxígeno disuelto,mg/L,5,,,-
-AS2,Oxígeno disuelto,mg/L,6,,,-
-AGR1,Oxígeno disuelto,mg/L,1,1.97,,1.97
-AGR1,Oxígeno disuelto,mg/L,2,2.54,,2.54
-AGR1,Oxígeno disuelto,mg/L,3,4.12,,4.12
-AGR1,Oxígeno disuelto,mg/L,4,3.1,,3.1
-AGR1,Oxígeno disuelto,mg/L,5,3.63,,3.63
-AGR1,Oxígeno disuelto,mg/L,6,3.97,,3.97
-AGR2,Oxígeno disuelto,mg/L,1,4.56,,4.56
-AGR2,Oxígeno disuelto,mg/L,2,4.49,,4.49
-AGR2,Oxígeno disuelto,mg/L,3,5.24,,5.24
-AGR2,Oxígeno disuelto,mg/L,4,6.48,,6.48
-AGR2,Oxígeno disuelto,mg/L,5,6.15,,6.15
-AGR2,Oxígeno disuelto,mg/L,6,5.32,,5.32
-EST,Sólidos disueltos totales,mg/L,1,74.0,,74
-EST,Sólidos disueltos totales,mg/L,2,68.0,,68
-EST,Sólidos disueltos totales,mg/L,3,85.0,,85
-EST,Sólidos disueltos totales,mg/L,4,78.0,,78
-EST,Sólidos disueltos totales,mg/L,5,78.0,,78
-EST,Sólidos disueltos totales,mg/L,6,85.0,,85
-AS1,Sólidos disueltos totales,mg/L,1,184.0,,184
-AS1,Sólidos disueltos totales,mg/L,2,123.0,,123
-AS1,Sólidos disueltos totales,mg/L,3,174.0,,174
-AS1,Sólidos disueltos totales,mg/L,4,157.0,,157
-AS1,Sólidos disueltos totales,mg/L,5,119.0,,119
-AS1,Sólidos disueltos totales,mg/L,6,110.0,,110
-AS2,Sólidos disueltos totales,mg/L,1,310.0,,310
-AS2,Sólidos disueltos totales,mg/L,2,292.0,,292
-AS2,Sólidos disueltos totales,mg/L,3,,,-
-AS2,Sólidos disueltos totales,mg/L,4,,,-
-AS2,Sólidos disueltos totales,mg/L,5,,,-
-AS2,Sólidos disueltos totales,mg/L,6,,,-
-AGR1,Sólidos disueltos totales,mg/L,1,135.0,,135
-AGR1,Sólidos disueltos totales,mg/L,2,151.0,,151
-AGR1,Sólidos disueltos totales,mg/L,3,172.0,,172
-AGR1,Sólidos disueltos totales,mg/L,4,168.0,,168
-AGR1,Sólidos disueltos totales,mg/L,5,158.0,,158
-AGR1,Sólidos disueltos totales,mg/L,6,152.0,,152
-AGR2,Sólidos disueltos totales,mg/L,1,313.0,,313
-AGR2,Sólidos disueltos totales,mg/L,2,239.0,,239
-AGR2,Sólidos disueltos totales,mg/L,3,341.0,,341
-AGR2,Sólidos disueltos totales,mg/L,4,337.0,,337
-AGR2,Sólidos disueltos totales,mg/L,5,317.0,,317
-AGR2,Sólidos disueltos totales,mg/L,6,276.0,,276
-EST,Turbiedad,NTU,1,24.5,,24.5
-EST,Turbiedad,NTU,2,22.6,,22.6
-EST,Turbiedad,NTU,3,19.2,,19.2
-EST,Turbiedad,NTU,4,21.6,,21.6
-EST,Turbiedad,NTU,5,23.5,,23.5
-EST,Turbiedad,NTU,6,12.2,,12.2
-AS1,Turbiedad,NTU,1,1330.0,,1330
-AS1,Turbiedad,NTU,2,128.0,,128
-AS1,Turbiedad,NTU,3,135.0,,135
-AS1,Turbiedad,NTU,4,110.0,,110
-AS1,Turbiedad,NTU,5,73.9,,73.9
-AS1,Turbiedad,NTU,6,48.1,,48.1
-AS2,Turbiedad,NTU,1,1855.0,,1855
-AS2,Turbiedad,NTU,2,190.0,,190
-AS2,Turbiedad,NTU,3,,,-
-AS2,Turbiedad,NTU,4,,,-
-AS2,Turbiedad,NTU,5,,,-
-AS2,Turbiedad,NTU,6,,,-
-AGR1,Turbiedad,NTU,1,702.0,,702
-AGR1,Turbiedad,NTU,2,68.1,,68.1
-AGR1,Turbiedad,NTU,3,41.2,,41.2
-AGR1,Turbiedad,NTU,4,35.1,,35.1
-AGR1,Turbiedad,NTU,5,27.0,,27
-AGR1,Turbiedad,NTU,6,63.8,,63.8
-AGR2,Turbiedad,NTU,1,101.0,,101
-AGR2,Turbiedad,NTU,2,18.1,,18.1
-AGR2,Turbiedad,NTU,3,23.8,,23.8
-AGR2,Turbiedad,NTU,4,9.5,,9.5
-AGR2,Turbiedad,NTU,5,13.7,,13.7
-AGR2,Turbiedad,NTU,6,18.6,,18.6
-EST,DQO total,mg/L,1,14.0,,14
-EST,DQO total,mg/L,2,4.0,,4
-EST,DQO total,mg/L,3,6.0,,6
-EST,DQO total,mg/L,4,4.0,,4
-EST,DQO total,mg/L,5,4.0,,4
-EST,DQO total,mg/L,6,6.0,,6
-AS1,DQO total,mg/L,2,266.0,,266
-AS1,DQO total,mg/L,3,496.0,,496
-AS1,DQO total,mg/L,4,560.0,,560
-AS1,DQO total,mg/L,5,375.0,,375
-AS1,DQO total,mg/L,6,360.0,,360
-AS2,DQO total,mg/L,1,546.0,,546
-AS2,DQO total,mg/L,2,129.0,,129
-AS2,DQO total,mg/L,3,,,-
-AS2,DQO total,mg/L,4,,,-
-AS2,DQO total,mg/L,5,,,-
-AS2,DQO total,mg/L,6,,,-
-AGR1,DQO total,mg/L,1,529.0,,529
-AGR1,DQO total,mg/L,2,460.0,,460
-AGR1,DQO total,mg/L,3,466.0,,466
-AGR1,DQO total,mg/L,4,351.0,,351
-AGR1,DQO total,mg/L,5,224.0,,224
-AGR1,DQO total,mg/L,6,326.0,,326
-AGR2,DQO total,mg/L,1,112.0,,112
-AGR2,DQO total,mg/L,2,47.0,,47
-AGR2,DQO total,mg/L,3,95.0,,95
-AGR2,DQO total,mg/L,4,80.0,,80
-AGR2,DQO total,mg/L,5,51.0,,51
-AGR2,DQO total,mg/L,6,69.0,,69
-EST,DQO disuelta,mg/L,1,10.0,,10
-EST,DQO disuelta,mg/L,2,2.0,,2
-EST,DQO disuelta,mg/L,3,3.0,,3
-EST,DQO disuelta,mg/L,4,1.0,,1
-EST,DQO disuelta,mg/L,5,1.0,,1
-EST,DQO disuelta,mg/L,6,3.0,,3
-AS1,DQO disuelta,mg/L,1,697.0,,697
-AS1,DQO disuelta,mg/L,2,195.0,,195
-AS1,DQO disuelta,mg/L,3,452.0,,452
-AS1,DQO disuelta,mg/L,4,443.0,,443
-AS1,DQO disuelta,mg/L,5,304.0,,304
-AS1,DQO disuelta,mg/L,6,347.0,,347
-AS2,DQO disuelta,mg/L,1,87.0,,87
-AS2,DQO disuelta,mg/L,2,54.0,,54
-AS2,DQO disuelta,mg/L,3,,,-
-AS2,DQO disuelta,mg/L,4,,,-
-AS2,DQO disuelta,mg/L,5,,,-
-AS2,DQO disuelta,mg/L,6,,,-
-AGR1,DQO disuelta,mg/L,1,245.0,,245
-AGR1,DQO disuelta,mg/L,2,390.0,,390
-AGR1,DQO disuelta,mg/L,3,445.0,,445
-AGR1,DQO disuelta,mg/L,4,289.0,,289
-AGR1,DQO disuelta,mg/L,5,182.0,,182
-AGR1,DQO disuelta,mg/L,6,301.0,,301
-AGR2,DQO disuelta,mg/L,1,81.0,,81
-AGR2,DQO disuelta,mg/L,2,44.0,,44
-AGR2,DQO disuelta,mg/L,3,77.0,,77
-AGR2,DQO disuelta,mg/L,4,65.0,,65
-AGR2,DQO disuelta,mg/L,5,45.0,,45
-AGR2,DQO disuelta,mg/L,6,62.0,,62
-EST,DBO5,mg/L,1,5.6,,5.6
-EST,DBO5,mg/L,2,2.1,,2.1
-EST,DBO5,mg/L,3,1.0,,1
-EST,DBO5,mg/L,4,1.6,,1.6
-EST,DBO5,mg/L,5,2.1,,2.1
-EST,DBO5,mg/L,6,1.0,,1
-AS1,DBO5,mg/L,1,524.5,,524.5
-AS1,DBO5,mg/L,2,100.4,,100.4
-AS1,DBO5,mg/L,3,309.0,,309
-AS1,DBO5,mg/L,4,356.8,,356.8
-AS1,DBO5,mg/L,5,185.3,,185.3
-AS1,DBO5,mg/L,6,145.1,,145.1
-AS2,DBO5,mg/L,1,15.0,,15
-AS2,DBO5,mg/L,2,10.8,,10.8
-AS2,DBO5,mg/L,3,,,-
-AS2,DBO5,mg/L,4,,,-
-AS2,DBO5,mg/L,5,,,-
-AS2,DBO5,mg/L,6,,,-
-AGR1,DBO5,mg/L,1,82.7,,82.7
-AGR1,DBO5,mg/L,2,186.4,,186.4
-AGR1,DBO5,mg/L,3,127.1,,127.1
-AGR1,DBO5,mg/L,4,81.2,,81.2
-AGR1,DBO5,mg/L,5,62.5,,62.5
-AGR1,DBO5,mg/L,6,86.8,,86.8
-AGR2,DBO5,mg/L,1,7.1,,7.1
-AGR2,DBO5,mg/L,2,8.6,,8.6
-AGR2,DBO5,mg/L,3,11.4,,11.4
-AGR2,DBO5,mg/L,4,9.7,,9.7
-AGR2,DBO5,mg/L,5,4.4,,4.4
-AGR2,DBO5,mg/L,6,10.4,,10.4
-EST,SST,mg/L,1,38.0,,38
-EST,SST,mg/L,2,35.25,,35.25
-EST,SST,mg/L,3,18.0,,18
-EST,SST,mg/L,4,34.4,,34.4
-EST,SST,mg/L,5,34.5,,34.5
-EST,SST,mg/L,6,27.1,,27.1
-AS1,SST,mg/L,1,2369.67,,2369.67
-AS1,SST,mg/L,2,72.13,,72.13
-AS1,SST,mg/L,3,108.2,,108.2
-AS1,SST,mg/L,4,113.9,,113.9
-AS1,SST,mg/L,5,62.84,,62.84
-AS1,SST,mg/L,6,52.9,,52.9
-AS2,SST,mg/L,1,3302.79,,3302.79
-AS2,SST,mg/L,2,405.62,,405.62
-AS2,SST,mg/L,3,,,-
-AS2,SST,mg/L,4,,,-
-AS2,SST,mg/L,5,,,-
-AS2,SST,mg/L,6,,,-
-AGR1,SST,mg/L,1,549.24,,549.24
-AGR1,SST,mg/L,2,85.38,,85.38
-AGR1,SST,mg/L,3,35.4,,35.4
-AGR1,SST,mg/L,4,46.5,,46.5
-AGR1,SST,mg/L,5,51.5,,51.5
-AGR1,SST,mg/L,6,51.5,,51.5
-AGR2,SST,mg/L,1,3465.26,,3465.26
-AGR2,SST,mg/L,2,25.72,,25.72
-AGR2,SST,mg/L,3,35.1,,35.1
-AGR2,SST,mg/L,4,17.0,,17
-AGR2,SST,mg/L,5,14.58,,14.58
-AGR2,SST,mg/L,6,13.2,,13.2
-EST,Amonio,mg/L,1,0.12,,0.12
-EST,Amonio,mg/L,2,0.14,,0.14
-EST,Amonio,mg/L,3,0.23,,0.23
-EST,Amonio,mg/L,4,0.02,,0.02
-EST,Amonio,mg/L,5,0.21,,0.21
-EST,Amonio,mg/L,6,0.17,,0.17
-AS1,Amonio,mg/L,1,2.51,,2.51
-AS1,Amonio,mg/L,2,2.25,,2.25
-AS1,Amonio,mg/L,3,0.93,,0.93
-AS1,Amonio,mg/L,4,1.01,,1.01
-AS1,Amonio,mg/L,5,0.63,,0.63
-AS1,Amonio,mg/L,6,0.36,,0.36
-AS2,Amonio,mg/L,1,2.13,,2.13
-AS2,Amonio,mg/L,2,1.82,,1.82
-AS2,Amonio,mg/L,3,,,-
-AS2,Amonio,mg/L,4,,,-
-AS2,Amonio,mg/L,5,,,-
-AS2,Amonio,mg/L,6,,,-
-AGR1,Amonio,mg/L,1,9.68,,9.68
-AGR1,Amonio,mg/L,2,13.9,,13.9
-AGR1,Amonio,mg/L,3,13.5,,13.5
-AGR1,Amonio,mg/L,4,12.53,,12.53
-AGR1,Amonio,mg/L,5,7.32,,7.32
-AGR1,Amonio,mg/L,6,19.86,,19.86
-AGR2,Amonio,mg/L,1,2.1,,2.1
-AGR2,Amonio,mg/L,2,3.46,,3.46
-AGR2,Amonio,mg/L,3,2.19,,2.19
-AGR2,Amonio,mg/L,4,1.86,,1.86
-AGR2,Amonio,mg/L,5,2.43,,2.43
-AGR2,Amonio,mg/L,6,2.42,,2.42
-EST,Nitrato,mg/L,1,4.5,,4.5
-EST,Nitrato,mg/L,2,2.2,,2.2
-EST,Nitrato,mg/L,3,3.0,,3
-EST,Nitrato,mg/L,4,7.3,,7.3
-EST,Nitrato,mg/L,5,5.6,,5.6
-EST,Nitrato,mg/L,6,7.3,,7.3
-AS1,Nitrato,mg/L,1,0.7,,0.7
-AS1,Nitrato,mg/L,2,6.7,,6.7
-AS1,Nitrato,mg/L,3,17.8,,17.8
-AS1,Nitrato,mg/L,4,23.0,,23
-AS1,Nitrato,mg/L,5,3.2,,3.2
-AS1,Nitrato,mg/L,6,4.3,,4.3
-AS2,Nitrato,mg/L,1,7.7,,7.7
-AS2,Nitrato,mg/L,2,4.0,,4
-AS2,Nitrato,mg/L,3,,,-
-AS2,Nitrato,mg/L,4,,,-
-AS2,Nitrato,mg/L,5,,,-
-AS2,Nitrato,mg/L,6,,,-
-AGR1,Nitrato,mg/L,1,5.7,,5.7
-AGR1,Nitrato,mg/L,2,4.1,,4.1
-AGR1,Nitrato,mg/L,3,7.2,,7.2
-AGR1,Nitrato,mg/L,4,3.6,,3.6
-AGR1,Nitrato,mg/L,5,2.9,,2.9
-AGR1,Nitrato,mg/L,6,3.8,,3.8
-AGR2,Nitrato,mg/L,1,47.6,,47.6
-AGR2,Nitrato,mg/L,2,34.7,,34.7
-AGR2,Nitrato,mg/L,3,28.5,,28.5
-AGR2,Nitrato,mg/L,4,32.6,,32.6
-AGR2,Nitrato,mg/L,5,6.0,,6
-AGR2,Nitrato,mg/L,6,7.5,,7.5
-EST,Nitrógeno total,mg/L,1,,,-
-EST,Nitrógeno total,mg/L,2,0.8,,0.8
-EST,Nitrógeno total,mg/L,3,0.6,,0.6
-EST,Nitrógeno total,mg/L,4,1.0,,1
-EST,Nitrógeno total,mg/L,5,1.1,,1.1
-EST,Nitrógeno total,mg/L,6,0.9,,0.9
-AS1,Nitrógeno total,mg/L,1,,,-
-AS1,Nitrógeno total,mg/L,2,2.2,,2.2
-AS1,Nitrógeno total,mg/L,3,3.2,,3.2
-AS1,Nitrógeno total,mg/L,4,6.0,,6
-AS1,Nitrógeno total,mg/L,5,1.0,,1
-AS1,Nitrógeno total,mg/L,6,1.2,,1.2
-AS2,Nitrógeno total,mg/L,1,,,-
-AS2,Nitrógeno total,mg/L,2,2.0,,2
-AS2,Nitrógeno total,mg/L,3,,,-
-AS2,Nitrógeno total,mg/L,4,,,-
-AS2,Nitrógeno total,mg/L,5,,,-
-AS2,Nitrógeno total,mg/L,6,,,-
-AGR1,Nitrógeno total,mg/L,1,,,-
-AGR1,Nitrógeno total,mg/L,2,12.0,,12
-AGR1,Nitrógeno total,mg/L,3,12.0,,12
-AGR1,Nitrógeno total,mg/L,4,10.2,,10.2
-AGR1,Nitrógeno total,mg/L,5,7.7,,7.7
-AGR1,Nitrógeno total,mg/L,6,16.3,,16.3
-AGR2,Nitrógeno total,mg/L,1,,,-
-AGR2,Nitrógeno total,mg/L,2,10.0,,10
-AGR2,Nitrógeno total,mg/L,3,2.7,,2.7
-AGR2,Nitrógeno total,mg/L,4,3.3,,3.3
-AGR2,Nitrógeno total,mg/L,5,3.1,,3.1
-AGR2,Nitrógeno total,mg/L,6,3.2,,3.2
-EST,Fósforo total,mg/L,1,0.0,,0
-EST,Fósforo total,mg/L,2,0.07,,0.07
-EST,Fósforo total,mg/L,3,0.15,,0.15
-EST,Fósforo total,mg/L,4,0.11,,0.11
-EST,Fósforo total,mg/L,5,0.11,,0.11
-EST,Fósforo total,mg/L,6,0.16,,0.16
-AS1,Fósforo total,mg/L,1,0.1,,0.1
-AS1,Fósforo total,mg/L,2,0.17,,0.17
-AS1,Fósforo total,mg/L,3,0.55,,0.55
-AS1,Fósforo total,mg/L,4,0.81,,0.81
-AS1,Fósforo total,mg/L,5,0.14,,0.14
-AS1,Fósforo total,mg/L,6,0.12,,0.12
-AS2,Fósforo total,mg/L,1,7.9,,7.9
-AS2,Fósforo total,mg/L,2,5.3,,5.3
-AS2,Fósforo total,mg/L,3,,,-
-AS2,Fósforo total,mg/L,4,,,-
-AS2,Fósforo total,mg/L,5,,,-
-AS2,Fósforo total,mg/L,6,,,-
-AGR1,Fósforo total,mg/L,1,10.1,,10.1
-AGR1,Fósforo total,mg/L,2,17.9,,17.9
-AGR1,Fósforo total,mg/L,3,2.6,,2.6
-AGR1,Fósforo total,mg/L,4,2.8,,2.8
-AGR1,Fósforo total,mg/L,5,2.3,,2.3
-AGR1,Fósforo total,mg/L,6,2.3,,2.3
-AGR2,Fósforo total,mg/L,1,7.6,,7.6
-AGR2,Fósforo total,mg/L,2,3.8,,3.8
-AGR2,Fósforo total,mg/L,3,3.4,,3.4
-AGR2,Fósforo total,mg/L,4,3.3,,3.3
-AGR2,Fósforo total,mg/L,5,3.3,,3.3
-AGR2,Fósforo total,mg/L,6,2.1,,2.1
-EST,Fosfato,mg/L,1,0.0,,0
-EST,Fosfato,mg/L,2,0.2,,0.2
-EST,Fosfato,mg/L,3,1.5,,1.5
-EST,Fosfato,mg/L,4,1.0,,1
-EST,Fosfato,mg/L,5,1.9,,1.9
-EST,Fosfato,mg/L,6,2.7,,2.7
-AS1,Fosfato,mg/L,1,2.3,,2.3
-AS1,Fosfato,mg/L,2,1.7,,1.7
-AS1,Fosfato,mg/L,3,3.2,,3.2
-AS1,Fosfato,mg/L,4,4.4,,4.4
-AS1,Fosfato,mg/L,5,2.0,,2
-AS1,Fosfato,mg/L,6,3.0,,3
-AS2,Fosfato,mg/L,1,0.4,,0.4
-AS2,Fosfato,mg/L,2,2.8,,2.8
-AS2,Fosfato,mg/L,3,,,-
-AS2,Fosfato,mg/L,4,,,-
-AS2,Fosfato,mg/L,5,,,-
-AS2,Fosfato,mg/L,6,,,-
-AGR1,Fosfato,mg/L,1,10.3,,10.3
-AGR1,Fosfato,mg/L,2,23.3,,23.3
-AGR1,Fosfato,mg/L,3,7.5,,7.5
-AGR1,Fosfato,mg/L,4,6.7,,6.7
-AGR1,Fosfato,mg/L,5,6.5,,6.5
-AGR1,Fosfato,mg/L,6,8.2,,8.2
-AGR2,Fosfato,mg/L,1,0.8,,0.8
-AGR2,Fosfato,mg/L,2,1.9,,1.9
-AGR2,Fosfato,mg/L,3,1.2,,1.2
-AGR2,Fosfato,mg/L,4,0.5,,0.5
-AGR2,Fosfato,mg/L,5,1.9,,1.9
-AGR2,Fosfato,mg/L,6,2.4,,2.4
-EST,Coliformes fecales,NMP/100 mL,1,19000.0,,1.9x104
-EST,Coliformes fecales,NMP/100 mL,2,16000.0,,1.6x104
-EST,Coliformes fecales,NMP/100 mL,3,13000.0,,1.3x104
-EST,Coliformes fecales,NMP/100 mL,4,9700.0,,9.7x103
-EST,Coliformes fecales,NMP/100 mL,5,32000.0,,3.2x104
-EST,Coliformes fecales,NMP/100 mL,6,8600.0,,8.6x103
-AS1,Coliformes fecales,NMP/100 mL,1,240000000.0,>,>2.4x108
-AS1,Coliformes fecales,NMP/100 mL,2,240000000.0,,2.4x108
-AS1,Coliformes fecales,NMP/100 mL,3,200000000.0,,2.0x108
-AS1,Coliformes fecales,NMP/100 mL,4,130000000.0,,1.3x108
-AS1,Coliformes fecales,NMP/100 mL,5,240000000.0,,2.4x108
-AS1,Coliformes fecales,NMP/100 mL,6,33000000.0,,3.3x107
-AS2,Coliformes fecales,NMP/100 mL,1,100000.0,,1.0x105
-AS2,Coliformes fecales,NMP/100 mL,2,8600000.0,,8.6x106
-AS2,Coliformes fecales,NMP/100 mL,3,,,-
-AS2,Coliformes fecales,NMP/100 mL,4,,,-
-AS2,Coliformes fecales,NMP/100 mL,5,,,-
-AS2,Coliformes fecales,NMP/100 mL,6,,,-
-AGR1,Coliformes fecales,NMP/100 mL,1,2700000.0,,2.7x106
-AGR1,Coliformes fecales,NMP/100 mL,2,5700000.0,,5.7x106
-AGR1,Coliformes fecales,NMP/100 mL,3,869999.9999999999,,8.7x105
-AGR1,Coliformes fecales,NMP/100 mL,4,190000.0,,1.9x105
-AGR1,Coliformes fecales,NMP/100 mL,5,340000.0,,3.4x105
-AGR1,Coliformes fecales,NMP/100 mL,6,280000.0,,2.8x105
-AGR2,Coliformes fecales,NMP/100 mL,1,71000.0,,7.1x104
-AGR2,Coliformes fecales,NMP/100 mL,2,200000.0,,2.0x105
-AGR2,Coliformes fecales,NMP/100 mL,3,50000.0,,5.0x104
-AGR2,Coliformes fecales,NMP/100 mL,4,7400.0,,7.4x103
-AGR2,Coliformes fecales,NMP/100 mL,5,23000.0,,2.3x104
-AGR2,Coliformes fecales,NMP/100 mL,6,56000.0,,5.6x104
-EST,E. coli,NMP/100 mL,1,2300.0,,2.3x103
-EST,E. coli,NMP/100 mL,2,1000.0,,1.0x103
-EST,E. coli,NMP/100 mL,3,1000.0,<,<1.0x103
-EST,E. coli,NMP/100 mL,4,1000.0,,1.0x103
-EST,E. coli,NMP/100 mL,5,1000.0,<,<1.0x103
-EST,E. coli,NMP/100 mL,6,1000.0,<,<1.0x103
-AS1,E. coli,NMP/100 mL,1,,,-
-AS1,E. coli,NMP/100 mL,2,100000.0,<,<1.0x105
-AS1,E. coli,NMP/100 mL,3,2300000.0,,2.3x106
-AS1,E. coli,NMP/100 mL,4,1300000.0,,1.3x106
-AS1,E. coli,NMP/100 mL,5,960000.0,,9.6x105
-AS1,E. coli,NMP/100 mL,6,860000.0,,8.6x105
-AS2,E. coli,NMP/100 mL,1,100000.0,<,< 1.0x105
-AS2,E. coli,NMP/100 mL,2,100000.0,<,<1.0x105
-AS2,E. coli,NMP/100 mL,3,,,-
-AS2,E. coli,NMP/100 mL,4,,,-
-AS2,E. coli,NMP/100 mL,5,,,-
-AS2,E. coli,NMP/100 mL,6,,,-
-AGR1,E. coli,NMP/100 mL,1,100000.0,,1.0x105
-AGR1,E. coli,NMP/100 mL,2,100000.0,,1.0x105
-AGR1,E. coli,NMP/100 mL,3,34000.0,,3.4x104
-AGR1,E. coli,NMP/100 mL,4,11000.0,,1.1x104
-AGR1,E. coli,NMP/100 mL,5,2000.0,,2.0x103
-AGR1,E. coli,NMP/100 mL,6,1000.0,,1.0x103
-AGR2,E. coli,NMP/100 mL,1,1000.0,<,<1.0x103
-AGR2,E. coli,NMP/100 mL,2,100000.0,<,<1.0x105
-AGR2,E. coli,NMP/100 mL,3,1000.0,,1.0x103
-AGR2,E. coli,NMP/100 mL,4,1000.0,,1.0x103
-AGR2,E. coli,NMP/100 mL,5,1000.0,<,<1.0x103
-AGR2,E. coli,NMP/100 mL,6,1000.0,<,<1.0x103
+punto,parametro,unidad,semana,valor,censura,texto_original,atipica
+EST,pH,-,1,7.62,,"7,62",0
+EST,pH,-,2,7.27,,"7,27",0
+EST,pH,-,3,7.33,,"7,33",0
+EST,pH,-,4,7.53,,"7,53",0
+EST,pH,-,5,7.44,,"7,44",0
+EST,pH,-,6,7.62,,"7,62",0
+AS1,pH,-,1,5.44,,"5,44",1
+AS1,pH,-,2,6.9,,"6,90",0
+AS1,pH,-,3,6.09,,"6,09",0
+AS1,pH,-,4,6.2,,"6,20",0
+AS1,pH,-,5,6.05,,"6,05",0
+AS1,pH,-,6,6.52,,"6,52",0
+AS2,pH,-,1,7.78,,"7,78",1
+AS2,pH,-,2,8.07,,"8,07",0
+AS2,pH,-,3,,,-,0
+AS2,pH,-,4,,,-,0
+AS2,pH,-,5,,,-,0
+AS2,pH,-,6,,,-,0
+AGR1,pH,-,1,6.37,,"6,37",0
+AGR1,pH,-,2,6.47,,"6,47",0
+AGR1,pH,-,3,6.9,,"6,9",0
+AGR1,pH,-,4,6.9,,"6,90",0
+AGR1,pH,-,5,7.09,,"7,09",0
+AGR1,pH,-,6,7.08,,"7,08",0
+AGR2,pH,-,1,7.68,,"7,68",0
+AGR2,pH,-,2,7.41,,"7,41",0
+AGR2,pH,-,3,7.64,,"7,64",0
+AGR2,pH,-,4,7.64,,"7,64",0
+AGR2,pH,-,5,7.7,,"7,70",0
+AGR2,pH,-,6,7.6,,"7,60",0
+EST,Temperatura,°C,1,19.2,,"19,2",0
+EST,Temperatura,°C,2,17.1,,"17,1",0
+EST,Temperatura,°C,3,18.1,,"18,1",0
+EST,Temperatura,°C,4,17.6,,"17,6",0
+EST,Temperatura,°C,5,17.6,,"17,6",0
+EST,Temperatura,°C,6,17.4,,"17,4",0
+AS1,Temperatura,°C,1,20.5,,"20,5",1
+AS1,Temperatura,°C,2,15.5,,"15,5",0
+AS1,Temperatura,°C,3,19.5,,"19,5",0
+AS1,Temperatura,°C,4,14.0,,"14,0",0
+AS1,Temperatura,°C,5,17.6,,"17,6",0
+AS1,Temperatura,°C,6,17.3,,"17,3",0
+AS2,Temperatura,°C,1,18.3,,"18,3",1
+AS2,Temperatura,°C,2,16.9,,"16,9",0
+AS2,Temperatura,°C,3,,,-,0
+AS2,Temperatura,°C,4,,,-,0
+AS2,Temperatura,°C,5,,,-,0
+AS2,Temperatura,°C,6,,,-,0
+AGR1,Temperatura,°C,1,17.5,,"17,5",0
+AGR1,Temperatura,°C,2,18.3,,"18,3",0
+AGR1,Temperatura,°C,3,19.1,,"19,1",0
+AGR1,Temperatura,°C,4,17.8,,"17,8",0
+AGR1,Temperatura,°C,5,17.9,,"17,9",0
+AGR1,Temperatura,°C,6,17.9,,"17,9",0
+AGR2,Temperatura,°C,1,20.0,,"20,0",0
+AGR2,Temperatura,°C,2,18.1,,"18,1",0
+AGR2,Temperatura,°C,3,19.5,,"19,5",0
+AGR2,Temperatura,°C,4,16.2,,"16,2",0
+AGR2,Temperatura,°C,5,18.2,,"18,2",0
+AGR2,Temperatura,°C,6,18.6,,"18,6",0
+EST,Conductividad eléctrica,µS/cm,1,148.0,,148,0
+EST,Conductividad eléctrica,µS/cm,2,136.0,,136,0
+EST,Conductividad eléctrica,µS/cm,3,169.0,,169,0
+EST,Conductividad eléctrica,µS/cm,4,157.0,,157,0
+EST,Conductividad eléctrica,µS/cm,5,156.0,,156,0
+EST,Conductividad eléctrica,µS/cm,6,170.0,,170,0
+AS1,Conductividad eléctrica,µS/cm,1,369.0,,369,1
+AS1,Conductividad eléctrica,µS/cm,2,245.0,,245,0
+AS1,Conductividad eléctrica,µS/cm,3,347.0,,347,0
+AS1,Conductividad eléctrica,µS/cm,4,314.0,,314,0
+AS1,Conductividad eléctrica,µS/cm,5,237.0,,237,0
+AS1,Conductividad eléctrica,µS/cm,6,219.0,,219,0
+AS2,Conductividad eléctrica,µS/cm,1,620.0,,620,1
+AS2,Conductividad eléctrica,µS/cm,2,585.0,,585,0
+AS2,Conductividad eléctrica,µS/cm,3,,,-,0
+AS2,Conductividad eléctrica,µS/cm,4,,,-,0
+AS2,Conductividad eléctrica,µS/cm,5,,,-,0
+AS2,Conductividad eléctrica,µS/cm,6,,,-,0
+AGR1,Conductividad eléctrica,µS/cm,1,271.0,,271,0
+AGR1,Conductividad eléctrica,µS/cm,2,301.0,,301,0
+AGR1,Conductividad eléctrica,µS/cm,3,343.0,,343,0
+AGR1,Conductividad eléctrica,µS/cm,4,336.0,,336,0
+AGR1,Conductividad eléctrica,µS/cm,5,317.0,,317,0
+AGR1,Conductividad eléctrica,µS/cm,6,304.0,,304,0
+AGR2,Conductividad eléctrica,µS/cm,1,626.0,,626,0
+AGR2,Conductividad eléctrica,µS/cm,2,478.0,,478,0
+AGR2,Conductividad eléctrica,µS/cm,3,681.0,,681,0
+AGR2,Conductividad eléctrica,µS/cm,4,674.0,,674,0
+AGR2,Conductividad eléctrica,µS/cm,5,634.0,,634,0
+AGR2,Conductividad eléctrica,µS/cm,6,552.0,,552,0
+EST,Potencial de óxido-reducción,mV,1,227.2,,"227,2",0
+EST,Potencial de óxido-reducción,mV,2,225.0,,"225,0",0
+EST,Potencial de óxido-reducción,mV,3,227.3,,"227,3",0
+EST,Potencial de óxido-reducción,mV,4,230.9,,"230,9",0
+EST,Potencial de óxido-reducción,mV,5,162.7,,"162,7",0
+EST,Potencial de óxido-reducción,mV,6,207.9,,"207,9",0
+AS1,Potencial de óxido-reducción,mV,1,-122.7,,"-122,7",1
+AS1,Potencial de óxido-reducción,mV,2,38.5,,"38,5",0
+AS1,Potencial de óxido-reducción,mV,3,-22.8,,"-22,8",0
+AS1,Potencial de óxido-reducción,mV,4,-179.5,,"-179,5",0
+AS1,Potencial de óxido-reducción,mV,5,53.5,,"53,5",0
+AS1,Potencial de óxido-reducción,mV,6,-25.7,,"-25,7",0
+AS2,Potencial de óxido-reducción,mV,1,170.0,,"170,0",1
+AS2,Potencial de óxido-reducción,mV,2,88.6,,"88,6",0
+AS2,Potencial de óxido-reducción,mV,3,,,-,0
+AS2,Potencial de óxido-reducción,mV,4,,,-,0
+AS2,Potencial de óxido-reducción,mV,5,,,-,0
+AS2,Potencial de óxido-reducción,mV,6,,,-,0
+AGR1,Potencial de óxido-reducción,mV,1,29.8,,"29,8",0
+AGR1,Potencial de óxido-reducción,mV,2,-13.9,,"-13,9",0
+AGR1,Potencial de óxido-reducción,mV,3,114.2,,"114,2",0
+AGR1,Potencial de óxido-reducción,mV,4,-73.8,,"-73,8",0
+AGR1,Potencial de óxido-reducción,mV,5,72.8,,"72,8",0
+AGR1,Potencial de óxido-reducción,mV,6,76.9,,"76,9",0
+AGR2,Potencial de óxido-reducción,mV,1,84.5,,"84,5",0
+AGR2,Potencial de óxido-reducción,mV,2,53.1,,"53,1",0
+AGR2,Potencial de óxido-reducción,mV,3,137.4,,"137,4",0
+AGR2,Potencial de óxido-reducción,mV,4,64.9,,"64,9",0
+AGR2,Potencial de óxido-reducción,mV,5,87.3,,"87,3",0
+AGR2,Potencial de óxido-reducción,mV,6,117.4,,"117,4",0
+EST,Oxígeno disuelto,mg/L,1,4.89,,"4,89",0
+EST,Oxígeno disuelto,mg/L,2,6.69,,"6,69",0
+EST,Oxígeno disuelto,mg/L,3,6.1,,"6,10",0
+EST,Oxígeno disuelto,mg/L,4,7.24,,"7,24",0
+EST,Oxígeno disuelto,mg/L,5,6.77,,"6,77",0
+EST,Oxígeno disuelto,mg/L,6,6.25,,"6,25",0
+AS1,Oxígeno disuelto,mg/L,1,1.86,,"1,86",1
+AS1,Oxígeno disuelto,mg/L,2,2.88,,"2,88",0
+AS1,Oxígeno disuelto,mg/L,3,1.61,,"1,61",0
+AS1,Oxígeno disuelto,mg/L,4,3.22,,"3,22",0
+AS1,Oxígeno disuelto,mg/L,5,3.96,,"3,96",0
+AS1,Oxígeno disuelto,mg/L,6,1.77,,"1,77",0
+AS2,Oxígeno disuelto,mg/L,1,4.43,,"4,43",1
+AS2,Oxígeno disuelto,mg/L,2,5.17,,"5,17",0
+AS2,Oxígeno disuelto,mg/L,3,,,-,0
+AS2,Oxígeno disuelto,mg/L,4,,,-,0
+AS2,Oxígeno disuelto,mg/L,5,,,-,0
+AS2,Oxígeno disuelto,mg/L,6,,,-,0
+AGR1,Oxígeno disuelto,mg/L,1,1.97,,"1,97",0
+AGR1,Oxígeno disuelto,mg/L,2,2.54,,"2,54",0
+AGR1,Oxígeno disuelto,mg/L,3,4.12,,"4,12",0
+AGR1,Oxígeno disuelto,mg/L,4,3.1,,"3,10",0
+AGR1,Oxígeno disuelto,mg/L,5,3.63,,"3,63",0
+AGR1,Oxígeno disuelto,mg/L,6,3.97,,"3,97",0
+AGR2,Oxígeno disuelto,mg/L,1,4.56,,"4,56",0
+AGR2,Oxígeno disuelto,mg/L,2,4.49,,"4,49",0
+AGR2,Oxígeno disuelto,mg/L,3,5.24,,"5,24",0
+AGR2,Oxígeno disuelto,mg/L,4,6.48,,"6,48",0
+AGR2,Oxígeno disuelto,mg/L,5,6.15,,"6,15",0
+AGR2,Oxígeno disuelto,mg/L,6,5.32,,"5,32",0
+EST,Sólidos disueltos totales,mg/L,1,74.0,,74,0
+EST,Sólidos disueltos totales,mg/L,2,68.0,,68,0
+EST,Sólidos disueltos totales,mg/L,3,85.0,,85,0
+EST,Sólidos disueltos totales,mg/L,4,78.0,,78,0
+EST,Sólidos disueltos totales,mg/L,5,78.0,,78,0
+EST,Sólidos disueltos totales,mg/L,6,85.0,,85,0
+AS1,Sólidos disueltos totales,mg/L,1,184.0,,184,1
+AS1,Sólidos disueltos totales,mg/L,2,123.0,,123,0
+AS1,Sólidos disueltos totales,mg/L,3,174.0,,174,0
+AS1,Sólidos disueltos totales,mg/L,4,157.0,,157,0
+AS1,Sólidos disueltos totales,mg/L,5,119.0,,119,0
+AS1,Sólidos disueltos totales,mg/L,6,110.0,,110,0
+AS2,Sólidos disueltos totales,mg/L,1,310.0,,310,1
+AS2,Sólidos disueltos totales,mg/L,2,292.0,,292,0
+AS2,Sólidos disueltos totales,mg/L,3,,,-,0
+AS2,Sólidos disueltos totales,mg/L,4,,,-,0
+AS2,Sólidos disueltos totales,mg/L,5,,,-,0
+AS2,Sólidos disueltos totales,mg/L,6,,,-,0
+AGR1,Sólidos disueltos totales,mg/L,1,135.0,,135,0
+AGR1,Sólidos disueltos totales,mg/L,2,151.0,,151,0
+AGR1,Sólidos disueltos totales,mg/L,3,172.0,,172,0
+AGR1,Sólidos disueltos totales,mg/L,4,168.0,,168,0
+AGR1,Sólidos disueltos totales,mg/L,5,158.0,,158,0
+AGR1,Sólidos disueltos totales,mg/L,6,152.0,,152,0
+AGR2,Sólidos disueltos totales,mg/L,1,313.0,,313,0
+AGR2,Sólidos disueltos totales,mg/L,2,239.0,,239,0
+AGR2,Sólidos disueltos totales,mg/L,3,341.0,,341,0
+AGR2,Sólidos disueltos totales,mg/L,4,337.0,,337,0
+AGR2,Sólidos disueltos totales,mg/L,5,317.0,,317,0
+AGR2,Sólidos disueltos totales,mg/L,6,276.0,,276,0
+EST,Turbiedad,NTU,1,24.5,,"24,5",0
+EST,Turbiedad,NTU,2,22.6,,"22,6",0
+EST,Turbiedad,NTU,3,19.2,,"19,2",0
+EST,Turbiedad,NTU,4,21.6,,"21,6",0
+EST,Turbiedad,NTU,5,23.5,,"23,5",0
+EST,Turbiedad,NTU,6,12.2,,"12,2",0
+AS1,Turbiedad,NTU,1,1330.0,,1330,1
+AS1,Turbiedad,NTU,2,128.0,,128,0
+AS1,Turbiedad,NTU,3,135.0,,135,0
+AS1,Turbiedad,NTU,4,110.0,,110,0
+AS1,Turbiedad,NTU,5,73.9,,"73,9",0
+AS1,Turbiedad,NTU,6,48.1,,"48,1",0
+AS2,Turbiedad,NTU,1,1855.0,,1855,1
+AS2,Turbiedad,NTU,2,190.0,,190,0
+AS2,Turbiedad,NTU,3,,,-,0
+AS2,Turbiedad,NTU,4,,,-,0
+AS2,Turbiedad,NTU,5,,,-,0
+AS2,Turbiedad,NTU,6,,,-,0
+AGR1,Turbiedad,NTU,1,702.0,,702,0
+AGR1,Turbiedad,NTU,2,68.1,,"68,1",0
+AGR1,Turbiedad,NTU,3,41.2,,"41,2",0
+AGR1,Turbiedad,NTU,4,35.1,,"35,1",0
+AGR1,Turbiedad,NTU,5,27.0,,"27,0",0
+AGR1,Turbiedad,NTU,6,63.8,,"63,8",0
+AGR2,Turbiedad,NTU,1,101.0,,101,0
+AGR2,Turbiedad,NTU,2,18.1,,"18,1",0
+AGR2,Turbiedad,NTU,3,23.8,,"23,8",0
+AGR2,Turbiedad,NTU,4,9.5,,"9,5",0
+AGR2,Turbiedad,NTU,5,13.7,,"13,7",0
+AGR2,Turbiedad,NTU,6,18.6,,"18,6",0
+EST,DQO total,mg/L,1,14.0,,14,0
+EST,DQO total,mg/L,2,4.0,,4,0
+EST,DQO total,mg/L,3,6.0,,6,0
+EST,DQO total,mg/L,4,4.0,,4,0
+EST,DQO total,mg/L,5,4.0,,4,0
+EST,DQO total,mg/L,6,6.0,,6,0
+AS1,DQO total,mg/L,1,2478.0,,2478,1
+AS1,DQO total,mg/L,2,266.0,,266,0
+AS1,DQO total,mg/L,3,496.0,,496,0
+AS1,DQO total,mg/L,4,560.0,,560,0
+AS1,DQO total,mg/L,5,375.0,,375,0
+AS1,DQO total,mg/L,6,360.0,,360,0
+AS2,DQO total,mg/L,1,546.0,,546,1
+AS2,DQO total,mg/L,2,129.0,,129,0
+AS2,DQO total,mg/L,3,,,-,0
+AS2,DQO total,mg/L,4,,,-,0
+AS2,DQO total,mg/L,5,,,-,0
+AS2,DQO total,mg/L,6,,,-,0
+AGR1,DQO total,mg/L,1,529.0,,529,0
+AGR1,DQO total,mg/L,2,460.0,,460,0
+AGR1,DQO total,mg/L,3,466.0,,466,0
+AGR1,DQO total,mg/L,4,351.0,,351,0
+AGR1,DQO total,mg/L,5,224.0,,224,0
+AGR1,DQO total,mg/L,6,326.0,,326,0
+AGR2,DQO total,mg/L,1,112.0,,112,0
+AGR2,DQO total,mg/L,2,47.0,,47,0
+AGR2,DQO total,mg/L,3,95.0,,95,0
+AGR2,DQO total,mg/L,4,80.0,,80,0
+AGR2,DQO total,mg/L,5,51.0,,51,0
+AGR2,DQO total,mg/L,6,69.0,,69,0
+EST,DQO disuelta,mg/L,1,10.0,,10,0
+EST,DQO disuelta,mg/L,2,2.0,,2,0
+EST,DQO disuelta,mg/L,3,3.0,,3,0
+EST,DQO disuelta,mg/L,4,1.0,,1,0
+EST,DQO disuelta,mg/L,5,1.0,,1,0
+EST,DQO disuelta,mg/L,6,3.0,,3,0
+AS1,DQO disuelta,mg/L,1,697.0,,697,1
+AS1,DQO disuelta,mg/L,2,195.0,,195,0
+AS1,DQO disuelta,mg/L,3,452.0,,452,0
+AS1,DQO disuelta,mg/L,4,443.0,,443,0
+AS1,DQO disuelta,mg/L,5,304.0,,304,0
+AS1,DQO disuelta,mg/L,6,347.0,,347,0
+AS2,DQO disuelta,mg/L,1,87.0,,87,1
+AS2,DQO disuelta,mg/L,2,54.0,,54,0
+AS2,DQO disuelta,mg/L,3,,,-,0
+AS2,DQO disuelta,mg/L,4,,,-,0
+AS2,DQO disuelta,mg/L,5,,,-,0
+AS2,DQO disuelta,mg/L,6,,,-,0
+AGR1,DQO disuelta,mg/L,1,245.0,,245,0
+AGR1,DQO disuelta,mg/L,2,390.0,,390,0
+AGR1,DQO disuelta,mg/L,3,445.0,,445,0
+AGR1,DQO disuelta,mg/L,4,289.0,,289,0
+AGR1,DQO disuelta,mg/L,5,182.0,,182,0
+AGR1,DQO disuelta,mg/L,6,301.0,,301,0
+AGR2,DQO disuelta,mg/L,1,81.0,,81,0
+AGR2,DQO disuelta,mg/L,2,44.0,,44,0
+AGR2,DQO disuelta,mg/L,3,77.0,,77,0
+AGR2,DQO disuelta,mg/L,4,65.0,,65,0
+AGR2,DQO disuelta,mg/L,5,45.0,,45,0
+AGR2,DQO disuelta,mg/L,6,62.0,,62,0
+EST,DBO5,mg/L,1,5.6,,"5,6",0
+EST,DBO5,mg/L,2,2.1,,"2,1",0
+EST,DBO5,mg/L,3,1.0,,"1,0",0
+EST,DBO5,mg/L,4,1.6,,"1,6",0
+EST,DBO5,mg/L,5,2.1,,"2,1",0
+EST,DBO5,mg/L,6,1.0,,"1,0",0
+AS1,DBO5,mg/L,1,524.5,,"524,5",1
+AS1,DBO5,mg/L,2,100.4,,"100,4",0
+AS1,DBO5,mg/L,3,309.0,,"309,0",0
+AS1,DBO5,mg/L,4,356.8,,"356,8",0
+AS1,DBO5,mg/L,5,185.3,,"185,3",0
+AS1,DBO5,mg/L,6,145.1,,"145,1",0
+AS2,DBO5,mg/L,1,15.0,,"15,0",1
+AS2,DBO5,mg/L,2,10.8,,"10,8",0
+AS2,DBO5,mg/L,3,,,-,0
+AS2,DBO5,mg/L,4,,,-,0
+AS2,DBO5,mg/L,5,,,-,0
+AS2,DBO5,mg/L,6,,,-,0
+AGR1,DBO5,mg/L,1,82.7,,"82,7",0
+AGR1,DBO5,mg/L,2,186.4,,"186,4",0
+AGR1,DBO5,mg/L,3,127.1,,"127,1",0
+AGR1,DBO5,mg/L,4,81.2,,"81,2",0
+AGR1,DBO5,mg/L,5,62.5,,"62,5",0
+AGR1,DBO5,mg/L,6,86.8,,"86,8",0
+AGR2,DBO5,mg/L,1,7.1,,"7,1",0
+AGR2,DBO5,mg/L,2,8.6,,"8,6",0
+AGR2,DBO5,mg/L,3,11.4,,"11,4",0
+AGR2,DBO5,mg/L,4,9.7,,"9,7",0
+AGR2,DBO5,mg/L,5,4.4,,"4,4",0
+AGR2,DBO5,mg/L,6,10.4,,"10,4",0
+EST,SST,mg/L,1,38.0,,"38,0",0
+EST,SST,mg/L,2,35.25,,"35,25",0
+EST,SST,mg/L,3,18.0,,"18,0",0
+EST,SST,mg/L,4,34.4,,"34,4",0
+EST,SST,mg/L,5,34.5,,"34,50",0
+EST,SST,mg/L,6,27.1,,"27,1",0
+AS1,SST,mg/L,1,2369.67,,"2369,67",1
+AS1,SST,mg/L,2,72.13,,"72,13",0
+AS1,SST,mg/L,3,108.2,,"108,2",0
+AS1,SST,mg/L,4,113.9,,"113,9",0
+AS1,SST,mg/L,5,62.84,,"62,84",0
+AS1,SST,mg/L,6,52.9,,"52,9",0
+AS2,SST,mg/L,1,3302.79,,"3302,79",1
+AS2,SST,mg/L,2,405.62,,"405,62",0
+AS2,SST,mg/L,3,,,-,0
+AS2,SST,mg/L,4,,,-,0
+AS2,SST,mg/L,5,,,-,0
+AS2,SST,mg/L,6,,,-,0
+AGR1,SST,mg/L,1,549.24,,"549,24",0
+AGR1,SST,mg/L,2,85.38,,"85,38",0
+AGR1,SST,mg/L,3,35.43,,"35,43",0
+AGR1,SST,mg/L,4,46.5,,"46,5",0
+AGR1,SST,mg/L,5,51.5,,"51,5",0
+AGR1,SST,mg/L,6,51.5,,"51,5",0
+AGR2,SST,mg/L,1,3465.26,,"3465,26",0
+AGR2,SST,mg/L,2,25.72,,"25,72",0
+AGR2,SST,mg/L,3,35.1,,"35,1",0
+AGR2,SST,mg/L,4,17.0,,"17,0",0
+AGR2,SST,mg/L,5,14.58,,"14,58",0
+AGR2,SST,mg/L,6,13.2,,"13,2",0
+EST,Amonio,mg/L,1,0.12,,"0,12",0
+EST,Amonio,mg/L,2,0.14,,"0,14",0
+EST,Amonio,mg/L,3,0.23,,"0,23",0
+EST,Amonio,mg/L,4,0.02,,"0,02",0
+EST,Amonio,mg/L,5,0.21,,"0,21",0
+EST,Amonio,mg/L,6,0.17,,"0,17",0
+AS1,Amonio,mg/L,1,2.51,,"2,51",1
+AS1,Amonio,mg/L,2,2.25,,"2,25",0
+AS1,Amonio,mg/L,3,0.93,,"0,93",0
+AS1,Amonio,mg/L,4,1.01,,"1,01",0
+AS1,Amonio,mg/L,5,0.63,,"0,63",0
+AS1,Amonio,mg/L,6,0.36,,"0,36",0
+AS2,Amonio,mg/L,1,2.13,,"2,13",1
+AS2,Amonio,mg/L,2,1.82,,"1,82",0
+AS2,Amonio,mg/L,3,,,-,0
+AS2,Amonio,mg/L,4,,,-,0
+AS2,Amonio,mg/L,5,,,-,0
+AS2,Amonio,mg/L,6,,,-,0
+AGR1,Amonio,mg/L,1,9.68,,"9,68",0
+AGR1,Amonio,mg/L,2,13.9,,"13,9",0
+AGR1,Amonio,mg/L,3,13.5,,"13,5",0
+AGR1,Amonio,mg/L,4,12.53,,"12,53",0
+AGR1,Amonio,mg/L,5,7.32,,"7,32",0
+AGR1,Amonio,mg/L,6,19.86,,"19,86",0
+AGR2,Amonio,mg/L,1,2.1,,"2,10",0
+AGR2,Amonio,mg/L,2,3.46,,"3,46",0
+AGR2,Amonio,mg/L,3,2.19,,"2,19",0
+AGR2,Amonio,mg/L,4,1.86,,"1,86",0
+AGR2,Amonio,mg/L,5,2.43,,"2,43",0
+AGR2,Amonio,mg/L,6,2.42,,"2,42",0
+EST,Nitrato,mg/L,1,4.5,,"4,5",0
+EST,Nitrato,mg/L,2,2.2,,"2,2",0
+EST,Nitrato,mg/L,3,3.0,,"3,0",0
+EST,Nitrato,mg/L,4,7.3,,"7,3",0
+EST,Nitrato,mg/L,5,5.6,,"5,6",0
+EST,Nitrato,mg/L,6,6.4,,"6,4",0
+AS1,Nitrato,mg/L,1,0.7,,"0,7",1
+AS1,Nitrato,mg/L,2,6.7,,"6,7",0
+AS1,Nitrato,mg/L,3,17.8,,"17,8",0
+AS1,Nitrato,mg/L,4,23.0,,"23,0",0
+AS1,Nitrato,mg/L,5,3.2,,"3,2",0
+AS1,Nitrato,mg/L,6,4.3,,"4,3",0
+AS2,Nitrato,mg/L,1,7.7,,"7,7",1
+AS2,Nitrato,mg/L,2,4.0,,"4,0",0
+AS2,Nitrato,mg/L,3,,,-,0
+AS2,Nitrato,mg/L,4,,,-,0
+AS2,Nitrato,mg/L,5,,,-,0
+AS2,Nitrato,mg/L,6,,,-,0
+AGR1,Nitrato,mg/L,1,5.7,,"5,7",0
+AGR1,Nitrato,mg/L,2,4.1,,"4,1",0
+AGR1,Nitrato,mg/L,3,7.2,,"7,2",0
+AGR1,Nitrato,mg/L,4,3.6,,"3,6",0
+AGR1,Nitrato,mg/L,5,2.9,,"2,9",0
+AGR1,Nitrato,mg/L,6,3.8,,"3,8",0
+AGR2,Nitrato,mg/L,1,47.6,,"47,6",0
+AGR2,Nitrato,mg/L,2,34.7,,"34,7",0
+AGR2,Nitrato,mg/L,3,28.5,,"28,5",0
+AGR2,Nitrato,mg/L,4,32.6,,"32,6",0
+AGR2,Nitrato,mg/L,5,6.0,,"6,0",0
+AGR2,Nitrato,mg/L,6,7.5,,"7,5",0
+EST,Nitrógeno total,mg/L,1,,,-,0
+EST,Nitrógeno total,mg/L,2,0.8,,"0,8",0
+EST,Nitrógeno total,mg/L,3,0.6,,"0,6",0
+EST,Nitrógeno total,mg/L,4,1.0,,"1,0",0
+EST,Nitrógeno total,mg/L,5,1.1,,"1,1",0
+EST,Nitrógeno total,mg/L,6,1.0,,"1,0",0
+AS1,Nitrógeno total,mg/L,1,,,-,1
+AS1,Nitrógeno total,mg/L,2,2.2,,"2,2",0
+AS1,Nitrógeno total,mg/L,3,3.2,,"3,2",0
+AS1,Nitrógeno total,mg/L,4,6.0,,"6,0",0
+AS1,Nitrógeno total,mg/L,5,1.0,,"1,0",0
+AS1,Nitrógeno total,mg/L,6,1.2,,"1,2",0
+AS2,Nitrógeno total,mg/L,1,,,-,1
+AS2,Nitrógeno total,mg/L,2,2.0,,"2,0",0
+AS2,Nitrógeno total,mg/L,3,,,-,0
+AS2,Nitrógeno total,mg/L,4,,,-,0
+AS2,Nitrógeno total,mg/L,5,,,-,0
+AS2,Nitrógeno total,mg/L,6,,,-,0
+AGR1,Nitrógeno total,mg/L,1,,,-,0
+AGR1,Nitrógeno total,mg/L,2,12.0,,"12,0",0
+AGR1,Nitrógeno total,mg/L,3,12.0,,"12,0",0
+AGR1,Nitrógeno total,mg/L,4,10.2,,"10,2",0
+AGR1,Nitrógeno total,mg/L,5,7.7,,"7,7",0
+AGR1,Nitrógeno total,mg/L,6,16.3,,"16,3",0
+AGR2,Nitrógeno total,mg/L,1,,,-,0
+AGR2,Nitrógeno total,mg/L,2,10.0,,"10,0",0
+AGR2,Nitrógeno total,mg/L,3,2.7,,"2,7",0
+AGR2,Nitrógeno total,mg/L,4,3.3,,"3,3",0
+AGR2,Nitrógeno total,mg/L,5,3.1,,"3,1",0
+AGR2,Nitrógeno total,mg/L,6,3.2,,"3,2",0
+EST,Fósforo total,mg/L,1,0.0,,"0,0",0
+EST,Fósforo total,mg/L,2,0.07,,"0,07",0
+EST,Fósforo total,mg/L,3,0.15,,"0,15",0
+EST,Fósforo total,mg/L,4,0.11,,"0,11",0
+EST,Fósforo total,mg/L,5,0.11,,"0,11",0
+EST,Fósforo total,mg/L,6,0.17,,"0,17",0
+AS1,Fósforo total,mg/L,1,0.1,,"0,1",1
+AS1,Fósforo total,mg/L,2,0.17,,"0,17",0
+AS1,Fósforo total,mg/L,3,0.55,,"0,55",0
+AS1,Fósforo total,mg/L,4,0.81,,"0,81",0
+AS1,Fósforo total,mg/L,5,0.14,,"0,14",0
+AS1,Fósforo total,mg/L,6,0.13,,"0,13",0
+AS2,Fósforo total,mg/L,1,7.9,,"7,9",1
+AS2,Fósforo total,mg/L,2,5.3,,"5,3",0
+AS2,Fósforo total,mg/L,3,,,-,0
+AS2,Fósforo total,mg/L,4,,,-,0
+AS2,Fósforo total,mg/L,5,,,-,0
+AS2,Fósforo total,mg/L,6,,,-,0
+AGR1,Fósforo total,mg/L,1,10.1,,"10,1",0
+AGR1,Fósforo total,mg/L,2,17.9,,"17,9",0
+AGR1,Fósforo total,mg/L,3,2.6,,"2,6",0
+AGR1,Fósforo total,mg/L,4,2.8,,"2,80",0
+AGR1,Fósforo total,mg/L,5,2.3,,"2,3",0
+AGR1,Fósforo total,mg/L,6,2.3,,"2,3",0
+AGR2,Fósforo total,mg/L,1,7.6,,"7,6",0
+AGR2,Fósforo total,mg/L,2,3.8,,"3,8",0
+AGR2,Fósforo total,mg/L,3,3.4,,"3,4",0
+AGR2,Fósforo total,mg/L,4,3.3,,"3,30",0
+AGR2,Fósforo total,mg/L,5,3.3,,"3,3",0
+AGR2,Fósforo total,mg/L,6,2.1,,"2,1",0
+EST,Fosfato,mg/L,1,0.0,,"0,0",0
+EST,Fosfato,mg/L,2,0.2,,"0,2",0
+EST,Fosfato,mg/L,3,1.5,,"1,5",0
+EST,Fosfato,mg/L,4,1.0,,"1,0",0
+EST,Fosfato,mg/L,5,1.9,,"1,9",0
+EST,Fosfato,mg/L,6,2.7,,"2,7",0
+AS1,Fosfato,mg/L,1,2.3,,"2,3",1
+AS1,Fosfato,mg/L,2,1.7,,"1,7",0
+AS1,Fosfato,mg/L,3,3.2,,"3,2",0
+AS1,Fosfato,mg/L,4,4.4,,"4,4",0
+AS1,Fosfato,mg/L,5,2.0,,"2,0",0
+AS1,Fosfato,mg/L,6,3.0,,"3,0",0
+AS2,Fosfato,mg/L,1,0.4,,"0,4",1
+AS2,Fosfato,mg/L,2,2.8,,"2,8",0
+AS2,Fosfato,mg/L,3,,,-,0
+AS2,Fosfato,mg/L,4,,,-,0
+AS2,Fosfato,mg/L,5,,,-,0
+AS2,Fosfato,mg/L,6,,,-,0
+AGR1,Fosfato,mg/L,1,10.3,,"10,3",0
+AGR1,Fosfato,mg/L,2,23.3,,"23,3",0
+AGR1,Fosfato,mg/L,3,7.5,,"7,5",0
+AGR1,Fosfato,mg/L,4,6.7,,"6,7",0
+AGR1,Fosfato,mg/L,5,6.5,,"6,5",0
+AGR1,Fosfato,mg/L,6,8.2,,"8,2",0
+AGR2,Fosfato,mg/L,1,0.8,,"0,8",0
+AGR2,Fosfato,mg/L,2,1.9,,"1,9",0
+AGR2,Fosfato,mg/L,3,1.2,,"1,2",0
+AGR2,Fosfato,mg/L,4,0.5,,"0,5",0
+AGR2,Fosfato,mg/L,5,1.9,,"1,9",0
+AGR2,Fosfato,mg/L,6,2.4,,"2,4",0
+EST,Coliformes totales,NMP/100 mL,1,19000.0,,"1,9x104",0
+EST,Coliformes totales,NMP/100 mL,2,16000.0,,"1,6x104",0
+EST,Coliformes totales,NMP/100 mL,3,13000.0,,"1,3x104",0
+EST,Coliformes totales,NMP/100 mL,4,9700.0,,"9,7x103",0
+EST,Coliformes totales,NMP/100 mL,5,32000.0,,"3,2x104",0
+EST,Coliformes totales,NMP/100 mL,6,8600.0,,"8,6x103",0
+AS1,Coliformes totales,NMP/100 mL,1,240000000.0,>,">2,4x108",1
+AS1,Coliformes totales,NMP/100 mL,2,240000000.0,,"2,4x108",0
+AS1,Coliformes totales,NMP/100 mL,3,200000000.0,,"2,0x108",0
+AS1,Coliformes totales,NMP/100 mL,4,130000000.0,,"1,3x108",0
+AS1,Coliformes totales,NMP/100 mL,5,240000000.0,,"2,4x108",0
+AS1,Coliformes totales,NMP/100 mL,6,33000000.0,,"3,3x107",0
+AS2,Coliformes totales,NMP/100 mL,1,100000.0,,"1,0x105",1
+AS2,Coliformes totales,NMP/100 mL,2,8600000.0,,"8,6x106",0
+AS2,Coliformes totales,NMP/100 mL,3,,,-,0
+AS2,Coliformes totales,NMP/100 mL,4,,,-,0
+AS2,Coliformes totales,NMP/100 mL,5,,,-,0
+AS2,Coliformes totales,NMP/100 mL,6,,,-,0
+AGR1,Coliformes totales,NMP/100 mL,1,2700000.0,,"2,7x106",0
+AGR1,Coliformes totales,NMP/100 mL,2,5700000.0,,"5,7x106",0
+AGR1,Coliformes totales,NMP/100 mL,3,869999.9999999999,,"8,7x105",0
+AGR1,Coliformes totales,NMP/100 mL,4,190000.0,,"1,9x105",0
+AGR1,Coliformes totales,NMP/100 mL,5,340000.0,,"3,4x105",0
+AGR1,Coliformes totales,NMP/100 mL,6,280000.0,,"2,8x105",0
+AGR2,Coliformes totales,NMP/100 mL,1,71000.0,,"7,1x104",0
+AGR2,Coliformes totales,NMP/100 mL,2,200000.0,,"2,0x105",0
+AGR2,Coliformes totales,NMP/100 mL,3,50000.0,,"5,0x104",0
+AGR2,Coliformes totales,NMP/100 mL,4,7400.0,,"7,4x103",0
+AGR2,Coliformes totales,NMP/100 mL,5,23000.0,,"2,3x104",0
+AGR2,Coliformes totales,NMP/100 mL,6,56000.0,,"5,6x104",0
+EST,E. coli,NMP/100 mL,1,2300.0,,"2,3x103",0
+EST,E. coli,NMP/100 mL,2,1000.0,,"1,0x103",0
+EST,E. coli,NMP/100 mL,3,1000.0,<,"<1,0x103",0
+EST,E. coli,NMP/100 mL,4,1000.0,,"1,0x103",0
+EST,E. coli,NMP/100 mL,5,1000.0,<,"<1,0x103",0
+EST,E. coli,NMP/100 mL,6,1000.0,<,"<1,0x103",0
+AS1,E. coli,NMP/100 mL,1,,,-,1
+AS1,E. coli,NMP/100 mL,2,100000.0,<,"<1,0x105",0
+AS1,E. coli,NMP/100 mL,3,2300000.0,,"2,3x106",0
+AS1,E. coli,NMP/100 mL,4,1300000.0,,"1,3x106",0
+AS1,E. coli,NMP/100 mL,5,960000.0,,"9,6x105",0
+AS1,E. coli,NMP/100 mL,6,860000.0,,"8,6x105",0
+AS2,E. coli,NMP/100 mL,1,100000.0,<,"< 1,0x105",1
+AS2,E. coli,NMP/100 mL,2,100000.0,<,"<1,0x105",0
+AS2,E. coli,NMP/100 mL,3,,,-,0
+AS2,E. coli,NMP/100 mL,4,,,-,0
+AS2,E. coli,NMP/100 mL,5,,,-,0
+AS2,E. coli,NMP/100 mL,6,,,-,0
+AGR1,E. coli,NMP/100 mL,1,100000.0,,"1,0x105",0
+AGR1,E. coli,NMP/100 mL,2,100000.0,,"1,0x105",0
+AGR1,E. coli,NMP/100 mL,3,34000.0,,"3,4x104",0
+AGR1,E. coli,NMP/100 mL,4,11000.0,,"1,1x104",0
+AGR1,E. coli,NMP/100 mL,5,2000.0,,"2,0x103",0
+AGR1,E. coli,NMP/100 mL,6,1000.0,,"1,0x103",0
+AGR2,E. coli,NMP/100 mL,1,1000.0,<,"<1,0x103",0
+AGR2,E. coli,NMP/100 mL,2,100000.0,<,"<1,0x105",0
+AGR2,E. coli,NMP/100 mL,3,1000.0,,"1,0x103",0
+AGR2,E. coli,NMP/100 mL,4,1000.0,,"1,0x103",0
+AGR2,E. coli,NMP/100 mL,5,1000.0,<,"<1,0x103",0
+AGR2,E. coli,NMP/100 mL,6,1000.0,<,"<1,0x103",0

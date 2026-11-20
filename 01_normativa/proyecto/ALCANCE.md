@@ -43,7 +43,7 @@ Región del Maule, integrando el sistema hidráulico y las necesidades estructur
 | Procesamiento e interpretación de los **datos del agua** recopilados en la fase previa → **caudales y cargas de diseño consolidados** de las tres fuentes | OE1 | 🟧 Datos procesados (tabla 4.1, fig. 4.1); falta definir caudales de estero y agroquímicos e interpretar |
 | **Memoria de cálculo hidráulico**: volúmenes de los humedales, **pérdidas de carga**, **tiempos de retención**, **selección de bombas** | OE2 | 🟧 Faltan pérdidas, ADT, tiempos de retención y selección de bombas |
 | Redes de tuberías de **distribución y drenaje**; especificaciones de tuberías | OE2 | 🟧 Diámetros y largos; faltan especificaciones |
-| Diseño de **zanjas** (movimiento de tierras y geometría) | OE2 | 🟧 Descrito en metodología; faltan resultados |
+| Diseño de **zanjas** (movimiento de tierras y geometría) | OE2 | ✅ Solo criterios: trayectos modificados en terreno; sin cubicación (decisión del autor 20-11, pregunta 11; datos de terreno disponibles si el profesor los pide) |
 | **Memoria de cálculo estructural** de la plataforma de acero (dimensionamiento y verificación ante cargas), fundaciones y estructura de dosificadores | OE3 | 🟧 Faltan tablas de verificación |
 | **Planimetría completa**: plantas, cortes, perfiles hidráulicos, detalles constructivos de lechos filtrantes y conexiones | OE2/OE3 | ✅ Láminas 1, 2.1–2.4, 3.1–3.2 |
 | Criterios constructivos y especificaciones de detalle | OE2/OE3 | ✅ EETT (anexo VI) e itemizado (anexo II); con observaciones por corregir |

@@ -5,6 +5,12 @@
 
 **Última actualización:** 2026-11-20
 
+## 🟢 Respuestas del autor integradas (2026-11-20, noche)
+
+- Preguntas 1–7, 9–11, 15, 16 y 18 resueltas como propuestas del autor (ver `DECISIONES.md` y `PREGUNTAS_REUNION.md`); 8 y 12 esperan su visto bueno;
+  13, 14 y 17 dependen del profesor. Caracterización reconstruida desde los informes del laboratorio.
+- **Siguiente:** reunión con el profesor para confirmar; aprobar 8 y 12; recalcular pilares/placa base con NCh2369:2025; resumen (párrafos 3–4) y abstract.
+
 ## 🟢 Bibliografía cerrada (2026-11-20, noche)
 
 - El autor terminó de reunir la bibliografía disponible. Últimas incorporaciones: megasequía (CR2, 2015; Yaksic et al., 2024),

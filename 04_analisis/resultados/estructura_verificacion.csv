@@ -1,5 +1,5 @@
 elemento,perfil,verificacion,demanda,capacidad,unidad,razon
-Tablero,15 mm,Deflexión largo plazo,2.907,1.333,mm,2.18
+Tablero,15 mm,"Deflexión largo plazo (continuo, $L/300$)",1.206,1.333,mm,0.904
 Viga secundaria,150×100×3,Flexión,3.604,16.921,kN·m,0.213
 Viga secundaria,150×100×3,Corte,4.4,114.21,kN,0.039
 Viga secundaria,150×100×3,Deflexión (L/300),0.559,5.667,mm,0.099
@@ -8,11 +8,6 @@ Viga principal,150×150×6,Corte,8.715,213.84,kN,0.041
 Viga principal,150×150×6,Deflexión (L/300),0.237,7.6,mm,0.031
 Pilar central,150×150×6,"Compresión (1,2D+1,6L)",17.429,561.517,kN,0.031
 Pilar central,150×150×6,Flexocompresión sísmica (zona 2),0.442,1.0,—,0.442
-Pilar central,150×150×6,Flexocompresión sísmica (zona 3),0.585,1.0,—,0.585
 Zapata,"1,0×1,0×0,5 m",Presión estática,24.215,150.0,kPa,0.161
-Zapata,"1,0×1,0×0,5 m",Excentricidad sísmica $e \le B/6$ (zona 2),0.652,0.167,m,3.915
-Zapata,"1,0×1,0×0,5 m",Volcamiento $e < B/2$ (zona 2),0.652,0.5,m,1.305
-Zapata,"1,0×1,0×0,5 m",Excentricidad sísmica $e \le B/6$ (zona 3),0.87,0.167,m,5.219
-Zapata,"1,0×1,0×0,5 m",Volcamiento $e < B/2$ (zona 3),0.87,0.5,m,1.74
-Placa base,300×300×16 mm,Espesor requerido,16.579,16.0,mm,1.036
-Pernos de anclaje,"4 × Ø 3/4""",Tracción por perno,51.79,88.172,kN,0.587
+Placa base,300×300×16 mm,Espesor requerido,14.417,16.0,mm,0.901
+Pernos de anclaje,"4 × Ø 3/4""",Tracción por perno,38.08,88.172,kN,0.432

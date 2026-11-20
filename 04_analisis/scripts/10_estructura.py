@@ -46,7 +46,7 @@ P = dict(
     E=2.1e8, Fy=250e3,                 # kN/m2 [cálculo original; A270ES — verificar Fy en NCh203]
     gamma_acero=77.0,                  # kN/m3
     K_pilar=2.1,                       # [cálculo original: pilar en voladizo, sin arriostrar]
-    A0_zona={2: 0.30, 3: 0.40},        # g   [NCh433/NCh2369 — zona de Linares por confirmar]
+    A0_zona={2: 0.30},                 # g   [NCh2369:2025, Tabla 2: Linares en zona 2]
     R1=3.0,                            # [SUPUESTO del cálculo original]
     n_pilares_sismo=2,                 # [SUPUESTO conservador del cálculo original: un marco toma el corte]
     zapata=(1.00, 1.00, 0.50),         # m   [lámina 3.2 / EETT]
@@ -109,12 +109,44 @@ A_apoyo = math.pi * P["D_estanque"] ** 2 / 4                               # m2 
 viga_p, viga_s = tubo(0.150, 0.150, 0.006), tubo(0.100, 0.150, 0.003)
 
 # =============================================================================
-# 3. TABLERO DE MADERA (método del autor; base circular del estanque)
+# 3. TABLERO DE MADERA: lámina continua sobre las vigas secundarias (pregunta 2, decisión del autor 20-11-2026)
+#    Franja de 1 m; carga = presión bajo la base del estanque lleno + tablero. Viga continua de Euler-Bernoulli
+#    por elementos finitos (20 elementos por vano). Diseño: 3 apoyos (2 vanos cargados, el caso más desfavorable).
+#    k_def = 2,0: clase de servicio 3 (intemperie), EN 1995-1-1 para madera aserrada [fuente por citar].
 # =============================================================================
 w_tab = P_est / A_apoyo + P["q_tablero"]                                   # kN/m2
 I_tab = 1.0 * P["t_tablero"] ** 3 / 12
-d_tab = 5 * w_tab * P["sep_sec"] ** 4 / (384 * P["E_madera"] * I_tab) * P["K_def_madera"]
-registrar("Tablero", "15 mm", "Deflexión largo plazo", d_tab * 1000, P["sep_sec"] / 300 * 1000, "mm")
+
+
+def flecha_continua(n_vanos, L, w, EI, x_carga=None, ne=20):
+    """Deflexión máxima (m) de una viga continua de n_vanos iguales; carga w en [x0, x1] (todo si None)."""
+    import numpy as np
+    n = n_vanos * ne
+    le = L / ne
+    K = np.zeros((2 * n + 2, 2 * n + 2)); F = np.zeros(2 * n + 2)
+    k = EI / le**3 * np.array([[12, 6*le, -12, 6*le], [6*le, 4*le**2, -6*le, 2*le**2],
+                               [-12, -6*le, 12, -6*le], [6*le, 2*le**2, -6*le, 4*le**2]])
+    x0, x1 = x_carga if x_carga else (0.0, n_vanos * L)
+    for e in range(n):
+        idx = [2*e, 2*e+1, 2*e+2, 2*e+3]
+        K[np.ix_(idx, idx)] += k
+        xc = (e + 0.5) * le
+        if x0 <= xc <= x1:
+            F[idx] += w * np.array([le/2, le**2/12, le/2, -le**2/12])
+    fijos = [2 * (i * ne) for i in range(n_vanos + 1)]
+    libres = [i for i in range(2 * n + 2) if i not in fijos]
+    u = np.zeros(2 * n + 2)
+    u[libres] = np.linalg.solve(K[np.ix_(libres, libres)], F[libres])
+    return max(abs(u[0::2]))
+
+
+EI_tab = P["E_madera"] * I_tab
+sep_tab = P["sep_sec"]
+d_tab_1v = 5 * w_tab * sep_tab**4 / (384 * EI_tab) * P["K_def_madera"]           # modelo original (un vano)
+d_tab = flecha_continua(2, sep_tab, w_tab, EI_tab) * P["K_def_madera"]            # diseño: 3 apoyos
+sens_tablero = {f"{nv} vanos": flecha_continua(nv, sep_tab, w_tab, EI_tab,
+                (nv * sep_tab / 2 - 0.5, nv * sep_tab / 2 + 0.5)) * P["K_def_madera"] for nv in (3, 5, 8)}
+registrar("Tablero", "15 mm", "Deflexión largo plazo (continuo, $L/300$)", d_tab * 1000, sep_tab / 300 * 1000, "mm")
 
 # =============================================================================
 # 4. VIGA SECUNDARIA 150×100×3 (luz 1,70 m, carga puntual = 50 % de un estanque)
@@ -181,11 +213,8 @@ for zona, s in sismo.items():
     M_serv = s["M_E"] * (P["H_pilar"] + hz) / P["H_pilar"]                 # momento llevado al sello
     e = M_serv / P_serv
     s.update(e=e)
-    registrar("Zapata", "1,0×1,0×0,5 m", f"Excentricidad sísmica $e \\le B/6$ (zona {zona})", e, Lz / 6, "m")
-    registrar("Zapata", "1,0×1,0×0,5 m", f"Volcamiento $e < B/2$ (zona {zona})", e, Lz / 2, "m")
-    if e < Lz / 2:
-        q_max = P_serv / (Bz * Lz) + M_serv / (Bz * Lz**2 / 6) if e <= Lz / 6 else 2 * P_serv / (3 * Bz * (Lz / 2 - e))
-        registrar("Zapata", "1,0×1,0×0,5 m", f"Presión con sismo (zona {zona})", q_max, P["q_adm"], "kPa")
+    # La estabilidad sísmica de la zapata se verifica con la NCh2369:2025 en 14_sismo_2003_vs_2025.py
+    # (pregunta 1: 6 pilares con diafragma, categoría I, suelo C -> 91 % de área apoyada).
 
 # =============================================================================
 # 8. PLACA BASE Y PERNOS (método del autor, sismo de la zona más exigente)
@@ -236,8 +265,8 @@ for zona, s_ in sismo.items():
     e6 = M6 * (P["H_pilar"] + hz) / P["H_pilar"] / P_serv
     r6 = s_["Pu"] / fPn / 2 + 1.4 * M6 / fMn_c
     print(f"  zona {zona}: M_E = {M6:.2f} kN·m, interacción = {r6:.2f}, e zapata = {e6:.3f} m (B/6 = {Lz/6:.3f}, B/2 = {Lz/2:.2f})")
-for t_ in (0.018, 0.021, 0.025):
-    print(f"  tablero {t_*1000:.0f} mm: deflexión = {d_tab*(P['t_tablero']/t_)**3*1000:.2f} mm (límite {P['sep_sec']/300*1000:.2f} mm)")
+print(f"Tablero: un vano (original) = {d_tab_1v*1000:.2f} mm; continuo 3 apoyos = {d_tab*1000:.2f} mm; "
+      + "; ".join(f"{k} = {v*1000:.2f} mm" for k, v in sens_tablero.items()) + f" (L/300 = {sep_tab/300*1000:.2f}; L/500 = {sep_tab/500*1000:.2f})")
 print(f"{'Elemento':<18}{'Verificación':<36}{'Demanda':>10}{'Capacidad':>11}{'Razón':>8}")
 for elem, perfil, verif, dem, cap, unid, r in filas:
     print(f"{elem:<18}{verif:<36}{dem:>10.2f}{cap:>11.2f}{r:>8.2f}  {'OK' if r <= 1 else 'NO CUMPLE'}")
