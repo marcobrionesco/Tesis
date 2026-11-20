@@ -6,9 +6,7 @@
 \chapter{Marco Teórico}
 \label{cap:marco-teorico}
 
-\revisar{El capítulo describe conceptos y métodos, pero no contiene una revisión de literatura reciente ni análisis crítico (criterio de 15~\%).
-Falta: experiencias con HCFV en Chile y Latinoamérica, tratamiento de residuos de agroquímicos y de aguas superficiales en humedales, sistemas modulares en contenedores y reúso en riego.
-Usar las fichas de 03\_seleccion/fichas\_lectura/ (receta 07).}
+\revisar{Revisión de literatura reciente incorporada (Latinoamérica, plaguicidas, aguas superficiales); falta profundizar el análisis crítico con experiencias chilenas de humedales verticales y de reúso en riego.}
 
 % Estructura según la revisión del profesor guía (16-11-2026, 03_seleccion/triaje/2026-11-16_revision-profesor-v3.0.md):
 % aguas residuales → SbN → humedales construidos (definición, tipos, por qué vertical, diseño, operación)
@@ -90,7 +88,7 @@ No se encontró una caracterización típica de las aguas de lavado de equipos d
 
 Las Soluciones Basadas en la Naturaleza (SbN) se definen como acciones para proteger, gestionar de manera sostenible y restaurar ecosistemas naturales o modificados, que abordan desafíos de la sociedad de forma efectiva y adaptativa, proporcionando simultáneamente beneficios para el bienestar humano y la biodiversidad~\parencite{cohenshacham2016nature}.
 En el ámbito del saneamiento, las SbN corresponden a tecnologías descentralizadas que imitan los procesos físicos, químicos y biológicos de depuración propios de los ecosistemas naturales~\parencite{dotro2021humedales,cross2021nature}.
-\revisar{Agregar 1--2 ideas sobre por qué las SbN son pertinentes en zonas rurales (bajo consumo energético, operación simple), con fuente.}
+Su pertinencia en zonas rurales se explica porque son tecnologías robustas que, con una mantención adecuada, pueden operar por más tiempo que las tecnologías convencionales~\parencite{rodriguezdominguez2020constructed}, con bajos costos de operación, aunque requieren experiencia en el diseño y la construcción, en especial de los sistemas de dosificación~\parencite{reuter2022compendio}.
 Entre las SbN aplicadas al tratamiento de aguas residuales se encuentran los humedales construidos~\parencite{cross2021nature}.
 
 \section{Humedales construidos}
@@ -111,6 +109,10 @@ Esta característica es la razón principal de su selección para el presente tr
 En frutales, sin embargo, la absorción de las distintas formas de nitrógeno depende de la especie: en huertos de cerezo dulce (\textit{Prunus avium} L.) el nitrógeno mineral del suelo se reparte entre nitrato (\qty{42}{\percent}) y amonio (\qty{58}{\percent}), mientras que en huertos de manzano predomina el nitrato (\qty{83}{\percent}), y hasta un \qty{80}{\percent} de la demanda anual de nitrógeno de los frutales puede cubrirse con reservas internas acumuladas en temporadas anteriores~\parencite{schwitzky2026contrasting}.
 Además, el cerezo absorbe con mayor eficiencia el nitrógeno aplicado en primavera (\qty{65.7}{\percent}) que el aplicado después de la cosecha (\qty{37.4}{\percent})~\parencite{sanmartino2010isotopically}, por lo que el aporte de nitrógeno del agua tratada será más aprovechable si el riego con ella se concentra en los períodos de mayor demanda.
 \revisar{El profesor guía indicó seleccionar el humedal vertical porque el nitrato es la forma de nitrógeno que más utilizan las plantas; las fuentes revisadas no respaldan una preferencia general por el nitrato (en el cerezo predomina el amonio en el suelo). Confirmar con el profesor la redacción y, si se mantiene la idea, buscar una fuente de fisiología vegetal que la respalde.}
+
+En Latinoamérica y el Caribe, una revisión de 520 experiencias en 20 países mostró que los humedales de flujo horizontal subsuperficial son los más usados (\qty{62}{\percent}), seguidos por los de flujo superficial (\qty{17}{\percent}) y los de flujo vertical (\qty{9}{\percent}), con eficiencias medias de eliminación de DQO de 65 a \qty{83}{\percent} y de nitrógeno total de 55 a \qty{72}{\percent}~\parencite{rodriguezdominguez2020constructed}.
+Los mismos autores destacan que los humedales verticales tienen mayor capacidad que los otros tipos para eliminar materia orgánica y nitrificar, pero que su uso en la región se ve limitado por la falta de conocimiento local y por la necesidad de sistemas de distribución presurizados, y que la adopción de los humedales construidos en general ha sido lenta por la escasez de guías de diseño locales~\parencite{rodriguezdominguez2020constructed}.
+Este último punto es pertinente para el presente trabajo, cuyo diseño debe resolver precisamente la impulsión y la distribución intermitente del agua sobre los lechos.
 
 Los humedales de flujo vertical también se han estudiado para tratar aguas agrícolas con plaguicidas.
 \textcite{ignatowicz2023treatment} operaron a escala piloto humedales de flujo subsuperficial vertical plantados con \textit{Phragmites australis}, construidos en estanques de polietileno de \qty{120}{\liter} con tres capas de \qty{0.15}{\meter}, \qty{0.40}{\meter} y \qty{0.15}{\meter} de material de distinta granulometría, para tratar aguas con los fungicidas boscalid y piraclostrobina, de uso habitual en fruticultura; obtuvieron tiempos de vida media de los plaguicidas de 2,3 a \qty{3.8}{\day}.
@@ -226,6 +228,7 @@ Cada dosis se distribuye sobre la superficie, percola verticalmente a través de
 Entre pulsos el lecho permanece no saturado, lo que mantiene las condiciones aerobias necesarias para la oxidación de la materia orgánica y la nitrificación.
 
 La alimentación secuencial se realiza con una bomba o, cuando la topografía ofrece suficiente desnivel, con un sifón que no requiere energía; en ambos casos debe asegurarse una distribución uniforme del agua sobre toda la superficie del lecho~\parencite{dotro2021humedales}.
+En la práctica, los humedales verticales se dosifican de 4 a 10 veces al día, y pueden construirse en excavaciones poco profundas o sobre el suelo, con un revestimiento impermeable y un tubo de ventilación conectado al drenaje~\parencite{reuter2022compendio}.
 Las guías recomiendan intervalos entre cargas de al menos \qty{6}{\hour} (guía alemana) o de 3 a \qty{6}{\hour} (guía austríaca), tuberías de distribución de al menos \qty{40}{\milli\meter} de diámetro con orificios no menores a \qty{8}{\milli\meter}, al menos un orificio por metro cuadrado y el vaciado completo de las tuberías después de cada carga~\parencite{dotro2021humedales}.
 
 Las plantas más usadas son macrófitas emergentes.

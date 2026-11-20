@@ -5,6 +5,13 @@
 
 ---
 
+## 2026-11-20 (noche, 16) — SbN y humedales en Latinoamérica
+
+- Citados: Rodriguez-Dominguez et al. (2020) (revisión de 520 experiencias en LAC; FV 9 %, limitado por falta de conocimiento y
+  distribución presurizada) y Reuter et al. (2022, compendio BORDA/Eawag: ficha de HFV, 4–10 dosis/día, sobre el suelo).
+- Cap. 2: pertinencia rural de las SbN, párrafo de revisión de literatura en LAC (primer análisis crítico) y dosificación.
+- Presentación de Homsi (AIDIS) archivada sin citar.
+
 ## 2026-11-20 (noche, 15) — DGA (2004), volumen 1 con anexos
 
 - Archivado; nueva referencia `dga2004volumen1`. Cap. 2: tabla de límites de clases de calidad (instructivo CONAMA, anexo A1).
