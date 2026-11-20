@@ -51,3 +51,5 @@ en un `.md`.
 | 2026-11-20 | `calculos_originales/2026_yo_*` (Colab: estructura, bombas, excavación; resultados .docx) | yo | ✅ reproducidos y actualizados en `04_analisis/scripts/10_`–`12_` |
 
 - `papers/2021_dotro-vera-arias_humedales-para-tratamiento_parte1.pdf` y `_parte2.pdf` (+ texto `.md`): Dotro et al. (2021), *Humedales para tratamiento*, edición en castellano editada por Vera-Puerto y Arias (IWA, acceso abierto). Ficha: `03_seleccion/fichas_lectura/dotro2021humedales.md`.
+- `normas/nch427-1_parte1–4.pdf` (+ `nch427-1_ocr.md`): NCh427/1:2016, estructuras de acero (escaneada; OCR). Ficha: `03_seleccion/fichas_lectura/inn2016nch427.md`.
+- `papers/2024_ucm_manual-etabs-v9.7.4_rev0.pdf` (+ `.md`): manual ETABS de la UCM. **No mencionar ETABS en la tesis**; ficha de método: `03_seleccion/fichas_lectura/2024_ucm_manual-etabs.md`.

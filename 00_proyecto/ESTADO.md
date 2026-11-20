@@ -5,6 +5,13 @@
 
 **Última actualización:** 2026-11-20
 
+## ✅ Recibido 2026-11-20: NCh427/1:2016 y manual ETABS (UCM)
+
+- NCh427/1 escaneada → OCR (`02_material_bruto/normas/`), ficha `03_seleccion/fichas_lectura/inn2016nch427.md`.
+  B.2: combinaciones de NCh3171/NCh433/NCh2369; L.3: no fija L/300 (L/500–L/1000 para equipos). Basada en AISC 360-10.
+- Manual ETABS: **no mencionar ETABS en la tesis** (DECISIONES); útil para diafragma rígido y combinaciones NCh3171 (0,9D + 1,4E).
+- Falta conseguir NCh3171:2017 y NCh2369 vigente.
+
 ## ✅ Recibido 2026-11-20: libro *Humedales para tratamiento* (Dotro et al., 2021, ed. en castellano)
 
 - Es la "traducción de Dotro" del profesor (editores: Vera-Puerto y Arias). Clave `dotro2021humedales` (reemplaza a

@@ -83,3 +83,10 @@
 - **Decisión:** el LaTeX sigue siendo el master; al profesor se le envía Word generado con `make word`.
   Sus ediciones/comentarios en Word se traspasan a mano al LaTeX y se registran en `03_seleccion/triaje/`.
 - **Motivo:** correo del profesor guía del 16-11-2026.
+
+## 2026-11-20 — ETABS no se menciona; NCh427/1 remite a NCh3171/NCh2369
+
+- **Decisión (autor):** ETABS no se usó y **no se menciona en la tesis**; su manual (UCM, 2024) solo sirve como apoyo de método.
+- **Consecuencia normativa:** la NCh427/1:2016 (B.2) remite cargas y combinaciones a NCh3171, NCh433 y NCh2369, y en sismo
+  prevalecen las normas sísmicas. La tesis citará NCh427/1 (numeración chilena, equivalente a AISC 360-10) para la resistencia
+  y la NCh3171 para las combinaciones (pendiente conseguirla).

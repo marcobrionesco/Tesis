@@ -20,8 +20,10 @@ y cómo calcular el coeficiente sísmico (el cálculo usa C = 2,7·A~0~/R, simpl
 
 Respuesta: __________________________________________________________
 
-**2. Tablero de la plataforma.** El tablero de 15 mm no cumple la deflexión L/300 con el método usado
-(2,9 mm frente a 1,33 mm). Cumple con 21 mm o con vigas secundarias cada 0,30 m. ¿Se cambia?
+**2. Tablero y límite de deformación.** El tablero de 15 mm no cumple la deflexión L/300 con el método usado
+(2,9 mm frente a 1,33 mm). Cumple con 21 mm o con vigas secundarias cada 0,30 m. ¿Se cambia? Además, la NCh427/1 no fija
+L/300: sugiere L/500 a L/1000 para vigas que soportan equipos. ¿Qué límite usar, considerando la horizontalidad que
+necesitan los sifones?
 
 Respuesta: __________________________________________________________
 

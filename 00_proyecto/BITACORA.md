@@ -5,6 +5,14 @@
 
 ---
 
+## 2026-11-20 (noche, 4) — NCh427/1:2016 y manual ETABS
+
+- Archivados: NCh427/1 (4 partes, escaneada; OCR con tesseract) y manual ETABS v9.7.4 de la UCM; fichas de lectura de ambos.
+- Tesis: cap. 2 (la NCh427/1 remite cargas y combinaciones a NCh3171/NCh433/NCh2369; marca para reemplazar la tabla de
+  combinaciones e incluir 0,9D + 1,4E); cap. 3 (L/300 sin respaldo en NCh427/1, que sugiere L/500–L/1000 para equipos).
+- Decisión: ETABS no se menciona en la tesis. Pregunta 2 ampliada (límite de deformación).
+- Pendiente: NCh3171:2017 y NCh2369; rehacer volcamiento de zapatas con 0,9D + 1,4E.
+
 ## 2026-11-20 (noche, 3) — Libro Humedales para tratamiento (Dotro et al., 2021)
 
 - Archivado en `02_material_bruto/papers/` (2 partes + texto) con ficha de lectura; año 2021 verificado (British Library).
