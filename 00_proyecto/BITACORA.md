@@ -5,6 +5,16 @@
 
 ---
 
+## 2026-11-20 (noche, 31) — Pendientes de la v5 aplicados a la v4
+
+- Cap. 3: diagrama de flujo (TikZ), área de estudio (propuesta ANID: huerto Lapins, Palmilla 35°45'34,6"S 71°45'24,3"O; clima DGA 2004a),
+  sección "Criterios, supuestos y parámetros de diseño" (tabla), porosidad con Das (tabla 3.1), 25 % de la fosa con Dotro (p. 77), SO según NCh2369.
+- Cap. 1: aporte técnico; Uribe (sin verificar) reemplazado por CR2 (2015) y Garreaud et al. (2020). Cap. 2: síntesis crítica y brecha.
+- Cap. 4: tabla síntesis por línea; diafragma verificado; pilares y placa base con NCh2369:2025; zapatas por pilar (central/esquina, voladizo/marco,
+  llenos/vacíos) → esquina 57 %/95 %; estructura auxiliar con fundación (FS ≈ 5). Cap. 5, 6, resumen y abstract actualizados.
+- Scripts: 10_estructura.py (c_2025, diafragma, cargas JSON), 14_sismo (combinación ASD correcta y tabla por pilar).
+- Quedan solo pendientes que dependen de datos externos (laboratorio, facturas, terreno, láminas, normas no disponibles).
+
 ## 2026-11-20 (noche, 30) — Versión 4: preguntas 8, 12, 13, 14, 17 y verificación integral
 
 - P8: diseño = cálculo del profesor; medias medidas como validación (tabla 4.7). P12: estructura auxiliar 15 × 15 × 6 mm verificada (10_estructura.py).

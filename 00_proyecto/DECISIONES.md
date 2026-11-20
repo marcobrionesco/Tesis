@@ -133,3 +133,12 @@ Detalle: `03_seleccion/notas/2026-11-20_respuestas-preguntas-autor.md`. Pendient
 - **P12:** estructura **auxiliar** = 3 marcos independientes (0,75 × 0,95 × 1,50 m) de perfil 15 × 15 × 6 mm (casi macizo), carga de operación 120 kg + 15 kg.
   Barras 0,37–0,93; columnas 0,16 al pandeo pero KL/r = 340; estimación sísmica: depende del anclaje. No usar "no se calculó / se copió" en la tesis.
 - **P13, P14, P17:** tareas internas del autor al enviar la versión 4 (pedir la NCh3456, el anexo de referencias de la propuesta y recoger observaciones). Sin notas en la tesis.
+
+## 2026-11-20 — Zapatas por pilar y diafragma (corrige el 91 % de la pregunta 1)
+
+- **Diafragma verificado** con NCh2369:2025 (5.3.3): deformación del tablero 0,13 mm (G = 0,5 GPa; 1,3 mm con G 10 veces menor) frente a
+  2 × 3,75 mm de los pilares → rígido. Requisito: fijar el tablero a las vigas para transmitir el corte.
+- **Combinación ASD correcta** para fundaciones: D + 0,75 SO + 0,70 E (llenos) y D + 0,70 E (vacíos). El 91 % anterior usaba SO completo.
+- **Resultado:** pilar central 85 % (voladizo) / 100 % (marco); **pilar de esquina 57 % (voladizo, no cumple) / 95 % (marco)**. Se adopta el
+  modelo de marco a momento soldado (coherente con R = 3; método del portal) → todas cumplen. Condición crítica nueva: uniones viga-pilar rígidas.
+- Pilares con NCh2369:2025 (1,2D + SO + E; 0,9D + SO + E): interacción 0,14; placa base 0,52.
