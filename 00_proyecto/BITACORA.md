@@ -5,6 +5,11 @@
 
 ---
 
+## 2026-11-20 (noche, 15) — DGA (2004), volumen 1 con anexos
+
+- Archivado; nueva referencia `dga2004volumen1`. Cap. 2: tabla de límites de clases de calidad (instructivo CONAMA, anexo A1).
+- Cap. 4: clasificación orientativa del estero: coliformes fecales en clase 4 → la desinfección es el objetivo principal de esa línea.
+
 ## 2026-11-20 (noche, 14) — DGA (2004), cuenca del río Maule
 
 - Archivado (2 partes) con ficha; nueva referencia `dga2004maule`. Tabla 2.1, columna del estero completada (pH, DBO₅, SST,

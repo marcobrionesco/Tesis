@@ -46,3 +46,11 @@
 ## "Research_Report" (2026) — texto generado por IA — no citable
 
 - Archivado en `02_material_bruto/ia_generado/2026-11-20_research-report-ia_volumen-maule.pdf`. Contiene instrucciones internas de otra IA; no aporta fuentes nuevas.
+
+## DGA (2004) — *Diagnóstico y clasificación…: Volumen 1, informe final* (S.I.T. N.º 104) — `dga2004volumen1` ✅ citado
+
+- Versión publicada por la DGA (2004) del mismo estudio de Cade-Idepe (2003), **con anexos** (A1–A8). PDF en 4 partes (escaneado con OCR del original).
+- **Anexo A1**: instructivo de CONAMA para la dictación de normas secundarias de calidad de aguas continentales superficiales, con la **Tabla N.º 1 de límites por clase** (excepción, 1, 2, 3; sobre la clase 3 = clase 4). Usado en la nueva tabla del cap. 2 (`tab:clases-calidad`): CE < 600 / 750 / 1500 / 2250 µS/cm; DBO₅ < 2 / 5 / 10 / 20 mg/L; OD (mínimo) > 7,5 / 7,5 / 5,5 / 5 mg/L; pH 6,5–8,5; SS < 24 / 30 / 50 / 80 mg/L; NH₄⁺ < 0,5 / 1 / 1,5 / 2,5 mg/L; nitrito < 0,05 / 0,06 / > 0,06; coliformes fecales < 10 / 1000 / 2000 / 5000 NMP/100 mL; coliformes totales < 200 / 2000 / 5000 / 10 000.
+- **Clasificación orientativa del estero (EST, medias de 6 campañas)**: CE y NH₄⁺ → excepción; DBO₅ → clase 1; OD y SS → clase 2; **coliformes fecales (1,5·10⁴) → clase 4** (no apto ni para riego restringido sin tratamiento). → cap. 4.
+- Sugiere, para la cuenca del Maule, monitorear plaguicidas en las descargas de afluentes como el Ancoa y el Putagán.
+- Volumen 1 del estudio de 2003 (`dga2003diagnostico`, metodología sin anexos): ambos se citan; el de 2003 para las definiciones de clases y este para los límites.
