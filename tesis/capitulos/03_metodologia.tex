@@ -78,9 +78,10 @@ Se descartó aplicar a las líneas del estero y de agroquímicos la misma carga 
 
 \subsection{Dimensionamiento de HC-FV}
 
-La superficie de cada humedal se determinó con el método del balance de oxígeno descrito en la \cref{sec:mt-humedales} (\cref{ec:balance-o2,ec:od,ec:oi}).
+La superficie de cada humedal se determinó con el método del balance de oxígeno descrito en el \cref{sec:mt-humedales} (\cref{ec:balance-o2,ec:od,ec:oi}).
 A partir de las cargas de diseño de cada fuente y de la carga orgánica superficial definida para cada fase experimental del proyecto ANID/Anillos/ATE250033, se calculó la demanda de oxígeno y se iteró el área superficial hasta que el aporte de oxígeno superara a la demanda.
 Luego se verificaron la carga hidráulica superficial (caudal diario dividido por el área) y la carga orgánica superficial resultantes.
+El dimensionamiento se basó en el cálculo de diseño del proyecto, con las concentraciones de diseño de la propuesta (DQO de 300 y \qty{400}{\milli\gram\per\liter} y NTK de \num{1.5} y \qty{1.0}{\milli\gram\per\liter} en la casa y en las oficinas, asumiendo el amonio como NTK) y una remoción de DQO del \qty{25}{\percent} en la fosa séptica, por la que pasará el agua de ambas fuentes; las concentraciones medidas se usaron para validar las cargas resultantes.
 La superficie obtenida se distribuyó en unidades modulares independientes por fuente, de modo de evitar la mezcla entre las aguas en estudio.
 El tiempo de retención hidráulica (TRH), definido como el tiempo que el agua permanece en promedio en una unidad, se estimó como el volumen de agua contenido en ella dividido por el caudal; para el lecho filtrante se usó el valor nominal de la \cref{ec:trh}~\parencite{dotro2021humedales}:
 \begin{equation}
@@ -129,14 +130,15 @@ El punto de operación de cada línea se obtuvo en la intersección de la curva 
 \subsection{Análisis de cargas y serviciabilidad}
 
 El diseño de los elementos estructurales de soporte se realizó bajo la metodología de Diseño por Factores de Carga y Resistencia (LRFD), en conformidad con la norma NCh427/1~\parencite{inn2016nch427} y las especificaciones AISC~360~\parencite{aisc2016specification}.
-El análisis consideró la superposición de la carga muerta, constituida por el peso propio de los elementos estructurales y de la cubierta, y la carga de operación, correspondiente al peso del agua y del medio filtrante de los estanques a máxima capacidad~\parencite{inn2009nch1537}.
+El análisis consideró la superposición de la carga muerta, constituida por el peso propio de los elementos estructurales y de la cubierta, y la carga de operación, correspondiente al peso del agua de los estanques de almacenamiento a máxima capacidad~\parencite{inn2009nch1537}.
 \revisar{En estructuras industriales el contenido de los estanques suele tratarse como carga de operación (NCh2369) y no como sobrecarga de uso: tengo que confirmar el criterio con el co-guía.}
 
 Se evaluaron las envolventes de momentos flectores y esfuerzos de corte para dimensionar los elementos horizontales y verticales de la estructura (\cref{fig:isometrico-estructura}).
-Adicionalmente, se verificó el estado límite de serviciabilidad, asegurando que las deflexiones verticales máximas en el centro del vano no superaran el límite admisible, establecido como una fracción de la luz libre ($L/300$), garantizando así la planicidad requerida para la correcta operación de los sifones dosificadores.
-La NCh427/1 no fija un límite general de deformación, sino que exige que no afecte el uso de la estructura y propone de $L/500$ a $L/1000$ como referencia para vigas que soportan equipos~\parencite{inn2016nch427}; por ello, $L/300$ se adoptó como límite de servicio y $L/500$ como referencia para la horizontalidad de los sifones.
+Adicionalmente, se verificó el estado límite de serviciabilidad, asegurando que las deflexiones verticales máximas en el centro del vano no superaran el límite admisible, establecido como una fracción de la luz libre ($L/300$), de modo de mantener nivelados los estanques de almacenamiento y sus conexiones.
+La NCh427/1 no fija un límite general de deformación, sino que exige que no afecte el uso de la estructura y propone de $L/500$ a $L/1000$ como referencia para vigas que soportan equipos~\parencite{inn2016nch427}; por ello, $L/300$ se adoptó como límite de servicio y $L/500$ como referencia.
 El tablero de \qty{15}{\milli\meter} se modeló como una lámina continua sobre las vigas secundarias, separadas \qty{0.40}{\meter}, mediante una viga continua de Euler-Bernoulli resuelta por elementos finitos en una franja de \qty{1}{\meter}, cargada con la presión bajo la base de un estanque lleno más el peso del tablero (\qty{13.5}{\kilo\newton\per\square\meter}); como valor de diseño se tomó el caso de tres apoyos, el más desfavorable, ya que la base del estanque, de \qty{1.0}{\meter} de diámetro, cubre unos dos vanos y medio.
 La deformación instantánea se multiplicó por un factor de fluencia de \num{2.0}, que corresponde a madera expuesta a la intemperie.
+\revisar{Los sifones están en los dosificadores, sobre la estructura auxiliar y no sobre el tablero: tengo que confirmar qué exige la horizontalidad de la plataforma (estanques de almacenamiento y conexiones) para justificar el límite.}
 \revisar{El factor 2,0 sale del Eurocódigo 5 (EN 1995-1-1, clase de servicio 3) para madera aserrada, y el módulo de elasticidad (\qty{11}{\giga\pascal}, pino radiata) es un supuesto del cálculo original: tengo que conseguir la norma para citarla (o el factor de la NCh1198) y confirmar el módulo del tablero fenólico con el fabricante.}
 
 \begin{figure}[htbp]

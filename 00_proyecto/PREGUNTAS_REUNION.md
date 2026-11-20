@@ -68,7 +68,7 @@ Respuesta (propuesta del autor, 20-11, a confirmar en la reunión): mandan los i
 ¿Se mantiene la meta de aprox. 3 g NH~4~^+^/m²·d de la Fase 1? ¿Uso los valores de diseño (DQO 300/400; NH~4~^+^ 1,5/1,0)
 o las medias medidas (338/411; 1,98/1,28)?
 
-Respuesta: __________________________________________________________
+Respuesta (propuesta del autor, 20-11, a confirmar en la reunión): se sigue el cálculo del profesor (300/400; NTK 1,5/1,0; fosa 25 %); las medias medidas validan (17–33 g DQO/m²·d); nitrógeno bajo por dilución en oficinas; meta de 3 g NH₄⁺/m²·d como referencia (dosificar amonio: trabajo futuro).
 
 **9. Hormigón de zapatas.** G30 (EETT, itemizado) o G25 (lámina 3.2 y cálculo).
 
@@ -88,13 +88,13 @@ Respuesta (propuesta del autor, 20-11, a confirmar en la reunión): trayectos mo
 **12. Estructura auxiliar de los dosificadores.** No tiene cálculo, y el perfil indicado
 ("15×15×6 mm") no es físicamente posible. ¿Qué perfil se usa? ¿La incluyo en el cálculo?
 
-Respuesta: __________________________________________________________
+Respuesta (propuesta del autor, 20-11, a confirmar en la reunión): marco auxiliar de perfil 15 × 15 × 6 mm (casi macizo), verificado para el pulso (1,32 kN): barras 0,37–0,93; columnas esbeltas (KL/r = 340), estabilidad por arriostramiento y anclaje.
 
 # C. Prioridad baja (formato y referencias)
 
-**13.** Norma de reúso: según Vera-Puerto et al. (2022), la NCh3456 (partes 1–4, versiones comité) se aprobó en mayo de 2021, y su parte 2 tiene cuatro categorías (I a IV; la IV con DBO~5~ 35 y SST 80 mg/L, la "Categoría D" de las memorias CEAZA). ¿Me puede facilitar el texto para citarla directamente?
+**13.** Norma de reúso: según Vera-Puerto et al. (2022), la NCh3456 (partes 1–4, versiones comité) se aprobó en mayo de 2021, y su parte 2 tiene cuatro categorías (I a IV; la IV con DBO~5~ 35 y SST 80 mg/L, la "Categoría D" de las memorias CEAZA). ¿Me puede facilitar el texto para citarla directamente? *(Tarea interna del autor: se gestiona al enviar la versión 4.)*
 
-**14.** ¿Me puede facilitar el anexo "Bibliographic-references-2025" de la propuesta
+**14.** ¿Me puede facilitar el anexo "Bibliographic-references-2025" de la propuesta *(Tarea interna del autor: se gestiona al enviar la versión 4.)*
 (referencias completas de Vera-Puerto et al. 2021a, 2021b, 2023 y 2024)?
 
 **15.** ¿Las redes deben dimensionarse también para la Fase 2 (60 g DQO/m²·d)?
@@ -106,7 +106,7 @@ el template, después del Abstract (así lo hizo Bocaz, 2026, tesis aprobada que
 
 Respuesta (propuesta del autor, 20-11): se mantiene el orden de los Lineamientos y la Discusión aparte; confirmar.
 
-**17.** ¿Tiene observaciones escritas sobre la versión 3.0 que le envié?
+**17.** ¿Tiene observaciones escritas sobre la versión 3.0 que le envié? *(Tarea interna del autor: se gestiona al enviar la versión 4.)*
 
 **18. Nitrato y plantas del humedal.** Redacté la selección del humedal vertical según su indicación: al nitrificar genera nitrato, que asimilan las plantas del propio humedal (Dotro et al., 2021: 0,2–0,8 g N/m²·d). ¿Tiene una fuente que respalde que el nitrato es la forma de nitrógeno que más usan esas plantas?
 

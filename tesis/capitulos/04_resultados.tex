@@ -14,9 +14,9 @@
 \label{sec:caracterizacion}
 
 La caracterización de las tres fuentes se realizó en la fase previa del proyecto mediante seis campañas de muestreo en cinco puntos: estero Batuco (EST), aguas servidas de oficinas (AS1) y de la casa (AS2), y residuos de agroquímicos de la bodega (AGR1) y de la sala de bombas (AGR2).
-En la casa (AS2) solo se dispuso de dos campañas.
+En la casa (AS2) solo se dispuso de dos campañas, porque las muestras posteriores no llegaron al laboratorio.
 La \cref{tab:caracterizacion} resume los valores medios de los parámetros medidos y la \cref{fig:caracterizacion} compara los parámetros de carga entre los puntos.
-Los datos se procesaron con el script \texttt{02\_caracterizacion.py}, y los promedios coinciden con los del registro original.
+Los datos se procesaron con los scripts \texttt{00\_laboratorio\_a\_csv.py} y \texttt{02\_caracterizacion.py} directamente desde los informes del laboratorio.
 
 \begin{table}[htbp]
   \centering
@@ -42,11 +42,13 @@ Los residuos de la bodega de agroquímicos (AGR1) muestran una DQO de \qty{393}{
 
 La DQO media de las oficinas (\qty{411}{\milli\gram\per\liter}) se encuentra dentro del rango típico de las aguas servidas rurales chilenas (200 a \qty{1600}{\milli\gram\per\liter}, \cref{tab:caracteristicas-tipicas}), mientras que el amonio de las aguas servidas (\qtyrange{1.0}{1.8}{\milli\gram\per\liter}) queda muy por debajo del rango de 6 a \qty{60}{\milli\gram\per\liter} reportado por \textcite{araya2014aguas}.
 El nitrógeno total medido no es consistente con el amonio y el nitrato: al expresar ambos como nitrógeno, el nitrógeno inorgánico supera al nitrógeno total en la mayoría de las campañas de AS1, y también en el estero y en AGR2, lo que no es físicamente posible; por ello, el nitrógeno total se declara como una limitación de la caracterización y no se usa para el diseño.
-\revisar{No sé la causa del nitrógeno bajo (las hipótesis de dilución o de muestreo no están comprobadas), y supuse que el laboratorio informó el nitrógeno total como N y el amonio como NH$_4^+$: tengo que confirmarlo con el laboratorio.}
+El nitrógeno bajo de las oficinas se explicaría principalmente por la dilución con el agua del lavamanos y de la cocina; en la casa no hay una causa confirmada, y como las muestras se tomaron antes de la fosa séptica, esta no la explica.
+El nitrato, informado por el laboratorio como NO$_3^-$, no interviene en el dimensionamiento del humedal, que solo usa la DQO y el NTK.
+\revisar{Supuse que el laboratorio informó el nitrógeno total como N y el amonio como NH$_4^+$; los informes no lo indican.}
 
 El agua del estero (EST) presenta valores medios de pH (\num{7.47}), DBO$_5$ (\qty{2.2}{\milli\gram\per\liter}) y amonio (\qty{0.15}{\milli\gram\per\liter}) del mismo orden que los registrados en los ríos de la cuenca del Maule, y una conductividad eléctrica (\qty{156}{\micro\siemens\per\centi\meter}) prácticamente igual a la del río Putagán (\qty{155}{\micro\siemens\per\centi\meter}), aunque con menor oxígeno disuelto (\qty{6.3}{\milli\gram\per\liter} frente a \qty{9.4}{\milli\gram\per\liter})~\parencite{dga2004maule}.
 Según los límites de la \cref{tab:clases-calidad}, el estero corresponde a la clase de excepción en conductividad eléctrica y amonio, a la clase~1 en DBO$_5$ y a la clase~2 en oxígeno disuelto y sólidos suspendidos (\qty{31}{\milli\gram\per\liter})~\parencite{dga2004volumen1}.
-La clase en coliformes fecales no puede asignarse directamente, porque el laboratorio informó coliformes totales; sin embargo, la media de \textit{E.~coli}, que forma parte de los coliformes fecales, ya equivale a la clase~2 (más de \num{1000}~NMP/\qty{100}{\milli\liter}), por lo que el agua del estero requiere tratamiento microbiológico antes de usarse en riego, y ese es el objetivo principal de su línea.
+En coliformes totales, su media geométrica (\num{1.5e4}~NMP/\qty{100}{\milli\liter}) supera el límite de la clase~3 (\num{10000}~NMP/\qty{100}{\milli\liter}), por lo que corresponde a la clase~4, y la media de \textit{E.~coli} (\num{1.1e3}~NMP/\qty{100}{\milli\liter}) ya supera el límite de la clase~1 para coliformes fecales; por lo tanto, sin tratamiento, el agua del estero no es apta ni siquiera para el riego restringido, y la reducción de patógenos es el objetivo principal de su línea.
 \revisar{Esta clasificación es orientativa porque usé las medias de seis campañas; la oficial se basa en series de monitoreo más largas.}
 
 \subsection{Volúmenes de diseño para vivienda y oficinas}
@@ -123,7 +125,7 @@ La \cref{tab:resumen-afluentes} consolida los caudales, las concentraciones y la
   \centering
   \caption{Caudales, concentraciones y cargas de diseño por línea de tratamiento (\qty{6}{\square\meter} por línea). Fuente: elaboración propia.}
   \label{tab:resumen-afluentes}
-  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.6cm}cccc@{}}
+  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{3.7cm}*{4}{>{\centering\arraybackslash}p{2.45cm}}@{}}
     \toprule
     Línea y fuente & Caudal (\unit{\liter\per\day}) & DQO (\unit{\milli\gram\per\liter}) & NH$_4^+$ (\unit{\milli\gram\per\liter}) & Carga orgánica (\unit{\gram\per\square\meter\per\day}) \\
     \midrule
@@ -137,7 +139,7 @@ La \cref{tab:resumen-afluentes} consolida los caudales, las concentraciones y la
 \end{table}
 
 Con \qty{750}{\liter\per\day}, la carga de amonio de la línea de agroquímicos queda entre unos 0,3 y \qty{1.6}{\gram\per\square\meter\per\day}, y la de la línea doméstica en unos \qty{0.2}{\gram\per\square\meter\per\day}, por debajo de los cerca de \qty{3}{\gram\per\square\meter\per\day} previstos para la Fase~1.
-\revisar{Uso los valores de diseño del proyecto (DQO 300 y 400; NH$_4^+$ 1,5 y \qty{1.0}{\milli\gram\per\liter}) y no las medias medidas, porque de la casa queda un solo dato válido. La forma de tratar el nitrógeno (pregunta~8) todavía es una propuesta que tengo que aprobar y confirmar con el profesor.}
+La meta de cerca de \qty{3}{\gram\per\square\meter\per\day} de amonio de la propuesta queda, por tanto, como referencia, y no se alcanza con estas aguas; para evaluar la nitrificación a esa carga habría que dosificar amonio.
 
 \section{Diseño depurativo y cálculo hidráulico}
 \label{sec:res-hidraulico}
@@ -206,6 +208,24 @@ El aporte por convección, asumiendo \qty{0.3}{\gram} de O$_2$ por litro de aire
 
 Dado que el aporte (\qty{315.0}{\gram\per\day}) es mayor a la demanda (\qty{111.8}{\gram\per\day}), el diseño fue considerado satisfactorio.
 Esto validó el área activa de \qty{6.00}{\square\meter}, con una carga hidráulica resultante de \qty{125}{\milli\meter\per\day} y una carga orgánica de \qty{30}{\gram\per\square\meter\per\day} de DQO.
+
+Este dimensionamiento corresponde al cálculo del diseño del proyecto, con las concentraciones de diseño de la propuesta, y las concentraciones medidas se usaron para validarlo (\cref{tab:validacion-cargas}).
+Con las medias medidas, la carga orgánica de la línea doméstica sería de unos \qty{33}{\gram\per\square\meter\per\day}, un \qty{10}{\percent} sobre el valor de diseño, y con el único dato válido de la casa, de unos \qty{17}{\gram\per\square\meter\per\day}, por lo que los \qty{30}{\gram\per\square\meter\per\day} de diseño quedan dentro del rango medido.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Validación de las cargas de diseño de la línea doméstica con las concentraciones medidas (\qty{750}{\liter\per\day} en \qty{6}{\square\meter}; \qty{25}{\percent} de remoción de DQO en la fosa séptica). Fuente: elaboración propia.}
+  \label{tab:validacion-cargas}
+  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.3cm}*{4}{>{\centering\arraybackslash}p{2.3cm}}@{}}
+    \toprule
+    Base de cálculo & DQO de la mezcla (\unit{\milli\gram\per\liter}) & Carga orgánica (\unit{\gram\per\square\meter\per\day}) & NH$_4^+$ de la mezcla (\unit{\milli\gram\per\liter}) & Carga de amonio (\unit{\gram\per\square\meter\per\day}) \\
+    \midrule
+    Diseño (casa 300 y oficinas \qty{400}{\milli\gram\per\liter}) & 320 & \num{30.0} & \num{1.4} & \num{0.18} \\
+    Medias medidas, con la campaña~1 de la casa & 352 & \num{33.0} & \num{1.84} & \num{0.23} \\
+    Medidas, casa sin la campaña~1 & 185 & \num{17.4} & -- & -- \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 Constructivamente, esta superficie se materializó mediante la disposición de 6 contenedores modulares tipo IBC de \qty{1.00}{\cubic\meter} por línea de tratamiento~\parencite{platzer2016long}, lo que además evita excavaciones y la mezcla entre las tres aguas en estudio.
 Cada módulo contiene un lecho estratificado de \qty{0.90}{\meter} (lámina 2.2): una capa inferior de drenaje de grava de \qty{19}{\milli\meter} (\qty{0.15}{\meter}), una capa intermedia de filtración de arena gruesa (\qty{0.60}{\meter}) y una capa superior de distribución de gravilla de \qty{12}{\milli\meter} (\qty{0.15}{\meter}), plantado con 4 macrófitas emergentes del género \textit{Typha} (\cref{fig:esquema-ibc}).
 Para los 18 contenedores, esto equivale a \qty{10.8}{\cubic\meter} de arena y \qty{2.7}{\cubic\meter} de cada grava, con 72 plantas.
@@ -225,13 +245,13 @@ La \cref{tab:tiempos-retencion} presenta el tiempo de retención nominal de cada
   \centering
   \caption{Tiempos de retención nominales por unidad de una línea de tratamiento (\qty{750}{\liter\per\day}). Fuente: elaboración propia.}
   \label{tab:tiempos-retencion}
-  \begin{tabular}{@{}lccc@{}}
+  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.6cm}>{\centering\arraybackslash}p{2.9cm}>{\centering\arraybackslash}p{2.6cm}>{\centering\arraybackslash}p{3.2cm}@{}}
     \toprule
     Unidad & Volumen & Caudal & Tiempo de retención \\
     \midrule
     Estanque de almacenamiento & \qty{1000}{\liter} & \qty{750}{\liter\per\day} & \qty{1.3}{\day} \\
     Estanque dosificador (sifón) & \qty{125}{\liter} por pulso & 6 pulsos al día & \qty{4}{\hour} entre pulsos \\
-    Lecho del humedal ($\varepsilon = \numrange{0.35}{0.40}$) & 1,3 a \qty{1.4}{\cubic\meter} & \qty{0.75}{\cubic\meter\per\day} & 1,7 a \qty{1.9}{\day} (referencial) \\
+    Lecho del humedal ($\varepsilon$ de \num{0.35} a \num{0.40}) & 1,3 a \qty{1.4}{\cubic\meter} & \qty{0.75}{\cubic\meter\per\day} & 1,7 a \qty{1.9}{\day} (referencial) \\
     Cámara de cloración & \qty{100}{\liter} & \qty{750}{\liter\per\day} & \qty{3.2}{\hour} \\
     Fosa de acopio final & \qty{3250}{\liter} & \qty{750}{\liter\per\day} & \qty{4.3}{\day} \\
     \bottomrule
@@ -253,7 +273,7 @@ La \cref{tab:bombas-adt} presenta, para cada línea, la altura dinámica total (
   \centering
   \caption{Impulsión por línea: altura dinámica total, punto de operación con la bomba Pedrollo JSWm~1A y tiempo de llenado de \qty{1000}{\liter}. Fuente: elaboración propia.}
   \label{tab:bombas-adt}
-  \input{tablas/bombas_adt}
+  {\small\input{tablas/bombas_adt}}
 \end{table}
 
 La línea del estero, con PVC de \qty{25}{\milli\meter}, \qty{140}{\meter} y un desnivel de \qty{13.82}{\meter}, es la más exigente: requiere \qty{32.1}{\meter} para \qty{33.3}{\liter\per\minute}, y con la bomba supuesta opera a \qty{28}{\liter\per\minute}, por lo que llena el estanque en unos \qty{36}{\minute}, dentro del límite de \qty{60}{\minute}.
@@ -272,7 +292,7 @@ Como el trazado de las zanjas se modificó en terreno durante la ejecución del 
 \subsection{Verificación LRFD de la estructura de soporte}
 
 La plataforma elevada, de \qtyproduct{5.00 x 2.00}{\meter} en planta y \qty{2.25}{\meter} de altura, se diseñó con perfiles cajón de acero A270ES: $150 \times 150 \times 6$~\unit{\milli\meter} para pilares y vigas principales y $150 \times 100 \times 3$~\unit{\milli\meter} para las vigas secundarias, con una cubierta de tablero estructural de \qty{15}{\milli\meter} (láminas 3.1 y 3.2, \cref{anx:planimetria-estructural}).
-La estructura soporta tres estanques de acumulación de \qty{1000}{\liter} cada uno, junto con tres dosificadores de \qty{200}{\liter}.
+La plataforma soporta los tres estanques de almacenamiento de \qty{1000}{\liter}; los tres dosificadores de \qty{200}{\liter} se apoyan en estructuras auxiliares independientes (\cref{sec:res-auxiliar}).
 \revisar{Los perfiles los confirmé con las láminas 3.1--3.2, las EETT y el itemizado (la discusión de la v3.0 tenía otros).}
 
 La \cref{tab:verificacion-estructural} resume la verificación de los elementos de la plataforma con las dimensiones finales, según el método LRFD (AISC~360-16) y las combinaciones $\num{1.2}D + \num{1.6}L$ y $\num{1.2}D + \num{1.0}L + \num{1.4}E$; todos los elementos cumplen.
@@ -282,12 +302,25 @@ Cada estanque lleno aporta \qty{10.2}{\kilo\newton}, y el peso sísmico de la cu
 
 \begin{table}[htbp]
   \centering
-  \caption{Verificación estructural de la plataforma (dimensiones finales: láminas 3.1--3.2 y EETT). Fuente: elaboración propia.}
+  \caption{Verificación estructural de la plataforma y de la estructura auxiliar de los dosificadores (dimensiones finales: láminas 3.1--3.2 y EETT). Fuente: elaboración propia.}
   \label{tab:verificacion-estructural}
   \input{tablas/verificacion_estructural}
 \end{table}
 
-\revisar{Los pilares y la placa base todavía usan la fórmula simplificada $C = \num{2.7} A_0/R$: tengo que recalcularlos con el espectro de la NCh2369:2025 y confirmar el $F_y$ del A270ES. La estructura de los dosificadores no tiene cálculo y su perfil \enquote{$15 \times 15 \times 6$~mm} no es posible: tengo una propuesta (pregunta~12) que todavía no apruebo.}
+\revisar{Los pilares y la placa base todavía usan la fórmula simplificada $C = \num{2.7} A_0/R$: tengo que recalcularlos con el espectro de la NCh2369:2025 y confirmar el $F_y$ del A270ES.}
+
+\subsection{Estructura auxiliar de los dosificadores}
+\label{sec:res-auxiliar}
+
+Cada estanque dosificador de \qty{200}{\liter} se apoya en una estructura auxiliar, distinta de la estructura principal de la plataforma: un marco de acero independiente de \qtyproduct{0.75 x 0.95}{\meter} en planta y \qty{1.50}{\meter} de alto, con arriostramiento diagonal, cuatro columnas y cuatro barras superiores sobre las que descansa el dosificador, cada uno con su propia fundación de \qtyproduct{1.0 x 1.0}{\meter} en hormigón G25 (láminas 3.1 y 3.2, \cref{anx:planimetria-estructural}).
+Se trata de una configuración liviana, ya empleada por el equipo del proyecto en instalaciones de menor escala, de perfil de $15 \times 15 \times 6$~\unit{\milli\meter}; con esa pared, el hueco interior es de solo \qty{3}{\milli\meter}, por lo que no corresponde a un perfil cajón comercial y se comporta como una barra cuadrada casi maciza ($I = \qty{4212}{\milli\meter\tothe{4}}$, $A = \qty{216}{\milli\meter\squared}$, $r = \qty{4.4}{\milli\meter}$).
+
+El marco se verificó para la carga de operación, ya que el dosificador no opera lleno, sino que recibe el volumen de cada pulso: unos \qty{120}{\kilo\gram} de agua y \qty{15}{\kilo\gram} del tanque y el sifón, es decir, \qty{1.32}{\kilo\newton} por marco.
+Con el método de tensiones admisibles (ASD), las barras superiores trabajan a razones de \num{0.37} a \num{0.47} si el estanque apoya en las cuatro barras, según su luz de \num{0.75} o \qty{0.95}{\meter}, y de \num{0.74} a \num{0.93} en el caso conservador de una carga puntual al centro, con flechas de 2 a \qty{7}{\milli\meter} que hacen descender el estanque completo, junto con su sifón, sin inclinarlo (\cref{tab:verificacion-estructural}).
+Las columnas trabajan a una razón de \num{0.16} respecto de su carga de pandeo, pero son muy esbeltas ($KL/r = 340$, sobre el valor de 200 recomendado para barras en compresión~\parencite{aisc2016specification}), por lo que su estabilidad lateral depende del arriostramiento diagonal y del anclaje a la fundación.
+En una estimación sísmica preliminar con el coeficiente de la plataforma ($C = \num{0.35}$) y el centro de gravedad a unos \qty{1.9}{\meter} de altura, la fuerza horizontal es de \qty{0.55}{\kilo\newton} y el momento de volcamiento de \qty{1.05}{\kilo\newton\meter}, mayor que el momento estabilizante del peso (\qty{0.59}{\kilo\newton\meter}), por lo que la estabilidad del marco depende de sus pernos de anclaje, que reciben una tracción del orden de \qty{0.7}{\kilo\newton}.
+Si el dosificador se llenara por completo (\qty{200}{\liter}), las barras superarían su capacidad en el caso de carga puntual, por lo que debe operarse con el volumen del pulso.
+\revisar{Supuestos del marco: \qty{15}{\kilo\gram} de tanque y sifón, $F_y = \qty{250}{\mega\pascal}$, la luz de las barras (\num{0.75} o \qty{0.95}{\meter}) y $C = \num{0.35}$. Para una verificación completa me falta el viento (NCh432), el coeficiente sísmico específico de equipos, los pernos y la fundación; la flexión de las columnas en la cara sin diagonal sale marginal (razón cercana a \num{1.3}): conviene agregar una diagonal en esa cara. También tengo que confirmar con la factura el espesor del perfil y revisar la cubicación de la partida 2.1.9 (\qty{100}{\meter}; las láminas suman unos 45 a \qty{50}{\meter}).}
 
 \subsection{Diseño de fundaciones superficiales}
 
@@ -308,7 +341,7 @@ Los pilares cumplen en todos los casos, con índices de interacción flexocompre
 
 \begin{table}[htbp]
   \centering
-  \caption{Estabilidad sísmica de las zapatas de $\qtyproduct{1.0 x 1.0 x 0.5}{\meter}$ según la versión de la NCh2369, la categoría de ocupación, el tipo de suelo y el número de pilares que resisten el corte (zona~2, $R = 3$; mínimo de \qty{80}{\percent} de área apoyada). Fuente: elaboración propia.}
+  \caption{Estabilidad sísmica de las zapatas de \qtyproduct{1.0 x 1.0 x 0.5}{\meter} según la versión de la NCh2369, la categoría de ocupación, el tipo de suelo y el número de pilares que resisten el corte (zona~2, $R = 3$; mínimo de \qty{80}{\percent} de área apoyada). Fuente: elaboración propia.}
   \label{tab:sismo-zapatas}
   \begin{tabular}{@{}llccccc@{}}
     \toprule

@@ -230,6 +230,38 @@ phiTn = 0.75 * 0.75 * P["Fu_perno"] * P["A_perno"]
 registrar("Pernos de anclaje", "4 × Ø 3/4\"", "Tracción por perno", T_perno, phiTn, "kN")
 
 # =============================================================================
+# 8b. ESTRUCTURA AUXILIAR DE LOS DOSIFICADORES (pregunta 12, decisión del autor 20-11-2026)
+#     Tres marcos independientes (uno por dosificador): 0,75 × 0,95 m en planta, 1,50 m de alto, 4 columnas y 4 barras
+#     superiores de perfil 15 × 15 × 6 mm (pared gruesa: casi macizo). Carga de OPERACIÓN: volumen de un pulso
+#     (120 kg de agua, dato del autor) + 15 kg de tanque y sifón (SUPUESTO). ASD, Fy = 250 MPa (SUPUESTO).
+# =============================================================================
+b_aux, t_aux, L_col = 0.015, 0.006, 1.50
+I_aux = (b_aux**4 - (b_aux - 2 * t_aux) ** 4) / 12
+A_aux = b_aux**2 - (b_aux - 2 * t_aux) ** 2
+S_aux = I_aux / (b_aux / 2)
+r_aux = math.sqrt(I_aux / A_aux)
+W_aux = (120 + 15) * g / 1000                       # kN por marco
+P_barra = W_aux / 4                                 # kN por barra (4 barras)
+sig_adm = 0.6 * P["Fy"]                             # kN/m2 (ASD)
+aux = {}
+for L_b in (0.75, 0.95):
+    M_dist, M_punt = P_barra * L_b / 8, P_barra * L_b / 4
+    aux[L_b] = dict(r_dist=M_dist / S_aux / sig_adm, r_punt=M_punt / S_aux / sig_adm,
+                    f_dist=5 * P_barra * L_b**3 / (384 * P["E"] * I_aux), f_punt=P_barra * L_b**3 / (48 * P["E"] * I_aux))
+registrar("Estructura auxiliar", "15×15×6", "Barra superior, carga distribuida (luz 0,95 m)",
+          P_barra * 0.95 / 8 / S_aux / 1000, sig_adm / 1000, "MPa")
+registrar("Estructura auxiliar", "15×15×6", "Barra superior, carga puntual (luz 0,95 m)",
+          P_barra * 0.95 / 4 / S_aux / 1000, sig_adm / 1000, "MPa")
+esb_aux = L_col / r_aux
+Fe_aux = math.pi**2 * P["E"] / esb_aux**2
+Pa_col = 0.877 * Fe_aux * A_aux / 1.67               # kN (AISC E3, pandeo elástico; ASD)
+registrar("Estructura auxiliar", "15×15×6", "Columna, compresión (pandeo)", W_aux / 4, Pa_col, "kN")
+# Estimación sísmica preliminar con el coeficiente de la torre (pregunta 1): C = 0,35; centro de gravedad a 1,9 m
+W_sis_aux = W_aux + 0.25
+F_aux = 0.35 * W_sis_aux
+M_volc_aux, M_est_aux = F_aux * 1.9, W_sis_aux * 0.75 / 2
+
+# =============================================================================
 # 9. SALIDAS
 # =============================================================================
 RES.mkdir(parents=True, exist_ok=True)
@@ -252,9 +284,13 @@ TABLA.write_text("\n".join([
     r"  \toprule",
     r"  Elemento & Perfil & Verificación & Demanda & Capacidad & Razón \\",
     r"  \midrule", *lineas, r"  \bottomrule",
-    r"  \multicolumn{6}{@{}p{0.97\textwidth}@{}}{\footnotesize Razón = demanda/capacidad; en negrita, las que superan 1 (no cumple). Zona sísmica por confirmar.}",
+    r"  \multicolumn{6}{@{}p{0.97\textwidth}@{}}{\footnotesize Razón = demanda/capacidad; en negrita, las que superan 1 (no cumple). Zona sísmica~2 (NCh2369:2025). Estructura auxiliar verificada con ASD.}",
     r"\end{tabular}", ""]), encoding="utf-8")
 
+print(f"Auxiliar: I = {I_aux*1e12:.0f} mm4, A = {A_aux*1e6:.0f} mm2, r = {r_aux*1000:.2f} mm, W = {W_aux:.2f} kN, KL/r = {esb_aux:.0f}, Pa = {Pa_col:.2f} kN")
+for L_b, v in aux.items():
+    print(f"  barra {L_b} m: razón distribuida {v['r_dist']:.2f} (flecha {v['f_dist']*1000:.1f} mm), puntual {v['r_punt']:.2f} (flecha {v['f_punt']*1000:.1f} mm)")
+print(f"  sismo: F = {F_aux:.2f} kN, M vuelco = {M_volc_aux:.2f} kN·m, M estabilizante = {M_est_aux:.2f} kN·m")
 print(f"Estanque lleno: {P_est:.2f} kN | carga sísmica W = {W_sismico:.1f} kN | KL/r pilar = {esb:.1f}")
 print(f"Viga principal: ala {clase_p} (b/t = {lam_p:.1f}); viga secundaria: {clase_s}")
 for z, s in sismo.items():

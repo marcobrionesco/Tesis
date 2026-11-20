@@ -123,3 +123,13 @@ Detalle: `03_seleccion/notas/2026-11-20_respuestas-preguntas-autor.md`. Pendient
 - **P11 Zanjas:** trayectos modificados en terreno; la tesis no presenta excavaciones, solo criterios (`12_excavacion.py` queda fuera de la tesis).
 - **P15 Fase 2:** se dimensiona para la Fase 1; Fase 2 = 3 IBC por línea (recomendada) o 1500 L/d. **P16:** orden de los Lineamientos y Discusión aparte.
 - **P18:** se elimina la afirmación de que el nitrato es la forma "más usada"; solo asimilación de 0,2–0,8 g N/m²·d (Dotro et al., 2021).
+
+## 2026-11-20 — Preguntas 8, 12, 13, 14 y 17 (aprobadas por el autor)
+
+- **P8:** el diseño se sostiene en el cálculo del profesor (DQO 300/400 mg/L; NTK 1,5/1,0 asumiendo amonio = NTK; 25 % de remoción en la fosa, por la que
+  pasan ambas fuentes): 180 g DQO/d, 1,1 g NTK/d, 315 > 111,8 g O₂/d, 30 g DQO/m²·d. Las medias medidas **validan** (33 y 17 g/m²·d; tabla 4.7).
+  Nitrógeno bajo: dilución en oficinas; en la casa sin causa confirmada (muestras antes de la fosa). NT medido inconsistente → limitación. Meta de 3 g NH₄⁺/m²·d:
+  referencia no alcanzada; dosificar amonio = trabajo futuro (sin consulta al profesor).
+- **P12:** estructura **auxiliar** = 3 marcos independientes (0,75 × 0,95 × 1,50 m) de perfil 15 × 15 × 6 mm (casi macizo), carga de operación 120 kg + 15 kg.
+  Barras 0,37–0,93; columnas 0,16 al pandeo pero KL/r = 340; estimación sísmica: depende del anclaje. No usar "no se calculó / se copió" en la tesis.
+- **P13, P14, P17:** tareas internas del autor al enviar la versión 4 (pedir la NCh3456, el anexo de referencias de la propuesta y recoger observaciones). Sin notas en la tesis.

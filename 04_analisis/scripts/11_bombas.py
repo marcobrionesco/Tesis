@@ -137,12 +137,12 @@ filas = []
 for r in adoptado:
     pre = r"$\geq$\," if r["borde_curva"] else ""
     pre_t = r"$\leq$\," if r["borde_curva"] else ""
-    filas.append(rf"  {r['linea']} & {r['tubo']} ({r['Di_mm']:.1f}) & \num{{{r['L_m']:.0f}}} & \num{{{r['dz_m']:.2f}}} & "
+    filas.append(rf"  {r['linea']} & {r['tubo']} (\num{{{r['Di_mm']:.1f}}}) & \num{{{r['L_m']:.0f}}} & \num{{{r['dz_m']:.2f}}} & "
                  rf"\num{{{r['ADT_33_m']:.1f}}} & {pre}\num{{{r['Q_op_lmin']:.0f}}} & {pre_t}\num{{{r['t_llenado_min']:.0f}}} \\")
 TABLA.parent.mkdir(parents=True, exist_ok=True)
 TABLA.write_text("\n".join([
     "% Archivo GENERADO por 04_analisis/scripts/11_bombas.py — no editar a mano",
-    r"\begin{tabular}{@{}lcccccc@{}}",
+    r"\begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.4cm}*{6}{>{\centering\arraybackslash}p{1.7cm}}@{}}",
     r"  \toprule",
     r"  Línea & Tubería ($D_i$, \unit{\milli\meter}) & $L$ (\unit{\meter}) & $\Delta z$ (\unit{\meter}) & ADT a \qty{33.3}{\liter\per\minute} (\unit{\meter}) & $Q$ de operación (\unit{\liter\per\minute}) & Llenado de \qty{1000}{\liter} (\unit{\minute}) \\",
     r"  \midrule", *filas, r"  \bottomrule",

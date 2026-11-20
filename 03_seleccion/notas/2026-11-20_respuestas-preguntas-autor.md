@@ -2,7 +2,7 @@
 
 > Documento de trabajo **fuera del repositorio**. Para que Claude Code lo integre más adelante
 > (PREGUNTAS_REUNION.md, DECISIONES.md, capítulos 2–5 y OBSERVACIONES_PROFESOR.md).
-> Las respuestas rotuladas **APROBADA** fueron aprobadas por el autor; las rotuladas **PROPUESTA** (8 y 12) esperan su visto bueno. Son decisiones/propuestas del autor para la tesis y para llevar a la reunión; no son respuestas del profesor.
+> Las respuestas rotuladas **APROBADA** fueron aprobadas por el autor; todas las respuestas están aprobadas salvo los puntos señalados en cada Aviso. Son decisiones/propuestas del autor para la tesis y para llevar a la reunión; no son respuestas del profesor.
 
 ---
 
@@ -458,7 +458,8 @@ El autor recordaba pulsos de 165 a 250 L; no hay ese dato en el repositorio. Si 
    - **AS2 solo tiene las semanas 1 y 2:** desde la semana 3 las muestras de la casa no llegaron al laboratorio (dato del autor). Las medias de AS2 tienen n = 2 y no son representativas.
 3. **Semana atípica (dato del autor):** una semana no se consideró en el cálculo porque las muestras se tomaron mal. Es la **semana 1**: AS1 con SST 2370 mg/L, turbiedad 1330 NTU y DQO total 2478 mg/L, valores muy distintos del resto de las semanas (SST 53–114 mg/L, turbiedad 48–135 NTU, DQO 266–560 mg/L); AS2 muestra el mismo patrón (SST 3303 mg/L, turbiedad 1855 NTU).
    - La DQO total de AS1 de la semana 1 **sí la reportó el laboratorio** (no es error de digitación); se reincorpora a la base como valor medido, marcada como **atípica por mal muestreo**.
-   - Criterio: la semana 1 se excluye de las **medias de diseño**, pero se reportan ambas medias (con y sin ella).
+   - **Por qué se había excluido la DQO total de AS1 (semana 1):** por ser un dato anómalo: 2478 mg/L frente a 266–560 mg/L del resto, con SST de 2370 mg/L y turbiedad de 1330 NTU la misma semana (la DQO disuelta de esa semana fue 697 mg/L, así que ≈ 1780 mg/L eran partículas: muestra con sólidos, mal tomada). El motivo **no quedó registrado** en el repositorio; la tesis lo documenta con esta justificación.
+   - Criterio: la semana 1 se excluye de las **medias de caracterización**, pero se reportan ambas medias (con y sin ella). **No afecta al diseño**, que se basa en el cálculo del profesor (pregunta 8).
    - **Inconsistencia a corregir:** el resumen actual solo excluyó la DQO total de AS1 de la semana 1; SST, turbiedad, DBO₅ y DQO disuelta de esa semana siguen dentro de las medias. Aplicar el criterio a toda la semana 1 (o decir expresamente cuáles parámetros se excluyen). **Verificar con el autor** qué parámetros dejó fuera cuando hizo el resumen.
 
 | AS1 (oficinas) | Media con semana 1 | Media sin semana 1 |
@@ -520,73 +521,141 @@ Los valores de **diseño** no cambian: DQO 300 (casa) y 400 mg/L (oficinas).
 
 ---
 
-## Pregunta 8 — Nitrógeno bajo y base de diseño — PROPUESTA (pendiente de visto bueno del autor)
+## Pregunta 8 — Nitrógeno bajo y base de diseño — APROBADA por el autor (2026-11-20): se sigue el cálculo del profesor
 
-### Hallazgos
-- **Nitrato:** el informe del laboratorio lo rotula **NO₃⁻** (no N-NO₃⁻). El nitrato medio de AS1 (9,3 mg/L) y AS2 (5,9 mg/L) equivale a ≈ 2,1 y 1,3 mg N/L (÷ 4,43).
-- **El nitrógeno total medido es poco confiable:** el informe no indica su base (se supone N). Al convertir (amonio × 0,776 y nitrato ÷ 4,43, ambos a N), el nitrógeno inorgánico supera al nitrógeno total en **4 de 5 semanas de AS1** (semanas 2, 3, 5 y 6; la 4 queda igual), y también en el estero y en AGR2. Eso es imposible físicamente; apunta a un problema de método o de límite de detección del laboratorio, no a una característica del agua.
-- **Causa del nitrógeno bajo:** no se conoce una causa. El autor describe muestras puntuales tomadas en la salida de oficinas y de la casa; la dilución (agua de lavado de manos, cocina y WC de baja carga) y las muestras mal tomadas son hipótesis, no un hecho.
+### Decisión del autor
+**El diseño se sostiene en el cálculo del profesor** (`01_normativa/proyecto/texto/2026_anid-ate250033_diseno-humedal.md`, PDF "Dysenyo-Humedal-ATE250033"). La planilla de balance de oxígeno del autor (con las medias medidas) **no es la base**: queda solo como referencia de consulta.
 
-### Decisión propuesta
-1. **Base de diseño:** valores de diseño del proyecto (DQO 300 casa / 400 oficinas; NH₄⁺ 1,5 / 1,0 mg/L), no las medias medidas. Las medias medidas son **validación** (n = 2 en AS2).
-2. **Nitrógeno total:** declararlo como **limitación** de la caracterización (valor no consistente con amonio + nitrato) y no usarlo para el diseño.
-3. **Meta de ≈ 3 g NH₄⁺/m²·d de la fase 1:** se mantiene como meta de **diseño**, pero con estas aguas **no se alcanza**: con 750 L/d (125 mm/d) la carga de amonio es muy baja (tabla siguiente). Declarar que la nitrificación se evaluará a carga baja o con dosificación de amonio (a discutir con el profesor).
+### Base de diseño (cálculo del profesor)
+| Dato | Casa | Oficina | Total |
+|---|---|---|---|
+| Caudal (L/d) | 600 | 150 | 750 |
+| DQO (mg/L) | 300 | 400 | 240 g/d |
+| NTK (mg/L; **se asume el amonio como NTK**) | 1,5 | 1,0 | 1,05 g/d |
 
-### Cargas en la línea doméstica (750 L/d en 6 m² = 125 mm/d; casa 600 L/d + oficinas 150 L/d)
-| Base | DQO de la mezcla (mg/L) | Carga orgánica (g DQO/m²·d), con 25 % de remoción en fosa | NH₄⁺ de la mezcla (mg/L) | Carga de amonio (g NH₄⁺/m²·d) |
+- Con **25 % de remoción de DQO en la fosa séptica** y sin remoción de NTK: **180 g DQO/d** y **1,1 g NTK/d** (el profesor redondea 1,05 a 1,1).
+- **Balance de oxígeno (Platzer et al., 1999):** demanda por DQO = 0,85 × 0,7 × 180 = 107,1 g O₂/d; por nitrificación = 4,3 × 1,1 = 4,7 g O₂/d (se desprecia la desnitrificación: pulsos, sistema aerobio); **total 111,8 g O₂/d**.
+- **Aporte:** convección 0,3 × 0,75 × 1000 = 225 g O₂/d; difusión con 6 m² y 6 cargas = 90 g O₂/d; **total 315 g O₂/d** > 111,8: satisface.
+- **Comprobaciones:** carga hidráulica 0,75/6 = 125 mm/d; **carga orgánica 180/6 = 30 g DQO/m²·d** (cumple la carga de la Fase 1).
+- Esto es coherente con la tabla de la pregunta 5 (línea doméstica = 30 g DQO/m²·d).
+
+### Respecto a las preguntas originales
+1. **Nitrógeno bajo (causa):** dato del autor: hay mucha **dilución** (agua de lavamanos y cocina), sobre todo en las oficinas; en la **casa** el nitrógeno bajo no tiene causa confirmada (las muestras se tomaron antes de la fosa, así que la fosa no lo explica). **No es por muestras mal tomadas.** La tesis no afirma una causa como hecho (no hay mediciones del caudal por artefacto ni antes y después de la fosa).
+2. **Nitrato:** el informe del laboratorio lo rotula **NO₃⁻**; **no interviene** en el dimensionamiento del humedal (solo DQO y NTK). El nitrógeno total medido no es confiable (el nitrógeno inorgánico lo supera en 4 de 5 semanas de AS1; el informe no indica su base): se declara como limitación.
+3. **Meta de ≈ 3 g NH₄⁺/m²·d:** el diseño del profesor se verifica por **carga de DQO (30 g/m²·d)**; con el NTK del profesor la carga de nitrógeno es ≈ 0,18 g/m²·d (1,1 g/d ÷ 6 m²). La tesis dice que la meta de ≈ 3 g NH₄⁺/m²·d queda como referencia de la propuesta y no se alcanza con estas aguas; la tesis declara que, para evaluar la nitrificación a esa carga, habría que dosificar amonio (limitación / trabajo futuro; no se consulta al profesor).
+4. **¿Valores de diseño o medias medidas?** **Valores del profesor** (DQO 300/400; NTK 1,5/1,0). Las medias medidas **validan** el diseño.
+
+### Validación con las medias medidas (con 750 L/d en 6 m²; 25 % de remoción de DQO en fosa, como el profesor)
+| Base | DQO de la mezcla (mg/L) | Carga orgánica (g DQO/m²·d) | Amonio de la mezcla (mg/L) | Carga de amonio (g/m²·d) |
 |---|---|---|---|---|
-| Diseño (300/400; 1,5/1,0) | 320 | **30,0** | 1,4 | 0,18 |
-| Medias medidas (338/411; 1,98/1,28) | 352 | **33,0** | 1,84 | 0,23 |
-| Medidas sin semana 1 (AS2 = 129; AS1 = 411) | 185 | 17,4 | — | — |
+| Profesor (300/400; 1,5/1,0) | 320 → 240 con fosa | **30,0** | 1,4 | 0,18 |
+| Medias medidas (casa 337,5; oficina 411,4; NH₄⁺ 1,98/1,28) | 352 → 264 con fosa | **33,0** | 1,84 | 0,23 |
+| Medidas, AS2 sin semana 1 (129 mg/L) | 185 → 139 con fosa | 17,4 | — | — |
 
-- La carga orgánica medida (33 g/m²·d) queda cerca de la de diseño (30); la de diseño es razonable y algo conservadora frente al rango 17–33.
-- Para llegar a 3 g NH₄⁺/m²·d con 125 mm/d, el afluente necesitaría ≈ 24 mg NH₄⁺/L, unas 13 veces el medido.
+Las medias medidas dan una carga orgánica de 33 g DQO/m²·d (≈ 10 % sobre 30) y, sin la semana 1 de AS2, 17 g/m²·d: el valor de 30 g/m²·d del profesor queda dentro del rango medido.
 
-### Respuesta
-> El nitrato se informó como NO₃⁻. El nitrógeno total medido es inconsistente con el amonio y el nitrato (el nitrógeno inorgánico lo supera en la mayoría de las campañas), por lo que se declara como limitación y no se usa para el diseño. El diseño se basa en los valores del proyecto (DQO 300 y 400 mg/L; NH₄⁺ 1,5 y 1,0 mg/L), y las medias medidas se usan como validación: con ellas, la carga orgánica de la línea doméstica es de ≈ 33 g DQO/m²·d, similar a los 30 g DQO/m²·d de diseño, mientras que la carga de amonio (≈ 0,2 g NH₄⁺/m²·d) es muy inferior a la meta de ≈ 3 g/m²·d.
+### Respuesta (borrador)
+> El humedal se dimensionó con el método del balance de oxígeno (Platzer et al., 1999) y las concentraciones de diseño de la propuesta (DQO 300 mg/L en la casa y 400 mg/L en las oficinas; NTK 1,5 y 1,0 mg/L, asumiendo el amonio como NTK), con una remoción de DQO de 25 % en la fosa séptica. El aporte de oxígeno (315 g O₂/d) supera la demanda (111,8 g O₂/d) y la carga orgánica es de 30 g DQO/m²·d con una carga hidráulica de 125 mm/d. Las concentraciones medidas, que dan 33 g DQO/m²·d, validan este diseño. Las concentraciones de nitrógeno medidas son bajas, probablemente por la dilución con agua de lavamanos y cocina; el nitrato (informado como NO₃⁻) no interviene en el dimensionamiento.
 
 ### Avisos
-- Se supone que el nitrógeno total del laboratorio está en mg N/L y el amonio, en mg NH₄⁺/L; los informes no lo indican. Confirmar con el laboratorio.
-- La causa del nitrógeno bajo es desconocida; no afirmarla en la tesis.
-- La carga de amonio muy por debajo de 3 g/m²·d cambia lo que se puede concluir sobre nitrificación: consultar al profesor si se doseará amonio en la fase 1.
-- Coherente con la pregunta 18 (nitrato y plantas).
+- **Fosa séptica:** en la construcción, el agua de **ambas** fuentes (casa y oficinas) pasará por la fosa, por lo que la remoción de 25 % del cálculo del profesor se aplica a toda la mezcla (confirmado por el autor). Las muestras se tomaron **antes** de la fosa (dato del autor); por eso la fosa **no explica** el nitrógeno bajo medido en la casa, y la causa probable es la dilución (ajustar la redacción de la tesis: la fosa no se menciona como causa).
+- La planilla de balance de oxígeno del autor usa caudales antiguos (0,40 m³/d por fuente doméstica) y las medias medidas (su "NTK de entrada" es el amonio medio): no se usa como base.
+- La meta de ≈ 3 g NH₄⁺/m²·d no se verifica con este diseño; se declara como limitación (con la dosificación de amonio como recomendación).
+- Semana 1 de AS2: criterio único pendiente (pregunta 7); solo afecta a la validación.
+
+### Fuentes en el repositorio
+- `01_normativa/proyecto/texto/2026_anid-ate250033_diseno-humedal.md` (y el PDF original en `01_normativa/proyecto/originales/`); `04_analisis/resultados/caracterizacion_resumen.csv`, `caudal_equivalente_carga.csv`.
 
 ### Acciones para Claude Code
-- `04_resultados.tex` (≈ líneas 35–43) y `05_discusion.tex`: agregar la tabla de cargas, la limitación del nitrógeno total y la comparación diseño/medido; reemplazar el `\revisar` correspondiente.
-- `caracterizacion_afluentes.csv`/resumen: rotular el nitrato como NO₃⁻ y agregar una columna de conversión a N si se usa.
-- `04_analisis/resultados/caudal_equivalente_carga.csv`: agregar las cargas de amonio y la comparación diseño/medido.
-- Marcar la pregunta 8 como "propuesta del autor" hasta su aprobación.
+- `04_resultados.tex` (≈ líneas 35–43) y `05_discusion.tex`: reemplazar el `\revisar` del nitrógeno bajo por la explicación (dilución; sin afirmar causa para la casa), la limitación del nitrógeno total, la base de diseño del profesor y la tabla de validación con las medias medidas.
+- `03_metodologia.tex`: describir el método del balance de oxígeno con los datos del profesor (300/400; NTK 1,5/1,0; fosa 25 %) como base de diseño.
+- Rotular el nitrato como NO₃⁻; agregar la carga de amonio (0,18 de diseño; 0,23 medida) frente a la meta de ≈ 3 g NH₄⁺/m²·d como referencia.
+- Registrar en `DECISIONES.md`: se sigue el cálculo del profesor; medias medidas = validación; la dosificación de amonio queda como limitación y recomendación (sin consulta al profesor).
+- La planilla de balance de oxígeno del autor se archiva como referencia (en `02_material_bruto/`), no como cálculo de diseño.
 
 ---
 
-## Pregunta 12 — Estructura auxiliar de los dosificadores — PROPUESTA (supuesto; pendiente de visto bueno del autor)
+## Pregunta 12 — Estructura auxiliar de los dosificadores — APROBADA por el autor (2026-11-20; perfil 15 × 15 × 6 mm y carga dados por el autor; redacción de la justificación y verificación a repasar)
 
-### Hallazgos en el repositorio
-- La lámina 3.2 muestra **3 bastidores** (uno por dosificador) de 0,95 m de ancho, con **4 vigas** a 0,24 / 0,20 / 0,20 / 0,24 m, rotulados "Perfil de 15 × 15 × 6 mm". Ese perfil no es posible: un cajón de 15 × 15 mm con 6 mm de espesor no tiene hueco.
-- El itemizado (2.1.9) pide "Perfil cajón 15x15x6 mm", **100 ml**, cantidad incoherente con lo que se ve en la lámina (≈ 11 m de perfil en vigas).
-- El autor no recuerda el perfil comprado; **se adopta un supuesto** que el profesor puede corregir.
+### Qué es esta estructura (para no confundirla)
+- **No es la estructura primaria** (pilares y vigas principales de la torre, cajón 150×150×6) **ni la secundaria** (vigas secundarias 150×100×3 bajo el tablero, cada 0,40 m).
+- Es la **estructura auxiliar**: **tres marcos independientes de la torre**, uno por cada dosificador de 200 L con su sifón (láminas 3.1 y 3.2). Cada marco mide ≈ 0,75 m de ancho × 0,95 m de largo y 1,50 m de alto, sobre un soporte metálico de 0,30 m; tiene arriostramiento diagonal y, arriba, 4 barras donde se apoya el dosificador (en planta, 0,24 / 0,20 / 0,20 / 0,24 m). Cada marco tiene su propia fundación de 1,0 × 1,0 m (hormigón G25, 4 pernos de anclaje), junto al borde de la plataforma.
+- **El itemizado (2.1.9) la llama "Estructura Metálica Segundaria"**, lo que se confunde con las vigas secundarias. En la tesis se usa **"estructura auxiliar"**.
 
-### Supuesto y verificación
-Perfil cajón de acero **40 × 40 × 2 mm** (I = 73 365 mm⁴; W = 3668 mm³), en vigas biapoyadas de 0,95 m.
-- **Carga:** estanque dosificador de 200 L lleno (200 kg) + 15 kg de tanque vacío supuesto = 215 kg ≈ 2,1 kN.
-- **Resistencia (ASD, 0,6 Fy con Fy = 250 MPa):** el momento por viga con 4, 3 o 2 vigas cargadas es 0,13 / 0,17 / 0,25 kN·m, frente a una capacidad de 0,55 kN·m (razón de 0,23 / 0,30 / 0,46).
-- **Deformación (centro de la viga):** 0,64 / 0,86 / 1,28 mm (L/1480, L/1110, L/740), que cumple L/500–L/1000 de la NCh427/1 para vigas que soportan equipos y deja los sifones horizontales.
-- **Comparación:** un cajón de 30 × 30 × 2 mm resiste (razón 0,43–0,85), pero con solo 2 vigas cargadas deflecta 3,2 mm (L/297) y no cumple L/500; por eso se adopta 40 × 40 × 2 mm.
+### Perfil: se adopta 15 × 15 × 6 mm (decisión del autor)
+- Los documentos del repositorio **son coherentes: todos dicen 15 × 15 × 6 mm** (láminas 3.1 y 3.2, itemizado 2.1.9 en `itemizado_rev1.csv` y `tesis/tablas/itemizado.tex`, EETT línea 72). **No hay ningún documento del repositorio con 15 × 15 × 3**: el "3" que apareció en la conversación corresponde, probablemente, a las vigas secundarias (150 × 100 × **3** mm, itemizado 2.1.7). Por lo tanto **no hay nada que corregir** en los documentos.
+- **Se adopta el espesor de 6 mm** (decisión del autor): con una pared de 6 mm el hueco es de solo 3 mm, así que **no es un cajón comercial**: se comporta como una barra cuadrada casi maciza (I = 4212 mm⁴; A = 216 mm²; W = 562 mm³; r = 4,4 mm). La tesis lo declara así (el repositorio decía "físicamente imposible"; se corrige a "no es un cajón comercial, casi macizo").
+- **Aviso:** si lo realmente comprado fuera de 3 mm de espesor (I = 3672 mm⁴), las razones de las barras suben ≈ 15 % (0,42–0,54 con carga distribuida; 1,07 en el caso puntual de 0,95 m). Confirmar con la factura.
 
-### Respuesta
-> La estructura auxiliar de cada dosificador es un bastidor de perfiles cajón 40 × 40 × 2 mm con cuatro vigas de 0,95 m de luz, dimensionado para el estanque de 200 L lleno (≈ 2,1 kN); las razones de demanda a capacidad son ≤ 0,46 y la deformación máxima es 1,3 mm (L/740), compatible con la horizontalidad que exigen los sifones. El rótulo "15 × 15 × 6 mm" de la lámina 3.2 se declara como error de rotulado.
+### Decisión del autor
+1. **Se agrega la estructura auxiliar al cálculo de la tesis** como verificación para la carga de operación.
+2. **Carga de operación:** el dosificador **nunca opera lleno**: solo contiene el volumen de cada pulso. El autor indica **120 kg** (de agua); la tesis agrega 15 kg del tanque y el sifón (**supuesto**): **W = 135 kg ≈ 1,32 kN** por marco, más el peso propio del marco (≈ 0,2 kN, despreciable en las barras). El pulso de diseño de la tesis es 125 L (6 pulsos/d, pregunta 6): coherente (4 % menos).
+3. **Justificación en la tesis (redacción a repasar con el autor):** la tesis **no** dice que "no se calculó", que "se copió" ni que "no se evaluó" algo. Presenta el marco como un diseño por criterio constructivo (marco liviano arriostrado, configuración ya empleada por el equipo en instalaciones de menor escala, que solo recibe el volumen de cada pulso) y expone **la verificación hecha en esta tesis** (cargas verticales y estimación de sismo y vuelco) con sus resultados. Los resultados desfavorables se informan como resultados (por ejemplo, "la estabilidad lateral depende del arriostramiento"), no como omisiones. La redacción no debe afirmar más de lo verificado.
+
+### Verificación (ASD; Fy = 250 MPa supuesto, 0,6 Fy = 150 MPa; 4 barras y 4 columnas; carga W = 135 kg)
+**Barras superiores** (biapoyadas; la luz es 0,75 o 0,95 m según el sentido, a confirmar en la lámina):
+
+| Reparto de la carga | Luz (m) | Esfuerzo (MPa) | Razón (÷ 150) | Flecha (mm) |
+|---|---|---|---|---|
+| Distribuida (el barril apoya en las 4 barras) | 0,75 | 55 | 0,37 | 2,2 (L/347) |
+| Distribuida | 0,95 | 70 | 0,47 | 4,4 (L/217) |
+| Puntual al centro (conservador) | 0,75 | 111 | 0,74 | 3,5 (L/217) |
+| Puntual al centro (conservador) | 0,95 | 140 | 0,93 | 7,0 (L/135) |
+
+**Columnas** (4 de 1,5 m, K = 1): carga por columna 0,33 kN; carga admisible por pandeo 1,94 kN (razón 0,17); **esbeltez KL/r = 340**, sobre el límite recomendado de 200 (AISC 360) para barras en compresión.
+
+**Lectura para la tesis:**
+- **Por resistencia, el marco cumple con la carga de operación** (razón de las barras 0,37–0,93, aun en el caso puntual más conservador).
+- **Por deformación**, las barras bajan 2,2 a 4,4 mm (L/347 a L/217) con carga distribuida (hasta 7 mm en el caso puntual); esa flecha no inclina el estanque (baja el tanque entero, y el sifón va unido a él). El estanque debe quedar nivelado al montarlo.
+- **Las columnas son muy esbeltas** (KL/r = 340): trabajan poco por compresión (razón 0,17), pero su estabilidad lateral depende del arriostramiento diagonal (dibujado en una sola cara) y de la fundación.
+- **Sensibilidad:** si el dosificador quedara lleno (200 L, ≈ 2,1 kN), las razones suben a 0,59–0,74 (distribuida, cumple) y 1,17–1,49 (puntual, no cumple). Por eso se opera con el volumen del pulso y **no se llena completamente**.
+
+**Sismo, viento y vuelco: estimación preliminar (no es una verificación completa).** El perfil de 6 mm es más robusto que el de 3 mm, pero **ser más grueso no garantiza que cumpla sismo y viento**: las columnas siguen siendo esbeltas.
+- Supuestos: C = 0,35 (el de la pregunta 1, categoría I, suelo C; no es el coeficiente específico de equipos), peso sísmico 1,57 kN (agua y tanque 1,32 kN + marco ≈ 0,25 kN), centro de gravedad a ≈ 1,9 m sobre el suelo → fuerza horizontal ≈ 0,55 kN y momento de vuelco ≈ 1,06 kN·m.
+- **Vuelco:** el peso solo estabiliza ≈ 0,59 kN·m (base de 0,75 m), menos que el vuelco; el marco **depende del anclaje** a la fundación. La tracción por lado es ≈ 0,7 kN, muy baja para los pernos y la fundación de 1 × 1 m, pero hay que verificarlo.
+- **Columnas en la dirección sin diagonal:** con pórtico rígido (soldado), la flexión es ≈ 0,10 kN·m por columna frente a ≈ 0,084 kN·m admisibles (razón ≈ 1,3): **marginal**. En la dirección con diagonal, el esfuerzo es pequeño.
+- **Viento:** no se calculó; la superficie expuesta es pequeña y la fuerza menor que la sísmica.
+- Conclusión: **resultado preliminar y sensible a los supuestos** (C, altura del centro de gravedad, rigidez de las uniones). Para la tesis, declararlo como verificación aproximada y recomendar completar el cálculo (o agregar una diagonal en la otra cara).
+
+### Respuesta (borrador, a repasar)
+> La estructura auxiliar de cada dosificador es un marco de acero arriostrado de 0,75 × 0,95 m en planta y 1,50 m de alto, de perfil de 15 × 15 × 6 mm (pared gruesa, de comportamiento casi macizo), una configuración liviana ya empleada por el equipo en instalaciones de menor escala. El marco solo recibe el volumen de cada pulso (≈ 120 kg de agua y 15 kg del tanque), no la capacidad total del estanque de 200 L. Para esa carga, las barras de apoyo trabajan a razones de 0,4 a 0,9 de lo admisible, con flechas de 2 a 7 mm, y las columnas a 0,17 de su carga de pandeo; las columnas son esbeltas (KL/r = 340), por lo que su estabilidad lateral frente a sismo y viento depende del arriostramiento y del anclaje a la fundación; el vuelco y la flexión de las columnas se estimaron con el coeficiente sísmico de la torre (C = 0,35). Se recomienda operar el dosificador con el volumen del pulso y no llenarlo.
 
 ### Avisos
-- El perfil es un **supuesto** (no hay compra confirmada); el peso del tanque vacío (15 kg) y el reparto de la carga en las vigas también.
-- No se verificó la fijación del bastidor a la estructura principal ni al suelo, ni el sismo (NCh2369) sobre el equipo; seguir el mismo criterio de la pregunta 1 si el profesor lo pide.
-- El itemizado (100 ml) no coincide con la lámina; cubicar de nuevo.
+- **INTERNO (no va en la tesis):** el marco no tuvo cálculo previo; por eso la tesis presenta la verificación hecha ahora. Si se quiere mostrar una verificación completa, falta calcular el viento (NCh432) y completar el sismo con el coeficiente específico de equipos, y revisar pernos y fundación; la estimación actual deja las columnas de la dirección sin diagonal en razón ≈ 1,3 (marginal), que se resuelve agregando una diagonal en la otra cara o justificando la rigidez de las uniones soldadas.
+- Peso del tanque y sifón (15 kg), C = 0,35, las 4 barras y la luz 0,75/0,95 m son supuestos; Fy = 250 MPa es supuesto (no hay certificado del perfil).
+- Sismo y vuelco con **estimación** (ver arriba); viento, pernos y fundación de 1 × 1 m sin verificar todavía (tarea interna, no se menciona como omisión en la tesis). La lámina 3.2 indica excavación de estas fundaciones a NT −0,1 m, y la 3.1 las dibuja de ≈ 0,50 m: verificar.
+- Itemizado 2.1.9: 100 **ml** (metros lineales). Las láminas suman del orden de 45–50 m de perfil en los 3 marcos (cifra aproximada); revisar la cubicación (puede haber excedente).
+- El archivo `03_seleccion/notas/2026-11-20_respuestas-preguntas-autor.md` del repositorio contiene una versión **anterior** de esta pregunta (perfil 40 × 40 × 2 mm y bastidor de vigas): **reemplazarla por esta**.
+
+### Fuentes en el repositorio
+- Láminas `02_material_bruto/planos/EE-ATE250033_3.1_...parte1.jpg` y `3.2_...parte2.jpg`; `04_analisis/datos/itemizado_rev1.csv` (2.1.9); `tesis/tablas/itemizado.tex`; `tesis/anexos/generados/eett_cuerpo.tex` (línea 72); `tesis/capitulos/04_resultados.tex` (≈ línea 290); `tesis/anexos/anexo_planimetria_estructural.tex` (≈ línea 21).
 
 ### Acciones para Claude Code
-- `04_resultados.tex` (≈ línea 274): reemplazar el `\revisar` de la estructura de los dosificadores por la verificación anterior y la nota sobre el rotulado.
-- `04_analisis/scripts/10_estructura.py`: agregar la verificación de las vigas del bastidor y su salida en `estructura_verificacion.csv`.
-- `anexo_itemizado.tex` / `itemizado_rev1.csv` (partida 2.1.9): señalar que "15x15x6 mm" es un error y que la cantidad (100 ml) debe cubicarse; corregir la lámina 3.2.
-- Registrar el supuesto en `DECISIONES.md`.
+- `04_resultados.tex` (≈ línea 290) y `anexo_planimetria_estructural.tex` (≈ línea 21): eliminar el `\revisar` del "perfil imposible"; agregar la subsección de la estructura auxiliar con la descripción del marco, la carga de operación (120 kg + 15 kg), la tabla de verificación y las limitaciones, con la redacción de "criterio constructivo" (sin escribir "no se calculó" ni "se copió"; revisar la redacción con el autor).
+- **El perfil comprado de la estructura auxiliar es de 15 × 15 × 6 mm** (confirmado por el autor). Las frases "no se calculó", "se copió" y "no se evaluó/verificó" **no deben aparecer en el texto de la tesis**. **No cambiar** el espesor (es el valor de láminas, itemizado y EETT). Corregir solo el nombre de la partida 2.1.9 a "estructura auxiliar" y revisar la cubicación (100 ml).
+- `04_analisis/scripts/10_estructura.py`: agregar la verificación del marco auxiliar (barras, columnas por pandeo, esbeltez y estimación sísmica/vuelco) con los datos anteriores y su salida en `estructura_verificacion.csv`/`tablas/verificacion_estructural.tex`.
+- `05_discusion.tex` y `06_conclusiones.tex`: limitación (esbeltez; sismo/viento/vuelco no verificados) y recomendación de operación (no llenar el dosificador).
+- Reemplazar la sección de la pregunta 12 en `03_seleccion/notas/2026-11-20_respuestas-preguntas-autor.md`; actualizar `PREGUNTAS_REUNION.md` y `DECISIONES.md`.
 
 ---
 
-*(Las preguntas 13, 14 y 17 no se pueden responder con el repositorio y quedan **pendientes del profesor** (texto de la NCh3456, anexo de referencias bibliográficas ANID y observaciones escritas del profesor).)*
+## Preguntas 13, 14 y 17 — Norma de reúso, anexo de referencias y observaciones del profesor — RESUELTAS como tareas internas del autor (2026-11-20)
+
+### Decisión del autor
+- **Ninguna de las tres deja una nota o pregunta en el texto de la tesis.** Son **tareas internas del autor**, que las gestionará al enviar el documento completo de la **versión 4** al profesor.
+- **Pregunta 17 (observaciones escritas sobre la v3.0):** no hay observaciones actuales. El documento que se está preparando es la **versión 4**; aún no se envía. Las observaciones llegarán cuando el autor la envíe.
+- **Pregunta 14 (anexo "Bibliographic-references-2025" de la propuesta):** tarea interna; el autor lo pedirá junto con el envío de la versión 4. Mientras tanto, no se deja ninguna nota en el texto.
+- **Pregunta 13 (NCh3456):** el autor pedirá la norma al profesor al enviar la versión 4.
+  - Si el profesor la tiene, se cita directamente.
+  - Si no la tiene, se evalúa si se puede citar por otra vía (por ejemplo, a través de Vera-Puerto et al., 2022, o las memorias CEAZA).
+  - Si no hay forma de citarla, **no se cita**.
+
+### Acciones para Claude Code
+- **No dejar** `\pendiente`, `\revisar`, notas ni preguntas en el texto de la tesis sobre estas tres preguntas.
+- **Norma de reúso (13):** revisar los lugares donde la tesis cita la NCh3456 o la "Categoría D" (capítulos 2 y 4 y bibliografía). Mantener solo las citas que se sostengan con las fuentes ya archivadas en el repositorio (Vera-Puerto et al., 2022; memorias CEAZA 2025). Si alguna afirmación depende del texto de la norma, que se apoye en esa fuente secundaria o se elimine; no inventar el texto de la norma.
+- **Referencias (14):** si hay citas de Vera-Puerto et al. (2021a, 2021b, 2023 y 2024) con datos incompletos, completarlas con lo que haya en las fichas del repositorio, sin dejar notas. Si faltan datos, usar solo los verificados.
+- En `PREGUNTAS_REUNION.md` y `DECISIONES.md`: marcar 13, 14 y 17 como "tarea interna del autor; se gestiona al enviar la versión 4". Agregar a una lista de tareas internas (por ejemplo en `ESTADO.md`): (1) pedir al profesor la NCh3456, (2) pedir el anexo de referencias de la propuesta, (3) recoger las observaciones de la versión 4.
+
+---
+
+*(Todas las preguntas quedan respondidas en este documento. Quedan solo los puntos señalados en los "Avisos" de cada respuesta, que el autor puede revisar antes de enviar la versión 4.)*
