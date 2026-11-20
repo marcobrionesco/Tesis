@@ -5,6 +5,14 @@
 
 ---
 
+## 2026-11-20 (noche, 18) — Experiencias con humedales verticales (Sudamérica y Chile)
+
+- `platzer2016long` verificada y corregida (actas IWA Gdańsk; páginas no verificables eliminadas). Nuevas: `altafin2020innovaciones`
+  (BID), `vera2025atrapaniebla` y `vera2025nichos` (memorias CEAZA del profesor guía, también en `05_ejemplos/` con ficha).
+- Cap. 2: límites de Platzer (< 200 mm/d; ≤ 32 g DBO₅/m²·d), brecha en Chile (Altafin) y diseños CEAZA (COS < 35 g DQO/m²·d).
+- Cap. 5: las cargas de la Fase 1 quedan dentro de esos límites. Pregunta 13 actualizada (NCh3456, Cat. D).
+- Louage et al. (2026): preprint, archivado sin citar.
+
 ## 2026-11-20 (noche, 17) — Cross et al. (2021), Nature-Based Solutions for Wastewater Treatment
 
 - Libro recibido: entrada `cross2021nature` corregida (eran editores, no autores; + DOI). Nueva `langergraber2021vertical` (ficha HCFV).

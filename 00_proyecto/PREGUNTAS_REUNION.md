@@ -92,7 +92,7 @@ Respuesta: __________________________________________________________
 
 # C. Prioridad baja (formato y referencias)
 
-**13.** Título exacto de la norma de reúso **NCh3456 (INN, 2022)** citada en la propuesta.
+**13.** Norma de reúso: en sus memorias CEAZA (2025) aparece como "NCh3456 Directrices para el uso de aguas residuales tratadas en proyectos de riego, Partes 1–4 (versiones comité), 2021" y en el texto como (INN, 2022), con la Categoría D (DBO~5~ 35 mg/L, SST 80 mg/L). ¿Qué parte y año cito, y me puede facilitar el texto?
 
 **14.** ¿Me puede facilitar el anexo "Bibliographic-references-2025" de la propuesta
 (referencias completas de Vera-Puerto et al. 2021a, 2021b, 2023 y 2024)?

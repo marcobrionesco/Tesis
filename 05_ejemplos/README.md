@@ -37,3 +37,5 @@ ni se copian; se **estudian**. Aquí va lo mismo para la tesis.
 | `tesis/2026_ucm_arancibia_escorrentia-cuencas-mediterraneas` | Tesis UCM 2026 (guía: Dr. Barrientos) | Baja: modelo de "área de estudio" y "datos" | `fichas/2026_ucm_arancibia_…md` |
 
 Cada PDF tiene al lado un `.md` con el texto extraído (para que cualquier IA lo lea).
+
+| `memorias_calculo/2025_ceaza_memoria-diseno-hcfv-atrapaniebla` y `…-aireado-los-nichos` | Memorias de diseño CEAZA 2025 (autor: Dr. Vera Puerto) | **Muy alta**: mismo método y tipo de sistema experimental | `fichas/2025_ceaza_memorias-diseno-hcfv.md` |
