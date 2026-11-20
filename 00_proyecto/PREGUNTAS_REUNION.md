@@ -17,7 +17,7 @@ y la norma exige que al menos el 80 % del área de cada zapata quede apoyada (co
 daba 85 % (cumple); con 2 pilares en voladizo, la zapata vuelca. Para rehacerlo necesito definir:
 (a) ¿NCh2369:2003 o 2025 (oficializada el 9-03-2026, con transición)? (b) ¿Categoría de ocupación I (I = 0,8) o II
 (I = 1,0)? (c) ¿Sistema resistente: marco a momento sin anclajes dúctiles (R = 3) u otro? (d) ¿Tipo de suelo (no hay
-mecánica de suelos)? (e) ¿El tablero y las vigas trabajan como diafragma que reparte el sismo entre los 6 pilares?
+mecánica de suelos)? Con Terzaghi (Das, 2015), los 150 kPa admisibles supuestos equivalen a una arena con φ′ ≈ 32°; ¿se acepta ese supuesto o se pide un ensayo? (e) ¿El tablero y las vigas trabajan como diafragma que reparte el sismo entre los 6 pilares?
 
 Respuesta: __________________________________________________________
 
