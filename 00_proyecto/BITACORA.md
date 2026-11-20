@@ -5,6 +5,14 @@
 
 ---
 
+## 2026-11-20 (noche, 8) — Bibliografía de aguas con agroquímicos
+
+- 5 documentos archivados (uno escaneado, OCR) con ficha conjunta. Nuevas referencias: `saleh2020removal`,
+  `ignatowicz2023treatment`, `mussali2023biobeds`.
+- Cap. 2: origen y composición de las aguas con plaguicidas; tabla 2.1 con pH, DQO y DBO (cotas de efluentes de producción);
+  párrafo sobre humedales verticales para aguas con plaguicidas y biolechos.
+- Pendiente: columna del estero de la tabla 2.1; usar Ignatowicz et al. en la discusión de la línea de agroquímicos.
+
 ## 2026-11-20 (noche, 7) — NCh2369:2025
 
 - Norma archivada (3 partes, escaneada, OCR); fórmulas y Tablas 2, 3, 6 y 7 leídas en imagen. Nueva referencia `inn2025nch2369`.

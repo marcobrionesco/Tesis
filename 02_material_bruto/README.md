@@ -58,3 +58,4 @@ en un `.md`.
 - `papers/2014_vidal-araya_aguas-servidas-zonas-rurales_parte1–2.pdf`: libro UdeC (GIBA/EULA). Ficha: `03_seleccion/fichas_lectura/araya2014aguas.md`.
 - `papers/2005_uchile-sag_criterios-calidad-agua-riego_resumen-ejecutivo.pdf` y `papers/2025_achipia-indap_manual-reutilizacion-aguas-grises.pdf`. Ficha: `03_seleccion/fichas_lectura/2005-2025_documentos-riego-y-aguas-grises.md`.
 - `normas/nch2369-2025_parte1–3.pdf` (+ `nch2369-2025_ocr.md`): NCh2369:2025 (escaneada; copia con licencia personal de terceros, no distribuir). Ficha: `03_seleccion/fichas_lectura/inn2025nch2369.md`.
+- `papers/2020_saleh…`, `2023_ignatowicz…`, `2023_mussali-galante…`, `2009_fogg…`, `1986_gonzalez…` (+ `.md`): aguas con agroquímicos y calidad de agua de riego. Ficha: `03_seleccion/fichas_lectura/aguas-agroquimicos_2026-11-20.md`.

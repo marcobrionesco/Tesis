@@ -27,33 +27,37 @@ En Chile, se consideran aguas servidas de tipo rural las originadas en asentamie
 
 Las aguas residuales se caracterizan mediante parámetros físicos (sólidos, temperatura, turbiedad), químicos (pH; nutrientes como nitrógeno y fósforo en sus distintas formas; materia orgánica medida como demanda química y bioquímica de oxígeno) y biológicos (microorganismos patógenos, para los que se emplean los coliformes como indicador)~\parencite{araya2014aguas,tchobanoglous2014wastewater}.
 La composición varía según el origen del agua: las aguas servidas domésticas presentan altas concentraciones de materia orgánica biodegradable, nitrógeno amoniacal y microorganismos de origen fecal, con concentraciones de nitrato prácticamente nulas~\parencite{araya2014aguas}; las aguas de lavado de equipos de aplicación de agroquímicos contienen residuos de plaguicidas y fertilizantes; y las aguas superficiales de cauces agrícolas reciben aportes difusos de nutrientes, sedimentos y descargas puntuales.
-\pendiente{Fuentes para la caracterización típica de aguas de lavado de agroquímicos y de aguas superficiales de esteros agrícolas (idealmente Chile o Latinoamérica, últimos 10 años).}
+
+Las aguas residuales con plaguicidas se generan en tres momentos del manejo agrícola: la preparación de las mezclas, donde pueden derramarse soluciones concentradas; la aplicación en el campo, y el manejo y lavado de los equipos de aplicación, que produce volúmenes importantes de agua con bajas concentraciones de plaguicidas~\parencite{mussali2023biobeds}.
+Su composición es muy variable: el pH puede ir desde valores muy ácidos (\num{0.5}) hasta muy alcalinos (14), las concentraciones de plaguicidas varían entre \num{0.1} y \qty{107}{\milli\gram\per\liter}, y en los efluentes de la producción de plaguicidas se han reportado DQO de 150 a \qty{33750}{\milli\gram\per\liter} y DBO de 30 a \qty{11590}{\milli\gram\per\liter}~\parencite{saleh2020removal}.
+\pendiente{Fuente para la caracterización típica de aguas superficiales de esteros agrícolas (idealmente Chile, últimos 10 años).}
 
 La \cref{tab:caracteristicas-tipicas} resume los rangos de concentración reportados en la literatura para aguas similares a las tres fuentes consideradas en este trabajo.
 
 \begin{table}[htbp]
   \centering
-  \caption{Características típicas de aguas residuales similares a las tres fuentes de este trabajo. Fuente: adaptado de \textcite{araya2014aguas}.}
+  \caption{Características típicas de aguas residuales similares a las tres fuentes de este trabajo. Fuente: adaptado de \textcite{araya2014aguas} y \textcite{saleh2020removal}.}
   \label{tab:caracteristicas-tipicas}
   \begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.2cm}>{\centering\arraybackslash}p{3cm}>{\centering\arraybackslash}p{3cm}>{\centering\arraybackslash}p{3cm}@{}}
     \toprule
     Parámetro & Aguas servidas rurales (Chile)\,\textsuperscript{a} & Lavado de agroquímicos & Agua superficial (estero) \\
     \midrule
-    pH & 6,5--8,5\,\textsuperscript{b} & \pendiente{} & \pendiente{} \\
-    DQO (\unit{\milli\gram\per\liter}) & 200--1600 & \pendiente{} & \pendiente{} \\
-    DBO$_5$ (\unit{\milli\gram\per\liter}) & 200--500 & \pendiente{} & \pendiente{} \\
-    SST (\unit{\milli\gram\per\liter}) & 100--500 & \pendiente{} & \pendiente{} \\
-    NT (\unit{\milli\gram\per\liter}) & 35--100 & \pendiente{} & \pendiente{} \\
-    NH$_4^+$ (\unit{\milli\gram\per\liter}) & 6--60 & \pendiente{} & \pendiente{} \\
-    NO$_3^-$ (\unit{\milli\gram\per\liter}) & $< 1$ & \pendiente{} & \pendiente{} \\
-    PT (\unit{\milli\gram\per\liter}) & 6--30 & \pendiente{} & \pendiente{} \\
-    Coliformes fecales (NMP/\qty{100}{\milli\liter}) & $10^{6}$--$10^{10}$ & \pendiente{} & \pendiente{} \\
+    pH & 6,5--8,5\,\textsuperscript{b} & 0,5--14\,\textsuperscript{c} & \pendiente{} \\
+    DQO (\unit{\milli\gram\per\liter}) & 200--1600 & 150--33750\,\textsuperscript{d} & \pendiente{} \\
+    DBO$_5$ (\unit{\milli\gram\per\liter}) & 200--500 & 30--11590\,\textsuperscript{d} & \pendiente{} \\
+    SST (\unit{\milli\gram\per\liter}) & 100--500 & --- & \pendiente{} \\
+    NT (\unit{\milli\gram\per\liter}) & 35--100 & --- & \pendiente{} \\
+    NH$_4^+$ (\unit{\milli\gram\per\liter}) & 6--60 & --- & \pendiente{} \\
+    NO$_3^-$ (\unit{\milli\gram\per\liter}) & $< 1$ & --- & \pendiente{} \\
+    PT (\unit{\milli\gram\per\liter}) & 6--30 & --- & \pendiente{} \\
+    Coliformes fecales (NMP/\qty{100}{\milli\liter}) & $10^{6}$--$10^{10}$ & --- & \pendiente{} \\
     \bottomrule
-    \multicolumn{4}{@{}p{0.97\textwidth}@{}}{\footnotesize \textsuperscript{a} Aguas servidas sin tratar de tipo rural, según \textcite{araya2014aguas}, a partir de Vera (2012). \textsuperscript{b} Rango general de las aguas servidas \parencite{araya2014aguas}.}
+    \multicolumn{4}{@{}p{0.97\textwidth}@{}}{\footnotesize \textsuperscript{a} Aguas servidas sin tratar de tipo rural, según \textcite{araya2014aguas}, a partir de Vera (2012). \textsuperscript{b} Rango general de las aguas servidas \parencite{araya2014aguas}. \textsuperscript{c} Aguas contaminadas con plaguicidas \parencite{saleh2020removal}. \textsuperscript{d} Efluentes de la producción de plaguicidas, más concentrados que las aguas de lavado de equipos \parencite{saleh2020removal}. ---: sin datos en las fuentes revisadas.}
   \end{tabular}
 \end{table}
 Como referencia internacional, \textcite{dotro2021humedales} consideran para el agua residual doméstica cruda 150~L, 120~g de DQO, 60~g de DBO$_5$ y 11~g de NTK por habitante equivalente y día, lo que equivale a unos \qty{800}{\milli\gram\per\liter} de DQO y \qty{73}{\milli\gram\per\liter} de NTK; en Chile, las cargas unitarias de las aguas servidas rurales son de 50 a 125~g de DQO y de 2 a 15~g de NTK por habitante y día~\parencite{araya2014aguas}.
-\pendiente{Completar las columnas de lavado de agroquímicos y de estero con fuentes reales (ver 03\_seleccion/notas/2026-11-20\_verificacion\_dossier-gemini.md) o dejarlas como descripción cualitativa y apoyarse en los datos propios de la caracterización.}
+No se encontró una caracterización típica de las aguas de lavado de equipos de aplicación en términos de nutrientes y sólidos, por lo que la línea de agroquímicos se diseña con los datos propios de la caracterización.
+\pendiente{Completar la columna del estero con fuentes reales.}
 
 \section{Soluciones Basadas en la Naturaleza}
 \label{sec:mt-sbn}
@@ -79,6 +83,10 @@ Debido a las condiciones oxidantes dentro del lecho, los humedales construidos d
 Al mismo tiempo, en un HCFV de una sola etapa la eliminación de nitrógeno total se limita a un 20 a \qty{30}{\percent}~\parencite{dotro2021humedales}, por lo que la mayor parte del nitrógeno afluente abandona el sistema como nitrato.
 Esta característica es la razón principal de su selección para el presente trabajo: el nitrato es la forma de nitrógeno que las plantas absorben preferentemente, por lo que un efluente nitrificado resulta favorable para su reutilización en riego agrícola.
 \pendiente{falta fuente: absorción preferente de nitrato por los cultivos (idealmente referida a frutales o cerezo).}
+
+Los humedales de flujo vertical también se han estudiado para tratar aguas agrícolas con plaguicidas.
+\textcite{ignatowicz2023treatment} operaron a escala piloto humedales de flujo subsuperficial vertical plantados con \textit{Phragmites australis}, construidos en estanques de polietileno de \qty{120}{\liter} con tres capas de \qty{0.15}{\meter}, \qty{0.40}{\meter} y \qty{0.15}{\meter} de material de distinta granulometría, para tratar aguas con los fungicidas boscalid y piraclostrobina, de uso habitual en fruticultura; obtuvieron tiempos de vida media de los plaguicidas de 2,3 a \qty{3.8}{\day}.
+Como alternativa para estos residuos se emplean los biolechos (\textit{biobeds}), sistemas de remediación microbiana desarrollados en Suecia para tratar el agua de lavado de los equipos de aplicación y los derrames~\parencite{mussali2023biobeds}.
 
 \subsection{Diseño}
 

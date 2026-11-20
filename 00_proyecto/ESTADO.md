@@ -5,6 +5,13 @@
 
 **Última actualización:** 2026-11-20
 
+## ✅ Recibido 2026-11-20: bibliografía de aguas con agroquímicos
+
+- Citadas: Saleh et al. (2020) (pH, DQO, DBO de aguas con plaguicidas → tabla 2.1), Ignatowicz et al. (2023) (humedal vertical
+  piloto en estanques de PE de 120 L para fungicidas de fruticultura) y Mussali-Galante et al. (2023) (biolechos).
+- Archivadas sin citar: Fogg y Fogg (2009, hoja técnica) y González (1986, calidad de aguas de riego).
+- Tabla 2.1: falta solo la columna del estero.
+
 ## ✅ Recibido 2026-11-20: NCh2369:2025
 
 - Escaneada → OCR + lectura de fórmulas en imagen; ficha `03_seleccion/fichas_lectura/inn2025nch2369.md`; ref. `inn2025nch2369`.
