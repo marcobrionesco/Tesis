@@ -5,6 +5,13 @@
 
 ---
 
+## 2026-11-20 (noche, 10) — Calidad de aguas superficiales
+
+- 4 documentos archivados con ficha. Citado: Sigoña et al. (2025) (`sigona2025pesticide`): diurón y fosetil-Al en la cuenca
+  Putagán-Loncomilla → cap. 2 y nueva fila de plaguicidas en la tabla 2.1. Sin citar: Girardi et al. (2018), DGA (2012, Elqui),
+  Osorno (2026, río Damas). Ninguno da caudales para el estero Batuco.
+- Pendiente: parámetros convencionales de esteros agrícolas (tabla 2.1, columna del estero).
+
 ## 2026-11-20 (noche, 9) — Biolechos: manual AAFC (2018) y folleto FAO/JTI (2016)
 
 - Archivados con ficha. Nueva referencia `braul2018robust` (cap. 2: volumen típico de enjuague 5000–7000 L/año, dimensionamiento y

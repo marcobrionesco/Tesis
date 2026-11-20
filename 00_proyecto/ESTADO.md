@@ -10,7 +10,7 @@
 - Citadas: Saleh et al. (2020) (pH, DQO, DBO de aguas con plaguicidas → tabla 2.1), Ignatowicz et al. (2023) (humedal vertical
   piloto en estanques de PE de 120 L para fungicidas de fruticultura) y Mussali-Galante et al. (2023) (biolechos).
 - Archivadas sin citar: Fogg y Fogg (2009, hoja técnica) y González (1986, calidad de aguas de riego).
-- Tabla 2.1: falta solo la columna del estero.
+- Tabla 2.1: columna del estero solo con plaguicidas (Sigoña et al., 2025); faltan parámetros convencionales.
 - Braul et al. (2018, AAFC): un predio típico genera 5000–7000 L/año de enjuague → revisar caudal de la línea de agroquímicos (pregunta 5).
 
 ## ✅ Recibido 2026-11-20: NCh2369:2025
