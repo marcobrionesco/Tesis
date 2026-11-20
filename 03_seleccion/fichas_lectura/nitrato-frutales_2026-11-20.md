@@ -24,3 +24,11 @@
 ## Pendiente
 
 - Fuente de fisiología vegetal (libro de nutrición mineral o revisión) sobre absorción de nitrato frente a amonio, si el profesor quiere mantener la idea.
+
+## Sommer (2016) — *Species-specific effects on the carbon and nitrogen cycle in temperate deciduous forest* — no citado
+
+- Tesis doctoral, Georg-August-Universität Göttingen (octubre 2016). PDF en 3 partes en `02_material_bruto/papers/2016_sommer_…`.
+- Trata de **árboles de bosque** (haya y fresno) y de **álamo y sauce** en plantaciones de rotación corta; marcaje con ¹³C y ¹⁵N.
+- Estudio 6 (maceta): álamo cv. Max 1 con **fuerte preferencia por nitrato**; sauce cv. Tordis con menor preferencia → la preferencia por nitrato o amonio es **propia de cada especie**.
+- **No trata la nitrificación en humedales** ni frutales: no respalda la selección del humedal vertical. Solo confirma, de forma indirecta, que no existe una preferencia general por nitrato (coherente con Schwitzky et al., 2026). Además, una tesis doctoral es una fuente de validez dudosa según la normativa.
+- La nitrificación en humedales verticales ya está respaldada en la tesis con Dotro et al. (2021).

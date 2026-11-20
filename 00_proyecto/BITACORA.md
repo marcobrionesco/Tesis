@@ -5,6 +5,10 @@
 
 ---
 
+## 2026-11-20 (noche, 13) — Tesis de Sommer (2016)
+
+- Archivada sin citar: trata de árboles de bosque; la preferencia por nitrato es específica de cada especie. No aporta sobre nitrificación en humedales (ya respaldada con Dotro et al., 2021).
+
 ## 2026-11-20 (noche, 12) — Bibliografía sobre nitrato en frutales
 
 - 3 artículos archivados con ficha. Ninguno respalda que las plantas prefieran nitrato; Schwitzky et al. (2026) muestran
