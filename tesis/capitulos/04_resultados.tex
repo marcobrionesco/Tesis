@@ -208,8 +208,29 @@ Definir con el profesor guía el criterio de caudal para cada línea (p.\ ej.\ i
 La red de impulsión de aguas servidas (sector 1.1) se diseñó utilizando tubería de PVC hidráulico de \qty{50}{\milli\meter} de diámetro, con una conducción principal de \qty{95}{\meter} de longitud.
 Las redes de impulsión de aguas del estero y de agroquímicos se materializaron en tuberías de PVC hidráulico de \qty{25}{\milli\meter}, con longitudes de \qty{140}{\meter} y \qty{80}{\meter}, respectivamente.
 
-\pendiente{Resultado faltante en la v3.0: tabla por línea con caudal, velocidad, pérdidas por fricción (m.c.a.), pérdidas singulares (m.c.a.), desnivel geométrico, ADT final, punto de operación y bomba seleccionada.
-Incluir la curva de la bomba con el punto de operación y el efecto del circuito de retorno (bypass) para el caudal de microrriego de \qty{160}{\liter\per\hour}.}
+La \cref{tab:bombas-adt} presenta la altura dinámica total (ADT) de cada línea de impulsión, calculada con la ecuación de Hazen-Williams (\cref{ec:hazen}) y las pérdidas singulares (\cref{ec:singulares}) para el caudal de llenado adoptado (\qty{1000}{\liter} en \qty{30}{\minute}, es decir, \qty{0.56}{\liter\per\second}), y para el caudal del microrriego (\qty{160}{\liter\per\hour}).
+
+\begin{table}[htbp]
+  \centering
+  \caption{Altura dinámica total por línea de impulsión (tuberías del itemizado Rev.~1).}
+  \label{tab:bombas-adt}
+  \input{tablas/bombas_adt}
+\end{table}
+
+\revisar{Valores PRELIMINARES generados por el script \texttt{11\_bombas.py} (que reproduce exactamente los resultados del cálculo original del autor).
+Por confirmar: diámetros interiores (supuestos \qty{45.2}{\milli\meter} para PVC~50 y \qty{22.0}{\milli\meter} para PVC~25 PN10, verificar en catálogo), número de piezas especiales y desniveles reales con la topografía (el cálculo original supone \qty{6}{\meter} de succión y \qty{5}{\meter} de impulsión).
+Hallazgo: con PVC de \qty{25}{\milli\meter} y \qty{140}{\meter}, la línea del estero requiere una ADT de unos \qty{31}{\meter}, fuera del rango de las bombas consideradas (Tecson AHS, Ebara DW y DWO); con \qty{40}{\milli\meter} bajaría a unos \qty{14}{\meter}.
+La línea de agroquímicos (\qty{16.4}{\meter}) queda al límite de la AHS-10.
+Las bombas de catálogo parten en caudales de \qtyrange{20}{100}{\liter\per\minute}, muy por sobre los \qty{2.7}{\liter\per\minute} del riego: respaldo del circuito de retorno (\textit{bypass}).
+Falta indicar el modelo de bomba finalmente seleccionado para cada línea (documento CO).}
+
+\subsection{Zanjas y movimiento de tierras}
+
+\pendiente{Presentar los perfiles de las zanjas (cota de terreno, cota de fondo, profundidad de excavación y tapada) y los volúmenes de excavación; resultados preliminares en 04\_analisis/resultados/excavacion\_resumen.csv y excavacion\_perfiles.pdf.}
+\revisar{Con los datos de las corridas guardadas por el autor (pendiente de \qty{2}{\percent}): zanja~1 (\qty{107}{\meter}) con tapada mínima de \qty{1.21}{\meter} y excavación de hasta \qty{2.9}{\meter}; zanja~2 (\qty{21}{\meter}) con excavación de hasta \qty{3.1}{\meter}; zanja~3 (\qty{49}{\meter}, sin corrida guardada) con tapada mínima de solo \qty{0.11}{\meter}, menor que los \qty{0.50}{\meter} exigidos.
+Excavaciones sobre \qty{1.5}{\meter} requieren entibación o talud (NCh349).
+El cálculo original usa un tubo de \qty{52}{\milli\meter}, pero las EETT especifican PVC sanitario de \qty{110}{\milli\meter}; el documento de resultados indica \qty{37}{\meter} para la zanja de oficinas y el script, \qty{21}{\meter}.
+Confirmar el ancho de zanja (supuesto \qty{0.40}{\meter}) para cubicar.}
 
 \section{Cálculo estructural y planimetría (objetivo específico 2)}
 \label{sec:res-estructural}
@@ -220,16 +241,31 @@ La plataforma elevada, de \qtyproduct{5.00 x 2.00}{\meter} en planta y \qty{2.25
 La estructura soporta tres estanques de acumulación de \qty{1000}{\liter} cada uno, junto con tres dosificadores de \qty{200}{\liter}.
 \revisar{Perfiles confirmados por las láminas 3.1--3.2, las especificaciones técnicas y el itemizado (la discusión de la v3.0 indicaba otros).}
 
-\pendiente{Resultado faltante en la v3.0: tabla de verificación por elemento con $M_u$, $V_u$, $P_u$, $\phi M_n$, $\phi V_n$, $\phi P_n$, razón de utilización y deflexión.
-La discusión cita una razón de trabajo a flexión de \qty{7.2}{\percent}, un índice de interacción flexocompresiva máximo de \qty{18.8}{\percent} y una deflexión máxima de \qty{3.81}{\milli\meter}: estos valores deben presentarse primero aquí, con su memoria de cálculo.
-Incluir también el corte basal sísmico y el coeficiente sísmico utilizado.}
+La \cref{tab:verificacion-estructural} resume la verificación de los elementos de la plataforma con las dimensiones finales, según el método LRFD (AISC~360-16) y las combinaciones $\num{1.2}D + \num{1.6}L$ y $\num{1.2}D + \num{1.0}L + \num{1.4}E$.
+Cada estanque lleno aporta \qty{10.2}{\kilo\newton}, y el peso sísmico de la cubierta es de \qty{42.6}{\kilo\newton}.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Verificación estructural de la plataforma (dimensiones finales: láminas 3.1--3.2 y EETT).}
+  \label{tab:verificacion-estructural}
+  \input{tablas/verificacion_estructural}
+\end{table}
+
+\revisar{Resultados PRELIMINARES generados por el script de verificación estructural de 04\_analisis, que actualiza el cálculo original del autor (hecho para una plataforma de $\qtyproduct{5.50 x 3.00}{\meter}$, perfiles $250 \times 250 \times 6$, estanques de \qty{785}{\liter} y zapata de $\qtyproduct{0.8 x 0.8 x 0.4}{\meter}$).
+Hallazgos: (1) el tablero de \qty{15}{\milli\meter} no cumple $L/300$ con el método del autor (tampoco en el cálculo original: \qty{1.85}{\milli\meter} frente a \qty{1.33}{\milli\meter}); cumple con \qty{21}{\milli\meter} o con vigas secundarias cada \qty{0.30}{\meter};
+(2) con el supuesto original (corte sísmico tomado por 2 pilares en voladizo) la zapata no verifica excentricidad ni volcamiento; si el corte se reparte entre los 6 pilares, no hay volcamiento, pero el área en contacto baja a \qty{85}{\percent} (zona~2) y \qty{63}{\percent} (zona~3);
+(3) la placa base de \qty{16}{\milli\meter} queda al límite en zona~3.
+Por definir con el co-guía: zona sísmica, coeficiente sísmico según la NCh2369 vigente (el original usa $C = \num{2.7} A_0/R$), reparto del corte entre pilares y $F_y$ del A270ES.
+Estructura auxiliar de los dosificadores: sin memoria de cálculo, y su perfil \enquote{$15 \times 15 \times 6$~mm} no es físicamente posible (pared de \qty{6}{\milli\meter} en un tubo de \qty{15}{\milli\meter}): revisar.}
 
 \subsection{Diseño de fundaciones superficiales}
 
 Las zapatas de fundación se dimensionaron en $\num{1.00} \times \num{1.00} \times \num{0.50}$~\unit{\meter}, utilizando hormigón grado G30\revisar{la lámina 3.2 indica G25: unificar}, reforzadas con parrilla inferior de barras de \qty{12}{\milli\meter} espaciadas cada \qty{15}{\centi\meter}.
 Las columnas se anclaron mediante placas base de $300 \times 300 \times 16$~\unit{\milli\meter} con pernos tipo J de \qty{19}{\milli\meter}.
 
-\pendiente{Resultado faltante: la presión de contacto de \qty{27.76}{\kilo\pascal} frente a la capacidad admisible de \qty{150}{\kilo\pascal} (citadas en las conclusiones) debe presentarse aquí, para las combinaciones estática y sísmica, indicando de dónde proviene la capacidad admisible (estudio de mecánica de suelos o valor supuesto con fuente).}
+La presión de contacto estática es de \qty{24.2}{\kilo\pascal}, inferior a la capacidad admisible supuesta de \qty{150}{\kilo\pascal} (\cref{tab:verificacion-estructural}).
+\revisar{La capacidad admisible de \qty{150}{\kilo\pascal} es un supuesto del cálculo original (\enquote{suelo tipo C/D competente}), sin estudio de mecánica de suelos: indicarlo como supuesto con fuente o pedir un ensayo.
+La verificación sísmica de la zapata está condicionada a los supuestos indicados en la nota anterior.}
 
 \subsection{Planimetría y expediente técnico}
 

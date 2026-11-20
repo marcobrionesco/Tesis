@@ -24,3 +24,8 @@
 9. **Hormigón de zapatas:** G30 (EETT, itemizado, texto) o G25 (lámina 3.2).
 10. **Capas filtrantes:** las EETT ponen grava 12 mm abajo y gravilla 19 mm arriba "de filtración"; la lámina 2.2 y la tesis: grava (drenaje) – arena 0,60 m (filtración) – grava/gravilla (distribución). Y el itemizado pide 3 m³ de arena y 18 m³ de gravilla (con 18 IBC deberían ser ~10,8 m³ de arena y ~2,7 m³ por cada grava). ¿Cuál es la correcta?
 11. Usar los valores de diseño (DQO 300/400; NH₄⁺ 1,5/1,0) o las medias medidas (338/411; 1,98/1,28)?
+12. **Estructura** (con el cálculo actualizado a las dimensiones finales): el tablero de 15 mm no cumple L/300 con el método del autor (sí 21 mm o vigas secundarias cada 0,30 m); ¿cómo se reparte el corte sísmico (2 pilares en voladizo o los 6 con la cubierta como diafragma)? Con el supuesto original la zapata vuelca; ¿coeficiente sísmico según NCh2369 vigente (el cálculo usa C = 2,7·A0/R)?
+13. **Estructura auxiliar de dosificadores:** sin memoria de cálculo; el perfil "15×15×6 mm" no es posible.
+14. **Bombas:** ¿qué modelo se seleccionó para cada línea? La línea del estero con PVC 25 mm y 140 m requiere ~31 m de ADT (inviable con los catálogos); ¿se aumenta el diámetro o el tiempo de llenado?
+15. **Zanjas:** la zanja 3 (casa) queda con tapada de 0,11 m (exigida 0,50); confirmar sus cotas y el diámetro (52 mm del cálculo vs. 110 mm de las EETT).
+16. **Base de datos vs. resumen de caracterización:** 10 diferencias (ver `04_analisis/resultados/qa_bd_vs_resumen.csv`), entre ellas DQO total de AS1 semana 1 = 2478 mg/L, excluida del resumen. ¿Qué fuente manda y con qué criterio se excluyó ese valor?

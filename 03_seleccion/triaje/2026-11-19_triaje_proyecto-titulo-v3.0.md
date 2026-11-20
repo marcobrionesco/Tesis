@@ -146,3 +146,15 @@ Documentos: inscripción visada, propuesta ANID, correo del guía (23-10-2026), 
 | C13 (nuevo) | Capas filtrantes inconsistentes entre EETT, lámina 2.2 y tesis; cantidades de arena/gravilla del itemizado aparentemente intercambiadas. |
 | C14 (nuevo) | El índice de las EETT es de otro proyecto (pintura, cielo, panel LED); se omitió en el anexo VI. |
 | C15 (nuevo) | Itemizado con numeración incompleta y placas base medidas en m². |
+
+## 9. Revisión tras recibir los cálculos del autor (2026-11-20)
+
+| Hallazgo | Resultado |
+|---|---|
+| C1 (resultados que no se presentaban) | 🟧 Ahora hay tablas preliminares de ADT (4.7) y verificación estructural (4.8), generadas por scripts que reproducen y actualizan los cálculos del autor. |
+| Origen de 7,2 %, 18,8 %, 3,81 mm y 27,76 kPa | Calculados con una versión anterior (perfil 250×250×6, costanera 150×50×3 de 3 m, zapata 0,8×0,8×0,4, plataforma 5,5×3,0 m). Con el diseño final: 9 %, 44–59 %, 0,56 mm y 24,2 kPa. |
+| C16 | El registro del autor muestra que el tablero de 15 mm no cumplía (1,85 > 1,33 mm) pero se concluyó "cumple". Recalculado: 2,91 mm. |
+| C17 | Zapata: con el supuesto sísmico del autor (corte en 2 pilares en voladizo) hay volcamiento. Depende del reparto del corte. |
+| C18 | Estero: ADT ≈ 31 m con PVC 25 mm; inviable con los catálogos. |
+| C19 | Zanja 3: tapada insuficiente; el cálculo usa Ø 52 mm y las EETT, 110 mm. Datos de los scripts ≠ datos de las corridas guardadas (zanjas 1 y 2). |
+| C20 | El cálculo estructural mezclaba tensiones admisibles y cargas mayoradas (pilar) y cargaba una sola viga con todos los estanques: corregido en la versión actualizada. |

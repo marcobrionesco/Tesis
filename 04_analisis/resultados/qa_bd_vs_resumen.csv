@@ -1,0 +1,11 @@
+punto,semana,fecha,parametro,valor_bd,valor_resumen
+AS1,1,15/1/2026,DQO total,2478.00,
+AS2,2,22/1/2026,Potencial de óxido-reducción,89.00,88.6
+AGR1,3,4/3/2026,Potencial de óxido-reducción,4.12,114.2
+AGR1,3,4/3/2026,SST,35.43,35.4
+AGR2,3,4/3/2026,SST,11.40,35.1
+AGR2,3,4/3/2026,Coliformes fecales,5.0x10e3,5.0x104
+AS1,6,24/3/2026,Fósforo total,0.13,0.12
+EST,6,24/3/2026,Nitrato,6.40,7.3
+EST,6,24/3/2026,Nitrógeno total,1.00,0.9
+EST,6,24/3/2026,Fósforo total,0.17,0.16

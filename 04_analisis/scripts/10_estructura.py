@@ -1,0 +1,243 @@
+"""Verificación estructural de la plataforma de estanques — versión actualizada.
+
+Basada en el cálculo original del autor (02_material_bruto/calculos_originales/2026_yo_diseno-estructura-colab.py),
+con las DIMENSIONES FINALES de las láminas 3.1–3.2, las EETT y el itemizado Rev. 1, y con las
+verificaciones LRFD de AISC 360-16 (perfiles tubulares, capítulos E, F, G y H) aplicadas de forma
+consistente.
+
+Diferencias con el cálculo original (ver 04_analisis/README.md):
+- Geometría: plataforma 5,00 × 2,00 m (no 5,50 × 3,00), vanos de 2,28 m (no 2,75), vigas
+  secundarias de 1,70 m de luz (no 3,00) y estanques de 1000 L (no 785 L).
+- Perfiles finales: pilares y vigas principales 150×150×6; vigas secundarias 150×100×3.
+- Cada viga principal recibe la mitad de la carga de los estanques (el original cargaba una sola viga con el total).
+- El pilar se verifica con LRFD (E3 + H1-1); el original mezclaba tensiones admisibles con cargas mayoradas.
+- La combinación sísmica usa 1,2D + 1,0L + 1,4E (tabla 2.2 de la tesis); la zona sísmica queda como parámetro.
+
+Todo dato marcado "SUPUESTO" debe confirmarse antes de llevar los resultados a la versión final.
+Ejecutar desde la raíz del repo:  python 04_analisis/scripts/10_estructura.py
+"""
+import csv
+import math
+from pathlib import Path
+
+RAIZ = Path(__file__).resolve().parents[2]
+RES = RAIZ / "04_analisis/resultados"
+TABLA = RAIZ / "tesis/tablas/verificacion_estructural.tex"
+
+# =============================================================================
+# 1. PARÁMETROS (fuente entre corchetes)
+# =============================================================================
+g = 9.81
+P = dict(
+    largo=5.00, ancho=2.00,            # m   [lámina 3.2]
+    vano_long=2.28,                    # m   [lámina 3.1: pilares a 2,28 m, 3 por lado]
+    luz_sec=1.70,                      # m   [lámina 3.1: separación transversal de pilares]
+    sep_sec=0.40,                      # m   [lámina 3.2: vigas secundarias cada 0,40 m]
+    H_pilar=2.25,                      # m   [lámina 3.1]
+    n_pilares=6,                       # [lámina 3.2]
+    V_estanque=1.000,                  # m3  [EETT / itemizado: 3 estanques de 1000 L]
+    n_estanques=3,
+    D_estanque=1.00,                   # m   [lámina 3.2]
+    m_estanque_vacio=40.0,             # kg  [SUPUESTO del cálculo original]
+    q_tablero=0.50,                    # kN/m2 D [SUPUESTO del cálculo original: tablero + fijaciones]
+    t_tablero=0.015,                   # m   [EETT: tablero fenólico 15 mm]
+    E_madera=11.0e6,                   # kN/m2 [SUPUESTO del cálculo original, pino radiata]
+    K_def_madera=2.0,                  # [SUPUESTO del cálculo original, fluencia lenta]
+    E=2.1e8, Fy=250e3,                 # kN/m2 [cálculo original; A270ES — verificar Fy en NCh203]
+    gamma_acero=77.0,                  # kN/m3
+    K_pilar=2.1,                       # [cálculo original: pilar en voladizo, sin arriostrar]
+    A0_zona={2: 0.30, 3: 0.40},        # g   [NCh433/NCh2369 — zona de Linares por confirmar]
+    R1=3.0,                            # [SUPUESTO del cálculo original]
+    n_pilares_sismo=2,                 # [SUPUESTO conservador del cálculo original: un marco toma el corte]
+    zapata=(1.00, 1.00, 0.50),         # m   [lámina 3.2 / EETT]
+    gamma_hormigon=24.0,               # kN/m3
+    q_adm=150.0,                       # kPa [SUPUESTO del cálculo original — sin estudio de suelos]
+    placa=(0.300, 0.016), dist_pernos=0.22, A_perno=285e-6, Fu_perno=550e3,  # [EETT / cálculo original]
+    fc=25e3,                           # kN/m2 [cálculo original G25; EETT dice G30 — por unificar]
+)
+
+
+def tubo(B, H, t):
+    """Propiedades de un perfil cajón B (ancho) × H (alto) × t (m), eje fuerte."""
+    bi, hi = B - 2 * t, H - 2 * t
+    A = B * H - bi * hi
+    Ix = (B * H**3 - bi * hi**3) / 12
+    Zx = (B * H**2 - bi * hi**2) / 4
+    return dict(B=B, H=H, t=t, A=A, Ix=Ix, Sx=2 * Ix / H, Zx=Zx, r=math.sqrt(Ix / A))
+
+
+def flexion(s):
+    """phi*Mn de un perfil cajón (AISC F7), con control de esbeltez del ala."""
+    E, Fy = P["E"], P["Fy"]
+    lam = (s["B"] - 3 * s["t"]) / s["t"]
+    lp, lr = 1.12 * math.sqrt(E / Fy), 1.40 * math.sqrt(E / Fy)
+    Mp = Fy * s["Zx"]
+    Mn = Mp if lam <= lp else Mp - (Mp - Fy * s["Sx"]) * (3.57 * lam * math.sqrt(Fy / E) - 4.0)
+    return 0.9 * min(Mn, Mp), ("compacta" if lam <= lp else "no compacta" if lam <= lr else "esbelta"), lam
+
+
+def corte(s):
+    """phi*Vn de un perfil cajón (AISC G4, kv = 5)."""
+    h = s["H"] - 3 * s["t"]
+    E, Fy = P["E"], P["Fy"]
+    Cv2 = 1.0 if h / s["t"] <= 1.10 * math.sqrt(5 * E / Fy) else 1.10 * math.sqrt(5 * E / Fy) / (h / s["t"])
+    return 0.9 * 0.6 * Fy * (2 * h * s["t"]) * Cv2
+
+
+def compresion(s, KL):
+    """phi*Pn (AISC E3)."""
+    E, Fy = P["E"], P["Fy"]
+    esb = KL / s["r"]
+    Fe = math.pi**2 * E / esb**2
+    Fcr = (0.658 ** (Fy / Fe)) * Fy if esb <= 4.71 * math.sqrt(E / Fy) else 0.877 * Fe
+    return 0.9 * Fcr * s["A"], esb
+
+
+filas = []  # (elemento, perfil, verificación, demanda, capacidad, unidad, razón)
+
+
+def registrar(elem, perfil, verif, dem, cap, unid):
+    filas.append((elem, perfil, verif, dem, cap, unid, dem / cap))
+
+
+# =============================================================================
+# 2. CARGAS
+# =============================================================================
+m_agua = P["V_estanque"] * 1000
+P_est = (m_agua + P["m_estanque_vacio"]) * g / 1000                        # kN por estanque
+A_apoyo = math.pi * P["D_estanque"] ** 2 / 4                               # m2 (base circular)
+viga_p, viga_s = tubo(0.150, 0.150, 0.006), tubo(0.100, 0.150, 0.003)
+
+# =============================================================================
+# 3. TABLERO DE MADERA (método del autor; base circular del estanque)
+# =============================================================================
+w_tab = P_est / A_apoyo + P["q_tablero"]                                   # kN/m2
+I_tab = 1.0 * P["t_tablero"] ** 3 / 12
+d_tab = 5 * w_tab * P["sep_sec"] ** 4 / (384 * P["E_madera"] * I_tab) * P["K_def_madera"]
+registrar("Tablero", "15 mm", "Deflexión largo plazo", d_tab * 1000, P["sep_sec"] / 300 * 1000, "mm")
+
+# =============================================================================
+# 4. VIGA SECUNDARIA 150×100×3 (luz 1,70 m, carga puntual = 50 % de un estanque)
+# =============================================================================
+L = P["luz_sec"]
+wD = P["q_tablero"] * P["sep_sec"] + P["gamma_acero"] * viga_s["A"]
+PL = 0.5 * P_est
+Mu = 1.2 * wD * L**2 / 8 + 1.6 * PL * L / 4
+Vu = 1.2 * wD * L / 2 + 1.6 * PL / 2
+fMn, clase_s, _ = flexion(viga_s)
+registrar("Viga secundaria", "150×100×3", "Flexión", Mu, fMn, "kN·m")
+registrar("Viga secundaria", "150×100×3", "Corte", Vu, corte(viga_s), "kN")
+d_s = 5 * wD * L**4 / (384 * P["E"] * viga_s["Ix"]) + PL * L**3 / (48 * P["E"] * viga_s["Ix"])
+registrar("Viga secundaria", "150×100×3", "Deflexión (L/300)", d_s * 1000, L / 300 * 1000, "mm")
+
+# =============================================================================
+# 5. VIGA PRINCIPAL 150×150×6 (continua de 2 vanos de 2,28 m; cada viga toma la mitad)
+# =============================================================================
+Lv = P["vano_long"]
+n_sec = round(P["largo"] / P["sep_sec"]) + 1
+peso_sec_total = n_sec * P["luz_sec"] * P["gamma_acero"] * viga_s["A"]
+wD_p = (P["q_tablero"] * P["ancho"] * P["largo"] + peso_sec_total) / (2 * P["largo"]) + P["gamma_acero"] * viga_p["A"]
+wL_p = P["n_estanques"] * P_est / (2 * P["largo"])
+wu = 1.2 * wD_p + 1.6 * wL_p
+Mu_p = wu * Lv**2 / 8                       # momento negativo sobre el pilar central (gobierna)
+Vu_p = 5 * wu * Lv / 8
+fMn_p, clase_p, lam_p = flexion(viga_p)
+registrar("Viga principal", "150×150×6", "Flexión", Mu_p, fMn_p, "kN·m")
+registrar("Viga principal", "150×150×6", "Corte", Vu_p, corte(viga_p), "kN")
+d_p = (wD_p + wL_p) * Lv**4 / (185 * P["E"] * viga_p["Ix"])               # flecha máx. de viga de 2 vanos
+registrar("Viga principal", "150×150×6", "Deflexión (L/300)", d_p * 1000, Lv / 300 * 1000, "mm")
+
+# =============================================================================
+# 6. PILAR CENTRAL 150×150×6 (voladizo, K = 2,1) — gravitacional y sísmico
+# =============================================================================
+RD = 1.25 * wD_p * Lv                       # reacción central (10/8·w·L) por carga muerta
+RL = 1.25 * wL_p * Lv
+peso_pilares = P["n_pilares"] * P["H_pilar"] * P["gamma_acero"] * viga_p["A"]
+W_sismico = (P["n_estanques"] * P_est + 2 * wD_p * P["largo"] + peso_pilares / 2)   # masa en la cubierta
+fPn, esb = compresion(viga_p, P["K_pilar"] * P["H_pilar"])
+fMn_c = flexion(viga_p)[0]
+Pu_grav = 1.2 * RD + 1.6 * RL
+registrar("Pilar central", "150×150×6", "Compresión (1,2D+1,6L)", Pu_grav, fPn, "kN")
+sismo = {}
+for zona, A0 in P["A0_zona"].items():
+    C = 2.7 * A0 / P["R1"]                  # fórmula simplificada del cálculo original
+    V = C * W_sismico
+    F_col = V / P["n_pilares_sismo"]
+    M_E = F_col * P["H_pilar"]
+    Pu, Mu_c = 1.2 * RD + 1.0 * RL, 1.4 * M_E
+    r = Pu / fPn + (8 / 9) * Mu_c / fMn_c if Pu / fPn >= 0.2 else Pu / (2 * fPn) + Mu_c / fMn_c
+    sismo[zona] = dict(C=C, V=V, M_E=M_E, Pu=Pu, Mu=Mu_c, interaccion=r)
+    filas.append(("Pilar central", "150×150×6", f"Flexocompresión sísmica (zona {zona})", r, 1.0, "—", r))
+
+# =============================================================================
+# 7. ZAPATA 1,00 × 1,00 × 0,50 m (presión de contacto en servicio, sismo sin mayorar)
+# =============================================================================
+Bz, Lz, hz = P["zapata"]
+peso_zap = Bz * Lz * hz * P["gamma_hormigon"]
+P_serv = RD + RL + peso_zap + P["H_pilar"] * P["gamma_acero"] * viga_p["A"]
+q_est = P_serv / (Bz * Lz)
+registrar("Zapata", "1,0×1,0×0,5 m", "Presión estática", q_est, P["q_adm"], "kPa")
+for zona, s in sismo.items():
+    M_serv = s["M_E"] * (P["H_pilar"] + hz) / P["H_pilar"]                 # momento llevado al sello
+    e = M_serv / P_serv
+    s.update(e=e)
+    registrar("Zapata", "1,0×1,0×0,5 m", f"Excentricidad sísmica $e \\le B/6$ (zona {zona})", e, Lz / 6, "m")
+    registrar("Zapata", "1,0×1,0×0,5 m", f"Volcamiento $e < B/2$ (zona {zona})", e, Lz / 2, "m")
+    if e < Lz / 2:
+        q_max = P_serv / (Bz * Lz) + M_serv / (Bz * Lz**2 / 6) if e <= Lz / 6 else 2 * P_serv / (3 * Bz * (Lz / 2 - e))
+        registrar("Zapata", "1,0×1,0×0,5 m", f"Presión con sismo (zona {zona})", q_max, P["q_adm"], "kPa")
+
+# =============================================================================
+# 8. PLACA BASE Y PERNOS (método del autor, sismo de la zona más exigente)
+# =============================================================================
+s3 = sismo[max(sismo)]
+lp, tp = P["placa"]
+fp = s3["Pu"] / lp**2 + s3["Mu"] / (lp**3 / 6)
+m = (lp - 0.150) / 2
+t_req = math.sqrt(4 * fp * m**2 / 2 / (0.9 * P["Fy"]))
+registrar("Placa base", "300×300×16 mm", "Espesor requerido", t_req * 1000, tp * 1000, "mm")
+T_perno = max(0.0, (s3["Mu"] / P["dist_pernos"] - s3["Pu"] / 2) / 2)
+phiTn = 0.75 * 0.75 * P["Fu_perno"] * P["A_perno"]
+registrar("Pernos de anclaje", "4 × Ø 3/4\"", "Tracción por perno", T_perno, phiTn, "kN")
+
+# =============================================================================
+# 9. SALIDAS
+# =============================================================================
+RES.mkdir(parents=True, exist_ok=True)
+with open(RES / "estructura_verificacion.csv", "w", newline="", encoding="utf-8") as f:
+    w = csv.writer(f); w.writerow(["elemento", "perfil", "verificacion", "demanda", "capacidad", "unidad", "razon"])
+    w.writerows([[a, b, c, round(d, 3), round(e, 3), u, round(r, 3)] for a, b, c, d, e, u, r in filas])
+
+def num(x):
+    return rf"\num{{{x:.2f}}}" if abs(x) < 100 else rf"\num{{{x:.0f}}}"
+
+lineas = []
+for elem, perfil, verif, dem, cap, unid, r in filas:
+    u = "" if unid == "—" else f" {unid}"
+    razon = rf"\num{{{r:.2f}}}" if r <= 1.0 else r"\textbf{" + f"{r:.2f}".replace(".", ",") + "}"
+    lineas.append(f"  {elem} & {perfil} & {verif} & {num(dem)}{u} & {num(cap)}{u} & {razon} \\\\")
+TABLA.parent.mkdir(parents=True, exist_ok=True)
+TABLA.write_text("\n".join([
+    "% Archivo GENERADO por 04_analisis/scripts/10_estructura.py — no editar a mano",
+    r"\begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.2cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{3.6cm}rrc@{}}",
+    r"  \toprule",
+    r"  Elemento & Perfil & Verificación & Demanda & Capacidad & Razón \\",
+    r"  \midrule", *lineas, r"  \bottomrule",
+    r"  \multicolumn{6}{@{}p{0.97\textwidth}@{}}{\footnotesize Razón = demanda/capacidad; en negrita, las que superan 1 (no cumple). Zona sísmica por confirmar.}",
+    r"\end{tabular}", ""]), encoding="utf-8")
+
+print(f"Estanque lleno: {P_est:.2f} kN | carga sísmica W = {W_sismico:.1f} kN | KL/r pilar = {esb:.1f}")
+print(f"Viga principal: ala {clase_p} (b/t = {lam_p:.1f}); viga secundaria: {clase_s}")
+for z, s in sismo.items():
+    print(f"Zona {z}: C = {s['C']:.3f}, V = {s['V']:.1f} kN, M_E pilar = {s['M_E']:.2f} kN·m, e zapata = {s['e']:.3f} m")
+print("Sensibilidad (no va a la tesis): corte sísmico repartido entre los 6 pilares (cubierta como diafragma):")
+for zona, s_ in sismo.items():
+    M6 = s_["M_E"] * P["n_pilares_sismo"] / P["n_pilares"]
+    e6 = M6 * (P["H_pilar"] + hz) / P["H_pilar"] / P_serv
+    r6 = s_["Pu"] / fPn / 2 + 1.4 * M6 / fMn_c
+    print(f"  zona {zona}: M_E = {M6:.2f} kN·m, interacción = {r6:.2f}, e zapata = {e6:.3f} m (B/6 = {Lz/6:.3f}, B/2 = {Lz/2:.2f})")
+for t_ in (0.018, 0.021, 0.025):
+    print(f"  tablero {t_*1000:.0f} mm: deflexión = {d_tab*(P['t_tablero']/t_)**3*1000:.2f} mm (límite {P['sep_sec']/300*1000:.2f} mm)")
+print(f"{'Elemento':<18}{'Verificación':<36}{'Demanda':>10}{'Capacidad':>11}{'Razón':>8}")
+for elem, perfil, verif, dem, cap, unid, r in filas:
+    print(f"{elem:<18}{verif:<36}{dem:>10.2f}{cap:>11.2f}{r:>8.2f}  {'OK' if r <= 1 else 'NO CUMPLE'}")

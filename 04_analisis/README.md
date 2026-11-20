@@ -27,6 +27,19 @@ make figuras    # corre todos los scripts de 04_analisis/scripts/
 | `01_extraer_caracterizacion.py` | PDF de caracterización en `02_material_bruto/datos_crudos/` | `datos/caracterizacion_afluentes.csv` (con QA de promedios) |
 | `02_caracterizacion.py` | CSV anterior | `tesis/tablas/caracterizacion_afluentes.tex`, `tesis/figuras/caracterizacion_afluentes.pdf`, `resultados/*.csv` |
 | `03_itemizado.py` | PDF del itemizado en `02_material_bruto/otros/` | `datos/itemizado_rev1.csv`, `tesis/tablas/itemizado.tex` |
+| `04_validar_bd.py` | BD de macroparámetros (PDF) + CSV de caracterización | `datos/bd_macroparametros.csv`, `resultados/qa_bd_vs_resumen.csv` |
+| `05_topografia.py` | Curva de nivel (xlsx) | `datos/curva_nivel.csv`, `resultados/topografia_puntos.png` |
+| `10_estructura.py` | Parámetros en el script (dimensiones finales) | `tesis/tablas/verificacion_estructural.tex`, `resultados/estructura_verificacion.csv` |
+| `11_bombas.py` | Parámetros en el script (tuberías finales + catálogos) | `tesis/tablas/bombas_adt.tex`, `resultados/bombas_adt.csv`, `resultados/bombas_catalogo_vs_requerido.pdf` |
+| `12_excavacion.py` | Datos de las corridas del autor | `resultados/excavacion_*.csv`, `resultados/excavacion_perfiles.pdf` |
+
+### Cálculos originales del autor
+
+Están intactos en `02_material_bruto/calculos_originales/` (Colab). Los scripts `10_`–`12_` los
+**reproducen** (los resultados originales coinciden: ADT 14,07 / 7,90 / 10,71 m) y luego los
+**actualizan** con las dimensiones finales (planos, EETT, itemizado Rev. 1). Cada dato marcado
+`SUPUESTO` en el código debe confirmarse. El documento "CO - Estación-Experimental-ATE250033"
+(medidas finales) aún no se ha recibido.
 
 Las especificaciones técnicas (Word) se convierten con `herramientas/docx_a_anexo.py` → `tesis/anexos/generados/eett_cuerpo.tex`.
 

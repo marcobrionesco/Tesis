@@ -36,6 +36,16 @@ Inscripción visada, propuesta ANID, correo del guía y documentos de diseño de
 - **Láminas 3.1–3.2 en PDF**, **itemizado** (tabla, anexo II) y **EETT** (anexo VI).
 - Perfiles de la plataforma confirmados (C2 resuelto). Nuevas inconsistencias C12–C15 (ver triaje §8 y OBSERVACIONES_PROFESOR, preguntas 8–11).
 
+## ✅ Cálculos del autor recibidos y verificados (2026-11-20)
+
+- Scripts originales (estructura, bombas, excavación) + documento de resultados → `02_material_bruto/calculos_originales/`.
+- Versiones actualizadas y reproducibles en `04_analisis/scripts/10_`–`12_`, con las dimensiones finales.
+  Tablas preliminares en Resultados: ADT por línea (tabla 4.7) y verificación estructural (tabla 4.8).
+- **Hallazgos**: tablero 15 mm no cumple; zapata con sismo depende del reparto del corte; placa base al límite;
+  línea del estero inviable con PVC 25 mm; zanja 3 con tapada insuficiente; 10 diferencias entre la BD y el resumen.
+- Discusión y Conclusiones citan valores del cálculo antiguo (perfil 250×250): marcados para actualizar.
+- **Falta el documento "CO - Estación-Experimental-ATE250033"** (medidas finales según el autor).
+
 ## Estado por capítulo
 
 Leyenda: ⬜ no iniciado · 🟨 material bruto · 🟧 borrador en LaTeX · 🟦 en revisión · ✅ terminado

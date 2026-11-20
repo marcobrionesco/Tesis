@@ -5,6 +5,16 @@
 
 ---
 
+## 2026-11-20 — Base de datos, topografía y verificación de los cálculos
+
+- **Quién:** Marco + Claude Code
+- **Qué se hizo:** se ingresaron la BD de macroparámetros (fechas de las 6 campañas; QA contra el resumen con 10 diferencias), la curva de nivel (52 puntos UTM) y los cálculos originales del autor (Colab: estructura, bombas, excavación + documento de resultados). Se crearon `04_validar_bd.py`, `05_topografia.py` y las versiones actualizadas `10_estructura.py`, `11_bombas.py` y `12_excavacion.py`, que reproducen los resultados originales y los recalculan con las dimensiones finales. Se agregaron a Resultados las tablas de ADT y de verificación estructural (preliminares) y la sección de zanjas.
+- **Hallazgos:** ver triaje §9 (C16–C20) y OBSERVACIONES_PROFESOR, preguntas 12–16.
+- **Qué quedó pendiente:** documento "CO - Estación-Experimental-ATE250033"; decisiones de diseño (tablero, sismo, estero, zanja 3); actualizar Discusión y Conclusiones con los valores nuevos.
+- **Archivos tocados:** `02_material_bruto/*`, `04_analisis/*`, `tesis/capitulos/04–06`, `tesis/tablas/*`, `00_proyecto/*`, triaje.
+
+---
+
 ## 2026-11-19 — Datos de caracterización, planos PDF, EETT e itemizado
 
 - **Quién:** Marco + Claude Code

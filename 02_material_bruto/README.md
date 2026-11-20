@@ -46,3 +46,6 @@ en un `.md`.
 | 2026-11-19 | `planos/EE-ATE250033_3.1/3.2_detalle-estructural-plataforma.pdf` | yo (CAD, PDF vectorial) | ✅ reemplazan a los JPG en el anexo V |
 | 2026-11-19 | `otros/EE-ATE250033_itemizado-rev1.pdf` | yo | ✅ tabla en anexo II (ver observaciones) |
 | 2026-11-19 | `borradores_previos/2026-11-19_yo_EETT-estacion-experimental.docx` | yo (agosto 2026) | ✅ anexo VI (ver observaciones) |
+| 2026-11-20 | `datos_crudos/2026-11-19_proyecto_bd-macroparametros-nbs-waterry.pdf` | proyecto ANID (BD con fechas) | ✅ `04_validar_bd.py` (10 diferencias con el resumen) |
+| 2026-11-20 | `datos_crudos/2026-11-19_yo_curva-nivel.xlsx` | yo (52 puntos UTM) | ✅ `05_topografia.py` |
+| 2026-11-20 | `calculos_originales/2026_yo_*` (Colab: estructura, bombas, excavación; resultados .docx) | yo | ✅ reproducidos y actualizados en `04_analisis/scripts/10_`–`12_` |
