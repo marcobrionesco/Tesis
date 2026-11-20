@@ -33,6 +33,7 @@ ni se copian; se **estudian**. Aquí va lo mismo para la tesis.
 | `tesis/2024_ucm_guerrero_humedales-vs-convencional-nirivilo` | Tesis UCM 2024 (guía: Dr. Vera Puerto) | **Alta**: humedal vertical, balance de O₂, bombas | `fichas/2024_ucm_guerrero_…md` |
 | `tesis/2019_ucm_yevenes_aguas-grises-rurales` (2 partes) | Tesis UCM 2019 (guía: Dr. Vera Puerto) — el **"trabajo de Diego"** que pidió seguir el profesor | **Alta**: fichas de registro de uso y aforos (cap. 3 y anexos), balance de O₂ con cada término explicado | `fichas/2019_ucm_yevenes_…md` |
 | `memorias_calculo/2026_peritaje-estructural-cerchas-templo-esperanza-plan` | Memoria de cálculo / peritaje 2026 | **Alta para OE2** (presentación del cálculo estructural) | `fichas/2026_peritaje-…md` |
+| `tesis/2026_bocaz_humedal-lodos-san-nicolas_anexos` | Proyecto de Título 2026 (**solo anexos**, pp. 85–147) | Media: modelo de planos, cuadro de parámetros de diseño y operación, itemizado | `fichas/2026_bocaz_…md` |
 | `tesis/2026_ucm_jove_fluctuaciones-presion-cfd` | Tesis UCM 2026 (guía: M. Quiroz) | Media: modelo de problema/brecha, conclusiones | `fichas/2026_ucm_jove_…md` |
 | `tesis/2026_ucm_arancibia_escorrentia-cuencas-mediterraneas` | Tesis UCM 2026 (guía: Dr. Barrientos) | Baja: modelo de "área de estudio" y "datos" | `fichas/2026_ucm_arancibia_…md` |
 

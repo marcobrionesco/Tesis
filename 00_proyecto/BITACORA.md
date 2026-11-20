@@ -5,6 +5,12 @@
 
 ---
 
+## 2026-11-20 (noche, 24) — Ejemplo: anexos de la tesis de Bocaz (humedal de lodos)
+
+- Archivado en `05_ejemplos/tesis/` con ficha (solo anexos: planos, manual de O&M, ficha PTAS, presupuesto/APU, costos de operación).
+- Ideas de forma: tabla resumen de "parámetros de diseño y operación" por línea para el cap. 4; cuadro de cantidades en los planos.
+- No imitar: anexos con números arábigos; manual de O&M y presupuesto (fuera del alcance inscrito). Sin cambios en `tesis/`.
+
 ## 2026-11-20 (noche, 23) — Das (2015) completo: capacidad de carga y cierre de la bibliografía
 
 - Partes 6–7 recibidas (cap. 16–18). Cap. 2: q_adm = q_u/FS (FS ≥ 3) y ecuación de Terzaghi para zapata cuadrada; asentamientos.
