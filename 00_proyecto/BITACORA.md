@@ -5,6 +5,13 @@
 
 ---
 
+## 2026-11-20 (noche, 21) — Riesgo y brecha hídrica (Radiografía del Agua y ARClim)
+
+- Citados: Escenarios Hídricos 2030 (2018, Fundación Chile) (Maule = mayor huella hídrica azul del país, 50 de 212 m³/s; agricultura
+  88 % del consumo nacional) y Urquiza et al. (2020, ARClim Asentamientos Humanos) (riesgo futuro de inseguridad hídrica doméstica
+  rural se extiende al Maule). Cap. 1: dos oraciones tras el párrafo de la megasequía. Ficha `riesgo-hidrico_2026-11-20.md`.
+- Sin cambios en diseño ni cálculos. Siguen pendientes Garreaud et al. (2017) y el catastro de cerezos.
+
 ## 2026-11-20 (noche, 20) — Megasequía
 
 - Citados: CR2 (2015) (déficit ~30 % desde 2010; ≥ 25 % atribuible al cambio climático) y Yaksic et al. (2024, SISSA) (zona central:
